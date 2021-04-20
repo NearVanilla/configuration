@@ -1,0 +1,8 @@
+# The user is free to add new and custom perspectives here, including replacements for standard ones
+# Dynmap's install will not overwrite it
+perspectives:
+  - class: org.dynmap.hdmap.IsoHDPerspective 
+    name: iso_S_90_ultralowres
+    azimuth: 180
+    inclination: 90
+    scale: 1

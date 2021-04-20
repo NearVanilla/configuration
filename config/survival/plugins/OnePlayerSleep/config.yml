@@ -1,0 +1,29 @@
+---
+# Required
+min_players_in_bed: 1
+prcnt_players_in_bed: 0.01 # Percent of players in overworld that needs to be sleeping
+delay: 60  # delay in ticks from player getting into bed to starting to skip the night
+interval: 1  # interval in ticks between time changes
+rate: 19  # rate at which the time changes
+
+# Optional
+# Disable hover text with a tylde ~
+# message_hover_text: ~
+message_hover_text: 'Click me to wake everyone up!'
+no_players_sleeping: '&eNo one is sleeping!'
+
+# You can use color codes ( i.e. &4 for red, &r to reset colors )
+# %playername% will be substituted with player names
+kicked_from_bed_messages:
+  - "&5%playername%&e wants to keep the night"
+# In addition to above substitutions, you can use:
+# %sleeping% - number of people currently in bed
+# %threshold% - total number of people needed to skip the night
+# %needed% - number of people currently needed to skip the night
+enter_bed_messages:  # list of messages that will be displayed
+  - '&5%playername%&e is sleeping
+  
+  Click &2here&e to wake everyone up'
+  - '&5%playername%&e went to bed
+  
+  Click &2here&e to wake everyone up!'
