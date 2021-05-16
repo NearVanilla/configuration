@@ -2,20 +2,21 @@
 # vim: ft=python
 
 import datetime
+import os
+from functools import wraps
 from pathlib import Path
 from typing import Iterable, Union
-from functools import wraps
 
 import click
-import sh
-import os
 import jinja2
+import sh
+import git
 
 Substitutions = Union[dict, None]
 
 COMMIT_SUBSTITUTED = "[SUBST]"
 COMMIT_CHANGED = "[CHNG]"
-CONFIG_PATH = Path('./config')
+CONFIG_PATH = Path("./config")
 
 
 @click.group()
@@ -70,7 +71,6 @@ class OutsideWorkTreeException(ManageException):
         super().__init__("Outside of worktree")
 
 
-
 class WorkTreeAlreadySubstitutedException(ManageException):
     """Worktree has already been substituted"""
 
@@ -78,93 +78,83 @@ class WorkTreeAlreadySubstitutedException(ManageException):
         super().__init__("Worktree already substituted")
 
 
-
 # Helpers
-def require_workspace(fun):
-    @wraps(fun)
-    def wrapper(self, *args, **kwargs):
-        if not self.is_in_git_work_tree():
-            raise OutsideWorkTreeException()
-        return fun(self, *args, **kwargs)
-    return wrapper
-
 def require_clean_workspace(fun):
     @wraps(fun)
     def wrapper(self, *args, **kwargs):
         if not self.is_worktree_clean():
             raise DirtyWorkTreeException()
         return fun(self, *args, **kwargs)
+
     return wrapper
+
 
 class GitWrapper:
     def __init__(self, path: Union[str, Path]):
-        self._path = CONFIG_PATH/Path(path)
-        self._git = sh.git.bake(_cwd=self._path)
+        self._path = CONFIG_PATH / Path(path)
+        self._git = git.Repo(path)
+        self._gitsh = sh.git.bake(_cwd=self._path)
 
     def __repr__(self) -> str:
-        return f'{self.__class__}(path={self._path})'
+        return f"{self.__class__.__name__}(path={self._path})"
 
-
-    def is_in_git_work_tree(self) -> bool:
-        try:
-            self._git("rev-parse", "--is-inside-work-tree")
-            return True
-        except sh.ErrorReturnCode_128:
-            return False
-
-    @require_workspace
     def all_config_tracked_files(self) -> Iterable[Path]:
         blacklisted_config_suffixes = {".sh"}
-        result = self._git("ls-tree", "-r", "HEAD", "--name-only", "--full-name")
+        result = self._gitsh("ls-tree", "-r", "HEAD", "--name-only", "--full-name")
         file_paths = result.stdout.decode("utf-8").strip().split("\n")
         files = (self._path.joinpath(fpath) for fpath in file_paths)
         return tuple(
-            file for file in files
-            if file.suffix not in blacklisted_config_suffixes
-            and file.is_file()
+            file
+            for file in files
+            if file.suffix not in blacklisted_config_suffixes and file.is_file()
         )
 
-
-    @require_workspace
     def is_worktree_clean(self) -> bool:
-        res = self._git.diff(exit_code=True, quiet=True, _ok_code=(0, 1))
-        return res.exit_code == 0
+        return not self._git.is_dirty()
 
-
-    @require_workspace
     def _get_commit_field(self, commit: str, field_format: str) -> str:
-        res = self._git('rev-list', commit, n=1, format=field_format)
-        output = res.stdout.decode("utf-8").strip().split('\n')
+        res = self._gitsh("rev-list", commit, n=1, format=field_format)
+        output = res.stdout.decode("utf-8").strip().split("\n")
         # We expect 2 lines - one with `commit <SHA>` and second with our output
-        assert len(output) == 2, f'Expected to get 2 lines of output from rev-list, got instead: {output}'
+        assert (
+            len(output) == 2
+        ), f"Expected to get 2 lines of output from rev-list, got instead: {output}"
         # TODO: Maybe should always return all but first line?
         return output[1]
 
-
-    @require_workspace
-    def get_commit_subject(self, commit: str = 'HEAD') -> str:
+    def get_commit_subject(self, commit: str = "HEAD") -> str:
         return self._get_commit_field(commit=commit, field_format="%s")
 
-
-    @require_workspace
-    def get_commit_sha(self, commit: str = 'HEAD') -> str:
+    def get_commit_sha(self, commit: str = "HEAD") -> str:
         return self._get_commit_field(commit=commit, field_format="%H")
 
-    @require_workspace
     def commit(self, *args, **kwargs) -> None:
-        self._git.commit(*args, **kwargs)
+        self._gitsh.commit(*args, **kwargs)
+
+    def get_all_submodule_paths(self) -> Iterable[Path]:
+        # TODO: Replace with getting submodule status?
+        # The format is:
+        # <STATUS_CHAR><SHA> <PATH> (<REF>)
+        # <STATUS_CHAR> can be a space
+        paths = set()
+        for line in self._gitsh.submodule.status():
+            paths.add(' '.join(line[1:].split(' ')[1:-1]))
 
 
 def current_date() -> str:
     return datetime.datetime.now().isoformat()
 
+
 # Main commands
 
-def substitute_placeholders(files: Iterable[Path], substitutions: Substitutions = None, environment: dict = {}) -> None:
+
+def substitute_placeholders(
+    files: Iterable[Path], substitutions: Substitutions = None, environment: dict = {}
+) -> None:
     if substitutions is None:
         substitutions = os.environ
     for file in files:
-        with file.open('r+') as f:
+        with file.open("r+") as f:
             original = f.read()
             template = jinja2.Template(original, **environment)
             rendered = template.render(**substitutions)
@@ -173,16 +163,22 @@ def substitute_placeholders(files: Iterable[Path], substitutions: Substitutions 
                 f.truncate()
                 f.write(rendered)
 
+
 @require_clean_workspace
-def substitute_tracked_placeholders(git: GitWrapper, substitutions: Substitutions = None) -> None:
-    if git.get_commit_subject('HEAD').startswith(COMMIT_SUBSTITUTED):
+def substitute_tracked_placeholders(
+    git: GitWrapper, substitutions: Substitutions = None
+) -> None:
+    if git.get_commit_subject("HEAD").startswith(COMMIT_SUBSTITUTED):
         raise WorkTreeAlreadySubstitutedException()
     substitute_placeholders(git.all_config_tracked_files(), substitutions)
 
-def substitute_tracked_and_commit(git: GitWrapper, substitutions: Substitutions = None) -> None:
+
+def substitute_tracked_and_commit(
+    git: GitWrapper, substitutions: Substitutions = None
+) -> None:
     substitute_tracked_placeholders(git, substitutions)
     if not git.is_worktree_clean():
-        git.commit(all=True, message=f'{COMMIT_SUBSTITUTED} {current_date()}')
+        git.commit(all=True, message=f"{COMMIT_SUBSTITUTED} {current_date()}")
 
 
 # Main :)
