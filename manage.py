@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # vim: ft=python
 
+from __future__ import annotations  # Postponed evaluation PEP-563
+
 import datetime
 import os
 from functools import wraps
@@ -8,9 +10,8 @@ from pathlib import Path
 from typing import Iterable, Union
 
 import click
-import jinja2
-import sh
 import git
+import jinja2
 
 Substitutions = Union[dict, None]
 
@@ -19,18 +20,42 @@ COMMIT_CHANGED = "[CHNG]"
 CONFIG_PATH = Path("./config")
 
 
+class ConfContext:
+    def __init__(self):
+        self.git = GitWrapper(os.getcwd())
+
+
+pass_conf = click.make_pass_decorator(ConfContext)
+
+
 @click.group()
-def cli():
-    pass
+@click.pass_context
+def cli(ctx):
+    ctx.obj = ConfContext()
 
 
 @cli.command()
-def patch():
+@click.argument(
+    "path",
+    type=click.Path(exists=True, path_type=Path, file_okay=False, resolve_path=True),
+)
+@pass_conf
+def patch(conf, path):
     """Patch the config code, creating new commit"""
+    click.secho(str(path))
+    click.secho("Submodules:")
+    click.secho("\n".join(s.path for s in conf.git.get_all_submodules()))
+    sub = next(
+        (s for s in conf.git.get_all_submodules() if s.path.absolute() == path), None
+    )
+    if sub is None:
+        raise click.BadParameter("no matching submodule")
+    info(sub.get_commit_subject())
 
 
 @cli.command()
-def unpatch():
+@pass_conf
+def unpatch(conf):
     """Revert previous config patch, applying new changes first"""
 
 
@@ -64,13 +89,6 @@ class DirtyWorkTreeException(ManageException):
         super().__init__("Worktree is modified")
 
 
-class OutsideWorkTreeException(ManageException):
-    """Is outside of worktree"""
-
-    def __init__(self):
-        super().__init__("Outside of worktree")
-
-
 class WorkTreeAlreadySubstitutedException(ManageException):
     """Worktree has already been substituted"""
 
@@ -91,58 +109,72 @@ def require_clean_workspace(fun):
 
 class GitWrapper:
     def __init__(self, path: Union[str, Path]):
-        self._path = CONFIG_PATH / Path(path)
-        self._git = git.Repo(path)
-        self._gitsh = sh.git.bake(_cwd=self._path)
+        self._path = Path(path)
+        self._git = git.Repo(self._path)
 
     def __repr__(self) -> str:
         return f"{self.__class__.__name__}(path={self._path})"
 
+    @property
+    def git(self) -> git.Repo:
+        return self._git
+
+    @property
+    def path(self) -> Path:
+        return self._path
+
+    def list_tracked_files(self, tree=None) -> Iterable[Path]:
+        """Return list of tracked files relative to workdir"""
+        if tree is None:
+            tree = self._git.tree()
+        return (
+            Path(blob.abspath)
+            for blob in tree.traverse(predicate=lambda item, depth: item.type == "blob")
+        )
+
     def all_config_tracked_files(self) -> Iterable[Path]:
         blacklisted_config_suffixes = {".sh"}
-        result = self._gitsh("ls-tree", "-r", "HEAD", "--name-only", "--full-name")
-        file_paths = result.stdout.decode("utf-8").strip().split("\n")
-        files = (self._path.joinpath(fpath) for fpath in file_paths)
         return tuple(
             file
-            for file in files
-            if file.suffix not in blacklisted_config_suffixes and file.is_file()
+            for file in self.list_tracked_files()
+            if file.suffix not in blacklisted_config_suffixes
         )
 
     def is_worktree_clean(self) -> bool:
         return not self._git.is_dirty()
 
-    def _get_commit_field(self, commit: str, field_format: str) -> str:
-        res = self._gitsh("rev-list", commit, n=1, format=field_format)
-        output = res.stdout.decode("utf-8").strip().split("\n")
-        # We expect 2 lines - one with `commit <SHA>` and second with our output
-        assert (
-            len(output) == 2
-        ), f"Expected to get 2 lines of output from rev-list, got instead: {output}"
-        # TODO: Maybe should always return all but first line?
-        return output[1]
-
     def get_commit_subject(self, commit: str = "HEAD") -> str:
-        return self._get_commit_field(commit=commit, field_format="%s")
+        return self._git.commit(commit).summary
 
     def get_commit_sha(self, commit: str = "HEAD") -> str:
-        return self._get_commit_field(commit=commit, field_format="%H")
+        return self._git.commit(commit).summary.hexsha
 
-    def commit(self, *args, **kwargs) -> None:
-        self._gitsh.commit(*args, **kwargs)
+    def stage_all_tracked(self) -> None:
+        self._git.index.add(str(p) for p in self.list_tracked_files())
 
-    def get_all_submodule_paths(self) -> Iterable[Path]:
-        # TODO: Replace with getting submodule status?
-        # The format is:
-        # <STATUS_CHAR><SHA> <PATH> (<REF>)
-        # <STATUS_CHAR> can be a space
-        paths = set()
-        for line in self._gitsh.submodule.status():
-            paths.add(' '.join(line[1:].split(' ')[1:-1]))
+    def commit(self, message) -> None:
+        self._git.index.commit(message)
+
+    def get_all_submodules(self) -> Iterable[GitWrapper]:
+        return {GitWrapper(sm.abspath) for sm in self._git.submodules}
 
 
 def current_date() -> str:
     return datetime.datetime.now().isoformat()
+
+
+def path_to_branch(path: Path) -> str:
+    """
+    Resolve relative path and convert it into branch name.
+
+    >>> from pathlib import Path
+    >>> path_to_branch(Path('./some/path'))
+    'some_path'
+    >>> path_to_branch(Path('config/survival/'))
+    'config_survival'
+    """
+    rel_path = path.absolute().relative_to(Path(".").absolute())
+    return str(rel_path).replace("/", "_")
 
 
 # Main commands
@@ -178,7 +210,8 @@ def substitute_tracked_and_commit(
 ) -> None:
     substitute_tracked_placeholders(git, substitutions)
     if not git.is_worktree_clean():
-        git.commit(all=True, message=f"{COMMIT_SUBSTITUTED} {current_date()}")
+        git.stage_all_tracked()
+        git.commit(message=f"{COMMIT_SUBSTITUTED} {current_date()}")
 
 
 # Main :)
