@@ -3,7 +3,9 @@
 
 from __future__ import annotations  # Postponed evaluation PEP-563
 
+import dataclasses
 import datetime
+import json
 import os
 from functools import wraps
 from pathlib import Path
@@ -18,6 +20,7 @@ Substitutions = Union[dict, None]
 COMMIT_SUBSTITUTED = "[SUBST]"
 COMMIT_CHANGED = "[CHNG]"
 CONFIG_PATH = Path("./config")
+SUBWORKTREE_PATH = Path(".subworktrees.json")
 
 
 class ConfContext:
@@ -27,6 +30,11 @@ class ConfContext:
 
 pass_conf = click.make_pass_decorator(ConfContext)
 
+path_argument = click.argument(
+    "path",
+    type=click.Path(exists=True, path_type=Path, file_okay=False, resolve_path=True),
+)
+
 
 @click.group()
 @click.pass_context
@@ -35,10 +43,14 @@ def cli(ctx):
 
 
 @cli.command()
-@click.argument(
-    "path",
-    type=click.Path(exists=True, path_type=Path, file_okay=False, resolve_path=True),
-)
+@click.argument("path", type=click.Path(path_type=Path))
+def new_config(path):
+    # repo = git.Repo()
+    pass
+
+
+@cli.command()
+@path_argument
 @pass_conf
 def patch(conf, path):
     """Patch the config code, creating new commit"""
@@ -54,6 +66,7 @@ def patch(conf, path):
 
 
 @cli.command()
+@path_argument
 @pass_conf
 def unpatch(conf):
     """Revert previous config patch, applying new changes first"""
@@ -97,6 +110,29 @@ class WorkTreeAlreadySubstitutedException(ManageException):
 
 
 # Helpers
+@dataclasses.dataclass(frozen=True)
+class WorkTree:
+    path: str
+    revision: str
+
+    def init(self, parent: GitWrapper) -> GitWrapper:
+        parent.repo.worktree("add", self.path, self.revision)
+        return self.git
+
+    @property
+    def git(self) -> GitWrapper:
+        return git.Repo(self.path)
+
+
+class WorkTreeEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, set):
+            return list(obj)
+        if dataclasses.is_dataclass(obj):
+            return dataclasses.asdict(obj)
+        return super().default(obj)
+
+
 def require_clean_workspace(fun):
     @wraps(fun)
     def wrapper(self, *args, **kwargs):
@@ -110,23 +146,31 @@ def require_clean_workspace(fun):
 class GitWrapper:
     def __init__(self, path: Union[str, Path]):
         self._path = Path(path)
-        self._git = git.Repo(self._path)
+        self._repo = git.Repo(self._path)
 
     def __repr__(self) -> str:
         return f"{self.__class__.__name__}(path={self._path})"
 
     @property
-    def git(self) -> git.Repo:
-        return self._git
+    def repo(self) -> git.Repo:
+        return self._repo
 
     @property
     def path(self) -> Path:
         return self._path
 
+    @property
+    def working_tree_dir(self) -> Path:
+        return Path(self.repo.working_tree_dir)
+
+    @property
+    def _subworktree_file(self) -> Path:
+        return self.working_tree_dir / SUBWORKTREE_PATH
+
     def list_tracked_files(self, tree=None) -> Iterable[Path]:
         """Return list of tracked files relative to workdir"""
         if tree is None:
-            tree = self._git.tree()
+            tree = self._repo.tree()
         return (
             Path(blob.abspath)
             for blob in tree.traverse(predicate=lambda item, depth: item.type == "blob")
@@ -141,22 +185,30 @@ class GitWrapper:
         )
 
     def is_worktree_clean(self) -> bool:
-        return not self._git.is_dirty()
+        return not self._repo.is_dirty()
 
     def get_commit_subject(self, commit: str = "HEAD") -> str:
-        return self._git.commit(commit).summary
+        return self._repo.commit(commit).summary
 
     def get_commit_sha(self, commit: str = "HEAD") -> str:
-        return self._git.commit(commit).summary.hexsha
+        return self._repo.commit(commit).summary.hexsha
 
     def stage_all_tracked(self) -> None:
-        self._git.index.add(str(p) for p in self.list_tracked_files())
+        self._repo.index.add(str(p) for p in self.list_tracked_files())
 
     def commit(self, message) -> None:
-        self._git.index.commit(message)
+        self._repo.index.commit(message)
 
-    def get_all_submodules(self) -> Iterable[GitWrapper]:
-        return {GitWrapper(sm.abspath) for sm in self._git.submodules}
+    def get_all_subworktrees(self) -> Iterable[WorkTree]:
+        if not self._subworktree_file.exists():
+            return tuple()
+        with self._subworktree_file.open("r") as file:
+            return tuple(WorkTree(**swt) for swt in json.load(file))
+
+    def add_subworktree(self, worktree: WorkTree):
+        worktrees = self.get_all_subworktrees()
+        with self._subworktree_file.open("w") as file:
+            json.dump(set((*worktrees, worktree)), file, indent=2, cls=WorkTreeEncoder)
 
 
 def current_date() -> str:

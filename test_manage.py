@@ -171,31 +171,11 @@ def test_list_paths_with_submodules(tmp_path):
     assert set(git.list_tracked_files()) == {main_file, main_repo_path / ".gitmodules"}
 
 
-def test_submodule_listing(tmp_path):
-    main_repo_path = tmp_path / "main_repo"
-    repo_folders = [Path(p) for p in (".", "some/nested/folder")]
-    submodule_relative_paths = [
-        Path(f"{folder}/submodule{i}") for i in range(2) for folder in repo_folders
-    ]
-
-    for path in repo_folders:
-        (main_repo_path / path).mkdir(parents=True)
-    maingit = sh.git.bake(_cwd=main_repo_path)
+def test_subworktree_listing(tmp_path):
+    maingit = sh.git.bake(_cwd=tmp_path)
     maingit.init()
-    git = manage.GitWrapper(main_repo_path)
-    assert set(git.get_all_submodules()) == set()
-
-    for submodule in submodule_relative_paths:
-        abspath = tmp_path / submodule
-        abspath.mkdir(parents=True)
-        subgit = sh.git.bake(_cwd=abspath)
-        subgit.init()
-        subgit.commit(allow_empty=True, message="Initial commit")
-        maingit.submodule.add(Path("..") / submodule, submodule)
-
-    assert set(git.get_all_submodules()) == set()
-    maingit.add(*submodule_relative_paths)
-    maingit.commit(all=True, message="First main commit")
-    assert {s.path for s in git.get_all_submodules()} == {
-        main_repo_path / sub for sub in submodule_relative_paths
-    }
+    git = manage.GitWrapper(tmp_path)
+    assert set(git.get_all_subworktrees()) == set()
+    worktree = manage.WorkTree(path="my_path", revision="my_ref")
+    git.add_subworktree(worktree)
+    assert set(git.get_all_subworktrees()) == set((worktree,))
