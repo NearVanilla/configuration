@@ -28,7 +28,13 @@ class ConfContext:
         self.git = GitWrapper(os.getcwd())
 
 
-pass_conf = click.make_pass_decorator(ConfContext)
+def validate_ref_not_exists(ctx, param, value):
+    try:
+        ctx.obj.git.repo.references[value]
+        raise click.BadParameter(f"reference with name {value} exists already")
+    except IndexError:
+        return value
+
 
 path_argument = click.argument(
     "path",
@@ -44,15 +50,20 @@ def cli(ctx):
 
 @cli.command()
 @click.argument("path", type=click.Path(path_type=Path))
-def new_config(path):
-    # repo = git.Repo()
-    pass
+@click.argument("revision", type=str, callback=validate_ref_not_exists)
+@click.pass_context
+def new_subworktree(ctx, path, revision):
+    print("ABCD")
+    click.secho(path)
+    click.secho(revision)
+    worktree = WorkTree(path, revision)
+    ctx.obj.git.add_subworktree(worktree)
 
 
 @cli.command()
 @path_argument
-@pass_conf
-def patch(conf, path):
+@click.pass_context
+def patch(ctx, path):
     """Patch the config code, creating new commit"""
     click.secho(str(path))
     click.secho("Submodules:")
@@ -67,8 +78,8 @@ def patch(conf, path):
 
 @cli.command()
 @path_argument
-@pass_conf
-def unpatch(conf):
+@click.pass_context
+def unpatch(ctx):
     """Revert previous config patch, applying new changes first"""
 
 
@@ -116,18 +127,19 @@ class WorkTree:
     revision: str
 
     def init(self, parent: GitWrapper) -> GitWrapper:
-        parent.repo.worktree("add", self.path, self.revision)
-        return self.git
+        parent.repo.git.worktree("add", self.path, self.revision)
+        return self.git(parent)
 
-    @property
-    def git(self) -> GitWrapper:
-        return git.Repo(self.path)
+    def git(self, parent: GitWrapper) -> GitWrapper:
+        return GitWrapper(parent.working_tree_dir / self.path)
 
 
 class WorkTreeEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, set):
             return list(obj)
+        if isinstance(obj, Path):
+            return str(obj)
         if dataclasses.is_dataclass(obj):
             return dataclasses.asdict(obj)
         return super().default(obj)
@@ -191,7 +203,7 @@ class GitWrapper:
         return self._repo.commit(commit).summary
 
     def get_commit_sha(self, commit: str = "HEAD") -> str:
-        return self._repo.commit(commit).summary.hexsha
+        return self._repo.commit(commit).hexsha
 
     def stage_all_tracked(self) -> None:
         self._repo.index.add(str(p) for p in self.list_tracked_files())

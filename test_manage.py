@@ -1,8 +1,11 @@
 import hashlib
+import os
+from contextlib import contextmanager
 from pathlib import Path
 
 import pytest
 import sh
+from click.testing import CliRunner
 
 import manage
 
@@ -17,6 +20,16 @@ def tmp_path_sh(tmp_path):
 @pytest.fixture
 def tmp_path_git(tmp_path_sh):
     return tmp_path_sh.git
+
+
+@contextmanager
+def chdir(path):
+    current_path = os.getcwd()
+    try:
+        os.chdir(path)
+        yield
+    finally:
+        os.chdir(current_path)
 
 
 def create_file_with_content(file_path: Path, content: str) -> None:
@@ -171,11 +184,45 @@ def test_list_paths_with_submodules(tmp_path):
     assert set(git.list_tracked_files()) == {main_file, main_repo_path / ".gitmodules"}
 
 
-def test_subworktree_listing(tmp_path):
+def test_subworktree_basic(tmp_path):
+    # Adding/listing
     maingit = sh.git.bake(_cwd=tmp_path)
     maingit.init()
     git = manage.GitWrapper(tmp_path)
     assert set(git.get_all_subworktrees()) == set()
     worktree = manage.WorkTree(path="my_path", revision="my_ref")
     git.add_subworktree(worktree)
+    assert set(git.get_all_subworktrees()) == set((worktree,))
+    # Init
+    worktreepath = tmp_path / worktree.path
+    maingit.commit(allow_empty=True, message="Main message")
+    maingit.checkout("--orphan", worktree.revision)
+    worktree_subject = "Worktree message"
+    maingit.commit(allow_empty=True, message=worktree_subject)
+    worktree_hash = maingit("rev-list", "HEAD", n=1, format="%H").split("\n")[1].strip()
+    maingit.checkout("master")
+    assert not worktreepath.exists()
+    workgit = worktree.init(git)
+    assert worktreepath.exists()
+    # GitRepo working :)
+    assert workgit.is_worktree_clean()
+    assert workgit.get_commit_subject() == worktree_subject
+    assert workgit.get_commit_sha() == worktree_hash
+
+
+def test_cli_new_subworktree(tmp_path, tmp_path_git):
+    gitcli = tmp_path_git
+    gitcli.init()
+    gitcli.commit(allow_empty=True, message="initial message")
+    git = manage.GitWrapper(tmp_path)
+    assert set(git.get_all_subworktrees()) == set()
+
+    worktree = manage.WorkTree(path="my_path", revision="my_ref")
+    runner = CliRunner()
+    with chdir(tmp_path):
+        result = runner.invoke(
+            manage.cli, ["new-subworktree", worktree.path, worktree.revision]
+        )
+        if result.exception:
+            raise result.exception
     assert set(git.get_all_subworktrees()) == set((worktree,))
