@@ -22,6 +22,14 @@ def tmp_path_git(tmp_path_sh):
     return tmp_path_sh.git
 
 
+@pytest.fixture
+def tmp_git_wrapper(tmp_path, tmp_path_git) -> manage.GitWrapper:
+    gitcli = tmp_path_git
+    gitcli.init()
+    gitcli.commit(allow_empty=True, message="initial message")
+    return manage.GitWrapper(tmp_path)
+
+
 @contextmanager
 def chdir(path):
     current_path = os.getcwd()
@@ -44,6 +52,13 @@ def get_file_md5sum(file_path: Path) -> str:
 
 
 # Tests
+def test_is_empty_dir(tmp_path):
+    assert manage.is_dir_empty(tmp_path)
+    file = tmp_path / "testfile"
+    file.touch()
+    assert not manage.is_dir_empty(tmp_path)
+
+
 def test_getting_correct_commit(tmp_path, tmp_path_git):
     gitcli = tmp_path_git
     commit_msg = "First commit"
@@ -191,8 +206,8 @@ def test_subworktree_basic(tmp_path):
     git = manage.GitWrapper(tmp_path)
     assert set(git.get_all_subworktrees()) == set()
     worktree = manage.WorkTree(path="my_path", revision="my_ref")
-    git.add_subworktree(worktree)
-    assert set(git.get_all_subworktrees()) == set((worktree,))
+    with pytest.raises(manage.RefNotExistsError):
+        git.add_subworktree(worktree)
     # Init
     worktreepath = tmp_path / worktree.path
     maingit.commit(allow_empty=True, message="Main message")
@@ -201,6 +216,10 @@ def test_subworktree_basic(tmp_path):
     maingit.commit(allow_empty=True, message=worktree_subject)
     worktree_hash = maingit("rev-list", "HEAD", n=1, format="%H").split("\n")[1].strip()
     maingit.checkout("master")
+
+    git.add_subworktree(worktree)
+    assert set(git.get_all_subworktrees()) == set((worktree,))
+
     assert not worktreepath.exists()
     workgit = worktree.init(git)
     assert worktreepath.exists()
@@ -210,19 +229,74 @@ def test_subworktree_basic(tmp_path):
     assert workgit.get_commit_sha() == worktree_hash
 
 
-def test_cli_new_subworktree(tmp_path, tmp_path_git):
-    gitcli = tmp_path_git
-    gitcli.init()
-    gitcli.commit(allow_empty=True, message="initial message")
-    git = manage.GitWrapper(tmp_path)
+def test_cli_new_subworktree(tmp_path, tmp_git_wrapper):
+    git = tmp_git_wrapper
     assert set(git.get_all_subworktrees()) == set()
 
     worktree = manage.WorkTree(path="my_path", revision="my_ref")
     runner = CliRunner()
     with chdir(tmp_path):
+        # First creation should be successful
         result = runner.invoke(
-            manage.cli, ["new-subworktree", worktree.path, worktree.revision]
+            manage.cli, ["new-subworktree", str(worktree.path), worktree.revision]
         )
         if result.exception:
             raise result.exception
+        assert set(git.get_all_subworktrees()) == set((worktree,))
+
+        # Second creation should fail, as it exists already
+        result = runner.invoke(
+            manage.cli, ["new-subworktree", str(worktree.path), worktree.revision]
+        )
+        assert isinstance(result.exception, SystemExit)
+
+
+@pytest.fixture
+def added_worktree(tmp_git_wrapper):
+    git = tmp_git_wrapper
+    assert set(git.get_all_subworktrees()) == set()
+    worktree = manage.WorkTree(path="worktree_path", revision="worktree_revision")
+    git.create_detached_empty_branch(worktree.revision, "Initial commit")
+    git.add_subworktree(worktree)
     assert set(git.get_all_subworktrees()) == set((worktree,))
+    return worktree
+
+
+def test_cli_init_nonexistent_and_initialized(tmp_git_wrapper, added_worktree):
+    git = tmp_git_wrapper
+    runner = CliRunner()
+    with chdir(git.path):
+        result = runner.invoke(manage.cli, ["init"])
+        if result.exception:
+            raise result.exception
+        assert "Initializing" in result.stdout
+        result = runner.invoke(manage.cli, ["init"])
+        if result.exception:
+            raise result.exception
+        assert "Skipping" in result.stdout
+
+
+def test_cli_init_empty_dir(tmp_git_wrapper, added_worktree):
+    git = tmp_git_wrapper
+    worktree = added_worktree
+    runner = CliRunner()
+    with chdir(git.path):
+        worktree.path.mkdir()
+        result = runner.invoke(manage.cli, ["init"])
+        if result.exception:
+            raise result.exception
+        assert "Initializing" in result.stdout
+
+
+def test_cli_init_dirty_dir(tmp_git_wrapper, added_worktree):
+    git = tmp_git_wrapper
+    worktree = added_worktree
+    runner = CliRunner()
+    with chdir(git.path):
+        worktree.path.mkdir()
+        (worktree.path / "random_file").touch()
+        result = runner.invoke(manage.cli, ["init"])
+        with pytest.raises(SystemExit):
+            if result.exception:
+                raise result.exception
+        assert "Unable to initialize" in result.stdout

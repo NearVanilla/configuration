@@ -7,9 +7,10 @@ import dataclasses
 import datetime
 import json
 import os
+from contextlib import contextmanager
 from functools import wraps
 from pathlib import Path
-from typing import Iterable, Union
+from typing import Iterable, Set, Union
 
 import click
 import git
@@ -19,13 +20,16 @@ Substitutions = Union[dict, None]
 
 COMMIT_SUBSTITUTED = "[SUBST]"
 COMMIT_CHANGED = "[CHNG]"
-CONFIG_PATH = Path("./config")
 SUBWORKTREE_PATH = Path(".subworktrees.json")
 
 
 class ConfContext:
     def __init__(self):
         self.git = GitWrapper(os.getcwd())
+
+
+class NonEmptySubworktreeDestinationError(click.UsageError):
+    pass
 
 
 def validate_ref_not_exists(ctx, param, value):
@@ -36,9 +40,31 @@ def validate_ref_not_exists(ctx, param, value):
         return value
 
 
+def validate_path_is_subworktree(ctx, param, value):
+    if (
+        next(
+            (
+                swt
+                for swt in ctx.obj.git.repo.get_all_subworktrees()
+                if swt.path == Path(value)
+            ),
+            None,
+        )
+        is None
+    ):
+        raise click.BadParameter(f"no such subworktree with path {value}")
+    return value
+
+
+def is_dir_empty(path: Path) -> bool:
+    """Checks whether directory is empty"""
+    return not any(path.iterdir())
+
+
 path_argument = click.argument(
     "path",
     type=click.Path(exists=True, path_type=Path, file_okay=False, resolve_path=True),
+    callback=validate_path_is_subworktree,
 )
 
 
@@ -51,13 +77,32 @@ def cli(ctx):
 @cli.command()
 @click.argument("path", type=click.Path(path_type=Path))
 @click.argument("revision", type=str, callback=validate_ref_not_exists)
+@click.argument("message", type=str, required=False)
 @click.pass_context
-def new_subworktree(ctx, path, revision):
-    print("ABCD")
-    click.secho(path)
-    click.secho(revision)
+def new_subworktree(ctx, path, revision, message):
+    """Create new REVISION, with empty commit with MESSAGE, and configure it to mount under PATH"""
     worktree = WorkTree(path, revision)
+    ctx.obj.git.create_detached_empty_branch(
+        revision, message or f"Initial commit for {revision}"
+    )
     ctx.obj.git.add_subworktree(worktree)
+
+
+@cli.command()
+@click.pass_context
+def init(ctx):
+    """Initialize all subworktrees"""
+    for subworktree in ctx.obj.git.get_all_subworktrees():
+        if not subworktree.path.exists() or is_dir_empty(subworktree.path):
+            click.echo(f"Initializing subworktree {subworktree}")
+            subworktree.init(ctx.obj.git)
+        else:
+            if subworktree.is_initialized(ctx.obj.git):
+                click.echo(f"Skipping already initialized subworktree {subworktree}")
+            else:
+                raise NonEmptySubworktreeDestinationError(
+                    f"Unable to initialize subworktree at path {subworktree.path} since it exists, is not empty and not an existing subworktree"
+                )
 
 
 @cli.command()
@@ -65,11 +110,8 @@ def new_subworktree(ctx, path, revision):
 @click.pass_context
 def patch(ctx, path):
     """Patch the config code, creating new commit"""
-    click.secho(str(path))
-    click.secho("Submodules:")
-    click.secho("\n".join(s.path for s in conf.git.get_all_submodules()))
     sub = next(
-        (s for s in conf.git.get_all_submodules() if s.path.absolute() == path), None
+        (s for s in ctx.obj.git.get_all_submodules() if s.path.absolute() == path), None
     )
     if sub is None:
         raise click.BadParameter("no matching submodule")
@@ -120,11 +162,19 @@ class WorkTreeAlreadySubstitutedException(ManageException):
         super().__init__("Worktree already substituted")
 
 
+class RefNotExistsError(ValueError):
+    def __init__(self, ref):
+        super().__init__(f"Reference named '{ref}' does not exist")
+
+
 # Helpers
 @dataclasses.dataclass(frozen=True)
 class WorkTree:
-    path: str
+    path: Path
     revision: str
+
+    def __post_init__(self):
+        object.__setattr__(self, "path", Path(self.path))
 
     def init(self, parent: GitWrapper) -> GitWrapper:
         parent.repo.git.worktree("add", self.path, self.revision)
@@ -132,6 +182,13 @@ class WorkTree:
 
     def git(self, parent: GitWrapper) -> GitWrapper:
         return GitWrapper(parent.working_tree_dir / self.path)
+
+    def is_initialized(self, parent: GitWrapper) -> bool:
+        try:
+            self.git(parent)
+            return True
+        except git.InvalidGitRepositoryError:
+            return False
 
 
 class WorkTreeEncoder(json.JSONEncoder):
@@ -143,6 +200,20 @@ class WorkTreeEncoder(json.JSONEncoder):
         if dataclasses.is_dataclass(obj):
             return dataclasses.asdict(obj)
         return super().default(obj)
+
+
+@contextmanager
+def changed_reset_head(repo: git.Repo, head: git.Head):
+    previous_ref = repo.head.reference
+    if repo.is_dirty():
+        raise DirtyWorkTreeException()
+    try:
+        repo.head.reference = head
+        repo.head.reset()
+        yield
+    finally:
+        repo.head.reference = previous_ref
+        repo.head.reset()
 
 
 def require_clean_workspace(fun):
@@ -211,6 +282,9 @@ class GitWrapper:
     def commit(self, message) -> None:
         self._repo.index.commit(message)
 
+    def get_reference_names(self) -> Set[str]:
+        return {ref.name for ref in self._repo.references}
+
     def get_all_subworktrees(self) -> Iterable[WorkTree]:
         if not self._subworktree_file.exists():
             return tuple()
@@ -219,8 +293,22 @@ class GitWrapper:
 
     def add_subworktree(self, worktree: WorkTree):
         worktrees = self.get_all_subworktrees()
+        paths = set(w.path for w in worktrees)
+        if worktree.path in paths:
+            raise ValueError(f"SubWorkTree already registered at path: {worktree.path}")
+        if worktree.revision not in self.get_reference_names():
+            raise RefNotExistsError(worktree.revision)
         with self._subworktree_file.open("w") as file:
-            json.dump(set((*worktrees, worktree)), file, indent=2, cls=WorkTreeEncoder)
+            json.dump(worktrees + (worktree,), file, indent=2, cls=WorkTreeEncoder)
+
+    @require_clean_workspace
+    def create_detached_empty_branch(self, name: str, message: str):
+        with changed_reset_head(self._repo, git.Head(self._repo, f"refs/heads/{name}")):
+            # GitPython is stupid and will throw errors when commiting on orphaned branch
+            # https://github.com/gitpython-developers/GitPython/issues/615
+            # https://stackoverflow.com/questions/47078961/create-an-orphan-branch-without-using-the-orphan-flag
+            # https://github.com/gitpython-developers/GitPython/issues/633
+            self._repo.git.commit("--message", message, "--allow-empty")
 
 
 def current_date() -> str:
