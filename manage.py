@@ -10,10 +10,10 @@ import os
 from contextlib import contextmanager
 from functools import wraps
 from pathlib import Path
-from typing import Iterable, Set, Union
+from typing import Iterable, Optional, Set, Union
 
 import click
-import git
+import git  # type: ignore
 import jinja2
 
 Substitutions = Union[dict, None]
@@ -41,18 +41,9 @@ def validate_ref_not_exists(ctx, param, value):
 
 
 def validate_path_is_subworktree(ctx, param, value):
-    if (
-        next(
-            (
-                swt
-                for swt in ctx.obj.git.repo.get_all_subworktrees()
-                if swt.path == Path(value)
-            ),
-            None,
-        )
-        is None
-    ):
-        raise click.BadParameter(f"no such subworktree with path {value}")
+    for path in value:
+        if ctx.obj.git.get_subworktree(Path(path)) is None:
+            raise click.BadParameter(f"no such subworktree with path {path}")
     return value
 
 
@@ -65,6 +56,7 @@ path_argument = click.argument(
     "path",
     type=click.Path(exists=True, path_type=Path, file_okay=False, resolve_path=True),
     callback=validate_path_is_subworktree,
+    nargs=-1,  # Eat all args
 )
 
 
@@ -108,14 +100,18 @@ def init(ctx):
 @cli.command()
 @path_argument
 @click.pass_context
-def patch(ctx, path):
+def patch(ctx, paths):
     """Patch the config code, creating new commit"""
-    sub = next(
-        (s for s in ctx.obj.git.get_all_submodules() if s.path.absolute() == path), None
-    )
-    if sub is None:
-        raise click.BadParameter("no matching submodule")
-    info(sub.get_commit_subject())
+    for path in paths:
+        swt = ctx.obj.git.get_subworktree(path)
+        if swt is None:
+            error(f"The subworktree at {path} does not exist!")
+            return
+        if not swt.is_initialized():
+            error(f"The subworktree at {path} is not initialized!")
+            return
+        info(f"Patching {path}...")
+        substitute_tracked_and_commit(swt.git(ctx.obj.git))
 
 
 @cli.command()
@@ -123,6 +119,16 @@ def patch(ctx, path):
 @click.pass_context
 def unpatch(ctx):
     """Revert previous config patch, applying new changes first"""
+    for path in paths:
+        swt = ctx.obj.git.get_subworktree(path)
+        if swt is None:
+            error(f"The subworktree at {path} does not exist!")
+            return
+        if not swt.is_initialized():
+            error(f"The subworktree at {path} is not initialized!")
+            return
+        info(f"Unpatching {path}...")
+        commit_and_unsubstitute(swt.git(ctx.obj.git))
 
 
 # Helper printers
@@ -187,7 +193,7 @@ class WorkTree:
         try:
             self.git(parent)
             return True
-        except git.InvalidGitRepositoryError:
+        except (git.InvalidGitRepositoryError, git.NoSuchPathError):
             return False
 
 
@@ -285,7 +291,7 @@ class GitWrapper:
     def get_reference_names(self) -> Set[str]:
         return {ref.name for ref in self._repo.references}
 
-    def get_all_subworktrees(self) -> Iterable[WorkTree]:
+    def get_all_subworktrees(self) -> tuple[WorkTree, ...]:
         if not self._subworktree_file.exists():
             return tuple()
         with self._subworktree_file.open("r") as file:
@@ -300,6 +306,16 @@ class GitWrapper:
             raise RefNotExistsError(worktree.revision)
         with self._subworktree_file.open("w") as file:
             json.dump(worktrees + (worktree,), file, indent=2, cls=WorkTreeEncoder)
+
+    def get_subworktree(self, path: Path) -> Optional[WorkTree]:
+        return next(
+            (
+                swt
+                for swt in self._repo.get_all_subworktrees()
+                if swt.path == Path(path)
+            ),
+            None,
+        )
 
     @require_clean_workspace
     def create_detached_empty_branch(self, name: str, message: str):
@@ -336,7 +352,7 @@ def substitute_placeholders(
     files: Iterable[Path], substitutions: Substitutions = None, environment: dict = {}
 ) -> None:
     if substitutions is None:
-        substitutions = os.environ
+        substitutions = dict(os.environ)
     for file in files:
         with file.open("r+") as f:
             original = f.read()
@@ -364,6 +380,10 @@ def substitute_tracked_and_commit(
     if not git.is_worktree_clean():
         git.stage_all_tracked()
         git.commit(message=f"{COMMIT_SUBSTITUTED} {current_date()}")
+
+
+def commit_and_unsubstitute(git: GitWrapper) -> None:
+    raise NotImplementedError()
 
 
 # Main :)

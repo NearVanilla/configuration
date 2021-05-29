@@ -4,7 +4,7 @@ from contextlib import contextmanager
 from pathlib import Path
 
 import pytest
-import sh
+import sh  # type: ignore
 from click.testing import CliRunner
 
 import manage
@@ -172,6 +172,7 @@ def test_list_paths_simple(tmp_path, tmp_path_git):
     assert tracked_files == {empty_file, nested_empty_file}
 
 
+# Is it useless now that we don't use submodules?
 def test_list_paths_with_submodules(tmp_path):
     main_repo_path = tmp_path / "main_repo"
     main_file = main_repo_path / "main_file"
@@ -212,21 +213,27 @@ def test_subworktree_basic(tmp_path):
     worktreepath = tmp_path / worktree.path
     maingit.commit(allow_empty=True, message="Main message")
     maingit.checkout("--orphan", worktree.revision)
+    worktree_file = "worktree_file"
+    (tmp_path / worktree_file).touch()
+    maingit.add(worktree_file)
     worktree_subject = "Worktree message"
-    maingit.commit(allow_empty=True, message=worktree_subject)
+    maingit.commit(message=worktree_subject)
     worktree_hash = maingit("rev-list", "HEAD", n=1, format="%H").split("\n")[1].strip()
     maingit.checkout("master")
 
     git.add_subworktree(worktree)
     assert set(git.get_all_subworktrees()) == set((worktree,))
 
+    assert not worktree.is_initialized(git)
     assert not worktreepath.exists()
     workgit = worktree.init(git)
+    assert worktree.is_initialized(git)
     assert worktreepath.exists()
     # GitRepo working :)
     assert workgit.is_worktree_clean()
     assert workgit.get_commit_subject() == worktree_subject
     assert workgit.get_commit_sha() == worktree_hash
+    assert set(workgit.list_tracked_files()) == {worktreepath / worktree_file}
 
 
 def test_cli_new_subworktree(tmp_path, tmp_git_wrapper):
