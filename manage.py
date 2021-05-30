@@ -116,9 +116,11 @@ def patch(ctx, paths):
 
 @cli.command()
 @path_argument
+@click.argument("commit_message", type=str, required=False)
 @click.pass_context
-def unpatch(ctx):
+def unpatch(ctx, paths, commit_message):
     """Revert previous config patch, applying new changes first"""
+    commit_message = commit_message or f"Update live config {current_date()}"
     for path in paths:
         swt = ctx.obj.git.get_subworktree(path)
         if swt is None:
@@ -166,6 +168,13 @@ class WorkTreeAlreadySubstitutedException(ManageException):
 
     def __init__(self):
         super().__init__("Worktree already substituted")
+
+
+class WorkTreeNotSubstitutedException(ManageException):
+    """Worktree has not been substituted"""
+
+    def __init__(self):
+        super().__init__("Worktree not substituted")
 
 
 class RefNotExistsError(ValueError):
@@ -331,20 +340,6 @@ def current_date() -> str:
     return datetime.datetime.now().isoformat()
 
 
-def path_to_branch(path: Path) -> str:
-    """
-    Resolve relative path and convert it into branch name.
-
-    >>> from pathlib import Path
-    >>> path_to_branch(Path('./some/path'))
-    'some_path'
-    >>> path_to_branch(Path('config/survival/'))
-    'config_survival'
-    """
-    rel_path = path.absolute().relative_to(Path(".").absolute())
-    return str(rel_path).replace("/", "_")
-
-
 # Main commands
 
 
@@ -382,8 +377,23 @@ def substitute_tracked_and_commit(
         git.commit(message=f"{COMMIT_SUBSTITUTED} {current_date()}")
 
 
-def commit_and_unsubstitute(git: GitWrapper) -> None:
-    raise NotImplementedError()
+def commit_and_unsubstitute(git: GitWrapper, msg: str) -> None:
+    if not git.get_commit_subject("HEAD").startswith(COMMIT_SUBSTITUTED):
+        raise WorkTreeNotSubstitutedException()
+    presub_commit = git.repo.commit("HEAD^")
+    sub_commit = git.repo.commit("HEAD")
+    if git.is_worktree_clean():
+        # Reset our change commit
+        git.repo.head.reference = presub_commit
+        git.repo.head.reset(index=True, working_tree=True)
+    else:
+        git.stage_all_tracked()
+        git.commit(COMMIT_CHANGED)
+        git.repo.git.revert(sub_commit.hexsha, no_edit=True)
+        # Squash
+        git.repo.head.reference = presub_commit
+        git.repo.head.reset(index=False, working_tree=False)
+        git.commit(msg)
 
 
 # Main :)

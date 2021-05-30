@@ -307,3 +307,45 @@ def test_cli_init_dirty_dir(tmp_git_wrapper, added_worktree):
             if result.exception:
                 raise result.exception
         assert "Unable to initialize" in result.stdout
+
+
+def test_substitute_and_undo_no_changes(tmp_path_git, tmp_git_wrapper):
+    git = tmp_git_wrapper
+    gitcli = tmp_path_git
+    firstmsg = "First message"
+    file = Path(git.path / "substituted_file")
+    substitutions = {"TESTKEY": "TESTVALUE"}
+    create_file_with_content(file, "PASSWORD: {{ TESTKEY }}")
+    gitcli.add(file.name)
+    gitcli.commit(message=firstmsg)
+    firstcommit = git.repo.commit("HEAD")
+    manage.substitute_tracked_and_commit(git, substitutions=substitutions)
+    assert git.repo.commit("HEAD") != firstcommit
+    manage.commit_and_unsubstitute(git, msg="Should not be used")
+    assert git.repo.commit("HEAD") == firstcommit
+
+
+def test_substitute_and_undo_some_changes(tmp_path_git, tmp_git_wrapper):
+    git = tmp_git_wrapper
+    gitcli = tmp_path_git
+    firstmsg = "First message"
+    unsubmsg = "Change BEFORE to AFTER"
+    file = Path(git.path / "substituted_file")
+    substitutions = {"TESTKEY": "TESTVALUE"}
+    create_file_with_content(file, "PASSWORD: {{ TESTKEY }}\n\n\n\nHERE=BEFORE")
+    gitcli.add(file.name)
+    gitcli.commit(message=firstmsg)
+    firstcommit = git.repo.commit("HEAD")
+    manage.substitute_tracked_and_commit(git, substitutions=substitutions)
+    assert git.repo.commit("HEAD") != firstcommit
+    with file.open("r") as f:
+        content = f.readlines()
+    content[-1] = "HERE=AFTER"
+    with file.open("w") as f:
+        f.write("".join(content))
+    manage.commit_and_unsubstitute(git, msg=unsubmsg)
+    assert git.get_commit_subject("HEAD") == unsubmsg
+    assert git.repo.commit("HEAD") != firstcommit
+    assert git.repo.commit("HEAD^") == firstcommit
+    with file.open("r") as f:
+        assert f.read() == "PASSWORD: {{ TESTKEY }}\n\n\n\nHERE=AFTER"
