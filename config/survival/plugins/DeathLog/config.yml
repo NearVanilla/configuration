@@ -1,3 +1,0 @@
-send_to_player: true
-player_msg: You died at &6%d, %d, %d
-log_items: true

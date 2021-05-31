@@ -23,3 +23,4 @@ config/*/plugins/dynmap/webauth.txt
 logs/
 
 !config/*/server-icon.png
+!.subworktrees.json
