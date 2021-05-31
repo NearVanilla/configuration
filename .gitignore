@@ -12,15 +12,16 @@
 .env*
 .envrc
 .python-version
-config/*/plugins/BuycraftX/cache
-config/*/plugins/BuycraftX/gui.cache
-config/*/plugins/WorldEdit/.archive-unpack
-config/*/plugins/WorldEdit/schematics
-config/*/plugins/dynmap/hiddenplayers.txt
-config/*/plugins/dynmap/ids-by-ip.txt
-config/*/plugins/dynmap/markers.yml
-config/*/plugins/dynmap/webauth.txt
+plugins/BuycraftX/cache
+plugins/BuycraftX/gui.cache
+plugins/WorldEdit/.archive-unpack
+plugins/WorldEdit/schematics
+plugins/dynmap/hiddenplayers.txt
+plugins/dynmap/ids-by-ip.txt
+plugins/dynmap/markers.yml
+plugins/dynmap/webauth.txt
 logs/
+/server-config/
 
-!config/*/server-icon.png
+!server-icon.png
 !.subworktrees.json

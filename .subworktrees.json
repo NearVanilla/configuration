@@ -1,6 +1,6 @@
 [
   {
-    "path": "config/survival",
+    "path": "server-config/survival",
     "revision": "config_survival"
   }
 ]
