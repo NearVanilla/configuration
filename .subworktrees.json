@@ -2,5 +2,9 @@
   {
     "path": "server-config/survival",
     "revision": "config_survival"
+  },
+  {
+    "path": "server-config/creative-spawn",
+    "revision": "config_creative_spawn"
   }
 ]

@@ -12,6 +12,8 @@
 .env*
 .envrc
 .python-version
+logs/
+plugins/ArmorStandEditor/lang/*
 plugins/BuycraftX/cache
 plugins/BuycraftX/gui.cache
 plugins/WorldEdit/.archive-unpack
@@ -20,7 +22,7 @@ plugins/dynmap/hiddenplayers.txt
 plugins/dynmap/ids-by-ip.txt
 plugins/dynmap/markers.yml
 plugins/dynmap/webauth.txt
-logs/
+world/datapacks/bukkit/pack.mcmeta
 /server-config/
 
 !server-icon.png
