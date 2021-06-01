@@ -1,0 +1,55 @@
+http://{$DOMAIN} {
+  handle_path /node_metrics {
+    reverse_proxy http://docker_host:9100/metrics
+  }
+  @servermetrics path_regexp serverre ^/server_metrics/([^.:/]+)$
+  handle @servermetrics {
+    reverse_proxy http://{re.serverre.0}:9225/metrics
+  }
+  handle {
+    redir https://{$DOMAIN}{uri} permanent
+  }
+}
+
+http://*.{$DOMAIN} {
+  redir https://{$DOMAIN}{uri} permanent
+}
+
+*.{$DOMAIN}, {$DOMAIN} {
+  encode zstd gzip
+  realip {
+    header "X-Forwarded-For"
+    from cloudflare
+    maxhops 5
+  }
+
+  (mapredir) {
+    reverse_proxy survival:25566 {
+      header_up Host {http.reverse_proxy.upstream.hostport}
+    }
+  }
+  # Redirect www to regular site
+  @www host www.{$DOMAIN}
+  handle @www {
+    redir https://{$DOMAIN}{uri} permanent
+  }
+
+  @map host map.{$DOMAIN}
+  handle @map {
+    include mapredir
+  }
+
+  @root host {$DOMAIN}
+  handle @root {
+    root * /usr/share/caddy # Default value
+    handle_path /map/* {
+      include mapredir
+    }
+    file_server
+  }
+
+  # Fallback for unhandled hosts
+  handle {
+    abort
+  }
+}

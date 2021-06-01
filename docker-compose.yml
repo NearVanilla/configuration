@@ -33,6 +33,10 @@ x-mc-common-env:
     -XX:G1RSetUpdatingPauseTimePercent=1
     -XX:SurvivorRatio=12
     -XX:MaxTenuringThreshold=1
+  # For java -D options:
+  JVM_DD_OPTS: 'paper.playerconnection.keepalive=85'
+  # Note, that with DD options, they are space-separated, but without -D preceding
+  # and can use colon : instead of =
 
 services:
   survival:
@@ -41,7 +45,7 @@ services:
     container_name: "survival"
     hostname: "survival"
     volumes:
-      - './survival:/data'
+      - './server-config/survival:/data'
     #restart: unless-stopped
     restart: "no"
     #command:
@@ -58,17 +62,13 @@ services:
       # MEMORY: 1G
       # For java options:
       # JVM_OPTS:
-      # For java -D options:
-      JVM_DD_OPTS: 'paper.playerconnection.keepalive=85'
-      # Note, that with DD options, they are space-separated, but without -D preceding
-      # and can use colon : instead of =
   creative-spawn:
     <<: *user
     <<: *mc_common_settings
     container_name: "creative-spawn"
     hostname: "creative-spawn"
     volumes:
-      - './creative-spawn:/data'
+      - './server-config/creative-spawn:/data'
     #restart: unless-stopped
     restart: "no"
     #command:
@@ -80,109 +80,26 @@ services:
       CUSTOM_SERVER: /data/server.jar
       #FORCE_REDOWNLOAD: "true" #  If non-empty, it'll force-redownload the server jar
       MEMORY: 4G
-      # For java options:
-      # JVM_OPTS:
-      # For java -D options:
-      JVM_DD_OPTS: 'paper.playerconnection.keepalive=85'
-      # Note, that with DD options, they are space-separated, but without -D preceding
-      # and can use colon : instead of =
-
-  traefik:
-    restart: unless-stopped
-    image: "traefik:v2.3"
-    container_name: "traefik"
-    command:
-      - "--api.insecure=true"
-      - "--metrics.prometheus=true"
-      - "--providers.docker=true"
-      - "--providers.docker.exposedbydefault=false"
-      - "--api.dashboard=true"
-      # Auto-redirect all :80 trafic to :443 https
-      - "--entrypoints.web.address=:80"
-      - "--entrypoints.web.http.redirections.entryPoint.to=websecure"
-      - "--entrypoints.web.http.redirections.entryPoint.scheme=https"
-      - "--entrypoints.web.http.redirections.entrypoint.permanent=true"
-      - "--entrypoints.websecure.address=:443"
-      - "--certificatesresolvers.letsencrypt.acme.tlschallenge=true"
-      - "--certificatesresolvers.letsencrypt.acme.email=letsencrypt@${DOMAIN?}"
-      - "--certificatesresolvers.letsencrypt.acme.storage=/letsencrypt/acme.json"
-      # Comment out following to entries to use prod
-      #- "--certificatesresolvers.letsencrypt.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory"
-      #- "--log.level=DEBUG"
-    ports:
-      - "80:80"
-      - "443:443"
-      - "8080:8080"
-    volumes:
-      - "./letsencrypt:/letsencrypt"
-      - "/var/run/docker.sock:/var/run/docker.sock:ro"
-      - "./users/:/users/:ro"
-    labels:
-      <<: *traefik-labels
-      traefik.http.routers.dashboard.rule: "Host(`traefik.${DOMAIN}`) && (PathPrefix(`/api`) || PathPrefix(`/dashboard`))"
-      traefik.http.routers.dashboard.service: "api@internal"
-      traefik.http.routers.dashboard.middlewares: "traefik-auth"
-      traefik.http.routers.dashboard.entrypoints: websecure
-      traefik.http.routers.dashboard.tls.certresolver: letsencrypt
-      traefik.http.middlewares.traefik-auth.basicauth.usersfile: /users/traefik
   website:
-    # <<: *user
+    <<: *user
     container_name: "website"
     hostname: "website"
-    image: nginx
+    image: caddy:2.4.1-realip
+    build:
+      context: ./website
+      args:
+        CADDY_VERSION: 2.4.1
     restart: unless-stopped
-    networks:
-      - bridge_net
-    entrypoint:
-      - /bin/sh
-      - -c
-      - 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & exec "$${@}"' # The magic with sleep in background is needed, it ignores interrupts
-      - entrypoint # Name of the script
-    command:
-      - nginx
-      - -g
-      - 'daemon off;'
+    ports:
+      - 80:80
+      - 443:443
     volumes:
-      - './site-repo/src:/var/www/html:ro'
-      - './site-config:/etc/nginx/conf.d:ro'
-      - './certbot/letsencrypt:/etc/letsencrypt:ro'
-      - './certbot/webroot:/srv/webroot:ro'
-    ports: 
-      - '80:80'
-      - '443:443'
-  certbot:
-    <<: *user
-    container_name: "certbot"
-    hostname: "certbot"
-    image: certbot/certbot
-    depends_on:
-      - website
-    restart: unless-stopped
-    volumes:
-      - './certbot/letsencrypt:/etc/letsencrypt'
-      - './certbot/logs:/var/log/letsencrypt'
-      - './certbot/webroot:/srv/webroot'
-      - './certbot/homedir:/var/lib/letsencrypt'
-    entrypoint:
-      - /bin/sh
-      - -c
-      - 'trap exit TERM; sleep 2h & wait $${!}; while certbot "$${@}"; do sleep 12h & wait $${!}; done' # The magic with sleep in background is needed, it ignores interrupts
-      - entrypoint # Name of the script
-    command:
-      - certonly
-        #- --quiet
-      - --non-interactive
-      - --agree-tos
-      - --keep-until-expiring
-      - --webroot
-      - -w
-      - '/srv/webroot'
-      - --email
-      - 'prof.bloodstone+certbot@gmail.com'
-      - -d
-      - 'nearvanilla.com'
-      - -d
-      - 'map.nearvanilla.com'
+      - './website/Caddyfile:/etc/caddy/Caddyfile:ro'
+      - './website/files:/usr/share/caddy:ro'
+      # Persist data
+      - './website/config:/config:rw'
+      - './website/data:/data:rw'
+  # MONITORING
   node_exporter:
     image: prom/node-exporter:v1.1.2
     restart: unless-stopped
@@ -201,6 +118,4 @@ services:
   docker_host: # For node_exporter
     image: qoomon/docker-host:2.5.5
     restart: unless-stopped
-    networks:
-      - bridge_net
     cap_add: [ 'NET_ADMIN', 'NET_RAW' ]
