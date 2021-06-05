@@ -21,6 +21,13 @@ Substitutions = Union[dict, None]
 COMMIT_SUBSTITUTED = "[SUBST]"
 COMMIT_CHANGED = "[CHNG]"
 SUBWORKTREE_PATH = Path(".subworktrees.json")
+JINJA_ENVIRONMENT = {
+    "block_start_string": "<<<%",
+    "block_end_string": "%>>>",
+    "comment_start_string": "<<<#",
+    "comment_end_string": "#>>>",
+    "undefined": jinja2.StrictUndefined, # Throw error on missing values
+}
 
 
 class ConfContext:
@@ -181,6 +188,10 @@ class RefNotExistsError(ValueError):
     def __init__(self, ref):
         super().__init__(f"Reference named '{ref}' does not exist")
 
+class SubstituteException(ManageException):
+    def __init__(self, path: Path):
+        super().__init__(f"Error substituting file {path}")
+
 
 # Helpers
 @dataclasses.dataclass(frozen=True)
@@ -275,11 +286,16 @@ class GitWrapper:
         )
 
     def all_config_tracked_files(self) -> Iterable[Path]:
-        blacklisted_config_suffixes = {".sh"}
+        whitelisted_config_suffixes = {
+            ".properties",
+            ".txt",
+            ".yaml",
+            ".yml",
+        }
         return tuple(
             file
             for file in self.list_tracked_files()
-            if file.suffix not in blacklisted_config_suffixes
+            if file.suffix in whitelisted_config_suffixes
         )
 
     def is_worktree_clean(self) -> bool:
@@ -349,15 +365,24 @@ def substitute_placeholders(
 ) -> None:
     if substitutions is None:
         substitutions = dict(os.environ)
+    for k, v in JINJA_ENVIRONMENT.items():
+        if k not in environment:
+            environment[k] = v
     for file in files:
-        with file.open("r+") as f:
-            original = f.read()
-            template = jinja2.Template(original, **environment)
-            rendered = template.render(**substitutions)
-            if rendered != original:
-                f.seek(0)
-                f.truncate()
-                f.write(rendered)
+        try:
+            with file.open("r+") as f:
+                original = f.read()
+                template = jinja2.Template(original, **environment)
+                rendered = template.render(**substitutions)
+                if rendered and original and original[-1] == '\n' and rendered[-1] != '\n':
+                    rendered += '\n'
+                if rendered != original:
+                    f.seek(0)
+                    f.truncate()
+                    f.write(rendered)
+        except Exception as e:
+            raise SubstituteException(file) from e
+
 
 
 @require_clean_workspace
@@ -366,7 +391,11 @@ def substitute_tracked_placeholders(
 ) -> None:
     if git.get_commit_subject("HEAD").startswith(COMMIT_SUBSTITUTED):
         raise WorkTreeAlreadySubstitutedException()
-    substitute_placeholders(git.all_config_tracked_files(), substitutions)
+    try:
+        substitute_placeholders(git.all_config_tracked_files(), substitutions)
+    except:
+        git.repo.head.reset(working_tree=True)
+        raise
 
 
 def substitute_tracked_and_commit(

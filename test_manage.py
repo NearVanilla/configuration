@@ -93,7 +93,7 @@ def test_tracked_files_finding(tmp_path, tmp_path_git):
     gitcli.commit(allow_empty=True, message="Initial commit")
     assert len(git.all_config_tracked_files()) == 0
     file_names = ("one", "two", "three")
-    file_paths = tuple(tmp_path / name for name in file_names)
+    file_paths = tuple((tmp_path / name).with_suffix('.txt') for name in file_names)
     for file in file_paths:
         assert not file.exists()
         file.touch()
@@ -105,8 +105,8 @@ def test_tracked_files_finding(tmp_path, tmp_path_git):
 
 
 def test_no_unneeded_substitution(tmp_path):
-    empty_file = tmp_path / "empty_file"
-    file_without_placeholders = tmp_path / "placeholderless_file"
+    empty_file = tmp_path / "empty_file.txt"
+    file_without_placeholders = tmp_path / "placeholderless_file.txt"
     substitutions = {"TESTKEY": "TESTVALUE"}
     empty_file.touch()
     create_file_with_content(file_without_placeholders, "This is just a random string")
@@ -119,7 +119,7 @@ def test_no_unneeded_substitution(tmp_path):
 
 
 def test_basic_placeholder_substitution(tmp_path):
-    file = tmp_path / "placeholdered_file"
+    file = tmp_path / "placeholdered_file.txt"
     substitutions = {"TESTKEY": "TESTVALUE"}
     create_file_with_content(file, "PASSWORD: {{ TESTKEY }}")
     manage.substitute_placeholders([file], substitutions=substitutions)
@@ -128,7 +128,7 @@ def test_basic_placeholder_substitution(tmp_path):
 
 
 def test_basic_substitution_and_commit(tmp_path, tmp_path_git):
-    test_file = tmp_path / "test_file"
+    test_file = tmp_path / "test_file.txt"
     gitcli = tmp_path_git
     substitutions = {"TESTKEY": "TESTVALUE"}
     create_file_with_content(test_file, "PASSWORD: {{ TESTKEY }}")
@@ -313,7 +313,7 @@ def test_substitute_and_undo_no_changes(tmp_path_git, tmp_git_wrapper):
     git = tmp_git_wrapper
     gitcli = tmp_path_git
     firstmsg = "First message"
-    file = Path(git.path / "substituted_file")
+    file = Path(git.path / "substituted_file.txt")
     substitutions = {"TESTKEY": "TESTVALUE"}
     create_file_with_content(file, "PASSWORD: {{ TESTKEY }}")
     gitcli.add(file.name)
@@ -330,7 +330,7 @@ def test_substitute_and_undo_some_changes(tmp_path_git, tmp_git_wrapper):
     gitcli = tmp_path_git
     firstmsg = "First message"
     unsubmsg = "Change BEFORE to AFTER"
-    file = Path(git.path / "substituted_file")
+    file = Path(git.path / "substituted_file.txt")
     substitutions = {"TESTKEY": "TESTVALUE"}
     create_file_with_content(file, "PASSWORD: {{ TESTKEY }}\n\n\n\nHERE=BEFORE")
     gitcli.add(file.name)
