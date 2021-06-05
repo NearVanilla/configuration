@@ -56,10 +56,7 @@ services:
       TYPE: CUSTOM
       CUSTOM_SERVER: /data/server.jar
       #FORCE_REDOWNLOAD: "true" #  If non-empty, it'll force-redownload the server jar
-      INIT_MEMORY: 10G
-      MAX_MEMORY: 10G
-      # Alternatively:
-      # MEMORY: 1G
+      MEMORY: "${SURVIVAL_MEM?}"
       # For java options:
       # JVM_OPTS:
   creative-spawn:
@@ -79,15 +76,15 @@ services:
       TYPE: CUSTOM
       CUSTOM_SERVER: /data/server.jar
       #FORCE_REDOWNLOAD: "true" #  If non-empty, it'll force-redownload the server jar
-      MEMORY: 4G
+      MEMORY: "${CREATIVE_MEM?}"
   velocity:
     <<: *user
     image: openjdk:16
     working_dir: /velocity
     command:
       - java
-      - -Xms512M
-      - -Xmx512M
+      - -Xms${PROXY_MEM?}
+      - -Xmx${PROXY_MEM?}
       - -XX:+UseG1GC
       - -XX:G1HeapRegionSize=4M
       - -XX:+UnlockExperimentalVMOptions

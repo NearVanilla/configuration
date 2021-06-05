@@ -64,7 +64,7 @@ ping-passthrough = "DISABLED"
   ]
   factions = "127.0.0.1:30067"
 
-#[forced-hosts]
+[forced-hosts]
 #  "minigames.example.com" = ["minigames"]
 #  "lobby.example.com" = ["lobby"]
 #  "factions.example.com" = ["factions"]

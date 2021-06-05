@@ -53,7 +53,7 @@ def is_dir_empty(path: Path) -> bool:
 
 
 path_argument = click.argument(
-    "path",
+    "paths",
     type=click.Path(exists=True, path_type=Path, file_okay=False, resolve_path=True),
     callback=validate_path_is_subworktree,
     nargs=-1,  # Eat all args
@@ -107,7 +107,7 @@ def patch(ctx, paths):
         if swt is None:
             error(f"The subworktree at {path} does not exist!")
             return
-        if not swt.is_initialized():
+        if not swt.is_initialized(ctx.obj.git):
             error(f"The subworktree at {path} is not initialized!")
             return
         info(f"Patching {path}...")
@@ -317,11 +317,12 @@ class GitWrapper:
             json.dump(worktrees + (worktree,), file, indent=2, cls=WorkTreeEncoder)
 
     def get_subworktree(self, path: Path) -> Optional[WorkTree]:
+        path = Path(path).resolve()
         return next(
             (
                 swt
-                for swt in self._repo.get_all_subworktrees()
-                if swt.path == Path(path)
+                for swt in self.get_all_subworktrees()
+                if swt.path.resolve() == path
             ),
             None,
         )
