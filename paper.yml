@@ -10,6 +10,7 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
+use-display-name-in-quit-message: false
 verbose: false
 config-version: 20
 settings:
@@ -64,6 +65,17 @@ settings:
       other items
     allow-headless-pistons-readme: This setting controls if players should be able
       to create headless pistons.
+  console:
+    enable-brigadier-highlighting: true
+    enable-brigadier-completions: true
+  item-validation:
+    display-name: 8192
+    loc-name: 8192
+    lore-line: 8192
+    book:
+      title: 8192
+      author: 8192
+      page: 16384
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
@@ -113,6 +125,12 @@ world-settings:
     anti-xray:
       enabled: false
   default:
+    allow-using-signs-inside-spawn-protection: false
+    update-pathfinding-on-block-update: true
+    fix-wither-targeting-bug: false
+    seed-based-feature-search-loads-chunks: false
+    fix-items-merging-through-walls: false
+    map-item-frame-cursor-limit: 128
     ender-dragons-death-always-places-dragon-egg: false
     only-players-collide: false
     allow-vehicle-collisions: true
@@ -320,3 +338,5 @@ world-settings:
       snowball: -1
       ender_pearl: -1
       arrow: -1
+    unsupported-settings:
+      fix-invulnerable-end-crystal-exploit: true
