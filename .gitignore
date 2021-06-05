@@ -24,6 +24,7 @@ plugins/dynmap/markers.yml
 plugins/dynmap/webauth.txt
 world/datapacks/bukkit/pack.mcmeta
 /server-config/
+__pycache__/
 
 !server-icon.png
 !.subworktrees.json

@@ -80,6 +80,24 @@ services:
       CUSTOM_SERVER: /data/server.jar
       #FORCE_REDOWNLOAD: "true" #  If non-empty, it'll force-redownload the server jar
       MEMORY: 4G
+  velocity:
+    <<: *user
+    image: openjdk:16
+    working_dir: /velocity
+    command:
+      - java
+      - -Xms512M
+      - -Xmx512M
+      - -XX:+UseG1GC
+      - -XX:G1HeapRegionSize=4M
+      - -XX:+UnlockExperimentalVMOptions
+      - -XX:+ParallelRefProcEnabled
+      - -XX:+AlwaysPreTouch
+      - -XX:MaxInlineLevel=15
+      - -jar
+      - velocity.jar
+    volumes:
+      - ./velocity:/velocity:rw
   website:
     <<: *user
     container_name: "website"
@@ -89,16 +107,18 @@ services:
       context: ./website
       args:
         CADDY_VERSION: 2.4.1
-    restart: unless-stopped
+    restart: "no"
     ports:
       - 80:80
       - 443:443
     volumes:
       - './website/Caddyfile:/etc/caddy/Caddyfile:ro'
-      - './website/files:/usr/share/caddy:ro'
+      - './website/files/src:/usr/share/caddy:ro'
       # Persist data
       - './website/config:/config:rw'
       - './website/data:/data:rw'
+    environment:
+      DOMAIN: "${DOMAIN?}"
   # MONITORING
   node_exporter:
     image: prom/node-exporter:v1.1.2

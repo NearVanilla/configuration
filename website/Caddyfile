@@ -1,10 +1,19 @@
+# vim: ft=caddyfile
+
+{
+  acme_ca "https://acme-staging-v02.api.letsencrypt.org/directory"
+  order realip last
+}
+
 http://{$DOMAIN} {
   handle_path /node_metrics {
-    reverse_proxy http://docker_host:9100/metrics
+    rewrite * /metrics
+    reverse_proxy http://docker_host:9100
   }
   @servermetrics path_regexp serverre ^/server_metrics/([^.:/]+)$
   handle @servermetrics {
-    reverse_proxy http://{re.serverre.0}:9225/metrics
+    rewrite * /metrics
+    reverse_proxy {re.serverre.0}:9225
   }
   handle {
     redir https://{$DOMAIN}{uri} permanent
@@ -15,19 +24,24 @@ http://*.{$DOMAIN} {
   redir https://{$DOMAIN}{uri} permanent
 }
 
-*.{$DOMAIN}, {$DOMAIN} {
+# Snippet https://caddyserver.com/docs/caddyfile/concepts#snippets
+(mapredir) {
+  reverse_proxy survival:25566 {
+    header_up Host {http.reverse_proxy.upstream.hostport}
+  }
+}
+
+map.{$DOMAIN},
+www.{$DOMAIN},
+{$DOMAIN} {
   encode zstd gzip
   realip {
     header "X-Forwarded-For"
     from cloudflare
     maxhops 5
+    strict True
   }
 
-  (mapredir) {
-    reverse_proxy survival:25566 {
-      header_up Host {http.reverse_proxy.upstream.hostport}
-    }
-  }
   # Redirect www to regular site
   @www host www.{$DOMAIN}
   handle @www {
@@ -36,14 +50,14 @@ http://*.{$DOMAIN} {
 
   @map host map.{$DOMAIN}
   handle @map {
-    include mapredir
+    import mapredir
   }
 
   @root host {$DOMAIN}
   handle @root {
     root * /usr/share/caddy # Default value
     handle_path /map/* {
-      include mapredir
+      import mapredir
     }
     file_server
   }
