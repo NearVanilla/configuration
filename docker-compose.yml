@@ -95,6 +95,8 @@ services:
       - velocity.jar
     volumes:
       - ./velocity:/velocity:rw
+    ports:
+      - 25565:25565
   website:
     <<: *user
     container_name: "website"
