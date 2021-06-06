@@ -19,10 +19,13 @@ plugins/BuycraftX/gui.cache
 plugins/DiscordSRV/discord-console-logs/
 plugins/WorldEdit/.archive-unpack
 plugins/WorldEdit/schematics
+plugins/dynmap/*.pending
 plugins/dynmap/hiddenplayers.txt
 plugins/dynmap/ids-by-ip.txt
 plugins/dynmap/markers.yml
+plugins/dynmap/web/
 plugins/dynmap/webauth.txt
+plugins/dynmap/worlds.txt
 world/datapacks/bukkit/pack.mcmeta
 /server-config/
 __pycache__/

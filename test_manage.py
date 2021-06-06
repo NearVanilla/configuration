@@ -93,7 +93,7 @@ def test_tracked_files_finding(tmp_path, tmp_path_git):
     gitcli.commit(allow_empty=True, message="Initial commit")
     assert len(git.all_config_tracked_files()) == 0
     file_names = ("one", "two", "three")
-    file_paths = tuple((tmp_path / name).with_suffix('.txt') for name in file_names)
+    file_paths = tuple((tmp_path / name).with_suffix(".txt") for name in file_names)
     for file in file_paths:
         assert not file.exists()
         file.touch()
@@ -319,10 +319,16 @@ def test_substitute_and_undo_no_changes(tmp_path_git, tmp_git_wrapper):
     gitcli.add(file.name)
     gitcli.commit(message=firstmsg)
     firstcommit = git.repo.commit("HEAD")
+    assert not git.repo.head.is_detached
+    firstbranch = git.repo.active_branch
     manage.substitute_tracked_and_commit(git, substitutions=substitutions)
     assert git.repo.commit("HEAD") != firstcommit
+    assert not git.repo.head.is_detached
+    assert git.repo.active_branch == firstbranch
     manage.commit_and_unsubstitute(git, msg="Should not be used")
     assert git.repo.commit("HEAD") == firstcommit
+    assert not git.repo.head.is_detached
+    assert git.repo.active_branch == firstbranch
 
 
 def test_substitute_and_undo_some_changes(tmp_path_git, tmp_git_wrapper):
@@ -336,8 +342,12 @@ def test_substitute_and_undo_some_changes(tmp_path_git, tmp_git_wrapper):
     gitcli.add(file.name)
     gitcli.commit(message=firstmsg)
     firstcommit = git.repo.commit("HEAD")
+    firstbranch = git.repo.active_branch
+    assert not git.repo.head.is_detached
     manage.substitute_tracked_and_commit(git, substitutions=substitutions)
     assert git.repo.commit("HEAD") != firstcommit
+    assert not git.repo.head.is_detached
+    assert git.repo.active_branch == firstbranch
     with file.open("r") as f:
         content = f.readlines()
     content[-1] = "HERE=AFTER"
@@ -347,5 +357,7 @@ def test_substitute_and_undo_some_changes(tmp_path_git, tmp_git_wrapper):
     assert git.get_commit_subject("HEAD") == unsubmsg
     assert git.repo.commit("HEAD") != firstcommit
     assert git.repo.commit("HEAD^") == firstcommit
+    assert not git.repo.head.is_detached
+    assert git.repo.active_branch == firstbranch
     with file.open("r") as f:
         assert f.read() == "PASSWORD: {{ TESTKEY }}\n\n\n\nHERE=AFTER"

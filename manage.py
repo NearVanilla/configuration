@@ -26,7 +26,7 @@ JINJA_ENVIRONMENT = {
     "block_end_string": "%>>>",
     "comment_start_string": "<<<#",
     "comment_end_string": "#>>>",
-    "undefined": jinja2.StrictUndefined, # Throw error on missing values
+    "undefined": jinja2.StrictUndefined,  # Throw error on missing values
 }
 
 
@@ -122,22 +122,28 @@ def patch(ctx, paths):
 
 
 @cli.command()
+@click.option(
+    "--commit-message",
+    "--msg",
+    type=str,
+    required=False,
+    default=lambda: f"Update live config {current_date()}",
+    show_default="Update live config (current_date)",
+)
 @path_argument
-@click.argument("commit_message", type=str, required=False)
 @click.pass_context
 def unpatch(ctx, paths, commit_message):
     """Revert previous config patch, applying new changes first"""
-    commit_message = commit_message or f"Update live config {current_date()}"
     for path in paths:
         swt = ctx.obj.git.get_subworktree(path)
         if swt is None:
             error(f"The subworktree at {path} does not exist!")
             return
-        if not swt.is_initialized():
+        if not swt.is_initialized(ctx.obj.git):
             error(f"The subworktree at {path} is not initialized!")
             return
         info(f"Unpatching {path}...")
-        commit_and_unsubstitute(swt.git(ctx.obj.git))
+        commit_and_unsubstitute(swt.git(ctx.obj.git), commit_message)
 
 
 # Helper printers
@@ -188,9 +194,17 @@ class RefNotExistsError(ValueError):
     def __init__(self, ref):
         super().__init__(f"Reference named '{ref}' does not exist")
 
+
 class SubstituteException(ManageException):
     def __init__(self, path: Path):
         super().__init__(f"Error substituting file {path}")
+
+
+class DetachedHeadException(ManageException):
+    def __init__(self):
+        super().__init__(
+            "Head is detached from any branch, where it's required not to be so"
+        )
 
 
 # Helpers
@@ -335,11 +349,7 @@ class GitWrapper:
     def get_subworktree(self, path: Path) -> Optional[WorkTree]:
         path = Path(path).resolve()
         return next(
-            (
-                swt
-                for swt in self.get_all_subworktrees()
-                if swt.path.resolve() == path
-            ),
+            (swt for swt in self.get_all_subworktrees() if swt.path.resolve() == path),
             None,
         )
 
@@ -374,15 +384,19 @@ def substitute_placeholders(
                 original = f.read()
                 template = jinja2.Template(original, **environment)
                 rendered = template.render(**substitutions)
-                if rendered and original and original[-1] == '\n' and rendered[-1] != '\n':
-                    rendered += '\n'
+                if (
+                    rendered
+                    and original
+                    and original[-1] == "\n"
+                    and rendered[-1] != "\n"
+                ):
+                    rendered += "\n"
                 if rendered != original:
                     f.seek(0)
                     f.truncate()
                     f.write(rendered)
         except Exception as e:
             raise SubstituteException(file) from e
-
 
 
 @require_clean_workspace
@@ -410,18 +424,20 @@ def substitute_tracked_and_commit(
 def commit_and_unsubstitute(git: GitWrapper, msg: str) -> None:
     if not git.get_commit_subject("HEAD").startswith(COMMIT_SUBSTITUTED):
         raise WorkTreeNotSubstitutedException()
+    if git.repo.head.is_detached:
+        raise DetachedHeadException()
     presub_commit = git.repo.commit("HEAD^")
     sub_commit = git.repo.commit("HEAD")
     if git.is_worktree_clean():
         # Reset our change commit
-        git.repo.head.reference = presub_commit
+        git.repo.active_branch.commit = presub_commit
         git.repo.head.reset(index=True, working_tree=True)
     else:
         git.stage_all_tracked()
         git.commit(COMMIT_CHANGED)
         git.repo.git.revert(sub_commit.hexsha, no_edit=True)
         # Squash
-        git.repo.head.reference = presub_commit
+        git.repo.active_branch.commit = presub_commit
         git.repo.head.reset(index=False, working_tree=False)
         git.commit(msg)
 
