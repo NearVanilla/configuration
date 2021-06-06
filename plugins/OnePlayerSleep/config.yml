@@ -22,8 +22,8 @@ kicked_from_bed_messages:
 # %needed% - number of people currently needed to skip the night
 enter_bed_messages:  # list of messages that will be displayed
   - '&5%playername%&e is sleeping
-  
+
   Click &2here&e to wake everyone up'
   - '&5%playername%&e went to bed
-  
+
   Click &2here&e to wake everyone up!'
