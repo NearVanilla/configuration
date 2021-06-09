@@ -30,9 +30,9 @@ settings:
   save-player-data: true
   use-versioned-world: false
   velocity-support:
-    enabled: false
-    online-mode: false
-    secret: ''
+    enabled: true
+    online-mode: true
+    secret: 'notsosecret'
   suggest-player-names-when-null-tab-completions: true
   watchdog:
     early-warning-every: 5000

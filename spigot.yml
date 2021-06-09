@@ -16,7 +16,7 @@ settings:
   save-user-cache-on-stop-only: false
   sample-count: 12
   user-cache-size: 1000
-  moved-wrongly-threshold: 0.2
+  moved-wrongly-threshold: 0.3
   moved-too-quickly-multiplier: 20.0
   bungeecord: false
   late-bind: true
