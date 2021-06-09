@@ -18,8 +18,8 @@ settings:
   player-shuffle: 0
   user-cache-size: 1000
   save-user-cache-on-stop-only: false
-  moved-wrongly-threshold: 0.0625
-  moved-too-quickly-multiplier: 10.0
+  moved-wrongly-threshold: 0.3
+  moved-too-quickly-multiplier: 20.0
   log-villager-deaths: true
   timeout-time: 60
   restart-on-crash: false

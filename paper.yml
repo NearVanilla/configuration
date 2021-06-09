@@ -31,9 +31,9 @@ settings:
   save-empty-scoreboard-teams: false
   save-player-data: true
   velocity-support:
-    enabled: false
-    online-mode: false
-    secret: ''
+    enabled: true
+    online-mode: true
+    secret: 'notsosecret'
   watchdog:
     early-warning-every: 5000
     early-warning-delay: 10000
