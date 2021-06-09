@@ -79,7 +79,7 @@ services:
       MEMORY: "${CREATIVE_MEM?}"
   velocity:
     <<: *user
-    image: openjdk:16
+    image: adoptopenjdk:11-jre
     working_dir: /velocity
     command:
       - java

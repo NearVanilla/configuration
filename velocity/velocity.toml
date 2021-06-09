@@ -27,7 +27,7 @@ prevent-client-proxy-connections = false
 #                  Velocity's native forwarding. Only applicable for Minecraft 1.13 or higher.
 player-info-forwarding-mode = "modern"
 # If you are using modern or BungeeGuard IP forwarding, configure a unique secret here.
-forwarding-secret = "eJVyttuXvO0a"
+forwarding-secret = "notsosecret" # It's not secret as we are isolated one network side
 # Announce whether or not your server supports Forge. If you run a modded server, we
 # suggest turning this on.
 # 
@@ -62,7 +62,6 @@ ping-passthrough = "DISABLED"
   try = [
     "survival"
   ]
-  factions = "127.0.0.1:30067"
 
 [forced-hosts]
 #  "minigames.example.com" = ["minigames"]
