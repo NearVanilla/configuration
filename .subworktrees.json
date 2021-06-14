@@ -6,5 +6,9 @@
   {
     "path": "server-config/creative-spawn",
     "revision": "config_creative_spawn"
+  },
+  {
+    "path": "server-config/velocity",
+    "revision": "config_velocity"
   }
 ]
