@@ -59,6 +59,35 @@ def is_dir_empty(path: Path) -> bool:
     return not any(path.iterdir())
 
 
+def get_longest_string_length(strings: Iterable[str]) -> int:
+    """
+    Gets the longest stringy value of the argument contents
+
+    >>> get_longest_string_length([])
+    0
+    >>> get_longest_string_length(["a"])
+    1
+    >>> get_longest_string_length(["abcd"])
+    4
+    >>> get_longest_string_length(["abcd", "h"])
+    4
+    >>> get_longest_string_length(["h", "ghij"])
+    4
+    >>> get_longest_string_length(["abcd", "h", "ghijk"])
+    5
+    >>> from pathlib import Path
+    >>> get_longest_string_length([Path("x")])
+    1
+    >>> get_longest_string_length([Path("xyz")])
+    3
+    """
+    longest_string = 0
+    for string in strings:
+        stringlen = len(str(string))
+        longest_string = stringlen if stringlen > longest_string else longest_string
+    return longest_string
+
+
 path_argument = click.argument(
     "paths",
     type=click.Path(exists=True, path_type=Path, file_okay=False, resolve_path=True),
@@ -113,10 +142,10 @@ def patch(ctx, paths):
         swt = ctx.obj.git.get_subworktree(path)
         if swt is None:
             error(f"The subworktree at {path} does not exist!")
-            return
+            return 1
         if not swt.is_initialized(ctx.obj.git):
             error(f"The subworktree at {path} is not initialized!")
-            return
+            return 1
         info(f"Patching {path}...")
         substitute_tracked_and_commit(swt.git(ctx.obj.git))
 
@@ -138,12 +167,39 @@ def unpatch(ctx, paths, commit_message):
         swt = ctx.obj.git.get_subworktree(path)
         if swt is None:
             error(f"The subworktree at {path} does not exist!")
-            return
+            return 1
         if not swt.is_initialized(ctx.obj.git):
             error(f"The subworktree at {path} is not initialized!")
-            return
+            return 1
         info(f"Unpatching {path}...")
         commit_and_unsubstitute(swt.git(ctx.obj.git), commit_message)
+
+
+@cli.command()
+@path_argument
+@click.pass_context
+def status(ctx, paths):
+    """Print status of SWTs"""
+    if not paths:
+        paths = [swt.path for swt in ctx.obj.git.get_all_subworktrees()]
+    longest_path = get_longest_string_length(paths)
+    for path in paths:
+        swt = ctx.obj.git.get_subworktree(path)
+        if swt is None:
+            click.secho(f"{str(path):<{longest_path}}\tno such SWT")
+            continue
+        if not swt.is_initialized(ctx.obj.git):
+            click.secho(f"{str(path):<{longest_path}}\tnot initialized")
+            continue
+        state = []
+        git = swt.git(ctx.obj.git)
+        if not git.repo.is_dirty():
+            state.append("Clean")
+        else:
+            state.append("Dirty")
+        if is_substituted(git):
+            state.append("Substituted")
+        click.secho(f"{str(path):<{longest_path}}\t{', '.join(state)}")
 
 
 # Helper printers
@@ -367,6 +423,10 @@ def current_date() -> str:
     return datetime.datetime.now().isoformat()
 
 
+def is_substituted(git: GitWrapper):
+    return git.get_commit_subject("HEAD").startswith(COMMIT_SUBSTITUTED)
+
+
 # Main commands
 
 
@@ -403,7 +463,7 @@ def substitute_placeholders(
 def substitute_tracked_placeholders(
     git: GitWrapper, substitutions: Substitutions = None
 ) -> None:
-    if git.get_commit_subject("HEAD").startswith(COMMIT_SUBSTITUTED):
+    if is_substituted(git):
         raise WorkTreeAlreadySubstitutedException()
     try:
         substitute_placeholders(git.all_config_tracked_files(), substitutions)
@@ -422,7 +482,7 @@ def substitute_tracked_and_commit(
 
 
 def commit_and_unsubstitute(git: GitWrapper, msg: str) -> None:
-    if not git.get_commit_subject("HEAD").startswith(COMMIT_SUBSTITUTED):
+    if not is_substituted(git):
         raise WorkTreeNotSubstitutedException()
     if git.repo.head.is_detached:
         raise DetachedHeadException()
