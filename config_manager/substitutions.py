@@ -1,22 +1,15 @@
-
 from __future__ import annotations  # Postponed evaluation PEP-563
 
-from config_manager.gitwrapper import GitWrapper, require_clean_workspace
-import dataclasses
-import datetime
-import json
 import os
-from contextlib import contextmanager
-from functools import wraps
 from pathlib import Path
-from typing import Iterable, Optional, Set, Union
+from typing import Iterable, Union
 
-from config_manager.exceptions import *
-from config_manager.utils import current_date
-
-import click
 import git  # type: ignore
 import jinja2
+
+from config_manager.exceptions import *
+from config_manager.gitwrapper import GitWrapper, require_clean_workspace
+from config_manager.utils import current_date
 
 Substitutions = Union[dict, None]
 
@@ -30,6 +23,7 @@ JINJA_ENVIRONMENT = {
     "comment_end_string": "#>>>",
     "undefined": jinja2.StrictUndefined,  # Throw error on missing values
 }
+
 
 def substitute_placeholders(
     files: Iterable[Path], substitutions: Substitutions = None, environment: dict = {}
@@ -58,6 +52,7 @@ def substitute_placeholders(
                     f.write(rendered)
         except Exception as e:
             raise SubstituteException(file) from e
+
 
 @require_clean_workspace
 def substitute_tracked_placeholders(
@@ -100,6 +95,7 @@ def commit_and_unsubstitute(git: GitWrapper, msg: str) -> None:
         git.repo.active_branch.commit = presub_commit
         git.repo.head.reset(index=False, working_tree=False)
         git.commit(msg)
+
 
 def is_substituted(git: GitWrapper):
     return git.get_commit_subject("HEAD").startswith(COMMIT_SUBSTITUTED)

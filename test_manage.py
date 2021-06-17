@@ -137,14 +137,18 @@ def test_basic_substitution_and_commit(tmp_path, tmp_path_git):
     gitcli.init()
     git = git_wrapper = config_manager.GitWrapper(tmp_path)
     gitcli.commit(allow_empty=True, message="Initial commit")
-    config_manager.substitute_tracked_and_commit(git_wrapper, substitutions=substitutions)
+    config_manager.substitute_tracked_and_commit(
+        git_wrapper, substitutions=substitutions
+    )
     assert get_file_md5sum(test_file) == initial_md5
     # Track file and substitute it for real now
     gitcli.add(test_file)
     commit_message = "Add test file"
     gitcli.commit(message=commit_message)
     assert git.get_commit_subject() == commit_message
-    config_manager.substitute_tracked_and_commit(git_wrapper, substitutions=substitutions)
+    config_manager.substitute_tracked_and_commit(
+        git_wrapper, substitutions=substitutions
+    )
     with test_file.open("r") as f:
         assert f.read() == "PASSWORD: TESTVALUE"
     assert git.is_worktree_clean()
@@ -245,7 +249,8 @@ def test_cli_new_subworktree(tmp_path, tmp_git_wrapper):
     with chdir(tmp_path):
         # First creation should be successful
         result = runner.invoke(
-            config_manager.cli, ["new-subworktree", str(worktree.path), worktree.revision]
+            config_manager.cli,
+            ["new-subworktree", str(worktree.path), worktree.revision],
         )
         if result.exception:
             raise result.exception
@@ -253,7 +258,8 @@ def test_cli_new_subworktree(tmp_path, tmp_git_wrapper):
 
         # Second creation should fail, as it exists already
         result = runner.invoke(
-            config_manager.cli, ["new-subworktree", str(worktree.path), worktree.revision]
+            config_manager.cli,
+            ["new-subworktree", str(worktree.path), worktree.revision],
         )
         assert isinstance(result.exception, SystemExit)
 
@@ -262,7 +268,9 @@ def test_cli_new_subworktree(tmp_path, tmp_git_wrapper):
 def added_worktree(tmp_git_wrapper):
     git = tmp_git_wrapper
     assert set(git.get_all_subworktrees()) == set()
-    worktree = config_manager.WorkTree(path="worktree_path", revision="worktree_revision")
+    worktree = config_manager.WorkTree(
+        path="worktree_path", revision="worktree_revision"
+    )
     git.create_detached_empty_branch(worktree.revision, "Initial commit")
     git.add_subworktree(worktree)
     assert set(git.get_all_subworktrees()) == set((worktree,))

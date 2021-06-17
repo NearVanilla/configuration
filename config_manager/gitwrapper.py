@@ -4,19 +4,16 @@
 from __future__ import annotations  # Postponed evaluation PEP-563
 
 import dataclasses
-import datetime
 import json
-import os
 from contextlib import contextmanager
 from functools import wraps
 from pathlib import Path
 from typing import Iterable, Optional, Set, Union
 
-from config_manager.exceptions import *
-
-import click
 import git  # type: ignore
 import jinja2
+
+from config_manager.exceptions import *
 
 Substitutions = Union[dict, None]
 
@@ -30,7 +27,6 @@ JINJA_ENVIRONMENT = {
     "comment_end_string": "#>>>",
     "undefined": jinja2.StrictUndefined,  # Throw error on missing values
 }
-
 
 
 @dataclasses.dataclass(frozen=True)
@@ -79,6 +75,7 @@ def changed_reset_head(repo: git.Repo, head: git.Head):
     finally:
         repo.head.reference = previous_ref
         repo.head.reset()
+
 
 def require_clean_workspace(fun):
     @wraps(fun)
@@ -185,4 +182,3 @@ class GitWrapper:
             # https://stackoverflow.com/questions/47078961/create-an-orphan-branch-without-using-the-orphan-flag
             # https://github.com/gitpython-developers/GitPython/issues/633
             self._repo.git.commit("--message", message, "--allow-empty")
-

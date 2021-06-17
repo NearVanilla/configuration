@@ -3,23 +3,19 @@
 
 from __future__ import annotations  # Postponed evaluation PEP-563
 
-import dataclasses
-import datetime
-import json
 import os
-from contextlib import contextmanager
-from functools import wraps
 from pathlib import Path
-from typing import Iterable, Optional, Set, Union
 
 import click
-import git  # type: ignore
-import jinja2
 
+from config_manager.cli_utils import error, info, is_dir_empty
 from config_manager.gitwrapper import GitWrapper, WorkTree
-from config_manager.cli_utils import is_dir_empty, info, error
-from config_manager.substitutions import substitute_tracked_and_commit, commit_and_unsubstitute
+from config_manager.substitutions import (
+    commit_and_unsubstitute,
+    substitute_tracked_and_commit,
+)
 from config_manager.utils import current_date
+
 
 class ConfContext:
     def __init__(self):
@@ -43,7 +39,6 @@ def validate_path_is_subworktree(ctx, param, value):
         if ctx.obj.git.get_subworktree(Path(path)) is None:
             raise click.BadParameter(f"no such subworktree with path {path}")
     return value
-
 
 
 path_argument = click.argument(
@@ -160,11 +155,12 @@ def status(ctx, paths):
             state.append("Substituted")
         click.secho(f"{str(path):<{longest_path}}\t{', '.join(state)}")
 
-#@cli.group("plugin")
-#def plugin_cmd():
+
+# @cli.group("plugin")
+# def plugin_cmd():
 #    """Manage plugins"""
 #
-#plugin_cmd.add_command()
+# plugin_cmd.add_command()
 
 
 # Main :)

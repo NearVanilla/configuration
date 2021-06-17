@@ -2,7 +2,9 @@
 
 from pathlib import Path
 from typing import Iterable
+
 import click
+
 
 def is_dir_empty(path: Path) -> bool:
     """Checks whether directory is empty"""
@@ -40,6 +42,7 @@ def get_longest_string_length(strings: Iterable[str]) -> int:
 
 # Helper printers
 
+
 def info(msg: str) -> None:
     click.secho(f"INFO: {msg}", fg="green", err=True)
 
@@ -51,4 +54,3 @@ def error(msg: str) -> None:
 def debug(msg: str) -> None:
     # TODO: Check if should run debug
     click.secho(f"DEBUG: {msg}", fg="cyan", err=True)
-

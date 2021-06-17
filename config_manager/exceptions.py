@@ -1,5 +1,6 @@
 from pathlib import Path
 
+
 class ManageException(Exception):
     pass
 
@@ -40,5 +41,3 @@ class DetachedHeadException(ManageException):
         super().__init__(
             "Head is detached from any branch, where it's required not to be so"
         )
-
-
