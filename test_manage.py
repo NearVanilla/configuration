@@ -114,7 +114,9 @@ def test_no_unneeded_substitution(tmp_path):
         file_md5 = get_file_md5sum(file)
         server_manager.config.substitute_placeholders([file], substitutions={})
         assert get_file_md5sum(file) == file_md5
-        server_manager.config.substitute_placeholders([file], substitutions=substitutions)
+        server_manager.config.substitute_placeholders(
+            [file], substitutions=substitutions
+        )
         assert get_file_md5sum(file) == file_md5
 
 
@@ -329,7 +331,9 @@ def test_substitute_and_undo_no_changes(tmp_path_git, tmp_git_wrapper):
     firstcommit = git.repo.commit("HEAD")
     assert not git.repo.head.is_detached
     firstbranch = git.repo.active_branch
-    server_manager.config.substitute_tracked_and_commit(git, substitutions=substitutions)
+    server_manager.config.substitute_tracked_and_commit(
+        git, substitutions=substitutions
+    )
     assert git.repo.commit("HEAD") != firstcommit
     assert not git.repo.head.is_detached
     assert git.repo.active_branch == firstbranch
@@ -352,7 +356,9 @@ def test_substitute_and_undo_some_changes(tmp_path_git, tmp_git_wrapper):
     firstcommit = git.repo.commit("HEAD")
     firstbranch = git.repo.active_branch
     assert not git.repo.head.is_detached
-    server_manager.config.substitute_tracked_and_commit(git, substitutions=substitutions)
+    server_manager.config.substitute_tracked_and_commit(
+        git, substitutions=substitutions
+    )
     assert git.repo.commit("HEAD") != firstcommit
     assert not git.repo.head.is_detached
     assert git.repo.active_branch == firstbranch
