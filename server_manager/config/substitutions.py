@@ -7,9 +7,9 @@ from typing import Iterable, Union
 import git  # type: ignore
 import jinja2
 
-from config_manager.exceptions import *
-from config_manager.gitwrapper import GitWrapper, require_clean_workspace
-from config_manager.utils import current_date
+from server_manager.config.exceptions import *
+from server_manager.config.gitwrapper import GitWrapper, require_clean_workspace
+from server_manager.config.utils import current_date
 
 Substitutions = Union[dict, None]
 

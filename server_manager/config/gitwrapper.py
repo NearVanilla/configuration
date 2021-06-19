@@ -13,7 +13,7 @@ from typing import Iterable, Optional, Set, Union
 import git  # type: ignore
 import jinja2
 
-from config_manager.exceptions import *
+from server_manager.config.exceptions import *
 
 Substitutions = Union[dict, None]
 

@@ -8,13 +8,13 @@ from pathlib import Path
 
 import click
 
-from config_manager.cli_utils import error, info, is_dir_empty
-from config_manager.gitwrapper import GitWrapper, WorkTree
-from config_manager.substitutions import (
+from server_manager.config.cli_utils import error, info, is_dir_empty
+from server_manager.config.gitwrapper import GitWrapper, WorkTree
+from server_manager.config.substitutions import (
     commit_and_unsubstitute,
     substitute_tracked_and_commit,
 )
-from config_manager.utils import current_date
+from server_manager.config.utils import current_date
 
 
 class ConfContext:

@@ -7,7 +7,7 @@ import pytest
 import sh  # type: ignore
 from click.testing import CliRunner
 
-import config_manager
+import server_manager.config
 
 
 # Helpers
@@ -23,11 +23,11 @@ def tmp_path_git(tmp_path_sh):
 
 
 @pytest.fixture
-def tmp_git_wrapper(tmp_path, tmp_path_git) -> config_manager.GitWrapper:
+def tmp_git_wrapper(tmp_path, tmp_path_git) -> server_manager.config.GitWrapper:
     gitcli = tmp_path_git
     gitcli.init()
     gitcli.commit(allow_empty=True, message="initial message")
-    return config_manager.GitWrapper(tmp_path)
+    return server_manager.config.GitWrapper(tmp_path)
 
 
 @contextmanager
@@ -53,10 +53,10 @@ def get_file_md5sum(file_path: Path) -> str:
 
 # Tests
 def test_is_empty_dir(tmp_path):
-    assert config_manager.cli_utils.is_dir_empty(tmp_path)
+    assert server_manager.config.cli_utils.is_dir_empty(tmp_path)
     file = tmp_path / "testfile"
     file.touch()
-    assert not config_manager.cli_utils.is_dir_empty(tmp_path)
+    assert not server_manager.config.cli_utils.is_dir_empty(tmp_path)
 
 
 def test_getting_correct_commit(tmp_path, tmp_path_git):
@@ -64,7 +64,7 @@ def test_getting_correct_commit(tmp_path, tmp_path_git):
     commit_msg = "First commit"
     gitcli.init()
     gitcli.commit(message=commit_msg, allow_empty=True)
-    git = config_manager.GitWrapper(tmp_path)
+    git = server_manager.config.GitWrapper(tmp_path)
     assert git.get_commit_subject("HEAD") == commit_msg
     assert git.get_commit_subject("master") == commit_msg
 
@@ -73,7 +73,7 @@ def test_dirty_workspace_detection(tmp_path, tmp_path_git):
     test_file = tmp_path / "test_file"
     gitcli = tmp_path_git
     gitcli.init()
-    git = config_manager.GitWrapper(tmp_path)
+    git = server_manager.config.GitWrapper(tmp_path)
     test_file.touch()
     gitcli.add(test_file)
     gitcli.commit(message="Test Commit")
@@ -89,7 +89,7 @@ def test_tracked_files_finding(tmp_path, tmp_path_git):
     """Check GitWrapper ability to find tracked files, without finding untracked ones"""
     gitcli = tmp_path_git
     gitcli.init()
-    git = config_manager.GitWrapper(tmp_path)
+    git = server_manager.config.GitWrapper(tmp_path)
     gitcli.commit(allow_empty=True, message="Initial commit")
     assert len(git.all_config_tracked_files()) == 0
     file_names = ("one", "two", "three")
@@ -112,9 +112,9 @@ def test_no_unneeded_substitution(tmp_path):
     create_file_with_content(file_without_placeholders, "This is just a random string")
     for file in (empty_file, file_without_placeholders):
         file_md5 = get_file_md5sum(file)
-        config_manager.substitute_placeholders([file], substitutions={})
+        server_manager.config.substitute_placeholders([file], substitutions={})
         assert get_file_md5sum(file) == file_md5
-        config_manager.substitute_placeholders([file], substitutions=substitutions)
+        server_manager.config.substitute_placeholders([file], substitutions=substitutions)
         assert get_file_md5sum(file) == file_md5
 
 
@@ -122,7 +122,7 @@ def test_basic_placeholder_substitution(tmp_path):
     file = tmp_path / "placeholdered_file.txt"
     substitutions = {"TESTKEY": "TESTVALUE"}
     create_file_with_content(file, "PASSWORD: {{ TESTKEY }}")
-    config_manager.substitute_placeholders([file], substitutions=substitutions)
+    server_manager.config.substitute_placeholders([file], substitutions=substitutions)
     with file.open("r") as f:
         assert f.read() == "PASSWORD: TESTVALUE"
 
@@ -135,9 +135,9 @@ def test_basic_substitution_and_commit(tmp_path, tmp_path_git):
     initial_md5 = get_file_md5sum(test_file)
     # Create worktree, but the file is not tracked
     gitcli.init()
-    git = git_wrapper = config_manager.GitWrapper(tmp_path)
+    git = git_wrapper = server_manager.config.GitWrapper(tmp_path)
     gitcli.commit(allow_empty=True, message="Initial commit")
-    config_manager.substitute_tracked_and_commit(
+    server_manager.config.substitute_tracked_and_commit(
         git_wrapper, substitutions=substitutions
     )
     assert get_file_md5sum(test_file) == initial_md5
@@ -146,7 +146,7 @@ def test_basic_substitution_and_commit(tmp_path, tmp_path_git):
     commit_message = "Add test file"
     gitcli.commit(message=commit_message)
     assert git.get_commit_subject() == commit_message
-    config_manager.substitute_tracked_and_commit(
+    server_manager.config.substitute_tracked_and_commit(
         git_wrapper, substitutions=substitutions
     )
     with test_file.open("r") as f:
@@ -159,7 +159,7 @@ def test_list_paths_simple(tmp_path, tmp_path_git):
     gitcli = tmp_path_git
     gitcli.init()
     gitcli.commit(message="First commit", allow_empty=True)
-    git = config_manager.GitWrapper(tmp_path)
+    git = server_manager.config.GitWrapper(tmp_path)
     assert set(git.list_tracked_files()) == set()
     empty_file = tmp_path / "empty_file"
     empty_file.touch()
@@ -200,7 +200,7 @@ def test_list_paths_with_submodules(tmp_path):
     maingit.submodule.add(submodule_path)
     maingit.commit(message="Main Commit")
 
-    git = config_manager.GitWrapper(main_repo_path)
+    git = server_manager.config.GitWrapper(main_repo_path)
     assert set(git.list_tracked_files()) == {main_file, main_repo_path / ".gitmodules"}
 
 
@@ -208,10 +208,10 @@ def test_subworktree_basic(tmp_path):
     # Adding/listing
     maingit = sh.git.bake(_cwd=tmp_path)
     maingit.init()
-    git = config_manager.GitWrapper(tmp_path)
+    git = server_manager.config.GitWrapper(tmp_path)
     assert set(git.get_all_subworktrees()) == set()
-    worktree = config_manager.WorkTree(path="my_path", revision="my_ref")
-    with pytest.raises(config_manager.exceptions.RefNotExistsError):
+    worktree = server_manager.config.WorkTree(path="my_path", revision="my_ref")
+    with pytest.raises(server_manager.config.exceptions.RefNotExistsError):
         git.add_subworktree(worktree)
     # Init
     worktreepath = tmp_path / worktree.path
@@ -244,12 +244,12 @@ def test_cli_new_subworktree(tmp_path, tmp_git_wrapper):
     git = tmp_git_wrapper
     assert set(git.get_all_subworktrees()) == set()
 
-    worktree = config_manager.WorkTree(path="my_path", revision="my_ref")
+    worktree = server_manager.config.WorkTree(path="my_path", revision="my_ref")
     runner = CliRunner()
     with chdir(tmp_path):
         # First creation should be successful
         result = runner.invoke(
-            config_manager.cli,
+            server_manager.config.cli,
             ["new-subworktree", str(worktree.path), worktree.revision],
         )
         if result.exception:
@@ -258,7 +258,7 @@ def test_cli_new_subworktree(tmp_path, tmp_git_wrapper):
 
         # Second creation should fail, as it exists already
         result = runner.invoke(
-            config_manager.cli,
+            server_manager.config.cli,
             ["new-subworktree", str(worktree.path), worktree.revision],
         )
         assert isinstance(result.exception, SystemExit)
@@ -268,7 +268,7 @@ def test_cli_new_subworktree(tmp_path, tmp_git_wrapper):
 def added_worktree(tmp_git_wrapper):
     git = tmp_git_wrapper
     assert set(git.get_all_subworktrees()) == set()
-    worktree = config_manager.WorkTree(
+    worktree = server_manager.config.WorkTree(
         path="worktree_path", revision="worktree_revision"
     )
     git.create_detached_empty_branch(worktree.revision, "Initial commit")
@@ -281,11 +281,11 @@ def test_cli_init_nonexistent_and_initialized(tmp_git_wrapper, added_worktree):
     git = tmp_git_wrapper
     runner = CliRunner()
     with chdir(git.path):
-        result = runner.invoke(config_manager.cli, ["init"])
+        result = runner.invoke(server_manager.config.cli, ["init"])
         if result.exception:
             raise result.exception
         assert "Initializing" in result.stdout
-        result = runner.invoke(config_manager.cli, ["init"])
+        result = runner.invoke(server_manager.config.cli, ["init"])
         if result.exception:
             raise result.exception
         assert "Skipping" in result.stdout
@@ -297,7 +297,7 @@ def test_cli_init_empty_dir(tmp_git_wrapper, added_worktree):
     runner = CliRunner()
     with chdir(git.path):
         worktree.path.mkdir()
-        result = runner.invoke(config_manager.cli, ["init"])
+        result = runner.invoke(server_manager.config.cli, ["init"])
         if result.exception:
             raise result.exception
         assert "Initializing" in result.stdout
@@ -310,7 +310,7 @@ def test_cli_init_dirty_dir(tmp_git_wrapper, added_worktree):
     with chdir(git.path):
         worktree.path.mkdir()
         (worktree.path / "random_file").touch()
-        result = runner.invoke(config_manager.cli, ["init"])
+        result = runner.invoke(server_manager.config.cli, ["init"])
         with pytest.raises(SystemExit):
             if result.exception:
                 raise result.exception
@@ -329,11 +329,11 @@ def test_substitute_and_undo_no_changes(tmp_path_git, tmp_git_wrapper):
     firstcommit = git.repo.commit("HEAD")
     assert not git.repo.head.is_detached
     firstbranch = git.repo.active_branch
-    config_manager.substitute_tracked_and_commit(git, substitutions=substitutions)
+    server_manager.config.substitute_tracked_and_commit(git, substitutions=substitutions)
     assert git.repo.commit("HEAD") != firstcommit
     assert not git.repo.head.is_detached
     assert git.repo.active_branch == firstbranch
-    config_manager.commit_and_unsubstitute(git, msg="Should not be used")
+    server_manager.config.commit_and_unsubstitute(git, msg="Should not be used")
     assert git.repo.commit("HEAD") == firstcommit
     assert not git.repo.head.is_detached
     assert git.repo.active_branch == firstbranch
@@ -352,7 +352,7 @@ def test_substitute_and_undo_some_changes(tmp_path_git, tmp_git_wrapper):
     firstcommit = git.repo.commit("HEAD")
     firstbranch = git.repo.active_branch
     assert not git.repo.head.is_detached
-    config_manager.substitute_tracked_and_commit(git, substitutions=substitutions)
+    server_manager.config.substitute_tracked_and_commit(git, substitutions=substitutions)
     assert git.repo.commit("HEAD") != firstcommit
     assert not git.repo.head.is_detached
     assert git.repo.active_branch == firstbranch
@@ -361,7 +361,7 @@ def test_substitute_and_undo_some_changes(tmp_path_git, tmp_git_wrapper):
     content[-1] = "HERE=AFTER"
     with file.open("w") as f:
         f.write("".join(content))
-    config_manager.commit_and_unsubstitute(git, msg=unsubmsg)
+    server_manager.config.commit_and_unsubstitute(git, msg=unsubmsg)
     assert git.get_commit_subject("HEAD") == unsubmsg
     assert git.repo.commit("HEAD") != firstcommit
     assert git.repo.commit("HEAD^") == firstcommit
