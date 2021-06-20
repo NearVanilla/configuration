@@ -4,7 +4,7 @@
 import click
 
 from server_manager.config import cli as config_cli
-from server_manager.plugins.cli import cli as plugins_cli
+from server_manager.synchronize.cli import cli as synchronize_cli
 
 
 @click.group()
@@ -13,7 +13,7 @@ def cli():
 
 
 cli.add_command(config_cli, name="config")
-cli.add_command(plugins_cli, name="plugin")
+cli.add_command(synchronize_cli, name="synchronize")
 
 if __name__ == "__main__":
     cli()

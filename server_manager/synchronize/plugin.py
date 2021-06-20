@@ -9,7 +9,7 @@ from zipfile import ZipFile
 
 import yaml
 
-from server_manager.plugins.exceptions import *
+from server_manager.synchronize.exceptions import *
 
 
 @enum.unique
