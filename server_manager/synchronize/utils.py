@@ -6,7 +6,7 @@ import hashlib
 from pathlib import Path
 from typing import Any
 
-from server_manager.synchronize.plugin import PluginInfo, get_plugin_info
+from server_manager.plugin import PluginInfo, get_plugin_info
 
 
 def plugin_to_b2_name(plugin: PluginInfo) -> str:

@@ -11,7 +11,7 @@ from typing import Union
 import b2sdk  # type: ignore
 from b2sdk.v1 import B2Api, Bucket, FileVersionInfo, InMemoryAccountInfo  # type: ignore
 
-from server_manager.synchronize.plugin import PluginInfo, get_plugin_info
+from server_manager.plugin import PluginInfo, get_plugin_info
 from server_manager.synchronize.utils import sha1
 
 Pathy = Union[Path, str]
