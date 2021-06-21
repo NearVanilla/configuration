@@ -38,38 +38,67 @@ class JarConfig:
         plugins = [PluginInfo.from_data(plugin, platform) for plugin in plugin_list]
         return cls(platform, plugins)
 
+    def save(self, config_file: Path) -> None:
+        data = {
+            "platform": self.platform.name.title(),
+            "plugins": [
+                {
+                    "name": plugin.name,
+                    "version": plugin.version,
+                }
+                for plugin in self.plugins
+            ],
+        }
+        with config_file.open("w") as file:
+            yaml.dump(data, file)
 
-@dataclasses.dataclass(frozen=True)
-class CliContext:
-    root_dir: Path
-    config: JarConfig
+
+def get_config(path: Path) -> JarConfig:
+    config_file = get_config_path(path)
+    if not config_file.exists():
+        click.echo("Config file does not exist!")
+        raise click.BadArgumentUsage("Config file does not exist!")
+    return JarConfig.load_config(config_file)
 
 
-@click.group()
-@click.argument(
+def get_config_path(path: Path) -> Path:
+    return path / "jars.yaml"
+
+
+def get_plugin_dir(path: Path, plugin: PluginInfo) -> Path:
+    return path / "plugins" / f"{plugin.name}.jar"
+
+
+server_path_argument = click.argument(
     "path",
     type=click.Path(exists=True, path_type=Path, file_okay=False, resolve_path=True),
     default=Path(os.getcwd()),
 )
-@click.pass_context
-def cli(ctx, path):
+updated_plugin_dir_option = click.option(
+    "--plugin-dir",
+    "--plugins",
+    "-p",
+    type=click.Path(exists=True, path_type=Path, file_okay=False, resolve_path=True),
+    default=Path(os.getcwd()) / "plugins",
+    help="Path to where updated plugins are.",
+)
+
+
+@click.group()
+def cli():
     """Manage server jars"""
-    config_file = path / "jars.yaml"
-    if not config_file.exists():
-        click.echo("Config file does not exist!")
-        return 1
-    ctx.obj = CliContext(root_dir=path, config=JarConfig.load_config(config_file))
 
 
 @cli.command()
-@click.pass_context
-def status(ctx):
+@server_path_argument
+def status(path: Path):
     """Check status of jars"""
+    config = get_config(path)
     longest_plugin_name = get_longest_string_length(
-        plugin.name for plugin in ctx.obj.config.plugins
+        plugin.name for plugin in config.plugins
     )
-    for plugin in ctx.obj.config.plugins:
-        local_file = ctx.obj.root_dir / "plugins" / f"{plugin.name}.jar"
+    for plugin in config.plugins:
+        local_file = get_plugin_dir(path, plugin)
         if not local_file.exists():
             click.echo(f"{plugin.name:<{longest_plugin_name}}\tMISSING")
             continue
@@ -79,13 +108,13 @@ def status(ctx):
 
 
 @cli.command()
-@click.pass_context
-def download(ctx):
+@server_path_argument
+def download(path: Path):
     """Download updates for all outdated and missing plugins"""
-    plugins_dir = ctx.obj.root_dir / "plugins"
+    config = get_config(path)
     plugins_to_update = []
-    for plugin in ctx.obj.config.plugins:
-        local_file = plugins_dir / f"{plugin.name}.jar"
+    for plugin in config.plugins:
+        local_file = get_plugin_dir(path, plugin)
         if not local_file.exists():
             plugins_to_update.append(plugin)
             continue
@@ -100,8 +129,79 @@ def download(ctx):
         item_show_func=lambda x: str(x.name) if x else "",
     ) as bar:
         for plugin in bar:
-            local_file = plugins_dir / f"{plugin.name}.jar"
+            local_file = get_plugin_dir(path, plugin)
             download_plugin(plugin, local_file)
+
+
+@cli.command()
+@server_path_argument
+@updated_plugin_dir_option
+def update(path: Path, plugin_dir: Path):
+    """Update config file with entries from updated plugin dir"""
+    config = get_config(path)
+    new_plugins = []
+    for plugin in config.plugins:
+        new_local_file = plugin_dir / f"{plugin.name}.jar"
+        if not new_local_file.exists():
+            click.echo(f"Unable to find updated plugin for {plugin.name}. Skipping.")
+            new_plugins.append(plugin)
+            continue
+        new_plugin = get_plugin_info(new_local_file)
+        compare_status = plugin.compare_to(new_plugin)
+        if compare_status == PluginComparison.NEWER:
+            click.echo(
+                f"WARNING: {plugin.name} version {plugin.version} is newer than {new_plugin.version}. Skipping."
+            )
+            new_plugins.append(plugin)
+            continue
+        if compare_status == PluginComparison.OUTDATED:
+            click.echo(
+                f"Updating {plugin.name} from version {plugin.version} to {new_plugin.version}"
+            )
+        new_plugins.append(new_plugin)
+    config_file = get_config_path(path)
+    config.save(config_file)
+
+
+@cli.command()
+@server_path_argument
+@click.argument(
+    "platform",
+    type=click.Choice([entry.name for entry in PluginPlatform]),
+    callback=lambda c, p, v: PluginPlatform[v.upper()] if v else None,
+    default=PluginPlatform.PAPER,
+)
+def new_config(path: Path, platform: PluginPlatform):
+    config_file = get_config_path(path)
+    if config_file.exists():
+        click.echo("Config file exists already - aborting.")
+        return 1
+    config = JarConfig(platform=platform, plugins=[])
+    config.save(config_file)
+    return 0
+
+
+@cli.command()
+@server_path_argument
+@click.argument(
+    "plugins",
+    type=click.Path(
+        exists=True, path_type=Path, file_okay=True, dir_okay=False, resolve_path=True
+    ),
+    nargs=-1,  # Eat all args
+)
+def add_plugins(path: Path, plugins: List[Path]):
+    config = get_config(path)
+    new_plugins = [get_plugin_info(plugin) for plugin in plugins]
+    for new_plugin in new_plugins:
+        if any(
+            new_plugin.name == existing_plugin.name
+            for existing_plugin in config.plugins
+        ):
+            click.echo(f"Can't add already exisitng plugin {new_plugin.name}")
+            return 1
+    config.plugins.extend(new_plugins)
+    config.save(get_config_path(path))
 
 
 if __name__ == "__main__":
