@@ -8,7 +8,12 @@ from pathlib import Path
 
 import click
 
-from server_manager.config.cli_utils import error, info, is_dir_empty
+from server_manager.cli_utils import (
+    error,
+    get_longest_string_length,
+    info,
+    is_dir_empty,
+)
 from server_manager.config.gitwrapper import GitWrapper, WorkTree
 from server_manager.config.substitutions import (
     commit_and_unsubstitute,
@@ -41,7 +46,7 @@ def validate_path_is_subworktree(ctx, param, value):
     return value
 
 
-path_argument = click.argument(
+paths_argument = click.argument(
     "paths",
     type=click.Path(exists=True, path_type=Path, file_okay=False, resolve_path=True),
     callback=validate_path_is_subworktree,
@@ -88,7 +93,7 @@ def init(ctx):
 
 
 @cli.command()
-@path_argument
+@paths_argument
 @click.pass_context
 def patch(ctx, paths):
     """Patch the config code, creating new commit"""
@@ -113,7 +118,7 @@ def patch(ctx, paths):
     default=lambda: f"Update live config {current_date()}",
     show_default="Update live config (current_date)",
 )
-@path_argument
+@paths_argument
 @click.pass_context
 def unpatch(ctx, paths, commit_message):
     """Revert previous config patch, applying new changes first"""
@@ -130,7 +135,7 @@ def unpatch(ctx, paths, commit_message):
 
 
 @cli.command()
-@path_argument
+@paths_argument
 @click.pass_context
 def status(ctx, paths):
     """Print status of SWTs"""
@@ -154,13 +159,6 @@ def status(ctx, paths):
         if is_substituted(git):
             state.append("Substituted")
         click.secho(f"{str(path):<{longest_path}}\t{', '.join(state)}")
-
-
-# @cli.group("plugin")
-# def plugin_cmd():
-#    """Manage plugins"""
-#
-# plugin_cmd.add_command()
 
 
 # Main :)

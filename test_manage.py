@@ -53,10 +53,10 @@ def get_file_md5sum(file_path: Path) -> str:
 
 # Tests
 def test_is_empty_dir(tmp_path):
-    assert server_manager.config.cli_utils.is_dir_empty(tmp_path)
+    assert server_manager.cli_utils.is_dir_empty(tmp_path)
     file = tmp_path / "testfile"
     file.touch()
-    assert not server_manager.config.cli_utils.is_dir_empty(tmp_path)
+    assert not server_manager.cli_utils.is_dir_empty(tmp_path)
 
 
 def test_getting_correct_commit(tmp_path, tmp_path_git):
