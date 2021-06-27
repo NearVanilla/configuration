@@ -15,3 +15,33 @@ plugins:
 - name: Luckperms-Bukkit
   resource: https://ci.lucko.me/job/LuckPerms
   type: jenkins
+- name: Chunky
+  prefix: Chunky
+  resource: '81534'
+  type: spiget
+- name: GFly
+  resource: '70106'
+  type: spiget
+- name: GSit
+  resource: '62325'
+  type: spiget
+- name: Hat
+  prefix: Hat
+  resource: '33980'
+  type: spiget
+- name: Prometheus-Exporter
+  prefix: minecraft-prometheus-exporter
+  resource: sladkoff/minecraft-prometheus-exporter
+  type: github
+- name: Spark
+  prefix: spark-universal/build/libs/spark.jar
+  resource: https://ci.lucko.me/job/spark
+  type: jenkins
+- name: Vault
+  prefix: Vault
+  resource: MilkBowl/Vault
+  type: github
+- name: Worldborder
+  prefix: Worldborder
+  resource: Puremin0rez/WorldBorder
+  type: github

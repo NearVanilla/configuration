@@ -24,6 +24,7 @@ class PluginComparison(enum.Enum):
     OUTDATED = enum.auto()
     UP_TO_DATE = enum.auto()
     NEWER = enum.auto()
+    CHANGED = enum.auto()
 
 
 @dataclasses.dataclass(frozen=True)
@@ -35,9 +36,11 @@ class PluginInfo:
 
     @classmethod
     def from_data(cls, data: dict, platform: PluginPlatform) -> PluginInfo:
-        return cls(
-            name=data["name"], version=data["version"], platform=platform, raw=data
-        )
+        version = data["version"]
+        # Handle dumb plugins specifying version as array
+        if isinstance(version, list) and len(version) == 1:
+            version = version[0]
+        return cls(name=data["name"], version=version, platform=platform, raw=data)
 
     def compare_to(self, other: PluginInfo) -> PluginComparison:
         """Returns whether this plugin is older, newer or up to date to the other one"""
@@ -48,6 +51,9 @@ class PluginInfo:
         myversion = self._versiontuple(self.version)
         otherversion = self._versiontuple(other.version)
         if myversion == otherversion:
+            if self.version != other.version:
+                # Main versions match, but additional stuff not
+                return PluginComparison.CHANGED
             return PluginComparison.UP_TO_DATE
         elif myversion < otherversion:
             return PluginComparison.OUTDATED
@@ -60,7 +66,10 @@ class PluginInfo:
 
     @staticmethod
     def _versiontuple(version: str) -> tuple[int, ...]:
-        # TODO: Don't assume version are int only
+        # Get rid of additional crap
+        for separator in ("+", "-"):
+            version = version.split(separator)[0]
+        # TODO: Don't assume they are ints
         return tuple(int(i) for i in version.split("."))
 
 

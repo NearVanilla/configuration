@@ -51,7 +51,7 @@ def status(ctx):
     bucket = b2_bucket_from_env()
     for file in ctx.obj.plugin_dir.glob("*.jar"):
         filestatus = b2_file_status(bucket, file, ctx.obj.remote_prefix)
-        click.echo(f"File {file.relative_to(Path('.').resolve())} is {filestatus.name}")
+        click.echo(f"File {file.name} is {filestatus.name}")
 
 
 @cli.command()

@@ -121,7 +121,7 @@ def download(path: Path):
             continue
         local_info = get_plugin_info(local_file)
         plugin_status = plugin.compare_to(local_info)
-        if plugin_status == PluginComparison.OUTDATED:
+        if plugin_status in (PluginComparison.OUTDATED, PluginComparison.CHANGED):
             plugins_to_update.append(plugin)
             continue
         assert plugin_status == PluginComparison.UP_TO_DATE

@@ -4,7 +4,7 @@ from pathlib import Path
 from requests import Response, Session
 
 from server_manager.plugin import PluginInfo
-from server_manager.utils import plugin_to_b2_name
+from server_manager.utils import plugin_to_b2_name, sha1
 
 BASE_URL = "https://files.nearvanilla.com/plugins"
 SESSION = Session()
@@ -32,13 +32,12 @@ def download_plugin(plugin: PluginInfo, destination: Path) -> None:
     response = SESSION.get(url)
     response.raise_for_status()
     response_to_file(response, destination)
+    # TODO: Throw a proper exception
+    assert sha1(destination) == get_remote_plugin_info_from_response(response).sha1
 
 
-def get_remote_plugin_info(plugin: PluginInfo) -> RemotePluginInfo:
-    """Download plugin and put it in destination"""
-    url = f"{BASE_URL}/{plugin_to_b2_name(plugin)}"
-    response = SESSION.head(url)
-    response.raise_for_status()
+def get_remote_plugin_info_from_response(response: Response) -> RemotePluginInfo:
+    """Get plugin info from response"""
     headers = response.headers
     return RemotePluginInfo(
         size=int(headers["Content-Length"]),
@@ -46,3 +45,11 @@ def get_remote_plugin_info(plugin: PluginInfo) -> RemotePluginInfo:
         filename=headers["x-bz-file-name"],
         upload_timestamp=int(headers["X-Bz-Upload-Timestamp"]),
     )
+
+
+def get_remote_plugin_info(plugin: PluginInfo) -> RemotePluginInfo:
+    """Get plugin info from remote"""
+    url = f"{BASE_URL}/{plugin_to_b2_name(plugin)}"
+    response = SESSION.head(url)
+    response.raise_for_status()
+    return get_remote_plugin_info_from_response(response)
