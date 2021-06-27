@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import dataclasses
 import enum
+import json
 from pathlib import Path
 from zipfile import ZipFile
 
@@ -91,7 +92,7 @@ def get_velocity_plugin_info(file: Path) -> PluginInfo:
                 f"{file} does not contain {datafile}!"
             ) from e
         with zipfile.open(datafile) as plug:
-            data = yaml.safe_load(plug)
+            data = json.load(plug)
         return PluginInfo.from_data(data=data, platform=PluginPlatform.VELOCITY)
 
 

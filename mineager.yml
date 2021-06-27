@@ -1,0 +1,17 @@
+plugins:
+- name: DiscordSRV
+  resource: DiscordSRV/DiscordSRV
+  type: github
+- name: ServerUtils
+  resource: FrankHeijden/ServerUtils
+  type: github
+- name: OpenInv
+  resource: lishid/OpenInv
+  type: github
+- name: Catalyst
+  prefix: Catalyst-Velocity
+  resource: AnvilPowered/Catalyst
+  type: github
+- name: Luckperms-Bukkit
+  resource: https://ci.lucko.me/job/LuckPerms
+  type: jenkins

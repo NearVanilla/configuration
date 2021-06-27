@@ -113,6 +113,7 @@ def download(path: Path):
     """Download updates for all outdated and missing plugins"""
     config = get_config(path)
     plugins_to_update = []
+    # Check if local version differs
     for plugin in config.plugins:
         local_file = get_plugin_dir(path, plugin)
         if not local_file.exists():
@@ -122,6 +123,9 @@ def download(path: Path):
         plugin_status = plugin.compare_to(local_info)
         if plugin_status == PluginComparison.OUTDATED:
             plugins_to_update.append(plugin)
+            continue
+        assert plugin_status == PluginComparison.UP_TO_DATE
+        # TODO: Confirm SHA1 to check for plugins which are in snapshots
 
     with click.progressbar(
         plugins_to_update,
@@ -169,9 +173,10 @@ def update(path: Path, plugin_dir: Path):
     "platform",
     type=click.Choice([entry.name for entry in PluginPlatform]),
     callback=lambda c, p, v: PluginPlatform[v.upper()] if v else None,
-    default=PluginPlatform.PAPER,
+    default=PluginPlatform.PAPER.name,
 )
 def new_config(path: Path, platform: PluginPlatform):
+    """Create new config for platform"""
     config_file = get_config_path(path)
     if config_file.exists():
         click.echo("Config file exists already - aborting.")
@@ -191,6 +196,7 @@ def new_config(path: Path, platform: PluginPlatform):
     nargs=-1,  # Eat all args
 )
 def add_plugins(path: Path, plugins: List[Path]):
+    """Add plugins to the config"""
     config = get_config(path)
     new_plugins = [get_plugin_info(plugin) for plugin in plugins]
     for new_plugin in new_plugins:

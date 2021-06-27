@@ -11,8 +11,7 @@ from typing import Union
 import b2sdk  # type: ignore
 from b2sdk.v1 import B2Api, Bucket, FileVersionInfo, InMemoryAccountInfo  # type: ignore
 
-from server_manager.plugin import PluginInfo, get_plugin_info
-from server_manager.synchronize.utils import sha1
+from server_manager.utils import file_to_b2_name, sha1
 
 Pathy = Union[Path, str]
 
@@ -30,25 +29,14 @@ class FileWithB2Status:
     status: B2FileStatus
 
 
-def b2_bucket_from_env(authorize: bool = True) -> B2Api:
+def b2_bucket_from_env() -> B2Api:
     b2_bucket_name = os.getenv("B2_BUCKET", "nearvanilla-files")
     info = InMemoryAccountInfo()
     b2_api = B2Api(info)
-    if authorize:  # TODO: Fix auth required
-        app_key_id = os.environ["B2_KEY_ID"]
-        app_key = os.environ["B2_KEY"]
-        b2_api.authorize_account("production", app_key_id, app_key)
+    app_key_id = os.environ["B2_KEY_ID"]
+    app_key = os.environ["B2_KEY"]
+    b2_api.authorize_account("production", app_key_id, app_key)
     return b2_api.get_bucket_by_name(b2_bucket_name)
-
-
-def plugin_to_b2_name(plugin: PluginInfo) -> str:
-    """Returns b2 name for give PluginYaml"""
-    return f"{plugin.name}/{plugin.version}.jar"
-
-
-def file_to_b2_name(file: Path) -> str:
-    """Returns b2 name for given plugin file"""
-    return plugin_to_b2_name(get_plugin_info(file))
 
 
 def upload_plugin(
