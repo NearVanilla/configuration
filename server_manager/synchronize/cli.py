@@ -67,8 +67,8 @@ def upload(ctx, dry_run: bool):
         item_show_func=lambda x: str(x.name) if x else "",
     ) as bar:
         for file in bar:
-            status = b2_file_status(bucket, file, ctx.obj.remote_prefix)
-            if status != B2FileStatus.UNCHANGED:
+            file_status = b2_file_status(bucket, file, ctx.obj.remote_prefix)
+            if file_status != B2FileStatus.UNCHANGED:
                 files_to_upload.append(file)
     if not files_to_upload:
         click.echo("Nothing to upload")

@@ -17,6 +17,7 @@ from server_manager.cli_utils import (
 from server_manager.config.gitwrapper import GitWrapper, WorkTree
 from server_manager.config.substitutions import (
     commit_and_unsubstitute,
+    is_substituted,
     substitute_tracked_and_commit,
 )
 from server_manager.config.utils import current_date
@@ -33,6 +34,7 @@ class NonEmptySubworktreeDestinationError(click.UsageError):
 
 def validate_ref_not_exists(ctx, param, value):
     try:
+        # pylint: disable=pointless-statement
         ctx.obj.git.repo.references[value]
         raise click.BadParameter(f"reference with name {value} exists already")
     except IndexError:

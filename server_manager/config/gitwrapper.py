@@ -11,22 +11,12 @@ from pathlib import Path
 from typing import Iterable, Optional, Set, Union
 
 import git  # type: ignore
-import jinja2
 
 from server_manager.config.exceptions import *
 
 Substitutions = Union[dict, None]
 
-COMMIT_SUBSTITUTED = "[SUBST]"
-COMMIT_CHANGED = "[CHNG]"
 SUBWORKTREE_PATH = Path(".subworktrees.json")
-JINJA_ENVIRONMENT = {
-    "block_start_string": "<<<%",
-    "block_end_string": "%>>>",
-    "comment_start_string": "<<<#",
-    "comment_end_string": "#>>>",
-    "undefined": jinja2.StrictUndefined,  # Throw error on missing values
-}
 
 
 @dataclasses.dataclass(frozen=True)

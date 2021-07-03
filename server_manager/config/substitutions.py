@@ -2,9 +2,8 @@ from __future__ import annotations  # Postponed evaluation PEP-563
 
 import os
 from pathlib import Path
-from typing import Iterable, Union
+from typing import Iterable, Optional, Union
 
-import git  # type: ignore
 import jinja2
 
 from server_manager.config.exceptions import *
@@ -15,7 +14,6 @@ Substitutions = Union[dict, None]
 
 COMMIT_SUBSTITUTED = "[SUBST]"
 COMMIT_CHANGED = "[CHNG]"
-SUBWORKTREE_PATH = Path(".subworktrees.json")
 JINJA_ENVIRONMENT = {
     "block_start_string": "<<<%",
     "block_end_string": "%>>>",
@@ -26,10 +24,14 @@ JINJA_ENVIRONMENT = {
 
 
 def substitute_placeholders(
-    files: Iterable[Path], substitutions: Substitutions = None, environment: dict = {}
+    files: Iterable[Path],
+    substitutions: Substitutions = None,
+    environment: Optional[dict] = None,
 ) -> None:
     if substitutions is None:
         substitutions = dict(os.environ)
+    if environment is None:
+        environment = dict()
     for k, v in JINJA_ENVIRONMENT.items():
         if k not in environment:
             environment[k] = v
