@@ -94,7 +94,7 @@ services:
       - -jar
       - velocity.jar
     volumes:
-      - ./velocity:/velocity:rw
+      - ./server-config/velocity:/velocity:rw
     ports:
       - 25565:25565
   website:

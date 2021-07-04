@@ -11,7 +11,7 @@ from typing import Union
 import b2sdk  # type: ignore
 from b2sdk.v1 import B2Api, Bucket, FileVersionInfo, InMemoryAccountInfo  # type: ignore
 
-from server_manager.utils import file_to_b2_name, sha1
+from server_manager.utils import file_to_b2_name
 
 Pathy = Union[Path, str]
 
@@ -19,8 +19,7 @@ Pathy = Union[Path, str]
 @enum.unique
 class B2FileStatus(enum.Enum):
     MISSING = enum.auto()
-    UNCHANGED = enum.auto()
-    CHANGED = enum.auto()
+    PRESENT = enum.auto()
 
 
 @dataclasses.dataclass(frozen=True)
@@ -57,11 +56,7 @@ def b2_file_status(
     bucket: Bucket, file: Path, remote_prefix: Pathy = Path("plugins/")
 ) -> B2FileStatus:
     try:
-        file_info = b2_file_info(bucket, file, remote_prefix)
+        b2_file_info(bucket, file, remote_prefix)
     except b2sdk.exception.FileNotPresent:
         return B2FileStatus.MISSING
-    return (
-        B2FileStatus.UNCHANGED
-        if file_info.content_sha1 == sha1(file)
-        else B2FileStatus.CHANGED
-    )
+    return B2FileStatus.PRESENT

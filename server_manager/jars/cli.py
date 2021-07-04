@@ -20,7 +20,7 @@ from server_manager.plugin import (
 )
 
 
-@dataclasses.dataclass(frozen=True)
+@dataclasses.dataclass()
 class JarConfig:
     platform: PluginPlatform
     plugins: List[PluginInfo]
@@ -35,16 +35,22 @@ class JarConfig:
         platform = PluginPlatform[platform_string.upper()]
         plugin_list = data.get("plugins")
         assert isinstance(plugin_list, list), "Invalid config"
-        plugins = [PluginInfo.from_data(plugin, platform) for plugin in plugin_list]
+        plugins = [
+            PluginInfo(platform=platform, **plugin, raw=plugin)
+            for plugin in plugin_list
+        ]
         return cls(platform, plugins)
 
     def save(self, config_file: Path) -> None:
+        # TODO: Throw correct exception
+        assert all(plugin.platform == self.platform for plugin in self.plugins)
         data = {
             "platform": self.platform.name.title(),
             "plugins": [
                 {
                     "name": plugin.name,
                     "version": plugin.version,
+                    "checksum": plugin.checksum,
                 }
                 for plugin in self.plugins
             ],
@@ -103,7 +109,7 @@ def status(path: Path):
             click.echo(f"{plugin.name:<{longest_plugin_name}}\tMISSING")
             continue
         local_info = get_plugin_info(local_file)
-        plugin_status = plugin.compare_to(local_info)
+        plugin_status = local_info.compare_to(plugin)
         click.echo(f"{plugin.name:<{longest_plugin_name}}\t{plugin_status}")
 
 
@@ -181,6 +187,8 @@ def update(path: Path, plugin_dir: Path):
                 f"Updating {plugin.name} from version {plugin.version} to {new_plugin.version}"
             )
         new_plugins.append(new_plugin)
+    assert len(new_plugins) == len(config.plugins)
+    config.plugins = new_plugins
     config_file = get_config_path(path)
     config.save(config_file)
 

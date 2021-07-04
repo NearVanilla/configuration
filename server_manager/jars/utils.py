@@ -3,8 +3,9 @@ from pathlib import Path
 
 from requests import Response, Session
 
+from server_manager.hash_utils import sha1
 from server_manager.plugin import PluginInfo
-from server_manager.utils import plugin_to_b2_name, sha1
+from server_manager.utils import plugin_to_b2_name
 
 BASE_URL = "https://files.nearvanilla.com/plugins"
 SESSION = Session()

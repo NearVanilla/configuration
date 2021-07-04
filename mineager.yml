@@ -12,7 +12,10 @@ plugins:
   prefix: Catalyst-Velocity
   resource: AnvilPowered/Catalyst
   type: github
-- name: Luckperms-Bukkit
+- name: LuckPerms-Bukkit
+  resource: https://ci.lucko.me/job/LuckPerms
+  type: jenkins
+- name: LuckPerms-Velocity
   resource: https://ci.lucko.me/job/LuckPerms
   type: jenkins
 - name: Chunky
@@ -41,7 +44,7 @@ plugins:
   prefix: Vault
   resource: MilkBowl/Vault
   type: github
-- name: Worldborder
-  prefix: Worldborder
+- name: WorldBorder
+  prefix: WorldBorder
   resource: Puremin0rez/WorldBorder
   type: github

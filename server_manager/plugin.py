@@ -10,6 +10,7 @@ from zipfile import ZipFile
 
 import yaml
 
+from server_manager.hash_utils import sha1
 from server_manager.plugin_exceptions import *
 
 
@@ -32,30 +33,39 @@ class PluginInfo:
     name: str
     version: str
     platform: PluginPlatform
+    checksum: str
     raw: dict
 
     @classmethod
-    def from_data(cls, data: dict, platform: PluginPlatform) -> PluginInfo:
+    def from_data(
+        cls, data: dict, platform: PluginPlatform, checksum: str
+    ) -> PluginInfo:
         version = data["version"]
         # Handle dumb plugins specifying version as array
         if isinstance(version, list) and len(version) == 1:
             version = version[0]
-        return cls(name=data["name"], version=version, platform=platform, raw=data)
+        return cls(
+            name=data["name"],
+            version=version,
+            platform=platform,
+            checksum=checksum,
+            raw=data,
+        )
 
     def compare_to(self, other: PluginInfo) -> PluginComparison:
         """
         Returns whether this plugin is older, newer or up to date to the other one
 
-        >>> local_plugin = PluginInfo.from_data(data={"name": "test", "version": "1.2.0"}, platform=PluginPlatform.PAPER)
-        >>> local_plugin.compare_to(PluginInfo.from_data(data={"name": "test", "version": "1.3.0"}, platform=PluginPlatform.PAPER))
+        >>> local_plugin = PluginInfo.from_data(data={"name": "test", "version": "1.2.0"}, platform=PluginPlatform.PAPER, checksum="")
+        >>> local_plugin.compare_to(PluginInfo.from_data(data={"name": "test", "version": "1.3.0"}, platform=PluginPlatform.PAPER, checksum=""))
         <PluginComparison.OUTDATED: 1>
-        >>> local_plugin.compare_to(PluginInfo.from_data(data={"name": "test", "version": "1.1.0"}, platform=PluginPlatform.PAPER))
+        >>> local_plugin.compare_to(PluginInfo.from_data(data={"name": "test", "version": "1.1.0"}, platform=PluginPlatform.PAPER, checksum=""))
         <PluginComparison.NEWER: 3>
-        >>> local_plugin.compare_to(PluginInfo.from_data(data={"name": "test", "version": "1.2.0"}, platform=PluginPlatform.PAPER))
+        >>> local_plugin.compare_to(PluginInfo.from_data(data={"name": "test", "version": "1.2.0"}, platform=PluginPlatform.PAPER, checksum=""))
         <PluginComparison.UP_TO_DATE: 2>
-        >>> local_plugin.compare_to(PluginInfo.from_data(data={"name": "test", "version": "1.2.1"}, platform=PluginPlatform.PAPER))
+        >>> local_plugin.compare_to(PluginInfo.from_data(data={"name": "test", "version": "1.2.1"}, platform=PluginPlatform.PAPER, checksum=""))
         <PluginComparison.OUTDATED: 1>
-        >>> local_plugin.compare_to(PluginInfo.from_data(data={"name": "test", "version": "0.2.1"}, platform=PluginPlatform.PAPER))
+        >>> local_plugin.compare_to(PluginInfo.from_data(data={"name": "test", "version": "0.2.1"}, platform=PluginPlatform.PAPER, checksum=""))
         <PluginComparison.NEWER: 3>
         """
         if self.name != other.name:
@@ -100,7 +110,10 @@ def get_paper_plugin_info(file: Path) -> PluginInfo:
             ) from e
         with zipfile.open(datafile) as plug:
             data = yaml.safe_load(plug)
-        return PluginInfo.from_data(data=data, platform=PluginPlatform.PAPER)
+    checksum = sha1(file)
+    return PluginInfo.from_data(
+        data=data, platform=PluginPlatform.PAPER, checksum=checksum
+    )
 
 
 def get_velocity_plugin_info(file: Path) -> PluginInfo:
@@ -116,7 +129,10 @@ def get_velocity_plugin_info(file: Path) -> PluginInfo:
             ) from e
         with zipfile.open(datafile) as plug:
             data = json.load(plug)
-        return PluginInfo.from_data(data=data, platform=PluginPlatform.VELOCITY)
+    checksum = sha1(file)
+    return PluginInfo.from_data(
+        data=data, platform=PluginPlatform.VELOCITY, checksum=checksum
+    )
 
 
 def get_plugin_info(file: Path) -> PluginInfo:
