@@ -60,3 +60,5 @@ portalcoords:
   player-in-overworld: '&eNether: X:%x% | Y:%y% | Z:%z%'
   player-in-nether: '&3eOverworld: X:%x% | Y:%y% | Z:%z%'
   invalid-world: '&eThis world is not configured as an overworld or nether.'
+multiplayersleep:
+  player-sleeping: '&e%player% is sleeping (%sleeping%/%total%).'

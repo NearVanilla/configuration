@@ -32,7 +32,7 @@ settings:
   velocity-support:
     enabled: true
     online-mode: true
-    secret: 'notsosecret'
+    secret: notsosecret
   suggest-player-names-when-null-tab-completions: true
   watchdog:
     early-warning-every: 5000

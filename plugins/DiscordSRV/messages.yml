@@ -3,6 +3,12 @@
 # DiscordToMinecraftChatMessageFormat: the format used when sending messages from Discord to Minecraft
 # DiscordToMinecraftChatMessageFormatNoRole: the format used when sending messages from Discord to Minecraft when the person doesn't have any roles
 #
+# You can specify a different format per channel. Let's say you have a channel named: "mychannel".
+# If you want it to have other formatting than the one defined globally you can add following properties:
+#
+# DiscordToMinecraftChatMessageFormat_mychannel: "[&bDiscord From MyChannel &r| %toprolecolor%%toprole%&r] %name% » %message%"
+# DiscordToMinecraftChatMessageFormatNoRole_mychannel: "[&bDiscord From MyChannel&r] %name% » %message%"
+#
 # Available placeholders:
 # %allroles%:       all of the person's roles combined with DiscordToMinecraftAllRolesSeparator between them all
 #                    example: Owner | Developer | Boss man
@@ -10,9 +16,11 @@
 #                    example: Hello!
 # %toprole%:        person's highest ranking role
 #                    example: Owner
+# %toprolealias%:   the alias for the role from DiscordChatChannelRoleAliases, otherwise the role's name
+#                    example: Dev
 # %toproleinitial%: first letter of the person's highest ranking role
 #                    example: O
-# %toprolecolor%:   approximate color of person's highest ranking role, definitions for this at DiscordChatChannelColorTranslations in config.yml
+# %toprolecolor%:   approximate color of person's highest ranking role
 #                    example: &4
 # %name%:           person's effective name on Discord (nickname if present, username otherwise)
 #                    example: NotchIsMe
@@ -99,12 +107,12 @@ DynmapDiscordFormat: "[Dynmap] %name% » %message%"
 # This is the format used when sending a line from the console to the console channel, if enabled
 #
 # Available placeholders:
-# %date%:  current date & time
-#           example: Sun Jan 1 15:30:45 PDT 2017
-# %level%: message severity level
-#           example: INFO, WARN, ERROR
-# %line%:  line from the console
-#           example: [DiscordSRV] Enabling DiscordSRV vX.Y
+# %datetime%:  current date & time
+#               example: Sun Jan 1 15:30:45 PDT 2017
+# %level%:     message severity level
+#               example: INFO, WARN, ERROR
+# %line%:      line from the console
+#               example: [DiscordSRV] Enabling DiscordSRV vX.Y
 # PlaceholderAPI placeholders are also supported
 #
 # DiscordConsoleChannelMessagePrefix: The literal prefix to prepend to a batch of lines.

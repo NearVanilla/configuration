@@ -1,44 +1,65 @@
 platform: Paper
 plugins:
-- name: ArmorStandEditor
+- checksum: 6944fc037233ad54f54ba46a15fd816f83f7da54
+  name: ArmorStandEditor
   version: 1.16-24
-- name: BuycraftX
+- checksum: 94bd0ad21686583ebaaa65edcb3781f4b1c2e0e2
+  name: BuycraftX
   version: 12.0.7
-- name: CapAFK
+- checksum: 1c665c5c8fa41621c9ed625004d5c364b92c269e
+  name: CapAFK
   version: 1.4.1.9
-- name: Chunky
+- checksum: 3ca326366977d4358ffbd866e1cc6f827838ed58
+  name: Chunky
   version: 1.2.86
-- name: DeathLog
+- checksum: 8017016965d5312a3bbc2fb9563abcb1634b9249
+  name: DeathLog
   version: 1.0.2
-- name: DiscordSRV
+- checksum: ccead71fc88b7d6b712c630e612132087305e405
+  name: DiscordSRV
   version: 1.23.0
-- name: FirstJoinMessage
+- checksum: 722793bc7977c7dae77b5d1774a753a2b6708beb
+  name: FirstJoinMessage
   version: 1.0.2
-- name: GFly
+- checksum: 5cb2143f5cf229f3f3407d6c5a9ff321f1161f8c
+  name: GFly
   version: 2.3.0.0
-- name: GSit
-  version: 5.3.4.0
-- name: Hat
-  version: 1.3.2
-- name: IsSlimeChunk
+- checksum: 169615f154109397b7bcb687333b122b3ea61c78
+  name: GSit
+  version: 5.3.5.1
+- checksum: b966ff76024465adea6f1b259d4d6bb4323370cc
+  name: Hat
+  version: 1.4.1
+- checksum: da734d3d88b1238351567c69b2ec8e950a0c9041
+  name: IsSlimeChunk
   version: 1.0.0
-- name: LuckPerms
-  version: 5.3.48
-- name: OnePlayerSleep
+- checksum: d679c1e2f5416760e40d62ab4b423d70fe6256e2
+  name: OnePlayerSleep
   version: 1.0.6
-- name: OpenInv
+- checksum: 46e2ada0341cdf4f91e55b861301ca5c73ef1a2e
+  name: OpenInv
   version: 4.1.5
-- name: ServerUtils
+- checksum: 9ccf065f62179f62f7864fc2f177a694790f4cea
+  name: ServerUtils
   version: 2.5.6
-- name: TCPShield
+- checksum: 6c6c9be3dedaab712093aa34d1abd1f883738e2c
+  name: TCPShield
   version: '2.5'
-- name: VanillaTweaks
+- checksum: 400837e070fb72b455ef16e8156e647e94f2bc51
+  name: VanillaTweaks
   version: 0.1.19
-- name: VaultChatFormatter
+- checksum: ea7c9c0f4bd33d5d783be4c85dfabceaa6a6d5d6
+  name: VaultChatFormatter
   version: 1.0-SNAPSHOT
-- name: WanderfulAdditions
+- checksum: 15e996f52f3edf6279581c9842d84e75e3ead761
+  name: WanderfulAdditions
   version: 0.1.3
-- name: WorldEdit
+- checksum: a9f71e142a015224fa1beae03ff744f94f379643
+  name: WorldEdit
   version: 7.2.5+57d5ac9
-- name: WorldGuard
+- checksum: 8519bc1569cd19e2949bbb729dad50724176264b
+  name: WorldGuard
   version: 7.0.5+3827266
+- checksum: d657a6e9d6885bd4ec946f61d71747345aecb645
+  name: LuckPerms
+  version: 5.3.50

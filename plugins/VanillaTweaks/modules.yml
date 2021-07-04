@@ -39,3 +39,8 @@ villagers:
   customvillagershops: false
   pillagertools: false
   workstationhighlights: false
+experimental:
+  confetti-creepers: false
+  xp-management: false
+survival:
+  unlock-all-recipes: false
