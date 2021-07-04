@@ -33,7 +33,7 @@ settings:
   velocity-support:
     enabled: true
     online-mode: true
-    secret: 'notsosecret'
+    secret: notsosecret
   watchdog:
     early-warning-every: 5000
     early-warning-delay: 10000

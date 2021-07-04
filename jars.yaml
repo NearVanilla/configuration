@@ -1,12 +1,17 @@
 platform: Paper
 plugins:
-- name: ArmorStandEditor
+- checksum: 6944fc037233ad54f54ba46a15fd816f83f7da54
+  name: ArmorStandEditor
   version: 1.16-24
-- name: DiscordSRV
+- checksum: ccead71fc88b7d6b712c630e612132087305e405
+  name: DiscordSRV
   version: 1.23.0
-- name: LuckPerms
-  version: 5.3.48
-- name: ServerUtils
+- checksum: d657a6e9d6885bd4ec946f61d71747345aecb645
+  name: LuckPerms
+  version: 5.3.50
+- checksum: 9ccf065f62179f62f7864fc2f177a694790f4cea
+  name: ServerUtils
   version: 2.5.6
-- name: WorldEdit
+- checksum: a9f71e142a015224fa1beae03ff744f94f379643
+  name: WorldEdit
   version: 7.2.5+57d5ac9
