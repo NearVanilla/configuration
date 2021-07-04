@@ -109,7 +109,12 @@ def status(path: Path):
 
 @cli.command()
 @server_path_argument
-def download(path: Path):
+@click.option(
+    "--force/--no-force",
+    default=False,
+    help="Whether to force update local plugins, including downgrade",
+)
+def download(path: Path, force: bool):
     """Download updates for all outdated and missing plugins"""
     config = get_config(path)
     plugins_to_update = []
@@ -120,11 +125,24 @@ def download(path: Path):
             plugins_to_update.append(plugin)
             continue
         local_info = get_plugin_info(local_file)
-        plugin_status = plugin.compare_to(local_info)
+        plugin_status = local_info.compare_to(plugin)
         if plugin_status in (PluginComparison.OUTDATED, PluginComparison.CHANGED):
             plugins_to_update.append(plugin)
             continue
-        assert plugin_status == PluginComparison.UP_TO_DATE
+        if plugin_status == PluginComparison.NEWER:
+            if force:
+                click.echo(
+                    f"Downgrading {plugin.name} from {local_info.version} to {plugin.version}"
+                )
+                plugins_to_update.append(plugin)
+            else:
+                click.echo(
+                    f"Skipping downgrade of {plugin.name} from {local_info.version} to {plugin.version}"
+                )
+            continue
+        assert (
+            plugin_status == PluginComparison.UP_TO_DATE
+        ), f"Expected to be up to date, instead got {plugin_status} for {plugin.name}"
         # TODO: Confirm SHA1 to check for plugins which are in snapshots
 
     with click.progressbar(

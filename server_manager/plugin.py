@@ -43,7 +43,21 @@ class PluginInfo:
         return cls(name=data["name"], version=version, platform=platform, raw=data)
 
     def compare_to(self, other: PluginInfo) -> PluginComparison:
-        """Returns whether this plugin is older, newer or up to date to the other one"""
+        """
+        Returns whether this plugin is older, newer or up to date to the other one
+
+        >>> local_plugin = PluginInfo.from_data(data={"name": "test", "version": "1.2.0"}, platform=PluginPlatform.PAPER)
+        >>> local_plugin.compare_to(PluginInfo.from_data(data={"name": "test", "version": "1.3.0"}, platform=PluginPlatform.PAPER))
+        <PluginComparison.OUTDATED: 1>
+        >>> local_plugin.compare_to(PluginInfo.from_data(data={"name": "test", "version": "1.1.0"}, platform=PluginPlatform.PAPER))
+        <PluginComparison.NEWER: 3>
+        >>> local_plugin.compare_to(PluginInfo.from_data(data={"name": "test", "version": "1.2.0"}, platform=PluginPlatform.PAPER))
+        <PluginComparison.UP_TO_DATE: 2>
+        >>> local_plugin.compare_to(PluginInfo.from_data(data={"name": "test", "version": "1.2.1"}, platform=PluginPlatform.PAPER))
+        <PluginComparison.OUTDATED: 1>
+        >>> local_plugin.compare_to(PluginInfo.from_data(data={"name": "test", "version": "0.2.1"}, platform=PluginPlatform.PAPER))
+        <PluginComparison.NEWER: 3>
+        """
         if self.name != other.name:
             raise ValueError(
                 f"Can't compare two different plugins - {self.name} and {other.name}"
