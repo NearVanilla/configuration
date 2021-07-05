@@ -42,9 +42,6 @@ plugins:
 - checksum: 9ccf065f62179f62f7864fc2f177a694790f4cea
   name: ServerUtils
   version: 2.5.6
-- checksum: 6c6c9be3dedaab712093aa34d1abd1f883738e2c
-  name: TCPShield
-  version: '2.5'
 - checksum: 400837e070fb72b455ef16e8156e647e94f2bc51
   name: VanillaTweaks
   version: 0.1.19

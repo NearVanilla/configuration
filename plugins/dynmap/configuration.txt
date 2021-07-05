@@ -33,10 +33,10 @@ storage:
   #userid: dynmap
   #password: dynmap
   #prefix: ""
-  
+
 components:
   - class: org.dynmap.ClientConfigurationComponent
-  
+
   - class: org.dynmap.InternalClientUpdateComponent
     sendhealth: true
     sendposition: true
@@ -63,7 +63,7 @@ components:
   #  hideifshadow: 4
   #  # Optional - make player hidden when they are under cover (#=sky light level,0=underground,15=open to sky)
   #  hideifundercover: 14
-  #  # (Optional) if true, players that are crouching/sneaking will be hidden 
+  #  # (Optional) if true, players that are crouching/sneaking will be hidden
     hideifsneaking: false
     # If true, player positions/status is protected (login with ID with dynmap.playermarkers.seeall permission required for info other than self)
     protected-player-info: false
@@ -94,12 +94,12 @@ components:
   #  chatlengthlimit: 256
   #  hide-if-invisiblity-potion: true
   #  hidenames: false
-   
+
   - class: org.dynmap.SimpleWebChatComponent
     allowchat: true
     # If true, web UI users can supply name for chat using 'playername' URL parameter.  'trustclientname' must also be set true.
     allowurlname: false
-  
+
   # Note: this component is needed for the dmarker commands, and for the Marker API to be available to other plugins
   - class: org.dynmap.MarkersComponent
     type: markers
@@ -127,7 +127,7 @@ components:
     spawnbedformat: "%name%'s bed"
     # (optional) show world border (vanilla 1.8+)
     showworldborder: true
-    
+
   - class: org.dynmap.ClientComponent
     type: chat
     allowurlname: false
@@ -158,12 +158,12 @@ components:
     layerprio: 0
     # Optional - label for player marker layer (default is 'Players')
     label: "Players"
-    
+
   #- class: org.dynmap.ClientComponent
   #  type: digitalclock
   - class: org.dynmap.ClientComponent
     type: link
-    
+
   - class: org.dynmap.ClientComponent
     type: timeofdayclock
     showdigitalclock: true
@@ -174,7 +174,7 @@ components:
     label: "Location"
     hidey: false
     show-mcr: false
-    
+
   # Note: more than one logo component can be defined
   #- class: org.dynmap.ClientComponent
   #  type: logo
@@ -189,7 +189,7 @@ components:
   #  timeout: 1800 # in seconds (1800 seconds = 30 minutes)
   #  redirecturl: inactive.html
   #  #showmessage: 'You were inactive for too long.'
-  
+
   #- class: org.dynmap.TestComponent
   #  stuff: "This is some configuration-value"
 
@@ -252,7 +252,7 @@ block-id-alias:
 #    "14": 1
 #    "15": 1
 #    "16": 1
-  
+
 # Default image format for HDMaps (png, jpg, jpg-q75, jpg-q80, jpg-q85, jpg-q90, jpg-q95, jpg-q100)
 # Has no effect on maps with explicit format settings
 image-format: png
@@ -369,7 +369,7 @@ grayplayerswhenhidden: true
 # That is, anyone with first listed permission goes before anyone with second, etc, with users with none of the nodes going last
 player-sort-permission-nodes:
   - bukkit.command.op
-  
+
 # Set sidebaropened: 'true' to pin menu sidebar opened permanently, 'pinned' to default the sidebar to pinned, but allow it to unpin
 #sidebaropened: true
 
@@ -386,7 +386,7 @@ trusted-proxies:
   - "172.24.0.2"
   - "172.23.0.3"
   - "172.23.0.2"
-  
+
 # Join/quit message format for web chat: set to "" to disable notice on web UI
 joinmessage: "%playername% joined"
 quitmessage: "%playername% quit"
@@ -456,7 +456,7 @@ custom-commands:
 snapshotcachesize: 500
 # Snapshot cache uses soft references (true), else weak references (false)
 soft-ref-cache: true
-        
+
 # Set to true to enable verbose startup messages - can help with debugging map configuration problems
 # Set to false for a much quieter startup log
 verbose: false

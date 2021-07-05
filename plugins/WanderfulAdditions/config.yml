@@ -5,12 +5,12 @@ wands:
         item:
             type: WOODEN_SWORD
             name: '&6Item Frame Wand'
-            lore: 
+            lore:
             - '&2Now you see me,'
             - '&4now you don''t'
             glow: true
         crafting:
-            shape: 
+            shape:
             - E
             - E
             - S
@@ -24,7 +24,7 @@ wands:
             uses:
                 min: 1
                 max: 2
-            ingredients: 
+            ingredients:
             - type: EMERALD
               count:
                 min: 25
@@ -36,11 +36,11 @@ wands:
         item:
             type: WOODEN_HOE
             name: '&6Armor Stand Wand'
-            lore: 
+            lore:
             - Controlling the moves!
             glow: true
         crafting:
-            shape: 
+            shape:
             - E
             - S
             - S
@@ -54,7 +54,7 @@ wands:
             uses:
                 min: 1
                 max: 2
-            ingredients: 
+            ingredients:
             - type: EMERALD
               count:
                 min: 25

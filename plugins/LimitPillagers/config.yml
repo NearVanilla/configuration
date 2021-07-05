@@ -67,7 +67,7 @@ Patrol-Remover:
    #
    # !!! This is now a feature included in Paper !!!
    #
-   # I'd recommend using that instead unless you only want to remove the target of the 
+   # I'd recommend using that instead unless you only want to remove the target of the
    # patrol mob then enable both here and disable the setting in paper
    #
    Enabled: false
