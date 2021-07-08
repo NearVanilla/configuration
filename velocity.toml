@@ -64,9 +64,8 @@ ping-passthrough = "DISABLED"
   ]
 
 [forced-hosts]
-#  "minigames.example.com" = ["minigames"]
-#  "lobby.example.com" = ["lobby"]
-#  "factions.example.com" = ["factions"]
+  "survival.{{ DOMAIN }}" = ["survival"]
+  "creative-spawn.{{ DOMAIN }}" = ["creative-spawn"]
 
 [advanced]
   # Specify a custom timeout for connection timeouts here. The default is five seconds.

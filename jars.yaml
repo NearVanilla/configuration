@@ -3,6 +3,9 @@ plugins:
 - checksum: 6ea2b837aa31feb06c0cf463ea97371f21c84d5d
   name: Catalyst
   version: 0.3.2
-- checksum: d657a6e9d6885bd4ec946f61d71747345aecb645
+- checksum: 8e4226171bbca6ce772cb4c0d54ea41ea404d1a6
+  name: Anvil
+  version: 0.3.0
+- checksum: 56fe2ec44576c95fe723c4711452cc963a66df43
   name: LuckPerms
   version: 5.3.50
