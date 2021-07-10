@@ -14,6 +14,7 @@ use-display-name-in-quit-message: false
 verbose: false
 config-version: 20
 settings:
+  log-named-entity-deaths: true
   fix-entity-position-desync: true
   track-plugin-scoreboards: false
   max-joins-per-tick: 3
@@ -76,6 +77,8 @@ settings:
       title: 8192
       author: 8192
       page: 16384
+  loggers:
+    deobfuscate-stacktraces: true
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
@@ -231,6 +234,7 @@ world-settings:
       MaximumTicks: 600
     keep-spawn-loaded: true
     anti-xray:
+      max-block-height: 64
       use-permission: false
       lava-obscures: false
       enabled: true
@@ -340,3 +344,15 @@ world-settings:
       arrow: -1
     unsupported-settings:
       fix-invulnerable-end-crystal-exploit: true
+    mob-effects:
+      undead-immune-to-certain-effects: true
+      spiders-immune-to-poison-effect: true
+      immune-to-wither-effect:
+        wither: true
+        wither-skeleton: true
+    spawn-limits:
+      monsters: -1
+      animals: -1
+      water-animals: -1
+      water-ambient: -1
+      ambient: -1

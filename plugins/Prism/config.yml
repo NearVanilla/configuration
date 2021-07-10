@@ -215,7 +215,7 @@ datasource:
   properties:
     hostname: mariadb
     username: prism
-    password: "{{ MARIADB_PRISM_PASSWORD }}"
+    password: {{ MARIADB_PRISM_PASSWORD }}
     databaseName: prism
     prefix: ''
     port: '3306'
