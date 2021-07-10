@@ -6,9 +6,9 @@ plugins:
 - checksum: ccead71fc88b7d6b712c630e612132087305e405
   name: DiscordSRV
   version: 1.23.0
-- checksum: d657a6e9d6885bd4ec946f61d71747345aecb645
+- checksum: 4c1fc114965c87f2be88a2321ec54690d7480301
   name: LuckPerms
-  version: 5.3.50
+  version: 5.3.51
 - checksum: 9ccf065f62179f62f7864fc2f177a694790f4cea
   name: ServerUtils
   version: 2.5.6
