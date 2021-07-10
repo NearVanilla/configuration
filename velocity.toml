@@ -66,6 +66,7 @@ ping-passthrough = "DISABLED"
 [forced-hosts]
   "survival.{{ DOMAIN }}" = ["survival"]
   "creative-spawn.{{ DOMAIN }}" = ["creative-spawn"]
+  "creative.{{ DOMAIN }}" = ["creative-spawn"]
 
 [advanced]
   # Specify a custom timeout for connection timeouts here. The default is five seconds.
