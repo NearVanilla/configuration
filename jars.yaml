@@ -51,9 +51,9 @@ plugins:
 - checksum: 15e996f52f3edf6279581c9842d84e75e3ead761
   name: WanderfulAdditions
   version: 0.1.3
-- checksum: a9f71e142a015224fa1beae03ff744f94f379643
+- checksum: bf5e72dbc3fd38d7c474001015ff293cb31a72d1
   name: WorldEdit
-  version: 7.2.5+57d5ac9
+  version: 7.2.6-beta-01+1415e6f
 - checksum: 8519bc1569cd19e2949bbb729dad50724176264b
   name: WorldGuard
   version: 7.0.5+3827266
