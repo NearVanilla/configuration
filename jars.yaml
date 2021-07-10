@@ -66,3 +66,6 @@ plugins:
 - checksum: 25eee5eb8cb4f13778c9e7cfa7d633051f365e15
   name: Prism
   version: 2.1.8-SNAPSHOT-224
+- checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
+  name: Vault
+  version: 1.7.3-b131
