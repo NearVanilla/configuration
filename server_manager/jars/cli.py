@@ -43,7 +43,8 @@ class JarConfig:
 
     def save(self, config_file: Path) -> None:
         # TODO: Throw correct exception
-        assert all(plugin.platform == self.platform for plugin in self.plugins)
+        # TODO: Handle multi-platform jars
+        #assert all(plugin.platform == self.platform for plugin in self.plugins), f"Expected all plugins to be written for {self.platform.name}, got instead {', '.join(str(p) for p in self.plugins)}"
         data = {
             "platform": self.platform.name.title(),
             "plugins": [
@@ -149,7 +150,6 @@ def download(path: Path, force: bool):
         assert (
             plugin_status == PluginComparison.UP_TO_DATE
         ), f"Expected to be up to date, instead got {plugin_status} for {plugin.name}"
-        # TODO: Confirm SHA1 to check for plugins which are in snapshots
 
     with click.progressbar(
         plugins_to_update,

@@ -36,7 +36,7 @@ plugins:
   prefix: minecraft-prometheus-exporter
   resource: sladkoff/minecraft-prometheus-exporter
   type: github
-- name: Spark
+- name: spark
   prefix: spark-universal/build/libs/spark.jar
   resource: https://ci.lucko.me/job/spark
   type: jenkins
@@ -48,3 +48,10 @@ plugins:
   prefix: WorldBorder
   resource: Puremin0rez/WorldBorder
   type: github
+- name: Anvil-Velocity
+  resource: AnvilPowered/Anvil
+  type: github
+- name: Prism
+  prefix: Prism/target/Prism
+  resource: https://jenkins.addstar.com.au/job/Prism-Bukkit
+  type: jenkins

@@ -75,7 +75,7 @@ class PluginInfo:
         myversion = self._versiontuple(self.version)
         otherversion = self._versiontuple(other.version)
         if myversion == otherversion:
-            if self.version != other.version:
+            if self.checksum != other.checksum:
                 # Main versions match, but additional stuff not
                 return PluginComparison.CHANGED
             return PluginComparison.UP_TO_DATE

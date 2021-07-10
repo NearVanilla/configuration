@@ -7,7 +7,7 @@ x-user:
   user: '1000:1000'
 x-mc-common-settings:
   &mc_common_settings
-  image: itzg/minecraft-server:2021.10.0-adopt11
+  image: itzg/minecraft-server:2021.16.0-java16
   stop_grace_period: 12m
 x-mc-common-env:
   &mc_common_env
@@ -79,6 +79,8 @@ services:
       MEMORY: "${CREATIVE_MEM?}"
   velocity:
     <<: *user
+    container_name: "velocity"
+    hostname: "velocity"
     image: adoptopenjdk:11-jre
     working_dir: /velocity
     command:
@@ -97,6 +99,19 @@ services:
       - ./server-config/velocity:/velocity:rw
     ports:
       - 25565:25565
+
+  mariadb:
+    image: mariadb:10.5
+    restart: always
+    container_name: "mariadb"
+    hostname: "mariadb"
+    environment:
+      MARIADB_ROOT_PASSWORD: "${MARIADB_ROOT_PASSWORD?}"
+      MARIADB_LUCKPERMS_PASSWORD: "${MARIADB_LUCKPERMS_PASSWORD?}"
+      MARIADB_PRISM_PASSWORD: "${MARIADB_PRISM_PASSWORD?}"
+    volumes:
+      - './database-init/:/docker-entrypoint-initdb.d/:ro'
+
   website:
     <<: *user
     container_name: "website"

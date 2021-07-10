@@ -112,7 +112,9 @@ class GitWrapper:
 
     def all_config_tracked_files(self) -> Iterable[Path]:
         whitelisted_config_suffixes = {
+            ".conf"
             ".properties",
+            ".toml",
             ".txt",
             ".yaml",
             ".yml",

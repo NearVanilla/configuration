@@ -13,7 +13,9 @@
 .envrc
 .python-version
 logs/
+plugins/*/*.log
 plugins/*/lang/*
+plugins/*/translations/*
 plugins/BuycraftX/cache
 plugins/BuycraftX/gui.cache
 plugins/DiscordSRV/discord-console-logs/
@@ -28,6 +30,7 @@ plugins/dynmap/templates/
 plugins/dynmap/web/
 plugins/dynmap/webauth.txt
 plugins/dynmap/worlds.txt
+plugins/tcpshield/ip-whitelist/tcpshield-ips.list
 world/datapacks/bukkit/pack.mcmeta
 /server-config/
 __pycache__/
