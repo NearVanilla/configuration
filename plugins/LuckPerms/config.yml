@@ -4,7 +4,6 @@
 # |                        |    |  | /  ` |__/  |__) |__  |__)  |\/| /__`                        | #
 # |                        |___ \__/ \__, |  \  |    |___ |  \  |  | .__/                        | #
 # |                                                                                              | #
-# |                                     https://luckperms.net                                    | #
 # |                                                                                              | #
 # |  SOURCE CODE: https://github.com/lucko/LuckPerms                                             | #
 # |  WIKI:        https://github.com/lucko/LuckPerms/wiki                                        | #
@@ -31,7 +30,7 @@
 # - When set to "global" this setting is effectively ignored.
 # - In all other cases, the value here is added to all players in a "server" context.
 # - See: https://github.com/lucko/LuckPerms/wiki/Context
-server: global
+server: creative
 
 # If the servers own UUID cache/lookup facility should be used when there is no record for a player
 # already in LuckPerms.
@@ -57,7 +56,7 @@ use-server-uuid-cache: false
 # How the plugin should store data
 #
 # - The various options are explained in more detail on the wiki:
-#   https://github.com/lucko/LuckPerms/wiki/Storage-types
+#   https://github.com/lucko/LuckPerms/wiki/Choosing-a-Storage-type
 #
 # - Possible options:
 #
@@ -83,7 +82,7 @@ use-server-uuid-cache: false
 #
 # - A H2 database is the default option.
 # - If you want to edit data manually in "traditional" storage files, we suggest using YAML.
-storage-method: h2
+storage-method: MariaDB
 
 # The following block defines the settings for remote database storage methods.
 #
@@ -95,15 +94,15 @@ data:
   # - The standard DB engine port is used by default
   #   (MySQL: 3306, PostgreSQL: 5432, MongoDB: 27017)
   # - Specify as "host:port" if differs
-  address: localhost
+  address: mariadb
 
   # The name of the database to store LuckPerms data in.
   # - This must be created already. Don't worry about this setting if you're using MongoDB.
-  database: minecraft
+  database: luckperms
 
   # Credentials for the database.
-  username: root
-  password: ''
+  username: luckperms
+  password: '{{ MARIADB_LUCKPERMS_PASSWORD }}'
 
   # These settings apply to the MySQL connection pool.
   # - The default values will be suitable for the majority of users.
@@ -115,13 +114,13 @@ data:
     #   connections to the database backend.
     # - More information about determining the size of connection pools can be found here:
     #   https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing
-    maximum-pool-size: 4
+    maximum-pool-size: 10
 
     # Sets the minimum number of idle connections that the pool will try to maintain.
     # - For maximum performance and responsiveness to spike demands, it is recommended to not set
     #   this value and instead allow the pool to act as a fixed size connection pool.
     #   (set this value to the same as 'maximum-pool-size')
-    minimum-idle: 4
+    minimum-idle: 10
 
     # This setting controls the maximum lifetime of a connection in the pool in milliseconds.
     # - The value should be at least 30 seconds less than any database or infrastructure imposed
@@ -133,31 +132,21 @@ data:
     connection-timeout: 5000 # 5 seconds
 
     # This setting allows you to define extra properties for connections.
-    #
-    # By default, the following options are set to enable utf8 encoding. (you may need to remove
-    # these if you are using PostgreSQL)
-    #   useUnicode: true
-    #   characterEncoding: utf8
-    #
-    # You can also use this section to disable SSL connections, by uncommenting the 'useSSL' and
-    # 'verifyServerCertificate' options below.
     properties:
       useUnicode: true
       characterEncoding: utf8
-      #useSSL: false
-      #verifyServerCertificate: false
 
   # The prefix for all LuckPerms SQL tables.
   # - Change this is you want to use different tables for different servers.
-  table-prefix: 'luckperms_'
+  table_prefix: ''
 
   # The prefix to use for all LuckPerms collections. Change this if you want to use different
   # collections for different servers. The default is no prefix.
-  mongodb-collection-prefix: ''
+  mongodb_collection_prefix: ''
 
   # MongoDB ClientConnectionURI for use with replica sets and custom connection options
   # - See https://docs.mongodb.com/manual/reference/connection-string/
-  mongodb-connection-uri: ''
+  mongodb_connection_URI: ''
 
 # Define settings for a "split" storage setup.
 #
@@ -193,7 +182,7 @@ split-storage:
 # - This is disabled by default, as most users will not need it. However, if you're using a remote
 #   storage type without a messaging service setup, you may wish to set this to something like 3.
 # - Set to -1 to disable the task completely.
-sync-minutes: -1
+sync-minutes: 3
 
 # If the file watcher should be enabled.
 #
@@ -215,7 +204,7 @@ watch-files: true
 # - Possible options:
 #   => sql       Uses the SQL database to form a queue system for communication. Will only work when
 #                'storage-method' is set to MySQL or MariaDB. This is chosen by default if the
-#                option is set to 'auto' and SQL storage is in use. Set to 'notsql' to disable this.
+#                option is set to 'none' and SQL storage is in use. Set to 'notsql' to disable this.
 #   => pluginmsg Uses the plugin messaging channels to communicate with the proxy.
 #                LuckPerms must be installed on your proxy & all connected servers backend servers.
 #                Won't work if you have more than one proxy.
@@ -223,8 +212,8 @@ watch-files: true
 #                installed.
 #   => redis     Uses Redis pub-sub to push changes. Your server connection info must be configured
 #                below.
-#   => auto      Attempts to automatically setup a messaging service using redis or sql.
-messaging-service: auto
+#   => none      Disables the service.
+messaging-service: none
 
 # If LuckPerms should automatically push updates after a change has been made with a command.
 auto-push-updates: true
@@ -342,16 +331,6 @@ log-notify: true
 #                                     value was inherited from a group not on the given track.
 #
 #   => lowest_not_on_track_<track>    Same as above, except takes the value with the lowest weight.
-#
-#   => highest_from_group_<group>     Selects the value with the highest weight, but only if the
-#                                     value was inherited from the given group.
-#
-#   => lowest_from_group_<group>      Same as above, except takes the value with the lowest weight.
-#
-#   => highest_not_from_group_<group> Selects the value with the highest weight, but only if the
-#                                     value was not inherited from the given group.
-#
-#   => lowest_not_from_group_<group>  Same as above, except takes the value with the lowest weight.
 meta-formatting:
   prefix:
     format:
@@ -387,28 +366,6 @@ meta-formatting:
 #   => depth-first-post-order   See: https://en.wikipedia.org/wiki/Depth-first_search
 inheritance-traversal-algorithm: depth-first-pre-order
 
-# If a final sort according to "inheritance rules" should be performed after the traversal algorithm
-# has resolved the inheritance tree.
-#
-# "Inheritance rules" refers to things such as group weightings, primary group status, and the
-# natural contextual ordering of the group nodes.
-#
-# Setting this to 'true' will allow for the inheritance rules to take priority over the structure of
-# the inheritance tree.
-#
-# Effectively when this setting is 'true': the tree is flattened, and rules applied afterwards,
-# and when this setting is 'false':, the rules are just applied during each step of the traversal.
-post-traversal-inheritance-sort: false
-
-# Defines the mode used to determine whether a set of contexts are satisfied.
-#
-# - Possible options:
-#   => at-least-one-value-per-key   Set A will be satisfied by another set B, if at least one of the
-#                                   key-value entries per key in A are also in B.
-#   => all-values-per-key           Set A will be satisfied by another set B, if all key-value
-#                                   entries in A are also in B.
-context-satisfy-mode: at-least-one-value-per-key
-
 # +----------------------------------------------------------------------------------------------+ #
 # | Permission resolution settings                                                               | #
 # +----------------------------------------------------------------------------------------------+ #
@@ -428,22 +385,6 @@ apply-global-groups: true
 apply-global-world-groups: true
 
 # +----------------------------------------------------------------------------------------------+ #
-# | Meta lookup settings                                                                         | #
-# +----------------------------------------------------------------------------------------------+ #
-
-# Defines how meta values should be selected.
-#
-# - Possible options:
-#   => inheritance      Selects the meta value that was inherited first
-#   => highest-number   Selects the highest numerical meta value
-#   => lowest-number    Selects the lowest numerical meta value
-meta-value-selection-default: inheritance
-
-# Defines how meta values should be selected per key.
-meta-value-selection:
-#  max-homes: highest-number
-
-# +----------------------------------------------------------------------------------------------+ #
 # | Inheritance settings                                                                         | #
 # +----------------------------------------------------------------------------------------------+ #
 
@@ -452,14 +393,6 @@ meta-value-selection:
 # - If set to true, LuckPerms will detect wildcard permissions, and resolve & apply all registered
 #   permissions matching the wildcard.
 apply-wildcards: true
-
-# If LuckPerms should resolve and apply permissions according to the Sponge style implicit wildcard
-# inheritance system.
-#
-# - That being: If a user has been granted "example", then the player should have also be
-#   automatically granted "example.function", "example.another", "example.deeper.nesting",
-#   and so on.
-apply-sponge-implicit-wildcards: false
 
 # If the plugin should parse regex permissions.
 #
@@ -567,19 +500,6 @@ commands-allow-op: true
 # option to 'true.
 vault-unsafe-lookups: false
 
-# Controls which group LuckPerms should use for NPC players when handling Vault requests.
-#
-# - As NPCs aren't actually real players, LuckPerms does not load any user data for them. This
-#   becomes an issue when plugins want to check for their permissions using Vault.
-# - As a solution, Vault checks for NPCs fallback to a group, which is defined below.
-vault-npc-group: default
-
-# Controls how LuckPerms should consider the OP status of NPC players when handing Vault requests.
-#
-# - If you want NPCs to have the same permissions as "normal" players, set this option to false.
-# - If you want NPCs to have OP status, set this option to true.
-vault-npc-op-status: false
-
 # If the vault-server option below should be used.
 #
 # - When this option is set to false, the server value defined above under "server" is used.
@@ -597,6 +517,9 @@ vault-include-global: true
 # If Vault operations should ignore any world arguments if supplied.
 vault-ignore-world: false
 
+# If LuckPerms should print debugging info to console when a plugin uses a Vault function
+vault-debug: false
+
 # +----------------------------------------------------------------------------------------------+ #
 # | Miscellaneous (and rarely used) settings                                                     | #
 # +----------------------------------------------------------------------------------------------+ #
@@ -605,6 +528,10 @@ vault-ignore-world: false
 #
 # - Useful if you're having issues with UUID forwarding or data not being loaded.
 debug-logins: false
+
+# If LuckPerms should use the "server-name" property from the "server.properties" file as the
+# "server" option within LuckPerms.
+use-server-properties-name: false
 
 # If LuckPerms should allow usernames with non alphanumeric characters.
 #
@@ -617,9 +544,85 @@ allow-invalid-usernames: false
 # - When this happens, the plugin will set their primary group back to default.
 prevent-primary-group-removal: false
 
-# If LuckPerms should update the list of commands sent to the client when permissions are changed.
-update-client-command-list: true
 
-# If LuckPerms should attempt to resolve Vanilla command target selectors for LP commands.
-# See here for more info: https://minecraft.gamepedia.com/Commands#Target_selectors
-resolve-command-selectors: false
+
+
+# +----------------------------------------------------------------------------------------------+ #
+# |                                                                                              | #
+# |                                      DEFAULT ASSIGNMENTS                                     | #
+# |                                                                                              | #
+# +----------------------------------------------------------------------------------------------+ #
+
+# This section allows you to define defaults to give users whenever they connect to the server.
+# The default assignments are highly configurable and conditional.
+#
+# There is one default assignment built into LuckPerms, which will add all users to the "default"
+# group if they are not a member of any other group. This setting cannot be disabled. However, you
+# can use this section to add more of your own.
+#
+# IMPORTANT:
+# In order to save storage space, LuckPerms does not store users who have no permissions defined,
+# and are only a member of the default group. Adding default assignments to this section will negate
+# this effect. It is HIGHLY RECCOMENDED that instead of assigning defaults here, you add permissions
+# to the "default" group, or set the "default" group to inherit other groups, and then use the
+# group-name-rewrite rule above.
+#
+# It is also important to note that these rules are considered every time a player logs into the
+# server, and are applied directly to the user's data. Simply removing a rule here will not reverse
+# the effect of that rule on any users who have already had it applied to them.
+#
+# The "has" and "lacks" conditions below support standard boolean logic, using the 'and' & 'or'
+# characters used in Java.
+# e.g. "(some.other.permission | some.permission.other) & some.thing.else" == a user has
+# 'some.other.permission', or 'some.permission.other', and they also have 'some.thing.else'
+#
+# Groups are represented by the permission node: group.<group name>
+# Per server and per world nodes are represented by "server-world/permission" or "server/permission"
+#
+# Within conditions, permission nodes MUST be escaped using "<" and ">". See the example below.
+#
+# Explanation of the examples below: (they're just to demonstrate the features & use cases)
+#
+# rule1:
+# If a user is either in the vip or vip+ group, and they have the "titles.titlecollector" permission
+# set to true, and the "some.random.permission" set to false... if they're not in the group
+# "prison_titlepack" on the "prison" server, then give add them to the "prison_titlepack" group on
+# the "prison" server, and remove "some.random.permission".
+#
+# rule2:
+# If the user isn't in any of the following groups on the skyblock server: sb_level1, sb_level2,
+# sb_level3, then add them to sb_level1 on the skyblock server.
+#
+# rule3:
+# If the user is a member of the default group, remove them from default, add them to member, and
+# set their primary group to member.
+#
+# WARNING: Unlike internal commands, this system does not ensure that a group exists before adding
+# a user to it. It also does not unsure that a user is a member of a group before making that group
+# their primary group.
+#
+# Before you use "give: group.<name>" or "set-primary-group", make sure that the group exists, and
+# that the user is a member of the group.
+default-assignments:
+#  rule1:
+#    if:
+#      has-true: (<group.vip> | <group.vip+>) & <titles.tilecollector>
+#      has-false: <some.random.permission>
+#      lacks: <prison/group.prison_titlepack>
+#    give:
+#      - prison/group.prison_titlepack
+#    take:
+#      - some.random.permission
+#  rule2:
+#    if:
+#      lacks: <skyblock/group.sb_level1> & <skyblock/group.sb_level2> & <skyblock/group.sb_level3>
+#    give:
+#      - skyblock/group.sb_level1
+#  rule3:
+#    if:
+#      has-true: <group.default>
+#    take:
+#      - group.default
+#    give:
+#      - group.member
+#    set-primary-group: member
