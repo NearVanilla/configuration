@@ -73,7 +73,7 @@ server: proxy
 #
 # - A H2 database is the default option.
 # - If you want to edit data manually in "traditional" storage files, we suggest using YAML.
-storage-method: h2
+storage-method: MariaDB
 
 # The following block defines the settings for remote database storage methods.
 #
@@ -85,15 +85,15 @@ data:
   # - The standard DB engine port is used by default
   #   (MySQL: 3306, PostgreSQL: 5432, MongoDB: 27017)
   # - Specify as "host:port" if differs
-  address: localhost
+  address: mariadb
 
   # The name of the database to store LuckPerms data in.
   # - This must be created already. Don't worry about this setting if you're using MongoDB.
-  database: minecraft
+  database: luckperms
 
   # Credentials for the database.
-  username: root
-  password: ''
+  username: luckperms
+  password: '{{ MARIADB_LUCKPERMS_PASSWORD }}'
 
   # These settings apply to the MySQL connection pool.
   # - The default values will be suitable for the majority of users.
@@ -147,7 +147,7 @@ data:
   #
   # - This only applies for remote SQL storage types (MySQL, MariaDB, etc).
   # - Change this if you want to use different tables for different servers.
-  table-prefix: 'luckperms_'
+  table-prefix: ''
 
   # The prefix to use for all LuckPerms MongoDB collections.
   #
@@ -199,7 +199,7 @@ split-storage:
 # - This is disabled by default, as most users will not need it. However, if you're using a remote
 #   storage type without a messaging service setup, you may wish to set this to something like 3.
 # - Set to -1 to disable the task completely.
-sync-minutes: -1
+sync-minutes: 3
 
 # If the file watcher should be enabled.
 #

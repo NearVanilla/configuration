@@ -9,3 +9,6 @@ plugins:
 - checksum: 56fe2ec44576c95fe723c4711452cc963a66df43
   name: LuckPerms
   version: 5.3.50
+- checksum: 6c6c9be3dedaab712093aa34d1abd1f883738e2c
+  name: TCPShield
+  version: '2.5'

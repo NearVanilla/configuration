@@ -30,7 +30,7 @@ player-info-forwarding-mode = "modern"
 forwarding-secret = "notsosecret" # It's not secret as we are isolated one network side
 # Announce whether or not your server supports Forge. If you run a modded server, we
 # suggest turning this on.
-# 
+#
 # If your network runs one modpack consistently, consider using ping-passthrough = "mods"
 # instead for a nicer display in the server list.
 announce-forge = false
