@@ -24,9 +24,9 @@ plugins:
 - checksum: 5cb2143f5cf229f3f3407d6c5a9ff321f1161f8c
   name: GFly
   version: 2.3.0.0
-- checksum: 169615f154109397b7bcb687333b122b3ea61c78
+- checksum: d2e7e873cd0386147643db4b224578d0cbf6d08e
   name: GSit
-  version: 5.3.5.1
+  version: 5.3.7.0
 - checksum: b966ff76024465adea6f1b259d4d6bb4323370cc
   name: Hat
   version: 1.4.1
@@ -57,6 +57,12 @@ plugins:
 - checksum: 8519bc1569cd19e2949bbb729dad50724176264b
   name: WorldGuard
   version: 7.0.5+3827266
-- checksum: d657a6e9d6885bd4ec946f61d71747345aecb645
+- checksum: 4c1fc114965c87f2be88a2321ec54690d7480301
   name: LuckPerms
-  version: 5.3.50
+  version: 5.3.51
+- checksum: f1a2214eec8797792316efb41153fa380eb97bea
+  name: spark
+  version: 1.6.1
+- checksum: 25eee5eb8cb4f13778c9e7cfa7d633051f365e15
+  name: Prism
+  version: 2.1.8-SNAPSHOT-224
