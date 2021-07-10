@@ -30,7 +30,7 @@ plugins:
 - checksum: b966ff76024465adea6f1b259d4d6bb4323370cc
   name: Hat
   version: 1.4.1
-- checksum: da734d3d88b1238351567c69b2ec8e950a0c9041
+- checksum: aa037ed0a0355ef7cf3044170563570ae034674f
   name: IsSlimeChunk
   version: 1.0.0
 - checksum: d679c1e2f5416760e40d62ab4b423d70fe6256e2
@@ -48,7 +48,7 @@ plugins:
 - checksum: ea7c9c0f4bd33d5d783be4c85dfabceaa6a6d5d6
   name: VaultChatFormatter
   version: 1.0-SNAPSHOT
-- checksum: 15e996f52f3edf6279581c9842d84e75e3ead761
+- checksum: 1425116618d1d7f626771cb5bb64fc74f15d485b
   name: WanderfulAdditions
   version: 0.1.3
 - checksum: bf5e72dbc3fd38d7c474001015ff293cb31a72d1
