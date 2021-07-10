@@ -1,4 +1,4 @@
-# Default Config File for AFK Capatcha
+# Default Config File for AFK Capatcha 
 TIME: 180
 Warning_Time: 60
 Title_Warning_Message: '&cYou have &b%time%&c seconds to type in chat: &6%cap%'
