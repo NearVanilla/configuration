@@ -60,6 +60,7 @@ www.{$DOMAIN},
       import mapredir
     }
     file_server
+    try_files {path} {path}.html
   }
 
   # Fallback for unhandled hosts
