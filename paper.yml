@@ -1,19 +1,20 @@
 # This is the main configuration file for Paper.
 # As you can see, there's tons to configure. Some options may impact gameplay, so use
 # with caution, and make sure you know what each option does before configuring.
-#
+# 
 # If you need help with the configuration or have any questions related to Paper,
 # join us in our Discord or IRC channel.
-#
+# 
 # Discord: https://discord.gg/papermc
-# IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper )
-# Website: https://papermc.io/
-# Docs: https://paper.readthedocs.org/
+# IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper ) 
+# Website: https://papermc.io/ 
+# Docs: https://paper.readthedocs.org/ 
 
 use-display-name-in-quit-message: false
 verbose: false
 config-version: 20
 settings:
+  log-named-entity-deaths: true
   fix-entity-position-desync: true
   track-plugin-scoreboards: false
   max-joins-per-tick: 3
@@ -59,6 +60,19 @@ settings:
       to create headless pistons.
   async-chunks:
     threads: -1
+  console:
+    enable-brigadier-highlighting: true
+    enable-brigadier-completions: true
+  loggers:
+    deobfuscate-stacktraces: true
+  item-validation:
+    display-name: 8192
+    loc-name: 8192
+    lore-line: 8192
+    book:
+      title: 8192
+      author: 8192
+      page: 16384
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
@@ -80,6 +94,9 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    seed-based-feature-search-loads-chunks: true
+    fix-items-merging-through-walls: false
+    map-item-frame-cursor-limit: 128
     ender-dragons-death-always-places-dragon-egg: false
     allow-using-signs-inside-spawn-protection: false
     update-pathfinding-on-block-update: true
@@ -201,11 +218,11 @@ world-settings:
       impact-sound: -1
       flash: -1
     anti-xray:
+      max-block-height: 64
       use-permission: false
       lava-obscures: false
       enabled: false
       engine-mode: 1
-      max-chunk-section-index: 3
       update-radius: 2
       hidden-blocks:
       - gold_ore
@@ -249,3 +266,17 @@ world-settings:
       snowball: -1
       ender_pearl: -1
       arrow: -1
+    mob-effects:
+      undead-immune-to-certain-effects: true
+      spiders-immune-to-poison-effect: true
+      immune-to-wither-effect:
+        wither: true
+        wither-skeleton: true
+    spawn-limits:
+      monsters: -1
+      animals: -1
+      water-animals: -1
+      water-ambient: -1
+      ambient: -1
+    unsupported-settings:
+      fix-invulnerable-end-crystal-exploit: true
