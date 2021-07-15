@@ -12,3 +12,6 @@ plugins:
 - checksum: 6c6c9be3dedaab712093aa34d1abd1f883738e2c
   name: TCPShield
   version: '2.5'
+- checksum: ef470724e0a2d264c83c07ea17556d274a732d3a
+  name: MiniMOTD
+  version: 2.0.3
