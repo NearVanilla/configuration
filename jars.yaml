@@ -12,6 +12,6 @@ plugins:
 - checksum: 9ccf065f62179f62f7864fc2f177a694790f4cea
   name: ServerUtils
   version: 2.5.6
-- checksum: a9f71e142a015224fa1beae03ff744f94f379643
+- checksum: bf5e72dbc3fd38d7c474001015ff293cb31a72d1
   name: WorldEdit
-  version: 7.2.5+57d5ac9
+  version: 7.2.6-beta-01+1415e6f
