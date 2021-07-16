@@ -75,3 +75,6 @@ plugins:
 - checksum: c2b4aff56ad8644f0c262ecfd009c8ad0d70be19
   name: PrometheusExporter
   version: 2.4.2
+- checksum: 251501e7ae63a78643b9c82b43473610decdb6ac
+  name: WorldBorder
+  version: '1.17'
