@@ -55,3 +55,7 @@ plugins:
   prefix: Prism/target/Prism
   resource: https://jenkins.addstar.com.au/job/Prism-Bukkit
   type: jenkins
+- name: MiniMOTD-Velocity
+  prefix: minimotd-velocity
+  resource: jpenilla/MiniMOTD
+  type: github

@@ -45,6 +45,7 @@ plugins/GSit/data/
 plugins/tcpshield/ip-whitelist/tcpshield-ips.list
 world/datapacks/bukkit/pack.mcmeta
 world/generated/minecraft/structures
+anvil/data/xodus/
 /server-config/
 banned-ips.json
 banned-players.json
