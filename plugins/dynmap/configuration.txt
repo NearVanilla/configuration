@@ -1,3 +1,4 @@
+# vim: ft=yaml
 # All paths in this configuration file are relative to Dynmap's data-folder: minecraft_server/plugins/dynmap/
 
 # All map templates are defined in the templates directory

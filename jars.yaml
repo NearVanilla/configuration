@@ -69,3 +69,6 @@ plugins:
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
+- checksum: 6732e2a3196b8b574f4f6030ee1f15351fb4ade2
+  name: dynmap
+  version: 3.2-SNAPSHOT-489
