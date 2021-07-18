@@ -13,7 +13,7 @@ http://{$DOMAIN} {
   @servermetrics path_regexp serverre ^/server_metrics/([^.:/]+)$
   handle @servermetrics {
     rewrite * /metrics
-    reverse_proxy {re.serverre.0}:9225
+    reverse_proxy {re.serverre.1}:9225
   }
   handle {
     redir https://{$DOMAIN}{uri} permanent
