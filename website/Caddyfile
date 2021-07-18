@@ -1,4 +1,4 @@
-# vim: ft=caddyfile
+# vim: ft=caddyfile sw=2
 
 {
   acme_ca "https://acme-staging-v02.api.letsencrypt.org/directory"
@@ -21,7 +21,7 @@ http://{$DOMAIN} {
 }
 
 http://*.{$DOMAIN} {
-  redir https://{$DOMAIN}{uri} permanent
+  redir https://{hostport}{uri} permanent
 }
 
 # Snippet https://caddyserver.com/docs/caddyfile/concepts#snippets
