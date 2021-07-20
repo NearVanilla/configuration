@@ -94,6 +94,8 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    allow-player-cramming-damage: false
+    show-sign-click-command-failure-msgs-to-player: false
     seed-based-feature-search-loads-chunks: true
     fix-items-merging-through-walls: false
     map-item-frame-cursor-limit: 128
@@ -280,3 +282,10 @@ world-settings:
       ambient: -1
     unsupported-settings:
       fix-invulnerable-end-crystal-exploit: true
+    tick-rates:
+      sensor:
+        villager:
+          secondarypoisensor: 40
+      behavior:
+        villager:
+          validatenearbypoi: -1
