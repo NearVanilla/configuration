@@ -44,7 +44,7 @@ class JarConfig:
     def save(self, config_file: Path) -> None:
         # TODO: Throw correct exception
         # TODO: Handle multi-platform jars
-        #assert all(plugin.platform == self.platform for plugin in self.plugins), f"Expected all plugins to be written for {self.platform.name}, got instead {', '.join(str(p) for p in self.plugins)}"
+        # assert all(plugin.platform == self.platform for plugin in self.plugins), f"Expected all plugins to be written for {self.platform.name}, got instead {', '.join(str(p) for p in self.plugins)}"
         data = {
             "platform": self.platform.name.title(),
             "plugins": [
@@ -168,13 +168,17 @@ def update(path: Path, plugin_dir: Path):
     """Update config file with entries from updated plugin dir"""
     config = get_config(path)
     new_plugins = []
+    local_plugins = {
+        pinfo.name: pinfo
+        for pinfo in (get_plugin_info(file) for file in plugin_dir.glob("*.jar"))
+        if pinfo.platform == config.platform
+    }
     for plugin in config.plugins:
-        new_local_file = plugin_dir / f"{plugin.name}.jar"
-        if not new_local_file.exists():
+        new_plugin = local_plugins.get(plugin.name)
+        if new_plugin is None:
             click.echo(f"Unable to find updated plugin for {plugin.name}. Skipping.")
             new_plugins.append(plugin)
             continue
-        new_plugin = get_plugin_info(new_local_file)
         compare_status = plugin.compare_to(new_plugin)
         if compare_status == PluginComparison.NEWER:
             click.echo(
