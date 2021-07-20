@@ -6,7 +6,7 @@ plugins:
   resource: FrankHeijden/ServerUtils
   type: github
 - name: OpenInv
-  resource: lishid/OpenInv
+  resource: Jikoo/OpenInv
   type: github
 - name: Catalyst
   prefix: Catalyst-Velocity
