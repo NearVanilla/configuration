@@ -43,8 +43,10 @@ class JarConfig:
 
     def save(self, config_file: Path) -> None:
         # TODO: Throw correct exception
-        # TODO: Handle multi-platform jars
-        # assert all(plugin.platform == self.platform for plugin in self.plugins), f"Expected all plugins to be written for {self.platform.name}, got instead {', '.join(str(p) for p in self.plugins)}"
+        for plugin in self.plugins:
+            assert (
+                self.platform in plugin.platform
+            ), f"Expected {plugin.name} to be written for {self.platform}, not {plugin.platform}"
         data = {
             "platform": self.platform.name.title(),
             "plugins": [
@@ -171,7 +173,7 @@ def update(path: Path, plugin_dir: Path):
     local_plugins = {
         pinfo.name: pinfo
         for pinfo in (get_plugin_info(file) for file in plugin_dir.glob("*.jar"))
-        if pinfo.platform == config.platform
+        if config.platform in pinfo.platform
     }
     for plugin in config.plugins:
         new_plugin = local_plugins.get(plugin.name)

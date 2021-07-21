@@ -15,7 +15,7 @@ from server_manager.plugin_exceptions import *
 
 
 @enum.unique
-class PluginPlatform(enum.Enum):
+class PluginPlatform(enum.Flag):
     PAPER = enum.auto()
     VELOCITY = enum.auto()
 
@@ -138,8 +138,18 @@ def get_velocity_plugin_info(file: Path) -> PluginInfo:
 def get_plugin_info(file: Path) -> PluginInfo:
     if not file.exists():
         raise FileNotExistentException(file)
-
-    try:
-        return get_paper_plugin_info(file)
-    except NotAPaperPluginException:
-        return get_velocity_plugin_info(file)
+    plugin = None
+    for info_getter in (get_paper_plugin_info, get_velocity_plugin_info):
+        try:
+            new_plugin = info_getter(file)
+            if plugin is None:
+                plugin = new_plugin
+            else:
+                plugin = dataclasses.replace(
+                    plugin, platform=plugin.platform | new_plugin.platform
+                )
+        except NotAPluginException:
+            pass
+    if plugin is None:
+        raise NotAPluginException(f"{file} is not known plugin type jar")
+    return plugin
