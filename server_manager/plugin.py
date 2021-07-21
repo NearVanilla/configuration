@@ -91,7 +91,7 @@ class PluginInfo:
     @staticmethod
     def _versiontuple(version: str) -> tuple[int, ...]:
         # Get rid of additional crap
-        for separator in ("+", "-"):
+        for separator in ("+", "-", " "):
             version = version.split(separator)[0]
         # TODO: Don't assume they are ints
         return tuple(int(i) for i in version.split("."))
