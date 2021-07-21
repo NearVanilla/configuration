@@ -8,13 +8,13 @@ from typing import List
 
 import click
 
+from server_manager.cli_utils import AliasedGroup
 from server_manager.synchronize.backblaze import (
     B2FileStatus,
     b2_bucket_from_env,
     b2_file_status,
     upload_plugin,
 )
-from server_manager.cli_utils import AliasedGroup
 
 
 @dataclasses.dataclass(frozen=True)

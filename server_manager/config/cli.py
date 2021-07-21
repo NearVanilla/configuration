@@ -9,6 +9,7 @@ from pathlib import Path
 import click
 
 from server_manager.cli_utils import (
+    AliasedGroup,
     error,
     get_longest_string_length,
     info,
@@ -21,7 +22,6 @@ from server_manager.config.substitutions import (
     substitute_tracked_and_commit,
 )
 from server_manager.config.utils import current_date
-from server_manager.cli_utils import AliasedGroup
 
 
 class ConfContext:

@@ -10,7 +10,7 @@ from typing import List
 import click
 import yaml
 
-from server_manager.cli_utils import get_longest_string_length
+from server_manager.cli_utils import AliasedGroup, get_longest_string_length
 from server_manager.jars.utils import download_plugin
 from server_manager.plugin import (
     PluginComparison,
@@ -18,7 +18,6 @@ from server_manager.plugin import (
     PluginPlatform,
     get_plugin_info,
 )
-from server_manager.cli_utils import AliasedGroup
 
 
 @dataclasses.dataclass()
