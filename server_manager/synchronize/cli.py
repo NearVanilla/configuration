@@ -14,6 +14,7 @@ from server_manager.synchronize.backblaze import (
     b2_file_status,
     upload_plugin,
 )
+from server_manager.cli_utils import AliasedGroup
 
 
 @dataclasses.dataclass(frozen=True)
@@ -22,7 +23,7 @@ class CliContext:
     remote_prefix: Path
 
 
-@click.group()
+@click.group(cls=AliasedGroup)
 @click.option(
     "--plugin-dir",
     "--plugins",

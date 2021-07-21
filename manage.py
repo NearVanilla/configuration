@@ -6,9 +6,10 @@ import click
 from server_manager.config import cli as config_cli
 from server_manager.jars.cli import cli as jars_cli
 from server_manager.synchronize.cli import cli as synchronize_cli
+from server_manager.cli_utils import AliasedGroup
 
 
-@click.group()
+@click.group(cls=AliasedGroup)
 def cli():
     pass
 

@@ -18,6 +18,7 @@ from server_manager.plugin import (
     PluginPlatform,
     get_plugin_info,
 )
+from server_manager.cli_utils import AliasedGroup
 
 
 @dataclasses.dataclass()
@@ -91,7 +92,7 @@ updated_plugin_dir_option = click.option(
 )
 
 
-@click.group()
+@click.group(cls=AliasedGroup)
 def cli():
     """Manage server jars"""
 

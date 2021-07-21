@@ -21,6 +21,7 @@ from server_manager.config.substitutions import (
     substitute_tracked_and_commit,
 )
 from server_manager.config.utils import current_date
+from server_manager.cli_utils import AliasedGroup
 
 
 class ConfContext:
@@ -56,7 +57,7 @@ paths_argument = click.argument(
 )
 
 
-@click.group()
+@click.group(cls=AliasedGroup)
 @click.pass_context
 def cli(ctx):
     """Manage configuration and plugins"""
