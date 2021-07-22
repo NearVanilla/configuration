@@ -83,15 +83,13 @@ fi
 echo "Running mcaselector to trim it a bit more"
 java -jar "${mcafile}" --headless --mode delete --region "${path}" --query "${mca_query}"
 
-echo "Cleaning dynamp"
-
-send_cmd() {
-  local command="$1"
-  printf 'CMD: %s\n' "${*}"
-  docker-compose exec -T survival rcon-cli <<<"${*}"
+show_cmd() {
+  printf 'docker-compose exec -T survival rcon-cli <<<"%s"\n' "${*}"
 }
 
-send_cmd dynmap pause all
-send_cmd dynmap purgemap world_the_end flat
-send_cmd dynmap pause none
-send_cmd dynmap fullrender world_the_end:flat
+echo "To cleanup dynmap, run following commands after starting the server:"
+
+show_cmd dynmap pause all
+show_cmd dynmap purgemap world_the_end flat
+show_cmd dynmap pause none
+show_cmd dynmap fullrender world_the_end:flat
