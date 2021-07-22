@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-: "${dir:=manual-backup/end_reset_backup_$(date +%F)}"
+: "${dir:=manual-backups/end_reset_backup_$(date +%F)}"
 
 : "${path:=server-config/survival/world_the_end/DIM1/region/}"
 
@@ -50,7 +50,7 @@ done
 
 region_files="$(find "${path}" -maxdepth 1 -mindepth 1 -type f | grep "${region_regex}" )"
 regions_to_delete=()
-#"$(grep -v "${region_keep_regex}" <<< "${region_files}" || true )"
+
 while read -r file; do
   if ! array_contains "${file##*/}" "${regions_to_keep[@]}"; then
     regions_to_delete+=( "${file}" )
