@@ -6,9 +6,9 @@ plugins:
 - checksum: 8e4226171bbca6ce772cb4c0d54ea41ea404d1a6
   name: Anvil
   version: 0.3.0
-- checksum: 6647b76f5d6437cd201beff2113ec69008db4d3f
+- checksum: 36a38f8e3cffc56ddb19724f4f4e2b61bd0a7a6a
   name: LuckPerms
-  version: 5.3.51
+  version: 5.3.53
 - checksum: 6c6c9be3dedaab712093aa34d1abd1f883738e2c
   name: TCPShield
   version: '2.5'
