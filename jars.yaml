@@ -6,9 +6,9 @@ plugins:
 - checksum: 94bd0ad21686583ebaaa65edcb3781f4b1c2e0e2
   name: BuycraftX
   version: 12.0.7
-- checksum: 1c665c5c8fa41621c9ed625004d5c364b92c269e
+- checksum: e77b811d89234f7c56d2ae629dda97622f866c45
   name: CapAFK
-  version: 1.4.1.9
+  version: 1.4.1.10
 - checksum: 3ca326366977d4358ffbd866e1cc6f827838ed58
   name: Chunky
   version: 1.2.86
