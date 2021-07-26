@@ -131,7 +131,7 @@ world-settings:
     allow-using-signs-inside-spawn-protection: false
     update-pathfinding-on-block-update: true
     fix-wither-targeting-bug: false
-    seed-based-feature-search-loads-chunks: false
+    seed-based-feature-search-loads-chunks: true
     fix-items-merging-through-walls: false
     map-item-frame-cursor-limit: 128
     ender-dragons-death-always-places-dragon-egg: false
