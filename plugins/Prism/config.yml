@@ -20,8 +20,8 @@ prism:
   queries:
     default-radius: 5
     default-time-since: 3d
-    max-lookup-radius: 300
-    max-applier-radius: 100
+    max-lookup-radius: 400
+    max-applier-radius: 400
     never-use-defaults: false
     lookup-max-results: 1000
     default-results-per-page: 5

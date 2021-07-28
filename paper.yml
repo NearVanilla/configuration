@@ -128,6 +128,8 @@ world-settings:
     anti-xray:
       enabled: false
   default:
+    allow-player-cramming-damage: false
+    show-sign-click-command-failure-msgs-to-player: false
     allow-using-signs-inside-spawn-protection: false
     update-pathfinding-on-block-update: true
     fix-wither-targeting-bug: false
@@ -356,3 +358,10 @@ world-settings:
       water-animals: -1
       water-ambient: -1
       ambient: -1
+    tick-rates:
+      sensor:
+        villager:
+          secondarypoisensor: 40
+      behavior:
+        villager:
+          validatenearbypoi: -1
