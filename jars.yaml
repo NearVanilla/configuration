@@ -6,12 +6,12 @@ plugins:
 - checksum: 8e4226171bbca6ce772cb4c0d54ea41ea404d1a6
   name: Anvil
   version: 0.3.0
-- checksum: 36a38f8e3cffc56ddb19724f4f4e2b61bd0a7a6a
+- checksum: 50fb2c9391902573d63e3ef5cf54d3577c572dc7
   name: LuckPerms
-  version: 5.3.53
-- checksum: 6c6c9be3dedaab712093aa34d1abd1f883738e2c
+  version: 5.3.57
+- checksum: 9c0d065c45691090128ae1e46cea022b2dd617c6
   name: TCPShield
-  version: '2.5'
-- checksum: ef470724e0a2d264c83c07ea17556d274a732d3a
+  version: 2.5.3
+- checksum: 875316f78e01a273fc6265b976aad4bf9f14d34d
   name: MiniMOTD
-  version: 2.0.3
+  version: 2.0.4
