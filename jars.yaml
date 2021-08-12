@@ -6,12 +6,12 @@ plugins:
 - checksum: ccead71fc88b7d6b712c630e612132087305e405
   name: DiscordSRV
   version: 1.23.0
-- checksum: db325e0feeac845ce4603f4f7db5c2270d1e05f3
+- checksum: 19d8f78a2369d4bceae911d7a10c20ae5de91f0f
   name: LuckPerms
-  version: 5.3.53
-- checksum: 9ccf065f62179f62f7864fc2f177a694790f4cea
+  version: 5.3.57
+- checksum: 79664fe4c464721944427b4c0fed36e50b25a184
   name: ServerUtils
-  version: 2.5.6
+  version: 3.0.0
 - checksum: bf5e72dbc3fd38d7c474001015ff293cb31a72d1
   name: WorldEdit
   version: 7.2.6-beta-01+1415e6f

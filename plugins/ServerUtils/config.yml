@@ -8,3 +8,4 @@ settings:
   install-updates-login: false
 disabled-commands:
 - plugin:command
+config-version: 1

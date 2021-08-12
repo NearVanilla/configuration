@@ -12,7 +12,7 @@
 
 use-display-name-in-quit-message: false
 verbose: false
-config-version: 20
+config-version: 21
 settings:
   log-named-entity-deaths: true
   fix-entity-position-desync: true
@@ -73,6 +73,7 @@ settings:
       title: 8192
       author: 8192
       page: 16384
+  use-display-name-in-quit-message: false
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
@@ -82,6 +83,7 @@ messages:
     flying-player: Flying is not enabled on this server
     flying-vehicle: Flying is not enabled on this server
 timings:
+  url: https://timings.aikar.co/
   enabled: true
   verbose: true
   server-name-privacy: false
@@ -94,6 +96,7 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    piglins-guard-chests: true
     allow-player-cramming-damage: false
     show-sign-click-command-failure-msgs-to-player: false
     seed-based-feature-search-loads-chunks: true
@@ -264,6 +267,8 @@ world-settings:
       - NORMAL
       - HARD
     entity-per-chunk-save-limit:
+      fireball: -1
+      small_fireball: -1
       experience_orb: -1
       snowball: -1
       ender_pearl: -1
