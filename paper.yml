@@ -12,7 +12,7 @@
 
 use-display-name-in-quit-message: false
 verbose: false
-config-version: 20
+config-version: 21
 settings:
   log-named-entity-deaths: true
   fix-entity-position-desync: true
@@ -79,6 +79,7 @@ settings:
       page: 16384
   loggers:
     deobfuscate-stacktraces: true
+  use-display-name-in-quit-message: false
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
@@ -88,6 +89,7 @@ messages:
     flying-player: Flying is not enabled on \u00A7eNearVanilla\u00A7r
     flying-vehicle: Flying is not enabled on \u00A7eNearVanilla\u00A7r
 timings:
+  url: https://timings.aikar.co/
   server-name: Unknown Server
   enabled: true
   verbose: true
@@ -128,6 +130,7 @@ world-settings:
     anti-xray:
       enabled: false
   default:
+    piglins-guard-chests: true
     allow-player-cramming-damage: false
     show-sign-click-command-failure-msgs-to-player: false
     allow-using-signs-inside-spawn-protection: false
@@ -340,6 +343,8 @@ world-settings:
       - NORMAL
       - HARD
     entity-per-chunk-save-limit:
+      fireball: -1
+      small_fireball: -1
       experience_orb: -1
       snowball: -1
       ender_pearl: -1
