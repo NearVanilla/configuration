@@ -90,6 +90,7 @@ class PluginInfo:
 
     @staticmethod
     def _versiontuple(version: str) -> tuple[int, ...]:
+        version = str(version)
         # Get rid of additional crap
         for separator in ("+", "-", " "):
             version = version.split(separator)[0]

@@ -34,7 +34,7 @@ x-mc-common-env:
     -XX:SurvivorRatio=12
     -XX:MaxTenuringThreshold=1
   # For java -D options:
-  JVM_DD_OPTS: 'paper.playerconnection.keepalive=85'
+  JVM_DD_OPTS: 'paper.playerconnection.keepalive=85 Paper.skipServerPropertiesComments=true'
   # Note, that with DD options, they are space-separated, but without -D preceding
   # and can use colon : instead of =
 
