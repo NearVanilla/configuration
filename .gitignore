@@ -13,6 +13,7 @@
 .env*
 .envrc
 .python-version
+.secret
 logs/
 world/advancements/
 world/stats/
