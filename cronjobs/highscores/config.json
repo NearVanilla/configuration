@@ -1,0 +1,46 @@
+{
+  "number": 0,
+  "input_file": "/mc-data/world/data/scoreboard.dat",
+  "output_file": "/site-data/highscores.json",
+  "sort_descending": true,
+  "reverse": [],
+  "combine": [
+    {
+      "regex": "^ts_Mine(Cobble|Stone|Andesite|Granite|Diorite)$",
+      "new_name": "Stone mined"
+    },
+    {
+      "regex": "^ts_(Climb|Fall|Fly|HorseRode|MinecartRide|PigRide|Sprint|Swim|Walk|Boating)$",
+      "new_name": "Blocks traveled"
+    }
+  ],
+  "whitelist": [
+    "ts_PlayedMinutes",
+    "ts_Deaths",
+    "ts_DamageTaken",
+    "ts_MineDiamond",
+    "ts_MineObsidian",
+    "ts_MobKills",
+    "ts_VillagerTrade"
+	],
+  "blacklist": [
+    "ops.sleep", 
+    "ops.kickBed", 
+    "hc_tick", 
+    "hc_uninstall",
+    "nv_constant",
+    "nv_swimKmShow",
+    "nv_deathTimeShow",
+    "nv_elytraKmShow"
+	],
+  "delete_combined": true,
+  "playerdata": "/mc-data/world/playerdata",
+  "convert": {
+       "cm_blocks": [
+            "Blocks traveled"
+       ],
+       "m_hm": [
+            "ts_PlayedMinutes"
+       ]
+  }
+}
