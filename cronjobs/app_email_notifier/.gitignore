@@ -1,0 +1,5 @@
+.envrc
+credentials.json
+cron.log
+token.pickle
+venv/
