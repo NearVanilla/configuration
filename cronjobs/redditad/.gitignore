@@ -1,0 +1,4 @@
+*.ini # Contains config with secrets
+*.log
+.previous-webhook-message
+venv/
