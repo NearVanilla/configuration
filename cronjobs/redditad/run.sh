@@ -9,7 +9,7 @@ gitroot="$(git -C "${scriptdir}" rev-parse --show-toplevel)"
 
 cd "${scriptdir}"
 
-venvdir="venv"
+venvdir="${scriptdir}/venv"
 
 if ! [ -d "${venvdir}" ]; then
   python3 -m venv "${venvdir}"
