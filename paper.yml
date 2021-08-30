@@ -130,6 +130,7 @@ world-settings:
     anti-xray:
       enabled: false
   default:
+    map-item-frame-cursor-update-interval: 10
     piglins-guard-chests: true
     allow-player-cramming-damage: false
     show-sign-click-command-failure-msgs-to-player: false
