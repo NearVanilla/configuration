@@ -79,7 +79,7 @@ world-settings:
     view-distance: default
     seed-outpost: {{ SEED_SURVIVAL_OUTPOST }}
     verbose: true
-    mob-spawn-range: 7
+    mob-spawn-range: 6
     growth:
       bamboo-modifier: 100
       sweetberry-modifier: 100
