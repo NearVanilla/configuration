@@ -55,7 +55,7 @@ settings:
   use-alternative-luck-formula: false
   min-chunk-load-threads: 2
   unsupported-settings:
-    allow-headless-pistons: false
+    allow-headless-pistons: true
     allow-permanent-block-break-exploits: true
     allow-piston-duplication: false
     allow-permanent-block-break-exploits-readme: This setting controls if players
