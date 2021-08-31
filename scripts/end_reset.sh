@@ -70,7 +70,7 @@ while read -r file; do
   cp "${file}" "${dir}"
 done <<< "${region_files}"
 
-echo "Deleting "${#regions_to_delete[@]}") region files"
+echo "Deleting "${#regions_to_delete[@]}" region files"
 
 rm "${regions_to_delete[@]}"
 
