@@ -24,6 +24,7 @@ settings:
   deprecated-verbose: default
   shutdown-message: Server is taking a rest.
 spawn-limits:
+  water-underground-creature: 5
   water-ambient: 20
   monsters: 50
   animals: 8
@@ -33,6 +34,7 @@ chunk-gc:
   period-in-ticks: 400
   load-threshold: 300
 ticks-per:
+  water-underground-creature-spawns: 8
   water-ambient-spawns: 8
   water-spawns: 8
   ambient-spawns: 8

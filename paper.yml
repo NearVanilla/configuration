@@ -12,8 +12,11 @@
 
 use-display-name-in-quit-message: false
 verbose: false
-config-version: 21
+config-version: 23
 settings:
+  lag-compensate-block-breaking: true
+  send-full-pos-for-hard-colliding-entities: true
+  log-player-ip-addresses: true
   log-named-entity-deaths: true
   fix-entity-position-desync: true
   track-plugin-scoreboards: false
@@ -80,6 +83,26 @@ settings:
   loggers:
     deobfuscate-stacktraces: true
   use-display-name-in-quit-message: false
+  chunk-loading:
+    min-load-radius: 2
+    max-concurrent-sends: 2
+    autoconfig-send-distance: true
+    target-player-chunk-send-rate: 100.0
+    global-max-chunk-send-rate: -1.0
+    enable-frustum-priority: false
+    global-max-chunk-load-rate: -1.0
+    player-max-concurrent-loads: 4.0
+    global-max-concurrent-loads: 500.0
+  packet-limiter:
+    kick-message: '&cSent too many packets'
+    limits:
+      all:
+        interval: 7.0
+        max-packet-rate: 500.0
+      PacketPlayInAutoRecipe:
+        interval: 4.0
+        max-packet-rate: 5.0
+        action: DROP
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
@@ -130,6 +153,7 @@ world-settings:
     anti-xray:
       enabled: false
   default:
+    split-overstacked-loot: true
     map-item-frame-cursor-update-interval: 10
     piglins-guard-chests: true
     allow-player-cramming-damage: false
@@ -371,3 +395,5 @@ world-settings:
       behavior:
         villager:
           validatenearbypoi: -1
+    feature-seeds:
+      generate-random-seeds-for-all: false # TODO: Use it when switching to 1.18
