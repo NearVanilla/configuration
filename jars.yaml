@@ -1,17 +1,14 @@
 platform: Velocity
 plugins:
-- checksum: 6ea2b837aa31feb06c0cf463ea97371f21c84d5d
-  name: Catalyst
-  version: 0.3.2
-- checksum: 8e4226171bbca6ce772cb4c0d54ea41ea404d1a6
-  name: Anvil
-  version: 0.3.0
-- checksum: 36a38f8e3cffc56ddb19724f4f4e2b61bd0a7a6a
+- checksum: 0426adb27501f517944255eaf74fcabf7ec773cc
   name: LuckPerms
-  version: 5.3.53
-- checksum: 6c6c9be3dedaab712093aa34d1abd1f883738e2c
+  version: 5.3.71
+- checksum: 9c0d065c45691090128ae1e46cea022b2dd617c6
   name: TCPShield
   version: 2.5.3
-- checksum: ef470724e0a2d264c83c07ea17556d274a732d3a
+- checksum: 875316f78e01a273fc6265b976aad4bf9f14d34d
   name: MiniMOTD
-  version: 2.0.3
+  version: 2.0.4
+- checksum: 0dc79ee50ead33c3cce02562f8ea2abcfef41890
+  name: bat
+  version: 1.0.0-SNAPSHOT
