@@ -396,4 +396,4 @@ world-settings:
         villager:
           validatenearbypoi: -1
     feature-seeds:
-      generate-random-seeds-for-all: false # TODO: Use it when switching to 1.18
+      generate-random-seeds-for-all: false

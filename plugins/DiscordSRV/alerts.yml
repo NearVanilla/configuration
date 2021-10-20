@@ -76,7 +76,7 @@
 #        IconUrl: ""
 #      Timestamp: false # set to true to use the time the message was sent or use a epoch timestamp for a specific time (https://www.epochconverter.com/)
 #
-Alerts:
+Alerts: 
   # Example config to send messages to the "fish" DiscordSRV channel when a player successfully catches a fish
   #- Trigger: PlayerFishEvent
   #  Channel: fish
@@ -120,3 +120,5 @@ Alerts:
   #    Author:
   #      ImageUrl: "{embedavatarurl}"
   #      Name: "* {username} ${#allArgs}"
+
+
