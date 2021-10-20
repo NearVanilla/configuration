@@ -3,15 +3,15 @@ plugins:
 - checksum: 6944fc037233ad54f54ba46a15fd816f83f7da54
   name: ArmorStandEditor
   version: 1.16-24
-- checksum: ccead71fc88b7d6b712c630e612132087305e405
+- checksum: 1dc858d1fcd50c75d8ee320bda28e1f9fcee83fe
   name: DiscordSRV
-  version: 1.23.0
-- checksum: 19d8f78a2369d4bceae911d7a10c20ae5de91f0f
+  version: 1.24.0
+- checksum: af5356fda8467cc6a04ea716aa36b9a66c6f0167
   name: LuckPerms
-  version: 5.3.57
-- checksum: 79664fe4c464721944427b4c0fed36e50b25a184
+  version: 5.3.71
+- checksum: bfb28228810447ac66e98188124d5859631aef0d
   name: ServerUtils
-  version: 3.0.0
+  version: 3.1.2
 - checksum: bf5e72dbc3fd38d7c474001015ff293cb31a72d1
   name: WorldEdit
   version: 7.2.6-beta-01+1415e6f
