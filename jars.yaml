@@ -15,9 +15,9 @@ plugins:
 - checksum: 8017016965d5312a3bbc2fb9563abcb1634b9249
   name: DeathLog
   version: 1.0.2
-- checksum: ccead71fc88b7d6b712c630e612132087305e405
+- checksum: 1dc858d1fcd50c75d8ee320bda28e1f9fcee83fe
   name: DiscordSRV
-  version: 1.23.0
+  version: 1.24.0
 - checksum: 722793bc7977c7dae77b5d1774a753a2b6708beb
   name: FirstJoinMessage
   version: 1.0.2
@@ -39,9 +39,9 @@ plugins:
 - checksum: 644653e61a97f1e4d6670f73709c97cd01ff940a
   name: OpenInv
   version: 4.1.8
-- checksum: 79664fe4c464721944427b4c0fed36e50b25a184
+- checksum: bfb28228810447ac66e98188124d5859631aef0d
   name: ServerUtils
-  version: 3.0.0
+  version: 3.1.2
 - checksum: 400837e070fb72b455ef16e8156e647e94f2bc51
   name: VanillaTweaks
   version: 0.1.19
@@ -57,15 +57,15 @@ plugins:
 - checksum: 8519bc1569cd19e2949bbb729dad50724176264b
   name: WorldGuard
   version: 7.0.5+3827266
-- checksum: 19d8f78a2369d4bceae911d7a10c20ae5de91f0f
+- checksum: af5356fda8467cc6a04ea716aa36b9a66c6f0167
   name: LuckPerms
-  version: 5.3.57
-- checksum: 1560622537f4fef0a29e0b88b188fc48029664cb
+  version: 5.3.71
+- checksum: 42f3105eb7f7914ec5b0680a87e8ae095219cea5
   name: spark
-  version: 1.6.1
-- checksum: 25eee5eb8cb4f13778c9e7cfa7d633051f365e15
+  version: 1.6.2
+- checksum: b5dfde68000b8ee16109de36208b06c9c79e0235
   name: Prism
-  version: 2.1.8-SNAPSHOT-224
+  version: 2.1.8-SNAPSHOT-225
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
