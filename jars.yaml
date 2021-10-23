@@ -9,6 +9,6 @@ plugins:
 - checksum: 875316f78e01a273fc6265b976aad4bf9f14d34d
   name: MiniMOTD
   version: 2.0.4
-- checksum: 0dc79ee50ead33c3cce02562f8ea2abcfef41890
+- checksum: ae7860e530db271ca00dcf0c8120d614e8b68ced
   name: bat
-  version: 1.0.0-SNAPSHOT
+  version: 1.0.0
