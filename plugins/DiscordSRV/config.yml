@@ -286,6 +286,6 @@ MinecraftDiscordAccountLinkedAllowRelinkBySendingANewCode: false
 #                        the minimum for this value is 10
 # ServerWatchdogMessageCount: the amount of times ServerWatchdogMessage is sent. useful if you *really* want to make sure you know something's up
 #
-ServerWatchdogEnabled: true
+ServerWatchdogEnabled: false
 ServerWatchdogTimeout: 40
 ServerWatchdogMessageCount: 3

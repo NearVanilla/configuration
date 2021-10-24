@@ -34,8 +34,8 @@ NicknameSynchronizationFormat: "%displayname%"
 # GroupRoleSynchronizationCycleCompletely: whether or not synchronizations running on a timer should synchronize every member in the bots Discord servers
 #
 GroupRoleSynchronizationGroupsAndRolesToSync: {"trusted": "000000000000000000", "vip": "000000000000000000"}
-GroupRoleSynchronizationMinecraftIsAuthoritative: true
-GroupRoleSynchronizationOneWay: false
+GroupRoleSynchronizationMinecraftIsAuthoritative: false
+GroupRoleSynchronizationOneWay: true
 GroupRoleSynchronizationEnableDenyPermission: false
 GroupRoleSynchronizationPrimaryGroupOnly: false
 GroupRoleSynchronizationOnLink: true

@@ -60,7 +60,7 @@ settings:
   unsupported-settings:
     allow-headless-pistons: true
     allow-permanent-block-break-exploits: true
-    allow-piston-duplication: false
+    allow-piston-duplication: true
     allow-permanent-block-break-exploits-readme: This setting controls if players
       should be able to break bedrock, end portals and other intended to be permanent
       blocks.
