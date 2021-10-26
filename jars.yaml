@@ -81,3 +81,6 @@ plugins:
 - checksum: 34877d26ff965597f5cfec9aca710c908154c1b1
   name: CoreProtect
   version: 20.1
+- checksum: 7d488adace21b95b417bb9c4b52a8f2c53582338
+  name: VanishNoPacket
+  version: 3.21.G0.1
