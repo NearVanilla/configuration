@@ -26,8 +26,9 @@ plugins/BuycraftX/*.json
 plugins/BuycraftX/gui.cache
 plugins/DiscordSRV/discord-console-logs/
 plugins/DiscordSRV/linkedaccounts.json
+plugins/GFly/data/
+plugins/GSit/data/
 plugins/LuckPerms/contexts.json
-plugins/luckperms/contexts.json
 plugins/WorldEdit/.archive-unpack
 plugins/WorldEdit/schematics/
 plugins/WorldEdit/sessions/
@@ -41,8 +42,8 @@ plugins/dynmap/templates/
 plugins/dynmap/web/
 plugins/dynmap/webauth.txt
 plugins/dynmap/worlds.txt
-plugins/GFly/data/
-plugins/GSit/data/
+plugins/luckperms/contexts.json
+plugins/serverutils/.pluginCommandsCache.json
 plugins/tcpshield/ip-whitelist/tcpshield-ips.list
 world/datapacks/bukkit/pack.mcmeta
 world/generated/minecraft/structures
