@@ -1,0 +1,15 @@
+config-version = 1
+hide-plugins-from-plugins-command = []
+
+[settings]
+	install-updates-boot = false
+	check-updates-login = false
+	download-updates-login = false
+	check-updates-boot = true
+	install-updates-login = false
+	download-updates-boot = false
+
+[unload-after-startup]
+	plugins = []
+	delay-ticks = 20
+

@@ -1,8 +1,8 @@
 platform: Velocity
 plugins:
-- checksum: 0426adb27501f517944255eaf74fcabf7ec773cc
+- checksum: cf231f876f782870155cf58bab138df7e08abf62
   name: LuckPerms
-  version: 5.3.71
+  version: 5.3.74
 - checksum: 9c0d065c45691090128ae1e46cea022b2dd617c6
   name: TCPShield
   version: 2.5.3
@@ -12,3 +12,9 @@ plugins:
 - checksum: ae7860e530db271ca00dcf0c8120d614e8b68ced
   name: bat
   version: 1.0.0
+- checksum: 3c8c9a14a76520dbd9d2b41fd9d1138a26210fc6
+  name: swap
+  version: 1.0.0
+- checksum: bfb28228810447ac66e98188124d5859631aef0d
+  name: ServerUtils
+  version: 3.1.2

@@ -1,0 +1,79 @@
+config-version = 1
+
+[messages]
+	loadplugin = "<dark_aqua>Successfully loaded <aqua><plugin></aqua>!"
+	reload = "<dark_aqua>Successfully reloaded <aqua>ServerUtils configurations</aqua>!"
+	unloadplugin = "<dark_aqua>Successfully unloaded <aqua><plugin></aqua>!"
+	serverutils-updater = "<dark_aqua>Loaded and enabled ServerUtilsUpdater. Completion can be monitored from the console, attempting restart now..."
+
+	[messages.plugins]
+		footer = "<dark_gray><strikethrough>-------------------------------------------------"
+		prefix = " <dark_aqua>Plugins <dark_gray>(<green><count><dark_gray>)<aqua>: "
+		format = "<dark_aqua><plugin>"
+		last-separator = " <aqua>and "
+		header = "<dark_gray><strikethrough>------------=<reset><dark_gray>[ <aqua><bold>ServerUtils Plugins<reset> <dark_gray>]<strikethrough>=-------------"
+		format-disabled = "<red><plugin>"
+		separator = "<aqua>, "
+		version = " <dark_gray>(<green><version><dark_gray>)"
+
+	[messages.update]
+		download-failed = "<red>Failed to download version <new> of ServerUtils. Please update manually."
+		downloading = "<dark_gray><strikethrough>------------=<reset><dark_gray>[ <aqua><bold>ServerUtils Update<reset> <dark_gray>]<strikethrough>=--------------\n <dark_aqua>A new version of ServerUtils will be downloaded and installed after a restart!\n <dark_aqua>Current version: <aqua><old>\n <dark_aqua>New version: <aqua><new>\n <dark_aqua>Release info: <aqua><info>\n<dark_gray><strikethrough>-------------------------------------------------"
+		available = "<dark_gray><strikethrough>------------=<reset><dark_gray>[ <aqua><bold>ServerUtils Update<reset> <dark_gray>]<strikethrough>=--------------\n <dark_aqua>Current version: <aqua><old>\n <dark_aqua>New version: <aqua><new>\n <dark_aqua>Release info: <aqua><info>\n<dark_gray><strikethrough>-------------------------------------------------"
+		download-success = "<dark_aqua>ServerUtils has been downloaded and will be installed on the next restart."
+
+	[messages.commandinfo]
+		footer = "<dark_gray><strikethrough>-------------------------------------------------"
+		not-exists = "<red>That command is not a valid registered command."
+		format = " <dark_aqua><key><dark_gray>: <aqua><value>"
+		list-separator = "<dark_gray>, "
+		header = "<dark_gray><strikethrough>-----------=<reset><dark_gray>[ <aqua><bold>ServerUtils CommandInfo<reset> <dark_gray>]<strikethrough>=----------"
+		list-last-separator = " <dark_gray>and "
+		list-format = "<aqua><value>"
+
+	[messages.reloadplugin]
+		serverutils = "<red>Sorry, but you can't reload ServerUtils this way. Please restart using <dark_red>/<command></dark_red>."
+		success = "<dark_aqua>Successfully reloaded <aqua><plugin></aqua>!"
+
+	[messages.watchplugin]
+		stopped = "<dark_aqua>Stopped watching <aqua><plugin></aqua>!"
+		already-watching = "<red>You are already watching <dark_red><plugin></dark_red>!"
+		not-watching = "<red>You are not watching <dark_red><plugin></dark_red>!"
+		change = "<dark_aqua>Changes detected, reloading plugins now..."
+		file-deleted = "<red>File of plugin <dark_red><plugin></dark_red> has been deleted! Waiting for plugin to show up..."
+		start = "<dark_aqua>Started watching <aqua><plugin></aqua>!"
+		deleted-file-is-created = "<dark_aqua>File of plugin <aqua><plugin></aqua> has shown up again!"
+
+	[messages.generic]
+		not-enabled = "<red>Plugin <dark_red><plugin></dark_red> is not enabled!"
+		already-enabled = "<red>Plugin <dark_red><plugin></dark_red> is already enabled!"
+		already-disabled = "<red>Plugin <dark_red><plugin></dark_red> is already disabled!"
+		prefix = "<aqua><bold>ServerUtils <dark_gray><bold>»<reset> <gray>"
+		not-exists = "<red>Plugin <dark_red><plugin></dark_red> does not exist!"
+		file-deleted = "<red>File of plugin <dark_red><plugin></dark_red> has been deleted!"
+		invalid-plugin = "<red>Plugin <dark_red><plugin></dark_red> is invalid!"
+		already-loaded = "<red>Plugin <dark_red><plugin></dark_red> is already loaded!"
+		error = "<red>An error occurred, please check the console!"
+		unknown-dependency = "<red>Plugin <dark_red><plugin></dark_red> has an unknown dependency: <dark_red><dependency><red>!"
+		invalid-description = "<red>Plugin <dark_red><plugin></dark_red> has an invalid plugin description!"
+
+	[messages.help]
+		footer = "<dark_gray><strikethrough>-------------------------------------------------"
+		format = "<dark_gray>/<dark_aqua><command> <dark_gray>(<aqua><help><dark_gray>)"
+		header = "<dark_gray><strikethrough>-------------=<reset><dark_gray>[ <aqua><bold>ServerUtils Help<reset> <dark_gray>]<strikethrough>=---------------"
+
+	[messages.plugininfo]
+		footer = "<dark_gray><strikethrough>-------------------------------------------------"
+		format = " <dark_aqua><key><dark_gray>: <aqua><value>"
+		list-separator = "<dark_gray>, "
+		header = "<dark_gray><strikethrough>-----------=<reset><dark_gray>[ <aqua><bold>ServerUtils PluginInfo<reset> <dark_gray>]<strikethrough>=-----------"
+		list-last-separator = " <dark_gray>and "
+		list-format = "<aqua><value>"
+
+	[messages.depending-plugins]
+		prefix = "<red>Plugin <dark_red><plugin></dark_red> has depending plugins: "
+		format = "<dark_red><plugin>"
+		last-separator = " <red>and "
+		override = "<red>Use \"<dark_red>/<command></dark_red>\" to force command execution."
+		separator = "<red>, "
+
