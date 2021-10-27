@@ -42,9 +42,9 @@ plugins:
 - checksum: bfb28228810447ac66e98188124d5859631aef0d
   name: ServerUtils
   version: 3.1.2
-- checksum: 400837e070fb72b455ef16e8156e647e94f2bc51
+- checksum: f973a1bcdf954ce7dd7d21a21dafa5f1a1c4b771
   name: VanillaTweaks
-  version: 0.1.19
+  version: 0.1.21
 - checksum: ea7c9c0f4bd33d5d783be4c85dfabceaa6a6d5d6
   name: VaultChatFormatter
   version: 1.0-SNAPSHOT
@@ -57,9 +57,9 @@ plugins:
 - checksum: 8519bc1569cd19e2949bbb729dad50724176264b
   name: WorldGuard
   version: 7.0.5+3827266
-- checksum: af5356fda8467cc6a04ea716aa36b9a66c6f0167
+- checksum: af9cab3ef40dc90c55be6f53b1cfe50e70cb3a03
   name: LuckPerms
-  version: 5.3.71
+  version: 5.3.74
 - checksum: 42f3105eb7f7914ec5b0680a87e8ae095219cea5
   name: spark
   version: 1.6.2
@@ -84,3 +84,6 @@ plugins:
 - checksum: 7d488adace21b95b417bb9c4b52a8f2c53582338
   name: VanishNoPacket
   version: 3.21.G0.1
+- checksum: 248be9634159594594d970b8bcd241a0d926630a
+  name: SpectatorMode
+  version: 2.1.5
