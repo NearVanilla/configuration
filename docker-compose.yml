@@ -81,7 +81,7 @@ services:
     <<: *user
     container_name: "velocity"
     hostname: "velocity"
-    image: adoptopenjdk:11-jre
+    image: eclipse-temurin:17_35-jdk-focal
     working_dir: /velocity
     command:
       - java

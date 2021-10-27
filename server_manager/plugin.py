@@ -7,6 +7,7 @@ import enum
 import json
 from pathlib import Path
 from zipfile import ZipFile
+from typing import Union
 
 import yaml
 
@@ -89,13 +90,12 @@ class PluginInfo:
             )
 
     @staticmethod
-    def _versiontuple(version: str) -> tuple[int, ...]:
+    def _versiontuple(version: str) -> tuple[Union[int, str], ...]:
         version = str(version)
         # Get rid of additional crap
         for separator in ("+", "-", " "):
             version = version.split(separator)[0]
-        # TODO: Don't assume they are ints
-        return tuple(int(i) for i in version.split("."))
+        return tuple(int(i) if i.isdigit() else i for i in version.split("."))
 
 
 def get_paper_plugin_info(file: Path) -> PluginInfo:

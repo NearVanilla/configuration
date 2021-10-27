@@ -8,10 +8,6 @@ plugins:
 - name: OpenInv
   resource: Jikoo/OpenInv
   type: github
-- name: Catalyst
-  prefix: Catalyst-Velocity
-  resource: AnvilPowered/Catalyst
-  type: github
 - name: LuckPerms-Bukkit
   resource: https://ci.lucko.me/job/LuckPerms
   type: jenkins
@@ -48,9 +44,6 @@ plugins:
   prefix: WorldBorder
   resource: Puremin0rez/WorldBorder
   type: github
-- name: Anvil-Velocity
-  resource: AnvilPowered/Anvil
-  type: github
 - name: Prism
   prefix: Prism/target/Prism
   resource: https://jenkins.addstar.com.au/job/Prism-Bukkit
@@ -65,3 +58,11 @@ plugins:
 - name: TCPShield
   resource: TCPShield/RealIP
   type: github
+- name: Swap
+  prefix: Swap
+  resource: OskarsMC-Plugins/swap
+  type: github
+- name: Smp-Spectator-Mode
+  prefix: Smp-Spectator-Mode
+  resource: '77267'
+  type: spiget
