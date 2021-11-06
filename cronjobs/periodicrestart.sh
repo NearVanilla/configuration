@@ -13,8 +13,10 @@ readonly countdown_times=(
   0
 )
 
-toplevel="$(git rev-parse --show-toplevel)"
-cd "${toplevel}"
+readonly scriptpath="$(realpath "${0}")"
+readonly scriptdir="$(dirname "${scriptpath}")"
+readonly gitroot="$(git -C "${scriptdir}" rev-parse --show-toplevel)"
+cd "${gitroot}"
 
 show_restart_reason_message() {
   local -r server="${1?}"
