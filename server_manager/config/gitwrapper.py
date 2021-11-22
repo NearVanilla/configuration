@@ -4,7 +4,6 @@
 from __future__ import annotations  # Postponed evaluation PEP-563
 
 import dataclasses
-import json
 from contextlib import contextmanager
 from functools import wraps
 from pathlib import Path
@@ -15,42 +14,6 @@ import git  # type: ignore
 from server_manager.config.exceptions import *
 
 Substitutions = Union[dict, None]
-
-SUBWORKTREE_PATH = Path(".subworktrees.json")
-
-
-@dataclasses.dataclass(frozen=True)
-class WorkTree:
-    path: Path
-    revision: str
-
-    def __post_init__(self):
-        object.__setattr__(self, "path", Path(self.path))
-
-    def init(self, parent: GitWrapper) -> GitWrapper:
-        parent.repo.git.worktree("add", self.path, self.revision)
-        return self.git(parent)
-
-    def git(self, parent: GitWrapper) -> GitWrapper:
-        return GitWrapper(parent.working_tree_dir / self.path)
-
-    def is_initialized(self, parent: GitWrapper) -> bool:
-        try:
-            self.git(parent)
-            return True
-        except (git.InvalidGitRepositoryError, git.NoSuchPathError):
-            return False
-
-
-class WorkTreeEncoder(json.JSONEncoder):
-    def default(self, obj):
-        if isinstance(obj, set):
-            return list(obj)
-        if isinstance(obj, Path):
-            return str(obj)
-        if dataclasses.is_dataclass(obj):
-            return dataclasses.asdict(obj)
-        return super().default(obj)
 
 
 @contextmanager
@@ -85,6 +48,14 @@ class GitWrapper:
     def __repr__(self) -> str:
         return f"{self.__class__.__name__}(path={self._path})"
 
+    @classmethod
+    def is_initialized(cls, path: Path) -> bool:
+        try:
+            cls(path)
+            return True
+        except (git.InvalidGitRepositoryError, git.NoSuchPathError):
+            return False
+
     @property
     def repo(self) -> git.Repo:
         return self._repo
@@ -96,10 +67,6 @@ class GitWrapper:
     @property
     def working_tree_dir(self) -> Path:
         return Path(self.repo.working_tree_dir)
-
-    @property
-    def _subworktree_file(self) -> Path:
-        return self.working_tree_dir / SUBWORKTREE_PATH
 
     def list_tracked_files(self, tree=None) -> Iterable[Path]:
         """Return list of tracked files relative to workdir"""
@@ -142,29 +109,6 @@ class GitWrapper:
 
     def get_reference_names(self) -> Set[str]:
         return {ref.name for ref in self._repo.references}
-
-    def get_all_subworktrees(self) -> tuple[WorkTree, ...]:
-        if not self._subworktree_file.exists():
-            return tuple()
-        with self._subworktree_file.open("r") as file:
-            return tuple(WorkTree(**swt) for swt in json.load(file))
-
-    def add_subworktree(self, worktree: WorkTree):
-        worktrees = self.get_all_subworktrees()
-        paths = set(w.path for w in worktrees)
-        if worktree.path in paths:
-            raise ValueError(f"SubWorkTree already registered at path: {worktree.path}")
-        if worktree.revision not in self.get_reference_names():
-            raise RefNotExistsError(worktree.revision)
-        with self._subworktree_file.open("w") as file:
-            json.dump(worktrees + (worktree,), file, indent=2, cls=WorkTreeEncoder)
-
-    def get_subworktree(self, path: Path) -> Optional[WorkTree]:
-        path = Path(path).resolve()
-        return next(
-            (swt for swt in self.get_all_subworktrees() if swt.path.resolve() == path),
-            None,
-        )
 
     @require_clean_workspace
     def create_detached_empty_branch(self, name: str, message: str):
