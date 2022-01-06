@@ -9,9 +9,9 @@ plugins:
 - checksum: e77b811d89234f7c56d2ae629dda97622f866c45
   name: CapAFK
   version: 1.4.1.10
-- checksum: 3ca326366977d4358ffbd866e1cc6f827838ed58
+- checksum: ba0ec224628850e9b47c07d87ddb8aa7807b0195
   name: Chunky
-  version: 1.2.86
+  version: 1.2.164
 - checksum: 8017016965d5312a3bbc2fb9563abcb1634b9249
   name: DeathLog
   version: 1.0.2
@@ -24,24 +24,24 @@ plugins:
 - checksum: 5cb2143f5cf229f3f3407d6c5a9ff321f1161f8c
   name: GFly
   version: 2.3.0.0
-- checksum: d2e7e873cd0386147643db4b224578d0cbf6d08e
+- checksum: a842339ab75f5f9360240ecbf1769fc1c1b3dc1e
   name: GSit
-  version: 5.3.7.0
-- checksum: b966ff76024465adea6f1b259d4d6bb4323370cc
+  version: 1.0.4
+- checksum: c1d176a8ebea5cbed695d24d41b82546322bbce3
   name: Hat
-  version: 1.4.1
+  version: 1.4.3
 - checksum: aa037ed0a0355ef7cf3044170563570ae034674f
   name: IsSlimeChunk
   version: 1.0.0
 - checksum: d679c1e2f5416760e40d62ab4b423d70fe6256e2
   name: OnePlayerSleep
   version: 1.0.6
-- checksum: 644653e61a97f1e4d6670f73709c97cd01ff940a
+- checksum: 40300af89a0fbcf7f16f1fd80e41b26405cf5929
   name: OpenInv
-  version: 4.1.8
-- checksum: bfb28228810447ac66e98188124d5859631aef0d
+  version: 4.1.9
+- checksum: e0dec6ea97845fa64443d50b5c820e7f08331131
   name: ServerUtils
-  version: 3.1.2
+  version: 3.4.0
 - checksum: f973a1bcdf954ce7dd7d21a21dafa5f1a1c4b771
   name: VanillaTweaks
   version: 0.1.21
@@ -57,12 +57,12 @@ plugins:
 - checksum: 8519bc1569cd19e2949bbb729dad50724176264b
   name: WorldGuard
   version: 7.0.5+3827266
-- checksum: af9cab3ef40dc90c55be6f53b1cfe50e70cb3a03
+- checksum: 268db03a26d9b585d06308c388f1c90601459cd3
   name: LuckPerms
-  version: 5.3.74
-- checksum: 42f3105eb7f7914ec5b0680a87e8ae095219cea5
+  version: 5.3.98
+- checksum: 8ae760696d489edbf5cfa985400622efcdae66fe
   name: spark
-  version: 1.6.2
+  version: 1.7.2
 - checksum: b5dfde68000b8ee16109de36208b06c9c79e0235
   name: Prism
   version: 2.1.8-SNAPSHOT-225
@@ -75,15 +75,15 @@ plugins:
 - checksum: c2b4aff56ad8644f0c262ecfd009c8ad0d70be19
   name: PrometheusExporter
   version: 2.4.2
-- checksum: 251501e7ae63a78643b9c82b43473610decdb6ac
+- checksum: 8edb3ad57be28b3ed14b97a6b0556cf7409c1c86
   name: WorldBorder
-  version: '1.17'
-- checksum: 34877d26ff965597f5cfec9aca710c908154c1b1
+  version: '1.18'
+- checksum: ed692b9f670658a67875f3c463c8d36f1376e1d4
   name: CoreProtect
-  version: 20.1
+  version: 20.4
 - checksum: 7d488adace21b95b417bb9c4b52a8f2c53582338
   name: VanishNoPacket
   version: 3.21.G0.1
-- checksum: 248be9634159594594d970b8bcd241a0d926630a
+- checksum: fc2248466c387207d751d12e902befe129558dfa
   name: SpectatorMode
-  version: 2.1.5
+  version: 2.1.9

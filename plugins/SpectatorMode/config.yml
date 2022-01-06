@@ -1,0 +1,59 @@
+#   _____ __  __ _____     _____                 _        _               __  __           _
+#  / ____|  \/  |  __ \   / ____|               | |      | |             |  \/  |         | |
+# | (___ | \  / | |__) | | (___  _ __   ___  ___| |_ __ _| |_ ___  _ __  | \  / | ___   __| | ___
+#  \___ \| |\/| |  ___/   \___ \| '_ \ / _ \/ __| __/ _` | __/ _ \| '__| | |\/| |/ _ \ / _` |/ _ \
+#  ____) | |  | | |       ____) | |_) |  __/ (__| || (_| | || (_) | |    | |  | | (_) | (_| |  __/
+# |_____/|_|  |_|_|      |_____/| .__/ \___|\___|\__\__,_|\__\___/|_|    |_|  |_|\___/ \__,_|\___|
+#                               | |
+#                               |_|
+
+enabled: true
+night-vision: true
+conduit: true
+teleport-back: false
+enforce-worlds: false
+worlds-allowed:
+- world
+- world_nether
+- world_the_end
+enforce-y: false
+y-level: 0
+disallow-non-transparent-blocks: false
+disallow-all-blocks: false
+disallowed-blocks: []
+bubble-size: 35
+enforce-distance: false
+distance: 64
+minimum-health: 0
+prevent-teleport: false
+bad-commands: []
+stand-still-ticks: 0
+enforce-world-border: true
+disable-switching-message: false
+silence-survival-mode-message-on-join: true
+update-checker: true
+closest-hostile: 0
+detach-leads: true
+mobs: true
+watch-gamemode: true
+prevent-falling: true
+spectator-mode-message: '&9Setting gamemode to &b&lSPECTATOR MODE'
+survival-mode-message: '&9Setting gamemode to &b&lSURVIVAL MODE'
+falling-message: '&cHey you &lcan not &r&cdo that while falling!'
+world-message: '&cHey you&l can not &r&cdo that in that world!'
+health-message: '&cYou are below the minimum required health to preform this command!'
+disabled-message: '&cSpectator Mode is &lnot &r&cenabled by the server!'
+disable-message: '&dSpectator mode has been &ldisabled'
+enable-message: '&dSpectator mode has been &lenabled'
+reload-message: '&bThe config file has been reloaded!'
+invalid-player-message: '&cThat is not a valid player'
+force-success: '&bSuccessfully forced /target/'
+no-spectator-message: '&cYou did not preform the /s command'
+bad-command-message: '&cYou can not execute that command while in spectator mode'
+not-in-state-message: '&cYou did not use this command to get into spectator mode!'
+mob-too-close-message: '&cYou are too close to a hostile mob to enter spectator mode'
+unallowed-teleport-message: '&cYou are not allowed to teleport in spectator mode'
+y-level-limit-message: '&cYou are below the enforced y-level limit'
+stand-still-message: '&bStand still to be put into spectator mode!'
+moved-message: '&cYou moved! Spectator mode has been cancelled'
+debug: false
