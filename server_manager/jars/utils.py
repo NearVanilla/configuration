@@ -4,8 +4,9 @@ from pathlib import Path
 from requests import Response, Session
 
 from server_manager.hash_utils import sha1
-from server_manager.plugin import PluginInfo
+from server_manager.plugin import PluginInfo, PluginPlatform
 from server_manager.utils import plugin_to_b2_name
+from typing import Iterable
 
 BASE_URL = "https://files.nearvanilla.com/plugins"
 SESSION = Session()
@@ -54,3 +55,21 @@ def get_remote_plugin_info(plugin: PluginInfo) -> RemotePluginInfo:
     response = SESSION.head(url)
     response.raise_for_status()
     return get_remote_plugin_info_from_response(response)
+
+def get_jars_in_directory(path: Path) -> Iterable[Path]:
+    return path.glob("*.jar")
+
+def get_surplus_jars(wantedPlugins: Iterable[PluginInfo], existingFiles: Iterable[Path]):
+    """Get back paths to all given existing files, which are not declared by none of the wantedPlugins
+
+    >>> get_surplus_jars([], [])
+    set()
+    >>> get_surplus_jars([], [Path("x.jar")])
+    {PosixPath('x.jar')}
+    >>> get_surplus_jars([PluginInfo("x", "y", PluginPlatform.PAPER, "z", {})], [])
+    set()
+    >>> get_surplus_jars([PluginInfo("x", "y", PluginPlatform.PAPER, "z", {})], [Path("x.jar")])
+    set()
+    """
+    wp_stems = {wp.name for wp in wantedPlugins}
+    return {ef for ef in existingFiles if ef.stem not in wp_stems}

@@ -12,6 +12,7 @@
 .console_history
 .env*
 .envrc
+!.env*.example
 .python-version
 .secret
 logs/

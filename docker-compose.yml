@@ -7,14 +7,16 @@ x-user:
   user: '1000:1000'
 x-mc-common-settings:
   &mc_common_settings
-  image: itzg/minecraft-server:2021.16.0-java16
   stop_grace_period: 12m
+  working_dir: "/server"
+x-jvm-image:
+  &jvm_image
+  image: server-manager
+  build:
+    context: .
 x-mc-common-env:
   &mc_common_env
-  # For java -x options:
-  # Taken from: https://mcflags.emc.gs/ // Updated from paper discord
-  # JVM_XX_OPTS: "-XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100 -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=90 -XX:G1NewSizePercent=50 -XX:G1MaxNewSizePercent=80 -XX:G1MixedGCLiveThresholdPercent=35 -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled"
-  JVM_XX_OPTS: >-
+  JVM_FLAGS: |
     -XX:+UseG1GC
     -XX:+ParallelRefProcEnabled
     -XX:+UnlockExperimentalVMOptions
@@ -33,19 +35,17 @@ x-mc-common-env:
     -XX:G1RSetUpdatingPauseTimePercent=1
     -XX:SurvivorRatio=12
     -XX:MaxTenuringThreshold=1
-  # For java -D options:
-  JVM_DD_OPTS: 'paper.playerconnection.keepalive=85 Paper.skipServerPropertiesComments=true'
-  # Note, that with DD options, they are space-separated, but without -D preceding
-  # and can use colon : instead of =
+    -DPaper.skipServerPropertiesComments=true
 
 services:
   survival:
     <<: *user
     <<: *mc_common_settings
+    <<: *jvm_image
     container_name: "survival"
     hostname: "survival"
     volumes:
-      - './server-config/survival:/data'
+      - './server-config/survival:/server'
     #restart: unless-stopped
     restart: "no"
     #command:
@@ -53,19 +53,20 @@ services:
     environment:
       <<: *shared_envs
       <<: *mc_common_env
-      TYPE: CUSTOM
-      CUSTOM_SERVER: /data/server.jar
-      #FORCE_REDOWNLOAD: "true" #  If non-empty, it'll force-redownload the server jar
       MEMORY: "${SURVIVAL_MEM?}"
-      # For java options:
-      # JVM_OPTS:
+      GIT_BRANCH: config_survival
+      TRACE: "true"
+    env_file:
+      - ./.env-survival
+      - ./.env
   creative-spawn:
     <<: *user
     <<: *mc_common_settings
+    <<: *jvm_image
     container_name: "creative-spawn"
     hostname: "creative-spawn"
     volumes:
-      - './server-config/creative-spawn:/data'
+      - './server-config/creative-spawn:/server'
     #restart: unless-stopped
     restart: "no"
     #command:
@@ -73,32 +74,36 @@ services:
     environment:
       <<: *shared_envs
       <<: *mc_common_env
-      TYPE: CUSTOM
-      CUSTOM_SERVER: /data/server.jar
-      #FORCE_REDOWNLOAD: "true" #  If non-empty, it'll force-redownload the server jar
       MEMORY: "${CREATIVE_MEM?}"
+      GIT_BRANCH: config_creative_spawn
+    env_file:
+      - ./.env-creative-spawn
+      - ./.env
   velocity:
     <<: *user
+    <<: *jvm_image
     container_name: "velocity"
     hostname: "velocity"
     image: eclipse-temurin:17_35-jdk-focal
     working_dir: /velocity
-    command:
-      - java
-      - -Xms${PROXY_MEM?}
-      - -Xmx${PROXY_MEM?}
-      - -XX:+UseG1GC
-      - -XX:G1HeapRegionSize=4M
-      - -XX:+UnlockExperimentalVMOptions
-      - -XX:+ParallelRefProcEnabled
-      - -XX:+AlwaysPreTouch
-      - -XX:MaxInlineLevel=15
-      - -jar
-      - velocity.jar
+    environment:
+      JVM_FLAGS: |
+        -XX:+UseG1GC
+        -XX:G1HeapRegionSize=4M
+        -XX:+UnlockExperimentalVMOptions
+        -XX:+ParallelRefProcEnabled
+        -XX:+AlwaysPreTouch
+        -XX:MaxInlineLevel=15
+      SERVER_JAR: velocity.jar
+      MEMORY: "${PROXY_MEM?}"
+      GIT_BRANCH: config_velocity
     volumes:
       - ./server-config/velocity:/velocity:rw
     ports:
       - 25565:25565
+    env_file:
+      - ./.env-velocity
+      - ./.env
 
   mariadb:
     image: mariadb:10.5

@@ -11,11 +11,12 @@ RUN $JAVA_HOME/bin/jlink \
   --compress=2 \
   --output /javaruntime
 
-FROM debian:buster-slim AS base
+FROM debian:bullseye-slim AS base
+
+SHELL ["/bin/bash", "-c"]
+
 # Install all requirements first
-
 COPY docker/apt-packages.list /tmp/apt-packages.list
-
 RUN apt-get update \
   && xargs apt-get install -y < <(sed '/^#/d' /tmp/apt-packages.list) \
   && rm -rf /var/lib/apt/lists/*
@@ -30,6 +31,15 @@ ENV JAVA_HOME=/opt/java/openjdk
 ENV PATH "${JAVA_HOME}/bin:${PATH}"
 COPY --from=jre-build /javaruntime $JAVA_HOME
 
+RUN useradd --create-home --uid 1000 runner
+
+
+COPY docker/known_hosts docker/config_repo_ro_key /home/runner/.ssh/
+
+RUN chown -R runner:runner /home/runner/.ssh
+
+USER runner
+
 # TODO: Find a better place for all these files
 COPY manage.py /manage.py
 COPY server_manager/ /server_manager/
@@ -38,7 +48,8 @@ COPY server_manager/ /server_manager/
 COPY scripts/githooks/ /githooks/
 
 COPY docker/entrypoint.sh /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["dumb-init", "--", "/entrypoint.sh"]
 
 COPY docker/start.sh /start.sh
-CMD /start.sh
+
+CMD ["/start.sh"]

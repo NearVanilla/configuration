@@ -122,6 +122,20 @@ def status(paths):
             state.append("Substituted")
         click.secho(f"{str(path):<{longest_path}}\t{', '.join(state)}")
 
+@cli.command()
+@click.argument(
+    "path",
+    type=click.Path(exists=True, path_type=Path, file_okay=False, resolve_path=True),
+)
+def unpatched(path: Path):
+    """Checks whether path is git worktree that is unpatched"""
+    if not GitWrapper.is_initialized(path):
+        click.secho("Not a repository")
+        return 2
+    git = GitWrapper(path)
+    return 1 if is_substituted(git) else 0
+
+
 
 # Main :)
 

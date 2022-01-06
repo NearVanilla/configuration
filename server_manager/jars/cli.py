@@ -11,7 +11,11 @@ import click
 import yaml
 
 from server_manager.cli_utils import AliasedGroup, get_longest_string_length
-from server_manager.jars.utils import download_plugin
+from server_manager.jars.utils import (
+    download_plugin,
+    get_jars_in_directory,
+    get_surplus_jars,
+)
 from server_manager.plugin import (
     PluginComparison,
     PluginInfo,
@@ -74,8 +78,11 @@ def get_config_path(path: Path) -> Path:
     return path / "jars.yaml"
 
 
-def get_plugin_dir(path: Path, plugin: PluginInfo) -> Path:
-    return path / "plugins" / f"{plugin.name}.jar"
+def get_plugins_dir(path: Path) -> Path:
+    return path / "plugins"
+
+def get_plugin_file_path(path: Path, plugin: PluginInfo) -> Path:
+    return get_plugins_dir(path) / f"{plugin.name}.jar"
 
 
 server_path_argument = click.argument(
@@ -107,7 +114,7 @@ def status(path: Path):
         plugin.name for plugin in config.plugins
     )
     for plugin in config.plugins:
-        local_file = get_plugin_dir(path, plugin)
+        local_file = get_plugin_file_path(path, plugin)
         if not local_file.exists():
             click.echo(f"{plugin.name:<{longest_plugin_name}}\tMISSING")
             continue
@@ -123,13 +130,18 @@ def status(path: Path):
     default=False,
     help="Whether to force update local plugins, including downgrade",
 )
-def download(path: Path, force: bool):
+@click.option(
+    "--disable-orphaned/--no-disable-orphaned",
+    default=False,
+    help="Whether to disable orphaned plugins, which are not mentioned in config file",
+)
+def download(path: Path, force: bool, disable_orphaned: bool):
     """Download updates for all outdated and missing plugins"""
     config = get_config(path)
     plugins_to_update = []
     # Check if local version differs
     for plugin in config.plugins:
-        local_file = get_plugin_dir(path, plugin)
+        local_file = get_plugin_file_path(path, plugin)
         if not local_file.exists():
             plugins_to_update.append(plugin)
             continue
@@ -159,8 +171,17 @@ def download(path: Path, force: bool):
         item_show_func=lambda x: str(x.name) if x else "",
     ) as bar:
         for plugin in bar:
-            local_file = get_plugin_dir(path, plugin)
+            local_file = get_plugin_file_path(path, plugin)
             download_plugin(plugin, local_file)
+
+    if disable_orphaned:
+        surplus_jars = get_surplus_jars(config.plugins, get_jars_in_directory(path))
+        if surplus_jars:
+            click.echo(f"Disabling ${len(surplus_jars)} plugins: {', '.join(surplus_jars)}")
+            for sjar in surplus_jars:
+                sjar.replace(sjar.with_suffix(sjar.suffix + ".disabled"))
+        else:
+            click.echo("No plugins to disable")
 
 
 @cli.command()

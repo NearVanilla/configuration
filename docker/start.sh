@@ -3,6 +3,7 @@
 # but it's not hard to make it work with regular shell
 set -euo pipefail
 
+
 # SETTINGS
 # Path to file used to communicate from restart script
 readonly restart_flag='.restart_flag'
@@ -16,41 +17,8 @@ readonly restart_delay=10
 readonly restart_on_crash='yes'
 # The name of your server jar
 readonly server_jar="${SERVER_JAR:-server.jar}"
-# What will be passed to `-Xms` and `-Xmx`
-readonly heap_size="${MC_HEAP_SIZE?}"
-# JVM startup flags, one per line for better readability
-# NOTE: -Xms and -Xmx are set separately
-# These are mostly "Aikar flags"
-# taken from: https://mcflags.emc.gs/
-readonly jvm_flags=(
-  -XX:+UseG1GC
-  -XX:+ParallelRefProcEnabled
-  -XX:MaxGCPauseMillis=200
-  -XX:+UnlockExperimentalVMOptions
-  -XX:+DisableExplicitGC
-  -XX:+AlwaysPreTouch
-  -XX:G1NewSizePercent=30
-  -XX:G1MaxNewSizePercent=40
-  -XX:G1HeapRegionSize=8M
-  -XX:G1ReservePercent=20
-  -XX:G1HeapWastePercent=5
-  -XX:G1MixedGCCountTarget=4
-  -XX:InitiatingHeapOccupancyPercent=15
-  -XX:G1MixedGCLiveThresholdPercent=90
-  -XX:G1RSetUpdatingPauseTimePercent=5
-  -XX:SurvivorRatio=32
-  -XX:+PerfDisableSharedMem
-  -XX:MaxTenuringThreshold=1
-  -Dusing.aikars.flags=https://mcflags.emc.gs
-  -Daikars.new.flags=true
-  # Make paper remove comments from server.properties
-  -DPaper.skipServerPropertiesComments=true
-)
-# Minecraft args you might want to start your server with
-# Usually there isn't much to configure here:
-readonly mc_args=(
-  --nogui # Start the server without GUI
-)
+readonly heap_size="${MEMORY?}"
+readarray -t jvm_flags <<<"${JVM_FLAGS?}"
 # END OF SETTINGS
 
 should_restart_on_crash() {
@@ -70,7 +38,6 @@ readonly java_args=(
   -Xmx"${heap_size}" # Set heap max size
   "${jvm_flags[@]}" # Use jvm flags specified above
   -jar "${server_jar}" # Run the server
-  "${mc_args[@]}" # And pass it these settings
 )
 
 # Remove restart flag, if it exists,
