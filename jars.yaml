@@ -69,9 +69,9 @@ plugins:
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
-- checksum: 6732e2a3196b8b574f4f6030ee1f15351fb4ade2
+- checksum: 15ba447b6d14336f7be57935526299686127ce5e
   name: dynmap
-  version: 3.2-SNAPSHOT-489
+  version: 3.3-beta-4-617
 - checksum: c2b4aff56ad8644f0c262ecfd009c8ad0d70be19
   name: PrometheusExporter
   version: 2.4.2
