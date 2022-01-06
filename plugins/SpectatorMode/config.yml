@@ -57,3 +57,7 @@ y-level-limit-message: '&cYou are below the enforced y-level limit'
 stand-still-message: '&bStand still to be put into spectator mode!'
 moved-message: '&cYou moved! Spectator mode has been cancelled'
 debug: false
+only-spectating-no-free-movement: false
+spectator-ticks: -1
+supervanish-hook: false
+times-up-message: '&cTime limit reached! Toggling gamemode to &b&lSURVIVAL MODE'

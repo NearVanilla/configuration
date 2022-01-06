@@ -1,10 +1,10 @@
 # This is the main configuration file for Paper.
 # As you can see, there's tons to configure. Some options may impact gameplay, so use
 # with caution, and make sure you know what each option does before configuring.
-# 
+#
 # If you need help with the configuration or have any questions related to Paper,
 # join us in our Discord or IRC channel.
-# 
+#
 # Discord: https://discord.gg/papermc
 # IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper ) 
 # Website: https://papermc.io/ 
@@ -12,8 +12,9 @@
 
 use-display-name-in-quit-message: false
 verbose: false
-config-version: 23
+config-version: 24
 settings:
+  fix-target-selector-tag-completion: true
   lag-compensate-block-breaking: true
   send-full-pos-for-hard-colliding-entities: true
   log-player-ip-addresses: true
@@ -31,7 +32,6 @@ settings:
   save-empty-scoreboard-teams: false
   incoming-packet-spam-threshold: 300
   remove-invalid-statistics: false
-  save-player-data: true
   use-versioned-world: false
   velocity-support:
     enabled: true
@@ -58,6 +58,7 @@ settings:
   use-alternative-luck-formula: false
   min-chunk-load-threads: 2
   unsupported-settings:
+    perform-username-validation: true
     allow-headless-pistons: true
     allow-permanent-block-break-exploits: true
     allow-piston-duplication: true
@@ -153,6 +154,12 @@ world-settings:
     anti-xray:
       enabled: false
   default:
+    anticheat:
+      obfuscation:
+        items:
+          hide-itemmeta: false
+          hide-durability: false
+    monster-spawn-max-light-level: -1
     split-overstacked-loot: true
     map-item-frame-cursor-update-interval: 10
     piglins-guard-chests: true
@@ -230,8 +237,30 @@ world-settings:
         max: 16
         min: 11
     despawn-ranges:
-      soft: 32
-      hard: 96
+      monster:
+        soft: 32
+        hard: 96
+      creature:
+        soft: 32
+        hard: 96
+      ambient:
+        soft: 32
+        hard: 96
+      axolotls:
+        soft: 32
+        hard: 96
+      underground_water_creature:
+        soft: 32
+        hard: 96
+      water_creature:
+        soft: 32
+        hard: 96
+      water_ambient:
+        soft: 32
+        hard: 96
+      misc:
+        soft: 32
+        hard: 96
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     lightning-strike-distance-limit:
@@ -254,6 +283,7 @@ world-settings:
     max-entity-collisions: 8
     disable-creeper-lingering-effect: false
     hopper:
+      ignore-occluding-blocks: true
       cooldown-when-full: true
       disable-move-event: false
       push-based: false
@@ -383,10 +413,12 @@ world-settings:
         wither: true
         wither-skeleton: true
     spawn-limits:
-      monsters: -1
-      animals: -1
-      water-animals: -1
-      water-ambient: -1
+      monster: -1
+      creature: -1
+      axolotls: -1
+      underground_water_creature: -1
+      water_creature: -1
+      water_ambient: -1
       ambient: -1
     tick-rates:
       sensor:

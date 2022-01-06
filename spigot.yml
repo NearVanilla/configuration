@@ -3,10 +3,10 @@
 # with caution, and make sure you know what each option does before configuring.
 # For a reference for any variable inside this file, check out the Spigot wiki at
 # http://www.spigotmc.org/wiki/spigot-configuration/
-# 
+#
 # If you need help with the configuration or have any questions related to Spigot,
 # join us at the IRC or drop by our forums and leave a post.
-# 
+#
 # IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
 # Forums: http://www.spigotmc.org/
 
@@ -68,6 +68,9 @@ world-settings:
   world_the_end:
     seed-endcity: {{ SEED_SURVIVAL_ENDCITY }}
   default:
+    below-zero-generation-in-existing-chunks: true
+    simulation-distance: default
+    thunder-chance: 100000
     seed-bastion: {{ SEED_SURVIVAL_BASTION }}
     seed-fortress: {{ SEED_SURVIVAL_FORTRESS }}
     seed-mansion: {{ SEED_SURVIVAL_MANSION }}
@@ -81,6 +84,10 @@ world-settings:
     verbose: true
     mob-spawn-range: 6
     growth:
+      twistingvines-modifier: 100
+      weepingvines-modifier: 100
+      cavevines-modifier: 100
+      glowberry-modifier: 100
       bamboo-modifier: 100
       sweetberry-modifier: 100
       kelp-modifier: 100
