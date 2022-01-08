@@ -69,7 +69,7 @@ world-settings:
     seed-endcity: {{ SEED_SURVIVAL_ENDCITY }}
   default:
     below-zero-generation-in-existing-chunks: true
-    simulation-distance: default
+    simulation-distance: 4
     thunder-chance: 100000
     seed-bastion: {{ SEED_SURVIVAL_BASTION }}
     seed-fortress: {{ SEED_SURVIVAL_FORTRESS }}
@@ -79,10 +79,10 @@ world-settings:
     end-portal-sound-radius: 0
     seed-endcity: {{ SEED_SURVIVAL_ENDCITY }}
     trident-despawn-rate: 1200
-    view-distance: default
     seed-outpost: {{ SEED_SURVIVAL_OUTPOST }}
     verbose: true
     mob-spawn-range: 6
+    view-distance: 6
     growth:
       twistingvines-modifier: 100
       weepingvines-modifier: 100

@@ -315,7 +315,6 @@ world-settings:
     keep-spawn-loaded: false
     auto-save-interval: 14500
     anti-xray:
-      max-chunk-section-index: 7
       hidden-blocks:
       - ancient_debris
       - bone_block
@@ -850,13 +849,12 @@ world-settings:
       MaximumTicks: 600
     keep-spawn-loaded: true
     anti-xray:
-      max-block-height: 64
+      max-block-height: 128
       use-permission: false
       lava-obscures: false
       enabled: true
       engine-mode: 2
       chunk-edge-mode: 2
-      max-chunk-section-index: 3
       update-radius: 3
       hidden-blocks:
       - gold_ore
