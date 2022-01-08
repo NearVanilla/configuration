@@ -63,9 +63,6 @@ plugins:
 - checksum: 8ae760696d489edbf5cfa985400622efcdae66fe
   name: spark
   version: 1.7.2
-- checksum: b5dfde68000b8ee16109de36208b06c9c79e0235
-  name: Prism
-  version: 2.1.8-SNAPSHOT-225
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
