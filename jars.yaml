@@ -51,12 +51,12 @@ plugins:
 - checksum: 1425116618d1d7f626771cb5bb64fc74f15d485b
   name: WanderfulAdditions
   version: 0.1.3
-- checksum: bf5e72dbc3fd38d7c474001015ff293cb31a72d1
+- checksum: b37091e8a254576c9e06dc4848ba058e2d1e1a5c
   name: WorldEdit
-  version: 7.2.6-beta-01+1415e6f
-- checksum: 8519bc1569cd19e2949bbb729dad50724176264b
+  version: 7.2.8+6008-1246d61
+- checksum: b7ea0753916ceb76deb3c21f41752b037715fe57
   name: WorldGuard
-  version: 7.0.5+3827266
+  version: 7.0.6+1cff55f
 - checksum: 268db03a26d9b585d06308c388f1c90601459cd3
   name: LuckPerms
   version: 5.3.98
