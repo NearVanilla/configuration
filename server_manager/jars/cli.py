@@ -175,9 +175,9 @@ def download(path: Path, force: bool, disable_orphaned: bool):
             download_plugin(plugin, local_file)
 
     if disable_orphaned:
-        surplus_jars = get_surplus_jars(config.plugins, get_jars_in_directory(path))
+        surplus_jars = get_surplus_jars(config.plugins, get_jars_in_directory(path / "plugins"))
         if surplus_jars:
-            click.echo(f"Disabling ${len(surplus_jars)} plugins: {', '.join(surplus_jars)}")
+            click.echo(f"Disabling ${len(surplus_jars)} plugins: {', '.join(str(j) for j in surplus_jars)}")
             for sjar in surplus_jars:
                 sjar.replace(sjar.with_suffix(sjar.suffix + ".disabled"))
         else:

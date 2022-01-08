@@ -1,17 +1,14 @@
-ARG JAVA_VERSION=17
-# We can't use alpine variants as they use musl instead of glibc
-FROM eclipse-temurin:${JAVA_VERSION}-jdk-focal AS jre-build
+ARG DEBIAN_VERSION=bullseye-slim
 
-# Create a custom Java runtime
-RUN $JAVA_HOME/bin/jlink \
-  --add-modules java.base \
-  --strip-debug \
-  --no-man-pages \
-  --no-header-files \
-  --compress=2 \
-  --output /javaruntime
+FROM debian:${DEBIAN_VERSION} AS downloader
 
-FROM debian:bullseye-slim AS base
+WORKDIR /tmp/packages
+
+ARG RCON_VERSION=1.5.1
+ADD https://github.com/itzg/rcon-cli/releases/download/${RCON_VERSION}/rcon-cli_${RCON_VERSION}_linux_amd64.tar.gz rcon-cli.tar.gz
+RUN tar xf rcon-cli.tar.gz
+
+FROM debian:${DEBIAN_VERSION} AS base
 
 SHELL ["/bin/bash", "-c"]
 
@@ -26,10 +23,7 @@ COPY docker/manager-requirements.txt /tmp/requirements.txt
 
 RUN pip3 install -r /tmp/requirements.txt
 
-# Setup java
-ENV JAVA_HOME=/opt/java/openjdk
-ENV PATH "${JAVA_HOME}/bin:${PATH}"
-COPY --from=jre-build /javaruntime $JAVA_HOME
+COPY --from=downloader /tmp/packages/rcon-cli /usr/bin/rcon-cli
 
 RUN useradd --create-home --uid 1000 runner
 
@@ -37,6 +31,8 @@ RUN useradd --create-home --uid 1000 runner
 COPY docker/known_hosts docker/config_repo_ro_key /home/runner/.ssh/
 
 RUN chown -R runner:runner /home/runner/.ssh
+
+RUN chmod 0600 /home/runner/.ssh/*
 
 USER runner
 
@@ -53,3 +49,5 @@ ENTRYPOINT ["dumb-init", "--", "/entrypoint.sh"]
 COPY docker/start.sh /start.sh
 
 CMD ["/start.sh"]
+
+ENV RCON_PORT=25575

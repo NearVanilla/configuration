@@ -14,9 +14,11 @@ x-jvm-image:
   image: server-manager
   build:
     context: .
+  depends_on:
+    - mariadb
 x-mc-common-env:
   &mc_common_env
-  JVM_FLAGS: |
+  JVM_FLAGS: |-
     -XX:+UseG1GC
     -XX:+ParallelRefProcEnabled
     -XX:+UnlockExperimentalVMOptions
@@ -84,10 +86,9 @@ services:
     <<: *jvm_image
     container_name: "velocity"
     hostname: "velocity"
-    image: eclipse-temurin:17_35-jdk-focal
     working_dir: /velocity
     environment:
-      JVM_FLAGS: |
+      JVM_FLAGS: |-
         -XX:+UseG1GC
         -XX:G1HeapRegionSize=4M
         -XX:+UnlockExperimentalVMOptions
@@ -102,7 +103,6 @@ services:
     ports:
       - 25565:25565
     env_file:
-      - ./.env-velocity
       - ./.env
 
   mariadb:

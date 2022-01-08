@@ -3,6 +3,7 @@
 # but it's not hard to make it work with regular shell
 set -euo pipefail
 
+[ -z "${TRACE:-}" ] || set -x
 
 # SETTINGS
 # Path to file used to communicate from restart script
@@ -54,7 +55,7 @@ while :; do # Loop infinitely
   java "${java_args[@]}" || {
     last_exit_code="${?}"
     # Oops, server didn't exit gracefully
-    printf 'Detected server crash (exit code: %s)\n' "${?}" >&2
+    printf 'Detected server crash (exit code: %s)\n' "${last_exit_code}" >&2
     # Check if we should restart on crash or not
     if should_restart_on_crash; then
       touch "${restart_flag}"

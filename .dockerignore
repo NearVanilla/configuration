@@ -1,0 +1,6 @@
+# vim: ft=gitignore
+*
+!docker/
+!manage.py
+!scripts/githooks/
+!server_manager/
