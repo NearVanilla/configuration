@@ -1,14 +1,14 @@
 platform: Velocity
 plugins:
-- checksum: cf231f876f782870155cf58bab138df7e08abf62
+- checksum: 5718b7f41363b9670133ad48027b18e808c753dc
   name: LuckPerms
-  version: 5.3.74
-- checksum: 9c0d065c45691090128ae1e46cea022b2dd617c6
+  version: 5.3.98
+- checksum: 4fdc28431e56936742e500a169867aaf40f79f07
   name: TCPShield
-  version: 2.5.3
-- checksum: 875316f78e01a273fc6265b976aad4bf9f14d34d
+  version: 2.5.5
+- checksum: cbcbacc7458871d9fb720bf231d894ef8d089773
   name: MiniMOTD
-  version: 2.0.4
+  version: 2.0.5
 - checksum: ae7860e530db271ca00dcf0c8120d614e8b68ced
   name: bat
   version: 1.0.0
