@@ -15,7 +15,7 @@
     }
   ],
   "whitelist": [
-    "ts_PlayedMinutes",
+    "ts_PlayTime",
     "ts_Deaths",
     "ts_DamageTaken",
     "ts_MineDiamond",
@@ -40,7 +40,7 @@
             "Blocks traveled"
        ],
        "m_hm": [
-            "ts_PlayedMinutes"
+            "ts_PlayTime"
        ]
   }
 }

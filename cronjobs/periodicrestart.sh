@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 set -euo pipefail
+set -x
 
 readonly countdown_times=(
   30
@@ -33,20 +34,43 @@ rcon_cli() {
   local -r container_name="${1?}"
   shift
   local -r command=( "${@}" )
-  docker-compose exec -T "${container_name}" rcon-cli "${command[@]}"
+  docker-compose exec -T "${container_name}" rcon-cli --port 25575 "${command[@]}"
 }
 
 check_server_running() {
   local -r container_name="${1?}"
-  docker-compose ps "${container_name}" | awk 'NR == 3 { if ($3 == "Up") { exit 0 } else { exit 1 }  }' || {
-    echo "Server is not running!"
-    return 1
+  local id
+  local status
+  local ecode
+  id="$(docker-compose ps -q "${container_name}")" || {
+    ecode=$?
+    echo "Server not existing?"
+    return $ecode
+  }
+  status="$(docker inspect "${id}" --format '{{ .State.Status }}')" || {
+    ecode=$?
+    echo "Unable to get server status"
+    return $ecode
+  }
+  [ "${status:-}" = "running" ] || {
+    ecode=$?
+    echo "Server is not running (status ${status:-})!"
+    return $ecode
   }
 }
 
 restart_server() {
-  local -r container_name="${1?}"
-  docker-compose restart "${container_name}"
+  local -r container="${1?}"
+  # TODO: Fix restarts
+  rcon_cli "${container}" stop
+  for i in {1..30}; do
+    if check_server_running "${container}"; then
+      break
+    fi
+    sleep "${i}"
+  done
+  docker-compose start "${container}"
+  #docker-compose restart "${container}"
 }
 
 target_server="${1?}"
