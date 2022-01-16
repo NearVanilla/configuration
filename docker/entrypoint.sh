@@ -51,6 +51,14 @@ todo() {
   exit 24
 }
 
+setup_git() {
+  local username email
+  username="$(id -u)"
+  email="${username}@$(hostname)"
+  git config --global user.name "${username}"
+  git config --global user.email "${email}"
+}
+
 is_not_patched() {
   manage config unpatched .
 }
@@ -68,7 +76,7 @@ download_jars() {
 }
 
 server_run_loop() {
-  "${START_SCRIPT}"
+  run "${START_SCRIPT}"
 }
 
 is_hard_failed() {
@@ -78,6 +86,31 @@ is_hard_failed() {
 hard_fail() {
   log "Failing hard"
   touch "${HARD_FAILED_FILE}"
+}
+
+is_process_running() {
+  [ -e "/proc/${1?PID missing}" ]
+}
+
+run() {
+  "${@}" &
+  local -r pid="${!}"
+  local sig
+  for sig in SIGINT SIGTERM; do
+    # shellcheck disable=SC2064
+    trap "log Killing && kill -${sig} ${pid}" "${sig}"
+  done
+  while :; do
+    if wait "${pid}"; then
+      log 'Returned success!'
+      return
+    else
+      local -r ecode="${?}"
+      log "Exit code ${ecode}"
+      # If process is not running, return
+      is_process_running "${pid}" || return "${ecode}"
+    fi
+  done
 }
 
 log() {
@@ -132,22 +165,17 @@ prepare_git_repo() {
     log 'Not in git repo - clonning'
     git clone "${GIT_REPO_ADDRESS}" --branch "${GIT_BRANCH}" . || notify_err "Failed to clone the repo"
   fi
-
-  if is_patched; then
-    notify 'Repo is patched' "Unable to initialize ${GIT_BRANCH} config, as repo is patched. This means that something failed and needs to be fixed manually".
-    hard_fail
-    return 1
-  fi
 }
 
 main() {
   # If we are hard-failed, then we notified already - skip doing anything
   ! is_hard_failed || return 1
   trap 'notify_err "Uncaught error"' ERR
+  setup_git
   sanity_check
   prepare_git_repo
   pull_config
-  patch_config
+  is_patched || patch_config
   download_jars
   server_run_loop
   unpatch_config

@@ -8,6 +8,11 @@ ARG RCON_VERSION=1.5.1
 ADD https://github.com/itzg/rcon-cli/releases/download/${RCON_VERSION}/rcon-cli_${RCON_VERSION}_linux_amd64.tar.gz rcon-cli.tar.gz
 RUN tar xf rcon-cli.tar.gz
 
+ARG MC_SERVER_RUNNER_VERSION=1.8.0
+
+ADD https://github.com/itzg/mc-server-runner/releases/download/${MC_SERVER_RUNNER_VERSION}/mc-server-runner_${MC_SERVER_RUNNER_VERSION}_linux_amd64.tar.gz mc-server-runner.tar.gz
+RUN tar xf mc-server-runner.tar.gz
+
 FROM debian:${DEBIAN_VERSION} AS base
 
 SHELL ["/bin/bash", "-c"]
@@ -24,6 +29,7 @@ COPY docker/manager-requirements.txt /tmp/requirements.txt
 RUN pip3 install -r /tmp/requirements.txt
 
 COPY --from=downloader /tmp/packages/rcon-cli /usr/bin/rcon-cli
+COPY --from=downloader /tmp/packages/mc-server-runner /usr/bin/mc-server-runner
 
 RUN useradd --create-home --uid 1000 runner
 

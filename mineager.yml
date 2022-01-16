@@ -62,7 +62,7 @@ plugins:
   prefix: Swap
   resource: OskarsMC-Plugins/swap
   type: github
-- name: Smp-Spectator-Mode
-  prefix: Smp-Spectator-Mode
+- name: SpectatorMode
+  prefix: SpectatorMode
   resource: '77267'
   type: spiget

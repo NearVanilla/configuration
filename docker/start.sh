@@ -20,18 +20,8 @@ readonly restart_on_crash='yes'
 readonly server_jar="${SERVER_JAR:-server.jar}"
 readonly heap_size="${MEMORY?}"
 readarray -t jvm_flags <<<"${JVM_FLAGS?}"
+readonly direct_exec="${DIRECT_EXEC:-false}"
 # END OF SETTINGS
-
-should_restart_on_crash() {
-  case "${restart_on_crash,,}" in
-    y|yes|true) return 0;;
-    n|no|false) return 1;;
-    *)
-      printf 'ERROR: Invalid value for "restart_on_crash" variable: %s\n' "${restart_on_crash}" >&2
-      exit 1
-      ;;
-  esac
-}
 
 # The arguments that will be passed to java:
 readonly java_args=(
@@ -41,6 +31,32 @@ readonly java_args=(
   -jar "${server_jar}" # Run the server
 )
 
+readonly mc_runner_args=(
+  --stop-duration "${STOP_DURATION:-120s}"
+)
+
+is_true() {
+  local -r arg_name="${1?}"
+  case "${!arg_name,,}" in
+    y|yes|true) return 0;;
+    n|no|false) return 1;;
+    *)
+      printf 'ERROR: Invalid value for "%s" variable: %s\n' "${arg_name}" "${!arg_name}" >&2
+      exit 1
+      ;;
+  esac
+}
+
+should_restart_on_crash() {
+  is_true restart_on_crash
+}
+
+should_direct_exec() {
+  is_true direct_exec
+}
+
+trap 'echo "It is a TRAP!"' SIGINT SIGTERM
+
 # Remove restart flag, if it exists,
 # so that we won't restart the server after first stop,
 # unless restart script was called
@@ -48,17 +64,29 @@ rm "${restart_flag}" &>/dev/null || true
 
 # Check if `restart_on_crash` has valid value
 should_restart_on_crash || true
+should_direct_exec || true
 
 while :; do # Loop infinitely
   # Run server
   last_exit_code=0
-  java "${java_args[@]}" || {
+  {
+    if should_direct_exec; then
+      java "${java_args[@]}"
+    else
+      mc-server-runner "${mc_runner_args[@]}" java "${java_args[@]}"
+    fi
+  } || {
     last_exit_code="${?}"
-    # Oops, server didn't exit gracefully
-    printf 'Detected server crash (exit code: %s)\n' "${last_exit_code}" >&2
-    # Check if we should restart on crash or not
-    if should_restart_on_crash; then
-      touch "${restart_flag}"
+    if (( last_exit_code > 128 )); then
+      printf 'Server was terminated with a signal %s (exit code: %s)\n' "$(( last_exit_code - 128 ))" "${last_exit_code}" >&2
+      last_exit_code=0
+    else
+      # Oops, server didn't exit gracefully
+      printf 'Detected server crash (exit code: %s)\n' "${last_exit_code}" >&2
+      # Check if we should restart on crash or not
+      if should_restart_on_crash; then
+        touch "${restart_flag}"
+      fi
     fi
   }
   # Check if restart file exists or exit
