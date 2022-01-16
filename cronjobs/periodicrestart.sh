@@ -83,4 +83,5 @@ for (( idx=0; idx < "${#countdown_times[@]}" - 1; ++idx )); do
   sleep "$((to_restart - next_message_in))"
 done
 
+rcon_cli "${target_server}" "kick @a Periodic server restart, sorry :/"
 restart_server "${target_server}"

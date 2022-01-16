@@ -98,6 +98,7 @@ services:
       SERVER_JAR: velocity.jar
       MEMORY: "${PROXY_MEM?}"
       GIT_BRANCH: config_velocity
+      DIRECT_EXEC: "true"
     volumes:
       - ./server-config/velocity:/velocity:rw
     ports:
