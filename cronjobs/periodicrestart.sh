@@ -64,11 +64,10 @@ restart_server() {
   # TODO: Fix restarts
   rcon_cli "${container}" stop
   for i in {1..30}; do
-    if check_server_running "${container}"; then
-      break
-    fi
+    check_server_running "${container}" || break
     sleep "${i}"
   done
+  sleep 5
   docker-compose start "${container}"
   #docker-compose restart "${container}"
 }

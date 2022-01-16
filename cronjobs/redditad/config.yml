@@ -1,31 +1,32 @@
 ---
-title: Near Vanilla [Semi-Vanilla] [SMP] {Mature 18+} {Java} {Whitelisted} {Community} {1.17.1} {Survival}
+title: Near Vanilla [Semi-Vanilla] [SMP] {Mature 18+} {Java} {Whitelisted} {Community} {1.18.1} {Survival}
 content: |
   Near Vanilla is a close-knit community server where we’ve created an environment where players come together to build, collect, explore, and have fun. The perks of being a member can be seen in our cooperative builds, player competitions, vibrant shopping district, and other events. All play styles are welcome, from those who want to venture out on their own to those who want to work cooperatively with others. We’re sure you will find exactly what you are looking for in your SMP experience while making some great friends and builds along the way.
 
   Near Vanilla is an international, community-driven server. There is constant communication on our Discord, both serious discussion and silliness. We constantly seek the opinions and views of the player base and large changes are made through player discussion. Suggestions are always welcome. A dedicated admin team is always on hand to make sure things are working smoothly, bad behavior is squashed, and your time on the server is stress-free. Our DynMap, which can be viewed through the website, allows you to navigate to your favorite biome and see how close/far you are from your fellow players.
-  
+
   If this all sounds like your kind of place, grab your sword and pick and jump into NearVanilla and show us the creations you can make! [Apply now!](https://nearvanilla.com/apply)
-  
-  
+
+
   * **IP:** play.nearvanilla.com
   * **Website:** [https://nearvanilla.com](https://nearvanilla.com)
   * **Map:** [https://map.nearvanilla.com](https://map.nearvanilla.com)
+  * **Watch our Season 5 Recap Video:** [https://youtu.be/SoJU47pZojY](https://youtu.be/SoJU47pZojY)
   * **Some Screenshots:** [https://imgur.com/a/UB49qYa](https://imgur.com/a/UB49qYa)
-  Currently in Season 5, started July 4, 2020
+  Currently in Season 6, started January 8, 2022
   Hard difficulty
-  
-  
+
+
   **Requirements:**
   * 18+ only
   * Be Nice
-  
-  
+
+
   **Zero Tolerance Policy:**
   No hacking, glitching, or duping allowed. Any of these will result in a permanent ban.
   No griefing, stealing, bullying, insulting, discrimination, or prejudice behavior tolerated. Toxic behavior is not welcome.
-  
-  
+
+
   **The “Near” in “Near Vanilla”**
   * Deathlog: Lets you know where you died
   * WanderfulAdditions*: control armor stands and make item frames invisible
@@ -33,12 +34,8 @@ content: |
   * Custom plugins created for our server
   * A few Admin tools to help mods keep things friendly and welcoming
   Players can suggest Non-Vanilla additions if they do not remove from the vanilla experience which will be discussed on our Discord.
-  
-  
-  **Plans for 1.17 and 1.18**
-  We have voted to expand our world borders with 1.17 to access new blocks and mobs. We did that on Saturday, July 10th. When the rest of the Caves and Cliffs update drops at the end of the year, we plan to reset the map and start Season 6.
-  
-  
+
+
   **To apply fill in the following and post it below or use form on our website.** Applications with more information are more likely to be accepted.
 
   1. How are you doing today?
@@ -50,12 +47,12 @@ content: |
   7. Have you ever been banned from another server? If yes, why?
   8. How did you hear about our community?
 
-  
+
   No reddit account? [Apply here!](https://nearvanilla.com/apply)
 
 # Content posted to Discord on success
 # Will be passed as-is as data, apart from `content` formatting
-webhook: 
+webhook:
   username: "NearVanilla"
   # NV logo
   avatar_url: 'https://cdn.discordapp.com/avatars/808484988252061735/f1735773725ebbc60305ea1dc0415b7b.webp'
