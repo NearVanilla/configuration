@@ -753,7 +753,7 @@ world-settings:
     queue-light-updates: false
     game-mechanics:
       disable-mob-spawner-spawn-egg-transformation: false
-      fix-curing-zombie-villager-discount-exploit: true
+      fix-curing-zombie-villager-discount-exploit: false
       nerf-pigmen-from-nether-portals: false
       disable-pillager-patrols: false
       disable-relative-projectile-velocity: false
