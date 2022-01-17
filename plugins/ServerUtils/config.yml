@@ -9,3 +9,7 @@ settings:
 disabled-commands:
 - plugin:command
 config-version: 1
+unload-after-startup:
+  delay-ticks: 20
+  plugins: []
+hide-plugins-from-plugins-command: []

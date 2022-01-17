@@ -4,7 +4,8 @@
 # issues on our Discord. https://discordsrv.com/discord
 #
 
-# Whether or not to enable the voice module
+# Whether or not to enable the proximity voice chat feature of DiscordSRV
+# You must restart your server after changing this option
 Voice enabled: false
 # Amount of ticks between network updates
 Tick speed: 5
@@ -18,7 +19,7 @@ Lobby channel: 000000000000000000
 # Mutes users in the lobby who have the Speak and Mute Others permissions in the lobby
 Mute users who bypass speak permissions in the lobby: false
 
-Network:
+Network: 
   # Maximum distance between players in order to be connected
   Vertical Strength: 40
   Horizontal Strength: 80
