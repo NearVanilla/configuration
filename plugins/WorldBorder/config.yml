@@ -22,6 +22,9 @@ bypass-list-uuids:
 - 93f099a0-4f9c-4117-aa7f-a70a135d51db
 - f02eb291-baca-45e3-a196-6cb6c9855006
 - e58d71f7-bec8-491d-bfff-20c9bbee6080
+- c704aecb-564b-4e23-90c9-b607d005e168
+- 3d6fea3e-6d72-4c4f-8338-02d0e53246ca
+- a1a4056c-c2d6-414c-a30d-5b0293032158
 fill-memory-tolerance: 500
 prevent-block-place: false
 prevent-mob-spawn: false
@@ -29,6 +32,6 @@ worlds:
   world_the_end:
     x: 0.0
     z: 0.0
-    radiusX: 8000
-    radiusZ: 8000
+    radiusX: 10000
+    radiusZ: 10000
     wrapping: false
