@@ -5,9 +5,9 @@
 # http://www.spigotmc.org/wiki/spigot-configuration/
 #
 # If you need help with the configuration or have any questions related to Spigot,
-# join us at the IRC or drop by our forums and leave a post.
+# join us at the Discord or drop by our forums and leave a post.
 #
-# IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
+# Discord: https://www.spigotmc.org/go/discord
 # Forums: http://www.spigotmc.org/
 
 config-version: 12
@@ -68,6 +68,7 @@ world-settings:
   world_the_end:
     seed-endcity: {{ SEED_SURVIVAL_ENDCITY }}
   default:
+    seed-stronghold: default
     below-zero-generation-in-existing-chunks: true
     simulation-distance: 4
     thunder-chance: 100000
@@ -105,6 +106,7 @@ world-settings:
       vine-modifier: 100
       cocoa-modifier: 100
     entity-activation-range:
+      ignore-spectators: false
       villagers: 32
       flying-monsters: 32
       villagers-work-immunity-after: 100

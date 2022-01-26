@@ -14,6 +14,7 @@ use-display-name-in-quit-message: false
 verbose: false
 config-version: 24
 settings:
+  time-command-affects-all-worlds: false
   fix-target-selector-tag-completion: true
   lag-compensate-block-breaking: true
   send-full-pos-for-hard-colliding-entities: true
@@ -709,6 +710,15 @@ world-settings:
       clay_pool_with_dripleaves: -3511904172855979300
       nether_sprouts_bonemeal: 4869184967844890188
   default:
+    slime-spawn-height:
+      swamp-biome:
+        maximum: 70.0
+        minimum: 50.0
+      slime-chunk:
+        maximum: 40.0
+    wateranimal-spawn-height:
+      maximum: default
+      minimum: default
     anticheat:
       obfuscation:
         items:
