@@ -1,8 +1,8 @@
 hermit-head-trades:
   max: 3
   min: 1
-  enabled: true
+  enabled: false
 block-trades:
-  max: 7
+  max: 10
   min: 5
   enabled: true

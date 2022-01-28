@@ -1,7 +1,7 @@
 mobs:
   larger-phantoms: false
   anti-enderman-grief: false
-  silence-mobs: false
+  silence-mobs: true
   more-mob-heads: true
   anti-ghast-grief: false
   dragon-drops: false
@@ -35,7 +35,7 @@ item-tools:
   durability-ping: false
 villagers:
   villagerdeathmessage: false
-  wanderingtrades: false
+  wanderingtrades: true
   customvillagershops: false
   pillagertools: false
   workstationhighlights: false

@@ -26,6 +26,7 @@ bypass-list-uuids:
 - 3d6fea3e-6d72-4c4f-8338-02d0e53246ca
 - a1a4056c-c2d6-414c-a30d-5b0293032158
 - 1ad6177c-322a-438a-af9c-9fd19f44771d
+- 49cc1626-9b6e-45ca-ab10-20a23f23aedd
 fill-memory-tolerance: 500
 prevent-block-place: false
 prevent-mob-spawn: false
