@@ -1,4 +1,7 @@
 platform: Velocity
+version:
+  name: "3.1.1"
+  build: 102
 plugins:
 - checksum: 5718b7f41363b9670133ad48027b18e808c753dc
   name: LuckPerms
