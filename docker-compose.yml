@@ -1,7 +1,8 @@
 version: '3.7'
-x-shared-rcon-envs:
+x-shared-envs:
   &shared_envs
   RCON_PASSWORD: "${RCON_PASSWORD:-minecraft}"
+  TRACE: "true" # entrypoint
 x-user:
   &user
   user: '1000:1000'
@@ -57,7 +58,6 @@ services:
       <<: *mc_common_env
       MEMORY: "${SURVIVAL_MEM?}"
       GIT_BRANCH: config_survival
-      TRACE: "true"
     env_file:
       - ./.env-survival
       - ./.env
