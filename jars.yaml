@@ -1,4 +1,7 @@
 platform: Paper
+version:
+  name: "1.18.1"
+  build: 177
 plugins:
 - checksum: 6944fc037233ad54f54ba46a15fd816f83f7da54
   name: ArmorStandEditor

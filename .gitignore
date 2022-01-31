@@ -58,3 +58,7 @@ __pycache__/
 
 !server-icon.png
 !.subworktrees.json
+.COMMIT_MSG
+.HARD_FAILED
+.NO_UNPATCH
+.NO_PULL
