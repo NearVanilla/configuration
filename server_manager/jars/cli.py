@@ -10,12 +10,14 @@ from typing import List
 import click
 import yaml
 
+from server_manager.hash_utils import sha256
 from server_manager.cli_utils import AliasedGroup, get_longest_string_length
 from server_manager.jars.utils import (
     download_plugin,
     get_jars_in_directory,
     get_surplus_jars,
 )
+from server_manager.jars import papi
 from server_manager.plugin import (
     PluginComparison,
     PluginInfo,
@@ -27,6 +29,8 @@ from server_manager.plugin import (
 @dataclasses.dataclass()
 class JarConfig:
     platform: PluginPlatform
+    version_name: str
+    version_build: int
     plugins: List[PluginInfo]
 
     @classmethod
@@ -37,13 +41,19 @@ class JarConfig:
         platform_string = data.get("platform")
         assert isinstance(platform_string, str)
         platform = PluginPlatform[platform_string.upper()]
+        version = data.get("version")
+        assert isinstance(version, dict)
+        version_name = version.get("name")
+        assert isinstance(version_name, str)
+        version_build = version.get("build")
+        assert isinstance(version_build, int)
         plugin_list = data.get("plugins")
         assert isinstance(plugin_list, list), "Invalid config"
         plugins = [
             PluginInfo(platform=platform, **plugin, raw=plugin)
             for plugin in plugin_list
         ]
-        return cls(platform, plugins)
+        return cls(platform, version_name, version_build, plugins)
 
     def save(self, config_file: Path) -> None:
         # TODO: Throw correct exception
@@ -53,6 +63,7 @@ class JarConfig:
             ), f"Expected {plugin.name} to be written for {self.platform}, not {plugin.platform}"
         data = {
             "platform": self.platform.name.title(),
+            "version": {"name": self.version_name, "build": self.version_build},
             "plugins": [
                 {
                     "name": plugin.name,
@@ -80,6 +91,7 @@ def get_config_path(path: Path) -> Path:
 
 def get_plugins_dir(path: Path) -> Path:
     return path / "plugins"
+
 
 def get_plugin_file_path(path: Path, plugin: PluginInfo) -> Path:
     return get_plugins_dir(path) / f"{plugin.name}.jar"
@@ -175,13 +187,29 @@ def download(path: Path, force: bool, disable_orphaned: bool):
             download_plugin(plugin, local_file)
 
     if disable_orphaned:
-        surplus_jars = get_surplus_jars(config.plugins, get_jars_in_directory(path / "plugins"))
+        surplus_jars = get_surplus_jars(
+            config.plugins, get_jars_in_directory(path / "plugins")
+        )
         if surplus_jars:
-            click.echo(f"Disabling {len(surplus_jars)} plugins: {', '.join(str(j) for j in surplus_jars)}")
+            click.echo(
+                f"Disabling {len(surplus_jars)} plugins: {', '.join(str(j) for j in surplus_jars)}"
+            )
             for sjar in surplus_jars:
                 sjar.replace(sjar.with_suffix(sjar.suffix + ".disabled"))
         else:
             click.echo("No plugins to disable")
+
+    # TODO: Make configurable
+    jar_location = path / "server.jar"
+    build = papi.Build.get_build_from(
+        project_id=config.platform.name.lower(),
+        version=config.version_name,
+        build=config.version_build,
+    )
+    if not jar_location.exists() or sha256(jar_location) != build.downloads.get(
+        "application", {}
+    ).get("sha256"):
+        build.download("application", destination=jar_location)
 
 
 @cli.command()
@@ -218,25 +246,6 @@ def update(path: Path, plugin_dir: Path):
     config.plugins = new_plugins
     config_file = get_config_path(path)
     config.save(config_file)
-
-
-@cli.command()
-@server_path_argument
-@click.argument(
-    "platform",
-    type=click.Choice([entry.name for entry in PluginPlatform]),
-    callback=lambda c, p, v: PluginPlatform[v.upper()] if v else None,
-    default=PluginPlatform.PAPER.name,
-)
-def new_config(path: Path, platform: PluginPlatform):
-    """Create new config for platform"""
-    config_file = get_config_path(path)
-    if config_file.exists():
-        click.echo("Config file exists already - aborting.")
-        return 1
-    config = JarConfig(platform=platform, plugins=[])
-    config.save(config_file)
-    return 0
 
 
 @cli.command()

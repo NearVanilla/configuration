@@ -95,7 +95,7 @@ services:
         -XX:+ParallelRefProcEnabled
         -XX:+AlwaysPreTouch
         -XX:MaxInlineLevel=15
-      SERVER_JAR: velocity.jar
+      SERVER_JAR: server.jar
       MEMORY: "${PROXY_MEM?}"
       GIT_BRANCH: config_velocity
       DIRECT_EXEC: "true"

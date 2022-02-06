@@ -14,6 +14,9 @@ readonly GIT_KEY="${HOME}/.ssh/config_repo_ro_key"
 readonly GIT_BRANCH="${GIT_BRANCH?:Missing git branch to use}"
 
 readonly HARD_FAILED_FILE="./.HARD_FAILED"
+readonly NO_UNPATCH_FILE="./.NO_UNPATCH"
+readonly COMMIT_MSG_FILE="./.COMMIT_MSG"
+readonly NO_PULL_FILE="./.NO_PULL"
 
 [ -z "${TRACE:-}" ] || set -x
 
@@ -26,11 +29,20 @@ patch_config() {
 }
 
 unpatch_config() {
-  if ! manage config unpatch .; then
+  local extra_args=()
+  local commit_msg
+  if [ -e "${COMMIT_MSG_FILE}" ]; then
+    commit_msg="$(cat "${COMMIT_MSG_FILE}")"
+    extra_args+=( --commit-message "${commit_msg}" )
+  fi
+  if ! manage config unpatch "${extra_args[@]}" .; then
     local ecode="${?}"
     hard_fail
     todo implement
     return "${ecode}"
+  fi
+  if [ -e "${COMMIT_MSG_FILE}" ]; then
+    rm "${COMMIT_MSG_FILE}"
   fi
 }
 
@@ -68,7 +80,7 @@ is_patched() {
 }
 
 pull_config() {
-  git pull --ff-only
+  git pull --ff-only --autostash
 }
 
 download_jars() {
@@ -81,6 +93,14 @@ server_run_loop() {
 
 is_hard_failed() {
   [ -e "${HARD_FAILED_FILE}" ]
+}
+
+should_skip_unpatch() {
+  [ -e "${NO_UNPATCH_FILE}" ]
+}
+
+should_skip_pull() {
+  [ -e "${NO_PULL_FILE}" ]
 }
 
 hard_fail() {
@@ -174,11 +194,11 @@ main() {
   setup_git
   sanity_check
   prepare_git_repo
-  pull_config
+  should_skip_pull || pull_config
   is_patched || patch_config
   download_jars
   server_run_loop
-  unpatch_config
+  should_skip_unpatch || unpatch_config
 }
 
 main

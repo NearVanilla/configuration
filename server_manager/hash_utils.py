@@ -25,3 +25,9 @@ def sha1(file: Path) -> str:
     """Calculate sha1 checksum of file"""
     hash_sha1 = hashlib.sha1()
     return hash_file(file, hash_sha1).hexdigest()
+
+
+def sha256(file: Path) -> str:
+    """Calculate sha256 checksum of file"""
+    hash_sha256 = hashlib.sha256()
+    return hash_file(file, hash_sha256).hexdigest()

@@ -4,6 +4,7 @@
 from __future__ import annotations  # Postponed evaluation PEP-563
 
 import os
+import sys
 from pathlib import Path
 
 import click
@@ -122,6 +123,7 @@ def status(paths):
             state.append("Substituted")
         click.secho(f"{str(path):<{longest_path}}\t{', '.join(state)}")
 
+
 @cli.command()
 @click.argument(
     "path",
@@ -131,10 +133,9 @@ def unpatched(path: Path):
     """Checks whether path is git worktree that is unpatched"""
     if not GitWrapper.is_initialized(path):
         click.secho("Not a repository")
-        return 2
+        sys.exit(2)
     git = GitWrapper(path)
-    return 1 if is_substituted(git) else 0
-
+    sys.exit(1 if is_substituted(git) else 0)
 
 
 # Main :)
