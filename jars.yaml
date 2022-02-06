@@ -1,7 +1,4 @@
 platform: Paper
-version:
-  name: "1.18.1"
-  build: 177
 plugins:
 - checksum: 6944fc037233ad54f54ba46a15fd816f83f7da54
   name: ArmorStandEditor
@@ -9,12 +6,18 @@ plugins:
 - checksum: 1dc858d1fcd50c75d8ee320bda28e1f9fcee83fe
   name: DiscordSRV
   version: 1.24.0
-- checksum: af5356fda8467cc6a04ea716aa36b9a66c6f0167
+- checksum: 268db03a26d9b585d06308c388f1c90601459cd3
   name: LuckPerms
-  version: 5.3.71
-- checksum: bfb28228810447ac66e98188124d5859631aef0d
+  version: 5.3.98
+- checksum: e0dec6ea97845fa64443d50b5c820e7f08331131
   name: ServerUtils
-  version: 3.1.2
-- checksum: bf5e72dbc3fd38d7c474001015ff293cb31a72d1
+  version: 3.4.0
+- checksum: b37091e8a254576c9e06dc4848ba058e2d1e1a5c
   name: WorldEdit
-  version: 7.2.6-beta-01+1415e6f
+  version: 7.2.8+6008-1246d61
+- checksum: f973a1bcdf954ce7dd7d21a21dafa5f1a1c4b771
+  name: VanillaTweaks
+  version: 0.1.21
+version:
+  build: 177
+  name: 1.18.1
