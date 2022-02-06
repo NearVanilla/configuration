@@ -1,7 +1,4 @@
 platform: Velocity
-version:
-  name: "3.1.1"
-  build: 102
 plugins:
 - checksum: 5718b7f41363b9670133ad48027b18e808c753dc
   name: LuckPerms
@@ -18,3 +15,6 @@ plugins:
 - checksum: bfb28228810447ac66e98188124d5859631aef0d
   name: ServerUtils
   version: 3.1.2
+version:
+  build: 102
+  name: 3.1.1
