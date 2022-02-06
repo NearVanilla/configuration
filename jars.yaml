@@ -1,7 +1,4 @@
 platform: Paper
-version:
-  name: "1.18.1"
-  build: 177
 plugins:
 - checksum: 6944fc037233ad54f54ba46a15fd816f83f7da54
   name: ArmorStandEditor
@@ -63,9 +60,9 @@ plugins:
 - checksum: 268db03a26d9b585d06308c388f1c90601459cd3
   name: LuckPerms
   version: 5.3.98
-- checksum: 8ae760696d489edbf5cfa985400622efcdae66fe
+- checksum: 363b136a6bdef32d61d486d1dd605aab3fc5cb9b
   name: spark
-  version: 1.7.2
+  version: 1.8.0
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
@@ -87,3 +84,6 @@ plugins:
 - checksum: fc2248466c387207d751d12e902befe129558dfa
   name: SpectatorMode
   version: 2.1.9
+version:
+  build: 177
+  name: 1.18.1
