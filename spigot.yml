@@ -67,10 +67,16 @@ advancements:
 world-settings:
   world_the_end:
     seed-endcity: {{ SEED_SURVIVAL_ENDCITY }}
+    simulation-distance: 4
+    view-distance: 7
+  world_nether:
+    simulation-distance: 4
+    view-distance: 7
   default:
+    simulation-distance: 5
+    view-distance: 7
     seed-stronghold: default
     below-zero-generation-in-existing-chunks: true
-    simulation-distance: 4
     thunder-chance: 100000
     seed-bastion: {{ SEED_SURVIVAL_BASTION }}
     seed-fortress: {{ SEED_SURVIVAL_FORTRESS }}
@@ -83,7 +89,6 @@ world-settings:
     seed-outpost: {{ SEED_SURVIVAL_OUTPOST }}
     verbose: true
     mob-spawn-range: 6
-    view-distance: 6
     growth:
       twistingvines-modifier: 100
       weepingvines-modifier: 100
