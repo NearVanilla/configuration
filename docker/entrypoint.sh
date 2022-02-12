@@ -13,10 +13,11 @@ readonly GIT_KEY="${HOME}/.ssh/config_repo_ro_key"
 # TODO: Handle it based on hostname, if not set?
 readonly GIT_BRANCH="${GIT_BRANCH?:Missing git branch to use}"
 
-readonly HARD_FAILED_FILE="./.HARD_FAILED"
-readonly NO_UNPATCH_FILE="./.NO_UNPATCH"
-readonly COMMIT_MSG_FILE="./.COMMIT_MSG"
-readonly NO_PULL_FILE="./.NO_PULL"
+readonly HARD_FAILED_FILE=".HARD_FAILED"
+readonly NO_UNPATCH_FILE=".NO_UNPATCH"
+readonly COMMIT_MSG_FILE=".COMMIT_MSG"
+readonly NO_PULL_FILE=".NO_PULL"
+readonly NO_SYNC_JARS_FILE=".NO_SYNC_JARS"
 
 [ -z "${TRACE:-}" ] || set -x
 
@@ -101,6 +102,10 @@ should_skip_unpatch() {
 
 should_skip_pull() {
   [ -e "${NO_PULL_FILE}" ]
+}
+
+should_skip_jar_sync() {
+  [ -e "${NO_SYNC_JARS_FILE}" ]
 }
 
 hard_fail() {
@@ -196,7 +201,7 @@ main() {
   prepare_git_repo
   should_skip_pull || pull_config
   is_patched || patch_config
-  download_jars
+  should_skip_jar_sync || download_jars
   server_run_loop
   should_skip_unpatch || unpatch_config
 }

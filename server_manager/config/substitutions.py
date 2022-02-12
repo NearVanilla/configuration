@@ -3,6 +3,7 @@ from __future__ import annotations  # Postponed evaluation PEP-563
 import os
 from pathlib import Path
 from typing import Iterable, Optional, Union
+import string
 
 import jinja2
 
@@ -23,6 +24,28 @@ JINJA_ENVIRONMENT = {
 }
 
 
+def _get_trailing_whitespace(content: str) -> str:
+    """Get all trailing whitespace characters from given content
+
+    >>> _get_trailing_whitespace("")
+    ''
+    >>> _get_trailing_whitespace("abc\ndef\nghi")
+    ''
+    >>> _get_trailing_whitespace("abc\ndef\nghi\n")
+    '\n'
+    >>> _get_trailing_whitespace("abc\ndef\nghi\n\n\n")
+    '\n\n\n'
+    """
+    ws = set(string.whitespace)
+    result = []
+    for char in reversed(content):
+        if char in ws:
+            result.append(char)
+        else:
+            break
+    return "".join(reversed(result))
+
+
 def substitute_placeholders(
     files: Iterable[Path],
     substitutions: Substitutions = None,
@@ -41,13 +64,13 @@ def substitute_placeholders(
                 original = f.read()
                 template = jinja2.Template(original, **environment)
                 rendered = template.render(**substitutions)
-                if (
-                    rendered
-                    and original
-                    and original[-1] == "\n"
-                    and rendered[-1] != "\n"
-                ):
-                    rendered += "\n"
+                # Jinja seems to eat trailing whitespace (most importantly newlines)
+                # And plugins often restore them later
+                # To avoid issues, we restore trailing whitespace from original file
+                orig_ws = _get_trailing_whitespace(original)
+                rend_ws = _get_trailing_whitespace(rendered)
+                # If it's 0, it'd destroy whole file...
+                rendered = rendered[: -len(rend_ws) or None] + orig_ws
                 if rendered != original:
                     f.seek(0)
                     f.truncate()
@@ -96,7 +119,10 @@ def commit_and_unsubstitute(git: GitWrapper, msg: str) -> None:
         # Squash
         git.repo.active_branch.commit = presub_commit
         git.repo.head.reset(index=False, working_tree=False)
-        git.commit(msg)
+        # This might have changed for some reason
+        # Make sure we aren't making useless, empty commit
+        if not git.is_worktree_clean():
+            git.commit(msg)
 
 
 def is_substituted(git: GitWrapper):
