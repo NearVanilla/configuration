@@ -16,8 +16,6 @@ deny-enderpearl: true
 fill-autosave-frequency: 240
 bypass-list-uuids:
 - 90e367d8-7595-4080-95b6-f823182379eb
-- 26e0bb7a-ad14-4426-b93e-98f46b0cd6d9
-- 608c7685-daed-4d2e-86a2-0b1a73fe88ed
 - b4cd20c9-4423-4829-a35d-be6a9deee392
 - 93f099a0-4f9c-4117-aa7f-a70a135d51db
 - f02eb291-baca-45e3-a196-6cb6c9855006
