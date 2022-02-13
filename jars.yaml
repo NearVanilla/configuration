@@ -15,6 +15,9 @@ plugins:
 - checksum: bfb28228810447ac66e98188124d5859631aef0d
   name: ServerUtils
   version: 3.1.2
+- checksum: f191c10e97df1a663e948187c81855c3d02078c8
+  name: CarbonChat
+  version: 2.0.7-SNAPSHOT
 version:
   build: 102
   name: 3.1.1
