@@ -82,5 +82,5 @@ plugins:
   name: SpectatorMode
   version: 2.1.9
 version:
-  build: 177
+  build: 197
   name: 1.18.1
