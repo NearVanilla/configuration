@@ -130,7 +130,7 @@ run() {
       log 'Returned success!'
       return
     else
-      local -r ecode="${?}"
+      local ecode="${?}"
       log "Exit code ${ecode}"
       # If process is not running, return
       is_process_running "${pid}" || return "${ecode}"
