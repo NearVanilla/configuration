@@ -81,6 +81,9 @@ plugins:
 - checksum: fc2248466c387207d751d12e902befe129558dfa
   name: SpectatorMode
   version: 2.1.9
+- checksum: 9f9676e272ce1b7cdd4ad18ab54a7cd98631167e
+  name: CarbonChat
+  version: 2.0.7-SNAPSHOT
 version:
   build: 197
   name: 1.18.1
