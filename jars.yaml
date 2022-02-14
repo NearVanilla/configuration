@@ -18,6 +18,9 @@ plugins:
 - checksum: f973a1bcdf954ce7dd7d21a21dafa5f1a1c4b771
   name: VanillaTweaks
   version: 0.1.21
+- checksum: 9f9676e272ce1b7cdd4ad18ab54a7cd98631167e
+  name: CarbonChat
+  version: 2.0.7-SNAPSHOT
 version:
   build: 197
   name: 1.18.1
