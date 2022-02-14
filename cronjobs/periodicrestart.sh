@@ -59,29 +59,28 @@ check_server_running() {
   }
 }
 
-restart_server() {
-  local -r container="${1?}"
-  # TODO: Fix restarts
-  rcon_cli "${container}" stop
-  for i in {1..30}; do
-    check_server_running "${container}" || break
-    sleep "${i}"
+target_servers=( "${@}" )
+if [  "${#target_servers[@]}" -eq 0 ]; then
+  for confdir in "${gitroot}"/server-config/*; do
+    server="$(basename "${confdir}")"
+    target_servers+=( "${server}" )
   done
-  sleep 5
-  docker-compose start "${container}"
-  #docker-compose restart "${container}"
-}
+fi
 
-target_server="${1?}"
-
-check_server_running "${target_server}"
-show_restart_reason_message "${target_server}"
 for (( idx=0; idx < "${#countdown_times[@]}" - 1; ++idx )); do
   to_restart="${countdown_times[$idx]}"
-  show_restart_countdown "${target_server}" "${to_restart}"
+  for target_server in "${target_servers[@]}"; do
+    [ "${target_server}" != "velocity" ] || continue
+    [ "${idx}" -ne 0 ] || show_restart_reason_message "${target_server}"
+    show_restart_countdown "${target_server}" "${to_restart}"
+  done
   next_message_in="${countdown_times[$idx + 1]}"
   sleep "$((to_restart - next_message_in))"
 done
 
-rcon_cli "${target_server}" "kick @a Periodic server restart, sorry :/"
-restart_server "${target_server}"
+
+for target_server in "${target_servers[@]}"; do
+  [ "${target_server}" = "velocity" ] || rcon_cli "${target_server}" "kick @a Periodic server restart, sorry :/"
+done
+
+docker-compose restart "${target_servers[@]}"
