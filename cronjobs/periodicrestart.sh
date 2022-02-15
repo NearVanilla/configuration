@@ -83,4 +83,6 @@ for target_server in "${target_servers[@]}"; do
   [ "${target_server}" = "velocity" ] || rcon_cli "${target_server}" "kick @a Periodic server restart, sorry :/"
 done
 
-docker-compose restart "${target_servers[@]}"
+docker-compose stop "${target_servers[@]}"
+git pull --ff-only --autostash
+docker-compose up -d --build "${target_servers[@]}"
