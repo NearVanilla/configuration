@@ -42,6 +42,11 @@ www.{$DOMAIN},
     strict True
   }
 
+  @discordredir path /apply /discord
+  handle @discordredir {
+    redir https://{$DISCORD_INVITE_LINK} permanent
+  }
+
   # Redirect www to regular site
   @www host www.{$DOMAIN}
   handle @www {

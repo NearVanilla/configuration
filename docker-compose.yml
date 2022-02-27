@@ -139,6 +139,7 @@ services:
       - './website/data:/data:rw'
     environment:
       DOMAIN: "${DOMAIN?}"
+      DISCORD_INVITE_LINK: "${DISCORDSRV_INVITE_LINK?}"
   # MONITORING
   node_exporter:
     image: prom/node-exporter:v1.1.2
