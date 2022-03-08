@@ -21,7 +21,7 @@ get_sha() {
   git log -n1 --format=%H "${ref}"
 }
 
-for repo in . ./website/files/ ./server-config/*/; do
+for repo in . ./server-config/*/; do
   cd "${git_root}/${repo}"
   ref=HEAD
   ! is_subst "${ref}" || ref='HEAD^'
