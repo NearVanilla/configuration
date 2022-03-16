@@ -1,12 +1,12 @@
 platform: Velocity
 plugins:
-- checksum: 5718b7f41363b9670133ad48027b18e808c753dc
+- checksum: 02468d049735939604f9d81e42fcd108d8801b2b
   name: LuckPerms
-  version: 5.3.98
-- checksum: cbcbacc7458871d9fb720bf231d894ef8d089773
+  version: 5.4.9
+- checksum: 6617ffee08151b0e3c44247de18441281bcf3e48
   name: MiniMOTD
-  version: 2.0.5
-- checksum: f8c0588df02e583ca9ddf6607df910e8405e13a6
+  version: 2.0.6
+- checksum: deb7c975bf4449d16997f618d6fa4e326b9a8ec9
   name: bat
   version: 1.0.1
 - checksum: 3c8c9a14a76520dbd9d2b41fd9d1138a26210fc6
@@ -16,5 +16,5 @@ plugins:
   name: ServerUtils
   version: 3.1.2
 version:
-  build: 102
-  name: 3.1.1
+  build: 122
+  name: 3.1.2-SNAPSHOT
