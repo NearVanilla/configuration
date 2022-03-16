@@ -61,3 +61,5 @@ only-spectating-no-free-movement: false
 spectator-ticks: -1
 supervanish-hook: false
 times-up-message: '&cTime limit reached! Toggling gamemode to &b&lSURVIVAL MODE'
+switch-back-to: survival
+spec-cancel-message: '&cSpectator mode has been cancelled'

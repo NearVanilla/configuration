@@ -21,14 +21,15 @@ whitelist.json
 plugins/*/*.log
 plugins/*/lang/*
 plugins/*/translations/*
-plugins/BuycraftX/cache
 plugins/BuycraftX/*.json
+plugins/BuycraftX/cache
 plugins/BuycraftX/gui.cache
 plugins/DiscordSRV/discord-console-logs/
 plugins/DiscordSRV/linkedaccounts.json
 plugins/GFly/data/
 plugins/GSit/data/
 plugins/LuckPerms/contexts.json
+plugins/SpectatorMode/data.yml
 plugins/WorldEdit/.archive-unpack
 plugins/WorldEdit/schematics/
 plugins/WorldEdit/sessions/
