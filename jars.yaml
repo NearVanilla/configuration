@@ -15,6 +15,12 @@ plugins:
 - checksum: bfb28228810447ac66e98188124d5859631aef0d
   name: ServerUtils
   version: 3.1.2
+- checksum: 1b225092ef02f98c049aada1926853c60fdb7d4a
+  name: ViaBackwards
+  version: 4.2.0
+- checksum: bfee849d23261d9f784ce3397a4e7d04aa16624f
+  name: ViaVersion
+  version: 4.2.1
 version:
   build: 122
   name: 3.1.2-SNAPSHOT
