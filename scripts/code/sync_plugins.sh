@@ -85,7 +85,10 @@ done
 manage synchronize upload
 
 docker-compose up --build -d "${to_run[@]}"
-sleep 30s
+for i in {6..1}; do
+  printf 'Waiting %s more seconds...\n' "$((i*10))" >&2
+  sleep 10s
+done
 
 stop_servers "${svc_names[@]}"
 
@@ -98,7 +101,7 @@ for name in "${to_run[@]}"; do
     printf 'No config changes in %s\n' "${name}" >&2
   else
     printf 'Detected new config commit in %s with subject: %s\n' "${name}" "${subject}" >&2
-    if manage config unpatched; then
+    if manage config unpatched "${confdir}"; then
       # Squash into previous commit
       git reset HEAD^
       git commit --all --amend --no-edit
