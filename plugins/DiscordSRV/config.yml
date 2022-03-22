@@ -202,7 +202,7 @@ DiscordChatChannelRoleAliases: {"Developer": "Dev"}
 DiscordConsoleChannelLogRefreshRateInSeconds: 5
 DiscordConsoleChannelUsageLog: "DiscordConsole.log"
 DiscordConsoleChannelBlacklistActsAsWhitelist: true
-DiscordConsoleChannelBlacklistedCommands: ["dmarker", "sr", "whitelist", "dimlister", "paper", "timings", "ban", "banlist", "tps"]
+DiscordConsoleChannelBlacklistedCommands: ["dmarker", "sr", "whitelist", "dimlister", "paper", "timings", "ban", "banlist", "pardon", "tps"]
 DiscordConsoleChannelFilters: {".*(?i)async chat thread.*": "", ".*There are \\d+ of a max of \\d+ players online.*": ""}
 DiscordConsoleChannelLevels: [info, warn, error]
 DiscordConsoleChannelUseCodeBlocks: true
