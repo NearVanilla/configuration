@@ -85,4 +85,6 @@ done
 
 docker-compose stop "${target_servers[@]}"
 git pull --ff-only --autostash
+# Workaround https://github.com/Hexaoxide/Carbon/issues/198
+"${scriptdir}/fix_carbon_usernames.sh"
 docker-compose up -d --build "${target_servers[@]}"
