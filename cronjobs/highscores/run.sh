@@ -9,7 +9,7 @@ scriptpath="$(realpath "${0}")"
 scriptdir="$(dirname "${scriptpath}")"
 gitroot="$(git -C "${scriptdir}" rev-parse --show-toplevel)"
 
-highscore_file="${gitroot}/website/files/src/highscores.json"
+highscore_file="${gitroot}/website/data/highscores.json"
 
 run_args=(
   --rm

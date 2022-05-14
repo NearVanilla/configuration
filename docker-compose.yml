@@ -122,21 +122,21 @@ services:
     <<: *user
     container_name: "website"
     hostname: "website"
-    image: caddy:2.4.1-realip
+    image: caddy:2.5.1-realip
     build:
       context: ./website
       args:
-        CADDY_VERSION: 2.4.1
+        CADDY_VERSION: 2.5.1
     restart: "no"
     ports:
       - 80:80
       - 443:443
     volumes:
-      - './website/Caddyfile:/etc/caddy/Caddyfile:ro'
-      - './website/files/src:/usr/share/caddy:ro'
       # Persist data
       - './website/config:/config:rw'
-      - './website/data:/data:rw'
+      - './website/data/caddy:/data/caddy:rw'
+      - './website/data/highscores.json:/usr/share/caddy/highscores/highscores.json:ro'
+      - './website/data/awards:/usr/share/caddy/awards/data:ro'
     environment:
       DOMAIN: "${DOMAIN?}"
       DISCORD_INVITE_LINK: "${DISCORDSRV_INVITE_LINK?}"

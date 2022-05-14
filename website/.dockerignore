@@ -1,0 +1,11 @@
+# vim: ft=gitignore
+*
+!Caddyfile
+# Website
+!files/src/
+!files/public/
+!files/*.html
+!files/*.json
+!files/*.js
+files/public/awards/data/
+files/public/highscores/highscores.json
