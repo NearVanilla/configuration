@@ -39,9 +39,9 @@ plugins:
 - checksum: 62c05b84879705d66147e187247ad6068bce0e53
   name: OpenInv
   version: 4.1.10
-- checksum: 352f629a8d9954a55549028d20273437c33bf39b
+- checksum: a438e66e1d231bf7588c94831f5b2da8743bec6e
   name: ServerUtils
-  version: 3.4.2
+  version: 3.4.4
 - checksum: f973a1bcdf954ce7dd7d21a21dafa5f1a1c4b771
   name: VanillaTweaks
   version: 0.1.21
@@ -54,36 +54,36 @@ plugins:
 - checksum: b7ea0753916ceb76deb3c21f41752b037715fe57
   name: WorldGuard
   version: 7.0.6+1cff55f
-- checksum: 05a60c4e49fe5057801ba1bd69a4731caa1c9f62
+- checksum: abc618a04bbf738512104f8775248ee2208654ca
   name: LuckPerms
-  version: 5.4.9
-- checksum: 1024284f4cfff75c3496474ff0db1e3e4ad01ff7
+  version: 5.4.21
+- checksum: 70d8b54693894ae982d210b01736446fabe1cee2
   name: spark
-  version: 1.8.14
+  version: 1.9.8
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
 - checksum: a2279bc1fd7c4c7852b4b8c647e83cfa318852a2
   name: dynmap
   version: 3.4-beta-2-761
-- checksum: c2b4aff56ad8644f0c262ecfd009c8ad0d70be19
+- checksum: 0968f44f17fcb052aa4609e63ee2254f4e358d96
   name: PrometheusExporter
-  version: 2.4.2
+  version: 2.5.0
 - checksum: 8edb3ad57be28b3ed14b97a6b0556cf7409c1c86
   name: WorldBorder
   version: '1.18'
-- checksum: 910fddab1d4805e92194df5cd9a60191f34e267a
+- checksum: ffdc6caa8cbdc08779820854c891cd8e9cf87cf9
   name: CoreProtect
-  version: 21.1
+  version: 21.2
 - checksum: 7d488adace21b95b417bb9c4b52a8f2c53582338
   name: VanishNoPacket
   version: 3.21.G0.1
 - checksum: 55e89ae1c8e01117d89165cc933a217b76f55bb7
   name: SpectatorMode
   version: 2.2.0
-- checksum: 95c58a7b0696e226db547d3eb9e811d4a62260ce
+- checksum: efb623d6c5546fdcce0b79b1cd622f9fe6a55eea
   name: CarbonChat
-  version: 2.0.9
+  version: 2.1.0-SNAPSHOT
 version:
-  build: 259
+  build: 336
   name: 1.18.2
