@@ -12,7 +12,7 @@
 
 use-display-name-in-quit-message: false
 verbose: false
-config-version: 25
+config-version: 27
 settings:
   use-dimension-type-for-custom-spawners: false
   fix-target-selector-tag-completion: true
@@ -82,6 +82,7 @@ settings:
       page: 16384
   use-display-name-in-quit-message: false
   chunk-loading:
+    player-max-chunk-load-rate: -1.0
     min-load-radius: 2
     max-concurrent-sends: 2
     autoconfig-send-distance: true
@@ -157,7 +158,6 @@ world-settings:
     fix-climbing-bypassing-cramming-rule: false
     seed-based-feature-search: true
     should-remove-dragon: false
-    use-faster-eigencraft-redstone: false
     zombies-target-turtle-eggs: true
     disable-teleportation-suffocation-check: false
     per-player-mob-spawns: true
@@ -280,7 +280,7 @@ world-settings:
     alt-item-despawn-rate:
       enabled: false
       items:
-        COBBLESTONE: 300
+        cobblestone: 300
     hopper:
       ignore-occluding-blocks: true
       cooldown-when-full: true
@@ -328,6 +328,12 @@ world-settings:
       zombies: false
       skeletons: false
     door-breaking-difficulty:
+      zombie_villager:
+      - HARD
+      husk:
+      - HARD
+      zombified_piglin:
+      - HARD
       zombie:
       - HARD
       vindicator:
@@ -365,3 +371,4 @@ world-settings:
           validatenearbypoi: -1
     feature-seeds:
       generate-random-seeds-for-all: false
+    redstone-implementation: vanilla

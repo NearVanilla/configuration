@@ -6,21 +6,21 @@ plugins:
 - checksum: d9865429545ad521eb295027450506784aa4d764
   name: DiscordSRV
   version: 1.25.1
-- checksum: 05a60c4e49fe5057801ba1bd69a4731caa1c9f62
+- checksum: abc618a04bbf738512104f8775248ee2208654ca
   name: LuckPerms
-  version: 5.4.9
-- checksum: 352f629a8d9954a55549028d20273437c33bf39b
+  version: 5.4.21
+- checksum: a438e66e1d231bf7588c94831f5b2da8743bec6e
   name: ServerUtils
-  version: 3.4.2
+  version: 3.4.4
 - checksum: d86d9cf836bde6a7e08c555f43e5293dca341649
   name: WorldEdit
   version: 7.2.10-SNAPSHOT+6120-f50a81f
 - checksum: f973a1bcdf954ce7dd7d21a21dafa5f1a1c4b771
   name: VanillaTweaks
   version: 0.1.21
-- checksum: 95c58a7b0696e226db547d3eb9e811d4a62260ce
+- checksum: efb623d6c5546fdcce0b79b1cd622f9fe6a55eea
   name: CarbonChat
-  version: 2.0.9
+  version: 2.1.0-SNAPSHOT
 version:
-  build: 259
+  build: 336
   name: 1.18.2
