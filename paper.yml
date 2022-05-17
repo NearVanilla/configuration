@@ -371,4 +371,4 @@ world-settings:
           validatenearbypoi: -1
     feature-seeds:
       generate-random-seeds-for-all: false
-    redstone-implementation: vanilla
+    redstone-implementation: alternate-current
