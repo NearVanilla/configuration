@@ -1001,4 +1001,4 @@ world-settings:
           validatenearbypoi: -1
     feature-seeds:
       generate-random-seeds-for-all: true
-    redstone-implementation: eigencraft
+    redstone-implementation: alternate-current
