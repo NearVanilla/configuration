@@ -61,7 +61,13 @@ done
 jq -re --arg OLD_NAME "${old_name}" '.scores | to_entries | .[] | select(.value.scores | any(.playerName == $OLD_NAME)) | {key, "value": (.value.scores | [.[] | select(.playerName == $OLD_NAME)] | first | .score)} | [.key, .value] | @tsv' "${tmp_highscores}" | \
   while IFS=$'\t' read -r score_name score_value; do
     echo "${score_name}: ${score_value}"
-    cmd="scoreboard players add ${new_name} ${score_name} ${score_value}"
+    if [ "${score_value:0:1}" = '-' ]; then
+      operation=remove
+      score_value="${score_value:1}" # Delete leading negative sign
+    else
+      operation=add
+    fi
+    cmd="scoreboard players ${operation} ${new_name} ${score_name} ${score_value}"
     until send_cmd "${cmd}"; do
       echo "Failure sending command: ${cmd}"
       sleep 5
@@ -77,4 +83,3 @@ until send_cmd "${cmd}"; do
 done
 
 echo "All done!"
-
