@@ -85,7 +85,7 @@ pull_config() {
 }
 
 download_jars() {
-  manage jars download --disable-orphaned
+  manage jars download --disable-orphaned --force
 }
 
 server_run_loop() {

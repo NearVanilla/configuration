@@ -85,7 +85,7 @@ done
 manage synchronize upload
 
 docker-compose up --build -d "${to_run[@]}"
-for i in {9..1}; do
+for i in {15..1}; do
   printf 'Waiting %s more seconds...\n' "$((i*10))" >&2
   sleep 10s
 done
