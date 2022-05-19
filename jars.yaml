@@ -3,9 +3,9 @@ plugins:
 - checksum: 6944fc037233ad54f54ba46a15fd816f83f7da54
   name: ArmorStandEditor
   version: 1.16-24
-- checksum: d9865429545ad521eb295027450506784aa4d764
+- checksum: 676af8f9b9c3d4b6b5420274d877f73cb80d80e4
   name: DiscordSRV
-  version: 1.25.1
+  version: 1.26.0-SNAPSHOT
 - checksum: abc618a04bbf738512104f8775248ee2208654ca
   name: LuckPerms
   version: 5.4.21
@@ -18,9 +18,9 @@ plugins:
 - checksum: f973a1bcdf954ce7dd7d21a21dafa5f1a1c4b771
   name: VanillaTweaks
   version: 0.1.21
-- checksum: efb623d6c5546fdcce0b79b1cd622f9fe6a55eea
+- checksum: 5f8adf5f43a05168cba56c11b6a9396752573802
   name: CarbonChat
-  version: 2.1.0-SNAPSHOT
+  version: 2.0.10
 version:
   build: 336
   name: 1.18.2
