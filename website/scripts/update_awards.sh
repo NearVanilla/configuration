@@ -7,13 +7,16 @@ config="awards-config.json"
 
 script="${award_scripts}/update.py"
 
-toplevel="$(git rev-parse --show-toplevel)"
+scriptpath="$(realpath "${0}")"
+scriptdir="$(dirname "${scriptpath}")"
+gitroot="$(git -C "${scriptdir}" rev-parse --show-toplevel)"
 
-website_dir="${toplevel}/website"
+website_dir="${gitroot}/website"
 
 [ -d "${website_dir}" ] || {
   echo "Script ran from wrong repo?"
   exit 1
 }
 
+cd "${website_dir}"
 python3 "${website_dir}/${script}" "${website_dir}/${config}"
