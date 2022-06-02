@@ -46,6 +46,8 @@ commands:
   send-namespaced: true
   spam-exclusions:
   - /skill
+  - /fill
+  - /setblock
   silent-commandblock-console: true
   replace-commands:
   - setblock
