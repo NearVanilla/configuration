@@ -54,12 +54,12 @@ plugins:
 - checksum: b7ea0753916ceb76deb3c21f41752b037715fe57
   name: WorldGuard
   version: 7.0.6+1cff55f
-- checksum: abc618a04bbf738512104f8775248ee2208654ca
+- checksum: 64e07dada73a1eeb3733cdfdfc3fbd88067c435a
   name: LuckPerms
-  version: 5.4.21
-- checksum: 70d8b54693894ae982d210b01736446fabe1cee2
+  version: 5.4.26
+- checksum: b12bd73b2b519e1c2d3a83d0b978b30b43bcf2e1
   name: spark
-  version: 1.9.8
+  version: 1.9.11
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
@@ -85,5 +85,5 @@ plugins:
   name: CarbonChat
   version: 2.0.10
 version:
-  build: 336
+  build: 379
   name: 1.18.2

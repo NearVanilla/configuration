@@ -14,6 +14,8 @@ use-display-name-in-quit-message: false
 verbose: false
 config-version: 27
 settings:
+  proxy-protocol: false
+  resolve-selectors-in-books: false
   use-dimension-type-for-custom-spawners: false
   time-command-affects-all-worlds: false
   fix-target-selector-tag-completion: true
@@ -713,6 +715,9 @@ world-settings:
       clay_pool_with_dripleaves: -3511904172855979300
       nether_sprouts_bonemeal: 4869184967844890188
   default:
+    treasure-maps-find-already-discovered:
+      villager-trade: false
+      loot-tables: default
     slime-spawn-height:
       swamp-biome:
         maximum: 70.0
@@ -796,7 +801,6 @@ world-settings:
     optimize-explosions: true
     use-vanilla-world-scoreboard-name-coloring: false
     enable-treasure-maps: true
-    treasure-maps-return-already-discovered: false
     prevent-moving-into-unloaded-chunks: true
     max-growth-height:
       cactus: 3
