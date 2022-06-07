@@ -14,6 +14,8 @@ use-display-name-in-quit-message: false
 verbose: false
 config-version: 27
 settings:
+  proxy-protocol: false
+  resolve-selectors-in-books: false
   use-dimension-type-for-custom-spawners: false
   fix-target-selector-tag-completion: true
   time-command-affects-all-worlds: false
@@ -124,6 +126,9 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    treasure-maps-find-already-discovered:
+      villager-trade: false
+      loot-tables: default
     slime-spawn-height:
       swamp-biome:
         maximum: 70.0
@@ -209,7 +214,6 @@ world-settings:
     light-queue-size: 20
     auto-save-interval: -1
     enable-treasure-maps: true
-    treasure-maps-return-already-discovered: false
     game-mechanics:
       disable-mob-spawner-spawn-egg-transformation: false
       fix-curing-zombie-villager-discount-exploit: true
