@@ -18,9 +18,9 @@ plugins:
 - checksum: 131a522f74dd01129e6b1bc6febcbf2a2e238e7d
   name: ViaBackwards
   version: 4.3.0
-- checksum: 6908cb9d2a914ac632ee7bba8cb8f4056800e0e7
+- checksum: ed644e065ad967109417808f98d7a3ce2d2e0c29
   name: ViaVersion
-  version: 4.3.1
+  version: 4.3.2-SNAPSHOT
 version:
-  build: 140
+  build: 153
   name: 3.1.2-SNAPSHOT
