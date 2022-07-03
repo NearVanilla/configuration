@@ -1,3 +1,12 @@
 [submodule "website/files"]
 	path = website/files
 	url = git@github.com:NearVanilla/website.git
+[submodule "bats_tests/bats"]
+	path = bats_tests/bats
+	url = https://github.com/bats-core/bats-core.git
+[submodule "bats_tests/test_helper/bats-support"]
+	path = bats_tests/test_helper/bats-support
+	url = https://github.com/bats-core/bats-support.git
+[submodule "bats_tests/test_helper/bats-assert"]
+	path = bats_tests/test_helper/bats-assert
+	url = https://github.com/bats-core/bats-assert.git

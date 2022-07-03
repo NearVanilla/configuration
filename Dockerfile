@@ -1,3 +1,4 @@
+# syntax=docker/dockerfile:1
 ARG DEBIAN_VERSION=bullseye-slim
 
 FROM debian:${DEBIAN_VERSION} AS downloader
@@ -34,26 +35,23 @@ COPY --from=downloader /tmp/packages/mc-server-runner /usr/bin/mc-server-runner
 RUN useradd --create-home --uid 1000 runner
 
 
-COPY docker/known_hosts docker/config_repo_ro_key /home/runner/.ssh/
+COPY --link docker/known_hosts docker/config_repo_ro_key /home/runner/.ssh/
 
-RUN chown -R runner:runner /home/runner/.ssh
-
-RUN chmod 0600 /home/runner/.ssh/*
+RUN chown -R runner:runner /home/runner/.ssh \
+    && chmod 0600 /home/runner/.ssh/*
 
 USER runner
 
-# TODO: Find a better place for all these files
-COPY manage.py /manage.py
-COPY server_manager/ /server_manager/
+WORKDIR /nearvanilla
+
+COPY --link manage.py /nearvanilla/manage.py
+COPY --link server_manager/ /nearvanilla/server_manager/
 
 # TODO: Configure entrypoint git to use it
-COPY scripts/githooks/ /githooks/
+COPY --link scripts/githooks/ /nearvanilla/githooks/
 
-COPY docker/entrypoint.sh /entrypoint.sh
-ENTRYPOINT ["dumb-init", "--", "/entrypoint.sh"]
-
-COPY docker/start.sh /start.sh
-
-CMD ["/start.sh"]
+COPY --link docker/*.sh /nearvanilla/
+ENTRYPOINT ["dumb-init", "--", "/nearvanilla/entrypoint.sh"]
+CMD ["/nearvanilla/start.sh"]
 
 ENV RCON_PORT=25575

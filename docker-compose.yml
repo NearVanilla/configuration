@@ -49,6 +49,8 @@ services:
     hostname: "survival"
     volumes:
       - './server-config/survival:/server'
+      - './manual-backups/:/backups'
+      - './scripts/hooks/survival/:/hooks/:ro'
     #restart: unless-stopped
     restart: "no"
     #command:

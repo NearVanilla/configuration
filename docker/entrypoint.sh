@@ -2,9 +2,10 @@
 
 set -Eeuo pipefail
 
-readonly SCRIPT_ROOT='/'
+readonly SCRIPT_ROOT='/nearvanilla/'
 readonly MANAGE_SCRIPT="${SCRIPT_ROOT}/manage.py"
 readonly START_SCRIPT="${SCRIPT_ROOT}/start.sh"
+readonly HOOKS_SCRIPT="${SCRIPT_ROOT}/run_hooks.sh"
 readonly GIT_HOOK_PATH="${SCRIPT_ROOT}/githooks/"
 
 readonly GIT_REPO_ADDRESS="git@github.com:NearVanilla/configuration.git"
@@ -18,6 +19,8 @@ readonly NO_UNPATCH_FILE=".NO_UNPATCH"
 readonly COMMIT_MSG_FILE=".COMMIT_MSG"
 readonly NO_PULL_FILE=".NO_PULL"
 readonly NO_SYNC_JARS_FILE=".NO_SYNC_JARS"
+
+readonly HOOKS_DIR="/hooks"
 
 [ -z "${TRACE:-}" ] || set -x
 
@@ -109,8 +112,10 @@ should_skip_jar_sync() {
 }
 
 hard_fail() {
+  local -r ecode="${?}"
   log "Failing hard"
-  touch "${HARD_FAILED_FILE}"
+  touch "${HARD_FAILED_FILE?}"
+  return "${ecode}"
 }
 
 is_process_running() {
@@ -192,6 +197,30 @@ prepare_git_repo() {
   fi
 }
 
+run_hooks() {
+  if [ -e "${HOOKS_DIR}" ]; then
+    local hooks=( "${HOOKS_DIR}/"*.sh )
+    local existing_hooks=()
+    local hook
+    for hook in "${hooks[@]}"; do
+      if [ -e "${hook}" ]; then
+        existing_hooks+=( "${hook}" )
+      fi
+    done
+    if [ "${#existing_hooks[@]}" -eq 0 ]; then
+      log "No hooks to run!"
+      return
+    else
+      log "Running ${#existing_hooks[@]} hooks"
+      "${HOOKS_SCRIPT}" "${existing_hooks[@]}" || hard_fail
+    fi
+  fi
+}
+
+# Exports for hooks
+export -f hard_fail log notify
+export HARD_FAILED_FILE
+
 main() {
   # If we are hard-failed, then we notified already - skip doing anything
   ! is_hard_failed || return 1
@@ -202,6 +231,7 @@ main() {
   should_skip_pull || pull_config
   is_patched || patch_config
   should_skip_jar_sync || download_jars
+  run_hooks
   server_run_loop
   should_skip_unpatch || unpatch_config
 }

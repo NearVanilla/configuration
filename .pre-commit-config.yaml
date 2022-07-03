@@ -1,13 +1,15 @@
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v2.3.0
+  rev: v4.3.0
   hooks:
   - id: end-of-file-fixer
     exclude: &autofiles website/scripts/awards/
   - id: trailing-whitespace
     exclude: *autofiles
+  - id: check-executables-have-shebangs
+  - id: check-shebang-scripts-are-executable
 - repo: https://github.com/psf/black
-  rev: 19.3b0
+  rev: 22.3.0
   hooks:
   - id: black
     exclude: *autofiles
@@ -15,3 +17,13 @@ repos:
   hooks:
   - id: check-hooks-apply
   - id: check-useless-excludes
+- repo: local
+  hooks:
+    - id: bats
+      name: Run bats tests
+      language: script
+      entry: ./scripts/code/test_bats.sh
+      pass_filenames: false
+      require_serial: true
+      args:
+        - bats_tests/

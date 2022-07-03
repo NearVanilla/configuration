@@ -1,6 +1,9 @@
+curl
 dumb-init
 gawk
 git
+jq
 openjdk-17-jre
 python3-dev
 python3-pip
+wget

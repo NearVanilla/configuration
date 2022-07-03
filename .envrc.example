@@ -2,7 +2,5 @@
 
 dotenv # load .env file
 dotenv .env-b2
-dotenv .env-survival
 
 export DEBUG=<EXAMPLE>
-
