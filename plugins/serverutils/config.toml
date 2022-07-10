@@ -1,5 +1,6 @@
 config-version = 1
 hide-plugins-from-plugins-command = []
+protected-plugins = []
 
 [settings]
 	install-updates-boot = false

@@ -45,6 +45,7 @@ config-version = 1
 		deleted-file-is-created = "<dark_aqua>File of plugin <aqua><plugin></aqua> has shown up again!"
 
 	[messages.generic]
+		protected-plugin = "<red>Plugin <dark_red><plugin></dark_red> is protected!"
 		not-enabled = "<red>Plugin <dark_red><plugin></dark_red> is not enabled!"
 		already-enabled = "<red>Plugin <dark_red><plugin></dark_red> is already enabled!"
 		already-disabled = "<red>Plugin <dark_red><plugin></dark_red> is already disabled!"
