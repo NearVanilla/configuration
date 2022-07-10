@@ -49,6 +49,7 @@ world/datapacks/bukkit/pack.mcmeta
 world/generated/minecraft/structures
 anvil/data/xodus/
 /server-config/
+libraries/
 banned-ips.json
 banned-players.json
 ops.json
