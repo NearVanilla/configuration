@@ -1,7 +1,8 @@
-config-version: 4
+config-version: 5
 settings:
   disable-saving: false
   locale: en_us
+  disable-offline-access: false
 toggles:
   silent-chest:
     1ad6177c-322a-438a-af9c-9fd19f44771d: false

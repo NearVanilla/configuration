@@ -26,6 +26,7 @@ plugins/BuycraftX/cache
 plugins/BuycraftX/gui.cache
 plugins/DiscordSRV/discord-console-logs/
 plugins/DiscordSRV/linkedaccounts.json
+plugins/OpenInv/config_old.yml
 plugins/GFly/data/
 plugins/GSit/data/
 plugins/LuckPerms/contexts.json
@@ -50,6 +51,7 @@ world/datapacks/bukkit/pack.mcmeta
 world/generated/minecraft/structures
 anvil/data/xodus/
 /server-config/
+libraries/
 banned-ips.json
 banned-players.json
 ops.json

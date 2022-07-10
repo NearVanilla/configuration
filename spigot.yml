@@ -73,6 +73,7 @@ world-settings:
     simulation-distance: 4
     view-distance: 7
   default:
+    hopper-can-load-chunks: false
     seed-nether: 30084232
     simulation-distance: 5
     view-distance: 7
