@@ -72,7 +72,7 @@ plugins:
 - checksum: 8edb3ad57be28b3ed14b97a6b0556cf7409c1c86
   name: WorldBorder
   version: '1.18'
-- checksum: 9d76b181b731b79d47e511cef0dcd192e27d11c9
+- checksum: ffdc6caa8cbdc08779820854c891cd8e9cf87cf9
   name: CoreProtect
   version: 21.2
 - checksum: 7d488adace21b95b417bb9c4b52a8f2c53582338
