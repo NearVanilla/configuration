@@ -41,13 +41,33 @@ check_server_running() {
 stop_servers() {
   local servers=( "${@}" )
   docker-compose stop "${servers[@]}"
-  local server
-  for server in "${servers[@]}"; do
-    for i in {1..60}; do
-      check_server_running "${server}" || break
-      sleep 1
+  for i in {1..60}; do
+    local idx
+    for idx in "${!servers[@]}"; do
+      check_server_running "${servers[$idx]}" || unset "servers[$idx]"
     done
+    [ "${#servers[@]}" -gt 0 ] || return 0
+    sleep 1
   done
+  return 1
+}
+
+wait_for_servers() {
+  local servers=( "${@}" )
+  # We should NEVER reach 10 minutes, but it's here just in case...
+  for i in {1..60}; do
+    local idx
+    for idx in "${!servers[@]}"; do
+      if docker-compose logs --tail=30 "${servers[$idx]}" | grep 'Done ([^)]*)!'; then
+        printf 'Server %s got ready\n' "${servers[$idx]}" >&2
+        unset "servers[$idx]"
+      fi
+    done
+    [ "${#servers[@]}" -gt 0 ] || return 0
+    printf 'After %s seconds, %s servers are not ready: %s\n' "$((i*10))" "${#servers[@]}" "${servers[*]}" >&2
+    sleep 10s
+  done
+  return 1
 }
 
 confdirs=(
@@ -85,10 +105,14 @@ done
 manage synchronize upload
 
 docker-compose up --build -d "${to_run[@]}"
-for i in {15..1}; do
-  printf 'Waiting %s more seconds...\n' "$((i*10))" >&2
+for i in {6..1}; do
+  printf 'Waiting %s more seconds before polling for status...\n' "$((i*10))" >&2
   sleep 10s
 done
+
+wait_for_servers "${svc_names[@]}"
+
+sleep 10s
 
 stop_servers "${svc_names[@]}"
 

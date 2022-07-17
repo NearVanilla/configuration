@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # vim: ft=python
 
 from __future__ import annotations  # Postponed evaluation PEP-563
@@ -72,10 +71,11 @@ class GitWrapper:
         """Return list of tracked files relative to workdir"""
         if tree is None:
             tree = self._repo.tree()
-        return (
+        tracked = (
             Path(blob.abspath)
             for blob in tree.traverse(predicate=lambda item, depth: item.type == "blob")
         )
+        return (file for file in tracked if file.exists())
 
     def all_config_tracked_files(self) -> Iterable[Path]:
         whitelisted_config_suffixes = {

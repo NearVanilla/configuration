@@ -63,7 +63,7 @@ is_git_repo() {
 }
 
 todo() {
-  notify 'TODO(%s:%s): %s\n' "${FUNCNAME[1]}" "${BASH_LINENO[0]}" "${*}"
+  notify "TODO(${FUNCNAME[1]}:${BASH_LINENO[0]}): ${*}"
   exit 24
 }
 

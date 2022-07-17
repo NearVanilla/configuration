@@ -2,7 +2,10 @@ plugins:
 - name: DiscordSRV
   resource: DiscordSRV/DiscordSRV
   type: github
-- name: ServerUtils
+- name: ServerUtils-Velocity
+  resource: FrankHeijden/ServerUtils
+  type: github
+- name: ServerUtils-Bukkit
   resource: FrankHeijden/ServerUtils
   type: github
 - name: OpenInv
@@ -16,8 +19,8 @@ plugins:
   type: jenkins
 - name: Chunky
   prefix: Chunky
-  resource: '81534'
-  type: spiget
+  resource: https://ci.codemc.io/view/Author/job/pop4959/job/Chunky/
+  type: jenkins
 - name: GFly
   resource: '70106'
   type: spiget
@@ -55,9 +58,6 @@ plugins:
 - name: CoreProtect
   resource: PlayPro/CoreProtect
   type: github
-- name: TCPShield
-  resource: TCPShield/RealIP
-  type: github
 - name: Swap
   prefix: Swap
   resource: OskarsMC-Plugins/swap
@@ -65,4 +65,8 @@ plugins:
 - name: SpectatorMode
   prefix: SpectatorMode
   resource: '77267'
+  type: spiget
+- name: Dynmap
+  prefix: Dynmap
+  resource: '274'
   type: spiget
