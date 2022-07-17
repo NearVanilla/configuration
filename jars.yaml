@@ -15,7 +15,7 @@ plugins:
 - checksum: 6a6331f1bf8fb39a32244df4ea495f43cd1c9dc4
   name: WorldEdit
   version: 7.2.11-beta-01+6200-0877589
-- checksum: 50be5d1e32422885df21d354f178ebeecd4090c8
+- checksum: 3b6303f610bb609f4a7796ae5721e9fada9dbf29
   name: VanillaTweaks
   version: 0.2.0-SNAPSHOT
 - checksum: ab7535cc9eb537034edb06d69a17df3003c742b2
