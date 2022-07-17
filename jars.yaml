@@ -42,7 +42,7 @@ plugins:
 - checksum: 5abe3960d1ae2d4b399163bdd6feba896195b170
   name: ServerUtils
   version: 3.5.1
-- checksum: 50be5d1e32422885df21d354f178ebeecd4090c8
+- checksum: 3b6303f610bb609f4a7796ae5721e9fada9dbf29
   name: VanillaTweaks
   version: 0.2.0-SNAPSHOT
 - checksum: 1425116618d1d7f626771cb5bb64fc74f15d485b
