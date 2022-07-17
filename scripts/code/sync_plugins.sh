@@ -58,7 +58,8 @@ wait_for_servers() {
   for i in {1..60}; do
     local idx
     for idx in "${!servers[@]}"; do
-      if docker-compose logs --tail=30 "${servers[$idx]}" | grep 'Done ([^)]*)!'; then
+      # TODO: Figure out a way to only get the logs since startup
+      if docker-compose logs --tail=40 "${servers[$idx]}" | grep 'Done ([^)]*)!'; then
         printf 'Server %s got ready\n' "${servers[$idx]}" >&2
         unset "servers[$idx]"
       fi
@@ -110,11 +111,11 @@ for i in {6..1}; do
   sleep 10s
 done
 
-wait_for_servers "${svc_names[@]}"
+wait_for_servers "${to_run[@]}"
 
 sleep 10s
 
-stop_servers "${svc_names[@]}"
+stop_servers "${to_run[@]}"
 
 ecode=0
 
