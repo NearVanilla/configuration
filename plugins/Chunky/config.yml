@@ -2,7 +2,7 @@
 # https://github.com/pop4959/Chunky/wiki/Configuration
 
 silent: false
-update-interval: 1
+update-interval: 300
 # Chunky Configuration
 # https://github.com/pop4959/Chunky/wiki/Configuration
 version: 1
@@ -11,10 +11,10 @@ continue-on-restart: false
 tasks:
   world:
     cancelled: true
-    radius: 5000.0
+    radius: 12000.0
     x-center: 0.0
     z-center: 0.0
     iterator: concentric
     shape: square
-    count: 2011
-    time: 33434
+    count: 2252951
+    time: 25732077
