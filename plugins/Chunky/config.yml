@@ -18,3 +18,12 @@ tasks:
     shape: square
     count: 2252951
     time: 25732077
+  world_nether:
+    cancelled: true
+    radius: 1500.0
+    x-center: 0.0
+    z-center: 0.0
+    iterator: concentric
+    shape: square
+    count: 35675
+    time: 101371
