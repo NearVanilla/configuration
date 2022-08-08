@@ -52,9 +52,9 @@ echo "Extracting scores"
 # Get all players in scores:
 player_names="$(jq -r '.scores | .[] | .scores | .[] | .playerName' "${tmp_highscores}" | sort | uniq)"
 
-# Assert both players exists in scores
+# Assert old name exists in scores
 
-for name in "${old_name}" "${new_name}"; do
+for name in "${old_name}"; do
   grep "^${name}$" <<< "${player_names}" >/dev/null || (echo "Couldn't find ${name} in highscores!"; exit 1)
 done
 

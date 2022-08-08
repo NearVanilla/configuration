@@ -3,6 +3,9 @@
 set -euo pipefail
 set -x
 
+declare -x COMPOSE_DOCKER_CLI_BUILD="1"
+declare -x DOCKER_BUILDKIT="1"
+
 readonly countdown_times=(
   30
   20

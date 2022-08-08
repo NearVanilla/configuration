@@ -23,4 +23,4 @@ run_args=(
 
 [ -f "${highscore_file}" ] || cat - <<<'{}' > "${highscore_file}"
 
-docker run "${run_args[@]}"
+docker run "${run_args[@]}" 2>&1 | tee /tmp/highscores.log
