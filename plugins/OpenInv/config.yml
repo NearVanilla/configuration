@@ -5,7 +5,7 @@ settings:
   disable-offline-access: false
 toggles:
   silent-chest:
-    1ad6177c-322a-438a-af9c-9fd19f44771d: false
+    1ad6177c-322a-438a-af9c-9fd19f44771d: true
     c704aecb-564b-4e23-90c9-b607d005e168: false
   any-chest:
     c704aecb-564b-4e23-90c9-b607d005e168: false
