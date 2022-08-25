@@ -56,6 +56,7 @@ ops.json
 usercache.json
 version_history.json
 __pycache__/
+paper.yml-README.txt
 
 !server-icon.png
 !.subworktrees.json
