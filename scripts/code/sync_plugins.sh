@@ -114,6 +114,15 @@ done
 wait_for_servers "${to_run[@]}"
 
 sleep 10s
+printf 'All servers are ready - press Y to shut them down\n' >&2
+
+while read -n1 char; do
+  if [ "${char,,}" = "y" ]; then
+    break
+  else
+    printf 'Got invalid character - "%s". Try again.\n' >&2
+  fi
+done
 
 stop_servers "${to_run[@]}"
 
@@ -126,13 +135,18 @@ for name in "${to_run[@]}"; do
     printf 'No config changes in %s\n' "${name}" >&2
   else
     printf 'Detected new config commit in %s with subject: %s\n' "${name}" "${subject}" >&2
-    if manage config unpatched "${confdir}"; then
-      # Squash into previous commit
-      git reset HEAD^
-      git commit --all --amend --no-edit
-    else
-      printf 'ERROR: The config for %s is still patched!\n' "${name}" >&2
+    if [ -e "${confdir}/.HARD_FAILED" ]; then
+      printf 'ERROR: Failed hard in %s - leaving commits intact\n' "${name}" >&2
       ecode=1
+    else
+      if manage config unpatched "${confdir}"; then
+        # Squash into previous commit
+        git reset HEAD^
+        git commit --all --amend --no-edit
+      else
+        printf 'ERROR: The config for %s is still patched!\n' "${name}" >&2
+        ecode=1
+      fi
     fi
   fi
 done

@@ -42,7 +42,7 @@ unpatch_config() {
   if ! manage config unpatch "${extra_args[@]}" .; then
     local ecode="${?}"
     hard_fail
-    todo implement
+    notify "Unable to unpatch $(hostname) config - exit code ${ecode}"
     return "${ecode}"
   fi
   if [ -e "${COMMIT_MSG_FILE}" ]; then

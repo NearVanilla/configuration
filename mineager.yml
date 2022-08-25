@@ -70,3 +70,11 @@ plugins:
   prefix: Dynmap
   resource: '274'
   type: spiget
+- name: ViaVersion
+  prefix: Viaversion
+  resource: ViaVersion/ViaVersion
+  type: github
+- name: ViaBackwards
+  prefix: Viabackwards
+  resource: ViaVersion/ViaBackwards
+  type: github
