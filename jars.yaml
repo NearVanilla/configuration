@@ -12,9 +12,9 @@ plugins:
 - checksum: e8a4623567e3edecbdfdbaaf5f5a60a880ccea70
   name: ServerUtils
   version: 3.5.3
-- checksum: 6a6331f1bf8fb39a32244df4ea495f43cd1c9dc4
+- checksum: d278e6e9e2c829e27f35706b0ef073fe674dea7c
   name: WorldEdit
-  version: 7.2.11-beta-01+6200-0877589
+  version: 7.2.12+6240-87f4ae1
 - checksum: 8889be624c6a2130c03392b5f99a38307cc22f1a
   name: VanillaTweaks
   version: 0.2.0-SNAPSHOT
