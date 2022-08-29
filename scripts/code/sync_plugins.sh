@@ -105,13 +105,13 @@ done
 
 manage synchronize upload
 
-docker-compose up --build -d "${to_run[@]}"
+docker-compose up --build -d "${svc_names[@]}"
 for i in {6..1}; do
   printf 'Waiting %s more seconds before polling for status...\n' "$((i*10))" >&2
   sleep 10s
 done
 
-wait_for_servers "${to_run[@]}"
+wait_for_servers "${svc_names[@]}"
 
 sleep 10s
 printf 'All servers are ready - press Y to shut them down\n' >&2
@@ -124,7 +124,7 @@ while read -n1 char; do
   fi
 done
 
-stop_servers "${to_run[@]}"
+stop_servers "${svc_names[@]}"
 
 ecode=0
 
