@@ -33,9 +33,9 @@ plugins:
 - checksum: 4dc402bcdce94bc28f6df733b93ec07df580c49f
   name: IsSlimeChunk
   version: 1.0.2
-- checksum: d679c1e2f5416760e40d62ab4b423d70fe6256e2
+- checksum: c8c78165907a53a5f542673b49c5cdd74f8cbf76
   name: OnePlayerSleep
-  version: 1.0.6
+  version: 1.0.6-2-ga87aac8
 - checksum: 7591def1cc2d330b1694b02dcfff2d511b49e1a6
   name: OpenInv
   version: 4.2.1
