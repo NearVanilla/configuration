@@ -1,11 +1,11 @@
 platform: Velocity
 plugins:
-- checksum: 105831a2a340eae6784b984975bd31d402c8e3a5
+- checksum: 6619f3921e5a37c86a70a990db0987d7525c47d1
   name: LuckPerms
-  version: 5.4.41
-- checksum: 4d828d31badf132e0b2a3c768ddf5161405b772e
+  version: 5.4.46
+- checksum: c5fe7b78c258b7c839b9b80480ea10d01d5ff588
   name: MiniMOTD
-  version: 2.0.8
+  version: 2.0.9
 - checksum: deb7c975bf4449d16997f618d6fa4e326b9a8ec9
   name: bat
   version: 1.0.1
