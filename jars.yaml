@@ -9,9 +9,9 @@ plugins:
 - checksum: e77b811d89234f7c56d2ae629dda97622f866c45
   name: CapAFK
   version: 1.4.1.10
-- checksum: fe55813a23e1604c1a8aa048e2b707593a1de3a4
+- checksum: 8f5f0135e1f8c60fe16ec2cfd09463fd02f4ac65
   name: Chunky
-  version: 1.3.25
+  version: 1.3.41
 - checksum: 8017016965d5312a3bbc2fb9563abcb1634b9249
   name: DeathLog
   version: 1.0.2
@@ -24,9 +24,9 @@ plugins:
 - checksum: 5cb2143f5cf229f3f3407d6c5a9ff321f1161f8c
   name: GFly
   version: 2.3.0.0
-- checksum: 09bb9faab5788a47dfc5ddcd31e776114db5e12e
+- checksum: 0f31697c128257fc2e60c12913c069de378f1c60
   name: GSit
-  version: 1.2.4
+  version: 1.2.5
 - checksum: 1ffc1a060c77e071aa4f41a3fb482704c6afe2eb
   name: Hat
   version: 1.5.0
@@ -54,12 +54,12 @@ plugins:
 - checksum: 4560d844a1379b31ec26fa51e5ac334c5c787129
   name: WorldGuard
   version: 7.0.8-beta-01+cbb2ba7
-- checksum: 5575be1f9e003036bdcc87180e0a436693fe31cb
+- checksum: 052d647ce010e07a0315e9ba59e7520dae58a4cd
   name: LuckPerms
-  version: 5.4.41
-- checksum: 535d2a5a374323bc41456f36b3459f9506efebba
+  version: 5.4.46
+- checksum: 9f55b6b018be7066c8ee9a4e4151b28bf97bd9d7
   name: spark
-  version: 1.9.33
+  version: 1.9.36
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
