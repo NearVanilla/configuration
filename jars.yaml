@@ -22,5 +22,5 @@ plugins:
   name: CarbonChat
   version: 2.1.0-SNAPSHOT
 version:
-  build: 133
+  build: 153
   name: 1.19.2
