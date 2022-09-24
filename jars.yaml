@@ -9,15 +9,15 @@ plugins:
 - checksum: e77b811d89234f7c56d2ae629dda97622f866c45
   name: CapAFK
   version: 1.4.1.10
-- checksum: ede3b08319b8f9a48f395eecf1f161272a0dc186
+- checksum: dd5a09f9a2c81de705bbe6f99925163efc0d0ce2
   name: Chunky
-  version: 1.3.43
+  version: 1.3.45
 - checksum: 8017016965d5312a3bbc2fb9563abcb1634b9249
   name: DeathLog
   version: 1.0.2
-- checksum: 9b4d8b80a135dc8cbefb860d9c4f05adcc2b6706
+- checksum: 56ec0a1b0586f5531a93b891b7e00d67829f56b1
   name: DiscordSRV
-  version: 1.26.0-SNAPSHOT
+  version: 1.26.0
 - checksum: 722793bc7977c7dae77b5d1774a753a2b6708beb
   name: FirstJoinMessage
   version: 1.0.2
@@ -57,9 +57,9 @@ plugins:
 - checksum: 052d647ce010e07a0315e9ba59e7520dae58a4cd
   name: LuckPerms
   version: 5.4.46
-- checksum: 75e6b1159a6d6b7a9a0fbb7f47cca912866e9e3f
+- checksum: f1536d7828a06826959e2aa7da3267708b627364
   name: spark
-  version: 1.9.39
+  version: 1.9.40
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
