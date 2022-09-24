@@ -3,9 +3,9 @@ plugins:
 - checksum: 6944fc037233ad54f54ba46a15fd816f83f7da54
   name: ArmorStandEditor
   version: 1.16-24
-- checksum: 9b4d8b80a135dc8cbefb860d9c4f05adcc2b6706
+- checksum: 56ec0a1b0586f5531a93b891b7e00d67829f56b1
   name: DiscordSRV
-  version: 1.26.0-SNAPSHOT
+  version: 1.26.0
 - checksum: 052d647ce010e07a0315e9ba59e7520dae58a4cd
   name: LuckPerms
   version: 5.4.46
