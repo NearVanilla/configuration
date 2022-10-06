@@ -5,7 +5,7 @@ experimental:
   xp-management: false
 hermitcraft:
   gem-villagers: false
-  tag: false
+  tag: true
   thunder-shrine: false
   treasure-gems: false
   wandering-trades: true

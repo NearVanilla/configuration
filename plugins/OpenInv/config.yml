@@ -10,8 +10,10 @@ settings:
       max-radius: 10
 toggles:
   silent-chest:
-    1ad6177c-322a-438a-af9c-9fd19f44771d: true
-    c704aecb-564b-4e23-90c9-b607d005e168: false
-  any-chest:
-    c704aecb-564b-4e23-90c9-b607d005e168: false
     1ad6177c-322a-438a-af9c-9fd19f44771d: false
+    c704aecb-564b-4e23-90c9-b607d005e168: false
+    e6205625-4b6b-4e6f-ae74-ab335d52dfb8: false
+  any-chest:
+    c704aecb-564b-4e23-90c9-b607d005e168: true
+    1ad6177c-322a-438a-af9c-9fd19f44771d: false
+    e6205625-4b6b-4e6f-ae74-ab335d52dfb8: false
