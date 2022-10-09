@@ -6,9 +6,9 @@ plugins:
 - checksum: 56ec0a1b0586f5531a93b891b7e00d67829f56b1
   name: DiscordSRV
   version: 1.26.0
-- checksum: 052d647ce010e07a0315e9ba59e7520dae58a4cd
+- checksum: 77dc5ee883152c13bf9385ae676760c0c324a9fa
   name: LuckPerms
-  version: 5.4.46
+  version: 5.4.49
 - checksum: e8a4623567e3edecbdfdbaaf5f5a60a880ccea70
   name: ServerUtils
   version: 3.5.3
@@ -22,5 +22,5 @@ plugins:
   name: CarbonChat
   version: 2.1.0-SNAPSHOT
 version:
-  build: 153
+  build: 199
   name: 1.19.2
