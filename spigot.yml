@@ -73,6 +73,9 @@ world-settings:
     simulation-distance: 4
     view-distance: 7
   default:
+    seed-ancientcity: 20083232
+    seed-buriedtreasure: 10387320
+    seed-mineshaft: default
     hopper-can-load-chunks: false
     seed-nether: 30084232
     simulation-distance: 5
