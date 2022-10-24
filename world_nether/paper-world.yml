@@ -3,7 +3,7 @@
 # 
 # World: world_nether (minecraft:the_nether)
 
-_version: 29
+_version: 28
 anticheat:
   anti-xray:
     hidden-blocks:

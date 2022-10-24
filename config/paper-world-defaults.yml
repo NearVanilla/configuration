@@ -12,7 +12,7 @@
 # Discord: https://discord.gg/papermc
 # Website: https://papermc.io/
 
-_version: 29
+_version: 28
 allow-leashing-undead-horse: false
 anticheat:
   anti-xray:
@@ -191,14 +191,13 @@ environment:
   disable-ice-and-snow: false
   disable-teleportation-suffocation-check: false
   disable-thunder: false
-  fire-tick-delay: 30
   frosted-ice:
     delay:
       max: 40
       min: 20
     enabled: true
   generate-flat-bedrock: false
-  nether-ceiling-void-damage-height: disabled
+  nether-ceiling-void-damage-height: 0
   optimize-explosions: true
   portal-create-radius: 12
   portal-search-radius: 128
@@ -219,14 +218,14 @@ fishing-time-range:
   minimum: 100
 fixes:
   disable-unloaded-chunk-enderpearl-exploit: true
-  falling-block-height-nerf: disabled
+  falling-block-height-nerf: 0
   fix-curing-zombie-villager-discount-exploit: false
   fix-items-merging-through-walls: false
   fix-wither-targeting-bug: false
   prevent-tnt-from-moving-in-water: false
   remove-corrupt-tile-entities: false
   split-overstacked-loot: true
-  tnt-entity-height-nerf: disabled
+  tnt-entity-height-nerf: 0
 hopper:
   cooldown-when-full: true
   disable-move-event: false

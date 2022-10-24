@@ -3,7 +3,7 @@
 # 
 # World: world_the_end (minecraft:the_end)
 
-_version: 29
+_version: 28
 anticheat:
   anti-xray:
     enabled: false
