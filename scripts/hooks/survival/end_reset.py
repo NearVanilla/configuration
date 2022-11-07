@@ -92,6 +92,7 @@ def block_to_region_coord(coord: int) -> int:
 EXCLUSIONS = [
     Square(x1=1111, z1=1111, x2=-1111, z2=-1111),  # Spawn island
     Square(x1=135, z1=-5530, x2=250, z2=-5405), # Bamboogloo Rose Farm
+    Square(x1=-664, z1=-1895, x2=-709, z2=-1940), # Demo Rose Farm
 ]
 
 
