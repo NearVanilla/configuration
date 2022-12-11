@@ -7,19 +7,19 @@ Lang:
 
 Options:
   
-  # Defines whether a player should get up after taking damage
+  # Defines whether a player gets up when he suffers damage
   get-up-damage: false
   
-  # Defines whether a player can get up from sitting or posing by sneaking
+  # Defines whether a player can get up by sneaking or if he always has to use the command
   get-up-sneak: true
   
-  # Defines whether a player is returned to the original location
+  # Defines whether a player is returned to the place where he started sitting or posing
   get-up-return: false
   
-  # Defines whether a player gets up when the block below breaks
+  # Defines whether a player gets up if the connected block breaks
   get-up-break: true
   
-  # Defines whether a player can sit or pose in an unsafe location
+  # Defines whether a player can sit or pose in an unsafe place
   allow-unsafe: false
   
   # Defines whether more than one player can sit or pose on the same block
@@ -32,13 +32,13 @@ Options:
   
   Pose:
     
-    # Defines whether a player should receive a custom message when posing
+    # Defines whether a player should receive a custom message when he starts to pose
     pose-message: true
     
-    # Defines whether a player can interact with the environment or other players while posing
+    # Defines whether a player can interact with the environment while posing
     interact: false
     
-    # Defines whether to reset the time since a player's last rest (affects phantom spawn timer)
+    # Defines whether to reset the time since a player's last rest, which affects his phantom spawn timer
     lay-rest: true
     
     # Defines whether a player makes snoring sounds when lying down
@@ -47,14 +47,14 @@ Options:
     # Defines whether snoring sounds are only heard at night
     lay-snoring-night-only: true
     
-    # Defines whether a lying player counts for skipping the night (at least one player must be sleeping in a bed to skip the night!)
+    # Defines whether a lying player counts for skipping the night (At least one player must be sleeping in a bed to skip the night!)
     lay-night-skip: true
   
   
   
   Crawl:
     
-    # Defines whether a player can get up from crawling by sneaking
+    # Defines whether a player can get up by sneaking or if he always has to use the command
     get-up-sneak: true
     
     # Defines whether a player can double-sneak in a short amount of time to start crawling
@@ -79,21 +79,21 @@ Options:
   
   Sit:
     
-    # Defines whether you can sit on stairs and slabs that are not in the bottom part of a block
+    # Defines whether you can sit on stairs and slabs by clicking that are not in the bottom part of a block
     bottom-part-only: true
     
     # Defines whether a player needs an empty main hand to sit down by clicking
     empty-hand-only: true
     
-    # Defines whether a player should receive a custom message when sitting
+    # Defines whether a player should receive a custom message when he starts to sit
     sit-message: true
     
     # Defines whether a player can sit by default without using the sit toggle command
     default-sit-mode: true
     sit-at-block-center: true
     
-    # Defines the blocks a player can sit on by clicking (materials and tags)
-    # Separate a material or tag from its y-offset with a ";" character
+    # Defines the blocks a player can sit on by clicking (Materials and Tags)
+    # Separate a material or tag from its y-offset with a ; character "stone;0.5" to get a y-offset of 0.5 for the material
     SitMaterials:
     - '#STAIRS'
     - '#SLABS'
@@ -136,7 +136,7 @@ Options:
     # Defines the maximum range in which a player can sit on another player (0 means unlimited)
     max-distance: 0.0
     
-    # Defines whether a player should receive a custom message when sitting on top of another player
+    # Defines whether a player should receive a custom message when he starts to sit on another player
     sit-message: true
     
     # Defines whether a player can sit on another player by default without using the sit playertoggle command
