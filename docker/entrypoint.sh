@@ -236,4 +236,6 @@ main() {
   should_skip_unpatch || unpatch_config
 }
 
-main
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+    main "$@"
+fi

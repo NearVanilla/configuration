@@ -55,9 +55,6 @@ plugins:
   prefix: minimotd-velocity
   resource: jpenilla/MiniMOTD
   type: github
-- name: CoreProtect
-  resource: PlayPro/CoreProtect
-  type: github
 - name: Swap
   prefix: Swap
   resource: OskarsMC-Plugins/swap

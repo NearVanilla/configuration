@@ -14,7 +14,9 @@ from server_manager.synchronize.backblaze import (
     b2_bucket_from_env,
     b2_file_status,
     upload_plugin,
+    b2_get_all_files,
 )
+from server_manager.utils import file_to_b2_dir
 
 
 @dataclasses.dataclass(frozen=True)
@@ -85,6 +87,54 @@ def upload(ctx, dry_run: bool):
     ) as bar:
         for file in bar:
             upload_plugin(bucket, file, ctx.obj.remote_prefix)
+
+
+@cli.command()
+@click.option("--dry-run", is_flag=True)
+@click.pass_context
+def download(ctx, dry_run: bool):
+    bucket = b2_bucket_from_env()
+    files_to_download: List[Path] = []
+    plugin_dir: Path = ctx.obj.plugin_dir
+    remote_files = sorted(
+        b2_get_all_files(bucket, ctx.obj.remote_prefix),
+        key=lambda f: f.upload_timestamp,
+    )
+    newest_remote_file = {}
+    # TODO: Support one plugin name having different plugins for velocity/paper
+    for rfile in remote_files:
+        rfile_path = Path(rfile.file_name)
+        # rfile_name = rfile_path.name
+        # assert rfile_name.endswith(".jar"), rfile_name
+        # version = rfile_name.rstrip(".jar")
+        plugin_name = rfile_path.parent.name
+        newest_remote_file[plugin_name] = rfile
+    local_files = {file_to_b2_dir(path): path for path in plugin_dir.glob("*.jar")}
+    to_download = {}
+    for remote_name, remote_file in newest_remote_file.items():
+        local_file_path = local_files.get(remote_name)
+        if local_file_path:
+            if local_file_path.stat().st_mtime >= remote_file.upload_timestamp:
+                # We have newer version
+                continue
+            to_download[local_file_path] = remote_file
+        else:
+            to_download[plugin_dir / f"{remote_name}.jar"] = remote_file
+
+    if not to_download:
+        click.echo("Nothing to download")
+        return
+    if dry_run:
+        for file in to_download:
+            click.echo(f"Would download {file}")
+        return
+    with click.progressbar(
+        to_download.items(),
+        label="Downloading plugins",
+        item_show_func=lambda x: str(x[0].name) if x else "",
+    ) as bar:
+        for path, info in bar:
+            info.download().save_to(path)
 
 
 if __name__ == "__main__":

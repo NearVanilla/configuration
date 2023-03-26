@@ -34,10 +34,9 @@ COPY --from=downloader /tmp/packages/mc-server-runner /usr/bin/mc-server-runner
 
 RUN useradd --create-home --uid 1000 runner
 
-
 COPY --link docker/known_hosts docker/config_repo_ro_key /home/runner/.ssh/
 
-RUN chown -R runner:runner /home/runner/.ssh \
+RUN chown -R runner:runner /home/runner/ \
     && chmod 0600 /home/runner/.ssh/*
 
 USER runner

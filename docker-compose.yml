@@ -42,9 +42,7 @@ x-mc-common-env:
 
 services:
   survival:
-    <<: *user
-    <<: *mc_common_settings
-    <<: *jvm_image
+    <<: [*user, *mc_common_settings, *jvm_image]
     container_name: "survival"
     hostname: "survival"
     volumes:
@@ -56,17 +54,14 @@ services:
     #command:
     #  - --forceUpgrade
     environment:
-      <<: *shared_envs
-      <<: *mc_common_env
+      <<: [*shared_envs, *mc_common_env]
       MEMORY: "${SURVIVAL_MEM?}"
       GIT_BRANCH: config_survival
     env_file:
       - ./.env-survival
       - ./.env
   creative-spawn:
-    <<: *user
-    <<: *mc_common_settings
-    <<: *jvm_image
+    <<: [*user, *mc_common_settings, *jvm_image]
     container_name: "creative-spawn"
     hostname: "creative-spawn"
     volumes:
@@ -76,16 +71,14 @@ services:
     #command:
     #  - --forceUpgrade
     environment:
-      <<: *shared_envs
-      <<: *mc_common_env
+      <<: [*shared_envs, *mc_common_env]
       MEMORY: "${CREATIVE_MEM?}"
       GIT_BRANCH: config_creative_spawn
     env_file:
       - ./.env-creative-spawn
       - ./.env
   velocity:
-    <<: *user
-    <<: *jvm_image
+    <<: [*user, *jvm_image]
     container_name: "velocity"
     hostname: "velocity"
     working_dir: /velocity

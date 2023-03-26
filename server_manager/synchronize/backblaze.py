@@ -1,17 +1,15 @@
-#!/usr/bin/env python3
-
 from __future__ import annotations
 
 import dataclasses
 import enum
 import os
 from pathlib import Path
-from typing import Union
+from typing import Union, List, Iterable
 
 import b2sdk  # type: ignore
-from b2sdk.v1 import B2Api, Bucket, FileVersionInfo, InMemoryAccountInfo  # type: ignore
+from b2sdk.v1 import B2Api, Bucket, FileVersionInfo, InMemoryAccountInfo, FileVersion  # type: ignore
 
-from server_manager.utils import file_to_b2_name
+from server_manager.utils import file_to_b2_name, file_to_b2_dir
 
 Pathy = Union[Path, str]
 
@@ -60,3 +58,21 @@ def b2_file_status(
     except b2sdk.exception.FileNotPresent:
         return B2FileStatus.MISSING
     return B2FileStatus.PRESENT
+
+
+# def b2_list_files(
+#    bucket: Bucket, directory: str, remote_prefix: Pathy = Path("plugins/")
+# ) -> Iterable[FileVersion]:
+#    for file_version, _folder_name in bucket.ls(str(Path(remote_prefix) / directory)):
+#        print
+#
+# def b2_list_plugin_files(
+#    bucket: Bucket, file: Path, remote_prefix: Pathy = Path("plugins/")
+# ):
+#    return b2_list_files(bucket=bucket, directory=file_to_b2_dir(file), remote_prefix=remote_prefix)
+#
+def b2_get_all_files(
+    bucket: Bucket, directory: str, remote_prefix: Pathy = Path("plugins/")
+) -> Iterable[FileVersion]:
+    for file_version, _folder_name in bucket.ls(str(remote_prefix), recursive=True):
+        yield file_version

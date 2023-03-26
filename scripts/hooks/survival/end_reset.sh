@@ -13,9 +13,16 @@ readonly mcaselector_release_url="https://github.com/${mcarepo}/releases/downloa
 readonly reset_script="${_script_dir}/end_reset.py"
 readonly minimal_time_between_runs="$(( 7*24*60*60 ))"
 
-[ -d "${end_reset_dimension_dir}" ] || {
-  echo "Unable to find dimension dir"
+end_reset_world_dir="$(dirname "${end_reset_dimension_dir}")"
+
+[ -d "${end_reset_world_dir}" ] || {
+  echo "Unable to find world dir"
   exit 1
+}
+
+[ -d "${end_reset_dimension_dir}" ] || {
+  echo "Missing dimension dir - was the server reset?"
+  exit 0
 }
 
 [ -x "${reset_script}" ] || {
