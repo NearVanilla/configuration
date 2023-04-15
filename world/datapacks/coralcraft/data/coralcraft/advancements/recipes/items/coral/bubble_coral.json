@@ -1,0 +1,46 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_one": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:bubble_coral"
+					}
+				]
+			}
+		},
+		"has_two": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:bubble_coral"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "coralcraft:bubble_coral"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_one",
+			"has_the_recipe"
+		],
+		[
+			"has_two",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"coralcraft:bubble_coral"
+		]
+	}
+}

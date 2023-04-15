@@ -6,7 +6,7 @@
             "conditions": {
                 "items": [
                     {
-                        "tag": "universal_dyeing:wool"
+                        "tag": "minecraft:wool"
                     }
                 ]
             }
