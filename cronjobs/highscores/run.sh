@@ -3,7 +3,7 @@
 set -euo pipefail
 set -x
 
-docker buildx build -t scoreboard-exporter 'https://github.com/Prof-Bloodstone/Minecraft_scoreboard_exporter.git'
+docker buildx build -t scoreboard-exporter 'https://github.com/Prof-Bloodstone/Minecraft_scoreboard_exporter.git#master'
 
 scriptpath="$(realpath "${0}")"
 scriptdir="$(dirname "${scriptpath}")"
