@@ -1,26 +1,29 @@
 platform: Paper
 plugins:
-- checksum: 6944fc037233ad54f54ba46a15fd816f83f7da54
+- checksum: ee9e87492a87d1912f36bfbb5d1186fb00fe951e
   name: ArmorStandEditor
   version: 1.16-24
-- checksum: 56ec0a1b0586f5531a93b891b7e00d67829f56b1
+- checksum: 75336aab64e1bf8af30cd452c5af14859701a0f0
   name: DiscordSRV
-  version: 1.26.0
-- checksum: 305e51fc45e2b05179929c4e8aeaffb85e08a2ce
+  version: 1.26.2
+- checksum: dd471fba59d8c9899bdf53def3a7006c469bbd1a
   name: LuckPerms
-  version: 5.4.52
-- checksum: e8a4623567e3edecbdfdbaaf5f5a60a880ccea70
+  version: 5.4.79
+- checksum: 743c70bb0994aa4151eb9884786dd3960cbfe212
   name: ServerUtils
-  version: 3.5.3
-- checksum: d278e6e9e2c829e27f35706b0ef073fe674dea7c
+  version: 3.5.4
+- checksum: 58de19a1560771b121a96b5b521f784d3e8a2ce5
   name: WorldEdit
-  version: 7.2.12+6240-87f4ae1
-- checksum: 8889be624c6a2130c03392b5f99a38307cc22f1a
+  version: 7.2.15-SNAPSHOT+6361-de453b9
+- checksum: 37f82c00c87e9269b55f329e448f2a6f24b36740
   name: VanillaTweaks
   version: 0.2.0-SNAPSHOT
-- checksum: ab7535cc9eb537034edb06d69a17df3003c742b2
+- checksum: 8e902e7aed71a5c218e97a7b496100c2b41bd4e3
   name: CarbonChat
-  version: 2.1.0-SNAPSHOT
+  version: 2.1.0-pb
+- checksum: 044708ba77cfd9b80e8df40070ae2dde5f6eb507
+  name: voicechat
+  version: 2.4.10
 version:
-  build: 235
-  name: 1.19.2
+  build: 547
+  name: 1.19.4
