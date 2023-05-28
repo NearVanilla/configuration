@@ -3,7 +3,7 @@
 # 
 # World: world_nether (minecraft:the_nether)
 
-_version: 28
+_version: 30
 anticheat:
   anti-xray:
     hidden-blocks:
@@ -44,6 +44,8 @@ feature-seeds:
     minecraft:bonus_chest: 2007067062440613940
     minecraft:cave_vine: -3740251502498405532
     minecraft:cave_vine_in_moss: 3194056080400372385
+    minecraft:cherry: -3606415558433669049
+    minecraft:cherry_bees_005: -1462515493424742350
     minecraft:chorus_plant: 944505061383480561
     minecraft:clay_pool_with_dripleaves: 6299092512012811158
     minecraft:clay_with_dripleaves: -4641984022114407526
@@ -70,6 +72,7 @@ feature-seeds:
     minecraft:fancy_oak_bees_0002: -4945041001659557273
     minecraft:fancy_oak_bees_002: -2065398671420377250
     minecraft:fancy_oak_bees_005: 6741231591368072815
+    minecraft:flower_cherry: -4086716738632962062
     minecraft:flower_default: -8034585560369289539
     minecraft:flower_flower_forest: -4549064338323623296
     minecraft:flower_meadow: -8874781915177472588

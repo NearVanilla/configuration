@@ -3,7 +3,7 @@
 # 
 # World: world_the_end (minecraft:the_end)
 
-_version: 28
+_version: 30
 anticheat:
   anti-xray:
     enabled: false
@@ -29,6 +29,8 @@ feature-seeds:
     minecraft:bonus_chest: 1651257480460429223
     minecraft:cave_vine: -8943941414787802418
     minecraft:cave_vine_in_moss: 2857944148342611949
+    minecraft:cherry: -3913326119124409629
+    minecraft:cherry_bees_005: 548187485463815399
     minecraft:chorus_plant: 3954079746197017739
     minecraft:clay_pool_with_dripleaves: -3511904172855979300
     minecraft:clay_with_dripleaves: -7426809712446191577
@@ -55,6 +57,7 @@ feature-seeds:
     minecraft:fancy_oak_bees_0002: 4978747236571371854
     minecraft:fancy_oak_bees_002: 7438441914631380191
     minecraft:fancy_oak_bees_005: 3857968431935109577
+    minecraft:flower_cherry: 6360080677866528029
     minecraft:flower_default: -3276080485890237269
     minecraft:flower_flower_forest: -2801535016717659496
     minecraft:flower_meadow: 4618721440116622327

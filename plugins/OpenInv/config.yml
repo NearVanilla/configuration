@@ -1,8 +1,13 @@
-config-version: 5
+config-version: 6
 settings:
   disable-saving: false
   locale: en_us
   disable-offline-access: false
+  command:
+    open:
+      no-args-opens-self: false
+    searchcontainer:
+      max-radius: 10
 toggles:
   silent-chest:
     1ad6177c-322a-438a-af9c-9fd19f44771d: true

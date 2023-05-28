@@ -144,3 +144,6 @@ hopper-transactions: true
 # If modified, will automatically attempt to translate languages phrases.
 # List of language codes: https://coreprotect.net/languages/
 language: en
+
+# Logs the spread of sculk blocks from sculk catalysts.
+sculk-spread: true

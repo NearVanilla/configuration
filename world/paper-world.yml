@@ -3,7 +3,7 @@
 # 
 # World: world (minecraft:overworld)
 
-_version: 28
+_version: 30
 feature-seeds:
   features:
     minecraft:acacia: 37658940948030392
@@ -24,6 +24,8 @@ feature-seeds:
     minecraft:bonus_chest: 6020352974744429535
     minecraft:cave_vine: 3108384159210543059
     minecraft:cave_vine_in_moss: -3027095173897114312
+    minecraft:cherry: -3973412986512616578
+    minecraft:cherry_bees_005: 8859065213964415841
     minecraft:chorus_plant: 3943853482299255680
     minecraft:clay_pool_with_dripleaves: -7762784324422303943
     minecraft:clay_with_dripleaves: -8227516682289481150
@@ -50,6 +52,7 @@ feature-seeds:
     minecraft:fancy_oak_bees_0002: -5108792369143544310
     minecraft:fancy_oak_bees_002: 1420384521808895179
     minecraft:fancy_oak_bees_005: -5228432286915178207
+    minecraft:flower_cherry: -8450771013334358153
     minecraft:flower_default: 2936887055767863449
     minecraft:flower_flower_forest: 5624690338598348499
     minecraft:flower_meadow: 4601307721070692715

@@ -73,6 +73,9 @@ world-settings:
     simulation-distance: 4
     view-distance: 7
   default:
+    seed-ancientcity: 20083232
+    seed-buriedtreasure: 10387320
+    seed-mineshaft: default
     hopper-can-load-chunks: false
     seed-nether: 30084232
     simulation-distance: 5
@@ -92,6 +95,7 @@ world-settings:
     verbose: true
     mob-spawn-range: 6
     growth:
+      torchflower-modifier: 100
       twistingvines-modifier: 100
       weepingvines-modifier: 100
       cavevines-modifier: 100
@@ -139,6 +143,7 @@ world-settings:
         flying-monsters-every: 200
         flying-monsters-for: 100
     entity-tracking-range:
+      display: 128
       players: 128
       animals: 48
       monsters: 48

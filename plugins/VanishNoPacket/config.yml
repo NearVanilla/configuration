@@ -1,4 +1,4 @@
-# 
+#
 # VanishNoPacket
 #   A fine choice of invisibility for the discerning server administrator.
 #   https://www.kitteh.org
@@ -9,6 +9,8 @@ fakeannounce:
 hooks:
   essentials: false
   dynmap: false
+  discordsrv: false
+  squaremap: false
 permissionsupdates:
   checkonworldchange: false
 effects:
@@ -17,4 +19,8 @@ effects:
 permtest: false
 debug: false
 configVersionDoNotTouch:
-  SeriouslyThisWillEraseYourConfig: 7
+  SeriouslyThisWillEraseYourConfig: 9
+double-sneak-during-vanish-switches-gamemode:
+  enabled: false
+  max-ms-time-between-sneaks: 500
+  message: '&aGameMode changed!'
