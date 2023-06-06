@@ -22,5 +22,5 @@ plugins:
   name: ViaVersion
   version: 4.6.2
 version:
-  build: 245
+  build: 257
   name: 3.2.0-SNAPSHOT
