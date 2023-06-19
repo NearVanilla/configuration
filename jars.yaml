@@ -21,6 +21,9 @@ plugins:
 - checksum: 26c2aed27c18e6d8bde4e199951e64dac1a526f2
   name: ViaVersion
   version: 4.7.0
+- checksum: 538b530aaf0dce6a2d05ccee7abc4a83c5d711ec
+  name: UnSignedVelocity
+  version: 1.4.2
 version:
   build: 258
   name: 3.2.0-SNAPSHOT
