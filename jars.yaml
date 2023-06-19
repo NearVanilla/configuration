@@ -87,6 +87,9 @@ plugins:
 - checksum: 044708ba77cfd9b80e8df40070ae2dde5f6eb507
   name: voicechat
   version: 2.4.10
+- checksum: 5518cc00bcb919b26b5bef1051be10bae02ea89d
+  name: FreedomChat
+  version: 1.4.2
 version:
   build: 547
   name: 1.19.4
