@@ -21,7 +21,7 @@ check_server_running() {
   local id
   local status
   local ecode
-  id="$(docker-compose ps -q "${container_name}")" || {
+  id="$(docker-compose ps -q "${container_name}")" && [ -n "${id}" ] || {
     ecode=$?
     echo "Server not existing?"
     return $ecode
@@ -100,7 +100,9 @@ done
 
 [ "${#to_run[@]}" -ne 0 ] || {
   printf 'No server had changes\n' >&2
-  exit
+  if [ "${1:-empty}" != "force" ]; then
+    exit
+  fi
 }
 
 manage synchronize upload

@@ -60,6 +60,9 @@ services:
     env_file:
       - ./.env-survival
       - ./.env
+    ports:
+      # Simple Voice Chat
+      - 24454:24454/udp
   creative-spawn:
     <<: [*user, *mc_common_settings, *jvm_image]
     container_name: "creative-spawn"
@@ -77,6 +80,9 @@ services:
     env_file:
       - ./.env-creative-spawn
       - ./.env
+    ports:
+      # Simple Voice Chat
+      - 24455:24455/udp
   velocity:
     <<: [*user, *jvm_image]
     container_name: "velocity"
