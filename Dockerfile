@@ -19,9 +19,9 @@ FROM debian:${DEBIAN_VERSION} AS base
 SHELL ["/bin/bash", "-c"]
 
 # Install all requirements first
-COPY docker/apt-packages.list /tmp/apt-packages.list
+COPY docker/*.aptlist /tmp/
 RUN apt-get update \
-  && xargs apt-get install -y < <(sed '/^#/d' /tmp/apt-packages.list) \
+  && for list in /tmp/*.aptlist; do xargs apt-get install -y < <(sed '/^#/d' "${list}"); done \
   && rm -rf /var/lib/apt/lists/*
 
 # Install required software in requirements.txt

@@ -1,0 +1,2 @@
+# We need to install jre separately as otherwise it hits a debian bug around ca-certificates
+openjdk-17-jre
