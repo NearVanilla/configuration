@@ -4,7 +4,7 @@
 			"item": "minecraft:rotten_flesh"
 		},
 		"title": {"translate":"Iron Belly"},
-		"description": {"translate":"Stop starvation using rotten flesh"},
+		"description": {"color":"green","translate":"Stop starvation using rotten flesh"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:monsters/there_has_to_be_another_way",

@@ -4,7 +4,7 @@
 			"item": "minecraft:white_dye"
 		},
 		"title": {"translate":"Goat out of here!"},
-		"description": {"translate":"Slaughter a Goat"},
+		"description": {"color":"green","translate":"Slaughter a Goat"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/have_a_shearful_day",

@@ -4,7 +4,7 @@
 			"item": "minecraft:saddle"
 		},
 		"title": {"translate":"Cowboy"},
-		"description": {"translate":"Tame a horse by jumping on it over and over again"},
+		"description": {"color":"green","translate":"Tame a horse by jumping on it over and over again"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",

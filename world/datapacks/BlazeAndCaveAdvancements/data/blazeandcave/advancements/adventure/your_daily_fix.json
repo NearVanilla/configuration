@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_ingot"
 		},
 		"title": {"translate":"Your Daily Fix"},
-		"description": {"translate":"Use an Iron Ingot to repair a damaged Iron Golem"},
+		"description": {"color":"green","translate":"Use an Iron Ingot to repair a damaged Iron Golem"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/summon_iron_golem",

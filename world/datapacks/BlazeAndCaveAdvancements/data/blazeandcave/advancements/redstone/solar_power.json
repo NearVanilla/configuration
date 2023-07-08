@@ -4,10 +4,10 @@
 			"item": "minecraft:daylight_detector"
 		},
 		"title": {"translate":"Solar Power"},
-		"description": {"translate":"Craft a daylight sensor"},
+		"description": {"color":"green","translate":"Craft a daylight sensor"},
 		"announce_to_chat": "true"
 	},
-	"parent": "blazeandcave:redstone/comparing_comparator",
+	"parent": "blazeandcave:redstone/quirky_quartz",
 	"rewards": {
 		"function": "bc_rewards:redstone/solar_power"
 	},	

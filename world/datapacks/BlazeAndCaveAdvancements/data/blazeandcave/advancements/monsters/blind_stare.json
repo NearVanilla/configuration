@@ -4,7 +4,7 @@
 			"item": "minecraft:spyglass"
 		},
 		"title": {"translate":"Blind Stare"},
-		"description": {"translate":"Look at a Warden with a Spyglass"},
+		"description": {"color":"green","translate":"Look at a Warden with a Spyglass"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:monsters/now_thats_a_lot_of_damage",

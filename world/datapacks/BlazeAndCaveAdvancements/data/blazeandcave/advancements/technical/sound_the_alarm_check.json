@@ -6,13 +6,18 @@
 		"bell": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:bell"
-						]
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:bell"
+								]
+							}
+						}
 					}
-				}
+				]
 			}
 		}
 	}

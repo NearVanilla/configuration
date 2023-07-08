@@ -4,7 +4,7 @@
 			"item": "minecraft:pumpkin_pie"
 		},
 		"title": {"translate":"The Pie"},
-		"description": {"translate":"Bake a pumpkin pie"},
+		"description": {"color":"green","translate":"Bake a pumpkin pie"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:farming/naturally_carved",

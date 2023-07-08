@@ -4,7 +4,7 @@
 			"item": "minecraft:mud"
 		},
 		"title": {"translate":"Stuck in the Mud"},
-		"description": {"translate":"Use a Water Bottle on some Dirt to turn it into Mud"},
+		"description": {"color":"green","translate":"Use a Water Bottle on some Dirt to turn it into Mud"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/classy_glassy",
@@ -15,18 +15,26 @@
 		"mud": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:mud"
-						]
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:mud"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:potion"
+							]
+						}
 					}
-				},
-				"item": {
-					"items": [
-						"minecraft:potion"
-					]
-				}
+				]
 			}
 		}
 	}

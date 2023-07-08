@@ -4,7 +4,7 @@
 			"item": "minecraft:cod"
 		},
 		"title": {"translate":"A Complete Catalogue"},
-		"description": {"translate":"Tame all cat variants!"},
+		"description": {"color":"dark_purple","translate":"Tame all cat variants!"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

@@ -4,7 +4,7 @@
 			"item": "minecraft:observer"
 		},
 		"title": {"translate":"Observer Buddy"},
-		"description": {"translate":"Craft an observer"},
+		"description": {"color":"green","translate":"Craft an observer"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:redstone/solar_power",

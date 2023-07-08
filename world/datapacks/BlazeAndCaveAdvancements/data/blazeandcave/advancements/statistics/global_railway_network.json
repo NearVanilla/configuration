@@ -4,7 +4,7 @@
 			"item": "minecraft:command_block_minecart"
 		},
 		"title": {"translate":"Global Railway Network"},
-		"description": {"translate":"Ride 50km in a minecart"},
+		"description": {"color":"dark_purple","translate":"Ride 50km in a minecart"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

@@ -4,10 +4,10 @@
 			"item": "minecraft:chainmail_chestplate"
 		},
 		"title": {"translate":"All chained up"},
-		"description": {"translate":"Trade for a piece of chain armor from an armorer villager"},
+		"description": {"color":"green","translate":"Trade for a piece of chain armor from an armorer villager"},
 		"announce_to_chat": "true"
 	},
-	"parent": "minecraft:adventure/trade",
+	"parent": "blazeandcave:adventure/knowledge_is_power",
 	"rewards": {
 		"function": "bc_rewards:adventure/all_chained_up"
 	},		

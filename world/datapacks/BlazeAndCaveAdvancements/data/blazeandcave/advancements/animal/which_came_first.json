@@ -4,7 +4,7 @@
 			"item": "minecraft:egg"
 		},
 		"title": {"translate":"Which came first?"},
-		"description": {"translate":"The chicken... or the egg??"},
+		"description": {"color":"green","translate":"The chicken... or the egg??"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/so_good",

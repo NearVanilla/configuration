@@ -204,6 +204,18 @@
 					}
 				]
 			}
+		},
+		"dark_oak_hanging_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:dark_oak_hanging_sign"
+						]
+					}
+				]
+			}
 		}
 	}
 }

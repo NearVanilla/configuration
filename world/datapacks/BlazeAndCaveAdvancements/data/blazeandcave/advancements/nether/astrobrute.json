@@ -4,7 +4,7 @@
 			"item": "minecraft:glass"
 		},
 		"title": {"translate":"Astrobrute"},
-		"description": {"translate":"Send a Piglin Brute to the End and kill it there before it zombifies"},
+		"description": {"color":"dark_purple","translate":"Send a Piglin Brute to the End and kill it there before it zombifies"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

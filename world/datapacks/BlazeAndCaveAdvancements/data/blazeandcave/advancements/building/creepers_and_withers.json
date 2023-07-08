@@ -4,7 +4,7 @@
 			"item": "minecraft:chiseled_sandstone"
 		},
 		"title": {"translate":"Creepers and Withers"},
-		"description": {"translate":"Engrave sandstone with creeper and wither patterns"},
+		"description": {"color":"green","translate":"Engrave sandstone with creeper and wither patterns"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/jailhouse_block",

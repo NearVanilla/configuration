@@ -4,7 +4,7 @@
 			"item": "minecraft:diamond_block"
 		},
 		"title": {"translate":"Master Diamond Miner"},
-		"description": {"translate":"Mine enough diamond to make a stack of diamond blocks"},
+		"description": {"color":"dark_purple","translate":"Mine enough diamond to make a stack of diamond blocks"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

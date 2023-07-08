@@ -4,7 +4,7 @@
 			"item": "minecraft:netherite_ingot"
 		},
 		"title": {"translate":"Diamonds Are Not Forever"},
-		"description": {"translate":"Use Gold Ingots and Netherite Scrap to make a Netherite Ingot"},
+		"description": {"color":"green","translate":"Use Gold Ingots and Netherite Scrap to make a Netherite Ingot"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:nether/holy_scrap",

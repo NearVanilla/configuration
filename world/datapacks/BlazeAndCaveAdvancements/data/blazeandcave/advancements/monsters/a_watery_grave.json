@@ -4,7 +4,7 @@
 			"item": "minecraft:seagrass"
 		},
 		"title": {"translate":"A Watery Grave"},
-		"description": {"translate":"Defeat a drowned in the briny depths. ","extra":[{"italic":"true","translate":"Gurgle"}]},
+		"description": {"color":"green","translate":"Defeat a drowned in the briny depths. ","extra":[{"italic":"true","translate":"Gurgle"}]},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:monsters/iron_belly",

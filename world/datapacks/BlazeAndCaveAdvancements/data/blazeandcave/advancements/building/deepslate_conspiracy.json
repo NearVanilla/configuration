@@ -4,7 +4,7 @@
 			"item": "minecraft:deepslate_tiles"
 		},
 		"title": {"translate":"Deepslate Conspiracy"},
-		"description": {"translate":"Craft all forms of Deepslate, Polished Deepslate, Deepslate Bricks and Deepslate Tiles"},
+		"description": {"color":"green","translate":"Craft all forms of Deepslate, Polished Deepslate, Deepslate Bricks and Deepslate Tiles"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/fake_stronghold",

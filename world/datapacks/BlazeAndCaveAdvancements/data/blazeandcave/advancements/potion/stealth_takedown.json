@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_sword"
 		},
 		"title": {"translate":"Stealth Takedown"},
-		"description": {"translate":"Dispatch a Creeper at melee range while you are invisible"},
+		"description": {"color":"green","translate":"Dispatch a Creeper at melee range while you are invisible"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:potion/the_invisible_player",

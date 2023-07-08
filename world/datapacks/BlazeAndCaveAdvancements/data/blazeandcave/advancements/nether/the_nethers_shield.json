@@ -5,7 +5,7 @@
 			"nbt": "{BlockEntityTag:{Base:4,Patterns:[{Pattern:cre,Color:15},{Pattern:cr,Color:1},{Pattern:hhb,Color:12},{Pattern:tt,Color:1},{Pattern:gru,Color:1}]}}"
 		},
 		"title": {"translate":"The Nether's Shield"},
-		"description": {"translate":"Block some blaze fireballs"},
+		"description": {"color":"green","translate":"Block some blaze fireballs"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:nether/obtain_blaze_rod",

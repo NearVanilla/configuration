@@ -6,11 +6,16 @@
 		"painting": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"item": {
-					"items": [
-						"minecraft:painting"
-					]
-				}
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:painting"
+							]
+						}
+					}
+				]
 			}
 		}
 	}

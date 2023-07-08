@@ -5,7 +5,7 @@
 			"nbt": "{Explosion:{Type:0b,Colors:[I; 16701501]}}"
 		},
 		"title": {"translate":"Rocketman"},
-		"description": {"translate":"Fill your inventory with full stacks of firework rockets"},
+		"description": {"color":"dark_purple","translate":"Fill your inventory with full stacks of firework rockets"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

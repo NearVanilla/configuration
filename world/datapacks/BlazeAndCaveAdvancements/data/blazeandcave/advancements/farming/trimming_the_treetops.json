@@ -4,7 +4,7 @@
 			"item": "minecraft:oak_leaves"
 		},
 		"title": {"translate":"Trimming the Treetops"},
-		"description": {"translate":"Use shears to obtain leaf blocks"},
+		"description": {"color":"green","translate":"Use shears to obtain leaf blocks"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:farming/bapple",

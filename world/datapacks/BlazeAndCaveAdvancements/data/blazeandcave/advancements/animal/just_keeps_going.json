@@ -4,7 +4,7 @@
 			"item": "minecraft:bowl"
 		},
 		"title": {"translate":"Just Keeps Going"},
-		"description": {"translate":"Eat Rabbit Stew, then avoid eating for the next 3 in-game days"},
+		"description": {"color":"dark_purple","translate":"Eat Rabbit Stew, then avoid eating for the next 3 in-game days"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

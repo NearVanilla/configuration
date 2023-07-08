@@ -4,7 +4,7 @@
 			"item": "minecraft:ice"
 		},
 		"title": {"translate":"Thin Ice!"},
-		"description": {"translate":"Use a silk touch pickaxe to pick up some ice blocks"},
+		"description": {"color":"green","translate":"Use a silk touch pickaxe to pick up some ice blocks"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:biomes/powder_full",

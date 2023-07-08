@@ -4,7 +4,7 @@
 			"item": "minecraft:gravel"
 		},
 		"title": {"translate":"My work here is done"},
-		"description": {"translate":"Get caught in a cave-in of gravel"},
+		"description": {"color":"green","translate":"Get caught in a cave-in of gravel"},
 		"announce_to_chat": "true"
 
 	},

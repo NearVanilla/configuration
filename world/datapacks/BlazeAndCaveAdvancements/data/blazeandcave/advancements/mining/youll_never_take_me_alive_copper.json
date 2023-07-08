@@ -5,7 +5,7 @@
 			"item": "minecraft:copper_ingot"
 		},
 		"title": {"translate":"Coppers and Robbers"},
-		"description": {"translate":"Smelt a Copper Ingot"},
+		"description": {"color":"green","translate":"Smelt a Copper Ingot"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/renewable_energy",

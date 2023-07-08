@@ -5,7 +5,7 @@
 			"nbt": "{Potion:\"minecraft:poison\"}"
 		},
 		"title": {"translate":"Poison Dart"},
-		"description": {"translate":"Craft tipped arrows of poison"},
+		"description": {"color":"green","translate":"Craft tipped arrows of poison"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:potion/gas",

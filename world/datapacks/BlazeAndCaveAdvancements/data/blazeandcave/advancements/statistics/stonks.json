@@ -4,7 +4,7 @@
 			"item": "minecraft:egg"
 		},
 		"title": {"translate":"STONKS!"},
-		"description": {"translate":"Trade with villagers 2500 times"},
+		"description": {"color":"dark_purple","translate":"Trade with villagers 2500 times"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

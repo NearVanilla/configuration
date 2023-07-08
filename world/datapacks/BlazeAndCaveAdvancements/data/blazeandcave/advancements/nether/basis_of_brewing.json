@@ -4,7 +4,7 @@
 			"item": "minecraft:nether_wart"
 		},
 		"title": {"translate":"Basis of Brewing"},
-		"description": {"translate":"Harvest some nether wart from a nether fortress"},
+		"description": {"color":"green","translate":"Harvest some nether wart from a nether fortress"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:nether/obtain_blaze_rod",

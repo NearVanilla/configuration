@@ -4,7 +4,7 @@
 			"item": "minecraft:honey_bottle"
 		},
 		"title": {"translate":"Winnie the Pooh"},
-		"description": {"translate":"Drink some honey"},
+		"description": {"color":"green","translate":"Drink some honey"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/safely_harvest_honey",

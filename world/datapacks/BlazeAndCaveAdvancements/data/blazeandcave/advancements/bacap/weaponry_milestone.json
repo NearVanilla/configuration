@@ -623,6 +623,32 @@
 					}
 				}
 			}
+		},
+		"spleaf": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:weaponry/spleaf": "true"
+						}
+					}
+				}
+			}
+		},
+		"there_it_goes": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:weaponry/there_it_goes": "true"
+						}
+					}
+				}
+			}
 		}
 	}
 }

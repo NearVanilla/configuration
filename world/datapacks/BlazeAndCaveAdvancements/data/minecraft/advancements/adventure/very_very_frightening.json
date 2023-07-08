@@ -4,7 +4,7 @@
 			"item": "minecraft:dragon_breath"
 		},
 		"title": {"translate":"Very Very Frightening"},
-		"description": {"translate":"Strike a Villager with lightning"},
+		"description": {"color":"dark_purple","translate":"Strike a Villager with lightning"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

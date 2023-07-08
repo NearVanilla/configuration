@@ -4,7 +4,7 @@
 			"item": "minecraft:fermented_spider_eye"
 		},
 		"title": {"translate":"A Weak Brew"},
-		"description": {"translate":"Brew up a potion of Weakness"},
+		"description": {"color":"green","translate":"Brew up a potion of Weakness"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:potion/super_strength",

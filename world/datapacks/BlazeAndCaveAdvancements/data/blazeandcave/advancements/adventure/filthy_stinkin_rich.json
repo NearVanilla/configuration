@@ -4,7 +4,7 @@
 			"item": "minecraft:emerald_block"
 		},
 		"title": {"translate":"Filthy Stinkin' Rich"},
-		"description": {"translate":"Make 64 emerald blocks"},
+		"description": {"color":"dark_purple","translate":"Make 64 emerald blocks"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

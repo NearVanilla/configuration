@@ -4,7 +4,7 @@
 			"item": "minecraft:diamond_pickaxe"
 		},
 		"title": {"translate":"Iconic Merchandising Prop"},
-		"description": {"translate":"Create a pickaxe of the highest calibre"},
+		"description": {"color":"green","translate":"Create a pickaxe of the highest calibre"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:story/mine_diamond",

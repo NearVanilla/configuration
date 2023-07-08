@@ -4,7 +4,7 @@
 			"item": "minecraft:trident"
 		},
 		"title": {"translate":"Electrifying Alliance"},
-		"description": {"translate":"Smite a ghast with lightning from the Overworld’s heavens"},
+		"description": {"color":"dark_purple","translate":"Smite a ghast with lightning from the Overworld’s heavens"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

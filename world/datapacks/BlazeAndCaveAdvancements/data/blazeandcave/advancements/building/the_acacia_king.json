@@ -8,7 +8,7 @@
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},
-	"parent": "blazeandcave:building/the_jungler",
+	"parent": "blazeandcave:building/professor_birch",
 	"rewards": {
 		"function": "bc_rewards:building/the_acacia_king"
 	},		
@@ -200,6 +200,18 @@
 					{
 						"items": [
 							"minecraft:acacia_sign"
+						]
+					}
+				]
+			}
+		},
+		"acacia_hanging_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:acacia_hanging_sign"
 						]
 					}
 				]

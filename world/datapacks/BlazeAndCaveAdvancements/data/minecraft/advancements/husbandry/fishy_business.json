@@ -4,7 +4,7 @@
 			"item": "minecraft:fishing_rod"
 		},
 		"title": {"translate":"Fishy Business"},
-		"description": {"translate":"Catch a fish"},
+		"description": {"color":"green","translate":"Catch a fish"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",

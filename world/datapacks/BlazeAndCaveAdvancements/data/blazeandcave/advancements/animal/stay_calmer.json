@@ -4,7 +4,7 @@
 			"item": "minecraft:light_gray_carpet"
 		},
 		"title": {"translate":"Stay Calmer"},
-		"description": {"translate":"Tame a llama"},
+		"description": {"color":"green","translate":"Tame a llama"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",

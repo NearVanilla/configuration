@@ -5,7 +5,7 @@
 			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
 		},
 		"title": {"translate":"The Mistake!"},
-		"description": {"translate":"Put Mending on a piece of golden armor and realise what you are doing in life"},
+		"description": {"color":"dark_purple","translate":"Put Mending on a piece of golden armor and realise what you are doing in life"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

@@ -4,7 +4,7 @@
 			"item": "minecraft:smooth_stone"
 		},
 		"title": {"translate":"Smooth, dude!"},
-		"description": {"translate":"Smelt normal stone further into smooth stone"},
+		"description": {"color":"green","translate":"Smelt normal stone further into smooth stone"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/its_original_form",

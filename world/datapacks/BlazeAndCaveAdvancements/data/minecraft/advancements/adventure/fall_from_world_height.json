@@ -4,7 +4,7 @@
 			"item": "minecraft:water_bucket"
 		},
 		"title": {"translate":"Caves & Cliffs"},
-		"description": {"translate":"Free fall from the top of the world (build limit) to the bottom of the world and survive"},
+		"description": {"color":"dark_purple","translate":"Free fall from the top of the world (build limit) to the bottom of the world and survive"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

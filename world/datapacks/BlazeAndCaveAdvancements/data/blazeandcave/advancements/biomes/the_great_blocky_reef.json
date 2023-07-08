@@ -4,7 +4,7 @@
 			"item": "minecraft:brain_coral"
 		},
 		"title": {"translate":"The Great Blocky Reef"},
-		"description": {"translate":"Come across a coral reef in the ocean"},
+		"description": {"color":"green","translate":"Come across a coral reef in the ocean"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:biomes/dolphin_dasher",	

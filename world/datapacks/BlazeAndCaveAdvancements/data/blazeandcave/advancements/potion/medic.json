@@ -4,7 +4,7 @@
 			"item": "minecraft:glistering_melon_slice"
 		},
 		"title": {"translate":"Medic!"},
-		"description": {"translate":"Brew a healing potion"},
+		"description": {"color":"green","translate":"Brew a healing potion"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:potion/root",

@@ -204,6 +204,18 @@
 					}
 				]
 			}
+		},
+		"birch_hanging_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:birch_hanging_sign"
+						]
+					}
+				]
+			}
 		}
 	}
 }

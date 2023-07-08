@@ -4,7 +4,7 @@
 			"item": "minecraft:light_blue_shulker_box"
 		},
 		"title": {"translate":"Anti-Gravity Generator"},
-		"description": {"translate":"Bring a shulker into the overworld and let it give you anti-gravity"},
+		"description": {"color":"dark_purple","translate":"Bring a shulker into the overworld and let it give you anti-gravity"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

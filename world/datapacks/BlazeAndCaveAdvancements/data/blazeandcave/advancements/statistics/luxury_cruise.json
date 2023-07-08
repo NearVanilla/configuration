@@ -4,7 +4,7 @@
 			"item": "minecraft:oak_boat"
 		},
 		"title": {"translate":"Luxury Cruise"},
-		"description": {"translate":"Sail 1km in a boat"},
+		"description": {"color":"green","translate":"Sail 1km in a boat"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:statistics/root",

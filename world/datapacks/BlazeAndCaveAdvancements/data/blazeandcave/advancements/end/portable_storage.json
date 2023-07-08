@@ -4,7 +4,7 @@
 			"item": "minecraft:purple_shulker_box"
 		},
 		"title": {"translate":"Portable Storage"},
-		"description": {"translate":"Use shulker shells to craft a shulker box"},
+		"description": {"color":"green","translate":"Use shulker shells to craft a shulker box"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:end/for_mother_clarence",

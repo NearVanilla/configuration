@@ -4,7 +4,7 @@
 			"item": "minecraft:bookshelf"
 		},
 		"title": {"translate":"Librarian"},
-		"description": {"translate":"Build some bookshelves for your enchanting table"},
+		"description": {"color":"green","translate":"Build some bookshelves for your enchanting table"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:enchanting/root",

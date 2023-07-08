@@ -2158,6 +2158,64 @@
 					]
 				}
 			}
+		},
+		"camel": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type_specific": {
+								"type": "player",
+								"looking_at": {
+									"type": "minecraft:camel",
+									"distance": {
+										"absolute": {
+											"min": 25
+										}
+									}
+								}
+							}
+						},
+						"entity": "this"
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:spyglass"
+					]
+				}
+			}
+		},
+		"sniffer": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type_specific": {
+								"type": "player",
+								"looking_at": {
+									"type": "minecraft:sniffer",
+									"distance": {
+										"absolute": {
+											"min": 25
+										}
+									}
+								}
+							}
+						},
+						"entity": "this"
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:spyglass"
+					]
+				}
+			}
 		}
 	}
 }

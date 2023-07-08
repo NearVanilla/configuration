@@ -4,7 +4,7 @@
 			"item": "minecraft:firework_rocket"
 		},
 		"title": {"translate":"Fireworks Display"},
-		"description": {"translate":"Use gunpowder and paper to craft fireworks"},
+		"description": {"color":"green","translate":"Use gunpowder and paper to craft fireworks"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/whos_the_pillager_now",

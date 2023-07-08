@@ -4,7 +4,7 @@
 			"item": "minecraft:prismarine"
 		},
 		"title": {"translate":"Monumental"},
-		"description": {"translate":"Find an Ocean Monument"},
+		"description": {"color":"green","translate":"Find an Ocean Monument"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:adventure/treasure_map",

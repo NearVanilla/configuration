@@ -4,7 +4,7 @@
 			"item": "minecraft:snow_block"
 		},
 		"title": {"translate":"Snow Fox 64"},
-		"description": {"translate":"Breed two snow foxes with sweet berries"},
+		"description": {"color":"green","translate":"Breed two snow foxes with sweet berries"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/what_does_the_fox_say",

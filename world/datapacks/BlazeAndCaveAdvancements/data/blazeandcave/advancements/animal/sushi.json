@@ -4,7 +4,7 @@
 			"item": "minecraft:cod"
 		},
 		"title": {"translate":"Sushi"},
-		"description": {"translate":"Eat some raw fish"},
+		"description": {"color":"green","translate":"Eat some raw fish"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/delicious_fish",

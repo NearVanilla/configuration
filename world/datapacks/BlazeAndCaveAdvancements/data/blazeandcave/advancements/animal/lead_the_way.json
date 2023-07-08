@@ -4,7 +4,7 @@
 			"item": "minecraft:lead"
 		},
 		"title": {"translate":"Lead the Way!"},
-		"description": {"translate":"Craft a lead using string and a slimeball, then attach it to a mob"},
+		"description": {"color":"green","translate":"Craft a lead using string and a slimeball, then attach it to a mob"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",

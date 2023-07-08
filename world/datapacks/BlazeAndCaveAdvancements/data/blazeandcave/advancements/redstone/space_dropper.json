@@ -4,7 +4,7 @@
 			"item": "minecraft:dropper"
 		},
 		"title": {"translate":"Space Dropper"},
-		"description": {"translate":"Craft a dropper for item transportation"},
+		"description": {"color":"green","translate":"Craft a dropper for item transportation"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:redstone/space_hopper",

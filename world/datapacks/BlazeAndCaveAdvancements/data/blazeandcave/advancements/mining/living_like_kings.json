@@ -4,7 +4,7 @@
 			"item": "minecraft:golden_chestplate"
 		},
 		"title": {"translate":"Living Like Kings"},
-		"description": {"translate":"Make yourself shiny with golden armor"},
+		"description": {"color":"green","translate":"Make yourself shiny with golden armor"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/gold_rush",

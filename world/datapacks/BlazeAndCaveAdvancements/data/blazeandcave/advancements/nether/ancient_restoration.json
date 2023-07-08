@@ -19,7 +19,7 @@
 				"block": "minecraft:nether_portal",
 				"player": [
 					{
-						"condition": "minecraft:alternative",
+						"condition": "minecraft:any_of",
 						"terms": [
 							{
 								"condition": "minecraft:entity_properties",

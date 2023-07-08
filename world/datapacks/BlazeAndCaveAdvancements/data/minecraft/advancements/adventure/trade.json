@@ -4,7 +4,7 @@
 			"item": "minecraft:emerald"
 		},
 		"title": {"translate":"What a Deal!"},
-		"description": {"translate":"Successfully trade with a Villager"},
+		"description": {"color":"green","translate":"Successfully trade with a Villager"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:adventure/do_you_want_to_trade",

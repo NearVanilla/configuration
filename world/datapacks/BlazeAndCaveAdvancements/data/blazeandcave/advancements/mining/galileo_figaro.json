@@ -4,7 +4,7 @@
 			"item": "minecraft:spyglass"
 		},
 		"title": {"translate":"Galileo Figaro"},
-		"description": {"translate":"Zoom in on something using a Spyglass"},
+		"description": {"color":"green","translate":"Zoom in on something using a Spyglass"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/gi_geode",

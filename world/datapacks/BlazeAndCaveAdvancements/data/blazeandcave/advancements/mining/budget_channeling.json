@@ -4,7 +4,7 @@
 			"item": "minecraft:lightning_rod"
 		},
 		"title": {"translate":"Budget Channeling"},
-		"description": {"translate":"Craft a Lightning Rod using Copper Ingots"},
+		"description": {"color":"green","translate":"Craft a Lightning Rod using Copper Ingots"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/youll_never_take_me_alive_copper",

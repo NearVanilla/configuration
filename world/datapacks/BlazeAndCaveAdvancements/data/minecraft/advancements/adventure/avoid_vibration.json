@@ -4,7 +4,7 @@
 			"item": "minecraft:sculk"
 		},
 		"title": {"translate":"Sneak 100"},
-		"description": {"translate":"Sneak near something in the Deep Dark to prevent being heard"},
+		"description": {"color":"green","translate":"Sneak near something in the Deep Dark to prevent being heard"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/deep_slate_nine",

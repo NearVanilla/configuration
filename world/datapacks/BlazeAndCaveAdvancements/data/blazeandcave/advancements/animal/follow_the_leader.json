@@ -4,7 +4,7 @@
 			"item": "minecraft:oak_fence"
 		},
 		"title": {"translate":"Follow the Leader"},
-		"description": {"translate":"Attach a lead to every mob that can be leashed"},
+		"description": {"color":"dark_purple","translate":"Attach a lead to every mob that can be leashed"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
@@ -597,6 +597,44 @@
 						"entity": "this",
 						"predicate": {
 							"type": "minecraft:allay"
+						}
+					}
+				]
+			}
+		},
+		"camel": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:lead"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:camel"
+						}
+					}
+				]
+			}
+		},
+		"sniffer": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:lead"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sniffer"
 						}
 					}
 				]

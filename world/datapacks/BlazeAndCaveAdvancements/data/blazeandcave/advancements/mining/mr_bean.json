@@ -4,7 +4,7 @@
 			"item": "minecraft:raw_copper_block"
 		},
 		"title": {"translate":"Mr. Bean"},
-		"description": {"translate":"Mine and craft a stack of Raw Iron, Copper and Gold Blocks"},
+		"description": {"color":"dark_purple","translate":"Mine and craft a stack of Raw Iron, Copper and Gold Blocks"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

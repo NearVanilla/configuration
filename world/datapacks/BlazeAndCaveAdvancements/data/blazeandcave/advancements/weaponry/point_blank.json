@@ -4,7 +4,7 @@
 			"item": "minecraft:string"
 		},
 		"title": {"translate":"Point Blank"},
-		"description": {"translate":"Shoot a mob from point-blank range"},
+		"description": {"color":"green","translate":"Shoot a mob from point-blank range"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/shoot_arrow",
@@ -17,7 +17,12 @@
 			"conditions": {
 				"damage": {
 					"type": {
-						"is_projectile": true,
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
 						"direct_entity": {
 							"type": "minecraft:arrow"
 						}

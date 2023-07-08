@@ -4,7 +4,7 @@
 			"item": "minecraft:acacia_log"
 		},
 		"title": {"translate":"Yay! I got my wood!"},
-		"description": {"color":"#75E1FF","translate":"Collect every type of log"},
+		"description": {"color":"#75E1FF","translate":"Collect every type of log and stem"},
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},
@@ -92,6 +92,54 @@
 					{
 						"items": [
 							"minecraft:mangrove_log"
+						]
+					}
+				]
+			}
+		},
+		"bamboo_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_block"
+						]
+					}
+				]
+			}
+		},
+		"cherry_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_log"
+						]
+					}
+				]
+			}
+		},
+		"crimson_stem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:crimson_stem"
+						]
+					}
+				]
+			}
+		},
+		"warped_stem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:warped_stem"
 						]
 					}
 				]

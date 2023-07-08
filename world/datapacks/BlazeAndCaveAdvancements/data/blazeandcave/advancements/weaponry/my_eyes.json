@@ -4,7 +4,7 @@
 			"item": "minecraft:gunpowder"
 		},
 		"title": {"translate":"My eyes!"},
-		"description": {"translate":"Kill a mob using a firework's explosion"},
+		"description": {"color":"green","translate":"Kill a mob using a firework's explosion"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:weaponry/explosive_fire",

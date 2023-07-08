@@ -4,7 +4,7 @@
 			"item": "minecraft:cauldron"
 		},
 		"title": {"translate":"Bubble, Bubble, Toil and Trouble!"},
-		"description": {"translate":"Fill a cauldron using a bucket"},
+		"description": {"color":"green","translate":"Fill a cauldron using a bucket"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/agent_smithing_table",
@@ -15,18 +15,26 @@
 		"fill_cauldron": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:water_cauldron"
-						]
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:water_cauldron"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:water_bucket"
+							]
+						}
 					}
-				},
-				"item": {
-					"items": [
-						"minecraft:water_bucket"
-					]
-				}
+				]
 			}
 		}
 	}

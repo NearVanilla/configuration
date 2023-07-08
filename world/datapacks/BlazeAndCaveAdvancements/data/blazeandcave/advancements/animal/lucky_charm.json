@@ -4,7 +4,7 @@
 			"item": "minecraft:rabbit_foot"
 		},
 		"title": {"translate":"Lucky Charm"},
-		"description": {"translate":"Get a rabbit's foot"},
+		"description": {"color":"green","translate":"Get a rabbit's foot"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/theyre_breeding_like_rabbits",

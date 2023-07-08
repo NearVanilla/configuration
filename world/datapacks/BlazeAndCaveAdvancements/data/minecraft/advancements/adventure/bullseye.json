@@ -4,7 +4,7 @@
 			"item": "minecraft:arrow"
 		},
 		"title": {"translate":"Bullseye"},
-		"description": {"translate":"Hit the bullseye of a Target Block with an arrow from 30 blocks away"},
+		"description": {"color":"dark_purple","translate":"Hit the bullseye of a Target Block with an arrow from 30 blocks away"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

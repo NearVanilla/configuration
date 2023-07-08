@@ -4,7 +4,7 @@
 			"item": "minecraft:apple"
 		},
 		"title": {"translate":"Bapple!"},
-		"description": {"translate":"Crunch into an apple"},
+		"description": {"color":"green","translate":"Crunch into an apple"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:farming/care_for_the_environment",

@@ -4,7 +4,7 @@
 			"item": "minecraft:golden_axe"
 		},
 		"title": {"translate":"Brute Force"},
-		"description": {"translate":"Defeat a Piglin Brute in a Bastion Remnant"},
+		"description": {"color":"green","translate":"Defeat a Piglin Brute in a Bastion Remnant"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:nether/find_bastion",

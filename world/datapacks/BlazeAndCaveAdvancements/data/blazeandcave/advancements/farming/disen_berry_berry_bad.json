@@ -4,7 +4,7 @@
 			"item": "minecraft:spruce_leaves"
 		},
 		"title": {"translate":"Disen Berry Berry Bad!"},
-		"description": {"translate":"Get stuck in a sweet berry bush. Oh, icky yucky goo!"},
+		"description": {"color":"green","translate":"Get stuck in a sweet berry bush. Oh, icky yucky goo!"},
 		"announce_to_chat": "true"
 
 	},

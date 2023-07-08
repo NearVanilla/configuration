@@ -4,7 +4,7 @@
 			"item": "minecraft:crimson_roots"
 		},
 		"title": {"translate":"I am Root"},
-		"description": {"translate":"Pick up some crimson or warped roots"},
+		"description": {"color":"green","translate":"Pick up some crimson or warped roots"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:nether/what_a_fungi",

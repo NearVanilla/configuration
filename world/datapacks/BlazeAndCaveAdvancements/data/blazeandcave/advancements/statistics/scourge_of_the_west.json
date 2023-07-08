@@ -4,7 +4,7 @@
 			"item": "minecraft:diamond_horse_armor"
 		},
 		"title": {"translate":"Scourge of the West"},
-		"description": {"translate":"Ride 50km on a horse"},
+		"description": {"color":"dark_purple","translate":"Ride 50km on a horse"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

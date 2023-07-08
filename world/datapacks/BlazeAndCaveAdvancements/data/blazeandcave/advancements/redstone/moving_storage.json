@@ -4,7 +4,7 @@
 			"item": "minecraft:chest_minecart"
 		},
 		"title": {"translate":"Moving Storage"},
-		"description": {"translate":"Put a chest in a minecart"},
+		"description": {"color":"green","translate":"Put a chest in a minecart"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:redstone/fuel_engine",

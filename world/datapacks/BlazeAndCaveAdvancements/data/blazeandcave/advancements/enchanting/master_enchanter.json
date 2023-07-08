@@ -5,7 +5,7 @@
 			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
 		},
 		"title": {"translate":"Master Enchanter"},
-		"description": {"translate":"Obtain every enchantment at their max level throughout your enchanting career"},
+		"description": {"color":"dark_purple","translate":"Obtain every enchantment at their max level throughout your enchanting career"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

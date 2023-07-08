@@ -4,7 +4,7 @@
 			"item": "minecraft:prismarine_shard"
 		},
 		"title": {"translate":"Laser Sharks!"},
-		"description": {"translate":"Defeat a Guardian"},
+		"description": {"color":"green","translate":"Defeat a Guardian"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:adventure/monumental",

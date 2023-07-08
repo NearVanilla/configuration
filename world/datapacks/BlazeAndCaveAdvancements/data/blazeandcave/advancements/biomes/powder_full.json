@@ -4,7 +4,7 @@
 			"item": "minecraft:powder_snow_bucket"
 		},
 		"title": {"translate":"Powder-full"},
-		"description": {"translate":"Pick up some Powder Snow in a Bucket"},
+		"description": {"color":"green","translate":"Pick up some Powder Snow in a Bucket"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:biomes/this_snow_is_snowier",

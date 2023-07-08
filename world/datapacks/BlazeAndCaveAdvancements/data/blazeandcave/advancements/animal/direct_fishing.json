@@ -4,7 +4,7 @@
 			"item": "minecraft:stone_sword"
 		},
 		"title": {"translate":"Direct Fishing"},
-		"description": {"translate":"Catch a fish by directly skewering it with a sword"},
+		"description": {"color":"green","translate":"Catch a fish by directly skewering it with a sword"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/fishy_business",

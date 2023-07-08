@@ -4,7 +4,7 @@
 			"item": "minecraft:flint_and_steel"
 		},
 		"title": {"translate":"Gas Bomb"},
-		"description": {"translate":"Ignite a Creeper of each possible effect using Flint and Steel"},
+		"description": {"color":"dark_purple","translate":"Ignite a Creeper of each possible effect using Flint and Steel"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

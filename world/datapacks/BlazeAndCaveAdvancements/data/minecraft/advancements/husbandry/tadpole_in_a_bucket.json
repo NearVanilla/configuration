@@ -4,7 +4,7 @@
 			"item": "minecraft:tadpole_bucket"
 		},
 		"title": {"translate":"Bukkit bukkit"},
-		"description": {"translate":"Catch a Tadpole in a Bucket"},
+		"description": {"color":"green","translate":"Catch a Tadpole in a Bucket"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/frog_family",

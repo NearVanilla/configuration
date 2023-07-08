@@ -4,7 +4,7 @@
 			"item": "minecraft:rotten_flesh"
 		},
 		"title": {"translate":"Puppies! Yipe!"},
-		"description": {"translate":"Breed two wolves together to get a puppy!"},
+		"description": {"color":"green","translate":"Breed two wolves together to get a puppy!"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/tame_an_animal",

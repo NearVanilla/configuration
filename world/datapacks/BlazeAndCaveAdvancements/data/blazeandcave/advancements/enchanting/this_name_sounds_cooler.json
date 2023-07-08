@@ -4,7 +4,7 @@
 			"item": "minecraft:diamond_sword"
 		},
 		"title": {"translate":"This name sounds cooler"},
-		"description": {"translate":"Name your Diamond Sword 'Diamond Edge'"},
+		"description": {"color":"green","translate":"Name your Diamond Sword 'Diamond Edge'"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:enchanting/heavy_metal",

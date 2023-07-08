@@ -4,7 +4,7 @@
 			"item": "minecraft:reinforced_deepslate"
 		},
 		"title": {"translate":"Fallen Kingdom"},
-		"description": {"translate":"Find and enter an Ancient City deep underground"},
+		"description": {"color":"green","translate":"Find and enter an Ancient City deep underground"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/shriek_forever_after",

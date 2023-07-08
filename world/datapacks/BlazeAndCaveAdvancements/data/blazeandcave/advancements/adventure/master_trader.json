@@ -4,7 +4,7 @@
 			"item": "minecraft:grindstone"
 		},
 		"title": {"translate":"Master Trader"},
-		"description": {"translate":"Trade with every type of villager career at master level"},
+		"description": {"color":"dark_purple","translate":"Trade with every type of villager career at master level"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

@@ -4,7 +4,7 @@
 			"item": "minecraft:chainmail_leggings"
 		},
 		"title": {"translate":"Where are all your clothes?"},
-		"description": {"translate":"Break every type of armor piece in the game"},
+		"description": {"color":"dark_purple","translate":"Break every type of armor piece in the game"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

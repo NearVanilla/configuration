@@ -4,7 +4,7 @@
 			"item": "minecraft:ancient_debris"
 		},
 		"title": {"translate":"Nether Say Die"},
-		"description": {"translate":"Excavate out some Ancient Debris from deep beneath the lava oceans"},
+		"description": {"color":"green","translate":"Excavate out some Ancient Debris from deep beneath the lava oceans"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:nether/the_descent",

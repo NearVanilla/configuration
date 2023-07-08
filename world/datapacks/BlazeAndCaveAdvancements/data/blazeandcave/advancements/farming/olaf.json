@@ -4,7 +4,7 @@
 			"item": "minecraft:snow_block"
 		},
 		"title": {"translate":"Olaf"},
-		"description": {"translate":"Do you want to build a snow golem?"},
+		"description": {"color":"green","translate":"Do you want to build a snow golem?"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:farming/the_pie",

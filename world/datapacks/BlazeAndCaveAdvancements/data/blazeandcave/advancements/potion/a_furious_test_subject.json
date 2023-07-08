@@ -4,7 +4,7 @@
 			"item": "minecraft:dispenser"
 		},
 		"title": {"translate":"A Furious Test Subject"},
-		"description": {"translate":"Get attacked by a mob with every potion effect"},
+		"description": {"color":"dark_purple","translate":"Get attacked by a mob with every potion effect"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

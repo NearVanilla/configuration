@@ -4,7 +4,7 @@
 			"item": "minecraft:grass"
 		},
 		"title": {"translate":"Foliage"},
-		"description": {"translate":"Use shears to pick up tall grass or ferns"},
+		"description": {"color":"green","translate":"Use shears to pick up tall grass or ferns"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:farming/trimming_the_treetops",

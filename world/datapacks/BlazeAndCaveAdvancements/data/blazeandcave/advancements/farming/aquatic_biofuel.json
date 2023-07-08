@@ -4,7 +4,7 @@
 			"item": "minecraft:dried_kelp_block"
 		},
 		"title": {"translate":"Aquatic Biofuel"},
-		"description": {"translate":"Craft a dried kelp block for use as a great fuel source"},
+		"description": {"color":"green","translate":"Craft a dried kelp block for use as a great fuel source"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:farming/kelp_me",

@@ -4,7 +4,7 @@
 			"item": "minecraft:flowering_azalea"
 		},
 		"title": {"translate":"Iggy"},
-		"description": {"translate":"Obtain an Azalea"},
+		"description": {"color":"green","translate":"Obtain an Azalea"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/moss_maker",

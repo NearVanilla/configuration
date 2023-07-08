@@ -4,7 +4,7 @@
 			"item": "minecraft:black_stained_glass"
 		},
 		"title": {"translate":"I'll be back"},
-		"description": {"translate":"Name your bow 'Terminator'"},
+		"description": {"color":"green","translate":"Name your bow 'Terminator'"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:enchanting/this_name_sounds_cooler",

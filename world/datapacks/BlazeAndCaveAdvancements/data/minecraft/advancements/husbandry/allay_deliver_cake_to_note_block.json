@@ -8,7 +8,7 @@
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},
-	"parent": "blazeandcave:adventure/evelyn_evergreen",
+	"parent": "blazeandcave:adventure/and_make_it_double",
 	"rewards": {
 		"function": "bc_rewards:adventure/birthday_song"
 	},		
@@ -16,18 +16,26 @@
 		"allay_deliver_cake_to_note_block": {
 			"trigger": "minecraft:allay_drop_item_on_block",
 			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:note_block"
-						]
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:cake"
+							]
+						}
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:note_block"
+								]
+							}
+						}
 					}
-				},
-				"item": {
-					"items": [
-						"minecraft:cake"
-					]
-				}
+				]
 			}
 		}
 	}

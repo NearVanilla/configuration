@@ -5,7 +5,7 @@
 			"nbt": "{Enchantments:[{id:\"minecraft:smite\",lvl:10}]}"
 		},
 		"title": {"translate":"Expelliarmus!"},
-		"description": {"translate":"Hit a mob with a stick"},
+		"description": {"color":"green","translate":"Hit a mob with a stick"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:weaponry/root",

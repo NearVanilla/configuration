@@ -4,7 +4,7 @@
 			"item": "minecraft:seagrass"
 		},
 		"title": {"translate":"The sea calls you..."},
-		"description": {"translate":"Find an ocean"},
+		"description": {"color":"green","translate":"Find an ocean"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:biomes/just_keep_swimming",	
@@ -17,7 +17,7 @@
 			"conditions": {
 				"player": [
 					{
-						"condition": "minecraft:alternative",
+						"condition": "minecraft:any_of",
 						"terms": [
 							{
 								"condition": "minecraft:entity_properties",

@@ -4,7 +4,7 @@
 			"item": "minecraft:red_mushroom"
 		},
 		"title": {"translate":"Super Mooshroom"},
-		"description": {"translate":"Breed two stubborn mooshrooms together"},
+		"description": {"color":"green","translate":"Breed two stubborn mooshrooms together"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/mooshroom_kingdom",

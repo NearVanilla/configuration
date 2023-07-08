@@ -4,7 +4,7 @@
 			"item": "minecraft:polished_blackstone_bricks"
 		},
 		"title": {"translate":"Those Were the Days"},
-		"description": {"translate":"Fight your way into a Bastion Remnant"},
+		"description": {"color":"green","translate":"Fight your way into a Bastion Remnant"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:nether/cultural_misunderstandings",

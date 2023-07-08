@@ -558,6 +558,19 @@
 					}
 				}
 			}
+		},
+		"unending_hell": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:end/unending_hell": "true"
+						}
+					}
+				}
+			}
 		}
 	}
 }

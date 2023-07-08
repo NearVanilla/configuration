@@ -4,7 +4,7 @@
 			"item": "minecraft:dead_bush"
 		},
 		"title": {"translate":"Yay! Deadbush!"},
-		"description": {"translate":"Get a deadbush cause you're a noob"},
+		"description": {"color":"green","translate":"Get a deadbush cause you're a noob"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:farming/foliage",

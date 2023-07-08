@@ -4,7 +4,7 @@
 			"item": "minecraft:lapis_lazuli"
 		},
 		"title": {"translate":"DIAM- oh, wait, no."},
-		"description": {"translate":"It's still useful for enchanting"},
+		"description": {"color":"green","translate":"It's still useful for enchanting"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:story/iron_tools",

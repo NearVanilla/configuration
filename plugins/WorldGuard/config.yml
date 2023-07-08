@@ -159,3 +159,6 @@ blacklist:
             path: worldguard/logs/%Y-%m-%d.log
             open-files: 10
 custom-metrics-charts: true
+sniffer-egg:
+    disable-creature-trampling: false
+    disable-player-trampling: false

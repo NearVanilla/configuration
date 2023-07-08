@@ -4,7 +4,7 @@
 			"item": "minecraft:twisting_vines"
 		},
 		"title": {"translate":"Twisted"},
-		"description": {"translate":"Climb on some Twisting Vines in a Warped Forest"},
+		"description": {"color":"green","translate":"Climb on some Twisting Vines in a Warped Forest"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:nether/dont_blink",

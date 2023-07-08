@@ -4,7 +4,7 @@
 			"item": "minecraft:cooked_beef"
 		},
 		"title": {"translate":"High Steaks"},
-		"description": {"translate":"The steaks are high for this advancement!"},
+		"description": {"color":"green","translate":"The steaks are high for this advancement!"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/cow_tipper",

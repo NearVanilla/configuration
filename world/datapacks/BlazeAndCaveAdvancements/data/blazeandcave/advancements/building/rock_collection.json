@@ -4,7 +4,7 @@
 			"item": "minecraft:granite"
 		},
 		"title": {"translate":"Rock Collection"},
-		"description": {"translate":"Collect all the types of rocks"},
+		"description": {"color":"green","translate":"Collect all the types of rocks"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/root",

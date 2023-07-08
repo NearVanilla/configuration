@@ -4,7 +4,7 @@
 			"item": "minecraft:red_nether_bricks"
 		},
 		"title": {"translate":"Fake fortress"},
-		"description": {"translate":"Craft or collect all forms of nether brick and red nether brick"},
+		"description": {"color":"green","translate":"Craft or collect all forms of nether brick and red nether brick"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/deepslate_conspiracy",

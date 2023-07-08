@@ -4,7 +4,7 @@
 			"item": "minecraft:grindstone"
 		},
 		"title": {"translate":"Sharpening Station"},
-		"description": {"translate":"Craft a grindstone using a stone slab, planks and sticks for repairing tools"},
+		"description": {"color":"green","translate":"Craft a grindstone using a stone slab, planks and sticks for repairing tools"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/its_original_form",

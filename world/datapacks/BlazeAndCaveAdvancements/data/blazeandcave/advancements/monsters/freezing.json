@@ -4,7 +4,7 @@
 			"item": "minecraft:snow_block"
 		},
 		"title": {"translate":"Freezing"},
-		"description": {"translate":"Bring a husk to a tundra biome and then kill it"},
+		"description": {"color":"dark_purple","translate":"Bring a husk to a tundra biome and then kill it"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

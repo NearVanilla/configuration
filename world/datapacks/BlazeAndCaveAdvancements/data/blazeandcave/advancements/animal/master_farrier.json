@@ -4,7 +4,7 @@
 			"item": "minecraft:horse_spawn_egg"
 		},
 		"title": {"translate":"Master Farrier"},
-		"description": {"translate":"Tame all horse variants"},
+		"description": {"color":"dark_purple","translate":"Tame all horse variants"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

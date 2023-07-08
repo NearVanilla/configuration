@@ -4,7 +4,7 @@
 			"item": "minecraft:crimson_stem"
 		},
 		"title": {"translate":"Stem Research"},
-		"description": {"translate":"Attack a huge Nether Fungi until a stem pops out"},
+		"description": {"color":"green","translate":"Attack a huge Nether Fungi until a stem pops out"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:nether/root",

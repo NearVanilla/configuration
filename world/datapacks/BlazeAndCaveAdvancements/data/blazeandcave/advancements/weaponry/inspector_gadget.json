@@ -4,7 +4,7 @@
 			"item": "minecraft:spyglass"
 		},
 		"title": {"translate":"Inspector Gadget"},
-		"description": {"translate":"Kill a zombie while holding a spyglass"},
+		"description": {"color":"green","translate":"Kill a zombie while holding a spyglass"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:weaponry/diemonds",
@@ -21,6 +21,16 @@
 						"absolute": {
 							"max": 5
 						}
+					}
+				},
+				"killing_blow": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
 					}
 				},			
 				"player": {

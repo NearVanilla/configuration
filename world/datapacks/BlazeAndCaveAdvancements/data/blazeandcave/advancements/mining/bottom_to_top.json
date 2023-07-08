@@ -4,7 +4,7 @@
 			"item": "minecraft:diorite"
 		},
 		"title": {"translate":"Bottom to Top"},
-		"description": {"translate":"Place every cave block at the very top of the world"},
+		"description": {"color":"dark_purple","translate":"Place every cave block at the very top of the world"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
@@ -16,197 +16,323 @@
 		"stone": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:stone",
-				"location": {
-					"dimension": "minecraft:overworld",
-					"position": {
-						"y": {
-							"min": 319
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:stone"
+								]
+							},
+							"dimension": "minecraft:overworld",
+							"position": {
+								"y": {
+									"min": 319
+								}
+							}
 						}
 					}
-				}
+				]
 			}
 		},
 		"granite": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:granite",
-				"location": {
-					"dimension": "minecraft:overworld",
-					"position": {
-						"y": {
-							"min": 319
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:granite"
+								]
+							},
+							"dimension": "minecraft:overworld",
+							"position": {
+								"y": {
+									"min": 319
+								}
+							}
 						}
 					}
-				}
+				]
 			}
 		},
 		"andesite": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:andesite",
-				"location": {
-					"dimension": "minecraft:overworld",
-					"position": {
-						"y": {
-							"min": 319
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:andesite"
+								]
+							},
+							"dimension": "minecraft:overworld",
+							"position": {
+								"y": {
+									"min": 319
+								}
+							}
 						}
 					}
-				}
+				]
 			}
 		},
 		"diorite": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:diorite",
-				"location": {
-					"dimension": "minecraft:overworld",
-					"position": {
-						"y": {
-							"min": 319
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:diorite"
+								]
+							},
+							"dimension": "minecraft:overworld",
+							"position": {
+								"y": {
+									"min": 319
+								}
+							}
 						}
 					}
-				}
+				]
 			}
 		},
 		"gravel": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:gravel",
-				"location": {
-					"dimension": "minecraft:overworld",
-					"position": {
-						"y": {
-							"min": 319
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:gravel"
+								]
+							},
+							"dimension": "minecraft:overworld",
+							"position": {
+								"y": {
+									"min": 319
+								}
+							}
 						}
 					}
-				}
+				]
 			}
 		},
 		"dirt": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:dirt",
-				"location": {
-					"dimension": "minecraft:overworld",
-					"position": {
-						"y": {
-							"min": 319
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:dirt"
+								]
+							},
+							"dimension": "minecraft:overworld",
+							"position": {
+								"y": {
+									"min": 319
+								}
+							}
 						}
 					}
-				}
+				]
 			}
 		},
 		"deepslate": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:deepslate",
-				"location": {
-					"dimension": "minecraft:overworld",
-					"position": {
-						"y": {
-							"min": 319
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:deepslate"
+								]
+							},
+							"dimension": "minecraft:overworld",
+							"position": {
+								"y": {
+									"min": 319
+								}
+							}
 						}
 					}
-				}
+				]
 			}
 		},
 		"tuff": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:tuff",
-				"location": {
-					"dimension": "minecraft:overworld",
-					"position": {
-						"y": {
-							"min": 319
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:tuff"
+								]
+							},
+							"dimension": "minecraft:overworld",
+							"position": {
+								"y": {
+									"min": 319
+								}
+							}
 						}
 					}
-				}
+				]
 			}
 		},
 		"moss_block": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:moss_block",
-				"location": {
-					"dimension": "minecraft:overworld",
-					"position": {
-						"y": {
-							"min": 319
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:moss_block"
+								]
+							},
+							"dimension": "minecraft:overworld",
+							"position": {
+								"y": {
+									"min": 319
+								}
+							}
 						}
 					}
-				}
+				]
 			}
 		},
 		"moss_carpet": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:moss_carpet",
-				"location": {
-					"dimension": "minecraft:overworld",
-					"position": {
-						"y": {
-							"min": 319
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:moss_carpet"
+								]
+							},
+							"dimension": "minecraft:overworld",
+							"position": {
+								"y": {
+									"min": 319
+								}
+							}
 						}
 					}
-				}
+				]
 			}
 		},
 		"clay": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:clay",
-				"location": {
-					"dimension": "minecraft:overworld",
-					"position": {
-						"y": {
-							"min": 319
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:clay"
+								]
+							},
+							"dimension": "minecraft:overworld",
+							"position": {
+								"y": {
+									"min": 319
+								}
+							}
 						}
 					}
-				}
+				]
 			}
 		},
 		"dripstone_block": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:dripstone_block",
-				"location": {
-					"dimension": "minecraft:overworld",
-					"position": {
-						"y": {
-							"min": 319
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:dripstone_block"
+								]
+							},
+							"dimension": "minecraft:overworld",
+							"position": {
+								"y": {
+									"min": 319
+								}
+							}
 						}
 					}
-				}
+				]
 			}
 		},
 		"pointed_dripstone": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:pointed_dripstone",
-				"location": {
-					"dimension": "minecraft:overworld",
-					"position": {
-						"y": {
-							"min": 319
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:pointed_dripstone"
+								]
+							},
+							"dimension": "minecraft:overworld",
+							"position": {
+								"y": {
+									"min": 319
+								}
+							}
 						}
 					}
-				}
+				]
 			}
 		},
 		"sculk": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:sculk",
-				"location": {
-					"dimension": "minecraft:overworld",
-					"position": {
-						"y": {
-							"min": 319
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:sculk"
+								]
+							},
+							"dimension": "minecraft:overworld",
+							"position": {
+								"y": {
+									"min": 319
+								}
+							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

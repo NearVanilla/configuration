@@ -3336,6 +3336,546 @@
 					}
 				]
 			}
+		},
+		"brush": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:brush"
+						]
+					}
+				]
+			}
+		},
+		"music_disc_relic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:music_disc_relic"
+						]
+					}
+				]
+			}
+		},
+		"pitcher_pod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pitcher_pod"
+						]
+					}
+				]
+			}
+		},
+		"torchflower_seeds": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:torchflower_seeds"
+						]
+					}
+				]
+			}
+		},
+		"bamboo_raft": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_raft"
+						]
+					}
+				]
+			}
+		},
+		"bamboo_chest_raft": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_chest_raft"
+						]
+					}
+				]
+			}
+		},
+		"cherry_boat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_boat"
+						]
+					}
+				]
+			}
+		},
+		"cherry_chest_boat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_chest_boat"
+						]
+					}
+				]
+			}
+		},
+		"prize_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:prize_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"skull_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:skull_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"archer_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:archer_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"arms_up_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:arms_up_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"angler_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:angler_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"blade_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:blade_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"brewer_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:brewer_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"burn_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:burn_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"danger_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:danger_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"explorer_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:explorer_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"friend_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:friend_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"heart_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:heart_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"heartbreak_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:heartbreak_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"howl_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:howl_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"miner_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:miner_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"mourner_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:mourner_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"plenty_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:plenty_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"sheaf_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sheaf_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"shelter_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shelter_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"snort_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:snort_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"netherite_upgrade": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_upgrade_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"sentry_armor_trim": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sentry_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"dune_armor_trim": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:dune_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"coast_armor_trim": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:coast_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"wild_armor_trim": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wild_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"wayfinder_armor_trim": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wayfinder_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"raiser_armor_trim": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:raiser_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"shaper_armor_trim": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shaper_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"host_armor_trim": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:host_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"ward_armor_trim": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ward_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"silence_armor_trim": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:silence_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"eye_armor_trim": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:eye_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"vex_armor_trim": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:vex_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"tide_armor_trim": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tide_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"snout_armor_trim": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:snout_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"rib_armor_trim": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:rib_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"spire_armor_trim": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:spire_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
 		}
 	}
 }

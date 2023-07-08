@@ -4,7 +4,7 @@
 			"item": "minecraft:strider_spawn_egg"
 		},
 		"title": {"translate":"Bobbleheads"},
-		"description": {"translate":"Breed two Striders using Warped Fungus"},
+		"description": {"color":"green","translate":"Breed two Striders using Warped Fungus"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:nether/ride_strider",

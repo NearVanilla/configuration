@@ -4,7 +4,7 @@
 			"item": "minecraft:chorus_plant"
 		},
 		"title": {"translate":"No! Don't let me leave, Murph!"},
-		"description": {"translate":"Travel so far into the End dimension you might as well be on another planet"},
+		"description": {"color":"dark_purple","translate":"Travel so far into the End dimension you might as well be on another planet"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

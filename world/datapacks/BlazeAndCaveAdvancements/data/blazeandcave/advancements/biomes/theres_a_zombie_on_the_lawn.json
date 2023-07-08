@@ -4,7 +4,7 @@
 			"item": "minecraft:sunflower"
 		},
 		"title": {"translate":"There's a zombie on the lawn"},
-		"description": {"translate":"Find a sunflower plains"},
+		"description": {"color":"green","translate":"Find a sunflower plains"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:biomes/for_you_my_sweet",	

@@ -4,7 +4,7 @@
 			"item": "minecraft:bone"
 		},
 		"title": {"translate":"Leader of the Pack"},
-		"description": {"translate":"Befriend a wolf"},
+		"description": {"color":"green","translate":"Befriend a wolf"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",

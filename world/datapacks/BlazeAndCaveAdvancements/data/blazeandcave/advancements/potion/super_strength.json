@@ -4,7 +4,7 @@
 			"item": "minecraft:blaze_powder"
 		},
 		"title": {"translate":"Super Strength"},
-		"description": {"translate":"Brew a Strength Potion for cheating on weightlifting"},
+		"description": {"color":"green","translate":"Brew a Strength Potion for cheating on weightlifting"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:potion/performance_enhancing_drugs",

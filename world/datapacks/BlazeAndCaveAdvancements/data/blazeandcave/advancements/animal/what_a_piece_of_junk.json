@@ -4,7 +4,7 @@
 			"item": "minecraft:bone"
 		},
 		"title": {"translate":"What a piece of junk!"},
-		"description": {"translate":"Fish out a junk item"},
+		"description": {"color":"green","translate":"Fish out a junk item"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/catching_nemo",

@@ -4,7 +4,7 @@
 			"item": "minecraft:tripwire_hook"
 		},
 		"title": {"translate":"Tripping Over"},
-		"description": {"translate":"Place a line of string between two tripwire hooks, and trigger it"},
+		"description": {"color":"green","translate":"Place a line of string between two tripwire hooks, and trigger it"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:redstone/under_pressure",

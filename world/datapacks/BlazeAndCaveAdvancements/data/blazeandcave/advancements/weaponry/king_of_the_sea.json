@@ -4,7 +4,7 @@
 			"item": "minecraft:water_bucket"
 		},
 		"title": {"translate":"King of the Sea"},
-		"description": {"translate":"Kill a drowned using a trident from at least 30 metres"},
+		"description": {"color":"dark_purple","translate":"Kill a drowned using a trident from at least 30 metres"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
@@ -17,7 +17,12 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"killing_blow": {
-					"is_projectile": true,
+					"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
 					"direct_entity": {
 						"type": "minecraft:trident"
 					}

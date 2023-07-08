@@ -4,7 +4,7 @@
 			"item": "minecraft:crossbow"
 		},
 		"title": {"translate":"We're being attacked!"},
-		"description": {"translate":"Trigger a Pillager Raid"},
+		"description": {"color":"green","translate":"Trigger a Pillager Raid"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/voluntary_exile",

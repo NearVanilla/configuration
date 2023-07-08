@@ -223,9 +223,6 @@ environment:
       loot-tables: default
       villager-trade: false
   water-over-lava-flow-speed: 5
-fast-drain:
-  lava: false
-  water: false
 feature-seeds:
   generate-random-seeds-for-all: true
 fishing-time-range:
@@ -246,9 +243,6 @@ hopper:
   disable-move-event: false
   ignore-occluding-blocks: true
   push-based: false
-lava-flow-speed:
-  nether: 10
-  normal: 30
 lootables:
   auto-replenish: false
   max-refills: -1

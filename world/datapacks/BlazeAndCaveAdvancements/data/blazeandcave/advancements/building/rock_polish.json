@@ -4,7 +4,7 @@
 			"item": "minecraft:polished_diorite"
 		},
 		"title": {"translate":"Rock Polish"},
-		"description": {"translate":"Craft every type of polished block"},
+		"description": {"color":"green","translate":"Craft every type of polished block"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/rock_collection",

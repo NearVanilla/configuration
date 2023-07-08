@@ -4,7 +4,7 @@
 			"item": "minecraft:hay_block"
 		},
 		"title": {"translate":"So I got that going for me"},
-		"description": {"translate":"Breed two llamas with hay"},
+		"description": {"color":"green","translate":"Breed two llamas with hay"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/stay_calmer",

@@ -4,7 +4,7 @@
 			"item": "minecraft:leather"
 		},
 		"title": {"translate":"Cow Tipper"},
-		"description": {"translate":"Harvest some leather"},
+		"description": {"color":"green","translate":"Harvest some leather"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",

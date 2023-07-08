@@ -4,7 +4,7 @@
 			"item": "minecraft:vine"
 		},
 		"title": {"translate":"Tarzan"},
-		"description": {"translate":"Swing (or climb) on some vines"},
+		"description": {"color":"green","translate":"Swing (or climb) on some vines"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:biomes/the_mighty_jungle",

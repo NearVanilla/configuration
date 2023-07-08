@@ -24,3 +24,6 @@ tellraw @s[advancements={blazeandcave:building/a_good_start={warped_stem=true,oa
 
 give @s[advancements={blazeandcave:building/a_good_start={mangrove_log=true,oak_log=false}}] minecraft:mangrove_log 8
 tellraw @s[advancements={blazeandcave:building/a_good_start={mangrove_log=true,oak_log=false}}] {"color":"green","text":" +8 ","extra":[{"translate":"block.minecraft.mangrove_log"}]}
+
+give @s[advancements={blazeandcave:bacap/getting_wood={cherry_log=true,oak_log=false}}] minecraft:cherry_log 8
+tellraw @s[advancements={blazeandcave:bacap/getting_wood={cherry_log=true,oak_log=false}}] {"color":"green","text":" +8 ","extra":[{"translate":"block.minecraft.cherry_log"}]}

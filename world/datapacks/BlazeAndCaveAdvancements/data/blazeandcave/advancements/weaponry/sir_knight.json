@@ -4,7 +4,7 @@
 			"item": "minecraft:shield"
 		},
 		"title": {"translate":"Sir Knight"},
-		"description": {"translate":"Use planks and iron to craft a shield"},
+		"description": {"color":"green","translate":"Use planks and iron to craft a shield"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:weaponry/root",

@@ -4,7 +4,7 @@
 			"item": "minecraft:kelp"
 		},
 		"title": {"translate":"Kelp me!"},
-		"description": {"translate":"Collect some kelp from an ocean"},
+		"description": {"color":"green","translate":"Collect some kelp from an ocean"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:farming/sugar_sugar",

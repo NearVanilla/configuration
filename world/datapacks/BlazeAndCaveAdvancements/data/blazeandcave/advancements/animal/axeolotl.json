@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_axe"
 		},
 		"title": {"translate":"Axeolotl"},
-		"description": {"translate":"Kill an Axolotl with an axe"},
+		"description": {"color":"green","translate":"Kill an Axolotl with an axe"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/axolittle",

@@ -4,7 +4,7 @@
 			"item": "minecraft:fermented_spider_eye"
 		},
 		"title": {"translate":"The Ghastly Eyes"},
-		"description": {"translate":"Kill an invisible spider"},
+		"description": {"color":"dark_purple","translate":"Kill an invisible spider"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

@@ -4,7 +4,7 @@
 			"item": "minecraft:spawner"
 		},
 		"title": {"translate":"NOT THE BEES!"},
-		"description": {"translate":"Get stung to death by bees"},
+		"description": {"color":"green","translate":"Get stung to death by bees"},
 		"announce_to_chat": "true"
 
 	},

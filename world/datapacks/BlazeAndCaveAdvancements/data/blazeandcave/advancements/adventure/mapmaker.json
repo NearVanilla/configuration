@@ -4,7 +4,7 @@
 			"item": "minecraft:map"
 		},
 		"title": {"translate":"Mapmaker"},
-		"description": {"translate":"Craft or trade an empty map"},
+		"description": {"color":"green","translate":"Craft or trade an empty map"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:adventure/knowledge_is_power",

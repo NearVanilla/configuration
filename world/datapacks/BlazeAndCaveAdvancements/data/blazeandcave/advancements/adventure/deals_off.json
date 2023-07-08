@@ -4,7 +4,7 @@
 			"item": "minecraft:blue_carpet"
 		},
 		"title": {"translate":"Deal's Off!"},
-		"description": {"translate":"Get spat at by one of the Trader Llamas"},
+		"description": {"color":"green","translate":"Get spat at by one of the Trader Llamas"},
 		"announce_to_chat": "true"
 
 	},

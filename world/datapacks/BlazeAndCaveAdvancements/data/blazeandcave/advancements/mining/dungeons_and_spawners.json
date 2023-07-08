@@ -4,7 +4,7 @@
 			"item": "minecraft:mossy_cobblestone"
 		},
 		"title": {"translate":"Dungeons and Spawners"},
-		"description": {"translate":"Open a chest in a dungeon deep underground"},
+		"description": {"color":"green","translate":"Open a chest in a dungeon deep underground"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/heart_of_darkness",

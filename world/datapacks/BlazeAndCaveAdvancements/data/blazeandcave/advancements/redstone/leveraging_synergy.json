@@ -4,7 +4,7 @@
 			"item": "minecraft:lever"
 		},
 		"title": {"translate":"Leveraging Synergy"},
-		"description": {"translate":"Flick a lever"},
+		"description": {"color":"green","translate":"Flick a lever"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:redstone/click",
@@ -15,13 +15,18 @@
 		"lever": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:lever"
-						]
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:lever"
+								]
+							}
+						}
 					}
-				}
+				]
 			}
 		}
 	}

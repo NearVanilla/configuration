@@ -4,7 +4,7 @@
 			"item": "minecraft:trident"
 		},
 		"title": {"translate":"A Throwaway Joke"},
-		"description": {"translate":"Throw a trident at something. Note: Throwing away your only weapon is not a good idea"},
+		"description": {"color":"green","translate":"Throw a trident at something. Note: Throwing away your only weapon is not a good idea"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:weaponry/root",
@@ -17,7 +17,12 @@
 			"conditions": {
 				"damage": {
 					"type": {
-						"is_projectile": true,
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
 						"direct_entity": {
 							"type": "minecraft:trident"
 						}

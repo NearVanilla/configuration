@@ -4,7 +4,7 @@
 			"item": "minecraft:milk_bucket"
 		},
 		"title": {"translate":"Milk does your body good"},
-		"description": {"translate":"Take a swig swig swig swig"},
+		"description": {"color":"green","translate":"Take a swig swig swig swig"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/breed_an_animal",

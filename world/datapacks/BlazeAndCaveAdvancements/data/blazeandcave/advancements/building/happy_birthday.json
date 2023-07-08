@@ -4,7 +4,7 @@
 			"item": "minecraft:cake"
 		},
 		"title": {"translate":"Happy Birthday!"},
-		"description": {"translate":"Place a candle on a cake"},
+		"description": {"color":"green","translate":"Place a candle on a cake"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/setting_up_the_mood",
@@ -15,14 +15,22 @@
 		"candle_cake": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"block": {
-						"tag": "minecraft:candle_cakes"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"tag": "minecraft:candle_cakes"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"tag": "minecraft:candles"
+						}
 					}
-				},
-				"item": {
-					"tag": "minecraft:candles"
-				}
+				]
 			}
 		}
 	}	

@@ -4,7 +4,7 @@
 			"item": "minecraft:cobweb"
 		},
 		"title": {"translate":"Eeuuwww!"},
-		"description": {"translate":"Get stuck in a cobweb"},
+		"description": {"color":"green","translate":"Get stuck in a cobweb"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/gold_mine",

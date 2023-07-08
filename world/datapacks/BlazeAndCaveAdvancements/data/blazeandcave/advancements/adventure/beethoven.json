@@ -4,7 +4,7 @@
 			"item": "minecraft:jukebox"
 		},
 		"title": {"translate":"Beethoven"},
-		"description": {"translate":"Craft a jukebox with planks and a diamond"},
+		"description": {"color":"green","translate":"Craft a jukebox with planks and a diamond"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:adventure/i_hereby_dub_thee",

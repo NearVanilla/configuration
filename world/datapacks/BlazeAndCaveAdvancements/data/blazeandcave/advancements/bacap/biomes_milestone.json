@@ -779,6 +779,19 @@
 					}
 				}
 			}
+		},
+		"pretty_in_pink": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:biomes/pretty_in_pink": "true"
+						}
+					}
+				}
+			}
 		}
 	}
 }

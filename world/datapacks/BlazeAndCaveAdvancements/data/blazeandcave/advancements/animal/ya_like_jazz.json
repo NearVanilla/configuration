@@ -4,7 +4,7 @@
 			"item": "minecraft:honeycomb"
 		},
 		"title": {"translate":"Ya like jazz?"},
-		"description": {"translate":"Breed two bees using flowers"},
+		"description": {"color":"green","translate":"Breed two bees using flowers"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",

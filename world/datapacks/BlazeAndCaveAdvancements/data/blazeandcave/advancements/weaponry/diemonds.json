@@ -4,7 +4,7 @@
 			"item": "minecraft:diamond"
 		},
 		"title": {"translate":"Diemonds!"},
-		"description": {"translate":"Hit a mob with diamonds"},
+		"description": {"color":"green","translate":"Hit a mob with diamonds"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:weaponry/slapfish",

@@ -4,7 +4,7 @@
 			"item": "minecraft:stone_pressure_plate"
 		},
 		"title": {"translate":"Under Pressure"},
-		"description": {"translate":"Step on a pressure plate"},
+		"description": {"color":"green","translate":"Step on a pressure plate"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:redstone/leveraging_synergy",

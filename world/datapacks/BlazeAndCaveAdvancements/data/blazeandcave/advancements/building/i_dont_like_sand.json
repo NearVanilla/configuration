@@ -4,7 +4,7 @@
 			"item": "minecraft:sand"
 		},
 		"title": {"translate":"I don't like sand"},
-		"description": {"translate":"It's coarse, and rough, and irritating, and it gets everywhere"},
+		"description": {"color":"green","translate":"It's coarse, and rough, and irritating, and it gets everywhere"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/root",

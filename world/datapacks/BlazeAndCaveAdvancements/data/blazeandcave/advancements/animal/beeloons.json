@@ -4,7 +4,7 @@
 			"item": "minecraft:honeycomb"
 		},
 		"title": {"translate":"Beeloons!"},
-		"description": {"translate":"Attach a lead to a bee"},
+		"description": {"color":"green","translate":"Attach a lead to a bee"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/lead_the_way",

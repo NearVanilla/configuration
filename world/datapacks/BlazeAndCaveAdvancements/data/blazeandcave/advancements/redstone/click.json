@@ -4,7 +4,7 @@
 			"item": "minecraft:oak_button"
 		},
 		"title": {"translate":"Click!"},
-		"description": {"translate":"Place and push a button"},
+		"description": {"color":"green","translate":"Place and push a button"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:redstone/root",
@@ -15,11 +15,16 @@
 		"oak_button": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"block": {
-						"tag": "minecraft:buttons"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"tag": "minecraft:buttons"
+							}
+						}
 					}
-				}
+				]
 			}
 		}
 	}

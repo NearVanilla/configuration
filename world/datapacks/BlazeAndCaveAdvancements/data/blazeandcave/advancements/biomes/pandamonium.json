@@ -4,7 +4,7 @@
 			"item": "minecraft:cake"
 		},
 		"title": {"translate":"Pandamonium"},
-		"description": {"translate":"Feed cake to every type of panda"},
+		"description": {"color":"dark_purple","translate":"Feed cake to every type of panda"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

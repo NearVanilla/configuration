@@ -4,7 +4,7 @@
 			"item": "minecraft:leather_boots"
 		},
 		"title": {"translate":"Out for a stroll"},
-		"description": {"translate":"Walk 10km"},
+		"description": {"color":"green","translate":"Walk 10km"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:statistics/root",

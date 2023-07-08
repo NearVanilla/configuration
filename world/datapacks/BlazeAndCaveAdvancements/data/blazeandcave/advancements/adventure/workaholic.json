@@ -4,7 +4,7 @@
 			"item": "minecraft:brewing_stand"
 		},
 		"title": {"translate":"Workaholic"},
-		"description": {"translate":"Craft a stack of all the villager job site blocks"},
+		"description": {"color":"dark_purple","translate":"Craft a stack of all the villager job site blocks"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

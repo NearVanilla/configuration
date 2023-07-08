@@ -4,7 +4,7 @@
 			"item": "minecraft:clay_ball"
 		},
 		"title": {"translate":"Clay-Dough!"},
-		"description": {"translate":"Dig up some clay from a lake"},
+		"description": {"color":"green","translate":"Dig up some clay from a lake"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/i_dont_like_sand",

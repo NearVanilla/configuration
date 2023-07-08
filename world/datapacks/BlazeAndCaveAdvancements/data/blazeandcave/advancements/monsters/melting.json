@@ -4,7 +4,7 @@
 			"item": "minecraft:sand"
 		},
 		"title": {"translate":"Melting"},
-		"description": {"translate":"Bring a stray to a desert biome and then kill it"},
+		"description": {"color":"dark_purple","translate":"Bring a stray to a desert biome and then kill it"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

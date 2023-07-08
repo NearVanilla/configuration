@@ -4,7 +4,7 @@
 			"item": "minecraft:target"
 		},
 		"title": {"translate":"Target Acquired"},
-		"description": {"translate":"Put up a Target for archery practise"},
+		"description": {"color":"green","translate":"Put up a Target for archery practise"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:redstone/dispense_with_this",
@@ -15,7 +15,18 @@
 		"target": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:target"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:target"
+								]
+							}
+						}
+					}
+				]
 			}
 		}
 	}

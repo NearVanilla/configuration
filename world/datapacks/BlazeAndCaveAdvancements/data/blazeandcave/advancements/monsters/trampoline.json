@@ -4,7 +4,7 @@
 			"item": "minecraft:slime_block"
 		},
 		"title": {"translate":"Trampoline"},
-		"description": {"translate":"Bounce onto a slime block from at least 30 blocks high"},
+		"description": {"color":"green","translate":"Bounce onto a slime block from at least 30 blocks high"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:monsters/gelatinous_cube",

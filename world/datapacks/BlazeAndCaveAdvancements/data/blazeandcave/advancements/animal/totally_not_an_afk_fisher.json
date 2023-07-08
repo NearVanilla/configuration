@@ -5,7 +5,7 @@
 			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
 		},
 		"title": {"translate":"Totally not an AFK fisher!"},
-		"description": {"translate":"Fish out all types of items"},
+		"description": {"color":"dark_purple","translate":"Fish out all types of items"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

@@ -4,7 +4,7 @@
 			"item": "minecraft:blue_dye"
 		},
 		"title": {"translate":"Travelling Merchant"},
-		"description": {"translate":"Trade with a Wandering Trader"},
+		"description": {"color":"green","translate":"Trade with a Wandering Trader"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/root",

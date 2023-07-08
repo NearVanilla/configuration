@@ -4,7 +4,7 @@
 			"item": "minecraft:feather"
 		},
 		"title": {"translate":"Tickle Time!"},
-		"description": {"translate":"Pluck some feathers from a chicken"},
+		"description": {"color":"green","translate":"Pluck some feathers from a chicken"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",

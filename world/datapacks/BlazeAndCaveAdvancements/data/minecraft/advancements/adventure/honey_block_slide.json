@@ -4,7 +4,7 @@
 			"item": "minecraft:honey_block"
 		},
 		"title": {"translate":"Sticky Situation"},
-		"description": {"translate":"Jump into a honey block to slide down it"},
+		"description": {"color":"green","translate":"Jump into a honey block to slide down it"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/winnie_the_pooh",

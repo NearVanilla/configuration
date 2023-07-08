@@ -4,7 +4,7 @@
 			"item": "minecraft:rabbit_spawn_egg"
 		},
 		"title": {"translate":"I just want to make toast!"},
-		"description": {"translate":"Name a bunny 'Toast'"},
+		"description": {"color":"green","translate":"Name a bunny 'Toast'"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:adventure/i_hereby_dub_thee",

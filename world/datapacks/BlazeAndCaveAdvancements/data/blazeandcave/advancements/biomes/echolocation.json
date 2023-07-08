@@ -4,7 +4,7 @@
 			"item": "minecraft:cod"
 		},
 		"title": {"translate":"Echolocation"},
-		"description": {"translate":"Feed a dolphin fish to have it lead you to treasure"},
+		"description": {"color":"green","translate":"Feed a dolphin fish to have it lead you to treasure"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:biomes/dolphin_dasher",

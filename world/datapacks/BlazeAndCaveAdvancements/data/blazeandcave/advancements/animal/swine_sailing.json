@@ -24,7 +24,7 @@
 							"vehicle": {
 								"type": "pig",
 								"vehicle": {
-									"type": "boat",
+									"type": "#minecraft:boats",
 									"vehicle": {
 										"type": "minecart"
 									}

@@ -4,7 +4,7 @@
 			"item": "minecraft:light_blue_concrete"
 		},
 		"title": {"translate":"Concrete Evidence"},
-		"description": {"translate":"Create concrete from concrete powder by dropping it into water"},
+		"description": {"color":"green","translate":"Create concrete from concrete powder by dropping it into water"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/rainbow_sand",

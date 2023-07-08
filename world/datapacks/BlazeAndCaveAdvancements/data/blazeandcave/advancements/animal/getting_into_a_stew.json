@@ -4,7 +4,7 @@
 			"item": "minecraft:rabbit_stew"
 		},
 		"title": {"translate":"Getting Into a Stew"},
-		"description": {"translate":"Make and eat some rabbit stew"},
+		"description": {"color":"green","translate":"Make and eat some rabbit stew"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/lucky_charm",

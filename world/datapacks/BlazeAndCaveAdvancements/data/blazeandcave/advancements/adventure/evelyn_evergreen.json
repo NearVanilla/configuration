@@ -4,7 +4,7 @@
 			"item": "minecraft:spruce_sapling"
 		},
 		"title": {"translate":"Evelyn Evergreen"},
-		"description": {"translate":"Have an Allay deliver Spruce Saplings to you while chopping down trees"},
+		"description": {"color":"green","translate":"Have an Allay deliver Spruce Saplings to you while chopping down trees"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/allay_deliver_item_to_player",

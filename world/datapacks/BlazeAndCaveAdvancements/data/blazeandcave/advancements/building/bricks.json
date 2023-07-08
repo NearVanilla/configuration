@@ -4,7 +4,7 @@
 			"item": "minecraft:bricks"
 		},
 		"title": {"translate":"Bricks!"},
-		"description": {"translate":"Fire up that clay!"},
+		"description": {"color":"green","translate":"Fire up that clay!"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/clay_dough",

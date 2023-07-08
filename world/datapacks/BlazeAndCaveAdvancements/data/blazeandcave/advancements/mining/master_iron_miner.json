@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_block"
 		},
 		"title": {"translate":"Master Iron Miner"},
-		"description": {"translate":"Mine enough iron to make a stack of iron blocks"},
+		"description": {"color":"dark_purple","translate":"Mine enough iron to make a stack of iron blocks"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

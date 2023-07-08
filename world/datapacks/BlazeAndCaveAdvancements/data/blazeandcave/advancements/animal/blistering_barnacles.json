@@ -4,7 +4,7 @@
 			"item": "minecraft:light_blue_carpet"
 		},
 		"title": {"translate":"Blistering Barnacles!"},
-		"description": {"translate":"Get spat at by a llama"},
+		"description": {"color":"green","translate":"Get spat at by a llama"},
 		"announce_to_chat": "true"
 
 	},

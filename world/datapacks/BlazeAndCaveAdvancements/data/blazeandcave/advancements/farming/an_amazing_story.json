@@ -4,7 +4,7 @@
 			"item": "minecraft:written_book"
 		},
 		"title": {"translate":"An amazing story!"},
-		"description": {"translate":"Finish writing in your book or get a book from another player"},
+		"description": {"color":"green","translate":"Finish writing in your book or get a book from another player"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:farming/write_your_thoughts",

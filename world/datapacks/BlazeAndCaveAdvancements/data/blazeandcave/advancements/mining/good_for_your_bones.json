@@ -4,7 +4,7 @@
 			"item": "minecraft:calcite"
 		},
 		"title": {"translate":"Good For Your Bones"},
-		"description": {"translate":"Mine some Calcite encasing an Amethyst Geode"},
+		"description": {"color":"green","translate":"Mine some Calcite encasing an Amethyst Geode"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/gi_geode",

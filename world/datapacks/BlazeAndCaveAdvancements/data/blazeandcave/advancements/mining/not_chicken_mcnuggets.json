@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_nugget"
 		},
 		"title": {"translate":"Not Chicken McNuggets?"},
-		"description": {"translate":"Craft or find iron nuggets"},
+		"description": {"color":"green","translate":"Craft or find iron nuggets"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:story/smelt_iron",

@@ -4,7 +4,7 @@
 			"item": "minecraft:saddle"
 		},
 		"title": {"translate":"Pig Training"},
-		"description": {"translate":"Ride 100m on a pig"},
+		"description": {"color":"green","translate":"Ride 100m on a pig"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:statistics/root",

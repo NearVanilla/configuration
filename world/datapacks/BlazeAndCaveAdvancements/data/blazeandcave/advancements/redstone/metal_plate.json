@@ -4,7 +4,7 @@
 			"item": "minecraft:heavy_weighted_pressure_plate"
 		},
 		"title": {"translate":"Metal Plate"},
-		"description": {"translate":"Dinner time!"},
+		"description": {"color":"green","translate":"Dinner time!"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:redstone/pressure_detector",

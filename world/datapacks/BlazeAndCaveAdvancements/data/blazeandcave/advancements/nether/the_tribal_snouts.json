@@ -4,7 +4,7 @@
 			"item": "minecraft:gold_nugget"
 		},
 		"title": {"translate":"The Tribal Snouts"},
-		"description": {"translate":"Kill a zombie pigman"},
+		"description": {"color":"green","translate":"Kill a zombie pigman"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:nether/root",

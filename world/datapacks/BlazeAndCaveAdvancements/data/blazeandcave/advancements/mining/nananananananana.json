@@ -4,7 +4,7 @@
 			"item": "minecraft:bat_spawn_egg"
 		},
 		"title": {"translate":"Nananananananana..."},
-		"description": {"translate":"Accidentally hit a bat underground"},
+		"description": {"color":"green","translate":"Accidentally hit a bat underground"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/my_work_here_is_done",

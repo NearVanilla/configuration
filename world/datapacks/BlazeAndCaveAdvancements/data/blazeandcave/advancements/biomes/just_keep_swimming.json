@@ -4,7 +4,7 @@
 			"item": "minecraft:water_bucket"
 		},
 		"title": {"translate":"Just Keep Swimming"},
-		"description": {"translate":"Go for a swim"},
+		"description": {"color":"green","translate":"Go for a swim"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:biomes/root",

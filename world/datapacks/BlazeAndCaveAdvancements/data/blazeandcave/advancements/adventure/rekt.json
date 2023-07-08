@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_bars"
 		},
 		"title": {"translate":"Rekt!"},
-		"description": {"translate":"Get killed by a natural iron golem defending its village"},
+		"description": {"color":"green","translate":"Get killed by a natural iron golem defending its village"},
 		"announce_to_chat": "true"
 
 	},

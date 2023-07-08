@@ -4,7 +4,7 @@
 			"item": "minecraft:cornflower"
 		},
 		"title": {"translate":"Florist"},
-		"description": {"translate":"Trade for a flower from the Wandering Trader"},
+		"description": {"color":"green","translate":"Trade for a flower from the Wandering Trader"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:adventure/travelling_merchant",

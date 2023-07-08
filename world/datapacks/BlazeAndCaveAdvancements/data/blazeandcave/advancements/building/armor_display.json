@@ -4,11 +4,11 @@
 			"item": "minecraft:netherite_helmet"
 		},
 		"title": {"translate":"Armor Display"},
-		"description": {"translate":"Place all six sets of armor on six different armor stands"},
+		"description": {"color":"dark_purple","translate":"Place all six sets of armor on six different armor stands"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
-	"parent": "blazeandcave:building/mannequin",
+	"parent": "blazeandcave:building/living_dummy",
 	"rewards": {
 		"function": "bc_rewards:building/armor_display"
 	},		

@@ -4,7 +4,7 @@
 			"item": "minecraft:creeper_banner_pattern"
 		},
 		"title": {"translate":"Fruit of the Looms"},
-		"description": {"translate":"Obtain all the special banner patterns"},
+		"description": {"color":"dark_purple","translate":"Obtain all the special banner patterns"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

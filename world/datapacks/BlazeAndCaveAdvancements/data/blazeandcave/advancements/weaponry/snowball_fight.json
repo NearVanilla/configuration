@@ -4,7 +4,7 @@
 			"item": "minecraft:snowball"
 		},
 		"title": {"translate":"Snowball Fight"},
-		"description": {"translate":"The spirit of Christmas... quickly drowned out by a battle"},
+		"description": {"color":"green","translate":"The spirit of Christmas... quickly drowned out by a battle"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:weaponry/root",
@@ -17,7 +17,12 @@
 			"conditions": {
 				"damage": {
 					"type": {
-						"is_projectile": true,
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
 						"direct_entity": {
 							"type": "minecraft:snowball"
 						}

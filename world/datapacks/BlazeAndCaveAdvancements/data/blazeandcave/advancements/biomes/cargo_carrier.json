@@ -4,7 +4,7 @@
 			"item": "minecraft:spruce_chest_boat"
 		},
 		"title": {"translate":"Cargo Carrier"},
-		"description": {"translate":"Ride a Boat with a Chest in it"},
+		"description": {"color":"green","translate":"Ride a Boat with a Chest in it"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:biomes/boaty_mcboatface",

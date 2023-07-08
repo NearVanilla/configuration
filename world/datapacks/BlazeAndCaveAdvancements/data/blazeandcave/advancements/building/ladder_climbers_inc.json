@@ -4,7 +4,7 @@
 			"item": "minecraft:ladder"
 		},
 		"title": {"translate":"Ladder Climbers Inc."},
-		"description": {"translate":"Climb the ladder!"},
+		"description": {"color":"green","translate":"Climb the ladder!"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/your_door_was_locked",

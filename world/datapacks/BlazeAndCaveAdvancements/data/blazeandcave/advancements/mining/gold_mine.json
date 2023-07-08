@@ -4,7 +4,7 @@
 			"item": "minecraft:gold_ore"
 		},
 		"title": {"translate":"Gold Mine!"},
-		"description": {"translate":"Find a mineshaft on the surface of a mesa biome"},
+		"description": {"color":"green","translate":"Find a mineshaft on the surface of a mesa biome"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/this_is_mine_now",

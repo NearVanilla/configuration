@@ -4,7 +4,7 @@
 			"item": "minecraft:stone_shovel"
 		},
 		"title": {"translate":"MOAR Tools"},
-		"description": {"translate":"Craft a stone pickaxe, axe, shovel and hoe"},
+		"description": {"color":"green","translate":"Craft a stone pickaxe, axe, shovel and hoe"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:story/upgrade_tools",

@@ -4,7 +4,7 @@
 			"item": "minecraft:chiseled_quartz_block"
 		},
 		"title": {"translate":"Greek Art Decor"},
-		"description": {"translate":"Craft all forms of quartz blocks"},
+		"description": {"color":"green","translate":"Craft all forms of quartz blocks"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/fake_fortress",

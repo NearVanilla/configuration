@@ -4,7 +4,7 @@
 			"item": "minecraft:purpur_block"
 		},
 		"title": {"translate":"The City at the End of the Game"},
-		"description": {"translate":"Go on in, what could happen?"},
+		"description": {"color":"green","translate":"Go on in, what could happen?"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:end/enter_end_gateway",

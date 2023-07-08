@@ -4,7 +4,7 @@
 			"item": "minecraft:snowball"
 		},
 		"title": {"translate":"Frosty"},
-		"description": {"translate":"Kill a stray"},
+		"description": {"color":"green","translate":"Kill a stray"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:story/deflect_arrow",

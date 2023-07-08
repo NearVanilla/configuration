@@ -4,7 +4,7 @@
 			"item": "minecraft:map"
 		},
 		"title": {"translate":"Subspace Bubble"},
-		"description": {"translate":"Use the Nether to travel 7km in the Overworld"},
+		"description": {"color":"dark_purple","translate":"Use the Nether to travel 7km in the Overworld"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

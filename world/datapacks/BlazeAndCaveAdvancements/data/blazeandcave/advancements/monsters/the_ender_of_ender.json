@@ -4,7 +4,7 @@
 			"item": "minecraft:ender_pearl"
 		},
 		"title": {"translate":"The ender of ender"},
-		"description": {"translate":"Kill an enderman"},
+		"description": {"color":"green","translate":"Kill an enderman"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/kill_a_mob",

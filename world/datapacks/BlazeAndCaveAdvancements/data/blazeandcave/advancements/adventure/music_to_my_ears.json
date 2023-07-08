@@ -4,7 +4,7 @@
 			"item": "minecraft:music_disc_cat"
 		},
 		"title": {"translate":"Music To My Ears"},
-		"description": {"translate":"Play a music disc in a jukebox"},
+		"description": {"color":"green","translate":"Play a music disc in a jukebox"},
 		"announce_to_chat": "true",
 		"frame": "task"
 	},
@@ -16,19 +16,27 @@
 		"music_disc": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:jukebox"
-						],
-						"state": {
-							"has_record": "true"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:jukebox"
+								],
+								"state": {
+									"has_record": "true"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"tag": "minecraft:music_discs"
 						}
 					}
-				},
-				"item": {
-					"tag": "minecraft:music_discs"
-				}
+				]
 			}
 		}
 	}

@@ -4,7 +4,7 @@
 			"item": "minecraft:spider_eye"
 		},
 		"title": {"translate":"Poisonous Ew"},
-		"description": {"translate":"Kill a cave spider"},
+		"description": {"color":"green","translate":"Kill a cave spider"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:monsters/ew_ew_ew",

@@ -4,9 +4,9 @@
 			"item": "minecraft:bucket"
 		},
 		"title": {"translate":"Axolotl of them"},
-		"description": {"color":"#75E1FF","translate":"Catch all variants of Axolotls inside a Bucket"},
+		"description": {"color":"dark_purple","translate":"Catch all variants of Axolotls inside a Bucket"},
 		"announce_to_chat": "true",
-		"frame": "goal"
+		"frame": "challenge"
 	},
 	"parent": "blazeandcave:animal/axolittle",
 	"rewards": {

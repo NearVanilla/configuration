@@ -4,7 +4,7 @@
 			"item": "minecraft:skeleton_skull"
 		},
 		"title": {"translate":"Sniper Duel"},
-		"description": {"translate":"Kill a skeleton with an arrow from more than 50 meters"},
+		"description": {"color":"dark_purple","translate":"Kill a skeleton with an arrow from more than 50 meters"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
@@ -17,7 +17,12 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"killing_blow": {
-					"is_projectile": true
+					"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						]
 				},
 				"entity": {
 					"type": "skeleton",
@@ -33,7 +38,12 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"killing_blow": {
-					"is_projectile": true
+					"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						]
 				},
 				"entity": {
 					"type": "stray",

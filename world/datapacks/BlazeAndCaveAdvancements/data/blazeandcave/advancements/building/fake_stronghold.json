@@ -4,7 +4,7 @@
 			"item": "minecraft:cracked_stone_bricks"
 		},
 		"title": {"translate":"Fake stronghold"},
-		"description": {"translate":"Craft or collect all forms of normal, cracked, mossy and chiseled stone bricks"},
+		"description": {"color":"green","translate":"Craft or collect all forms of normal, cracked, mossy and chiseled stone bricks"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/rock_polish",

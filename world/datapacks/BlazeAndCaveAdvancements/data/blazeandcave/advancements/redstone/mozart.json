@@ -4,7 +4,7 @@
 			"item": "minecraft:note_block"
 		},
 		"title": {"translate":"Mozart"},
-		"description": {"translate":"Craft a note block"},
+		"description": {"color":"green","translate":"Craft a note block"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:redstone/root",

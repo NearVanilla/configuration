@@ -4,7 +4,7 @@
 			"item": "minecraft:scaffolding"
 		},
 		"title": {"translate":"Construction Worker"},
-		"description": {"translate":"Craft and use some scaffolding"},
+		"description": {"color":"green","translate":"Craft and use some scaffolding"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:biomes/bamboom",
@@ -15,11 +15,16 @@
 		"scaffolding": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"item": {
-					"items": [
-						"minecraft:scaffolding"
-					]
-				}
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:scaffolding"
+							]
+						}
+					}
+				]
 			}
 		}	
 	}

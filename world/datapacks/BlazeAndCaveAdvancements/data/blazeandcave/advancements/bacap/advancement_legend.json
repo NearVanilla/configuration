@@ -2939,14 +2939,14 @@
 				}
 			}
 		},
-		"display_your_items_for_all_to_see": {
+		"help_ive_been_framed": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:building/display_your_items_for_all_to_see": "true"
+							"blazeandcave:building/help_ive_been_framed": "true"
 						}
 					}
 				}
@@ -13222,19 +13222,6 @@
 				}
 			}
 		},
-		"a_good_start": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:building/a_good_start": "true"
-						}
-					}
-				}
-			}
-		},
 		"stuck_in_the_mud": {
 			"trigger": "minecraft:location",
 			"conditions": {
@@ -13385,7 +13372,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:mining/vibe_check": "true"
+							"blazeandcave:redstone/vibe_check": "true"
 						}
 					}
 				}
@@ -13398,7 +13385,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:mining/the_block_of_eternal_screaming": "true"
+							"blazeandcave:redstone/the_block_of_eternal_screaming": "true"
 						}
 					}
 				}
@@ -13411,7 +13398,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:mining/cataclyst": "true"
+							"blazeandcave:redstone/cataclyst": "true"
 						}
 					}
 				}
@@ -13424,7 +13411,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:mining/monstrous_sacrifices": "true"
+							"blazeandcave:redstone/monstrous_sacrifices": "true"
 						}
 					}
 				}
@@ -13437,7 +13424,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:mining/the_incredible_sculk": "true"
+							"blazeandcave:redstone/the_incredible_sculk": "true"
 						}
 					}
 				}
@@ -13450,7 +13437,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:mining/sculker_box": "true"
+							"blazeandcave:redstone/sculker_box": "true"
 						}
 					}
 				}
@@ -13620,6 +13607,695 @@
 						"type": "player",
 						"advancements": {
 							"blazeandcave:nether/hung_drawn_and_bartered": "true"
+						}
+					}
+				}
+			}
+		},
+		"nerds_never_die": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/nerds_never_die": "true"
+						}
+					}
+				}
+			}
+		},
+		"and_make_it_double": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/and_make_it_double": "true"
+						}
+					}
+				}
+			}
+		},
+		"silence_of_the_lambs": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/silence_of_the_lambs": "true"
+						}
+					}
+				}
+			}
+		},
+		"its_high_noon": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/its_high_noon": "true"
+						}
+					}
+				}
+			}
+		},
+		"living_dummy": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:building/living_dummy": "true"
+						}
+					}
+				}
+			}
+		},
+		"built_on_sand_set_in_stone": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:building/built_on_sand_set_in_stone": "true"
+						}
+					}
+				}
+			}
+		},
+		"unending_hell": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:end/unending_hell": "true"
+						}
+					}
+				}
+			}
+		},
+		"hot_chocolate": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/hot_chocolate": "true"
+						}
+					}
+				}
+			}
+		},
+		"spleaf": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:weaponry/spleaf": "true"
+						}
+					}
+				}
+			}
+		},
+		"there_it_goes": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:weaponry/there_it_goes": "true"
+						}
+					}
+				}
+			}
+		},
+		"brushed_away": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/brushed_away": "true"
+						}
+					}
+				}
+			}
+		},
+		"respecting_the_remnants": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:adventure/salvage_sherd": "true"
+						}
+					}
+				}
+			}
+		},
+		"careful_restoration": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:adventure/craft_decorated_pot_using_only_sherds": "true"
+						}
+					}
+				}
+			}
+		},
+		"pottery_exhibition": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/pottery_exhibition": "true"
+						}
+					}
+				}
+			}
+		},
+		"life_uhh_finds_a_way": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:husbandry/obtain_sniffer_egg": "true"
+						}
+					}
+				}
+			}
+		},
+		"truffle_worm": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/truffle_worm": "true"
+						}
+					}
+				}
+			}
+		},
+		"jurassic_sniff": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/jurassic_sniff": "true"
+						}
+					}
+				}
+			}
+		},
+		"happy_trails": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/happy_trails": "true"
+						}
+					}
+				}
+			}
+		},
+		"raiders_of_the_lost_trim": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/raiders_of_the_lost_trim": "true"
+						}
+					}
+				}
+			}
+		},
+		"good_lookin_treasure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/good_lookin_treasure": "true"
+						}
+					}
+				}
+			}
+		},
+		"crafting_a_new_look": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:adventure/trim_with_any_armor_pattern": "true"
+						}
+					}
+				}
+			}
+		},
+		"mold_maker": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/mold_maker": "true"
+						}
+					}
+				}
+			}
+		},
+		"coordinated_flair": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/coordinated_flair": "true"
+						}
+					}
+				}
+			}
+		},
+		"chromatic_armory": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/chromatic_armory": "true"
+						}
+					}
+				}
+			}
+		},
+		"genesis_of_the_end": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/genesis_of_the_end": "true"
+						}
+					}
+				}
+			}
+		},
+		"vexingly_hard_to_find": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/vexingly_hard_to_find": "true"
+						}
+					}
+				}
+			}
+		},
+		"the_sound_of_silence": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/the_sound_of_silence": "true"
+						}
+					}
+				}
+			}
+		},
+		"smithing_with_style": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:adventure/trim_with_all_exclusive_armor_patterns": "true"
+						}
+					}
+				}
+			}
+		},
+		"desert_rider": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/desert_rider": "true"
+						}
+					}
+				}
+			}
+		},
+		"hump_day": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/hump_day": "true"
+						}
+					}
+				}
+			}
+		},
+		"the_high_road": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/the_high_road": "true"
+						}
+					}
+				}
+			}
+		},
+		"pretty_in_pink": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:biomes/pretty_in_pink": "true"
+						}
+					}
+				}
+			}
+		},
+		"hanging_around": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:building/hanging_around": "true"
+						}
+					}
+				}
+			}
+		},
+		"sign_off": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:building/sign_off": "true"
+						}
+					}
+				}
+			}
+		},
+		"shelf_expression": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:building/shelf_expression": "true"
+						}
+					}
+				}
+			}
+		},
+		"bamboozled": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:building/bamboozled": "true"
+						}
+					}
+				}
+			}
+		},
+		"cherry_bomb": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:building/cherry_bomb": "true"
+						}
+					}
+				}
+			}
+		},
+		"poglin": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:challenges/poglin": "true"
+						}
+					}
+				}
+			}
+		},
+		"calibration_sensation": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:redstone/calibration_sensation": "true"
+						}
+					}
+				}
+			}
+		},
+		"maximum_resistance": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:monsters/maximum_resistance": "true"
+						}
+					}
+				}
+			}
+		},
+		"time_to_upgrade": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:nether/time_to_upgrade": "true"
+						}
+					}
+				}
+			}
+		},
+		"piglin_peril": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:nether/piglin_peril": "true"
+						}
+					}
+				}
+			}
+		},
+		"monstrous_music": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:redstone/monstrous_music": "true"
+						}
+					}
+				}
+			}
+		},
+		"om_nom_nom": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/om_nom_nom": "true"
+						}
+					}
+				}
+			}
+		},
+		"yum_yum_yummo": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/yum_yum_yummo": "true"
+						}
+					}
+				}
+			}
+		},
+		"food_glorious_food": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/food_glorious_food": "true"
+						}
+					}
+				}
+			}
+		},
+		"loot_em": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/loot_em": "true"
+						}
+					}
+				}
+			}
+		},
+		"more_for_me": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/more_for_me": "true"
+						}
+					}
+				}
+			}
+		},
+		"i_heart_chests": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/i_heart_chests": "true"
+						}
+					}
+				}
+			}
+		},
+		"a_chiptune_relic": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/a_chiptune_relic": "true"
+						}
+					}
+				}
+			}
+		},
+		"little_sniffs": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:husbandry/feed_snifflet": "true"
+						}
+					}
+				}
+			}
+		},
+		"planting_the_past": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:husbandry/plant_any_sniffer_seed": "true"
+						}
+					}
+				}
+			}
+		},
+		"the_power_of_books": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:adventure/read_power_of_chiseled_bookshelf": "true"
 						}
 					}
 				}

@@ -4,7 +4,7 @@
 			"item": "minecraft:cooked_mutton"
 		},
 		"title": {"translate":"Feeling Sheepish"},
-		"description": {"translate":"You'll get over it"},
+		"description": {"color":"green","translate":"You'll get over it"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/wooly",

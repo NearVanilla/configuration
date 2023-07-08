@@ -4,7 +4,7 @@
 			"item": "minecraft:diamond_boots"
 		},
 		"title": {"translate":"Voyage"},
-		"description": {"translate":"A hundred kilometres!"},
+		"description": {"color":"dark_purple","translate":"A hundred kilometres!"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

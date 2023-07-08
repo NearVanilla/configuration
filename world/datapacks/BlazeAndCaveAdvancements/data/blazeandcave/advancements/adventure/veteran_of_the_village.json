@@ -4,7 +4,7 @@
 			"item": "minecraft:emerald_block"
 		},
 		"title": {"translate":"Veteran of the Village"},
-		"description": {"translate":"Attain the highest level of Hero of the Village"},
+		"description": {"color":"dark_purple","translate":"Attain the highest level of Hero of the Village"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

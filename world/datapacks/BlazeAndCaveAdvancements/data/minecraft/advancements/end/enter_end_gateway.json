@@ -4,7 +4,7 @@
 			"item": "minecraft:ender_pearl"
 		},
 		"title": {"translate":"Remote Getaway"},
-		"description": {"translate":"Escape the island"},
+		"description": {"color":"green","translate":"Escape the island"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:end/kill_dragon",

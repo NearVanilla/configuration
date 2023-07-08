@@ -4,7 +4,7 @@
 			"item": "minecraft:axolotl_spawn_egg"
 		},
 		"title": {"translate":"Axolittle"},
-		"description": {"translate":"Breed two Axolotls together using Tropical Fish"},
+		"description": {"color":"green","translate":"Breed two Axolotls together using Tropical Fish"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/kill_axolotl_target",

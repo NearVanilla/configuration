@@ -4,7 +4,7 @@
 			"item": "minecraft:golden_carrot"
 		},
 		"title": {"translate":"24 Carrot Gold"},
-		"description": {"translate":"Eat a golden carrot"},
+		"description": {"color":"green","translate":"Eat a golden carrot"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:farming/die_potato",

@@ -4,7 +4,7 @@
 			"item": "minecraft:redstone_torch"
 		},
 		"title": {"translate":"Powerful Light"},
-		"description": {"translate":"Craft and place a redstone torch"},
+		"description": {"color":"green","translate":"Craft and place a redstone torch"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:redstone/root",
@@ -15,20 +15,20 @@
 		"redstone_torch": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:redstone_torch"
-			}
-		},
-		"redstone_wall_torch": {
-			"trigger": "minecraft:placed_block",
-			"conditions": {
-				"block": "minecraft:redstone_wall_torch"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:redstone_torch",
+									"minecraft:redstone_wall_torch"
+								]
+							}
+						}
+					}
+				]
 			}
 		}
-	},
-	"requirements": [
-		[
-		"redstone_torch",
-		"redstone_wall_torch"
-		]
-	]
+	}
 }

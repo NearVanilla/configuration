@@ -4,7 +4,7 @@
 			"item": "minecraft:diamond_hoe"
 		},
 		"title": {"translate":"Serious Dedication"},
-		"description": {"translate":"Completely use up a diamond hoe, and then reevaluate your life choices"},
+		"description": {"color":"dark_purple","translate":"Completely use up a diamond hoe, and then reevaluate your life choices"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

@@ -4,7 +4,7 @@
 			"item": "minecraft:mossy_cobblestone"
 		},
 		"title": {"translate":"Tomb Raider"},
-		"description": {"translate":"Enter a jungle temple"},
+		"description": {"color":"green","translate":"Enter a jungle temple"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:adventure/grave_robber",

@@ -4,7 +4,7 @@
 			"item": "minecraft:dead_brain_coral_block"
 		},
 		"title": {"translate":"No Reefing!"},
-		"description": {"translate":"Collect all colors of coral blocks, plants and fans (including dead ones)"},
+		"description": {"color":"dark_purple","translate":"Collect all colors of coral blocks, plants and fans (including dead ones)"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

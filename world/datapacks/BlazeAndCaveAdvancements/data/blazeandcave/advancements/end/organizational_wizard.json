@@ -4,7 +4,7 @@
 			"item": "minecraft:anvil"
 		},
 		"title": {"translate":"Organizational Wizard"},
-		"description": {"translate":"Name a Shulker Box 'Blocks' for storing your blocks"},
+		"description": {"color":"green","translate":"Name a Shulker Box 'Blocks' for storing your blocks"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:end/portable_storage",

@@ -4,7 +4,7 @@
 			"item": "minecraft:fletching_table"
 		},
 		"title": {"translate":"That is so fletch!"},
-		"description": {"translate":"Craft a fletching table"},
+		"description": {"color":"green","translate":"Craft a fletching table"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/shoot_arrow",

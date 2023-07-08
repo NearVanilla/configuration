@@ -4,7 +4,7 @@
 			"item": "minecraft:cyan_stained_glass"
 		},
 		"title": {"translate":"Warden Frostbite"},
-		"description": {"translate":"Bring a Warden to the surface of a snowy plains biome and kill it"},
+		"description": {"color":"dark_purple","translate":"Bring a Warden to the surface of a snowy plains biome and kill it"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

@@ -4,7 +4,7 @@
 			"item": "minecraft:tnt"
 		},
 		"title": {"translate":"Bombs Away!"},
-		"description": {"translate":"Use gunpowder and sand to craft TNT"},
+		"description": {"color":"green","translate":"Use gunpowder and sand to craft TNT"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:weaponry/root",

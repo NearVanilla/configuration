@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_sword"
 		},
 		"title": {"translate":"MURDERER!"},
-		"description": {"translate":"Kill a villager"},
+		"description": {"color":"green","translate":"Kill a villager"},
 		"announce_to_chat": "true"
 
 	},

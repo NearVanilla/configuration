@@ -73,6 +73,7 @@ world-settings:
     simulation-distance: 4
     view-distance: 7
   default:
+    seed-trailruins: 83469867
     seed-ancientcity: 20083232
     seed-buriedtreasure: 10387320
     seed-mineshaft: default
@@ -95,6 +96,7 @@ world-settings:
     verbose: true
     mob-spawn-range: 6
     growth:
+      pitcherplant-modifier: 100
       torchflower-modifier: 100
       twistingvines-modifier: 100
       weepingvines-modifier: 100
@@ -192,6 +194,8 @@ world-settings:
     save-structure-info: true
     seed-feature: {{ SEED_SURVIVAL_FEATURE }}
   worldeditregentempworld:
+    verbose: false
+  faweregentempworld:
     verbose: false
 players:
   disable-saving: false

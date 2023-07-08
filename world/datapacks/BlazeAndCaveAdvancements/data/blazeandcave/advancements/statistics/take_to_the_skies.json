@@ -4,7 +4,7 @@
 			"item": "minecraft:phantom_membrane"
 		},
 		"title": {"translate":"Take to the Skies"},
-		"description": {"translate":"Fly 10km with elytra"},
+		"description": {"color":"green","translate":"Fly 10km with elytra"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:statistics/root",

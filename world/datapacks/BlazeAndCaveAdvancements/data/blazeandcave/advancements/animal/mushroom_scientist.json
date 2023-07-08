@@ -4,7 +4,7 @@
 			"item": "minecraft:trident"
 		},
 		"title": {"translate":"Mushroom Scientist"},
-		"description": {"translate":"Strike a mooshroom with lightning and see what happens"},
+		"description": {"color":"dark_purple","translate":"Strike a mooshroom with lightning and see what happens"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

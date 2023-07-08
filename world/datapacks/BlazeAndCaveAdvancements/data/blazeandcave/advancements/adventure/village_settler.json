@@ -4,7 +4,7 @@
 			"item": "minecraft:bell"
 		},
 		"title": {"translate":"Village Settler"},
-		"description": {"translate":"Trade for a new bell to establish a new village"},
+		"description": {"color":"green","translate":"Trade for a new bell to establish a new village"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:adventure/traveller",

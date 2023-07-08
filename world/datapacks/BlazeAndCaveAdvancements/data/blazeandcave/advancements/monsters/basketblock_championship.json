@@ -4,7 +4,7 @@
 			"item": "minecraft:red_sand"
 		},
 		"title": {"translate":"Basketblock Championship"},
-		"description": {"translate":"Kill Endermen that are holding every block that they can hold"},
+		"description": {"color":"dark_purple","translate":"Kill Endermen that are holding every block that they can hold"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
@@ -352,6 +352,24 @@
 				"entity": {
 					"type": "minecraft:enderman",
 					"nbt": "{carriedBlockState:{Name:\"minecraft:mud\"}}"
+				}
+			}
+		},
+		"muddy_mangrove_roots": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:enderman",
+					"nbt": "{carriedBlockState:{Name:\"minecraft:muddy_mangrove_roots\"}}"
+				}
+			}
+		},
+		"torchflower": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:enderman",
+					"nbt": "{carriedBlockState:{Name:\"minecraft:torchflower\"}}"
 				}
 			}
 		}

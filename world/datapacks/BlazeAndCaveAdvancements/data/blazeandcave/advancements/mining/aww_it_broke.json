@@ -4,7 +4,7 @@
 			"item": "minecraft:stick"
 		},
 		"title": {"translate":"Aww it broke!"},
-		"description": {"translate":"Break your first tool"},
+		"description": {"color":"green","translate":"Break your first tool"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/moar_tools",

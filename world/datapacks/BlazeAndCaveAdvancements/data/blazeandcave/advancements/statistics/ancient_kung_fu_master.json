@@ -4,7 +4,7 @@
 			"item": "minecraft:panda_spawn_egg"
 		},
 		"title": {"translate":"Ancient Kung Fu Master"},
-		"description": {"translate":"Sneak 10km"},
+		"description": {"color":"dark_purple","translate":"Sneak 10km"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

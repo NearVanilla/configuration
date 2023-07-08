@@ -4,7 +4,7 @@
 			"item": "minecraft:porkchop"
 		},
 		"title": {"translate":"Bacon!"},
-		"description": {"translate":"Gotta kill this pig pig pig pig"},
+		"description": {"color":"green","translate":"Gotta kill this pig pig pig pig"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",

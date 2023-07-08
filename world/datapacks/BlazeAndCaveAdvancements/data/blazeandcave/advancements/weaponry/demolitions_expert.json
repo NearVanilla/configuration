@@ -4,7 +4,7 @@
 			"item": "minecraft:fire_charge"
 		},
 		"title": {"translate":"Demolitions Expert"},
-		"description": {"translate":"Blow up every hostile mob with TNT"},
+		"description": {"color":"dark_purple","translate":"Blow up every hostile mob with TNT"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
@@ -20,7 +20,12 @@
 		  "type": "cave_spider"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -31,7 +36,12 @@
 		  "type": "minecraft:spider"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -42,7 +52,12 @@
 		  "type": "minecraft:zombified_piglin"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -53,7 +68,12 @@
 		  "type": "minecraft:enderman"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -64,7 +84,12 @@
 		  "type": "minecraft:blaze"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -75,7 +100,12 @@
 		  "type": "minecraft:creeper"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -86,7 +116,12 @@
 		  "type": "minecraft:ghast"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -97,7 +132,12 @@
 		  "type": "minecraft:guardian"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -108,7 +148,12 @@
 		  "type": "minecraft:husk"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -119,7 +164,12 @@
 		  "type": "minecraft:magma_cube"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -130,7 +180,12 @@
 		  "type": "minecraft:shulker"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -141,7 +196,12 @@
 		  "type": "minecraft:silverfish"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -152,7 +212,12 @@
 		  "type": "minecraft:skeleton"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -163,7 +228,12 @@
 		  "type": "minecraft:slime"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -174,7 +244,12 @@
 		  "type": "minecraft:stray"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -185,7 +260,12 @@
 		  "type": "minecraft:vindicator"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -196,7 +276,12 @@
 		  "type": "minecraft:witch"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -207,7 +292,12 @@
 		  "type": "minecraft:wither_skeleton"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -218,7 +308,12 @@
 		  "type": "minecraft:zombie"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -229,7 +324,12 @@
 		  "type": "minecraft:zombie_villager"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -240,7 +340,12 @@
 		  "type": "minecraft:phantom"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -251,7 +356,12 @@
 		  "type": "minecraft:drowned"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -262,7 +372,12 @@
 		  "type": "minecraft:endermite"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -273,7 +388,12 @@
 		  "type": "minecraft:pillager"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -284,7 +404,12 @@
 		  "type": "minecraft:ravager"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -295,7 +420,12 @@
 		  "type": "minecraft:evoker"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -306,7 +436,12 @@
 		  "type": "minecraft:vex"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -317,7 +452,12 @@
 		  "type": "minecraft:piglin"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -328,7 +468,12 @@
 		  "type": "minecraft:hoglin"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -339,7 +484,12 @@
 		  "type": "minecraft:zoglin"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -350,7 +500,12 @@
 		  "type": "minecraft:piglin_brute"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	},
@@ -361,7 +516,12 @@
 		  "type": "minecraft:warden"
 		},
 		"killing_blow": {
-		  "is_explosion": "true"
+		  "tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						]
 		}
 	  }
 	}

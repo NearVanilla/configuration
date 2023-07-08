@@ -4,10 +4,10 @@
 			"item": "minecraft:emerald"
 		},
 		"title": {"translate":"The Haggler"},
-		"description": {"translate":"Trade with villagers 100 times"},
+		"description": {"color":"green","translate":"Trade with villagers 100 times"},
 		"announce_to_chat": "true"
 	},
-	"parent": "blazeandcave:statistics/root",
+	"parent": "blazeandcave:technical/you_are_a_big_cheater",
 	"rewards": {
 		"function": "bc_rewards:statistics/the_haggler"
 	},		

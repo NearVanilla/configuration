@@ -4,7 +4,7 @@
 			"item": "minecraft:minecart"
 		},
 		"title": {"translate":"Minecart Rider"},
-		"description": {"translate":"Ride 1km in a minecart"},
+		"description": {"color":"green","translate":"Ride 1km in a minecart"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:statistics/root",

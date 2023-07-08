@@ -4,7 +4,7 @@
 			"item": "minecraft:echo_shard"
 		},
 		"title": {"translate":"Echonomy"},
-		"description": {"translate":"Collect a stack of Echo Shards"},
+		"description": {"color":"dark_purple","translate":"Collect a stack of Echo Shards"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

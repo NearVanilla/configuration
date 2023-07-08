@@ -53,26 +53,25 @@ execute if score exp bac_settings matches -2 if entity @s[team=bac_team_light_pu
 execute if score exp bac_settings matches -2 if entity @s[team=bac_team_yellow] unless score blazeandcave:enchanting/machine_bow bac_obtained_yellow matches 1.. run function bc_rewards:exp/enchanting/machine_bow
 execute if score exp bac_settings matches -2 if entity @s[team=bac_team_white] unless score blazeandcave:enchanting/machine_bow bac_obtained_white matches 1.. run function bc_rewards:exp/enchanting/machine_bow
 
-scoreboard players add @s bac_advancements 1
-function bc_rewards:team_score
+function bc_rewards:score_add
 
-execute unless score blazeandcave:enchanting/machine_bow bac_obtained matches 1.. run scoreboard players add @s bac_advfirst 1
-execute if entity @s[team=bac_team_black] unless score blazeandcave:enchanting/machine_bow bac_obtained_black matches 1.. run scoreboard players add @s bac_advfirst_team 1
-execute if entity @s[team=bac_team_dark_blue] unless score blazeandcave:enchanting/machine_bow bac_obtained_dark_blue matches 1.. run scoreboard players add @s bac_advfirst_team 1
-execute if entity @s[team=bac_team_dark_green] unless score blazeandcave:enchanting/machine_bow bac_obtained_dark_green matches 1.. run scoreboard players add @s bac_advfirst_team 1
-execute if entity @s[team=bac_team_dark_aqua] unless score blazeandcave:enchanting/machine_bow bac_obtained_dark_aqua matches 1.. run scoreboard players add @s bac_advfirst_team 1
-execute if entity @s[team=bac_team_dark_red] unless score blazeandcave:enchanting/machine_bow bac_obtained_dark_red matches 1.. run scoreboard players add @s bac_advfirst_team 1
-execute if entity @s[team=bac_team_dark_purple] unless score blazeandcave:enchanting/machine_bow bac_obtained_dark_purple matches 1.. run scoreboard players add @s bac_advfirst_team 1
-execute if entity @s[team=bac_team_gold] unless score blazeandcave:enchanting/machine_bow bac_obtained_gold matches 1.. run scoreboard players add @s bac_advfirst_team 1
-execute if entity @s[team=bac_team_gray] unless score blazeandcave:enchanting/machine_bow bac_obtained_gray matches 1.. run scoreboard players add @s bac_advfirst_team 1
-execute if entity @s[team=bac_team_dark_gray] unless score blazeandcave:enchanting/machine_bow bac_obtained_dark_gray matches 1.. run scoreboard players add @s bac_advfirst_team 1
-execute if entity @s[team=bac_team_blue] unless score blazeandcave:enchanting/machine_bow bac_obtained_blue matches 1.. run scoreboard players add @s bac_advfirst_team 1
-execute if entity @s[team=bac_team_green] unless score blazeandcave:enchanting/machine_bow bac_obtained_green matches 1.. run scoreboard players add @s bac_advfirst_team 1
-execute if entity @s[team=bac_team_aqua] unless score blazeandcave:enchanting/machine_bow bac_obtained_aqua matches 1.. run scoreboard players add @s bac_advfirst_team 1
-execute if entity @s[team=bac_team_red] unless score blazeandcave:enchanting/machine_bow bac_obtained_red matches 1.. run scoreboard players add @s bac_advfirst_team 1
-execute if entity @s[team=bac_team_light_purple] unless score blazeandcave:enchanting/machine_bow bac_obtained_light_purple matches 1.. run scoreboard players add @s bac_advfirst_team 1
-execute if entity @s[team=bac_team_yellow] unless score blazeandcave:enchanting/machine_bow bac_obtained_yellow matches 1.. run scoreboard players add @s bac_advfirst_team 1
-execute if entity @s[team=bac_team_white] unless score blazeandcave:enchanting/machine_bow bac_obtained_white matches 1.. run scoreboard players add @s bac_advfirst_team 1
+execute unless score blazeandcave:enchanting/machine_bow bac_obtained matches 1.. run function bc_rewards:first_score_add
+execute if entity @s[team=bac_team_black] unless score blazeandcave:enchanting/machine_bow bac_obtained_black matches 1.. run function bc_rewards:first_team_score_add
+execute if entity @s[team=bac_team_dark_blue] unless score blazeandcave:enchanting/machine_bow bac_obtained_dark_blue matches 1.. run function bc_rewards:first_team_score_add
+execute if entity @s[team=bac_team_dark_green] unless score blazeandcave:enchanting/machine_bow bac_obtained_dark_green matches 1.. run function bc_rewards:first_team_score_add
+execute if entity @s[team=bac_team_dark_aqua] unless score blazeandcave:enchanting/machine_bow bac_obtained_dark_aqua matches 1.. run function bc_rewards:first_team_score_add
+execute if entity @s[team=bac_team_dark_red] unless score blazeandcave:enchanting/machine_bow bac_obtained_dark_red matches 1.. run function bc_rewards:first_team_score_add
+execute if entity @s[team=bac_team_dark_purple] unless score blazeandcave:enchanting/machine_bow bac_obtained_dark_purple matches 1.. run function bc_rewards:first_team_score_add
+execute if entity @s[team=bac_team_gold] unless score blazeandcave:enchanting/machine_bow bac_obtained_gold matches 1.. run function bc_rewards:first_team_score_add
+execute if entity @s[team=bac_team_gray] unless score blazeandcave:enchanting/machine_bow bac_obtained_gray matches 1.. run function bc_rewards:first_team_score_add
+execute if entity @s[team=bac_team_dark_gray] unless score blazeandcave:enchanting/machine_bow bac_obtained_dark_gray matches 1.. run function bc_rewards:first_team_score_add
+execute if entity @s[team=bac_team_blue] unless score blazeandcave:enchanting/machine_bow bac_obtained_blue matches 1.. run function bc_rewards:first_team_score_add
+execute if entity @s[team=bac_team_green] unless score blazeandcave:enchanting/machine_bow bac_obtained_green matches 1.. run function bc_rewards:first_team_score_add
+execute if entity @s[team=bac_team_aqua] unless score blazeandcave:enchanting/machine_bow bac_obtained_aqua matches 1.. run function bc_rewards:first_team_score_add
+execute if entity @s[team=bac_team_red] unless score blazeandcave:enchanting/machine_bow bac_obtained_red matches 1.. run function bc_rewards:first_team_score_add
+execute if entity @s[team=bac_team_light_purple] unless score blazeandcave:enchanting/machine_bow bac_obtained_light_purple matches 1.. run function bc_rewards:first_team_score_add
+execute if entity @s[team=bac_team_yellow] unless score blazeandcave:enchanting/machine_bow bac_obtained_yellow matches 1.. run function bc_rewards:first_team_score_add
+execute if entity @s[team=bac_team_white] unless score blazeandcave:enchanting/machine_bow bac_obtained_white matches 1.. run function bc_rewards:first_team_score_add
 scoreboard players add blazeandcave:enchanting/machine_bow bac_obtained 1
 execute if entity @s[team=bac_team_black] run scoreboard players add blazeandcave:enchanting/machine_bow bac_obtained_black 1
 execute if entity @s[team=bac_team_dark_blue] run scoreboard players add blazeandcave:enchanting/machine_bow bac_obtained_dark_blue 1

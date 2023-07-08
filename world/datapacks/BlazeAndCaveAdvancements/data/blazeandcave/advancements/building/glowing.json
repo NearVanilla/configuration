@@ -4,7 +4,7 @@
 			"item": "minecraft:glowstone"
 		},
 		"title": {"translate":"Glowing!"},
-		"description": {"translate":"Light up the area with glowstone"},
+		"description": {"color":"green","translate":"Light up the area with glowstone"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/festival_of_lights",
@@ -15,7 +15,18 @@
 		"glowstone": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:glowstone"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:glowstone"
+								]
+							}
+						}
+					}
+				]
 			}
 		}
 	}

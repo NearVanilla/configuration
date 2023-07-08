@@ -1598,6 +1598,71 @@
 					}
 				}
 			}
+		},
+		"silence_of_the_lambs": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/silence_of_the_lambs": "true"
+						}
+					}
+				}
+			}
+		},
+		"its_high_noon": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/its_high_noon": "true"
+						}
+					}
+				}
+			}
+		},
+		"desert_rider": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/desert_rider": "true"
+						}
+					}
+				}
+			}
+		},
+		"hump_day": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/hump_day": "true"
+						}
+					}
+				}
+			}
+		},
+		"the_high_road": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/the_high_road": "true"
+						}
+					}
+				}
+			}
 		}
 	}
 }

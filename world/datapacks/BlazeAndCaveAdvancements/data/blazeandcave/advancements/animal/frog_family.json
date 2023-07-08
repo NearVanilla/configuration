@@ -4,7 +4,7 @@
 			"item": "minecraft:frogspawn"
 		},
 		"title": {"translate":"Frog Family"},
-		"description": {"translate":"Breed two Frogs together using slimeballs"},
+		"description": {"color":"green","translate":"Breed two Frogs together using slimeballs"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",

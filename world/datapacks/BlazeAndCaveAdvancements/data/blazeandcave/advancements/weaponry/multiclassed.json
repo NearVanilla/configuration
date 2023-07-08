@@ -4,7 +4,7 @@
 			"item": "minecraft:netherite_sword"
 		},
 		"title": {"translate":"Multiclassed"},
-		"description": {"translate":"Hit a mob with every type of weapon"},
+		"description": {"color":"dark_purple","translate":"Hit a mob with every type of weapon"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
@@ -142,7 +142,12 @@
 								}
 							}
 						},
-						"is_projectile": true,
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
 						"direct_entity": {
 							"type": "minecraft:arrow"
 						}
@@ -190,7 +195,12 @@
 			"conditions": {
 				"damage": {
 					"type": {
-						"is_projectile": true,
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
 						"direct_entity": {
 							"type": "minecraft:trident"
 						}
@@ -203,7 +213,12 @@
 			"conditions": {
 				"damage": {
 					"type": {
-						"is_explosion": "true"
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						]
 					}
 				}
 			}
@@ -213,7 +228,12 @@
 			"conditions": {
 				"damage": {
 					"type": {
-						"is_projectile": true,
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
 						"direct_entity": {
 							"type": "minecraft:snowball"
 						}
@@ -226,7 +246,12 @@
 			"conditions": {
 				"damage": {
 					"type": {
-						"is_projectile": true,
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
 						"direct_entity": {
 							"type": "minecraft:egg"
 						}
@@ -251,7 +276,6 @@
 			"conditions": {
 				"damage": {
 					"type": {
-						"is_magic": "true",
 						"direct_entity": {
 							"type": "minecraft:potion"
 						}
@@ -264,7 +288,6 @@
 			"conditions": {
 				"damage": {
 					"type": {
-						"is_magic": "true",
 						"direct_entity": {
 							"type": "minecraft:area_effect_cloud"
 						}

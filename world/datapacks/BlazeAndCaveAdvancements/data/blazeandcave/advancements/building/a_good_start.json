@@ -4,7 +4,7 @@
 			"item": "minecraft:oak_log"
 		},
 		"title": {"translate":"A Good Start"},
-		"description": {"translate":"Chop down enough trees to collect a full stack of one log type"},
+		"description": {"color":"green","translate":"Chop down enough trees to collect a full stack of one log type"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/root",
@@ -155,6 +155,22 @@
 					}
 				]
 			}
+		},
+		"cherry_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_log",
+							"minecraft:stripped_cherry_log",
+							"minecraft:cherry_wood",
+							"minecraft:stripped_cherry_wood"
+						],
+						"count": 64
+					}
+				]
+			}
 		}
 	},
 	"requirements": [
@@ -167,7 +183,8 @@
 		"dark_oak_log",
 		"crimson_stem",
 		"warped_stem",
-		"mangrove_log"
+		"mangrove_log",
+		"cherry_log"
 		]
 	]
 }

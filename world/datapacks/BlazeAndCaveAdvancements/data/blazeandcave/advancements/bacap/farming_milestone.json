@@ -779,6 +779,19 @@
 					}
 				}
 			}
+		},
+		"hot_chocolate": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/hot_chocolate": "true"
+						}
+					}
+				}
+			}
 		}
 	}
 }

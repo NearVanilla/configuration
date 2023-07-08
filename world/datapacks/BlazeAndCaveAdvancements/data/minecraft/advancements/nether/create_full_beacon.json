@@ -4,7 +4,7 @@
 			"item": "minecraft:beacon"
 		},
 		"title": {"translate":"Beaconator"},
-		"description": {"translate":"Bring a beacon to full power"},
+		"description": {"color":"dark_purple","translate":"Bring a beacon to full power"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

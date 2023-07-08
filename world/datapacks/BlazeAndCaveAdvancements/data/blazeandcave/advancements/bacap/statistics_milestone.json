@@ -688,6 +688,84 @@
 					}
 				}
 			}
+		},
+		"om_nom_nom": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/om_nom_nom": "true"
+						}
+					}
+				}
+			}
+		},
+		"yum_yum_yummo": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/yum_yum_yummo": "true"
+						}
+					}
+				}
+			}
+		},
+		"food_glorious_food": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/food_glorious_food": "true"
+						}
+					}
+				}
+			}
+		},
+		"loot_em": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/loot_em": "true"
+						}
+					}
+				}
+			}
+		},
+		"more_for_me": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/more_for_me": "true"
+						}
+					}
+				}
+			}
+		},
+		"i_heart_chests": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/i_heart_chests": "true"
+						}
+					}
+				}
+			}
 		}
 	}
 }

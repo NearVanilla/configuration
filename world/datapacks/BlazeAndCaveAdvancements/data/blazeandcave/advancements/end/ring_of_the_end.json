@@ -4,7 +4,7 @@
 			"item": "minecraft:dragon_head"
 		},
 		"title": {"translate":"Ring of the End"},
-		"description": {"translate":"Defeat the Ender Dragon 20 times"},
+		"description": {"color":"dark_purple","translate":"Defeat the Ender Dragon 20 times"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

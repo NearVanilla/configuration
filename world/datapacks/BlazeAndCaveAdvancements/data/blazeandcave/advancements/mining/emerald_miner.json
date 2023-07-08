@@ -4,7 +4,7 @@
 			"item": "minecraft:emerald_ore"
 		},
 		"title": {"translate":"Emerald Miner"},
-		"description": {"translate":"Mine a stack of raw emerald ore"},
+		"description": {"color":"dark_purple","translate":"Mine a stack of raw emerald ore"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

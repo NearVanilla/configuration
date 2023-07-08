@@ -4,7 +4,7 @@
 			"item": "minecraft:diamond_sword"
 		},
 		"title": {"translate":"Kill or be Killed"},
-		"description": {"translate":"Defeat 25,000 mobs"},
+		"description": {"color":"dark_purple","translate":"Defeat 25,000 mobs"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

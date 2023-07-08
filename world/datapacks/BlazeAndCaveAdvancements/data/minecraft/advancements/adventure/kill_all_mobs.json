@@ -4,7 +4,7 @@
 			"item": "minecraft:diamond_sword"
 		},
 		"title": {"translate":"Monsters Hunted"},
-		"description": {"translate":"Kill one of every hostile monster"},
+		"description": {"color":"dark_purple","translate":"Kill one of every hostile monster"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

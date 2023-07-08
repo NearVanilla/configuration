@@ -5,7 +5,7 @@
 			"nbt": "{display:{color:16383998}}"
 		},
 		"title": {"translate":"Kung Fu Panda!"},
-		"description": {"translate":"Get beaten up by an angry panda"},
+		"description": {"color":"green","translate":"Get beaten up by an angry panda"},
 		"announce_to_chat": "true"
 
 	},

@@ -4,7 +4,7 @@
 			"item": "minecraft:campfire"
 		},
 		"title": {"translate":"Camping Out"},
-		"description": {"translate":"Craft and place a campfire using some logs, sticks and coal"},
+		"description": {"color":"green","translate":"Craft and place a campfire using some logs, sticks and coal"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/torched",
@@ -15,7 +15,18 @@
 		"campfire": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:campfire"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:campfire"
+								]
+							}
+						}
+					}
+				]
 			}
 		}
 	}

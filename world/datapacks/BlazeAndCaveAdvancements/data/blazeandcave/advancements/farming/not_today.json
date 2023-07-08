@@ -4,7 +4,7 @@
 			"item": "minecraft:poisonous_potato"
 		},
 		"title": {"translate":"Not Today!"},
-		"description": {"translate":"Eat a poisonous potato"},
+		"description": {"color":"green","translate":"Eat a poisonous potato"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:farming/die_potato",

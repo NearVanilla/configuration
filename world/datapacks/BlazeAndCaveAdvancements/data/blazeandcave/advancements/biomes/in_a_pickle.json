@@ -4,7 +4,7 @@
 			"item": "minecraft:sea_pickle"
 		},
 		"title": {"translate":"In a Pickle"},
-		"description": {"translate":"Collect some sea pickles from a coral reef"},
+		"description": {"color":"green","translate":"Collect some sea pickles from a coral reef"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:biomes/the_great_blocky_reef",

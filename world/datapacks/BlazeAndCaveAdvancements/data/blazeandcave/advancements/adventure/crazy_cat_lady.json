@@ -4,7 +4,7 @@
 			"item": "minecraft:salmon"
 		},
 		"title": {"translate":"Crazy Cat Lady"},
-		"description": {"translate":"Tame a stray cat in a village"},
+		"description": {"color":"green","translate":"Tame a stray cat in a village"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/trade",

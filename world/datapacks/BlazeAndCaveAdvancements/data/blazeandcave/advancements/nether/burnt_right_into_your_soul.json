@@ -4,7 +4,7 @@
 			"item": "minecraft:soul_soil"
 		},
 		"title": {"translate":"Burnt Right Into Your Soul"},
-		"description": {"translate":"Get caught on Soul Fire"},
+		"description": {"color":"green","translate":"Get caught on Soul Fire"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:nether/quicksand",

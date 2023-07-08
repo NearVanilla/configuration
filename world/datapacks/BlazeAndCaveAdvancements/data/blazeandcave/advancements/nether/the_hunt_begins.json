@@ -4,7 +4,7 @@
 			"item": "minecraft:bone"
 		},
 		"title": {"translate":"The Hunt Begins"},
-		"description": {"translate":"Kill a wither skeleton"},
+		"description": {"color":"green","translate":"Kill a wither skeleton"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:nether/find_fortress",

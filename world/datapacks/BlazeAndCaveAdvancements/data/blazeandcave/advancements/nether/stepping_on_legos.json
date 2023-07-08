@@ -4,7 +4,7 @@
 			"item": "minecraft:magma_block"
 		},
 		"title": {"translate":"Stepping on Legos"},
-		"description": {"translate":"Walk on some hot Magma Blocks in the Nether"},
+		"description": {"color":"green","translate":"Walk on some hot Magma Blocks in the Nether"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:nether/nugget_in_a_biscuit",

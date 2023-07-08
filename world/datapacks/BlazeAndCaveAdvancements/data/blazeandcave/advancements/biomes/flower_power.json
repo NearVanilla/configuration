@@ -4,11 +4,11 @@
 			"item": "minecraft:rose_bush"
 		},
 		"title": {"translate":"Flower Power"},
-		"description": {"translate":"Collect all types of flowers"},
+		"description": {"color":"dark_purple","translate":"Collect all types of flowers"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
-	"parent": "blazeandcave:biomes/enchanted_forest",
+	"parent": "blazeandcave:biomes/pretty_in_pink",
 	"rewards": {
 		"function": "bc_rewards:biomes/flower_power"
 	},		
@@ -212,6 +212,30 @@
 					{
 						"items": [
 							"minecraft:wither_rose"
+						]
+					}
+				]
+			}
+		},
+		"torchflower": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:torchflower"
+						]
+					}
+				]
+			}
+		},
+		"pitcher_plant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pitcher_plant"
 						]
 					}
 				]

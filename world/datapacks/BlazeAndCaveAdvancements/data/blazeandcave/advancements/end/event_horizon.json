@@ -4,7 +4,7 @@
 			"item": "minecraft:ender_eye"
 		},
 		"title": {"translate":"Event Horizon"},
-		"description": {"translate":"Survive void damage"},
+		"description": {"color":"dark_purple","translate":"Survive void damage"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

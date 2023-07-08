@@ -4,7 +4,7 @@
 			"item": "minecraft:chicken"
 		},
 		"title": {"translate":"Two By Two"},
-		"description": {"translate":"Breed 2500 animals"},
+		"description": {"color":"dark_purple","translate":"Breed 2500 animals"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

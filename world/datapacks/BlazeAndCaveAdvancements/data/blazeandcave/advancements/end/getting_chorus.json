@@ -4,7 +4,7 @@
 			"item": "minecraft:chorus_fruit"
 		},
 		"title": {"translate":"Getting Chorus"},
-		"description": {"translate":"Attack a chorus tree until it collapses"},
+		"description": {"color":"green","translate":"Attack a chorus tree until it collapses"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:end/end_bricks",

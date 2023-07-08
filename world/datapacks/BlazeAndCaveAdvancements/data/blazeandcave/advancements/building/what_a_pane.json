@@ -4,7 +4,7 @@
 			"item": "minecraft:glass_pane"
 		},
 		"title": {"translate":"What a pane"},
-		"description": {"translate":"Craft some glass panes"},
+		"description": {"color":"green","translate":"Craft some glass panes"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/classy_glassy",

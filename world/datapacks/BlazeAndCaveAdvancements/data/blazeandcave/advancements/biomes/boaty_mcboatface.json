@@ -4,7 +4,7 @@
 			"item": "minecraft:oak_boat"
 		},
 		"title": {"translate":"Boaty McBoatface"},
-		"description": {"translate":"Craft and ride a boat to sail on the high seas"},
+		"description": {"color":"green","translate":"Craft and ride a boat to sail on the high seas"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:biomes/the_sea_calls_you",
@@ -20,7 +20,7 @@
 						"condition": "minecraft:entity_properties",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:boats"
+								"type": "#minecraft:boats"
 							}
 						},
 						"entity": "this"

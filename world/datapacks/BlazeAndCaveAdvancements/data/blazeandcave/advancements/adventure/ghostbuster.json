@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_sword"
 		},
 		"title": {"translate":"Ghostbuster!"},
-		"description": {"translate":"Bust a Vex summoned by an Evoker"},
+		"description": {"color":"green","translate":"Bust a Vex summoned by an Evoker"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:adventure/heres_johnny",

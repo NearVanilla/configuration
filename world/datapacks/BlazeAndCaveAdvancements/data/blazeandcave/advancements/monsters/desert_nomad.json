@@ -4,7 +4,7 @@
 			"item": "minecraft:dead_bush"
 		},
 		"title": {"translate":"Desert Nomad"},
-		"description": {"translate":"Kill a husk"},
+		"description": {"color":"green","translate":"Kill a husk"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:monsters/iron_belly",

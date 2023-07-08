@@ -4,7 +4,7 @@
 			"item": "minecraft:egg"
 		},
 		"title": {"translate":"Egging, Dude!"},
-		"description": {"translate":"Vandalise something with eggs"},
+		"description": {"color":"green","translate":"Vandalise something with eggs"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:weaponry/root",
@@ -17,7 +17,12 @@
 			"conditions": {
 				"damage": {
 					"type": {
-						"is_projectile": true,
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
 						"direct_entity": {
 							"type": "minecraft:egg"
 						}

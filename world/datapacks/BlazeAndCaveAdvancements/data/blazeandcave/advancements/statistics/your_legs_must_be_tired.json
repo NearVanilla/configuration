@@ -4,7 +4,7 @@
 			"item": "minecraft:chainmail_leggings"
 		},
 		"title": {"translate":"Your legs must be tired"},
-		"description": {"translate":"Sprint 250km"},
+		"description": {"color":"dark_purple","translate":"Sprint 250km"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

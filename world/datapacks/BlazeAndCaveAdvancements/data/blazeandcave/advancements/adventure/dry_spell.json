@@ -4,7 +4,7 @@
 			"item": "minecraft:wet_sponge"
 		},
 		"title": {"translate":"Dry Spell"},
-		"description": {"translate":"Dry a sponge in a furnace"},
+		"description": {"color":"green","translate":"Dry a sponge in a furnace"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:adventure/the_deep_end",

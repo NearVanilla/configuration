@@ -216,8 +216,8 @@ execute as @s[advancements={blazeandcave:challenges/riddle_me_this=true}] run fu
 execute as @s[advancements={blazeandcave:biomes/terralithic=true}] run function bc_rewards:trophy/biomes/terralithic
 
 # Trophies added in 1.14
-execute as @s[advancements={blazeandcave:mining/the_block_of_eternal_screaming=true}] run function bc_rewards:trophy/mining/the_block_of_eternal_screaming
-execute as @s[advancements={blazeandcave:mining/cataclyst=true}] run function bc_rewards:trophy/mining/cataclyst
+execute as @s[advancements={blazeandcave:redstone/the_block_of_eternal_screaming=true}] run function bc_rewards:trophy/redstone/the_block_of_eternal_screaming
+execute as @s[advancements={blazeandcave:redstone/cataclyst=true}] run function bc_rewards:trophy/redstone/cataclyst
 execute as @s[advancements={blazeandcave:building/and_open=true}] run function bc_rewards:trophy/building/and_open
 execute as @s[advancements={blazeandcave:building/one_pickle_two_pickle_sea_pickle_four=true}] run function bc_rewards:trophy/building/one_pickle_two_pickle_sea_pickle_four
 execute as @s[advancements={blazeandcave:building/colors_of_the_wind=true}] run function bc_rewards:trophy/building/colors_of_the_wind
@@ -233,7 +233,22 @@ execute as @s[advancements={blazeandcave:adventure/sponge_miner=true}] run funct
 execute as @s[advancements={blazeandcave:enchanting/a_rather_pointy_fence_post=true}] run function bc_rewards:trophy/enchanting/a_rather_pointy_fence_post
 execute as @s[advancements={blazeandcave:challenges/farlander=true}] run function bc_rewards:trophy/challenges/farlander
 
+# Trophies added in 1.15
+execute as @s[advancements={blazeandcave:adventure/nerds_never_die=true}] run function bc_rewards:trophy/adventure/nerds_never_die
+execute as @s[advancements={blazeandcave:enchanting/master_miner=true}] run function bc_rewards:trophy/enchanting/master_miner
+execute as @s[advancements={blazeandcave:end/unending_hell=true}] run function bc_rewards:trophy/end/unending_hell
 
+# Trophies added in 1.16
+execute as @s[advancements={blazeandcave:building/cherry_bomb=true}] run function bc_rewards:trophy/building/cherry_bomb
+execute as @s[advancements={blazeandcave:monsters/maximum_resistance=true}] run function bc_rewards:trophy/monsters/maximum_resistance
+execute as @s[advancements={blazeandcave:adventure/undying_fandom=true}] run function bc_rewards:trophy/adventure/undying_fandom
+execute as @s[advancements={blazeandcave:adventure/pottery_exhibition=true}] run function bc_rewards:trophy/adventure/pottery_exhibition
+execute as @s[advancements={blazeandcave:adventure/chromatic_armory=true}] run function bc_rewards:trophy/adventure/chromatic_armory
+execute as @s[advancements={blazeandcave:redstone/monstrous_music=true}] run function bc_rewards:trophy/redstone/monstrous_music
+execute as @s[advancements={blazeandcave:enchanting/silent_but_deadly=true}] run function bc_rewards:trophy/enchanting/silent_but_deadly
+execute as @s[advancements={blazeandcave:statistics/food_glorious_food=true}] run function bc_rewards:trophy/statistics/food_glorious_food
+execute as @s[advancements={blazeandcave:statistics/i_heart_chests=true}] run function bc_rewards:trophy/statistics/i_heart_chests
+execute as @s[advancements={blazeandcave:challenges/poglin=true}] run function bc_rewards:trophy/challenges/poglin
 
 
 

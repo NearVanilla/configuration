@@ -4,7 +4,7 @@
 			"item": "minecraft:minecart"
 		},
 		"title": {"translate":"All Aboard!"},
-		"description": {"translate":"Craft and board a Minecart for railway journeys"},
+		"description": {"color":"green","translate":"Craft and board a Minecart for railway journeys"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:redstone/root",

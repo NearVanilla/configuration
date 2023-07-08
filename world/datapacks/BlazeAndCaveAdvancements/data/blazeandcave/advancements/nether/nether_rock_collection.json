@@ -4,7 +4,7 @@
 			"item": "minecraft:basalt"
 		},
 		"title": {"translate":"Nether Rock Collection"},
-		"description": {"translate":"Mine a stack of Netherrack, Basalt, Blackstone and Magma in the Nether"},
+		"description": {"color":"green","translate":"Mine a stack of Netherrack, Basalt, Blackstone and Magma in the Nether"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:nether/dark_ages",

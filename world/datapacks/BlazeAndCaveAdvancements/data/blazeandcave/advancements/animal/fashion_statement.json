@@ -5,7 +5,7 @@
 			"nbt": "{display:{color:13061821}}"
 		},
 		"title": {"translate":"Fashion Statement"},
-		"description": {"translate":"Dye some leather pants with one color, then put them on"},
+		"description": {"color":"green","translate":"Dye some leather pants with one color, then put them on"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/cool_kids",

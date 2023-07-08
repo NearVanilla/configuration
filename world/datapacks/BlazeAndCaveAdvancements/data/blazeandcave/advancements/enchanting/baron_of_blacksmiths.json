@@ -4,7 +4,7 @@
 			"item": "minecraft:damaged_anvil"
 		},
 		"title": {"translate":"Baron of Blacksmiths"},
-		"description": {"translate":"Get a stack of regular, chipped and damaged Anvils"},
+		"description": {"color":"dark_purple","translate":"Get a stack of regular, chipped and damaged Anvils"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

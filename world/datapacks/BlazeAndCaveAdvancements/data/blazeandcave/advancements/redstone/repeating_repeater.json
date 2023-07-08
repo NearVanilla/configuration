@@ -4,7 +4,7 @@
 			"item": "minecraft:repeater"
 		},
 		"title": {"translate":"Repeating Repeater"},
-		"description": {"translate":"Craft a redstone repeater for delaying signals"},
+		"description": {"color":"green","translate":"Craft a redstone repeater for delaying signals"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:redstone/powerful_light",

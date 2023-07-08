@@ -4,7 +4,7 @@
 			"item": "minecraft:phantom_spawn_egg"
 		},
 		"title": {"translate":"Insomniac"},
-		"description": {"translate":"Go 30 days without sleep"},
+		"description": {"color":"dark_purple","translate":"Go 30 days without sleep"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

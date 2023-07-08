@@ -4,7 +4,7 @@
 			"item": "minecraft:crying_obsidian"
 		},
 		"title": {"translate":"Now You’re Thinking With Portals"},
-		"description": {"translate":"Find a broken Nether Portal in the Overworld"},
+		"description": {"color":"green","translate":"Find a broken Nether Portal in the Overworld"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/root",
@@ -17,7 +17,7 @@
 			"conditions": {
 				"player": [
 					{
-						"condition": "minecraft:alternative",
+						"condition": "minecraft:any_of",
 						"terms": [
 							{
 								"condition": "minecraft:entity_properties",

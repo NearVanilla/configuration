@@ -4,7 +4,7 @@
 			"item": "minecraft:fishing_rod"
 		},
 		"title": {"translate":"Hot Reels!"},
-		"description": {"translate":"Reel in a Strider using a Fishing Rod"},
+		"description": {"color":"green","translate":"Reel in a Strider using a Fishing Rod"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:nether/what_a_fungi",

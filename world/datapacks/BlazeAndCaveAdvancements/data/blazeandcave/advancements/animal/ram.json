@@ -4,7 +4,7 @@
 			"item": "minecraft:goat_horn"
 		},
 		"title": {"translate":"Ram"},
-		"description": {"translate":"Obtain a Goat’s Horn by having one ram into a block"},
+		"description": {"color":"green","translate":"Obtain a Goat’s Horn by having one ram into a block"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/goat_simulator",

@@ -4,7 +4,7 @@
 			"item": "minecraft:axolotl_bucket"
 		},
 		"title": {"translate":"The Cutest Predator"},
-		"description": {"translate":"Catch an Axolotl in a Bucket"},
+		"description": {"color":"green","translate":"Catch an Axolotl in a Bucket"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/tactical_fishing",

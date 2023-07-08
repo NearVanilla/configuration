@@ -4,7 +4,7 @@
 			"item": "minecraft:prismarine_bricks"
 		},
 		"title": {"translate":"Fake monument"},
-		"description": {"translate":"Craft or collect all forms of prismarine blocks"},
+		"description": {"color":"green","translate":"Craft or collect all forms of prismarine blocks"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/greek_art_decor",

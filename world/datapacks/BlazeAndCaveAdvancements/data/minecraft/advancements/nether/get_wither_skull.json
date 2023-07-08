@@ -4,7 +4,7 @@
 			"item": "minecraft:wither_skeleton_skull"
 		},
 		"title": {"translate":"Spooky Scary Skeleton"},
-		"description": {"translate":"Obtain a wither skeleton's skull"},
+		"description": {"color":"green","translate":"Obtain a wither skeleton's skull"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:nether/the_hunt_begins",

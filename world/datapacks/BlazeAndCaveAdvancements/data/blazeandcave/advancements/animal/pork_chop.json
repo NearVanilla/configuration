@@ -4,7 +4,7 @@
 			"item": "minecraft:cooked_porkchop"
 		},
 		"title": {"translate":"Pork Chop"},
-		"description": {"translate":"You know kung fu, how about pork chop?"},
+		"description": {"color":"green","translate":"You know kung fu, how about pork chop?"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/bacon",

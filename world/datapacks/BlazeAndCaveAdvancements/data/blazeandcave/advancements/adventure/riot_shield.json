@@ -5,7 +5,7 @@
 			"nbt": "{BlockEntityTag:{Base:7,Patterns:[{Pattern:hh,Color:3},{Pattern:ts,Color:7}]}}"
 		},
 		"title": {"translate":"Riot Shield"},
-		"description": {"translate":"Deflect a Pillager's crossbow bolt"},
+		"description": {"color":"green","translate":"Deflect a Pillager's crossbow bolt"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:adventure/out_of_posts",
@@ -18,7 +18,12 @@
 			"conditions": {
 				"damage": {
 					"type": {
-						"is_projectile": true
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						]
 					},
 					"blocked": true,
 					"source_entity": {

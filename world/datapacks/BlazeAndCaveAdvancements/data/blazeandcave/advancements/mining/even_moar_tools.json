@@ -4,7 +4,7 @@
 			"item": "minecraft:diamond_shovel"
 		},
 		"title": {"translate":"Even MOAR Tools"},
-		"description": {"translate":"Craft a full diamond tools set"},
+		"description": {"color":"green","translate":"Craft a full diamond tools set"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/stabcraft",

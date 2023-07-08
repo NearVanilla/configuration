@@ -4,7 +4,7 @@
 			"item": "minecraft:purple_dye"
 		},
 		"title": {"translate":"Ender Worm"},
-		"description": {"translate":"Prevent an endermite from maturing"},
+		"description": {"color":"green","translate":"Prevent an endermite from maturing"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:monsters/the_ender_of_ender",

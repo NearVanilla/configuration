@@ -4,7 +4,7 @@
 			"item": "minecraft:rooted_dirt"
 		},
 		"title": {"translate":"This Dirt is Dirtier"},
-		"description": {"translate":"Dig through some Rooted Dirt beneath an Azalea Tree so you can find a Lush Cave"},
+		"description": {"color":"green","translate":"Dig through some Rooted Dirt beneath an Azalea Tree so you can find a Lush Cave"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:story/mine_stone",

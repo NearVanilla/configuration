@@ -4,7 +4,7 @@
 			"item": "minecraft:pufferfish_bucket"
 		},
 		"title": {"translate":"Tactical Fishing"},
-		"description": {"translate":"Catch a fish... without a fishing rod!"},
+		"description": {"color":"green","translate":"Catch a fish... without a fishing rod!"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/fishy_business",

@@ -4,7 +4,7 @@
 			"item": "minecraft:charcoal"
 		},
 		"title": {"translate":"Renewable Energy"},
-		"description": {"translate":"Smelt wood trunks using charcoal to make more charcoal"},
+		"description": {"color":"green","translate":"Smelt wood trunks using charcoal to make more charcoal"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/hot_topic",
@@ -13,15 +13,9 @@
 	},		
 	"criteria": {
 		"charcoal": {
-			"trigger": "minecraft:inventory_changed",
+			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:charcoal"
-						]
-					}
-				]
+				"recipe_id": "minecraft:charcoal"
 			}
 		}
 	}

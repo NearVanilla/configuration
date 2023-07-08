@@ -4,7 +4,7 @@
 			"item": "minecraft:weeping_vines"
 		},
 		"title": {"translate":"Don't Blink"},
-		"description": {"translate":"Climb on some Weeping Vines in a Crimson Forest"},
+		"description": {"color":"green","translate":"Climb on some Weeping Vines in a Crimson Forest"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:nether/i_am_root",

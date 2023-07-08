@@ -4,7 +4,7 @@
 			"item": "minecraft:blaze_rod"
 		},
 		"title": {"translate":"Into Fire"},
-		"description": {"translate":"Relieve a Blaze of its rod"},
+		"description": {"color":"green","translate":"Relieve a Blaze of its rod"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:nether/find_fortress",

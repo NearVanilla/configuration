@@ -4,7 +4,7 @@
 			"item": "minecraft:wheat"
 		},
 		"title": {"translate":"Repopulation"},
-		"description": {"translate":"Breed two cows with wheat"},
+		"description": {"color":"green","translate":"Breed two cows with wheat"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/high_steaks",

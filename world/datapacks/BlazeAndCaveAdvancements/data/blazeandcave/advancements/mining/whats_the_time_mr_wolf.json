@@ -4,7 +4,7 @@
 			"item": "minecraft:clock"
 		},
 		"title": {"translate":"What's the time, Mr Wolf?"},
-		"description": {"translate":"Time to clean your clocks! (Or, craft them!)"},
+		"description": {"color":"green","translate":"Time to clean your clocks! (Or, craft them!)"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/the_way_to_spawn",

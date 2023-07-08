@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_chestplate"
 		},
 		"title": {"translate":"Suit Up"},
-		"description": {"translate":"Protect yourself with a piece of iron armor"},
+		"description": {"color":"green","translate":"Protect yourself with a piece of iron armor"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:story/iron_tools",

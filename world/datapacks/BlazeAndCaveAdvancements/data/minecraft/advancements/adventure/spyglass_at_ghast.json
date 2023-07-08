@@ -4,7 +4,7 @@
 			"item": "minecraft:spyglass"
 		},
 		"title": {"translate":"Is it a Balloon?"},
-		"description": {"translate":"Look at a Ghast through a Spyglass"},
+		"description": {"color":"green","translate":"Look at a Ghast through a Spyglass"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:nether/fire_blast_shield",

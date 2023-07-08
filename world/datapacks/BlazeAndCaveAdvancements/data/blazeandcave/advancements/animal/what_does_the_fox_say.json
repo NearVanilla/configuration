@@ -4,7 +4,7 @@
 			"item": "minecraft:fox_spawn_egg"
 		},
 		"title": {"translate":"What Does The Fox Say?"},
-		"description": {"translate":"Breed two red foxes with sweet berries"},
+		"description": {"color":"green","translate":"Breed two red foxes with sweet berries"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/puppies_yipe",

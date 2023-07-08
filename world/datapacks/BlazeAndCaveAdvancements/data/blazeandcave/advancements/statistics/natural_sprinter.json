@@ -4,7 +4,7 @@
 			"item": "minecraft:red_terracotta"
 		},
 		"title": {"translate":"Natural Sprinter"},
-		"description": {"translate":"Sprint 10km"},
+		"description": {"color":"green","translate":"Sprint 10km"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:statistics/root",

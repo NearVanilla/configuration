@@ -4,7 +4,7 @@
 			"item": "minecraft:potato"
 		},
 		"title": {"translate":"Die, Potato!"},
-		"description": {"translate":"Squash and eat a potato"},
+		"description": {"color":"green","translate":"Squash and eat a potato"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/plant_seed",

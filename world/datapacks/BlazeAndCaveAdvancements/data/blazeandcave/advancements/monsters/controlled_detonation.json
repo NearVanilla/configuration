@@ -4,7 +4,7 @@
 			"item": "minecraft:flint_and_steel"
 		},
 		"title": {"translate":"Controlled Detonation"},
-		"description": {"translate":"Persuade a Creeper to blow up using Flint and Steel"},
+		"description": {"color":"green","translate":"Persuade a Creeper to blow up using Flint and Steel"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:monsters/blast_shield",
@@ -16,9 +16,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": [
-						"minecraft:flint_and_steel"
-					]
+					"tag": "minecraft:creeper_igniters"
 				},
 				"entity": [
 					{

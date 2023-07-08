@@ -4,7 +4,7 @@
 			"item": "minecraft:tropical_fish_bucket"
 		},
 		"title": {"translate":"Tropical Collection"},
-		"description": {"translate":"Collect all 22 of the common types of tropical fish"},
+		"description": {"color":"dark_purple","translate":"Collect all 22 of the common types of tropical fish"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

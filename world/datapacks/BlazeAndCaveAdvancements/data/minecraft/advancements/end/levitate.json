@@ -4,7 +4,7 @@
 			"item": "minecraft:shulker_shell"
 		},
 		"title": {"translate":"Great View From Up Here"},
-		"description": {"translate":"Levitate up a distance of 50 metres"},
+		"description": {"color":"dark_purple","translate":"Levitate up a distance of 50 metres"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

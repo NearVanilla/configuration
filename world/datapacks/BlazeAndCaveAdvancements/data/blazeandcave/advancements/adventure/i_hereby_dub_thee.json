@@ -4,7 +4,7 @@
 			"item": "minecraft:name_tag"
 		},
 		"title": {"translate":"I hereby dub thee..."},
-		"description": {"translate":"Obtain a name tag"},
+		"description": {"color":"green","translate":"Obtain a name tag"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/root",

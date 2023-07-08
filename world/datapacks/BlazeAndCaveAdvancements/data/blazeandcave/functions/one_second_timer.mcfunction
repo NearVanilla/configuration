@@ -1,13 +1,24 @@
 # Function runs once per second
 
+# # Trigger commands
+
+# An Apple a Day
+scoreboard players enable @a bac_apple_a_day
+execute as @a if score @s bac_apple_a_day matches 1.. run function blazeandcave:apple_a_day_trigger
+
+# Statistics
+scoreboard players enable @a bac_statistics
+execute as @a if score @s bac_statistics matches 1.. run function blazeandcave:statistics_trigger
+
+
 # # Llama Festival (progress resets if the player has not completed the advancement and is not sitting on a llama)
 execute as @a at @s unless entity @s[predicate=blazeandcave:llama_sit] if entity @s[advancements={blazeandcave:animal/llama_festival=false}] run advancement revoke @s only blazeandcave:animal/llama_festival
 
 # # Free Diver and Sleep with the Fishes (stay underwater)
-execute as @a at @s run function blazeandcave:stay_underwater
+execute as @a[gamemode=!spectator] at @s run function blazeandcave:stay_underwater
 
 # # Captain America (stay in powder snow)
-execute as @a at @s run function blazeandcave:captain_america
+execute as @a[gamemode=!spectator] at @s run function blazeandcave:captain_america
 
 
 # # On A Rail
@@ -24,7 +35,7 @@ advancement grant @a[nbt={foodLevel:20,foodSaturationLevel:20.0f}] only blazeand
 
 # # Castaway
 # If the player eats dried kelp their score begins to go up once per second
-execute as @a[advancements={blazeandcave:technical/castaway_start=true}] run scoreboard players add @s bac_castaway 1
+execute as @a[gamemode=!spectator,advancements={blazeandcave:technical/castaway_start=true}] run scoreboard players add @s bac_castaway 1
 
 # After three days they obtain the advancement
 advancement grant @a[scores={bac_castaway=3600..}] only blazeandcave:farming/castaway
@@ -36,7 +47,7 @@ execute as @a[advancements={blazeandcave:technical/castaway_fail=true}] run func
 # # Just Keeps Going
 # If the player eats rabbit stew their score begins to go up once per second
 scoreboard players add @a[scores={bac_just_keep=1..}] bac_just_keep 1
-execute as @a[advancements={blazeandcave:technical/just_keeps_going_start=true}] run function blazeandcave:just_keeps_going
+execute as @a[gamemode=!spectator,advancements={blazeandcave:technical/just_keeps_going_start=true}] run function blazeandcave:just_keeps_going
 
 # After three days they obtain the advancement
 advancement grant @a[scores={bac_just_keep=3600..}] only blazeandcave:animal/just_keeps_going
@@ -60,7 +71,7 @@ execute as @a[scores={bac_chorus_reset=0}] run function blazeandcave:a_wizards_b
 
 # # Let Me Out!
 # If the player is in the Nether their score goes up once per second
-scoreboard players add @a[predicate=blazeandcave:in_the_nether] bac_let_me_out 1
+scoreboard players add @a[gamemode=!spectator,predicate=blazeandcave:in_the_nether] bac_let_me_out 1
 
 # After twenty days (six hours and forty minutes) they obtain the advancement
 advancement grant @a[scores={bac_let_me_out=24000..}] only blazeandcave:nether/let_me_out
@@ -74,17 +85,17 @@ execute as @a unless entity @s[predicate=blazeandcave:in_the_nether] run scorebo
 scoreboard players add @a bac_loser 1
 
 # If a player dies the count is reset. If less than 10 seconds are on the count, the "Loser!" advancement is granted
-execute as @a[scores={bac_loser_death=1..}] run function blazeandcave:loser_death
+execute as @a[gamemode=!spectator,scores={bac_loser_death=1..}] run function blazeandcave:loser_death
 
 
 # # Loser! (Hardcore version) (loser_hurt function is only in Hardcore version)
 # If the player has taken damage they have a score added
-execute as @a[scores={bac_loser_hurt=1..}] run function blazeandcave:loser_hurt
+execute as @a[gamemode=!spectator,scores={bac_loser_hurt=1..}] run function blazeandcave:loser_hurt
 
 
 # # Half-Heart Life
 # If the player is on half a heart of health they have a score added. Once this score reaches 60 they get the advancement
-execute as @a if score @s bac_health matches 1 run function blazeandcave:half_heart_life
+execute as @a[gamemode=!spectator] if score @s bac_health matches 1 run function blazeandcave:half_heart_life
 
 # If the player is not on half a heart the score is reset
 execute as @a unless score @s bac_health matches 1 run scoreboard players set @s bac_hh_life 0
@@ -101,40 +112,44 @@ execute as @a[advancements={blazeandcave:technical/give_piglin_gold=true}] at @s
 
 
 # # Family Reunion
-execute as @a at @s if entity @e[type=husk,tag=!bac_baby,distance=..5] if entity @e[type=zombie_villager,tag=!bac_baby,distance=..5] if entity @e[type=drowned,tag=!bac_baby,distance=..5] if entity @e[type=zombified_piglin,tag=!bac_baby,distance=..5] if entity @e[type=zombie,tag=!bac_baby,distance=..5] if entity @e[type=husk,tag=bac_baby,distance=..5] if entity @e[type=zombie_villager,tag=bac_baby,distance=..5] if entity @e[type=drowned,tag=bac_baby,distance=..5] if entity @e[type=zombified_piglin,tag=bac_baby,distance=..5] if entity @e[type=zombie,tag=bac_baby,distance=..5] run advancement grant @s only blazeandcave:monsters/family_reunion
+execute as @a[gamemode=!spectator] at @s if entity @e[type=husk,tag=!bac_baby,distance=..5] if entity @e[type=zombie_villager,tag=!bac_baby,distance=..5] if entity @e[type=drowned,tag=!bac_baby,distance=..5] if entity @e[type=zombified_piglin,tag=!bac_baby,distance=..5] if entity @e[type=zombie,tag=!bac_baby,distance=..5] if entity @e[type=husk,tag=bac_baby,distance=..5] if entity @e[type=zombie_villager,tag=bac_baby,distance=..5] if entity @e[type=drowned,tag=bac_baby,distance=..5] if entity @e[type=zombified_piglin,tag=bac_baby,distance=..5] if entity @e[type=zombie,tag=bac_baby,distance=..5] run advancement grant @s only blazeandcave:monsters/family_reunion
 
 
 # # Bone-to-Party
-execute as @a at @s if entity @e[type=skeleton_horse,distance=..5] if entity @e[type=wither,distance=..5] if entity @e[type=stray,distance=..5] if entity @e[type=wither_skeleton,distance=..5] if entity @e[type=skeleton,distance=..5] run advancement grant @s only blazeandcave:monsters/bone_to_party
+execute as @a[gamemode=!spectator] at @s if entity @e[type=skeleton_horse,distance=..5] if entity @e[type=wither,distance=..5] if entity @e[type=stray,distance=..5] if entity @e[type=wither_skeleton,distance=..5] if entity @e[type=skeleton,distance=..5] run advancement grant @s only blazeandcave:monsters/bone_to_party
 
 
 # # Redemption Arc
-execute as @e[type=pillager,predicate=blazeandcave:no_crossbow] at @s run advancement grant @a[distance=..5] only blazeandcave:adventure/redemption_arc
+execute as @e[type=pillager,predicate=blazeandcave:no_crossbow] at @s run advancement grant @a[gamemode=!spectator,distance=..5] only blazeandcave:adventure/redemption_arc
 
 
 # # Not Afraid of Heights
-execute as @e[type=warden,predicate=blazeandcave:at_world_height] at @s run advancement grant @a[distance=..10] only blazeandcave:monsters/not_afraid_of_heights
+execute as @e[type=warden,predicate=blazeandcave:at_world_height] at @s run advancement grant @a[gamemode=!spectator,distance=..10] only blazeandcave:monsters/not_afraid_of_heights
 
 
 # # House of Freaks
-execute as @a at @s if entity @e[type=warden,distance=..16] run function blazeandcave:count_wardens
+execute as @a[gamemode=!spectator] at @s if entity @e[type=warden,distance=..16] run function blazeandcave:count_wardens
 
 
 # # Animal Kingdom
-execute as @a at @s if entity @e[type=mule,distance=..32] run function blazeandcave:animal_kingdom_check
+execute as @a[gamemode=!spectator] at @s if entity @e[type=mule,distance=..32] run function blazeandcave:animal_kingdom_check
+
+
+# # Unending Hell
+execute as @a[advancements={blazeandcave:technical/unending_hell_end=true}] at @s run function blazeandcave:unending_hell_check
 
 
 # # Event Horizon
 advancement revoke @a[predicate=!blazeandcave:in_the_end] only blazeandcave:technical/below_void
 
 # A player gains the score '1' in event_horizon upon going below the void
-execute as @a[scores={bac_health=1..},advancements={blazeandcave:technical/below_void=true}] run function blazeandcave:below_void
+execute as @a[gamemode=!spectator,scores={bac_health=1..},advancements={blazeandcave:technical/below_void=true}] run function blazeandcave:below_void
 
 # If the player dies they lose the score
 ## Command in tick
 
 # If the player makes it above y = 0 they gain the advancement
-execute as @a[advancements={blazeandcave:technical/return_from_void=true},scores={bac_eventhorizon=1}] run advancement grant @s only blazeandcave:end/event_horizon
+execute as @a[gamemode=!spectator,advancements={blazeandcave:technical/return_from_void=true},scores={bac_eventhorizon=1}] run advancement grant @s only blazeandcave:end/event_horizon
 
 
 # # Dragon vs Dragon

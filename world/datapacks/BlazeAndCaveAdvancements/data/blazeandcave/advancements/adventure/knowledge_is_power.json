@@ -4,7 +4,7 @@
 			"item": "minecraft:enchanted_book"
 		},
 		"title": {"translate":"Knowledge is Power"},
-		"description": {"translate":"Trade for an Enchanted Book"},
+		"description": {"color":"green","translate":"Trade for an Enchanted Book"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/trade",

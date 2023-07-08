@@ -4,7 +4,7 @@
 			"item": "minecraft:spore_blossom"
 		},
 		"title": {"translate":"Particle Fan"},
-		"description": {"translate":"Obtain a Spore Blossom"},
+		"description": {"color":"green","translate":"Obtain a Spore Blossom"},
 		"announce_to_chat": "true"
 
 	},

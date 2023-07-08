@@ -4,7 +4,7 @@
 			"item": "minecraft:stone_pickaxe"
 		},
 		"title": {"translate":"Getting an Upgrade"},
-		"description": {"translate":"Construct a better pickaxe"},
+		"description": {"color":"green","translate":"Construct a better pickaxe"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:story/mine_stone",

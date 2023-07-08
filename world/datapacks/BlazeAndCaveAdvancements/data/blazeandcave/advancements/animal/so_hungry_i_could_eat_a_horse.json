@@ -8,7 +8,7 @@
 		"announce_to_chat": "true",
 		"frame": "goal"
 	},
-	"parent": "blazeandcave:animal/foal_play",
+	"parent": "blazeandcave:animal/a_horse_in_shining_armor",
 	"rewards": {
 		"function": "bc_rewards:animal/so_hungry_i_could_eat_a_horse"
 	},		

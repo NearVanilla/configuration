@@ -4,7 +4,7 @@
 			"item": "minecraft:structure_void"
 		},
 		"title": {"translate":"Pixel Perfect"},
-		"description": {"translate":"Use a Spyglass to stare at a bat from at least 50 blocks away"},
+		"description": {"color":"dark_purple","translate":"Use a Spyglass to stare at a bat from at least 50 blocks away"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

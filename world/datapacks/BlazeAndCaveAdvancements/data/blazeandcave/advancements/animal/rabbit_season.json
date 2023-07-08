@@ -4,7 +4,7 @@
 			"item": "minecraft:cooked_rabbit"
 		},
 		"title": {"translate":"Rabbit Season"},
-		"description": {"translate":"Killing bunnies is cruel. Period."},
+		"description": {"color":"green","translate":"Killing bunnies is cruel. Period."},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/root",

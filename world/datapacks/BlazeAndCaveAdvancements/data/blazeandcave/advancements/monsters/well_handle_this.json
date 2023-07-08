@@ -4,7 +4,7 @@
 			"item": "minecraft:netherrack"
 		},
 		"title": {"translate":"We'll handle this"},
-		"description": {"translate":"Lure a Phantom into the Nether and then kill it"},
+		"description": {"color":"dark_purple","translate":"Lure a Phantom into the Nether and then kill it"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

@@ -9,9 +9,9 @@ plugins:
 - checksum: e77b811d89234f7c56d2ae629dda97622f866c45
   name: CapAFK
   version: 1.4.1.10
-- checksum: 682ef471e89ca429c6d0c0be7efb7e357b7a7ef0
+- checksum: 59dc03a2250c9d5ca9083de5ddab75ed9e282662
   name: Chunky
-  version: 1.3.81
+  version: 1.3.92
 - checksum: 8017016965d5312a3bbc2fb9563abcb1634b9249
   name: DeathLog
   version: 1.0.2
@@ -24,9 +24,9 @@ plugins:
 - checksum: 5cb2143f5cf229f3f3407d6c5a9ff321f1161f8c
   name: GFly
   version: 2.3.0.0
-- checksum: 8b35be30539d6e111068c227e1a9c46fabda6df0
+- checksum: 569541e0e5939e705946ae5dc6f45725f0b27c5f
   name: GSit
-  version: 1.4.4
+  version: 1.4.9
 - checksum: 1ffc1a060c77e071aa4f41a3fb482704c6afe2eb
   name: Hat
   version: 1.5.0
@@ -36,9 +36,9 @@ plugins:
 - checksum: c8c78165907a53a5f542673b49c5cdd74f8cbf76
   name: OnePlayerSleep
   version: 1.0.6-2-ga87aac8
-- checksum: 6922e7c04c8e07593d615bf0eac9430458e218da
+- checksum: ab126e6ac22b03fd96fd83eca1a72c45148973e5
   name: OpenInv
-  version: 4.3.0
+  version: 4.3.1
 - checksum: 743c70bb0994aa4151eb9884786dd3960cbfe212
   name: ServerUtils
   version: 3.5.4
@@ -48,24 +48,21 @@ plugins:
 - checksum: 1425116618d1d7f626771cb5bb64fc74f15d485b
   name: WanderfulAdditions
   version: 0.1.3
-- checksum: 58de19a1560771b121a96b5b521f784d3e8a2ce5
-  name: WorldEdit
-  version: 7.2.15-SNAPSHOT+6361-de453b9
-- checksum: c51bc589adc4f623058c9825037522a8d1c304b6
+- checksum: a264db37f64b9dd9d8558254309d6c21f757f86f
   name: WorldGuard
-  version: 7.0.8+33cdb4a
-- checksum: dd471fba59d8c9899bdf53def3a7006c469bbd1a
+  version: 7.0.9-beta1+2249-223b80c
+- checksum: 0eeac3961162e9889fd3c285c34429bbfced60c4
   name: LuckPerms
-  version: 5.4.79
-- checksum: 5836a27d1ddffc086069def9192805adaf08701d
+  version: 5.4.98
+- checksum: 3a062c1e321a2c061c686b365d0fcd706908d484
   name: spark
-  version: 1.10.39
+  version: 1.10.43
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
-- checksum: f0cc98777c7d786ef0293a56cc5850ac2e6f2c5c
+- checksum: a423f4270c4ceab49b6c19794c93ee5ff4e6c3d6
   name: dynmap
-  version: 3.5-873
+  version: 3.6-899
 - checksum: 0968f44f17fcb052aa4609e63ee2254f4e358d96
   name: PrometheusExporter
   version: 2.5.0
@@ -81,15 +78,21 @@ plugins:
 - checksum: 55e89ae1c8e01117d89165cc933a217b76f55bb7
   name: SpectatorMode
   version: 2.2.0
-- checksum: 8e902e7aed71a5c218e97a7b496100c2b41bd4e3
+- checksum: 34034d20046cf2a05096198013a8a9cdfb807b62
   name: CarbonChat
-  version: 2.1.0-pb
+  version: 2.1.0-beta.15
 - checksum: 044708ba77cfd9b80e8df40070ae2dde5f6eb507
   name: voicechat
   version: 2.4.10
-- checksum: 5518cc00bcb919b26b5bef1051be10bae02ea89d
+- checksum: a11b1d45aa1c9afe170c351b44c0cfa0d0675ad3
   name: FreedomChat
-  version: 1.4.2
+  version: 1.5.0
+- checksum: 1e7ccc7dd4e1dff3f7d2d877a84afc5f375f2c15
+  name: FastAsyncWorldEdit
+  version: 2.6.4
+- checksum: 8e2d326c18de79cb81a669643a76ef09d5b986e8
+  name: ChunkyBorder
+  version: 1.1.50
 version:
-  build: 547
-  name: 1.19.4
+  build: 82
+  name: 1.20.1

@@ -4,7 +4,7 @@
 			"item": "minecraft:trident"
 		},
 		"title": {"translate":"The Healing Power of Friendship"},
-		"description": {"translate":"Team up with an Axolotl and win a fight"},
+		"description": {"color":"green","translate":"Team up with an Axolotl and win a fight"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:husbandry/axolotl_in_a_bucket",

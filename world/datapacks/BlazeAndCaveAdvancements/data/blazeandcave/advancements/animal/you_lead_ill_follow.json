@@ -4,7 +4,7 @@
 			"item": "minecraft:brown_carpet"
 		},
 		"title": {"translate":"You Lead, I'll Follow"},
-		"description": {"translate":"Attach a lead to a llama to form a llama caravan"},
+		"description": {"color":"green","translate":"Attach a lead to a llama to form a llama caravan"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/beeloons",

@@ -4,7 +4,7 @@
 			"item": "minecraft:anvil"
 		},
 		"title": {"translate":"Heavy Metal"},
-		"description": {"translate":"Craft an anvil"},
+		"description": {"color":"green","translate":"Craft an anvil"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:enchanting/root",

@@ -4,7 +4,7 @@
 			"item": "minecraft:panda_spawn_egg"
 		},
 		"title": {"translate":"Zoologist"},
-		"description": {"translate":"Breed two pandas to get a baby panda"},
+		"description": {"color":"green","translate":"Breed two pandas to get a baby panda"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:biomes/construction_worker",

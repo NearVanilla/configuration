@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_door"
 		},
 		"title": {"translate":"Aaaaaand... OPEN!"},
-		"description": {"translate":"Craft and place an iron door"},
+		"description": {"color":"green","translate":"Craft and place an iron door"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/its_a_trap",
@@ -15,8 +15,19 @@
 		"iron_door": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:iron_door"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:iron_door"
+								]
+							}
+						}
+					}
+				]
 			}
-		}		
+		}	
 	}
 }

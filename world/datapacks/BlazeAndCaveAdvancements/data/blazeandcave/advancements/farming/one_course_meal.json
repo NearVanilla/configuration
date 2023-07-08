@@ -4,7 +4,7 @@
 			"item": "minecraft:acacia_sapling"
 		},
 		"title": {"translate":"One-course meal"},
-		"description": {"translate":"Use bone meal to grow a sapling into a tree"},
+		"description": {"color":"green","translate":"Use bone meal to grow a sapling into a tree"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:farming/natural_fertiliser",
@@ -15,33 +15,49 @@
 		"bone_meal": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"block": {
-						"tag": "minecraft:logs_that_burn"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"tag": "minecraft:logs_that_burn"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:bone_meal"
+							]
+						}
 					}
-				},
-				"item": {
-					"items": [
-						"minecraft:bone_meal"
-					]
-				}
+				]
 			}
 		},
 		"bone_meal_propagule": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:air"
-						]
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:air"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:bone_meal"
+							]
+						}
 					}
-				},
-				"item": {
-					"items": [
-						"minecraft:bone_meal"
-					]
-				}
+				]
 			}
 		}
 	},

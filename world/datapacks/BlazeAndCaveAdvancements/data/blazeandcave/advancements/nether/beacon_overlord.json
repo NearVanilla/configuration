@@ -4,7 +4,7 @@
 			"item": "minecraft:diamond_block"
 		},
 		"title": {"translate":"Beacon Overlord"},
-		"description": {"translate":"Acquire every beacon-induced effect at once"},
+		"description": {"color":"dark_purple","translate":"Acquire every beacon-induced effect at once"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

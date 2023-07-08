@@ -5,7 +5,7 @@
 			"nbt": "{Explosion:{Type:0b,Colors:[I; 11743532]}}"
 		},
 		"title": {"translate":"Explosive Fire"},
-		"description": {"translate":"Load your crossbow with a firework"},
+		"description": {"color":"green","translate":"Load your crossbow with a firework"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:weaponry/fireworks_display",

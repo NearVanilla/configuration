@@ -4,7 +4,7 @@
 			"item": "minecraft:wooden_pickaxe"
 		},
 		"title": {"translate":"Time to Mine!"},
-		"description": {"translate":"Use planks and sticks to make a pickaxe"},
+		"description": {"color":"green","translate":"Use planks and sticks to make a pickaxe"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:story/root",

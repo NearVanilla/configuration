@@ -4,7 +4,7 @@
 			"item": "minecraft:shears"
 		},
 		"title": {"translate":"MOAR Broken Tools"},
-		"description": {"translate":"Break every single tool and weapon in the game"},
+		"description": {"color":"dark_purple","translate":"Break every single tool and weapon in the game"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
@@ -513,6 +513,19 @@
 				"item": {
 					"items": [
 						"minecraft:warped_fungus_on_a_stick"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
+		"brush": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:brush"
 					]
 				},
 				"durability": {

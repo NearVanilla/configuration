@@ -5,7 +5,7 @@
 			"nbt": "{Enchantments:[{id:\"minecraft:swift_sneak\",lvl:3}]}"
 		},
 		"title": {"translate":"Silent But Deadly"},
-		"description": {"translate":"Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings. Try saying that six times swiftly"},
+		"description": {"color":"dark_purple","translate":"Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings. Try saying that six times swiftly"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

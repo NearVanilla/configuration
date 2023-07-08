@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_horse_armor"
 		},
 		"title": {"translate":"Horse Training"},
-		"description": {"translate":"Ride 1km on a horse"},
+		"description": {"color":"green","translate":"Ride 1km on a horse"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:statistics/root",

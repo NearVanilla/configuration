@@ -4,7 +4,7 @@
 			"item": "minecraft:pearlescent_froglight"
 		},
 		"title": {"translate":"The Void Frogs"},
-		"description": {"translate":"Lower a Frog into the void using a Slow Falling potion, then kill it so it becomes one with the void"},
+		"description": {"color":"dark_purple","translate":"Lower a Frog into the void using a Slow Falling potion, then kill it so it becomes one with the void"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

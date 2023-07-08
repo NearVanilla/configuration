@@ -4,7 +4,7 @@
 			"item": "minecraft:nether_bricks"
 		},
 		"title": {"translate":"A Terrible Fortress"},
-		"description": {"translate":"Break your way into a Nether Fortress"},
+		"description": {"color":"green","translate":"Break your way into a Nether Fortress"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:nether/root",

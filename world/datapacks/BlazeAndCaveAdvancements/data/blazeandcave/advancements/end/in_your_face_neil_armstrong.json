@@ -4,10 +4,10 @@
 			"item": "minecraft:potato"
 		},
 		"title": {"translate":"In Your Face, Neil Armstrong"},
-		"description": {"translate":"Colonise the End with potato crops"},
+		"description": {"color":"green","translate":"Colonise the End with potato crops"},
 		"announce_to_chat": "true"
 	},
-	"parent": "blazeandcave:end/void_walker",
+	"parent": "blazeandcave:end/extrabiologist",
 	"rewards": {
 		"function": "bc_rewards:end/in_your_face_neil_armstrong"
 	},		
@@ -15,10 +15,19 @@
 		"potato": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:potatoes",
-				"location": {
-					"dimension": "the_end"
-				}
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:potatoes"
+								]
+							},
+							"dimension": "the_end"
+						}
+					}
+				]
 			}
 		}
 	}

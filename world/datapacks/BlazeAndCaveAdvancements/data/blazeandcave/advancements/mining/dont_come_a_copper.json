@@ -4,7 +4,7 @@
 			"item": "minecraft:cut_copper"
 		},
 		"title": {"translate":"Don’t Come a Copper!"},
-		"description": {"translate":"Craft some Cut Copper"},
+		"description": {"color":"green","translate":"Craft some Cut Copper"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/youll_never_take_me_alive_copper",

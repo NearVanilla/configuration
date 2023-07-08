@@ -4,7 +4,7 @@
 			"item": "minecraft:purpur_pillar"
 		},
 		"title": {"translate":"Purpurfect!"},
-		"description": {"translate":"Craft or collect purpur blocks, slabs, pillars and stairs"},
+		"description": {"color":"green","translate":"Craft or collect purpur blocks, slabs, pillars and stairs"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:end/extrabiologist",

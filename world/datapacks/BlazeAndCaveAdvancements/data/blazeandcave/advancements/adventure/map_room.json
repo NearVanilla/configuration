@@ -4,7 +4,7 @@
 			"item": "minecraft:item_frame"
 		},
 		"title": {"translate":"Map Room"},
-		"description": {"translate":"Place a map in an item frame"},
+		"description": {"color":"green","translate":"Place a map in an item frame"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:adventure/im_not_lost_anymore",
@@ -22,7 +22,7 @@
 				},
 				"entity": [
 					{
-						"condition": "minecraft:alternative",
+						"condition": "minecraft:any_of",
 						"terms": [
 							{
 								"condition": "minecraft:entity_properties",

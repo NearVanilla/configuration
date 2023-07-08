@@ -16,19 +16,52 @@
 		"verdant_froglight": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:verdant_froglight"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:verdant_froglight"
+								]
+							}
+						}
+					}
+				]
 			}
 		},
 		"ochre_froglight": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:ochre_froglight"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:ochre_froglight"
+								]
+							}
+						}
+					}
+				]
 			}
 		},
 		"pearlescent_froglight": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:pearlescent_froglight"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:pearlescent_froglight"
+								]
+							}
+						}
+					}
+				]
 			}
 		}
 	}

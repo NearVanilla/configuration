@@ -4,7 +4,7 @@
 			"item": "minecraft:allay_spawn_egg"
 		},
 		"title": {"translate":"Allayance"},
-		"description": {"translate":"Rescue an Allay from a Pillager Outpost or Woodland Mansion and give it something to play with"},
+		"description": {"color":"green","translate":"Rescue an Allay from a Pillager Outpost or Woodland Mansion and give it something to play with"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:adventure/out_of_posts",

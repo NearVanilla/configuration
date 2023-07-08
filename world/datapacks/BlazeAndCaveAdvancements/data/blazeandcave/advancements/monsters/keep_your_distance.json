@@ -4,7 +4,7 @@
 			"item": "minecraft:bow"
 		},
 		"title": {"translate":"Keep Your Distance"},
-		"description": {"translate":"Kill a Creeper with arrows"},
+		"description": {"color":"green","translate":"Kill a Creeper with arrows"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:monsters/what_a_creep",
@@ -16,7 +16,12 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"killing_blow": {
-					"is_projectile": true,
+					"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
 						"direct_entity": {
 							"type": "minecraft:arrow"
 						}

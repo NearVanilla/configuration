@@ -4,7 +4,7 @@
 			"item": "minecraft:jack_o_lantern"
 		},
 		"title": {"translate":"Halloween!"},
-		"description": {"translate":"Light up the area with jack o'lanterns!"},
+		"description": {"color":"green","translate":"Light up the area with jack o'lanterns!"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/torched",
@@ -15,7 +15,18 @@
 		"jack_o_lantern": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:jack_o_lantern"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:jack_o_lantern"
+								]
+							}
+						}
+					}
+				]
 			}
 		}
 	}

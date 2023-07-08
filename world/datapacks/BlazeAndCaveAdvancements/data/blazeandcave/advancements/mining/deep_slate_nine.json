@@ -4,7 +4,7 @@
 			"item": "minecraft:deepslate"
 		},
 		"title": {"translate":"Deep Slate Nine"},
-		"description": {"translate":"Mine deep enough that the stone darkens"},
+		"description": {"color":"green","translate":"Mine deep enough that the stone darkens"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/heart_of_darkness",

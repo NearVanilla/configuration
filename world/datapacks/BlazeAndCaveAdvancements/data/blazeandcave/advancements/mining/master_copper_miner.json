@@ -4,7 +4,7 @@
 			"item": "minecraft:copper_block"
 		},
 		"title": {"translate":"Master Copper Miner"},
-		"description": {"translate":"Mine enough copper to make a stack of Copper Blocks"},
+		"description": {"color":"dark_purple","translate":"Mine enough copper to make a stack of Copper Blocks"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

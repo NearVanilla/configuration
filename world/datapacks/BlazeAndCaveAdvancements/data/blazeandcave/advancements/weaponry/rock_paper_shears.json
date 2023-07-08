@@ -4,7 +4,7 @@
 			"item": "minecraft:shears"
 		},
 		"title": {"translate":"Rock, Paper, Shears!"},
-		"description": {"translate":"Beat a zombie at rock, paper, shears"},
+		"description": {"color":"green","translate":"Beat a zombie at rock, paper, shears"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:weaponry/inspector_gadget",
@@ -28,6 +28,16 @@
 						"absolute": {
 							"max": 5
 						}
+					}
+				},
+				"killing_blow": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
 					}
 				},
 				"player": {
@@ -58,6 +68,16 @@
 							"max": 5
 						}
 					}
+				},
+				"killing_blow": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
+					}
 				},			
 				"player": {
 					"equipment": {
@@ -86,6 +106,16 @@
 						"absolute": {
 							"max": 5
 						}
+					}
+				},
+				"killing_blow": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
 					}
 				},			
 				"player": {

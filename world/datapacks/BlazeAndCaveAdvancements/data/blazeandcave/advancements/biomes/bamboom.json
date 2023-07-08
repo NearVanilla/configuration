@@ -4,7 +4,7 @@
 			"item": "minecraft:bamboo"
 		},
 		"title": {"translate":"Bamboom!"},
-		"description": {"translate":"Break down some bamboo"},
+		"description": {"color":"green","translate":"Break down some bamboo"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:biomes/tarzan",

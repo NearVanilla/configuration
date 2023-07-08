@@ -4,7 +4,7 @@
 			"item": "minecraft:light_blue_bed"
 		},
 		"title": {"translate":"Change of Sheets"},
-		"description": {"translate":"Dye your bed a different color than white"},
+		"description": {"color":"green","translate":"Dye your bed a different color than white"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:adventure/sleep_in_bed",

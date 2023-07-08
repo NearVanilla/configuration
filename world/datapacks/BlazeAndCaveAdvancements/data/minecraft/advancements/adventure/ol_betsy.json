@@ -4,7 +4,7 @@
 			"item": "minecraft:crossbow"
 		},
 		"title": {"translate":"Ol' Betsy"},
-		"description": {"translate":"Shoot a crossbow"},
+		"description": {"color":"green","translate":"Shoot a crossbow"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:weaponry/x_bow",

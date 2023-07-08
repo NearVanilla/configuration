@@ -4,7 +4,7 @@
 			"item": "minecraft:sugar_cane"
 		},
 		"title": {"translate":"Sugar, Sugar"},
-		"description": {"translate":"Harvest some sugar cane from a river or ocean"},
+		"description": {"color":"green","translate":"Harvest some sugar cane from a river or ocean"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:farming/care_for_the_environment",

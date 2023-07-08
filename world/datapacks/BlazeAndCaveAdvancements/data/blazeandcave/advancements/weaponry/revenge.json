@@ -4,7 +4,7 @@
 			"item": "minecraft:creeper_head"
 		},
 		"title": {"translate":"Revenge!"},
-		"description": {"translate":"Blow up a creeper with TNT"},
+		"description": {"color":"green","translate":"Blow up a creeper with TNT"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:weaponry/bombs_away",
@@ -19,7 +19,12 @@
 					"type": "creeper"
 				},
 				"killing_blow": {
-					"is_explosion": true
+					"tags": [
+						{
+							"id": "minecraft:is_explosion",
+							"expected": true
+						}
+					]
 				}
 			}
 		}

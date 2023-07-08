@@ -4,7 +4,7 @@
 			"item": "minecraft:lava_bucket"
 		},
 		"title": {"translate":"Hot Tub"},
-		"description": {"translate":"Sit in a cauldron filled with lava"},
+		"description": {"color":"green","translate":"Sit in a cauldron filled with lava"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/bubble_bubble_toil_and_trouble",

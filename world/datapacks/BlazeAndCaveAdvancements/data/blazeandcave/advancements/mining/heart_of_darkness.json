@@ -4,7 +4,7 @@
 			"item": "minecraft:black_concrete_powder"
 		},
 		"title": {"translate":"Heart of Darkness"},
-		"description": {"translate":"Submerge yourself in complete darkness"},
+		"description": {"color":"green","translate":"Submerge yourself in complete darkness"},
 		"announce_to_chat": "true"
 	},
 	"parent": "minecraft:story/mine_stone",

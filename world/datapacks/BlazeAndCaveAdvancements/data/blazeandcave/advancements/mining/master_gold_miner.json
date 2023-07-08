@@ -4,7 +4,7 @@
 			"item": "minecraft:gold_block"
 		},
 		"title": {"translate":"Master Gold Miner"},
-		"description": {"translate":"Mine enough gold to make a stack of gold blocks"},
+		"description": {"color":"dark_purple","translate":"Mine enough gold to make a stack of gold blocks"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

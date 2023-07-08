@@ -4,7 +4,7 @@
 			"item": "minecraft:ghast_tear"
 		},
 		"title": {"translate":"Uneasy Alliance"},
-		"description": {"translate":"Rescue a Ghast from the Nether, bring it safely home to the Overworld... and then kill it"},
+		"description": {"color":"dark_purple","translate":"Rescue a Ghast from the Nether, bring it safely home to the Overworld... and then kill it"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

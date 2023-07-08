@@ -4,7 +4,7 @@
 			"item": "minecraft:chest_minecart"
 		},
 		"title": {"translate":"Steals on Wheels"},
-		"description": {"translate":"Loot a minecart chest from an Abandoned Mineshaft"},
+		"description": {"color":"green","translate":"Loot a minecart chest from an Abandoned Mineshaft"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/eeuuwww",

@@ -4,7 +4,7 @@
 			"item": "minecraft:experience_bottle"
 		},
 		"title": {"translate":"Complete Enchanter"},
-		"description": {"translate":"Obtain every enchantment throughout your enchanting career"},
+		"description": {"color":"dark_purple","translate":"Obtain every enchantment throughout your enchanting career"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

@@ -4,7 +4,7 @@
 			"item": "minecraft:paper"
 		},
 		"title": {"translate":"Ooh, Baby!"},
-		"description": {"translate":"Kill a baby zombie"},
+		"description": {"color":"green","translate":"Kill a baby zombie"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:monsters/dead_dont_die",

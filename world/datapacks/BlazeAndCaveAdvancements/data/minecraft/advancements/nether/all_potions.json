@@ -4,7 +4,7 @@
 			"item": "minecraft:milk_bucket"
 		},
 		"title": {"translate":"A Furious Cocktail"},
-		"description": {"translate":"Have every potion effect applied at the same time"},
+		"description": {"color":"dark_purple","translate":"Have every potion effect applied at the same time"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

@@ -4,7 +4,7 @@
 			"item": "minecraft:netherite_hoe"
 		},
 		"title": {"translate":"Fool Me Twice"},
-		"description": {"translate":"Completely use up a netherite hoe. Clearly you have chosen... poorly"},
+		"description": {"color":"dark_purple","translate":"Completely use up a netherite hoe. Clearly you have chosen... poorly"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

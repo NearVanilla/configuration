@@ -4,10 +4,10 @@
 			"item": "minecraft:torch"
 		},
 		"title": {"translate":"Torched!"},
-		"description": {"translate":"Light up the area with some torches"},
+		"description": {"color":"green","translate":"Light up the area with some torches"},
 		"announce_to_chat": "true"
 	},
-	"parent": "blazeandcave:building/stationary_storage",
+	"parent": "blazeandcave:building/your_door_was_locked",
 	"rewards": {
 		"function": "bc_rewards:building/torched"
 	},		
@@ -15,20 +15,20 @@
 		"torch": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:torch"
-			}
-		},
-		"wall_torch": {
-			"trigger": "minecraft:placed_block",
-			"conditions": {
-				"block": "minecraft:wall_torch"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:torch",
+									"minecraft:wall_torch"
+								]
+							}
+						}
+					}
+				]
 			}
 		}
-	},
-	"requirements": [
-		[
-		"torch",
-		"wall_torch"
-		]
-	]
+	}
 }

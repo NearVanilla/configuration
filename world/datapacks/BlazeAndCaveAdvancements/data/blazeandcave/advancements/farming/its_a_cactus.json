@@ -4,7 +4,7 @@
 			"item": "minecraft:green_dye"
 		},
 		"title": {"translate":"It's a cactus!"},
-		"description": {"translate":"Break down a cactus in a desert"},
+		"description": {"color":"green","translate":"Break down a cactus in a desert"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:farming/care_for_the_environment",

@@ -4,7 +4,7 @@
 			"item": "minecraft:coal_block"
 		},
 		"title": {"translate":"Master Coal Miner"},
-		"description": {"translate":"Mine enough coal to make a stack of coal blocks"},
+		"description": {"color":"dark_purple","translate":"Mine enough coal to make a stack of coal blocks"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

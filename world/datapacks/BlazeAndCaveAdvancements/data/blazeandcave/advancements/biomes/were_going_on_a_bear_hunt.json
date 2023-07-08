@@ -4,7 +4,7 @@
 			"item": "minecraft:snow"
 		},
 		"title": {"translate":"We’re Going on a Bear Hunt"},
-		"description": {"translate":"Get hunted by a Polar Bear"},
+		"description": {"color":"green","translate":"Get hunted by a Polar Bear"},
 		"announce_to_chat": "true"
 
 	},

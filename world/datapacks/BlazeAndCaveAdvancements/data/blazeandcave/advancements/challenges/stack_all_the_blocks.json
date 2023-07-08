@@ -4,7 +4,7 @@
 			"item": "minecraft:prismarine_bricks"
 		},
 		"title": {"translate":"Stack All the Blocks!"},
-		"description": {"color":"#FF2A2A","translate":"Obtain a stack of all the blocks!"},
+		"description": {"color":"#FF2A2A","translate":"Obtain a stack of all the blocks!","extra":[{"text":"\n\n"},{"italic":"true","color":"dark_gray","translate":"The following are not required:"},{"color":"gray","text":"\n"},{"color":"gray","translate":"block.minecraft.dragon_egg"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.netherite_block"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.deepslate_emerald_ore"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.tall_grass"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.large_fern"}]},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
@@ -2396,18 +2396,6 @@
 				]
 			}
 		},
-		"dragon_egg": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:dragon_egg"
-						]
-					}
-				]
-			}
-		},
 		"dragon_head": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
@@ -3492,30 +3480,6 @@
 							"minecraft:lapis_ore"
 						],
 						"count": 64
-					}
-				]
-			}
-		},
-		"large_fern": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:large_fern"
-						]
-					}
-				]
-			}
-		},
-		"tall_grass": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:tall_grass"
-						]
 					}
 				]
 			}
@@ -7321,18 +7285,6 @@
 				]
 			}
 		},
-		"netherite_block": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:netherite_block"
-						]
-					}
-				]
-			}
-		},
 		"crimson_fungus": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
@@ -9569,18 +9521,6 @@
 				]
 			}
 		},
-		"deepslate_emerald_ore": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:deepslate_emerald_ore"
-						]
-					}
-				]
-			}
-		},
 		"deepslate_coal_ore": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
@@ -10017,6 +9957,655 @@
 					{
 						"items": [
 							"minecraft:sculk_vein"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"bamboo_mosaic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_mosaic"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"bamboo_mosaic_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_mosaic_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"bamboo_mosaic_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_mosaic_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"bamboo_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_planks"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"bamboo_button": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_button"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"bamboo_door": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_door"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"bamboo_fence": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_fence"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"bamboo_fence_gate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_fence_gate"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"bamboo_pressure_plate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_pressure_plate"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"bamboo_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_sign"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"bamboo_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"bamboo_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"bamboo_trapdoor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_trapdoor"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"bamboo_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_block"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"stripped_bamboo_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:stripped_bamboo_block"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"calibrated_sculk_sensor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:calibrated_sculk_sensor"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cherry_leaves": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_leaves"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cherry_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_log"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"stripped_cherry_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:stripped_cherry_log"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cherry_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_planks"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cherry_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cherry_pressure_plate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_pressure_plate"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cherry_fence": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_fence"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cherry_trapdoor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_trapdoor"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cherry_fence_gate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_fence_gate"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cherry_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cherry_button": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_button"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cherry_door": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_door"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cherry_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_sign"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"cherry_sapling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_sapling"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cherry_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_wood"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"stripped_cherry_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:stripped_cherry_wood"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"chiseled_bookshelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:chiseled_bookshelf"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"decorated_pot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:decorated_pot"
+						]
+					}
+				]
+			}
+		},
+		"oak_hanging_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oak_hanging_sign"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"spruce_hanging_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:spruce_hanging_sign"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"birch_hanging_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:birch_hanging_sign"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"jungle_hanging_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:jungle_hanging_sign"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"acacia_hanging_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:acacia_hanging_sign"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"dark_oak_hanging_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:dark_oak_hanging_sign"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"mangrove_hanging_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:mangrove_hanging_sign"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"crimson_hanging_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:crimson_hanging_sign"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"warped_hanging_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:warped_hanging_sign"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"bamboo_hanging_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_hanging_sign"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"cherry_hanging_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_hanging_sign"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"piglin_head": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:piglin_head"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pink_petals": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pink_petals"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pitcher_plant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pitcher_plant"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"sniffer_egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sniffer_egg"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"torchflower": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:torchflower"
 						],
 						"count": 64
 					}

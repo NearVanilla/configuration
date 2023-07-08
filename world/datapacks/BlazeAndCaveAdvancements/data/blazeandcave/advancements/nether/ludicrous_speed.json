@@ -4,7 +4,7 @@
 			"item": "minecraft:red_glazed_terracotta"
 		},
 		"title": {"translate":"Ludicrous Speed!"},
-		"description": {"translate":"Achieve an absolutely insane speed by combining the Speed II effect, Dolphin’s Grace, Depth Strider III, Soul Speed III and sprinting"},
+		"description": {"color":"dark_purple","translate":"Achieve an absolutely insane speed by combining the Speed II effect, Dolphin’s Grace, Depth Strider III, Soul Speed III and sprinting"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

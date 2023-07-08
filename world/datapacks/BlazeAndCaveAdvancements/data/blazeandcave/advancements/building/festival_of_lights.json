@@ -4,7 +4,7 @@
 			"item": "minecraft:lantern"
 		},
 		"title": {"translate":"Festival of Lights"},
-		"description": {"translate":"Light up the area using a lantern"},
+		"description": {"color":"green","translate":"Light up the area using a lantern"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/torched",
@@ -15,7 +15,18 @@
 		"lantern": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:lantern"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:lantern"
+								]
+							}
+						}
+					}
+				]
 			}
 		}
 	}

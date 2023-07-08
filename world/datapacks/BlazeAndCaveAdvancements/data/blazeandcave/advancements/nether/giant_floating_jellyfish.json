@@ -4,7 +4,7 @@
 			"item": "minecraft:gunpowder"
 		},
 		"title": {"translate":"Giant Floating Jellyfish"},
-		"description": {"translate":"Shoot down a ghast"},
+		"description": {"color":"green","translate":"Shoot down a ghast"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:nether/the_tribal_snouts",

@@ -76,6 +76,14 @@
 					"type": "minecraft:ender_pearl"
 				}
 			}
+		},
+		"fishing_bobber": {
+			"trigger": "minecraft:target_hit",
+			"conditions": {
+				"projectile": {
+					"type": "minecraft:fishing_bobber"
+				}
+			}
 		}
 	}
 }

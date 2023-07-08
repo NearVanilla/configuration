@@ -493,6 +493,19 @@
 					}
 				}
 			}
+		},
+		"poglin": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:challenges/poglin": "true"
+						}
+					}
+				}
+			}
 		}
 	}
 }

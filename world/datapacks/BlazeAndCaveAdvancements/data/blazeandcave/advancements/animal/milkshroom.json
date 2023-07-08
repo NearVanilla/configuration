@@ -4,7 +4,7 @@
 			"item": "minecraft:mushroom_stew"
 		},
 		"title": {"translate":"Milkshroom"},
-		"description": {"translate":"Milk a mooshroom with a bowl to get mushroom stew"},
+		"description": {"color":"green","translate":"Milk a mooshroom with a bowl to get mushroom stew"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/super_mooshroom",

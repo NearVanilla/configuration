@@ -4,7 +4,7 @@
 			"item": "minecraft:hay_block"
 		},
 		"title": {"translate":"Overpopulation"},
-		"description": {"translate":"Breed every type of animal"},
+		"description": {"color":"dark_purple","translate":"Breed every type of animal"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
@@ -194,6 +194,22 @@
 	  "conditions": {
 		"parent": {
 		  "type": "minecraft:frog"
+		}
+	  }
+	},
+	"minecraft:camel": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "type": "minecraft:camel"
+		}
+	  }
+	},
+	"minecraft:sniffer": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "type": "minecraft:sniffer"
 		}
 	  }
 	}

@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_nugget"
 		},
 		"title": {"translate":"There has to be another way..."},
-		"description": {"translate":"Kill a zombie villager"},
+		"description": {"color":"green","translate":"Kill a zombie villager"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:monsters/dead_dont_die",

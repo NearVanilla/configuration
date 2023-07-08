@@ -4,7 +4,7 @@
 			"item": "minecraft:chest"
 		},
 		"title": {"translate":"War Pigs"},
-		"description": {"translate":"Loot a chest in a Bastion Remnant"},
+		"description": {"color":"green","translate":"Loot a chest in a Bastion Remnant"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:nether/brute_force",

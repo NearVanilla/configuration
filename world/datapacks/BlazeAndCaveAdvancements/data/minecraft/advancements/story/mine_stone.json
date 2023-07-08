@@ -4,7 +4,7 @@
 			"item": "minecraft:wooden_pickaxe"
 		},
 		"title": {"translate":"Stone Age"},
-		"description": {"translate":"Mine stone with your new pickaxe"},
+		"description": {"color":"green","translate":"Mine stone with your new pickaxe"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/root",
@@ -17,10 +17,69 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "minecraft:stone_tool_materials"
+						"items": [
+							"minecraft:cobblestone"
+						]
+					}
+				]
+			}
+		},
+		"stone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:stone"
+						]
+					}
+				]
+			}
+		},
+		"cobbled_deepslate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cobbled_deepslate"
+						]
+					}
+				]
+			}
+		},
+		"deepslate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate"
+						]
+					}
+				]
+			}
+		},
+		"blackstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:blackstone"
+						]
 					}
 				]
 			}
 		}
-	}
+	},
+	"requirements": [
+		[
+			"cobblestone",
+			"stone",
+			"cobbled_deepslate",
+			"deepslate",
+			"blackstone"
+		]
+	]
 }

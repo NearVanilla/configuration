@@ -4,7 +4,7 @@
 			"item": "minecraft:glow_berries"
 		},
 		"title": {"translate":"A Shiny Treat"},
-		"description": {"translate":"Eat some Glow Berries"},
+		"description": {"color":"green","translate":"Eat some Glow Berries"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/leaflet_drop",

@@ -4,7 +4,7 @@
 			"item": "minecraft:clock"
 		},
 		"title": {"translate":"It's time consuming"},
-		"description": {"translate":"Kill something using a clock"},
+		"description": {"color":"green","translate":"Kill something using a clock"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:weaponry/diemonds",
@@ -21,7 +21,17 @@
 							"max": 5
 						}
 					}
-				},			
+				},
+				"killing_blow": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
+					}
+				},
 				"player": {
 					"equipment": {
 						"mainhand": {

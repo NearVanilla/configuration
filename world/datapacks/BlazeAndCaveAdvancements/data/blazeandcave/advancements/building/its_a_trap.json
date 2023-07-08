@@ -4,7 +4,7 @@
 			"item": "minecraft:oak_trapdoor"
 		},
 		"title": {"translate":"It's a Trap!"},
-		"description": {"translate":"Craft and place down a trapdoor"},
+		"description": {"color":"green","translate":"Craft and place down a trapdoor"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/ladder_climbers_inc",
@@ -15,9 +15,14 @@
 		"trapdoor": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"item": {			
-					"tag": "minecraft:trapdoors"
-				}
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"tag": "minecraft:trapdoors"
+						}
+					}
+				]
 			}
 		}
 	}	

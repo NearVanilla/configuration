@@ -4,7 +4,7 @@
 			"item": "minecraft:spider_eye"
 		},
 		"title": {"translate":"Pupil Poppers"},
-		"description": {"translate":"Eat 1000 Spider Eyes"},
+		"description": {"color":"dark_purple","translate":"Eat 1000 Spider Eyes"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

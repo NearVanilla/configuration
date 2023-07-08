@@ -4,7 +4,7 @@
 			"item": "minecraft:wooden_axe"
 		},
 		"title": {"translate":"Time to Chop!"},
-		"description": {"translate":"Use planks and sticks to make an axe"},
+		"description": {"color":"green","translate":"Use planks and sticks to make an axe"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:bacap/time_to_strike",

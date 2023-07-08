@@ -4,7 +4,7 @@
 			"item": "minecraft:glow_ink_sac"
 		},
 		"title": {"translate":"Cephalight"},
-		"description": {"translate":"Kill a Glow Squid"},
+		"description": {"color":"green","translate":"Kill a Glow Squid"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/direct_fishing",

@@ -4,7 +4,7 @@
 			"item": "minecraft:sea_lantern"
 		},
 		"title": {"translate":"Expensive!"},
-		"description": {"translate":"Light up the area with some sea lanterns"},
+		"description": {"color":"green","translate":"Light up the area with some sea lanterns"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/electric",
@@ -15,7 +15,18 @@
 		"sea_lantern": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:sea_lantern"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:sea_lantern"
+								]
+							}
+						}
+					}
+				]
 			}
 		}
 	}

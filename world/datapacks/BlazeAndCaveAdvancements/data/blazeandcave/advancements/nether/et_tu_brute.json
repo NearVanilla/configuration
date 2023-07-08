@@ -4,7 +4,7 @@
 			"item": "minecraft:chain"
 		},
 		"title": {"translate":"Et tu, Brute?"},
-		"description": {"translate":"Get murdered by Piglin Brutes"},
+		"description": {"color":"green","translate":"Get murdered by Piglin Brutes"},
 		"announce_to_chat": "true"
 
 	},

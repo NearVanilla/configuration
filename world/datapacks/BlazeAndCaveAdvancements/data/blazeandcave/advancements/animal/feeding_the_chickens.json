@@ -4,7 +4,7 @@
 			"item": "minecraft:wheat_seeds"
 		},
 		"title": {"translate":"Feeding the §mDucks§r Chickens"},
-		"description": {"translate":"Breed chickens by feeding them seeds"},
+		"description": {"color":"green","translate":"Breed chickens by feeding them seeds"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/which_came_first",

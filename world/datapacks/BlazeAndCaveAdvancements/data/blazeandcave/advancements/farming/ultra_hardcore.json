@@ -4,7 +4,7 @@
 			"item": "minecraft:golden_apple"
 		},
 		"title": {"translate":"Ultra Hardcore"},
-		"description": {"translate":"Craft and eat a normal golden apple"},
+		"description": {"color":"green","translate":"Craft and eat a normal golden apple"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:farming/bapple",

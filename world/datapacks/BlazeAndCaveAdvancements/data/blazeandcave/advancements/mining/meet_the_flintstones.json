@@ -4,7 +4,7 @@
 			"item": "minecraft:flint"
 		},
 		"title": {"translate":"Meet The Flintstones"},
-		"description": {"translate":"Dig up some flint from a patch of gravel"},
+		"description": {"color":"green","translate":"Dig up some flint from a patch of gravel"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:mining/my_work_here_is_done",

@@ -4,7 +4,7 @@
 			"item": "minecraft:cake"
 		},
 		"title": {"translate":"The Lie"},
-		"description": {"translate":"Wheat, sugar, milk and eggs!"},
+		"description": {"color":"green","translate":"Wheat, sugar, milk and eggs!"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:farming/bake_bread",
@@ -13,15 +13,9 @@
 	},		
 	"criteria": {
 		"cake": {
-			"trigger": "minecraft:inventory_changed",
+			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:cake"
-						]
-					}
-				]
+				"recipe_id": "minecraft:cake"
 			}
 		}
 	}

@@ -4,7 +4,7 @@
 			"item": "minecraft:beetroot_seeds"
 		},
 		"title": {"translate":"Chatterbox"},
-		"description": {"translate":"Tame a Parrot using seeds. WARNING: Do not use a cookie!"},
+		"description": {"color":"green","translate":"Tame a Parrot using seeds. WARNING: Do not use a cookie!"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:animal/feeding_the_chickens",

@@ -4,7 +4,7 @@
 			"item": "minecraft:gold_block"
 		},
 		"title": {"translate":"A Piglin's Best Friend"},
-		"description": {"translate":"Give a total of 500 gold to Piglins during your nether adventures"},
+		"description": {"color":"dark_purple","translate":"Give a total of 500 gold to Piglins during your nether adventures","extra":[{"text":"\n\n"},{"italic":"true","color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_statistics"}]},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

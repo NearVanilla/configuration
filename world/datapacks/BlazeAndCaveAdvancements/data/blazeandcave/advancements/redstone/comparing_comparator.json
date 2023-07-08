@@ -4,7 +4,7 @@
 			"item": "minecraft:comparator"
 		},
 		"title": {"translate":"Comparing Comparator"},
-		"description": {"translate":"Craft a redstone comparator"},
+		"description": {"color":"green","translate":"Craft a redstone comparator"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:redstone/quirky_quartz",

@@ -4,7 +4,7 @@
 			"item": "minecraft:leather"
 		},
 		"title": {"translate":"Whole Hog"},
-		"description": {"translate":"Get mauled by a Hoglin"},
+		"description": {"color":"green","translate":"Get mauled by a Hoglin"},
 		"announce_to_chat": "true"
 
 	},

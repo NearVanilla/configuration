@@ -4,7 +4,7 @@
 			"item": "minecraft:wooden_hoe"
 		},
 		"title": {"translate":"Time to Farm!"},
-		"description": {"translate":"Use planks and sticks to make a hoe"},
+		"description": {"color":"green","translate":"Use planks and sticks to make a hoe"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:bacap/time_to_dig",

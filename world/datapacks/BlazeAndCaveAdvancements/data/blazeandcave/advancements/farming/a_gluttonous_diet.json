@@ -4,7 +4,7 @@
 			"item": "minecraft:rabbit_stew"
 		},
 		"title": {"translate":"A Gluttonous Diet"},
-		"description": {"translate":"Obtain a full stack of all the foods"},
+		"description": {"color":"dark_purple","translate":"Obtain a full stack of all the foods"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

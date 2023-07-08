@@ -4,7 +4,7 @@
 			"item": "minecraft:flower_pot"
 		},
 		"title": {"translate":"Pot Planter"},
-		"description": {"translate":"Craft and place a flower pot"},
+		"description": {"color":"green","translate":"Craft and place a flower pot"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/bricks",
@@ -15,7 +15,18 @@
 		"flower_pot": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:flower_pot"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:flower_pot"
+								]
+							}
+						}
+					}
+				]
 			}
 		}
 	}

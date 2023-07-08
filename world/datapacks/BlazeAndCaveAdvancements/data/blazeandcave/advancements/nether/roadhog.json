@@ -4,7 +4,7 @@
 			"item": "minecraft:porkchop"
 		},
 		"title": {"translate":"Roadhog"},
-		"description": {"translate":"Hunt a Hoglin for food"},
+		"description": {"color":"green","translate":"Hunt a Hoglin for food"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:nether/what_a_fungi",

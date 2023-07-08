@@ -4,7 +4,7 @@
 			"item": "minecraft:wooden_shovel"
 		},
 		"title": {"translate":"Time to Dig!"},
-		"description": {"translate":"Use planks and sticks to make a shovel"},
+		"description": {"color":"green","translate":"Use planks and sticks to make a shovel"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:bacap/time_to_chop",

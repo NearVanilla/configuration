@@ -4,7 +4,7 @@
 			"item": "minecraft:arrow"
 		},
 		"title": {"translate":"Spear Fishing"},
-		"description": {"translate":"Kill a Guardian with arrows"},
+		"description": {"color":"green","translate":"Kill a Guardian with arrows"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:adventure/laser_sharks",
@@ -16,7 +16,12 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"killing_blow": {
-					"is_projectile": true,
+					"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
 						"direct_entity": {
 							"type": "minecraft:arrow"
 						}

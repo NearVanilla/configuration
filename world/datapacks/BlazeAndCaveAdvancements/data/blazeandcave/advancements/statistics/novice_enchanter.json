@@ -5,10 +5,10 @@
 			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
 		},
 		"title": {"translate":"Novice Enchanter"},
-		"description": {"translate":"Enchant 10 items"},
+		"description": {"color":"green","translate":"Enchant 10 items"},
 		"announce_to_chat": "true"
 	},
-	"parent": "blazeandcave:statistics/root",
+	"parent": "blazeandcave:technical/you_are_a_big_cheater",
 	"rewards": {
 		"function": "bc_rewards:statistics/novice_enchanter"
 	},		

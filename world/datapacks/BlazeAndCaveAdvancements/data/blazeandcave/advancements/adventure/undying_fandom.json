@@ -4,7 +4,7 @@
 			"item": "minecraft:magenta_wool"
 		},
 		"title": {"translate":"Undying Fandom"},
-		"description": {"translate":"Receive every type of gift from Villagers as a Hero of the Village"},
+		"description": {"color":"dark_purple","translate":"Receive every type of gift from Villagers as a Hero of the Village"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

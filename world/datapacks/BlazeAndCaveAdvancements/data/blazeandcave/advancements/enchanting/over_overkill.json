@@ -4,7 +4,7 @@
 			"item": "minecraft:netherite_axe"
 		},
 		"title": {"translate":"Over-Overkill"},
-		"description": {"translate":"Deal sixteen hearts of damage in a single melee blow"},
+		"description": {"color":"dark_purple","translate":"Deal sixteen hearts of damage in a single melee blow"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},
@@ -22,11 +22,12 @@
 						"max": 999.0
 					},
 					"type": {
-						"is_explosion": "false",
-						"is_projectile": "false",
-						"is_magic": "false",
-						"is_fire": "false",
-						"is_lightning": "false"
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
 					}
 				}
 			}

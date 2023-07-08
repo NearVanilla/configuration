@@ -4,7 +4,7 @@
 			"item": "minecraft:bee_spawn_egg"
 		},
 		"title": {"translate":"Nest, Quick!"},
-		"description": {"translate":"Collect a stack of empty bee nests"},
+		"description": {"color":"dark_purple","translate":"Collect a stack of empty bee nests"},
 		"announce_to_chat": "true",
 		"frame": "challenge"
 	},

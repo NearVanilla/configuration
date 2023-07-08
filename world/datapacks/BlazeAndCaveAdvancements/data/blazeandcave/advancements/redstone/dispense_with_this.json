@@ -4,7 +4,7 @@
 			"item": "minecraft:dispenser"
 		},
 		"title": {"translate":"Dispense With This"},
-		"description": {"translate":"Construct a dispenser"},
+		"description": {"color":"green","translate":"Construct a dispenser"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:redstone/space_dropper",

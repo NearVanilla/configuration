@@ -4,7 +4,7 @@
 			"item": "minecraft:sea_pickle"
 		},
 		"title": {"translate":"One Pickle, Two Pickle, Sea Pickle, Four"},
-		"description": {"translate":"Place four sea pickles in a group underwater"},
+		"description": {"color":"green","translate":"Place four sea pickles in a group underwater"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:building/halloween",
@@ -15,22 +15,30 @@
 		"sea_pickle": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:sea_pickle"
-						],
-						"state": {
-							"pickles": 4,
-							"waterlogged": true
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:sea_pickle"
+								],
+								"state": {
+									"pickles": 4,
+									"waterlogged": true
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:sea_pickle"
+							]
 						}
 					}
-				},
-				"item": {
-					"items": [
-						"minecraft:sea_pickle"
-					]
-				}
+				]
 			}
 		}
 	}

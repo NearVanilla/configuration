@@ -4,7 +4,7 @@
 			"item": "minecraft:sweet_berries"
 		},
 		"title": {"translate":"Berry Nice!"},
-		"description": {"translate":"Pick and eat some sweet berries"},
+		"description": {"color":"green","translate":"Pick and eat some sweet berries"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:farming/care_for_the_environment",

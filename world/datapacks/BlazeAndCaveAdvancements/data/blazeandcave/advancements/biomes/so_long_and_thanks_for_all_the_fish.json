@@ -4,7 +4,7 @@
 			"item": "minecraft:bowl"
 		},
 		"title": {"translate":"So Long & Thanks For The Fish"},
-		"description": {"translate":"Get murdered by dolphins"},
+		"description": {"color":"green","translate":"Get murdered by dolphins"},
 		"announce_to_chat": "true"
 
 	},

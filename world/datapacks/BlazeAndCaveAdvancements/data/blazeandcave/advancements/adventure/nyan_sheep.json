@@ -4,7 +4,7 @@
 			"item": "minecraft:magenta_wool"
 		},
 		"title": {"translate":"Nyan Sheep"},
-		"description": {"translate":"Nyan Nyan Nyan Nyan..."},
+		"description": {"color":"green","translate":"Nyan Nyan Nyan Nyan..."},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:adventure/whats_up_doc",

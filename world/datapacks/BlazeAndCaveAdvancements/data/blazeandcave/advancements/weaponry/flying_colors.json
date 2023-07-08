@@ -5,7 +5,7 @@
 			"nbt": "{BlockEntityTag:{Base:14}}"
 		},
 		"title": {"translate":"Flying Colors"},
-		"description": {"translate":"Apply a banner (with no patterns) to your shield"},
+		"description": {"color":"green","translate":"Apply a banner (with no patterns) to your shield"},
 		"announce_to_chat": "true"
 	},
 	"parent": "blazeandcave:weaponry/shield_luck",
