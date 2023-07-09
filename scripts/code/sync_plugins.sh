@@ -21,7 +21,7 @@ check_server_running() {
   local id
   local status
   local ecode
-  id="$(docker-compose ps -q "${container_name}")" && [ -n "${id}" ] || {
+  id="$(docker-compose ps -qa "${container_name}")" && [ -n "${id}" ] || {
     ecode=$?
     echo "Server not existing?"
     return $ecode
@@ -31,11 +31,20 @@ check_server_running() {
     echo "Unable to get server status"
     return $ecode
   }
-  [ "${status:-}" = "running" ] || {
-    ecode=$?
-    echo "Server is not running (status ${status:-})!"
-    return $ecode
-  }
+  case "${status:-}" in
+    running)
+      echo "Server is ready!"
+      return 0
+      ;;
+    exited)
+      echo "Server is exited"
+      return 1
+      ;;
+    *)
+      echo "Unknown server status (status ${status:-})!"
+      return 2
+      ;;
+  esac
 }
 
 stop_servers() {
@@ -58,6 +67,10 @@ wait_for_servers() {
   for i in {1..60}; do
     local idx
     for idx in "${!servers[@]}"; do
+      status="$(check_server_running "${servers[$idx]}")" || {
+        printf '%s' "${status}"
+        return 1
+      }
       # TODO: Figure out a way to only get the logs since startup
       if docker-compose logs --tail=40 "${servers[$idx]}" | grep 'Done ([^)]*)!'; then
         printf 'Server %s got ready\n' "${servers[$idx]}" >&2
@@ -92,10 +105,10 @@ for confdir in "${confdirs[@]}"; do
   name="$(basename "${confdir}")"
   printf 'Updating %s\n' "${name}" >&2
   manage jars update "${confdir}"
-  git diff --exit-code || {
+  if ! git diff --exit-code || ! git diff --exit-code --cached ; then
     git commit --all --message "${COMMIT_SUBJECT}"
     to_run+=( "${name}" )
-  }
+  fi
 done
 
 [ "${#to_run[@]}" -ne 0 ] || {
@@ -108,7 +121,7 @@ done
 manage synchronize upload
 
 docker-compose up --build -d "${svc_names[@]}"
-for i in {6..1}; do
+for i in {3..1}; do
   printf 'Waiting %s more seconds before polling for status...\n' "$((i*10))" >&2
   sleep 10s
 done

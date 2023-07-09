@@ -1,15 +1,15 @@
 # syntax=docker/dockerfile:1
-ARG DEBIAN_VERSION=bullseye-slim
+ARG DEBIAN_VERSION=bookworm-slim
 
 FROM debian:${DEBIAN_VERSION} AS downloader
 
 WORKDIR /tmp/packages
 
-ARG RCON_VERSION=1.5.1
+ARG RCON_VERSION=1.6.2
 ADD https://github.com/itzg/rcon-cli/releases/download/${RCON_VERSION}/rcon-cli_${RCON_VERSION}_linux_amd64.tar.gz rcon-cli.tar.gz
 RUN tar xf rcon-cli.tar.gz
 
-ARG MC_SERVER_RUNNER_VERSION=1.8.0
+ARG MC_SERVER_RUNNER_VERSION=1.9.0
 
 ADD https://github.com/itzg/mc-server-runner/releases/download/${MC_SERVER_RUNNER_VERSION}/mc-server-runner_${MC_SERVER_RUNNER_VERSION}_linux_amd64.tar.gz mc-server-runner.tar.gz
 RUN tar xf mc-server-runner.tar.gz
@@ -24,14 +24,6 @@ RUN apt-get update \
   && for list in /tmp/*.aptlist; do xargs apt-get install -y < <(sed '/^#/d' "${list}"); done \
   && rm -rf /var/lib/apt/lists/*
 
-# Install required software in requirements.txt
-COPY docker/manager-requirements.txt /tmp/requirements.txt
-
-RUN pip3 install -r /tmp/requirements.txt
-
-COPY --from=downloader /tmp/packages/rcon-cli /usr/bin/rcon-cli
-COPY --from=downloader /tmp/packages/mc-server-runner /usr/bin/mc-server-runner
-
 RUN useradd --create-home --uid 1000 runner
 
 COPY --link docker/known_hosts docker/config_repo_ro_key /home/runner/.ssh/
@@ -40,6 +32,18 @@ RUN chown -R runner:runner /home/runner/ \
     && chmod 0600 /home/runner/.ssh/*
 
 USER runner
+
+# Create VirtualEnv
+ENV VENV_DIR=/home/runner/manager-venv
+RUN python3 -m venv "${VENV_DIR}"
+
+# Install required software in requirements.txt
+COPY docker/requirements.txt /tmp/requirements.txt
+
+RUN "${VENV_DIR}/bin/pip3" install -r /tmp/requirements.txt
+
+COPY --from=downloader /tmp/packages/rcon-cli /usr/bin/rcon-cli
+COPY --from=downloader /tmp/packages/mc-server-runner /usr/bin/mc-server-runner
 
 WORKDIR /nearvanilla
 

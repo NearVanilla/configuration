@@ -3,7 +3,7 @@ set -euo pipefail
 
 : "${end_reset_backup_dir:="${end_reset_backup_base_dir:-/backups}/end_reset_backup_$(date +%F)"}"
 : "${end_reset_dimension_dir:=world_the_end/DIM1/}"
-: "${mcaversion:=2.0.2}"
+: "${mcaversion:=2.2.2}"
 
 _script_dir="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
@@ -55,12 +55,6 @@ echo "Running prune script..."
 # TODO: Add 'schedule command' to hook utils and integrate with mc-server-runner
 notification=(
   "The end has been reset."
-  ""
-  "To cleanup dynmap, run following commands after starting the server:"
-  "/dynmap pause all"
-  "/dynmap purgemap world_the_end flat"
-  "/dynmap pause none"
-  "/dynmap fullrender world_the_end:flat"
 )
 
 notify "${notification[@]}"

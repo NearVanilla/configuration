@@ -225,6 +225,7 @@ main() {
   # If we are hard-failed, then we notified already - skip doing anything
   ! is_hard_failed || return 1
   trap 'notify_err "Uncaught error"' ERR
+  [ -z "${VENV_DIR}" ] || . "${VENV_DIR}/bin/activate"
   setup_git
   sanity_check
   prepare_git_repo

@@ -7,7 +7,7 @@ from pathlib import Path
 
 import sh  # type: ignore
 
-fgsh = sh(_in=sys.stdin, _out=sys.stdout, _err=sys.stderr)
+fgsh = sh.bake(_in=sys.stdin, _out=sys.stdout, _err=sys.stderr)
 
 
 def get_git_top_level(cwd=None) -> Path:

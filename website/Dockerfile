@@ -1,4 +1,4 @@
-ARG CADDY_VERSION=2.4.1
+ARG CADDY_VERSION=2.6.4
 
 FROM node:lts-alpine AS builder
 WORKDIR /app
@@ -24,7 +24,7 @@ RUN npm run build
 
 FROM caddy:${CADDY_VERSION}-builder AS caddy-builder
 RUN xcaddy build \
-    --with github.com/kirsch33/realip@3eaa4a63330b8d23d153e555da8797865ae1b22e # update CF ips
+    --with github.com/kirsch33/realip@83c6d2c726eeb33b1b33270774dcbf78060bcfc5
 
 FROM caddy:${CADDY_VERSION}
 

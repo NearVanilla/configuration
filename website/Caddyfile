@@ -1,75 +1,121 @@
 # vim: ft=caddyfile sw=2
-
 {
-  # acme_ca "https://acme-staging-v02.api.letsencrypt.org/directory"
-  order realip last
+	# acme_ca "https://acme-staging-v02.api.letsencrypt.org/directory"
+	order realip last
 }
 
 http://{$DOMAIN} {
-  handle_path /node_metrics {
-    rewrite * /metrics
-    reverse_proxy http://docker_host:9100
-  }
-  @servermetrics path_regexp serverre ^/server_metrics/([^.:/]+)$
-  handle @servermetrics {
-    rewrite * /metrics
-    reverse_proxy {re.serverre.1}:9225
-  }
-  handle {
-    redir https://{$DOMAIN}{uri} permanent
-  }
+	handle_path /node_metrics {
+		rewrite * /metrics
+		reverse_proxy http://docker_host:9100
+	}
+	@servermetrics path_regexp serverre ^/server_metrics/([^.:/]+)$
+	handle @servermetrics {
+		rewrite * /metrics
+		reverse_proxy {re.serverre.1}:9225
+	}
+	handle {
+		redir https://{$DOMAIN}{uri} permanent
+	}
 }
 
 http://*.{$DOMAIN} {
-  redir https://{hostport}{uri} permanent
+	redir https://{hostport}{uri} permanent
 }
 
 # Snippet https://caddyserver.com/docs/caddyfile/concepts#snippets
 (mapredir) {
-  reverse_proxy survival:25566 {
-    header_up Host {http.reverse_proxy.upstream.hostport}
-  }
+	reverse_proxy survival:25566 {
+		header_up Host {http.reverse_proxy.upstream.hostport}
+	}
+}
+
+(bluemap) {
+	root * {args.0}
+
+	@high_res {
+		path_regexp /maps/[^/]*/tiles/.*\.json$
+	}
+
+	@gzip_high_res {
+		path *.json
+		header Accept-Encoding *gzip*
+		file {
+			try_files {path}.gz
+		}
+	}
+
+	# https://caddy.community/t/how-to-serve-pre-compressed-files-with-caddy-v2/8760/11
+	handle @gzip_high_res {
+		header Content-Type application/json
+		header Content-Encoding gzip
+		rewrite {path}.gz
+	}
+
+	handle @high_res {
+		try_files {path} /assets/emptyTile.json
+	}
+
+	@low_res {
+		path_regexp /maps/[^/]*/tiles/.*\.png$
+	}
+
+	handle @low_res {
+		try_files {path} =204
+	}
+
+	@live_data path_regexp /maps/[^/]*/live/.*
+	#@live_data path_regexp /.*
+
+	reverse_proxy @live_data {args.1}
+
+	file_server
+	try_files {path} {path}.html {path}/index.html
 }
 
 map.{$DOMAIN},
 www.{$DOMAIN},
 {$DOMAIN} {
-  encode zstd gzip
-  realip {
-    header "X-Forwarded-For"
-    from cloudflare
-    maxhops 5
-    strict True
-  }
+	encode zstd gzip
+	realip {
+		header "X-Forwarded-For"
+		from cloudflare
+		maxhops 5
+		strict True
+	}
 
-  @discordredir path /apply /discord
-  handle @discordredir {
-    redir https://{$DISCORD_INVITE_LINK} permanent
-  }
+	@discordredir path /apply /discord
+	handle @discordredir {
+		redir https://{$DISCORD_INVITE_LINK} permanent
+	}
 
-  # Redirect www to regular site
-  @www host www.{$DOMAIN}
-  handle @www {
-    redir https://{$DOMAIN}{uri} permanent
-  }
+	# Redirect www to regular site
+	@www host www.{$DOMAIN}
+	handle @www {
+		redir https://{$DOMAIN}{uri} permanent
+	}
 
-  @map host map.{$DOMAIN}
-  handle @map {
-    import mapredir
-  }
+	@map host map.{$DOMAIN}
+	handle @map {
+		import mapredir
+	}
 
-  @root host {$DOMAIN}
-  handle @root {
-    root * /usr/share/caddy # Default value
-    handle_path /map/* {
-      import mapredir
-    }
-    file_server
-    try_files {path} {path}.html /index.html
-  }
+	@root host {$DOMAIN}
+	handle @root {
+		root * /usr/share/caddy # Default value
+		handle_path /map/* {
+			import mapredir
+		}
+		file_server
+		try_files {path} {path}.html /index.html
+	}
 
-  # Fallback for unhandled hosts
-  handle {
-    abort
-  }
+	# Fallback for unhandled hosts
+	handle {
+		abort
+	}
+}
+
+bluemap.{$DOMAIN} {
+	import bluemap /usr/share/caddy/creative-bluemap creative-spawn:8100
 }

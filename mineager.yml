@@ -75,3 +75,7 @@ plugins:
   prefix: Viabackwards
   resource: ViaVersion/ViaBackwards
   type: github
+- name: FastAsyncWorldEdit
+  prefix: FastAsyncWorldEdit
+  resource: IntellectualSites/FastAsyncWorldEdit
+  type: github
