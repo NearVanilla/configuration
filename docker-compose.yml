@@ -69,6 +69,7 @@ services:
     hostname: "creative-spawn"
     volumes:
       - './server-config/creative-spawn:/server'
+      - './scripts/hooks/creative-spawn/:/hooks/:ro'
     #restart: unless-stopped
     restart: "no"
     #command:
