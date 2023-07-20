@@ -220,5 +220,7 @@ feature-seeds:
     minecraft:warped_fungus: 8215728401684138158
     minecraft:warped_fungus_planted: -6901128918127014218
     minecraft:weeping_vines: -2285368095908761454
+lootables:
+  auto-replenish: true
 spawn:
   keep-spawn-loaded: false
