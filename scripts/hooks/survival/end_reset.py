@@ -94,6 +94,7 @@ EXCLUSIONS = [
     Square(x1=135, z1=-5530, x2=250, z2=-5405),  # Bamboogloo Rose Farm
     Square(x1=-664, z1=-1895, x2=-709, z2=-1940),  # Demo Rose Farm
     Square(x1=-330, z1=2176, x2=-690, z2=1871),  # Sunny Rose Farm
+    Square(x1=998, z1=1076, x2=1099, z2=1152),  # JChef Rose Farm
 ]
 
 
