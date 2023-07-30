@@ -229,7 +229,7 @@ fishing-time-range:
   maximum: 600
   minimum: 100
 fixes:
-  disable-unloaded-chunk-enderpearl-exploit: true
+  disable-unloaded-chunk-enderpearl-exploit: false
   falling-block-height-nerf: disabled
   fix-curing-zombie-villager-discount-exploit: false
   fix-items-merging-through-walls: false
