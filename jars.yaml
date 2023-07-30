@@ -37,5 +37,5 @@ plugins:
   name: BlueMap
   version: '3.16'
 version:
-  build: 82
+  build: 100
   name: 1.20.1
