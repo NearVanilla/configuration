@@ -9,3 +9,18 @@ settings:
       max-radius: 10
   console-locale: en
   equal-access: view
+toggles:
+  silent-chest:
+    1ad6177c-322a-438a-af9c-9fd19f44771d: false
+    c704aecb-564b-4e23-90c9-b607d005e168: false
+    e6205625-4b6b-4e6f-ae74-ab335d52dfb8: false
+    f4c0099c-7614-4add-ae16-6e63b176b4a4: false
+    acfcb375-e306-4acf-ae87-41bccb609557: false
+    8c67208c-e01e-4c1d-b6b6-c054d18c105d: false
+    d6a0c3f4-d22c-4a08-8c47-aaa5e4a17869: false
+    a2625e6e-6a99-44bf-85be-bc23d2bfe101: false
+    938d388a-933d-478c-bb8e-f4de6fcc0713: false
+  any-chest:
+    c704aecb-564b-4e23-90c9-b607d005e168: false
+    1ad6177c-322a-438a-af9c-9fd19f44771d: false
+    e6205625-4b6b-4e6f-ae74-ab335d52dfb8: false
