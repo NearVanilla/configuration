@@ -62,7 +62,15 @@ stats:
   disable-saving: false
   forced-stats: {}
 world-settings:
+  world_the_end:
+    simulation-distance: 4
+    view-distance: 7
+  world_nether:
+    simulation-distance: 4
+    view-distance: 7
   default:
+    simulation-distance: 5
+    view-distance: 7
     seed-trailruins: 83469867
     seed-ancientcity: 20083232
     seed-buriedtreasure: 10387320
@@ -71,7 +79,6 @@ world-settings:
     seed-nether: 30084232
     seed-stronghold: default
     below-zero-generation-in-existing-chunks: true
-    simulation-distance: default
     thunder-chance: 100000
     max-entity-collisions: 8
     verbose: true
@@ -97,7 +104,6 @@ world-settings:
     max-tnt-per-tick: 100
     enable-zombie-pigmen-portal-spawns: true
     item-despawn-rate: 6000
-    view-distance: default
     wither-spawn-sound-radius: 0
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
