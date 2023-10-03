@@ -88,4 +88,5 @@ done
 
 docker-compose stop "${target_servers[@]}"
 git pull --ff-only --autostash
+git submodule update
 docker-compose up -d --build "${target_servers[@]}" "website"
