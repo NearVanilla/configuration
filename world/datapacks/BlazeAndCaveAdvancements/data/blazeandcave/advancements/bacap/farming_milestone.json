@@ -20,7 +20,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/24_carrot_gold": "true"
+							"blazeandcave:farming/24_carrot_gold": true
 						}
 					}
 				}
@@ -33,7 +33,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:husbandry/balanced_diet": "true"
+							"minecraft:husbandry/balanced_diet": true
 						}
 					}
 				}
@@ -46,7 +46,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:husbandry/plant_seed": "true"
+							"minecraft:husbandry/plant_seed": true
 						}
 					}
 				}
@@ -59,7 +59,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/an_amazing_story": "true"
+							"blazeandcave:farming/an_amazing_story": true
 						}
 					}
 				}
@@ -72,7 +72,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/aquatic_biofuel": "true"
+							"blazeandcave:farming/aquatic_biofuel": true
 						}
 					}
 				}
@@ -85,7 +85,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/bake_bread": "true"
+							"blazeandcave:farming/bake_bread": true
 						}
 					}
 				}
@@ -98,7 +98,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/bapple": "true"
+							"blazeandcave:farming/bapple": true
 						}
 					}
 				}
@@ -111,7 +111,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/berry_nice": "true"
+							"blazeandcave:farming/berry_nice": true
 						}
 					}
 				}
@@ -124,7 +124,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/scientific_inaccuracy": "true"
+							"blazeandcave:farming/scientific_inaccuracy": true
 						}
 					}
 				}
@@ -137,7 +137,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/care_for_the_environment": "true"
+							"blazeandcave:farming/care_for_the_environment": true
 						}
 					}
 				}
@@ -150,7 +150,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/castaway": "true"
+							"blazeandcave:farming/castaway": true
 						}
 					}
 				}
@@ -163,7 +163,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/die_potato": "true"
+							"blazeandcave:farming/die_potato": true
 						}
 					}
 				}
@@ -176,7 +176,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/disen_berry_berry_bad": "true"
+							"blazeandcave:farming/disen_berry_berry_bad": true
 						}
 					}
 				}
@@ -189,7 +189,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/olaf": "true"
+							"blazeandcave:farming/olaf": true
 						}
 					}
 				}
@@ -202,7 +202,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/ecologist": "true"
+							"blazeandcave:farming/ecologist": true
 						}
 					}
 				}
@@ -215,7 +215,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/full_stomach": "true"
+							"blazeandcave:farming/full_stomach": true
 						}
 					}
 				}
@@ -228,7 +228,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/hay_there": "true"
+							"blazeandcave:farming/hay_there": true
 						}
 					}
 				}
@@ -241,7 +241,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/im_gonna_be_sick": "true"
+							"blazeandcave:farming/im_gonna_be_sick": true
 						}
 					}
 				}
@@ -254,7 +254,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/its_a_cactus": "true"
+							"blazeandcave:farming/its_a_cactus": true
 						}
 					}
 				}
@@ -267,7 +267,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/its_full_of_ink": "true"
+							"blazeandcave:farming/its_full_of_ink": true
 						}
 					}
 				}
@@ -280,7 +280,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/its_where_nutella_comes_from": "true"
+							"blazeandcave:farming/its_where_nutella_comes_from": true
 						}
 					}
 				}
@@ -293,7 +293,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/kelp_me": "true"
+							"blazeandcave:farming/kelp_me": true
 						}
 					}
 				}
@@ -306,7 +306,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/me_love_cookie": "true"
+							"blazeandcave:farming/me_love_cookie": true
 						}
 					}
 				}
@@ -319,7 +319,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/meat_lovers": "true"
+							"blazeandcave:farming/meat_lovers": true
 						}
 					}
 				}
@@ -332,7 +332,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/mega_mushroom": "true"
+							"blazeandcave:farming/mega_mushroom": true
 						}
 					}
 				}
@@ -345,7 +345,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/mushroom_mushroom": "true"
+							"blazeandcave:farming/mushroom_mushroom": true
 						}
 					}
 				}
@@ -358,7 +358,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/must_be_your_birthday": "true"
+							"blazeandcave:farming/must_be_your_birthday": true
 						}
 					}
 				}
@@ -371,7 +371,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/naturally_carved": "true"
+							"blazeandcave:farming/naturally_carved": true
 						}
 					}
 				}
@@ -384,7 +384,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/not_today": "true"
+							"blazeandcave:farming/not_today": true
 						}
 					}
 				}
@@ -397,7 +397,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/pumpa_kungen": "true"
+							"blazeandcave:farming/pumpa_kungen": true
 						}
 					}
 				}
@@ -410,7 +410,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/root": "true"
+							"blazeandcave:farming/root": true
 						}
 					}
 				}
@@ -423,7 +423,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:husbandry/break_diamond_hoe": "true"
+							"minecraft:husbandry/break_diamond_hoe": true
 						}
 					}
 				}
@@ -436,7 +436,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/shrooms": "true"
+							"blazeandcave:farming/shrooms": true
 						}
 					}
 				}
@@ -449,7 +449,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/souperman": "true"
+							"blazeandcave:farming/souperman": true
 						}
 					}
 				}
@@ -462,7 +462,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/spikey": "true"
+							"blazeandcave:farming/spikey": true
 						}
 					}
 				}
@@ -475,7 +475,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/sugar_sugar": "true"
+							"blazeandcave:farming/sugar_sugar": true
 						}
 					}
 				}
@@ -488,7 +488,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/suspicious_looking_stew": "true"
+							"blazeandcave:farming/suspicious_looking_stew": true
 						}
 					}
 				}
@@ -501,7 +501,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/the_garbage_will_do": "true"
+							"blazeandcave:farming/the_garbage_will_do": true
 						}
 					}
 				}
@@ -514,7 +514,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/the_lie": "true"
+							"blazeandcave:farming/the_lie": true
 						}
 					}
 				}
@@ -527,7 +527,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/the_melon_the_melon_the_melon": "true"
+							"blazeandcave:farming/the_melon_the_melon_the_melon": true
 						}
 					}
 				}
@@ -540,7 +540,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/the_meloncholy_dane": "true"
+							"blazeandcave:farming/the_meloncholy_dane": true
 						}
 					}
 				}
@@ -553,7 +553,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/the_pie": "true"
+							"blazeandcave:farming/the_pie": true
 						}
 					}
 				}
@@ -566,7 +566,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/ultra_hardcore": "true"
+							"blazeandcave:farming/ultra_hardcore": true
 						}
 					}
 				}
@@ -579,7 +579,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/undersea_gardener": "true"
+							"blazeandcave:farming/undersea_gardener": true
 						}
 					}
 				}
@@ -592,7 +592,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/vegetarian": "true"
+							"blazeandcave:farming/vegetarian": true
 						}
 					}
 				}
@@ -605,7 +605,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/write_your_thoughts": "true"
+							"blazeandcave:farming/write_your_thoughts": true
 						}
 					}
 				}
@@ -618,7 +618,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/a_gluttonous_diet": "true"
+							"blazeandcave:farming/a_gluttonous_diet": true
 						}
 					}
 				}
@@ -631,7 +631,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/natural_fertiliser": "true"
+							"blazeandcave:farming/natural_fertiliser": true
 						}
 					}
 				}
@@ -644,7 +644,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/combine_harvester": "true"
+							"blazeandcave:farming/combine_harvester": true
 						}
 					}
 				}
@@ -657,7 +657,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/whats_new_with_composting": "true"
+							"blazeandcave:farming/whats_new_with_composting": true
 						}
 					}
 				}
@@ -670,7 +670,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/unmasked": "true"
+							"blazeandcave:farming/unmasked": true
 						}
 					}
 				}
@@ -683,7 +683,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/trimming_the_treetops": "true"
+							"blazeandcave:farming/trimming_the_treetops": true
 						}
 					}
 				}
@@ -696,7 +696,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/foliage": "true"
+							"blazeandcave:farming/foliage": true
 						}
 					}
 				}
@@ -709,7 +709,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/yay_deadbush": "true"
+							"blazeandcave:farming/yay_deadbush": true
 						}
 					}
 				}
@@ -722,7 +722,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/one_course_meal": "true"
+							"blazeandcave:farming/one_course_meal": true
 						}
 					}
 				}
@@ -735,7 +735,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/an_apple_a_day": "true"
+							"blazeandcave:farming/an_apple_a_day": true
 						}
 					}
 				}
@@ -748,7 +748,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/come_to_the_countryside": "true"
+							"blazeandcave:farming/come_to_the_countryside": true
 						}
 					}
 				}
@@ -761,7 +761,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/squid_game": "true"
+							"blazeandcave:farming/squid_game": true
 						}
 					}
 				}
@@ -774,7 +774,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/a_mangrove_grove": "true"
+							"blazeandcave:farming/a_mangrove_grove": true
 						}
 					}
 				}
@@ -787,7 +787,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:farming/hot_chocolate": "true"
+							"blazeandcave:farming/hot_chocolate": true
 						}
 					}
 				}

@@ -25,11 +25,15 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:loyalty",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},
 							{
 								"enchantment": "minecraft:channeling",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}

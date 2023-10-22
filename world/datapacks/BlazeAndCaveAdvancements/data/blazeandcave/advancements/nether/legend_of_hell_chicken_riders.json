@@ -22,7 +22,7 @@
 					"passenger": {
 						"type": "zombified_piglin",
 						"flags": {
-							"is_baby": "true"
+							"is_baby": true
 						}
 					}
 				}
@@ -34,7 +34,7 @@
 				"entity": {
 					"type": "zombified_piglin",
 					"flags": {
-						"is_baby": "true"
+						"is_baby": true
 					},
 					"vehicle": {
 						"type": "chicken"

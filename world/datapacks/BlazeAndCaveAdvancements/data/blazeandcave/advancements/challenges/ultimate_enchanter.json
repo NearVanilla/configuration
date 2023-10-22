@@ -577,7 +577,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:sharpness",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -652,7 +654,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:smite",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -727,7 +731,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:bane_of_arthropods",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -952,7 +958,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:efficiency",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -1132,7 +1140,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:power",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -1477,7 +1487,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:impaling",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -2227,7 +2239,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:sharpness",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -2302,7 +2316,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:smite",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -2377,7 +2393,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:bane_of_arthropods",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -2602,7 +2620,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:efficiency",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -2782,7 +2802,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:power",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -3127,7 +3149,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:impaling",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}

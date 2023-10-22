@@ -24,7 +24,7 @@
 					"passenger": {
 						"type": "minecraft:piglin",
 						"flags": {
-							"is_baby": "true"
+							"is_baby": true
 						}
 					}
 				}

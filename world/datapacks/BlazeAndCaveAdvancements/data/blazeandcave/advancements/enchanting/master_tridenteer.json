@@ -25,23 +25,33 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:impaling",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							},
 							{
 								"enchantment": "minecraft:loyalty",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},
 							{
 								"enchantment": "minecraft:channeling",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							},
 							{
 								"enchantment": "minecraft:mending",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							},
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}	
 						]
 					}
@@ -59,19 +69,27 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:impaling",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							},
 							{
 								"enchantment": "minecraft:riptide",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},
 							{
 								"enchantment": "minecraft:mending",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							},
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}	
 						]
 					}

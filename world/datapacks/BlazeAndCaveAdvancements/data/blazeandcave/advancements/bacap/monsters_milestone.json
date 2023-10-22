@@ -20,7 +20,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/a_watery_grave": "true"
+							"blazeandcave:monsters/a_watery_grave": true
 						}
 					}
 				}
@@ -33,7 +33,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/anti_air": "true"
+							"blazeandcave:monsters/anti_air": true
 						}
 					}
 				}
@@ -46,7 +46,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/aww_man": "true"
+							"blazeandcave:monsters/aww_man": true
 						}
 					}
 				}
@@ -59,7 +59,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/baby_baby_baby_noo": "true"
+							"blazeandcave:monsters/baby_baby_baby_noo": true
 						}
 					}
 				}
@@ -72,7 +72,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/because_im_aquaman": "true"
+							"blazeandcave:monsters/because_im_aquaman": true
 						}
 					}
 				}
@@ -85,7 +85,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/blast_shield": "true"
+							"blazeandcave:monsters/blast_shield": true
 						}
 					}
 				}
@@ -98,7 +98,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/boned": "true"
+							"blazeandcave:monsters/boned": true
 						}
 					}
 				}
@@ -111,7 +111,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/camouflage": "true"
+							"blazeandcave:monsters/camouflage": true
 						}
 					}
 				}
@@ -124,7 +124,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/captain_etho": "true"
+							"blazeandcave:monsters/captain_etho": true
 						}
 					}
 				}
@@ -137,7 +137,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/creeper_killer": "true"
+							"blazeandcave:monsters/creeper_killer": true
 						}
 					}
 				}
@@ -150,7 +150,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/creepy_heads": "true"
+							"blazeandcave:monsters/creepy_heads": true
 						}
 					}
 				}
@@ -163,7 +163,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/custom_boss_fight": "true"
+							"blazeandcave:monsters/custom_boss_fight": true
 						}
 					}
 				}
@@ -176,7 +176,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/dead_dont_die": "true"
+							"blazeandcave:monsters/dead_dont_die": true
 						}
 					}
 				}
@@ -189,7 +189,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/desert_nomad": "true"
+							"blazeandcave:monsters/desert_nomad": true
 						}
 					}
 				}
@@ -202,7 +202,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/dungeon_crawler": "true"
+							"blazeandcave:monsters/dungeon_crawler": true
 						}
 					}
 				}
@@ -215,7 +215,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/ender_worm": "true"
+							"blazeandcave:monsters/ender_worm": true
 						}
 					}
 				}
@@ -228,7 +228,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/enderman_destroyer": "true"
+							"blazeandcave:monsters/enderman_destroyer": true
 						}
 					}
 				}
@@ -241,7 +241,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/ew_ew_ew": "true"
+							"blazeandcave:monsters/ew_ew_ew": true
 						}
 					}
 				}
@@ -254,7 +254,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/freezing": "true"
+							"blazeandcave:monsters/freezing": true
 						}
 					}
 				}
@@ -267,7 +267,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/frosty": "true"
+							"blazeandcave:monsters/frosty": true
 						}
 					}
 				}
@@ -280,7 +280,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/gelatinous_cube": "true"
+							"blazeandcave:monsters/gelatinous_cube": true
 						}
 					}
 				}
@@ -293,7 +293,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/hell_hunter": "true"
+							"blazeandcave:monsters/hell_hunter": true
 						}
 					}
 				}
@@ -306,7 +306,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/iron_belly": "true"
+							"blazeandcave:monsters/iron_belly": true
 						}
 					}
 				}
@@ -319,7 +319,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/iskallium_collector": "true"
+							"blazeandcave:monsters/iskallium_collector": true
 						}
 					}
 				}
@@ -332,7 +332,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/keep_your_distance": "true"
+							"blazeandcave:monsters/keep_your_distance": true
 						}
 					}
 				}
@@ -345,7 +345,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/melting": "true"
+							"blazeandcave:monsters/melting": true
 						}
 					}
 				}
@@ -358,7 +358,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/mollusc_man": "true"
+							"blazeandcave:monsters/mollusc_man": true
 						}
 					}
 				}
@@ -371,7 +371,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/kill_a_mob": "true"
+							"minecraft:adventure/kill_a_mob": true
 						}
 					}
 				}
@@ -384,7 +384,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/kill_all_mobs": "true"
+							"minecraft:adventure/kill_all_mobs": true
 						}
 					}
 				}
@@ -397,7 +397,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/night_runner": "true"
+							"blazeandcave:monsters/night_runner": true
 						}
 					}
 				}
@@ -410,7 +410,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:story/deflect_arrow": "true"
+							"minecraft:story/deflect_arrow": true
 						}
 					}
 				}
@@ -423,7 +423,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/ooh_baby": "true"
+							"blazeandcave:monsters/ooh_baby": true
 						}
 					}
 				}
@@ -436,7 +436,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/phantom_slayer": "true"
+							"blazeandcave:monsters/phantom_slayer": true
 						}
 					}
 				}
@@ -449,7 +449,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/plane_walker": "true"
+							"blazeandcave:monsters/plane_walker": true
 						}
 					}
 				}
@@ -462,7 +462,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/poisonous_ew": "true"
+							"blazeandcave:monsters/poisonous_ew": true
 						}
 					}
 				}
@@ -475,7 +475,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/ricochet_swoop": "true"
+							"blazeandcave:monsters/ricochet_swoop": true
 						}
 					}
 				}
@@ -488,7 +488,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/root": "true"
+							"blazeandcave:monsters/root": true
 						}
 					}
 				}
@@ -501,7 +501,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/skeleton_smiter": "true"
+							"blazeandcave:monsters/skeleton_smiter": true
 						}
 					}
 				}
@@ -514,7 +514,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/slime_squisher": "true"
+							"blazeandcave:monsters/slime_squisher": true
 						}
 					}
 				}
@@ -527,7 +527,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/spider_skeleton": "true"
+							"blazeandcave:monsters/spider_skeleton": true
 						}
 					}
 				}
@@ -540,7 +540,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/spider_smasher": "true"
+							"blazeandcave:monsters/spider_smasher": true
 						}
 					}
 				}
@@ -553,7 +553,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/spooky_skeleton": "true"
+							"blazeandcave:monsters/spooky_skeleton": true
 						}
 					}
 				}
@@ -566,7 +566,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/spooky_skulls": "true"
+							"blazeandcave:monsters/spooky_skulls": true
 						}
 					}
 				}
@@ -579,7 +579,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/still_talking": "true"
+							"blazeandcave:monsters/still_talking": true
 						}
 					}
 				}
@@ -592,7 +592,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/taste_of_your_own_medicine": "true"
+							"blazeandcave:monsters/taste_of_your_own_medicine": true
 						}
 					}
 				}
@@ -605,7 +605,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/tele_morph": "true"
+							"blazeandcave:monsters/tele_morph": true
 						}
 					}
 				}
@@ -618,7 +618,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/termite_control": "true"
+							"blazeandcave:monsters/termite_control": true
 						}
 					}
 				}
@@ -631,7 +631,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/the_ender_of_ender": "true"
+							"blazeandcave:monsters/the_ender_of_ender": true
 						}
 					}
 				}
@@ -644,7 +644,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/the_ghastly_eyes": "true"
+							"blazeandcave:monsters/the_ghastly_eyes": true
 						}
 					}
 				}
@@ -657,7 +657,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/the_phantom_menace": "true"
+							"blazeandcave:monsters/the_phantom_menace": true
 						}
 					}
 				}
@@ -670,7 +670,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/the_undead_cavalry": "true"
+							"blazeandcave:monsters/the_undead_cavalry": true
 						}
 					}
 				}
@@ -683,7 +683,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/there_has_to_be_another_way": "true"
+							"blazeandcave:monsters/there_has_to_be_another_way": true
 						}
 					}
 				}
@@ -696,7 +696,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/trampoline": "true"
+							"blazeandcave:monsters/trampoline": true
 						}
 					}
 				}
@@ -709,7 +709,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/trick_or_treat": "true"
+							"blazeandcave:monsters/trick_or_treat": true
 						}
 					}
 				}
@@ -722,7 +722,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/tridented_shield": "true"
+							"blazeandcave:monsters/tridented_shield": true
 						}
 					}
 				}
@@ -735,7 +735,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/two_birds_one_arrow": "true"
+							"minecraft:adventure/two_birds_one_arrow": true
 						}
 					}
 				}
@@ -748,7 +748,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/void_ender": "true"
+							"blazeandcave:monsters/void_ender": true
 						}
 					}
 				}
@@ -761,7 +761,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/well_handle_this": "true"
+							"blazeandcave:monsters/well_handle_this": true
 						}
 					}
 				}
@@ -774,7 +774,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/what_a_creep": "true"
+							"blazeandcave:monsters/what_a_creep": true
 						}
 					}
 				}
@@ -787,7 +787,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/witch": "true"
+							"blazeandcave:monsters/witch": true
 						}
 					}
 				}
@@ -800,7 +800,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/zombie_slayer": "true"
+							"blazeandcave:monsters/zombie_slayer": true
 						}
 					}
 				}
@@ -813,7 +813,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/paleontologist": "true"
+							"blazeandcave:monsters/paleontologist": true
 						}
 					}
 				}
@@ -826,7 +826,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/impossible": "true"
+							"blazeandcave:monsters/impossible": true
 						}
 					}
 				}
@@ -839,7 +839,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/family_reunion": "true"
+							"blazeandcave:monsters/family_reunion": true
 						}
 					}
 				}
@@ -852,7 +852,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/bone_to_party": "true"
+							"blazeandcave:monsters/bone_to_party": true
 						}
 					}
 				}
@@ -865,7 +865,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/controlled_detonation": "true"
+							"blazeandcave:monsters/controlled_detonation": true
 						}
 					}
 				}
@@ -878,7 +878,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/miracle_drink": "true"
+							"blazeandcave:monsters/miracle_drink": true
 						}
 					}
 				}
@@ -891,7 +891,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/dead_really_dont_die": "true"
+							"blazeandcave:monsters/dead_really_dont_die": true
 						}
 					}
 				}
@@ -904,7 +904,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/poultry_boy": "true"
+							"blazeandcave:monsters/poultry_boy": true
 						}
 					}
 				}
@@ -917,7 +917,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/basketblock_championship": "true"
+							"blazeandcave:monsters/basketblock_championship": true
 						}
 					}
 				}
@@ -930,7 +930,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/pupil_poppers": "true"
+							"blazeandcave:monsters/pupil_poppers": true
 						}
 					}
 				}
@@ -943,7 +943,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/now_thats_a_lot_of_damage": "true"
+							"blazeandcave:monsters/now_thats_a_lot_of_damage": true
 						}
 					}
 				}
@@ -956,7 +956,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/blind_stare": "true"
+							"blazeandcave:monsters/blind_stare": true
 						}
 					}
 				}
@@ -969,7 +969,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/stealth_is_optional": "true"
+							"blazeandcave:monsters/stealth_is_optional": true
 						}
 					}
 				}
@@ -982,7 +982,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/warden_frostbite": "true"
+							"blazeandcave:monsters/warden_frostbite": true
 						}
 					}
 				}
@@ -995,7 +995,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/not_afraid_of_heights": "true"
+							"blazeandcave:monsters/not_afraid_of_heights": true
 						}
 					}
 				}
@@ -1008,7 +1008,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/house_of_freaks": "true"
+							"blazeandcave:monsters/house_of_freaks": true
 						}
 					}
 				}
@@ -1021,7 +1021,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/maximum_resistance": "true"
+							"blazeandcave:monsters/maximum_resistance": true
 						}
 					}
 				}

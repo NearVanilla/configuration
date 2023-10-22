@@ -20,7 +20,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/ancient_kung_fu_master": "true"
+							"blazeandcave:statistics/ancient_kung_fu_master": true
 						}
 					}
 				}
@@ -33,7 +33,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/black_belt_ninja": "true"
+							"blazeandcave:statistics/black_belt_ninja": true
 						}
 					}
 				}
@@ -46,7 +46,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/boing_boing": "true"
+							"blazeandcave:statistics/boing_boing": true
 						}
 					}
 				}
@@ -59,7 +59,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/cupid": "true"
+							"blazeandcave:statistics/cupid": true
 						}
 					}
 				}
@@ -72,7 +72,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/natural_sprinter": "true"
+							"blazeandcave:statistics/natural_sprinter": true
 						}
 					}
 				}
@@ -85,7 +85,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/elderly_enchanter": "true"
+							"blazeandcave:statistics/elderly_enchanter": true
 						}
 					}
 				}
@@ -98,7 +98,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/frequent_flyer": "true"
+							"blazeandcave:statistics/frequent_flyer": true
 						}
 					}
 				}
@@ -111,7 +111,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/global_railway_network": "true"
+							"blazeandcave:statistics/global_railway_network": true
 						}
 					}
 				}
@@ -124,7 +124,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/happy_new_year": "true"
+							"blazeandcave:statistics/happy_new_year": true
 						}
 					}
 				}
@@ -137,7 +137,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/horse_training": "true"
+							"blazeandcave:statistics/horse_training": true
 						}
 					}
 				}
@@ -150,7 +150,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/i_enjoy_long_walks_and_playing_minecraft": "true"
+							"blazeandcave:statistics/i_enjoy_long_walks_and_playing_minecraft": true
 						}
 					}
 				}
@@ -163,7 +163,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/i_like_trains": "true"
+							"blazeandcave:statistics/i_like_trains": true
 						}
 					}
 				}
@@ -176,7 +176,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/journeyman_enchanter": "true"
+							"blazeandcave:statistics/journeyman_enchanter": true
 						}
 					}
 				}
@@ -189,7 +189,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/jumping_jacks": "true"
+							"blazeandcave:statistics/jumping_jacks": true
 						}
 					}
 				}
@@ -202,7 +202,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/laps_in_the_pool": "true"
+							"blazeandcave:statistics/laps_in_the_pool": true
 						}
 					}
 				}
@@ -215,7 +215,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/level_up": "true"
+							"blazeandcave:statistics/level_up": true
 						}
 					}
 				}
@@ -228,7 +228,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/lightning_mcpig": "true"
+							"blazeandcave:statistics/lightning_mcpig": true
 						}
 					}
 				}
@@ -241,7 +241,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/luxury_cruise": "true"
+							"blazeandcave:statistics/luxury_cruise": true
 						}
 					}
 				}
@@ -254,7 +254,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/marathon": "true"
+							"blazeandcave:statistics/marathon": true
 						}
 					}
 				}
@@ -267,7 +267,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/minecart_rider": "true"
+							"blazeandcave:statistics/minecart_rider": true
 						}
 					}
 				}
@@ -280,7 +280,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/novice_enchanter": "true"
+							"blazeandcave:statistics/novice_enchanter": true
 						}
 					}
 				}
@@ -293,7 +293,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/olympic_athlete": "true"
+							"blazeandcave:statistics/olympic_athlete": true
 						}
 					}
 				}
@@ -306,7 +306,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/olympic_gold_medallist": "true"
+							"blazeandcave:statistics/olympic_gold_medallist": true
 						}
 					}
 				}
@@ -319,7 +319,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/out_for_a_stroll": "true"
+							"blazeandcave:statistics/out_for_a_stroll": true
 						}
 					}
 				}
@@ -332,7 +332,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/overlevelling": "true"
+							"blazeandcave:statistics/overlevelling": true
 						}
 					}
 				}
@@ -345,7 +345,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/passing_the_time": "true"
+							"blazeandcave:statistics/passing_the_time": true
 						}
 					}
 				}
@@ -358,7 +358,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/pig_training": "true"
+							"blazeandcave:statistics/pig_training": true
 						}
 					}
 				}
@@ -371,7 +371,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/pirate_captain": "true"
+							"blazeandcave:statistics/pirate_captain": true
 						}
 					}
 				}
@@ -384,7 +384,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/root": "true"
+							"blazeandcave:statistics/root": true
 						}
 					}
 				}
@@ -397,7 +397,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/sailor_of_the_seven_seas": "true"
+							"blazeandcave:statistics/sailor_of_the_seven_seas": true
 						}
 					}
 				}
@@ -410,7 +410,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/scourge_of_the_west": "true"
+							"blazeandcave:statistics/scourge_of_the_west": true
 						}
 					}
 				}
@@ -423,7 +423,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/sheriff_firearm": "true"
+							"blazeandcave:statistics/sheriff_firearm": true
 						}
 					}
 				}
@@ -436,7 +436,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/sneaky_snitch": "true"
+							"blazeandcave:statistics/sneaky_snitch": true
 						}
 					}
 				}
@@ -449,7 +449,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/snout_500": "true"
+							"blazeandcave:statistics/snout_500": true
 						}
 					}
 				}
@@ -462,7 +462,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/spring_in_your_step": "true"
+							"blazeandcave:statistics/spring_in_your_step": true
 						}
 					}
 				}
@@ -475,7 +475,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/supersonic": "true"
+							"blazeandcave:statistics/supersonic": true
 						}
 					}
 				}
@@ -488,7 +488,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/take_to_the_skies": "true"
+							"blazeandcave:statistics/take_to_the_skies": true
 						}
 					}
 				}
@@ -501,7 +501,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/the_first_night": "true"
+							"blazeandcave:statistics/the_first_night": true
 						}
 					}
 				}
@@ -514,7 +514,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/the_parrots_and_the_bats": "true"
+							"blazeandcave:statistics/the_parrots_and_the_bats": true
 						}
 					}
 				}
@@ -527,7 +527,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/two_by_two": "true"
+							"blazeandcave:statistics/two_by_two": true
 						}
 					}
 				}
@@ -540,7 +540,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/who_needs_cars": "true"
+							"blazeandcave:statistics/who_needs_cars": true
 						}
 					}
 				}
@@ -553,7 +553,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/xp_grinder": "true"
+							"blazeandcave:statistics/xp_grinder": true
 						}
 					}
 				}
@@ -566,7 +566,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/your_legs_must_be_tired": "true"
+							"blazeandcave:statistics/your_legs_must_be_tired": true
 						}
 					}
 				}
@@ -579,7 +579,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/mob_hunter": "true"
+							"blazeandcave:statistics/mob_hunter": true
 						}
 					}
 				}
@@ -592,7 +592,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/bloodthirsty": "true"
+							"blazeandcave:statistics/bloodthirsty": true
 						}
 					}
 				}
@@ -605,7 +605,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/kill_or_be_killed": "true"
+							"blazeandcave:statistics/kill_or_be_killed": true
 						}
 					}
 				}
@@ -618,7 +618,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/taking_it_in_stride": "true"
+							"blazeandcave:statistics/taking_it_in_stride": true
 						}
 					}
 				}
@@ -631,7 +631,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/who_needs_boats": "true"
+							"blazeandcave:statistics/who_needs_boats": true
 						}
 					}
 				}
@@ -644,7 +644,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/this_ride_is_lit_yo": "true"
+							"blazeandcave:statistics/this_ride_is_lit_yo": true
 						}
 					}
 				}
@@ -657,7 +657,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/the_haggler": "true"
+							"blazeandcave:statistics/the_haggler": true
 						}
 					}
 				}
@@ -670,7 +670,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/big_spender": "true"
+							"blazeandcave:statistics/big_spender": true
 						}
 					}
 				}
@@ -683,7 +683,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/stonks": "true"
+							"blazeandcave:statistics/stonks": true
 						}
 					}
 				}
@@ -696,7 +696,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/om_nom_nom": "true"
+							"blazeandcave:statistics/om_nom_nom": true
 						}
 					}
 				}
@@ -709,7 +709,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/yum_yum_yummo": "true"
+							"blazeandcave:statistics/yum_yum_yummo": true
 						}
 					}
 				}
@@ -722,7 +722,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/food_glorious_food": "true"
+							"blazeandcave:statistics/food_glorious_food": true
 						}
 					}
 				}
@@ -735,7 +735,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/loot_em": "true"
+							"blazeandcave:statistics/loot_em": true
 						}
 					}
 				}
@@ -748,7 +748,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/more_for_me": "true"
+							"blazeandcave:statistics/more_for_me": true
 						}
 					}
 				}
@@ -761,7 +761,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/i_heart_chests": "true"
+							"blazeandcave:statistics/i_heart_chests": true
 						}
 					}
 				}

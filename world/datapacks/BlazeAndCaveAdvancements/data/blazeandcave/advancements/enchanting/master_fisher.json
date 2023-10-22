@@ -25,19 +25,27 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:lure",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},
 							{
 								"enchantment": "minecraft:luck_of_the_sea",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},	
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},	
 							{
 								"enchantment": "minecraft:mending",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}		
 						]
 					}

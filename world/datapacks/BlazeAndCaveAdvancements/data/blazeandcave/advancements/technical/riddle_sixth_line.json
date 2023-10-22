@@ -27,7 +27,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_fifth_line": "true"
+							"blazeandcave:technical/riddle_fifth_line": true
 						}
 					}
 				}

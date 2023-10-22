@@ -1010,6 +1010,31 @@
 					}
 				]
 			}
+		},
+		"pitcher_pod": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:pitcher_crop"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:bone_meal"
+							]
+						}
+					}
+				]
+			}
 		}
 	}
 }

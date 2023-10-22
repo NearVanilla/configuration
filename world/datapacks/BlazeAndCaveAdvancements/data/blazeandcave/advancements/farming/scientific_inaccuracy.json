@@ -13,15 +13,9 @@
 	},		
 	"criteria": {
 		"melon_block": {
-			"trigger": "minecraft:inventory_changed",
+			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:melon"
-						]
-					}
-				]
+				"recipe_id": "minecraft:melon"
 			}
 		}
 	}

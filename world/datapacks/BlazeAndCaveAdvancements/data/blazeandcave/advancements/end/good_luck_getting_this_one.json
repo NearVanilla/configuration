@@ -21,7 +21,7 @@
 					{
 						"type": "minecraft:turtle",
 						"flags": {
-							"is_baby": "true"
+							"is_baby": true
 						},
 						"location": {
 							"dimension": "the_end"

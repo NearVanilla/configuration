@@ -20,7 +20,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/all_potions": "true"
+							"minecraft:nether/all_potions": true
 						}
 					}
 				}
@@ -33,7 +33,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/a_furious_test_subject": "true"
+							"blazeandcave:potion/a_furious_test_subject": true
 						}
 					}
 				}
@@ -46,7 +46,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/a_much_more_doable_challenge": "true"
+							"blazeandcave:potion/a_much_more_doable_challenge": true
 						}
 					}
 				}
@@ -59,7 +59,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/a_weak_brew": "true"
+							"blazeandcave:potion/a_weak_brew": true
 						}
 					}
 				}
@@ -72,7 +72,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/death_by_magic": "true"
+							"blazeandcave:potion/death_by_magic": true
 						}
 					}
 				}
@@ -85,7 +85,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/furious_ammunition": "true"
+							"blazeandcave:potion/furious_ammunition": true
 						}
 					}
 				}
@@ -98,7 +98,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/gas": "true"
+							"blazeandcave:potion/gas": true
 						}
 					}
 				}
@@ -111,7 +111,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/hopping_mad": "true"
+							"blazeandcave:potion/hopping_mad": true
 						}
 					}
 				}
@@ -124,7 +124,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/hyper_healing": "true"
+							"blazeandcave:potion/hyper_healing": true
 						}
 					}
 				}
@@ -137,7 +137,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/medic": "true"
+							"blazeandcave:potion/medic": true
 						}
 					}
 				}
@@ -150,7 +150,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/mad_scientist": "true"
+							"blazeandcave:potion/mad_scientist": true
 						}
 					}
 				}
@@ -163,7 +163,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/marine_marauder": "true"
+							"blazeandcave:potion/marine_marauder": true
 						}
 					}
 				}
@@ -176,7 +176,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/nocturnal": "true"
+							"blazeandcave:potion/nocturnal": true
 						}
 					}
 				}
@@ -189,7 +189,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/noxious_fumes": "true"
+							"blazeandcave:potion/noxious_fumes": true
 						}
 					}
 				}
@@ -202,7 +202,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/performance_enhancing_drugs": "true"
+							"blazeandcave:potion/performance_enhancing_drugs": true
 						}
 					}
 				}
@@ -215,7 +215,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/poison_dart": "true"
+							"blazeandcave:potion/poison_dart": true
 						}
 					}
 				}
@@ -228,7 +228,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/root": "true"
+							"blazeandcave:potion/root": true
 						}
 					}
 				}
@@ -241,7 +241,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/stayin_frosty": "true"
+							"blazeandcave:potion/stayin_frosty": true
 						}
 					}
 				}
@@ -254,7 +254,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/super_strength": "true"
+							"blazeandcave:potion/super_strength": true
 						}
 					}
 				}
@@ -267,7 +267,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/tank": "true"
+							"blazeandcave:potion/tank": true
 						}
 					}
 				}
@@ -280,7 +280,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/the_invisible_player": "true"
+							"blazeandcave:potion/the_invisible_player": true
 						}
 					}
 				}
@@ -293,7 +293,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/true_feather_falling": "true"
+							"blazeandcave:potion/true_feather_falling": true
 						}
 					}
 				}
@@ -306,7 +306,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:end/dragon_breath": "true"
+							"minecraft:end/dragon_breath": true
 						}
 					}
 				}
@@ -319,7 +319,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:story/cure_zombie_villager": "true"
+							"minecraft:story/cure_zombie_villager": true
 						}
 					}
 				}
@@ -332,7 +332,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/failed_concoctions": "true"
+							"blazeandcave:potion/failed_concoctions": true
 						}
 					}
 				}
@@ -345,7 +345,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/gas_bomb": "true"
+							"blazeandcave:potion/gas_bomb": true
 						}
 					}
 				}
@@ -358,7 +358,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:potion/stealth_takedown": "true"
+							"blazeandcave:potion/stealth_takedown": true
 						}
 					}
 				}

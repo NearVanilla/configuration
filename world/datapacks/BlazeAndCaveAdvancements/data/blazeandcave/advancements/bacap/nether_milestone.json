@@ -20,7 +20,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/find_fortress": "true"
+							"minecraft:nether/find_fortress": true
 						}
 					}
 				}
@@ -33,7 +33,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/basis_of_brewing": "true"
+							"blazeandcave:nether/basis_of_brewing": true
 						}
 					}
 				}
@@ -46,7 +46,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/create_full_beacon": "true"
+							"minecraft:nether/create_full_beacon": true
 						}
 					}
 				}
@@ -59,7 +59,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/blaze_extinguisher": "true"
+							"blazeandcave:nether/blaze_extinguisher": true
 						}
 					}
 				}
@@ -72,7 +72,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/bring_down_the_beast": "true"
+							"blazeandcave:nether/bring_down_the_beast": true
 						}
 					}
 				}
@@ -85,7 +85,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/create_beacon": "true"
+							"minecraft:nether/create_beacon": true
 						}
 					}
 				}
@@ -98,7 +98,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/decaying_beauty": "true"
+							"blazeandcave:nether/decaying_beauty": true
 						}
 					}
 				}
@@ -111,7 +111,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/stepping_on_legos": "true"
+							"blazeandcave:nether/stepping_on_legos": true
 						}
 					}
 				}
@@ -124,7 +124,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/enders_chest": "true"
+							"blazeandcave:nether/enders_chest": true
 						}
 					}
 				}
@@ -137,7 +137,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:story/follow_ender_eye": "true"
+							"minecraft:story/follow_ender_eye": true
 						}
 					}
 				}
@@ -150,7 +150,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/fire_blast_shield": "true"
+							"blazeandcave:nether/fire_blast_shield": true
 						}
 					}
 				}
@@ -163,7 +163,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/ghast_slayer": "true"
+							"blazeandcave:nether/ghast_slayer": true
 						}
 					}
 				}
@@ -176,7 +176,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/giant_floating_jellyfish": "true"
+							"blazeandcave:nether/giant_floating_jellyfish": true
 						}
 					}
 				}
@@ -189,7 +189,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/glows_in_the_dark": "true"
+							"blazeandcave:nether/glows_in_the_dark": true
 						}
 					}
 				}
@@ -202,7 +202,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/glowstone_miner": "true"
+							"blazeandcave:nether/glowstone_miner": true
 						}
 					}
 				}
@@ -215,7 +215,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/hells_bells": "true"
+							"blazeandcave:nether/hells_bells": true
 						}
 					}
 				}
@@ -228,7 +228,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/high_temperature_fluid_monster": "true"
+							"blazeandcave:nether/high_temperature_fluid_monster": true
 						}
 					}
 				}
@@ -241,7 +241,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/im_in_lava_with_you": "true"
+							"blazeandcave:nether/im_in_lava_with_you": true
 						}
 					}
 				}
@@ -254,7 +254,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/obtain_blaze_rod": "true"
+							"minecraft:nether/obtain_blaze_rod": true
 						}
 					}
 				}
@@ -267,7 +267,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/limbo_walker": "true"
+							"blazeandcave:nether/limbo_walker": true
 						}
 					}
 				}
@@ -280,7 +280,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/brew_potion": "true"
+							"minecraft:nether/brew_potion": true
 						}
 					}
 				}
@@ -293,7 +293,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/magma_cube_squisher": "true"
+							"blazeandcave:nether/magma_cube_squisher": true
 						}
 					}
 				}
@@ -306,7 +306,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/quicksand": "true"
+							"blazeandcave:nether/quicksand": true
 						}
 					}
 				}
@@ -319,7 +319,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/return_to_sender": "true"
+							"minecraft:nether/return_to_sender": true
 						}
 					}
 				}
@@ -332,7 +332,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/root": "true"
+							"minecraft:nether/root": true
 						}
 					}
 				}
@@ -345,7 +345,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/seeing_stars": "true"
+							"blazeandcave:nether/seeing_stars": true
 						}
 					}
 				}
@@ -358,7 +358,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/get_wither_skull": "true"
+							"minecraft:nether/get_wither_skull": true
 						}
 					}
 				}
@@ -371,7 +371,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/fast_travel": "true"
+							"minecraft:nether/fast_travel": true
 						}
 					}
 				}
@@ -384,7 +384,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:story/enter_the_end": "true"
+							"minecraft:story/enter_the_end": true
 						}
 					}
 				}
@@ -397,7 +397,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/the_hunt_begins": "true"
+							"blazeandcave:nether/the_hunt_begins": true
 						}
 					}
 				}
@@ -410,7 +410,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/the_nethers_shield": "true"
+							"blazeandcave:nether/the_nethers_shield": true
 						}
 					}
 				}
@@ -423,7 +423,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/the_tribal_snouts": "true"
+							"blazeandcave:nether/the_tribal_snouts": true
 						}
 					}
 				}
@@ -436,7 +436,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/uneasy_alliance": "true"
+							"minecraft:nether/uneasy_alliance": true
 						}
 					}
 				}
@@ -449,7 +449,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/summon_wither": "true"
+							"minecraft:nether/summon_wither": true
 						}
 					}
 				}
@@ -462,7 +462,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/stem_research": "true"
+							"blazeandcave:nether/stem_research": true
 						}
 					}
 				}
@@ -475,7 +475,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/what_a_fungi": "true"
+							"blazeandcave:nether/what_a_fungi": true
 						}
 					}
 				}
@@ -488,7 +488,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/i_am_root": "true"
+							"blazeandcave:nether/i_am_root": true
 						}
 					}
 				}
@@ -501,7 +501,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/dont_blink": "true"
+							"blazeandcave:nether/dont_blink": true
 						}
 					}
 				}
@@ -514,7 +514,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/twisted": "true"
+							"blazeandcave:nether/twisted": true
 						}
 					}
 				}
@@ -527,7 +527,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/what_about_corruption_planks": "true"
+							"blazeandcave:nether/what_about_corruption_planks": true
 						}
 					}
 				}
@@ -540,7 +540,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/welcome_to_warp_zone": "true"
+							"blazeandcave:nether/welcome_to_warp_zone": true
 						}
 					}
 				}
@@ -553,7 +553,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/explore_nether": "true"
+							"minecraft:nether/explore_nether": true
 						}
 					}
 				}
@@ -566,7 +566,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/hell_botanist": "true"
+							"blazeandcave:nether/hell_botanist": true
 						}
 					}
 				}
@@ -579,7 +579,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/spreading_corruption": "true"
+							"blazeandcave:nether/spreading_corruption": true
 						}
 					}
 				}
@@ -592,7 +592,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/the_struggle_nether_ends": "true"
+							"blazeandcave:nether/the_struggle_nether_ends": true
 						}
 					}
 				}
@@ -605,7 +605,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/roadhog": "true"
+							"blazeandcave:nether/roadhog": true
 						}
 					}
 				}
@@ -618,7 +618,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/when_hoglins_breed": "true"
+							"blazeandcave:nether/when_hoglins_breed": true
 						}
 					}
 				}
@@ -631,7 +631,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/whole_hog": "true"
+							"blazeandcave:nether/whole_hog": true
 						}
 					}
 				}
@@ -644,7 +644,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/giddy_up": "true"
+							"blazeandcave:nether/giddy_up": true
 						}
 					}
 				}
@@ -657,7 +657,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/zork_chop": "true"
+							"blazeandcave:nether/zork_chop": true
 						}
 					}
 				}
@@ -670,7 +670,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/ride_strider": "true"
+							"minecraft:nether/ride_strider": true
 						}
 					}
 				}
@@ -683,7 +683,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/bobbleheads": "true"
+							"blazeandcave:nether/bobbleheads": true
 						}
 					}
 				}
@@ -696,7 +696,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/this_ones_mine": "true"
+							"blazeandcave:nether/this_ones_mine": true
 						}
 					}
 				}
@@ -709,7 +709,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/distract_piglin": "true"
+							"minecraft:nether/distract_piglin": true
 						}
 					}
 				}
@@ -722,7 +722,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/cultural_misunderstandings": "true"
+							"blazeandcave:nether/cultural_misunderstandings": true
 						}
 					}
 				}
@@ -735,7 +735,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/obtain_crying_obsidian": "true"
+							"minecraft:nether/obtain_crying_obsidian": true
 						}
 					}
 				}
@@ -748,7 +748,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/anchorman": "true"
+							"blazeandcave:nether/anchorman": true
 						}
 					}
 				}
@@ -761,7 +761,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/charge_respawn_anchor": "true"
+							"minecraft:nether/charge_respawn_anchor": true
 						}
 					}
 				}
@@ -774,7 +774,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/we_got_a_live_one": "true"
+							"blazeandcave:nether/we_got_a_live_one": true
 						}
 					}
 				}
@@ -787,7 +787,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/when_piglins_fly": "true"
+							"blazeandcave:nether/when_piglins_fly": true
 						}
 					}
 				}
@@ -800,7 +800,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/electrifying_alliance": "true"
+							"blazeandcave:nether/electrifying_alliance": true
 						}
 					}
 				}
@@ -813,7 +813,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/time_to_fire_back": "true"
+							"blazeandcave:nether/time_to_fire_back": true
 						}
 					}
 				}
@@ -826,7 +826,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/from_whence_it_came": "true"
+							"blazeandcave:nether/from_whence_it_came": true
 						}
 					}
 				}
@@ -839,7 +839,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/find_bastion": "true"
+							"minecraft:nether/find_bastion": true
 						}
 					}
 				}
@@ -852,7 +852,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/loot_bastion": "true"
+							"minecraft:nether/loot_bastion": true
 						}
 					}
 				}
@@ -865,7 +865,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/gilty": "true"
+							"blazeandcave:nether/gilty": true
 						}
 					}
 				}
@@ -878,7 +878,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/wub_wub_wub": "true"
+							"blazeandcave:nether/wub_wub_wub": true
 						}
 					}
 				}
@@ -891,7 +891,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/nugget_in_a_biscuit": "true"
+							"blazeandcave:nether/nugget_in_a_biscuit": true
 						}
 					}
 				}
@@ -904,7 +904,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/dark_ages": "true"
+							"blazeandcave:nether/dark_ages": true
 						}
 					}
 				}
@@ -917,7 +917,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/burnt_right_into_your_soul": "true"
+							"blazeandcave:nether/burnt_right_into_your_soul": true
 						}
 					}
 				}
@@ -930,7 +930,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/a_soul_for_a_soul": "true"
+							"blazeandcave:nether/a_soul_for_a_soul": true
 						}
 					}
 				}
@@ -943,7 +943,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/let_me_out": "true"
+							"blazeandcave:nether/let_me_out": true
 						}
 					}
 				}
@@ -956,7 +956,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/the_descent": "true"
+							"blazeandcave:nether/the_descent": true
 						}
 					}
 				}
@@ -969,7 +969,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/obtain_ancient_debris": "true"
+							"minecraft:nether/obtain_ancient_debris": true
 						}
 					}
 				}
@@ -982,7 +982,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/holy_scrap": "true"
+							"blazeandcave:nether/holy_scrap": true
 						}
 					}
 				}
@@ -995,7 +995,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/diamonds_are_not_forever": "true"
+							"blazeandcave:nether/diamonds_are_not_forever": true
 						}
 					}
 				}
@@ -1008,7 +1008,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/moar_upgraded_tools": "true"
+							"blazeandcave:nether/moar_upgraded_tools": true
 						}
 					}
 				}
@@ -1021,7 +1021,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/netherite_armor": "true"
+							"minecraft:nether/netherite_armor": true
 						}
 					}
 				}
@@ -1034,7 +1034,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/soul_runnings": "true"
+							"blazeandcave:nether/soul_runnings": true
 						}
 					}
 				}
@@ -1047,7 +1047,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/fool_me_twice": "true"
+							"blazeandcave:nether/fool_me_twice": true
 						}
 					}
 				}
@@ -1060,7 +1060,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/get_a_lode_of_this": "true"
+							"blazeandcave:nether/get_a_lode_of_this": true
 						}
 					}
 				}
@@ -1073,7 +1073,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/use_lodestone": "true"
+							"minecraft:nether/use_lodestone": true
 						}
 					}
 				}
@@ -1086,7 +1086,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/lodes_of_applications": "true"
+							"blazeandcave:nether/lodes_of_applications": true
 						}
 					}
 				}
@@ -1099,7 +1099,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/netherite_miner": "true"
+							"blazeandcave:nether/netherite_miner": true
 						}
 					}
 				}
@@ -1112,7 +1112,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/inception": "true"
+							"blazeandcave:nether/inception": true
 						}
 					}
 				}
@@ -1125,7 +1125,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/brute_force": "true"
+							"blazeandcave:nether/brute_force": true
 						}
 					}
 				}
@@ -1138,7 +1138,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/et_tu_brute": "true"
+							"blazeandcave:nether/et_tu_brute": true
 						}
 					}
 				}
@@ -1151,7 +1151,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/hot_reels": "true"
+							"blazeandcave:nether/hot_reels": true
 						}
 					}
 				}
@@ -1164,7 +1164,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/nether_rock_collection": "true"
+							"blazeandcave:nether/nether_rock_collection": true
 						}
 					}
 				}
@@ -1177,7 +1177,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/legend_of_hell_chicken_riders": "true"
+							"blazeandcave:nether/legend_of_hell_chicken_riders": true
 						}
 					}
 				}
@@ -1190,7 +1190,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/ancient_restoration": "true"
+							"blazeandcave:nether/ancient_restoration": true
 						}
 					}
 				}
@@ -1203,7 +1203,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/hot_spring": "true"
+							"blazeandcave:nether/hot_spring": true
 						}
 					}
 				}
@@ -1216,7 +1216,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/polar_opposites": "true"
+							"blazeandcave:nether/polar_opposites": true
 						}
 					}
 				}
@@ -1229,7 +1229,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/jenga": "true"
+							"blazeandcave:nether/jenga": true
 						}
 					}
 				}
@@ -1242,7 +1242,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/instant_mining": "true"
+							"blazeandcave:nether/instant_mining": true
 						}
 					}
 				}
@@ -1255,7 +1255,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/master_netherite_miner": "true"
+							"blazeandcave:nether/master_netherite_miner": true
 						}
 					}
 				}
@@ -1268,7 +1268,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/beacon_overlord": "true"
+							"blazeandcave:nether/beacon_overlord": true
 						}
 					}
 				}
@@ -1281,7 +1281,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/spyglass_at_ghast": "true"
+							"minecraft:adventure/spyglass_at_ghast": true
 						}
 					}
 				}
@@ -1294,7 +1294,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/a_piglins_best_friend": "true"
+							"blazeandcave:nether/a_piglins_best_friend": true
 						}
 					}
 				}
@@ -1307,7 +1307,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/ride_strider_in_overworld_lava": "true"
+							"minecraft:nether/ride_strider_in_overworld_lava": true
 						}
 					}
 				}
@@ -1320,7 +1320,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/gilded_miner": "true"
+							"blazeandcave:nether/gilded_miner": true
 						}
 					}
 				}
@@ -1333,7 +1333,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/astrobrute": "true"
+							"blazeandcave:nether/astrobrute": true
 						}
 					}
 				}
@@ -1346,7 +1346,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/ludicrous_speed": "true"
+							"blazeandcave:nether/ludicrous_speed": true
 						}
 					}
 				}
@@ -1359,7 +1359,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/hung_drawn_and_bartered": "true"
+							"blazeandcave:nether/hung_drawn_and_bartered": true
 						}
 					}
 				}
@@ -1372,7 +1372,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/time_to_upgrade": "true"
+							"blazeandcave:nether/time_to_upgrade": true
 						}
 					}
 				}
@@ -1385,7 +1385,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/piglin_peril": "true"
+							"blazeandcave:nether/piglin_peril": true
 						}
 					}
 				}

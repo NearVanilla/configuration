@@ -17,7 +17,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_third_line": "true"
+							"blazeandcave:technical/riddle_third_line": true
 						}
 					}
 				}
@@ -45,7 +45,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_third_line": "true"
+							"blazeandcave:technical/riddle_third_line": true
 						}
 					}
 				}
@@ -73,7 +73,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_third_line": "true"
+							"blazeandcave:technical/riddle_third_line": true
 						}
 					}
 				}
@@ -101,7 +101,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_third_line": "true"
+							"blazeandcave:technical/riddle_third_line": true
 						}
 					}
 				}

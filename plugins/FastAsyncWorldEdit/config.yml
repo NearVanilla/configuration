@@ -1,9 +1,9 @@
 # These first 6 aren't configurable
 issues: "https://github.com/IntellectualSites/FastAsyncWorldEdit/issues"
 wiki: "https://intellectualsites.github.io/fastasyncworldedit-documentation/"
-date: "Sat Jul 29 00:00:00 UTC 2023"
+date: "Thu Nov 09 00:00:00 UTC 2023"
 build: "https://ci.athion.net/job/FastAsyncWorldEdit/0"
-commit: "https://github.com/IntellectualSites/FastAsyncWorldEdit/commit/f1a340cd"
+commit: "https://github.com/IntellectualSites/FastAsyncWorldEdit/commit/f9c616aa"
 platform: "Bukkit"
 # Set true to enable WorldEdit restrictions per region (e.g. PlotSquared or WorldGuard).
 # To be allowed to WorldEdit in a region, users need the appropriate
@@ -120,7 +120,7 @@ experimental:
   #  - If the entity is in an unloaded or partially loaded chunk, this will fail
   #  - If an entity cannot be removed, it is possible duplicate entities may be created when using undo and/or redo
   remove-entity-from-world-on-chunk-fail: true
-  # Other experimental features
+  # Increased debug logging for brush actions and processor setup
   other: false
   # Allow fluids placed by FAWE to tick (flow). This could cause the big lags.
   # This has no effect on existing blocks one way or the other.
@@ -140,6 +140,7 @@ queue:
     #  - false = disabled
     #  - title = Display progress titles
     #  - chat = Display progress in chat
+    #  - Currently not implemented
     display: "false"
     # How often edit progress is displayed
     interval: 1
@@ -155,11 +156,6 @@ queue:
   #  - Values smaller than the configurated parallel-threads are not accepted
   #  - It is recommended this option be at least 4x greater than parallel-threads
   target-size: 88
-  # Force FAWE to start placing chunks regardless of whether an edit is finished processing
-  #  - A larger value will use slightly less CPU time
-  #  - A smaller value will reduce memory usage
-  #  - A value too small may break some operations (deform?)
-  max-wait-ms: 1000
   # Increase or decrease queue intensity (ms) [-50,50]:
   #     0 = balance of performance / stability
   #     -10 = Allocate 10ms less for chunk placement
@@ -176,10 +172,6 @@ queue:
   # If pooling is enabled (reduces GC, higher memory usage)
   #  - Enable to improve performance at the expense of memory
   pool: true
-  # Discard edits which have been idle for a certain amount of time (ms)
-  #  - E.g. A plugin creates an EditSession but never does anything with it
-  #  - This only applies to plugins improperly using WorldEdit's legacy API
-  discard-after-ms: 60000
   # When using fastmode do not bother to tick existing/placed blocks/fluids
   # Only works in versions up to 1.17.1
   no-tick-fastmode: true
@@ -221,26 +213,12 @@ history:
   #  - Larger = better ratio but uses more upfront memory
   #  - Must be in the range [64, 33554432]
   buffer-size: 531441
-  # The maximum time in milliseconds to wait for a chunk to load for an edit.
-  #  (50ms = 1 server tick, 0 = Fastest).
-  #  The default value of 100 should be safe for most cases.
-  # 
-  # Actions which require loaded chunks (e.g. copy) which do not load in time
-  #  will use the last chunk as filler, which may appear as bands of duplicated blocks.
-  # Actions usually wait about 25-50ms for the chunk to load, more if the server is lagging.
-  # A value of 100ms does not force it to wait 100ms if the chunk loads in 10ms.
-  # 
-  # This value is a timeout in case a chunk is never going to load (for whatever odd reason).
-  # If the action times out, the operation continues by using the previous chunk as filler,
-  #  and displaying an error message.  In this case, either copy a smaller section,
-  #  or increase chunk-wait-ms.
-  # A value of 0 is faster simply because it doesn't bother loading the chunks or waiting.
-  chunk-wait-ms: 1000
   # Delete history on disk after a number of days
   delete-after-days: 7
   # Delete history in memory on logout (does not effect disk)
   delete-on-logout: true
   # If history should be enabled by default for plugins using WorldEdit:
+  #  - It is faster to have disabled
   #  - It is faster to have disabled
   #  - Use of the FAWE API will not be effected
   enable-for-console: true
@@ -350,6 +328,7 @@ limits:
     # of a waterlogged fence). For blocking/remapping of all occurrences of a property like waterlogged, see
     # remap-properties below.
     # To generate a blank list, substitute the default content with a set of square brackets [] instead.
+    # The 'worldedit.anyblock' permission is not considered here.
     # Example block property blocking:
     #  - "minecraft:conduit[waterlogged=true]"
     #  - "minecraft:piston[extended=false,facing=west]"

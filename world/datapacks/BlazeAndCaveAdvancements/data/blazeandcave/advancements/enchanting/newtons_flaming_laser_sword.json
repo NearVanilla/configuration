@@ -25,7 +25,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:fire_aspect",
-								"levels": 2
+								"levels": {
+									"min": 2
+								}
 							}
 						]
 					}

@@ -24,7 +24,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/spawn_perfect_one": "true"
+							"blazeandcave:technical/spawn_perfect_one": true
 						}
 					}
 				}
@@ -40,7 +40,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/spawn_perfect_one": "true"
+							"blazeandcave:technical/spawn_perfect_one": true
 						}
 					}
 				}
@@ -53,7 +53,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/spawn_perfect_one": "true"
+							"blazeandcave:technical/spawn_perfect_one": true
 						}
 					}
 				}

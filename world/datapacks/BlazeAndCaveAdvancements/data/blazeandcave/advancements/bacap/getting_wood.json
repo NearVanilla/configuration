@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Getting Wood"},
 		"description": {"color":"green","translate":"Attack a tree until a block of wood pops out"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:bacap/root",
 	"rewards": {

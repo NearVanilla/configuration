@@ -21,7 +21,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:fortune",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -36,7 +38,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:fortune",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}

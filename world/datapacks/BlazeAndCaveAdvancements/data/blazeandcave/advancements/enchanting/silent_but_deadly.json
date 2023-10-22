@@ -33,7 +33,9 @@
 									"enchantments": [
 										{
 											"enchantment": "minecraft:swift_sneak",
-											"levels": 3
+											"levels": {
+												"min": 3
+											}
 										}
 									]
 								}
@@ -49,8 +51,8 @@
 								}
 							},
 							"flags": {
-								"is_sprinting": "true",
-								"is_sneaking": "true"
+								"is_sprinting": true,
+								"is_sneaking": true
 							}
 						},
 						"entity": "this"

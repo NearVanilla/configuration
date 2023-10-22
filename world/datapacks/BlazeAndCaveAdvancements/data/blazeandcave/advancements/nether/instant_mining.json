@@ -38,7 +38,9 @@
 									"enchantments": [
 										{
 											"enchantment": "minecraft:efficiency",
-											"levels": 5
+											"levels": {
+									"min": 5
+								}
 										}
 									]
 								}

@@ -18,7 +18,7 @@
 				"entity": {
 					"type": "zombie",
 					"flags": {
-						"is_baby": "true"
+						"is_baby": true
 					}
 				}
 			}
@@ -29,7 +29,7 @@
 				"entity": {
 					"type": "zombie_villager",
 					"flags": {
-						"is_baby": "true"
+						"is_baby": true
 					}
 				}
 			}
@@ -40,7 +40,7 @@
 				"entity": {
 					"type": "husk",
 					"flags": {
-						"is_baby": "true"
+						"is_baby": true
 					}
 				}
 			}
@@ -51,7 +51,7 @@
 				"entity": {
 					"type": "zombified_piglin",
 					"flags": {
-						"is_baby": "true"
+						"is_baby": true
 					}
 				}
 			}
@@ -62,7 +62,7 @@
 				"entity": {
 					"type": "drowned",
 					"flags": {
-						"is_baby": "true"
+						"is_baby": true
 					}
 				}
 			}

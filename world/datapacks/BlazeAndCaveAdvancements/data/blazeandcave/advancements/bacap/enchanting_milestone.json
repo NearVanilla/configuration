@@ -20,7 +20,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/arbalistic": "true"
+							"minecraft:adventure/arbalistic": true
 						}
 					}
 				}
@@ -33,7 +33,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/armor_for_the_masses": "true"
+							"blazeandcave:enchanting/armor_for_the_masses": true
 						}
 					}
 				}
@@ -46,7 +46,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/bane_of_one_shotting_spiders": "true"
+							"blazeandcave:enchanting/bane_of_one_shotting_spiders": true
 						}
 					}
 				}
@@ -59,7 +59,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/boomerang": "true"
+							"blazeandcave:enchanting/boomerang": true
 						}
 					}
 				}
@@ -72,7 +72,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/bow_down_to_me": "true"
+							"blazeandcave:enchanting/bow_down_to_me": true
 						}
 					}
 				}
@@ -85,7 +85,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/complete_enchanter": "true"
+							"blazeandcave:enchanting/complete_enchanter": true
 						}
 					}
 				}
@@ -98,7 +98,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/curses": "true"
+							"blazeandcave:enchanting/curses": true
 						}
 					}
 				}
@@ -111,7 +111,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/do_a_barrel_roll": "true"
+							"blazeandcave:enchanting/do_a_barrel_roll": true
 						}
 					}
 				}
@@ -124,7 +124,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/fiery": "true"
+							"blazeandcave:enchanting/fiery": true
 						}
 					}
 				}
@@ -137,7 +137,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/fortunate_son": "true"
+							"blazeandcave:enchanting/fortunate_son": true
 						}
 					}
 				}
@@ -150,7 +150,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/knocking_your_socks_off": "true"
+							"blazeandcave:enchanting/knocking_your_socks_off": true
 						}
 					}
 				}
@@ -163,7 +163,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/let_it_go": "true"
+							"blazeandcave:enchanting/let_it_go": true
 						}
 					}
 				}
@@ -176,7 +176,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/librarian": "true"
+							"blazeandcave:enchanting/librarian": true
 						}
 					}
 				}
@@ -189,7 +189,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/like_a_cat": "true"
+							"blazeandcave:enchanting/like_a_cat": true
 						}
 					}
 				}
@@ -202,7 +202,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/machine_bow": "true"
+							"blazeandcave:enchanting/machine_bow": true
 						}
 					}
 				}
@@ -215,7 +215,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/magical_stockpile": "true"
+							"blazeandcave:enchanting/magical_stockpile": true
 						}
 					}
 				}
@@ -228,7 +228,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/master_arbalist": "true"
+							"blazeandcave:enchanting/master_arbalist": true
 						}
 					}
 				}
@@ -241,7 +241,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/master_armorer": "true"
+							"blazeandcave:enchanting/master_armorer": true
 						}
 					}
 				}
@@ -254,7 +254,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/master_enchanter": "true"
+							"blazeandcave:enchanting/master_enchanter": true
 						}
 					}
 				}
@@ -267,7 +267,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/master_fisher": "true"
+							"blazeandcave:enchanting/master_fisher": true
 						}
 					}
 				}
@@ -280,7 +280,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/master_knight": "true"
+							"blazeandcave:enchanting/master_knight": true
 						}
 					}
 				}
@@ -293,7 +293,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/master_miner": "true"
+							"blazeandcave:enchanting/master_miner": true
 						}
 					}
 				}
@@ -306,7 +306,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/master_sniper": "true"
+							"blazeandcave:enchanting/master_sniper": true
 						}
 					}
 				}
@@ -319,7 +319,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/master_tridenteer": "true"
+							"blazeandcave:enchanting/master_tridenteer": true
 						}
 					}
 				}
@@ -332,7 +332,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/needle_sharp": "true"
+							"blazeandcave:enchanting/needle_sharp": true
 						}
 					}
 				}
@@ -345,7 +345,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/newtons_flaming_laser_sword": "true"
+							"blazeandcave:enchanting/newtons_flaming_laser_sword": true
 						}
 					}
 				}
@@ -358,7 +358,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/heavy_metal": "true"
+							"blazeandcave:enchanting/heavy_metal": true
 						}
 					}
 				}
@@ -371,7 +371,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/overkill": "true"
+							"blazeandcave:enchanting/overkill": true
 						}
 					}
 				}
@@ -384,7 +384,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/pick_like_silk": "true"
+							"blazeandcave:enchanting/pick_like_silk": true
 						}
 					}
 				}
@@ -397,7 +397,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/root": "true"
+							"blazeandcave:enchanting/root": true
 						}
 					}
 				}
@@ -410,7 +410,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/scuba_gear": "true"
+							"blazeandcave:enchanting/scuba_gear": true
 						}
 					}
 				}
@@ -423,7 +423,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/shotbow": "true"
+							"blazeandcave:enchanting/shotbow": true
 						}
 					}
 				}
@@ -436,7 +436,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/super_efficient": "true"
+							"blazeandcave:enchanting/super_efficient": true
 						}
 					}
 				}
@@ -449,7 +449,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/to_infinity_and_beyond": "true"
+							"blazeandcave:enchanting/to_infinity_and_beyond": true
 						}
 					}
 				}
@@ -462,7 +462,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/unbreakable": "true"
+							"blazeandcave:enchanting/unbreakable": true
 						}
 					}
 				}
@@ -475,7 +475,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/undead_slayer": "true"
+							"blazeandcave:enchanting/undead_slayer": true
 						}
 					}
 				}
@@ -488,7 +488,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/very_very_frightening": "true"
+							"minecraft:adventure/very_very_frightening": true
 						}
 					}
 				}
@@ -501,7 +501,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/zeus": "true"
+							"blazeandcave:enchanting/zeus": true
 						}
 					}
 				}
@@ -514,7 +514,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/this_name_sounds_cooler": "true"
+							"blazeandcave:enchanting/this_name_sounds_cooler": true
 						}
 					}
 				}
@@ -527,7 +527,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/ill_be_back": "true"
+							"blazeandcave:enchanting/ill_be_back": true
 						}
 					}
 				}
@@ -540,7 +540,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/god_of_thunder": "true"
+							"blazeandcave:enchanting/god_of_thunder": true
 						}
 					}
 				}
@@ -553,7 +553,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/a_rather_pointy_fence_post": "true"
+							"blazeandcave:enchanting/a_rather_pointy_fence_post": true
 						}
 					}
 				}
@@ -566,7 +566,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/gotta_go_fast": "true"
+							"blazeandcave:enchanting/gotta_go_fast": true
 						}
 					}
 				}
@@ -579,7 +579,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/handmade_blinding": "true"
+							"blazeandcave:enchanting/handmade_blinding": true
 						}
 					}
 				}
@@ -592,7 +592,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/master_digger": "true"
+							"blazeandcave:enchanting/master_digger": true
 						}
 					}
 				}
@@ -605,7 +605,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/master_axeman": "true"
+							"blazeandcave:enchanting/master_axeman": true
 						}
 					}
 				}
@@ -618,7 +618,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/master_farmer": "true"
+							"blazeandcave:enchanting/master_farmer": true
 						}
 					}
 				}
@@ -631,7 +631,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/over_overkill": "true"
+							"blazeandcave:enchanting/over_overkill": true
 						}
 					}
 				}
@@ -644,7 +644,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/baron_of_blacksmiths": "true"
+							"blazeandcave:enchanting/baron_of_blacksmiths": true
 						}
 					}
 				}
@@ -657,7 +657,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/like_a_ninja": "true"
+							"blazeandcave:enchanting/like_a_ninja": true
 						}
 					}
 				}
@@ -670,7 +670,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:enchanting/silent_but_deadly": "true"
+							"blazeandcave:enchanting/silent_but_deadly": true
 						}
 					}
 				}

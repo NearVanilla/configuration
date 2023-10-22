@@ -23,31 +23,45 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:sharpness",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							},
 							{
 								"enchantment": "minecraft:knockback",
-								"levels": 2
+								"levels": {
+									"min": 2
+								}
 							},
 							{
 								"enchantment": "minecraft:fire_aspect",
-								"levels": 2
+								"levels": {
+									"min": 2
+								}
 							},
 							{
 								"enchantment": "minecraft:looting",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},
 							{
 								"enchantment": "minecraft:sweeping",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},		
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},	
 							{
 								"enchantment": "minecraft:mending",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}		
 						]
 					}
@@ -63,31 +77,45 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:smite",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							},
 							{
 								"enchantment": "minecraft:knockback",
-								"levels": 2
+								"levels": {
+									"min": 2
+								}
 							},
 							{
 								"enchantment": "minecraft:fire_aspect",
-								"levels": 2
+								"levels": {
+									"min": 2
+								}
 							},
 							{
 								"enchantment": "minecraft:looting",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},
 							{
 								"enchantment": "minecraft:sweeping",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},		
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},	
 							{
 								"enchantment": "minecraft:mending",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}		
 						]
 					}
@@ -103,31 +131,45 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:bane_of_arthropods",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							},
 							{
 								"enchantment": "minecraft:knockback",
-								"levels": 2
+								"levels": {
+									"min": 2
+								}
 							},
 							{
 								"enchantment": "minecraft:fire_aspect",
-								"levels": 2
+								"levels": {
+									"min": 2
+								}
 							},
 							{
 								"enchantment": "minecraft:looting",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},
 							{
 								"enchantment": "minecraft:sweeping",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},		
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},	
 							{
 								"enchantment": "minecraft:mending",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}		
 						]
 					}

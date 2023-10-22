@@ -25,23 +25,33 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:power",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							},
 							{
 								"enchantment": "minecraft:punch",
-								"levels": 2
+								"levels": {
+									"min": 2
+								}
 							},
 							{
 								"enchantment": "minecraft:flame",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							},
 							{
 								"enchantment": "minecraft:infinity",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							},
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}	
 						]
 					}
@@ -59,23 +69,33 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:power",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							},
 							{
 								"enchantment": "minecraft:punch",
-								"levels": 2
+								"levels": {
+									"min": 2
+								}
 							},
 							{
 								"enchantment": "minecraft:flame",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							},
 							{
 								"enchantment": "minecraft:mending",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							},
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}	
 						]
 					}

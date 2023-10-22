@@ -24,7 +24,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 0
+									"note": "0"
 								}
 							}
 						}
@@ -44,7 +44,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 1
+									"note": "1"
 								}
 							}
 						}
@@ -64,7 +64,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 2
+									"note": "2"
 								}
 							}
 						}
@@ -84,7 +84,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 3
+									"note": "3"
 								}
 							}
 						}
@@ -104,7 +104,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 4
+									"note": "4"
 								}
 							}
 						}
@@ -124,7 +124,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 5
+									"note": "5"
 								}
 							}
 						}
@@ -144,7 +144,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 6
+									"note": "6"
 								}
 							}
 						}
@@ -164,7 +164,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 7
+									"note": "7"
 								}
 							}
 						}
@@ -184,7 +184,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 8
+									"note": "8"
 								}
 							}
 						}
@@ -204,7 +204,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 9
+									"note": "9"
 								}
 							}
 						}
@@ -224,7 +224,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 10
+									"note": "10"
 								}
 							}
 						}
@@ -244,7 +244,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 11
+									"note": "11"
 								}
 							}
 						}
@@ -264,7 +264,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 12
+									"note": "12"
 								}
 							}
 						}
@@ -284,7 +284,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 13
+									"note": "13"
 								}
 							}
 						}
@@ -304,7 +304,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 14
+									"note": "14"
 								}
 							}
 						}
@@ -324,7 +324,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 15
+									"note": "15"
 								}
 							}
 						}
@@ -344,7 +344,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 16
+									"note": "16"
 								}
 							}
 						}
@@ -364,7 +364,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 17
+									"note": "17"
 								}
 							}
 						}
@@ -384,7 +384,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 18
+									"note": "18"
 								}
 							}
 						}
@@ -404,7 +404,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 19
+									"note": "19"
 								}
 							}
 						}
@@ -424,7 +424,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 20
+									"note": "20"
 								}
 							}
 						}
@@ -444,7 +444,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 21
+									"note": "21"
 								}
 							}
 						}
@@ -464,7 +464,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 22
+									"note": "22"
 								}
 							}
 						}
@@ -484,7 +484,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 23
+									"note": "23"
 								}
 							}
 						}
@@ -504,7 +504,7 @@
 									"minecraft:note_block"
 								],
 								"state": {
-									"note": 24
+									"note": "24"
 								}
 							}
 						}

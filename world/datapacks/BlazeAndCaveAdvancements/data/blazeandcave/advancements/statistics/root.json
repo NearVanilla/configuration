@@ -20,7 +20,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/the_first_night": "true"
+							"blazeandcave:statistics/the_first_night": true
 						}
 					}
 				}

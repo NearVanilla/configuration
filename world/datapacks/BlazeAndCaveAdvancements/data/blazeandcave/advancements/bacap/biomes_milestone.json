@@ -20,7 +20,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/adventuring_time": "true"
+							"minecraft:adventure/adventuring_time": true
 						}
 					}
 				}
@@ -33,7 +33,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/atlantis": "true"
+							"blazeandcave:biomes/atlantis": true
 						}
 					}
 				}
@@ -46,7 +46,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/bamboom": "true"
+							"blazeandcave:biomes/bamboom": true
 						}
 					}
 				}
@@ -59,7 +59,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/boaty_mcboatface": "true"
+							"blazeandcave:biomes/boaty_mcboatface": true
 						}
 					}
 				}
@@ -72,7 +72,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/high_feet": "true"
+							"blazeandcave:biomes/high_feet": true
 						}
 					}
 				}
@@ -85,7 +85,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/construction_worker": "true"
+							"blazeandcave:biomes/construction_worker": true
 						}
 					}
 				}
@@ -98,7 +98,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/dolphin_dasher": "true"
+							"blazeandcave:biomes/dolphin_dasher": true
 						}
 					}
 				}
@@ -111,7 +111,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/enchanted_forest": "true"
+							"blazeandcave:biomes/enchanted_forest": true
 						}
 					}
 				}
@@ -124,7 +124,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/barbearian": "true"
+							"blazeandcave:biomes/barbearian": true
 						}
 					}
 				}
@@ -137,7 +137,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/everybody_loves_ice": "true"
+							"blazeandcave:biomes/everybody_loves_ice": true
 						}
 					}
 				}
@@ -150,7 +150,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/flower_power": "true"
+							"blazeandcave:biomes/flower_power": true
 						}
 					}
 				}
@@ -163,7 +163,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/for_you_my_sweet": "true"
+							"blazeandcave:biomes/for_you_my_sweet": true
 						}
 					}
 				}
@@ -176,7 +176,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/free_diver": "true"
+							"blazeandcave:biomes/free_diver": true
 						}
 					}
 				}
@@ -189,7 +189,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/ahoy": "true"
+							"blazeandcave:biomes/ahoy": true
 						}
 					}
 				}
@@ -202,7 +202,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/in_a_pickle": "true"
+							"blazeandcave:biomes/in_a_pickle": true
 						}
 					}
 				}
@@ -215,7 +215,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/just_a_sample": "true"
+							"blazeandcave:biomes/just_a_sample": true
 						}
 					}
 				}
@@ -228,7 +228,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/just_keep_swimming": "true"
+							"blazeandcave:biomes/just_keep_swimming": true
 						}
 					}
 				}
@@ -241,7 +241,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/kilometre_walk": "true"
+							"blazeandcave:biomes/kilometre_walk": true
 						}
 					}
 				}
@@ -254,7 +254,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/kung_fu_panda": "true"
+							"blazeandcave:biomes/kung_fu_panda": true
 						}
 					}
 				}
@@ -267,7 +267,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/no_reefing": "true"
+							"blazeandcave:biomes/no_reefing": true
 						}
 					}
 				}
@@ -280,7 +280,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/one_with_the_forest": "true"
+							"blazeandcave:biomes/one_with_the_forest": true
 						}
 					}
 				}
@@ -293,7 +293,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/overgrown": "true"
+							"blazeandcave:biomes/overgrown": true
 						}
 					}
 				}
@@ -306,7 +306,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/moskstraumen": "true"
+							"blazeandcave:biomes/moskstraumen": true
 						}
 					}
 				}
@@ -319,7 +319,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/pushed_around": "true"
+							"blazeandcave:biomes/pushed_around": true
 						}
 					}
 				}
@@ -332,7 +332,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/qinling": "true"
+							"blazeandcave:biomes/qinling": true
 						}
 					}
 				}
@@ -345,7 +345,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/root": "true"
+							"blazeandcave:biomes/root": true
 						}
 					}
 				}
@@ -358,7 +358,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/simba": "true"
+							"blazeandcave:biomes/simba": true
 						}
 					}
 				}
@@ -371,7 +371,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/sleep_with_the_fishes": "true"
+							"blazeandcave:biomes/sleep_with_the_fishes": true
 						}
 					}
 				}
@@ -384,7 +384,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/cold_feet": "true"
+							"blazeandcave:biomes/cold_feet": true
 						}
 					}
 				}
@@ -397,7 +397,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/spike_ice": "true"
+							"blazeandcave:biomes/spike_ice": true
 						}
 					}
 				}
@@ -410,7 +410,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/tarzan": "true"
+							"blazeandcave:biomes/tarzan": true
 						}
 					}
 				}
@@ -423,7 +423,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/ten_thousand_blocks": "true"
+							"blazeandcave:biomes/ten_thousand_blocks": true
 						}
 					}
 				}
@@ -436,7 +436,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/the_great_blocky_reef": "true"
+							"blazeandcave:biomes/the_great_blocky_reef": true
 						}
 					}
 				}
@@ -449,7 +449,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/the_mighty_jungle": "true"
+							"blazeandcave:biomes/the_mighty_jungle": true
 						}
 					}
 				}
@@ -462,7 +462,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/the_sea_calls_you": "true"
+							"blazeandcave:biomes/the_sea_calls_you": true
 						}
 					}
 				}
@@ -475,7 +475,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/theres_a_zombie_on_the_lawn": "true"
+							"blazeandcave:biomes/theres_a_zombie_on_the_lawn": true
 						}
 					}
 				}
@@ -488,7 +488,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/thick_ice": "true"
+							"blazeandcave:biomes/thick_ice": true
 						}
 					}
 				}
@@ -501,7 +501,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/thin_ice": "true"
+							"blazeandcave:biomes/thin_ice": true
 						}
 					}
 				}
@@ -514,7 +514,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/titanic": "true"
+							"blazeandcave:biomes/titanic": true
 						}
 					}
 				}
@@ -527,7 +527,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/top_of_the_world": "true"
+							"blazeandcave:biomes/top_of_the_world": true
 						}
 					}
 				}
@@ -540,7 +540,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/voyage": "true"
+							"blazeandcave:biomes/voyage": true
 						}
 					}
 				}
@@ -553,7 +553,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/warm_feet": "true"
+							"blazeandcave:biomes/warm_feet": true
 						}
 					}
 				}
@@ -566,7 +566,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/wet_feet": "true"
+							"blazeandcave:biomes/wet_feet": true
 						}
 					}
 				}
@@ -579,7 +579,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/x_marks_the_spot": "true"
+							"blazeandcave:biomes/x_marks_the_spot": true
 						}
 					}
 				}
@@ -592,7 +592,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/zoologist": "true"
+							"blazeandcave:biomes/zoologist": true
 						}
 					}
 				}
@@ -605,7 +605,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/so_long_and_thanks_for_all_the_fish": "true"
+							"blazeandcave:biomes/so_long_and_thanks_for_all_the_fish": true
 						}
 					}
 				}
@@ -618,7 +618,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/echolocation": "true"
+							"blazeandcave:biomes/echolocation": true
 						}
 					}
 				}
@@ -631,7 +631,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/lion_hunter": "true"
+							"blazeandcave:biomes/lion_hunter": true
 						}
 					}
 				}
@@ -644,7 +644,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/this_snow_is_snowier": "true"
+							"blazeandcave:biomes/this_snow_is_snowier": true
 						}
 					}
 				}
@@ -657,7 +657,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/powder_full": "true"
+							"blazeandcave:biomes/powder_full": true
 						}
 					}
 				}
@@ -670,7 +670,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/pandamonium": "true"
+							"blazeandcave:biomes/pandamonium": true
 						}
 					}
 				}
@@ -683,7 +683,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/walk_on_powder_snow_with_leather_boots": "true"
+							"minecraft:adventure/walk_on_powder_snow_with_leather_boots": true
 						}
 					}
 				}
@@ -696,7 +696,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/boatception": "true"
+							"blazeandcave:biomes/boatception": true
 						}
 					}
 				}
@@ -709,7 +709,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/smooth_operator": "true"
+							"blazeandcave:biomes/smooth_operator": true
 						}
 					}
 				}
@@ -722,7 +722,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/were_going_on_a_bear_hunt": "true"
+							"blazeandcave:biomes/were_going_on_a_bear_hunt": true
 						}
 					}
 				}
@@ -735,7 +735,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/dive_bomb": "true"
+							"blazeandcave:biomes/dive_bomb": true
 						}
 					}
 				}
@@ -748,7 +748,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/captain_america": "true"
+							"blazeandcave:biomes/captain_america": true
 						}
 					}
 				}
@@ -761,7 +761,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/cargo_carrier": "true"
+							"blazeandcave:biomes/cargo_carrier": true
 						}
 					}
 				}
@@ -774,7 +774,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/flipper": "true"
+							"blazeandcave:biomes/flipper": true
 						}
 					}
 				}
@@ -787,7 +787,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:biomes/pretty_in_pink": "true"
+							"blazeandcave:biomes/pretty_in_pink": true
 						}
 					}
 				}

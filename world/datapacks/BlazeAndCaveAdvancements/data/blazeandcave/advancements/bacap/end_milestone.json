@@ -20,7 +20,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/anti_gravity_generator": "true"
+							"blazeandcave:end/anti_gravity_generator": true
 						}
 					}
 				}
@@ -33,7 +33,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/cow_jumped_over_the_moon": "true"
+							"blazeandcave:end/cow_jumped_over_the_moon": true
 						}
 					}
 				}
@@ -46,7 +46,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/dragon_shield": "true"
+							"blazeandcave:end/dragon_shield": true
 						}
 					}
 				}
@@ -59,7 +59,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/dragon_vs_dragon": "true"
+							"blazeandcave:end/dragon_vs_dragon": true
 						}
 					}
 				}
@@ -72,7 +72,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/end_bricks": "true"
+							"blazeandcave:end/end_bricks": true
 						}
 					}
 				}
@@ -85,7 +85,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/event_horizon": "true"
+							"blazeandcave:end/event_horizon": true
 						}
 					}
 				}
@@ -98,7 +98,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/extrabiologist": "true"
+							"blazeandcave:end/extrabiologist": true
 						}
 					}
 				}
@@ -111,7 +111,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/for_mother_clarence": "true"
+							"blazeandcave:end/for_mother_clarence": true
 						}
 					}
 				}
@@ -124,7 +124,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:end/kill_dragon": "true"
+							"minecraft:end/kill_dragon": true
 						}
 					}
 				}
@@ -137,7 +137,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/getting_chorus": "true"
+							"blazeandcave:end/getting_chorus": true
 						}
 					}
 				}
@@ -150,7 +150,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:end/levitate": "true"
+							"minecraft:end/levitate": true
 						}
 					}
 				}
@@ -163,7 +163,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/im_coming_back_murph": "true"
+							"blazeandcave:end/im_coming_back_murph": true
 						}
 					}
 				}
@@ -176,7 +176,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/no_dont_let_me_leave_murph": "true"
+							"blazeandcave:end/no_dont_let_me_leave_murph": true
 						}
 					}
 				}
@@ -189,7 +189,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/off_with_his_head": "true"
+							"blazeandcave:end/off_with_his_head": true
 						}
 					}
 				}
@@ -202,7 +202,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/portable_storage": "true"
+							"blazeandcave:end/portable_storage": true
 						}
 					}
 				}
@@ -215,7 +215,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/purpurfect": "true"
+							"blazeandcave:end/purpurfect": true
 						}
 					}
 				}
@@ -228,7 +228,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:end/enter_end_gateway": "true"
+							"minecraft:end/enter_end_gateway": true
 						}
 					}
 				}
@@ -241,7 +241,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/rocketman": "true"
+							"blazeandcave:end/rocketman": true
 						}
 					}
 				}
@@ -254,7 +254,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:end/root": "true"
+							"minecraft:end/root": true
 						}
 					}
 				}
@@ -267,7 +267,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/shouldnt_my_shield_levitate_too": "true"
+							"blazeandcave:end/shouldnt_my_shield_levitate_too": true
 						}
 					}
 				}
@@ -280,7 +280,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/shulker_breaker": "true"
+							"blazeandcave:end/shulker_breaker": true
 						}
 					}
 				}
@@ -293,7 +293,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/sky_high": "true"
+							"blazeandcave:end/sky_high": true
 						}
 					}
 				}
@@ -306,7 +306,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:end/elytra": "true"
+							"minecraft:end/elytra": true
 						}
 					}
 				}
@@ -319,7 +319,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/some_breakthrough": "true"
+							"blazeandcave:end/some_breakthrough": true
 						}
 					}
 				}
@@ -332,7 +332,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/somewhere_over_the_rainbow": "true"
+							"blazeandcave:end/somewhere_over_the_rainbow": true
 						}
 					}
 				}
@@ -345,7 +345,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/the_actual_end": "true"
+							"blazeandcave:end/the_actual_end": true
 						}
 					}
 				}
@@ -358,7 +358,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/the_beginning": "true"
+							"blazeandcave:end/the_beginning": true
 						}
 					}
 				}
@@ -371,7 +371,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:end/find_end_city": "true"
+							"minecraft:end/find_end_city": true
 						}
 					}
 				}
@@ -384,7 +384,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:end/respawn_dragon": "true"
+							"minecraft:end/respawn_dragon": true
 						}
 					}
 				}
@@ -397,7 +397,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:end/dragon_egg": "true"
+							"minecraft:end/dragon_egg": true
 						}
 					}
 				}
@@ -410,7 +410,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/the_point_of_no_return": "true"
+							"blazeandcave:end/the_point_of_no_return": true
 						}
 					}
 				}
@@ -423,7 +423,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/the_start_of_something": "true"
+							"blazeandcave:end/the_start_of_something": true
 						}
 					}
 				}
@@ -436,7 +436,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/uh_houston_we_have_a_problem": "true"
+							"blazeandcave:end/uh_houston_we_have_a_problem": true
 						}
 					}
 				}
@@ -449,7 +449,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/void_walker": "true"
+							"blazeandcave:end/void_walker": true
 						}
 					}
 				}
@@ -462,7 +462,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/what_for": "true"
+							"blazeandcave:end/what_for": true
 						}
 					}
 				}
@@ -475,7 +475,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/ring_of_the_end": "true"
+							"blazeandcave:end/ring_of_the_end": true
 						}
 					}
 				}
@@ -488,7 +488,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/in_your_face_neil_armstrong": "true"
+							"blazeandcave:end/in_your_face_neil_armstrong": true
 						}
 					}
 				}
@@ -501,7 +501,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/organizational_wizard": "true"
+							"blazeandcave:end/organizational_wizard": true
 						}
 					}
 				}
@@ -514,7 +514,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/a_wizards_breakfast": "true"
+							"blazeandcave:end/a_wizards_breakfast": true
 						}
 					}
 				}
@@ -527,7 +527,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/spyglass_at_dragon": "true"
+							"minecraft:adventure/spyglass_at_dragon": true
 						}
 					}
 				}
@@ -540,7 +540,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/dogfight": "true"
+							"blazeandcave:end/dogfight": true
 						}
 					}
 				}
@@ -553,7 +553,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/the_void_frogs": "true"
+							"blazeandcave:end/the_void_frogs": true
 						}
 					}
 				}
@@ -566,7 +566,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:end/unending_hell": "true"
+							"blazeandcave:end/unending_hell": true
 						}
 					}
 				}

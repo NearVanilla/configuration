@@ -20,7 +20,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_first_line": "true"
+							"blazeandcave:technical/riddle_first_line": true
 						}
 					}
 				}
@@ -37,7 +37,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_first_line": "true"
+							"blazeandcave:technical/riddle_first_line": true
 						}
 					}
 				}

@@ -20,7 +20,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/a_horse_in_shining_armor": "true"
+							"blazeandcave:animal/a_horse_in_shining_armor": true
 						}
 					}
 				}
@@ -33,7 +33,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/aquarium": "true"
+							"blazeandcave:animal/aquarium": true
 						}
 					}
 				}
@@ -46,7 +46,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/are_we_there_yet": "true"
+							"blazeandcave:animal/are_we_there_yet": true
 						}
 					}
 				}
@@ -59,7 +59,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/artificial_selection": "true"
+							"blazeandcave:animal/artificial_selection": true
 						}
 					}
 				}
@@ -72,7 +72,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/bacon": "true"
+							"blazeandcave:animal/bacon": true
 						}
 					}
 				}
@@ -85,7 +85,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:husbandry/safely_harvest_honey": "true"
+							"minecraft:husbandry/safely_harvest_honey": true
 						}
 					}
 				}
@@ -98,7 +98,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/birdkeeper": "true"
+							"blazeandcave:animal/birdkeeper": true
 						}
 					}
 				}
@@ -111,7 +111,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/blistering_barnacles": "true"
+							"blazeandcave:animal/blistering_barnacles": true
 						}
 					}
 				}
@@ -124,7 +124,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/bunny_lover": "true"
+							"blazeandcave:animal/bunny_lover": true
 						}
 					}
 				}
@@ -137,7 +137,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/catching_nemo": "true"
+							"blazeandcave:animal/catching_nemo": true
 						}
 					}
 				}
@@ -150,7 +150,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/chatterbox": "true"
+							"blazeandcave:animal/chatterbox": true
 						}
 					}
 				}
@@ -163,7 +163,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/chicken_cooper": "true"
+							"blazeandcave:animal/chicken_cooper": true
 						}
 					}
 				}
@@ -176,7 +176,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/colorful_cavalry": "true"
+							"blazeandcave:animal/colorful_cavalry": true
 						}
 					}
 				}
@@ -189,7 +189,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/cool_kids": "true"
+							"blazeandcave:animal/cool_kids": true
 						}
 					}
 				}
@@ -202,7 +202,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/cow_tipper": "true"
+							"blazeandcave:animal/cow_tipper": true
 						}
 					}
 				}
@@ -215,7 +215,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/cowboy": "true"
+							"blazeandcave:animal/cowboy": true
 						}
 					}
 				}
@@ -228,7 +228,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/direct_fishing": "true"
+							"blazeandcave:animal/direct_fishing": true
 						}
 					}
 				}
@@ -241,7 +241,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/foal_play": "true"
+							"blazeandcave:animal/foal_play": true
 						}
 					}
 				}
@@ -254,7 +254,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/fashion_statement": "true"
+							"blazeandcave:animal/fashion_statement": true
 						}
 					}
 				}
@@ -267,7 +267,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/feeding_the_chickens": "true"
+							"blazeandcave:animal/feeding_the_chickens": true
 						}
 					}
 				}
@@ -280,7 +280,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/feeling_sheepish": "true"
+							"blazeandcave:animal/feeling_sheepish": true
 						}
 					}
 				}
@@ -293,7 +293,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:husbandry/fishy_business": "true"
+							"minecraft:husbandry/fishy_business": true
 						}
 					}
 				}
@@ -306,7 +306,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/fuzzy_feet": "true"
+							"blazeandcave:animal/fuzzy_feet": true
 						}
 					}
 				}
@@ -319,7 +319,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/getting_into_a_stew": "true"
+							"blazeandcave:animal/getting_into_a_stew": true
 						}
 					}
 				}
@@ -332,7 +332,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/grinding_nemo": "true"
+							"blazeandcave:animal/grinding_nemo": true
 						}
 					}
 				}
@@ -345,7 +345,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/have_a_shearful_day": "true"
+							"blazeandcave:animal/have_a_shearful_day": true
 						}
 					}
 				}
@@ -358,7 +358,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/hey_look_mom": "true"
+							"blazeandcave:animal/hey_look_mom": true
 						}
 					}
 				}
@@ -371,7 +371,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/high_steaks": "true"
+							"blazeandcave:animal/high_steaks": true
 						}
 					}
 				}
@@ -384,7 +384,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/hive_mind": "true"
+							"blazeandcave:animal/hive_mind": true
 						}
 					}
 				}
@@ -397,7 +397,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/honey_im_home": "true"
+							"blazeandcave:animal/honey_im_home": true
 						}
 					}
 				}
@@ -410,7 +410,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/horse_armorer": "true"
+							"blazeandcave:animal/horse_armorer": true
 						}
 					}
 				}
@@ -423,7 +423,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/in_a_hole_there_lived_a_rabbit": "true"
+							"blazeandcave:animal/in_a_hole_there_lived_a_rabbit": true
 						}
 					}
 				}
@@ -436,7 +436,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:husbandry/tame_an_animal": "true"
+							"minecraft:husbandry/tame_an_animal": true
 						}
 					}
 				}
@@ -449,7 +449,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/llama_llama_duck_king": "true"
+							"blazeandcave:animal/llama_llama_duck_king": true
 						}
 					}
 				}
@@ -462,7 +462,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/lucky_charm": "true"
+							"blazeandcave:animal/lucky_charm": true
 						}
 					}
 				}
@@ -475,7 +475,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/mary_had_a_little_lamb": "true"
+							"blazeandcave:animal/mary_had_a_little_lamb": true
 						}
 					}
 				}
@@ -488,7 +488,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/master_angler": "true"
+							"blazeandcave:animal/master_angler": true
 						}
 					}
 				}
@@ -501,7 +501,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/master_farrier": "true"
+							"blazeandcave:animal/master_farrier": true
 						}
 					}
 				}
@@ -514,7 +514,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/milk_does_your_body_good": "true"
+							"blazeandcave:animal/milk_does_your_body_good": true
 						}
 					}
 				}
@@ -527,7 +527,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/mooshroom_kingdom": "true"
+							"blazeandcave:animal/mooshroom_kingdom": true
 						}
 					}
 				}
@@ -540,7 +540,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/mushroom_scientist": "true"
+							"blazeandcave:animal/mushroom_scientist": true
 						}
 					}
 				}
@@ -553,7 +553,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/not_the_bees": "true"
+							"blazeandcave:animal/not_the_bees": true
 						}
 					}
 				}
@@ -566,7 +566,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:husbandry/bred_all_animals": "true"
+							"minecraft:husbandry/bred_all_animals": true
 						}
 					}
 				}
@@ -579,7 +579,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/pig_slaughterer": "true"
+							"blazeandcave:animal/pig_slaughterer": true
 						}
 					}
 				}
@@ -592,7 +592,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/poacher": "true"
+							"blazeandcave:animal/poacher": true
 						}
 					}
 				}
@@ -605,7 +605,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/pork_chop": "true"
+							"blazeandcave:animal/pork_chop": true
 						}
 					}
 				}
@@ -618,7 +618,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/puppies_yipe": "true"
+							"blazeandcave:animal/puppies_yipe": true
 						}
 					}
 				}
@@ -631,7 +631,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/rabbit_season": "true"
+							"blazeandcave:animal/rabbit_season": true
 						}
 					}
 				}
@@ -644,7 +644,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/rainbow_collection": "true"
+							"blazeandcave:animal/rainbow_collection": true
 						}
 					}
 				}
@@ -657,7 +657,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:husbandry/breed_an_animal": "true"
+							"minecraft:husbandry/breed_an_animal": true
 						}
 					}
 				}
@@ -670,7 +670,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:husbandry/root": "true"
+							"minecraft:husbandry/root": true
 						}
 					}
 				}
@@ -683,7 +683,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/salmonella_poisoning": "true"
+							"blazeandcave:animal/salmonella_poisoning": true
 						}
 					}
 				}
@@ -696,7 +696,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/scuttler": "true"
+							"blazeandcave:animal/scuttler": true
 						}
 					}
 				}
@@ -709,7 +709,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/sheariously": "true"
+							"blazeandcave:animal/sheariously": true
 						}
 					}
 				}
@@ -722,7 +722,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/shoe_shed": "true"
+							"blazeandcave:animal/shoe_shed": true
 						}
 					}
 				}
@@ -735,7 +735,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/snow_fox_64": "true"
+							"blazeandcave:animal/snow_fox_64": true
 						}
 					}
 				}
@@ -748,7 +748,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/so_good": "true"
+							"blazeandcave:animal/so_good": true
 						}
 					}
 				}
@@ -761,7 +761,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/so_i_got_that_going_for_me": "true"
+							"blazeandcave:animal/so_i_got_that_going_for_me": true
 						}
 					}
 				}
@@ -774,7 +774,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/someones_been_here_before": "true"
+							"blazeandcave:animal/someones_been_here_before": true
 						}
 					}
 				}
@@ -787,7 +787,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/stay_calmer": "true"
+							"blazeandcave:animal/stay_calmer": true
 						}
 					}
 				}
@@ -800,7 +800,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/honey_block_slide": "true"
+							"minecraft:adventure/honey_block_slide": true
 						}
 					}
 				}
@@ -813,7 +813,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/super_mooshroom": "true"
+							"blazeandcave:animal/super_mooshroom": true
 						}
 					}
 				}
@@ -826,7 +826,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/sushi": "true"
+							"blazeandcave:animal/sushi": true
 						}
 					}
 				}
@@ -839,7 +839,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:husbandry/tactical_fishing": "true"
+							"minecraft:husbandry/tactical_fishing": true
 						}
 					}
 				}
@@ -852,7 +852,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/theyre_breeding_like_rabbits": "true"
+							"blazeandcave:animal/theyre_breeding_like_rabbits": true
 						}
 					}
 				}
@@ -865,7 +865,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/tickle_time": "true"
+							"blazeandcave:animal/tickle_time": true
 						}
 					}
 				}
@@ -878,7 +878,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:husbandry/silk_touch_nest": "true"
+							"minecraft:husbandry/silk_touch_nest": true
 						}
 					}
 				}
@@ -891,7 +891,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/totally_not_an_afk_fisher": "true"
+							"blazeandcave:animal/totally_not_an_afk_fisher": true
 						}
 					}
 				}
@@ -904,7 +904,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/treasure_hunter": "true"
+							"blazeandcave:animal/treasure_hunter": true
 						}
 					}
 				}
@@ -917,7 +917,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/tropical_collection": "true"
+							"blazeandcave:animal/tropical_collection": true
 						}
 					}
 				}
@@ -930,7 +930,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/true_cow_tipper": "true"
+							"blazeandcave:animal/true_cow_tipper": true
 						}
 					}
 				}
@@ -943,7 +943,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/turtle_army": "true"
+							"blazeandcave:animal/turtle_army": true
 						}
 					}
 				}
@@ -956,7 +956,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/turtle_soldier": "true"
+							"blazeandcave:animal/turtle_soldier": true
 						}
 					}
 				}
@@ -969,7 +969,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/what_a_piece_of_junk": "true"
+							"blazeandcave:animal/what_a_piece_of_junk": true
 						}
 					}
 				}
@@ -982,7 +982,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/what_does_the_fox_say": "true"
+							"blazeandcave:animal/what_does_the_fox_say": true
 						}
 					}
 				}
@@ -995,7 +995,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/when_pigs_used_to_fly": "true"
+							"blazeandcave:animal/when_pigs_used_to_fly": true
 						}
 					}
 				}
@@ -1008,7 +1008,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/wheres_the_honey_lebowski": "true"
+							"blazeandcave:animal/wheres_the_honey_lebowski": true
 						}
 					}
 				}
@@ -1021,7 +1021,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/which_came_first": "true"
+							"blazeandcave:animal/which_came_first": true
 						}
 					}
 				}
@@ -1034,7 +1034,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/winnie_the_pooh": "true"
+							"blazeandcave:animal/winnie_the_pooh": true
 						}
 					}
 				}
@@ -1047,7 +1047,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/wooly": "true"
+							"blazeandcave:animal/wooly": true
 						}
 					}
 				}
@@ -1060,7 +1060,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/ya_like_jazz": "true"
+							"blazeandcave:animal/ya_like_jazz": true
 						}
 					}
 				}
@@ -1073,7 +1073,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/you_lead_ill_follow": "true"
+							"blazeandcave:animal/you_lead_ill_follow": true
 						}
 					}
 				}
@@ -1086,7 +1086,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/going_down_the_rabbit_hole": "true"
+							"blazeandcave:animal/going_down_the_rabbit_hole": true
 						}
 					}
 				}
@@ -1099,7 +1099,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/just_keeps_going": "true"
+							"blazeandcave:animal/just_keeps_going": true
 						}
 					}
 				}
@@ -1112,7 +1112,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/nest_quick": "true"
+							"blazeandcave:animal/nest_quick": true
 						}
 					}
 				}
@@ -1125,7 +1125,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/heavy_duty_caravan": "true"
+							"blazeandcave:animal/heavy_duty_caravan": true
 						}
 					}
 				}
@@ -1138,7 +1138,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/save_the_turtles": "true"
+							"blazeandcave:animal/save_the_turtles": true
 						}
 					}
 				}
@@ -1151,7 +1151,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/delicious_fish": "true"
+							"blazeandcave:animal/delicious_fish": true
 						}
 					}
 				}
@@ -1164,7 +1164,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/milkshroom": "true"
+							"blazeandcave:animal/milkshroom": true
 						}
 					}
 				}
@@ -1177,7 +1177,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/live_and_let_dye": "true"
+							"blazeandcave:animal/live_and_let_dye": true
 						}
 					}
 				}
@@ -1190,7 +1190,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/foxy_thievery": "true"
+							"blazeandcave:animal/foxy_thievery": true
 						}
 					}
 				}
@@ -1203,7 +1203,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/lead_the_way": "true"
+							"blazeandcave:animal/lead_the_way": true
 						}
 					}
 				}
@@ -1216,7 +1216,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/beeloons": "true"
+							"blazeandcave:animal/beeloons": true
 						}
 					}
 				}
@@ -1229,7 +1229,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/follow_the_leader": "true"
+							"blazeandcave:animal/follow_the_leader": true
 						}
 					}
 				}
@@ -1242,7 +1242,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/goat_out_of_here": "true"
+							"blazeandcave:animal/goat_out_of_here": true
 						}
 					}
 				}
@@ -1255,7 +1255,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/billy_the_kid": "true"
+							"blazeandcave:animal/billy_the_kid": true
 						}
 					}
 				}
@@ -1268,7 +1268,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/goat_simulator": "true"
+							"blazeandcave:animal/goat_simulator": true
 						}
 					}
 				}
@@ -1281,7 +1281,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/cephalight": "true"
+							"blazeandcave:animal/cephalight": true
 						}
 					}
 				}
@@ -1294,7 +1294,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:husbandry/make_a_sign_glow": "true"
+							"minecraft:husbandry/make_a_sign_glow": true
 						}
 					}
 				}
@@ -1307,7 +1307,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/flashy_items": "true"
+							"blazeandcave:animal/flashy_items": true
 						}
 					}
 				}
@@ -1320,7 +1320,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/iceologer_shouldve_won": "true"
+							"blazeandcave:animal/iceologer_shouldve_won": true
 						}
 					}
 				}
@@ -1333,7 +1333,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:husbandry/axolotl_in_a_bucket": "true"
+							"minecraft:husbandry/axolotl_in_a_bucket": true
 						}
 					}
 				}
@@ -1346,7 +1346,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/axolittle": "true"
+							"blazeandcave:animal/axolittle": true
 						}
 					}
 				}
@@ -1359,7 +1359,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/axolotl_of_them": "true"
+							"blazeandcave:animal/axolotl_of_them": true
 						}
 					}
 				}
@@ -1372,7 +1372,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/axeolotl": "true"
+							"blazeandcave:animal/axeolotl": true
 						}
 					}
 				}
@@ -1385,7 +1385,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/thanks_a_lotl": "true"
+							"blazeandcave:animal/thanks_a_lotl": true
 						}
 					}
 				}
@@ -1398,7 +1398,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/swine_sailing": "true"
+							"blazeandcave:animal/swine_sailing": true
 						}
 					}
 				}
@@ -1411,7 +1411,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/llama_festival": "true"
+							"blazeandcave:animal/llama_festival": true
 						}
 					}
 				}
@@ -1424,7 +1424,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/so_hungry_i_could_eat_a_horse": "true"
+							"blazeandcave:animal/so_hungry_i_could_eat_a_horse": true
 						}
 					}
 				}
@@ -1437,7 +1437,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/screaming_milk": "true"
+							"blazeandcave:animal/screaming_milk": true
 						}
 					}
 				}
@@ -1450,7 +1450,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:husbandry/ride_a_boat_with_a_goat": "true"
+							"minecraft:husbandry/ride_a_boat_with_a_goat": true
 						}
 					}
 				}
@@ -1463,7 +1463,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:husbandry/kill_axolotl_target": "true"
+							"minecraft:husbandry/kill_axolotl_target": true
 						}
 					}
 				}
@@ -1476,7 +1476,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/spyglass_at_parrot": "true"
+							"minecraft:adventure/spyglass_at_parrot": true
 						}
 					}
 				}
@@ -1489,7 +1489,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/blackberry_market": "true"
+							"blazeandcave:animal/blackberry_market": true
 						}
 					}
 				}
@@ -1502,7 +1502,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/frog_family": "true"
+							"blazeandcave:animal/frog_family": true
 						}
 					}
 				}
@@ -1515,7 +1515,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:husbandry/tadpole_in_a_bucket": "true"
+							"minecraft:husbandry/tadpole_in_a_bucket": true
 						}
 					}
 				}
@@ -1528,7 +1528,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:husbandry/leash_all_frog_variants": "true"
+							"minecraft:husbandry/leash_all_frog_variants": true
 						}
 					}
 				}
@@ -1541,7 +1541,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/ram": "true"
+							"blazeandcave:animal/ram": true
 						}
 					}
 				}
@@ -1554,7 +1554,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/loud_and_proud": "true"
+							"blazeandcave:animal/loud_and_proud": true
 						}
 					}
 				}
@@ -1567,7 +1567,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/battle_of_the_bands": "true"
+							"blazeandcave:animal/battle_of_the_bands": true
 						}
 					}
 				}
@@ -1580,7 +1580,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/caprymphony": "true"
+							"blazeandcave:animal/caprymphony": true
 						}
 					}
 				}
@@ -1593,7 +1593,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/animal_kingdom": "true"
+							"blazeandcave:animal/animal_kingdom": true
 						}
 					}
 				}
@@ -1606,7 +1606,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/silence_of_the_lambs": "true"
+							"blazeandcave:animal/silence_of_the_lambs": true
 						}
 					}
 				}
@@ -1619,7 +1619,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/its_high_noon": "true"
+							"blazeandcave:animal/its_high_noon": true
 						}
 					}
 				}
@@ -1632,7 +1632,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/desert_rider": "true"
+							"blazeandcave:animal/desert_rider": true
 						}
 					}
 				}
@@ -1645,7 +1645,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/hump_day": "true"
+							"blazeandcave:animal/hump_day": true
 						}
 					}
 				}
@@ -1658,7 +1658,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:animal/the_high_road": "true"
+							"blazeandcave:animal/the_high_road": true
 						}
 					}
 				}

@@ -24,8 +24,8 @@
 									"minecraft:sea_pickle"
 								],
 								"state": {
-									"pickles": 4,
-									"waterlogged": true
+									"pickles": "4",
+									"waterlogged": "true"
 								}
 							}
 						}

@@ -11,5 +11,3 @@ defaults:
   play-sound: true
   # Default setting for displaying the notification to the player. Can be one of: TITLE, SUBTITLE, CHAT, ACTION_BAR, HIDDEN
   display: "SUBTITLE"
-# Enable the durability ping by default for new players
-enabled-by-default: true

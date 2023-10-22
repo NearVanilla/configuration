@@ -20,7 +20,7 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{Effects:[{EffectId:10}]}"
+					"nbt": "{effects:[{id:\"minecraft:regeneration\"}]}"
 				}
 			}
 		},
@@ -31,7 +31,7 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{Effects:[{EffectId:8}]}"
+					"nbt": "{effects:[{id:\"minecraft:jump_boost\"}]}"
 				}
 			}
 		},
@@ -42,7 +42,7 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{Effects:[{EffectId:19}]}"
+					"nbt": "{effects:[{id:\"minecraft:poison\"}]}"
 				}
 			}
 		},
@@ -53,7 +53,7 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{Effects:[{EffectId:20}]}"
+					"nbt": "{effects:[{id:\"minecraft:wither\"}]}"
 				}
 			}
 		},
@@ -64,7 +64,7 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{Effects:[{EffectId:18}]}"
+					"nbt": "{effects:[{id:\"minecraft:weakness\"}]}"
 				}
 			}
 		},
@@ -75,7 +75,7 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{Effects:[{EffectId:15}]}"
+					"nbt": "{effects:[{id:\"minecraft:blindness\"}]}"
 				}
 			}
 		},
@@ -86,7 +86,7 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{Effects:[{EffectId:12}]}"
+					"nbt": "{effects:[{id:\"minecraft:fire_resistance\"}]}"
 				}
 			}
 		},		
@@ -97,7 +97,7 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{Effects:[{EffectId:23}]}"
+					"nbt": "{effects:[{id:\"minecraft:saturation\"}]}"
 				}
 			}
 		},
@@ -108,7 +108,7 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{Effects:[{EffectId:16}]}"
+					"nbt": "{effects:[{id:\"minecraft:night_vision\"}]}"
 				}
 			}
 		}

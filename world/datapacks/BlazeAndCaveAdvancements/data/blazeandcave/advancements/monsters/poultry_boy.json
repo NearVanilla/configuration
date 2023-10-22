@@ -22,7 +22,7 @@
 					"passenger": {
 						"tag": "blazeandcave:overworld_zombies",
 						"flags": {
-							"is_baby": "true"
+							"is_baby": true
 						}
 					}
 				}
@@ -34,7 +34,7 @@
 				"entity": {
 					"tag": "blazeandcave:overworld_zombies",
 					"flags": {
-						"is_baby": "true"
+						"is_baby": true
 					},
 					"vehicle": {
 						"type": "chicken"

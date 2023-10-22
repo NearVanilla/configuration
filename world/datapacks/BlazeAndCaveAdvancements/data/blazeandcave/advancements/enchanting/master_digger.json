@@ -23,19 +23,27 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:efficiency",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							},
 							{
 								"enchantment": "minecraft:fortune",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},
 							{
 								"enchantment": "minecraft:mending",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}	
 						]
 					}
@@ -51,19 +59,27 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:efficiency",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							},
 							{
 								"enchantment": "minecraft:silk_touch",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							},
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},
 							{
 								"enchantment": "minecraft:mending",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}	
 						]
 					}

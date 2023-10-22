@@ -20,7 +20,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/a_snowballs_chance_in_hell": "true"
+							"blazeandcave:weaponry/a_snowballs_chance_in_hell": true
 						}
 					}
 				}
@@ -33,7 +33,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/throw_trident": "true"
+							"minecraft:adventure/throw_trident": true
 						}
 					}
 				}
@@ -46,7 +46,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/artillery": "true"
+							"blazeandcave:weaponry/artillery": true
 						}
 					}
 				}
@@ -59,7 +59,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/axeman": "true"
+							"blazeandcave:weaponry/axeman": true
 						}
 					}
 				}
@@ -72,7 +72,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/bombs_away": "true"
+							"blazeandcave:weaponry/bombs_away": true
 						}
 					}
 				}
@@ -85,7 +85,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/bow_spammer": "true"
+							"blazeandcave:weaponry/bow_spammer": true
 						}
 					}
 				}
@@ -98,7 +98,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/demolitions_expert": "true"
+							"blazeandcave:weaponry/demolitions_expert": true
 						}
 					}
 				}
@@ -111,7 +111,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/diemonds": "true"
+							"blazeandcave:weaponry/diemonds": true
 						}
 					}
 				}
@@ -124,7 +124,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/egging_dude": "true"
+							"blazeandcave:weaponry/egging_dude": true
 						}
 					}
 				}
@@ -137,7 +137,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/expelliarmus": "true"
+							"blazeandcave:weaponry/expelliarmus": true
 						}
 					}
 				}
@@ -150,7 +150,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/explosive_fire": "true"
+							"blazeandcave:weaponry/explosive_fire": true
 						}
 					}
 				}
@@ -163,7 +163,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/fireworks_display": "true"
+							"blazeandcave:weaponry/fireworks_display": true
 						}
 					}
 				}
@@ -176,7 +176,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/flying_colors": "true"
+							"blazeandcave:weaponry/flying_colors": true
 						}
 					}
 				}
@@ -189,7 +189,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/indiana_jones": "true"
+							"blazeandcave:weaponry/indiana_jones": true
 						}
 					}
 				}
@@ -202,7 +202,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/king_of_the_sea": "true"
+							"blazeandcave:weaponry/king_of_the_sea": true
 						}
 					}
 				}
@@ -215,7 +215,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/master_shieldsman": "true"
+							"blazeandcave:weaponry/master_shieldsman": true
 						}
 					}
 				}
@@ -228,7 +228,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/ol_betsy": "true"
+							"minecraft:adventure/ol_betsy": true
 						}
 					}
 				}
@@ -241,7 +241,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/pig_fishing_tournament": "true"
+							"blazeandcave:weaponry/pig_fishing_tournament": true
 						}
 					}
 				}
@@ -254,7 +254,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/point_blank": "true"
+							"blazeandcave:weaponry/point_blank": true
 						}
 					}
 				}
@@ -267,7 +267,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/poseidon_vs_hades": "true"
+							"blazeandcave:weaponry/poseidon_vs_hades": true
 						}
 					}
 				}
@@ -280,7 +280,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/revenge": "true"
+							"blazeandcave:weaponry/revenge": true
 						}
 					}
 				}
@@ -293,7 +293,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/root": "true"
+							"blazeandcave:weaponry/root": true
 						}
 					}
 				}
@@ -306,7 +306,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/shield_luck": "true"
+							"blazeandcave:weaponry/shield_luck": true
 						}
 					}
 				}
@@ -319,7 +319,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/shovel_knight": "true"
+							"blazeandcave:weaponry/shovel_knight": true
 						}
 					}
 				}
@@ -332,7 +332,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/sir_knight": "true"
+							"blazeandcave:weaponry/sir_knight": true
 						}
 					}
 				}
@@ -345,7 +345,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/slapfish": "true"
+							"blazeandcave:weaponry/slapfish": true
 						}
 					}
 				}
@@ -358,7 +358,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/sniper_duel": "true"
+							"minecraft:adventure/sniper_duel": true
 						}
 					}
 				}
@@ -371,7 +371,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/snowball_fight": "true"
+							"blazeandcave:weaponry/snowball_fight": true
 						}
 					}
 				}
@@ -384,7 +384,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/shoot_arrow": "true"
+							"minecraft:adventure/shoot_arrow": true
 						}
 					}
 				}
@@ -397,7 +397,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/that_is_so_fletch": "true"
+							"blazeandcave:weaponry/that_is_so_fletch": true
 						}
 					}
 				}
@@ -410,7 +410,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/the_aquatic_hunter": "true"
+							"blazeandcave:weaponry/the_aquatic_hunter": true
 						}
 					}
 				}
@@ -423,7 +423,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/the_mighty_hunter": "true"
+							"blazeandcave:weaponry/the_mighty_hunter": true
 						}
 					}
 				}
@@ -436,7 +436,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/theres_yolk_on_my_head": "true"
+							"blazeandcave:weaponry/theres_yolk_on_my_head": true
 						}
 					}
 				}
@@ -449,7 +449,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/viking": "true"
+							"blazeandcave:weaponry/viking": true
 						}
 					}
 				}
@@ -462,7 +462,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/when_pigs_finally_fly": "true"
+							"blazeandcave:weaponry/when_pigs_finally_fly": true
 						}
 					}
 				}
@@ -475,7 +475,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/whos_the_pillager_now": "true"
+							"minecraft:adventure/whos_the_pillager_now": true
 						}
 					}
 				}
@@ -488,7 +488,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/x_bow": "true"
+							"blazeandcave:weaponry/x_bow": true
 						}
 					}
 				}
@@ -501,7 +501,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/loser": "true"
+							"blazeandcave:weaponry/loser": true
 						}
 					}
 				}
@@ -514,7 +514,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/multiclassed": "true"
+							"blazeandcave:weaponry/multiclassed": true
 						}
 					}
 				}
@@ -527,7 +527,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/pyrotechnic": "true"
+							"blazeandcave:weaponry/pyrotechnic": true
 						}
 					}
 				}
@@ -540,7 +540,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/my_eyes": "true"
+							"blazeandcave:weaponry/my_eyes": true
 						}
 					}
 				}
@@ -553,7 +553,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/who_ya_gonna_call": "true"
+							"blazeandcave:weaponry/who_ya_gonna_call": true
 						}
 					}
 				}
@@ -566,7 +566,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/half_heart_life": "true"
+							"blazeandcave:weaponry/half_heart_life": true
 						}
 					}
 				}
@@ -579,7 +579,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/its_time_consuming": "true"
+							"blazeandcave:weaponry/its_time_consuming": true
 						}
 					}
 				}
@@ -592,7 +592,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/inspector_gadget": "true"
+							"blazeandcave:weaponry/inspector_gadget": true
 						}
 					}
 				}
@@ -605,7 +605,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/rock_paper_shears": "true"
+							"blazeandcave:weaponry/rock_paper_shears": true
 						}
 					}
 				}
@@ -618,7 +618,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/backfire": "true"
+							"blazeandcave:weaponry/backfire": true
 						}
 					}
 				}
@@ -631,7 +631,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/spleaf": "true"
+							"blazeandcave:weaponry/spleaf": true
 						}
 					}
 				}
@@ -644,7 +644,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:weaponry/there_it_goes": "true"
+							"blazeandcave:weaponry/there_it_goes": true
 						}
 					}
 				}

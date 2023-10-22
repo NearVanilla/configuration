@@ -20,7 +20,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/bling_plate": "true"
+							"blazeandcave:redstone/bling_plate": true
 						}
 					}
 				}
@@ -33,7 +33,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/comparing_comparator": "true"
+							"blazeandcave:redstone/comparing_comparator": true
 						}
 					}
 				}
@@ -46,7 +46,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/fuel_engine": "true"
+							"blazeandcave:redstone/fuel_engine": true
 						}
 					}
 				}
@@ -59,7 +59,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/dispense_with_this": "true"
+							"blazeandcave:redstone/dispense_with_this": true
 						}
 					}
 				}
@@ -72,7 +72,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/electric_rails": "true"
+							"blazeandcave:redstone/electric_rails": true
 						}
 					}
 				}
@@ -85,7 +85,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/engineer": "true"
+							"blazeandcave:redstone/engineer": true
 						}
 					}
 				}
@@ -98,7 +98,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/master_engineer": "true"
+							"blazeandcave:redstone/master_engineer": true
 						}
 					}
 				}
@@ -111,7 +111,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/metal_plate": "true"
+							"blazeandcave:redstone/metal_plate": true
 						}
 					}
 				}
@@ -124,7 +124,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/mobile_explosion": "true"
+							"blazeandcave:redstone/mobile_explosion": true
 						}
 					}
 				}
@@ -137,7 +137,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/moving_moving_storage": "true"
+							"blazeandcave:redstone/moving_moving_storage": true
 						}
 					}
 				}
@@ -150,7 +150,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/moving_parts": "true"
+							"blazeandcave:redstone/moving_parts": true
 						}
 					}
 				}
@@ -163,7 +163,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/moving_storage": "true"
+							"blazeandcave:redstone/moving_storage": true
 						}
 					}
 				}
@@ -176,7 +176,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/mozart": "true"
+							"blazeandcave:redstone/mozart": true
 						}
 					}
 				}
@@ -189,7 +189,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/observer_buddy": "true"
+							"blazeandcave:redstone/observer_buddy": true
 						}
 					}
 				}
@@ -202,7 +202,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/all_aboard": "true"
+							"blazeandcave:redstone/all_aboard": true
 						}
 					}
 				}
@@ -215,7 +215,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/powerful_light": "true"
+							"blazeandcave:redstone/powerful_light": true
 						}
 					}
 				}
@@ -228,7 +228,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/pressure_detector": "true"
+							"blazeandcave:redstone/pressure_detector": true
 						}
 					}
 				}
@@ -241,7 +241,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/quartz_miner": "true"
+							"blazeandcave:redstone/quartz_miner": true
 						}
 					}
 				}
@@ -254,7 +254,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/quirky_quartz": "true"
+							"blazeandcave:redstone/quirky_quartz": true
 						}
 					}
 				}
@@ -267,7 +267,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/railwayman": "true"
+							"blazeandcave:redstone/railwayman": true
 						}
 					}
 				}
@@ -280,7 +280,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/repeating_repeater": "true"
+							"blazeandcave:redstone/repeating_repeater": true
 						}
 					}
 				}
@@ -293,7 +293,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/root": "true"
+							"blazeandcave:redstone/root": true
 						}
 					}
 				}
@@ -306,7 +306,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/solar_power": "true"
+							"blazeandcave:redstone/solar_power": true
 						}
 					}
 				}
@@ -319,7 +319,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/space_dropper": "true"
+							"blazeandcave:redstone/space_dropper": true
 						}
 					}
 				}
@@ -332,7 +332,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/space_hopper": "true"
+							"blazeandcave:redstone/space_hopper": true
 						}
 					}
 				}
@@ -345,7 +345,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/sticky_parts": "true"
+							"blazeandcave:redstone/sticky_parts": true
 						}
 					}
 				}
@@ -358,7 +358,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/tripping_over": "true"
+							"blazeandcave:redstone/tripping_over": true
 						}
 					}
 				}
@@ -371,7 +371,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/troll_chest": "true"
+							"blazeandcave:redstone/troll_chest": true
 						}
 					}
 				}
@@ -384,7 +384,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/under_pressure": "true"
+							"blazeandcave:redstone/under_pressure": true
 						}
 					}
 				}
@@ -397,7 +397,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/target_acquired": "true"
+							"blazeandcave:redstone/target_acquired": true
 						}
 					}
 				}
@@ -410,7 +410,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/bullseye": "true"
+							"minecraft:adventure/bullseye": true
 						}
 					}
 				}
@@ -423,7 +423,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/target_practise": "true"
+							"blazeandcave:redstone/target_practise": true
 						}
 					}
 				}
@@ -436,7 +436,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/take_notes": "true"
+							"blazeandcave:redstone/take_notes": true
 						}
 					}
 				}
@@ -449,7 +449,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/noteworthy": "true"
+							"blazeandcave:redstone/noteworthy": true
 						}
 					}
 				}
@@ -462,7 +462,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/travelling_bard": "true"
+							"blazeandcave:redstone/travelling_bard": true
 						}
 					}
 				}
@@ -475,7 +475,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/click": "true"
+							"blazeandcave:redstone/click": true
 						}
 					}
 				}
@@ -488,7 +488,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/leveraging_synergy": "true"
+							"blazeandcave:redstone/leveraging_synergy": true
 						}
 					}
 				}
@@ -501,7 +501,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/on_a_rail": "true"
+							"blazeandcave:redstone/on_a_rail": true
 						}
 					}
 				}
@@ -514,7 +514,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/vibe_check": "true"
+							"blazeandcave:redstone/vibe_check": true
 						}
 					}
 				}
@@ -527,7 +527,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/the_block_of_eternal_screaming": "true"
+							"blazeandcave:redstone/the_block_of_eternal_screaming": true
 						}
 					}
 				}
@@ -540,7 +540,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/cataclyst": "true"
+							"blazeandcave:redstone/cataclyst": true
 						}
 					}
 				}
@@ -553,7 +553,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/monstrous_sacrifices": "true"
+							"blazeandcave:redstone/monstrous_sacrifices": true
 						}
 					}
 				}
@@ -566,7 +566,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/the_incredible_sculk": "true"
+							"blazeandcave:redstone/the_incredible_sculk": true
 						}
 					}
 				}
@@ -579,7 +579,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/sculker_box": "true"
+							"blazeandcave:redstone/sculker_box": true
 						}
 					}
 				}
@@ -592,7 +592,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/calibration_sensation": "true"
+							"blazeandcave:redstone/calibration_sensation": true
 						}
 					}
 				}
@@ -605,7 +605,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:redstone/monstrous_music": "true"
+							"blazeandcave:redstone/monstrous_music": true
 						}
 					}
 				}
@@ -618,7 +618,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:adventure/read_power_of_chiseled_bookshelf": "true"
+							"minecraft:adventure/read_power_of_chiseled_bookshelf": true
 						}
 					}
 				}

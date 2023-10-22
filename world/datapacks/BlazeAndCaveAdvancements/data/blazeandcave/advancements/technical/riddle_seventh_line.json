@@ -25,7 +25,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_sixth_line": "true"
+							"blazeandcave:technical/riddle_sixth_line": true
 						}
 					}
 				}
@@ -53,7 +53,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:technical/riddle_sixth_line": "true"
+							"blazeandcave:technical/riddle_sixth_line": true
 						}
 					}
 				}

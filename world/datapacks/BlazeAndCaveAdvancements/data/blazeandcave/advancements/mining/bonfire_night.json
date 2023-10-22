@@ -4199,32 +4199,6 @@
 				]
 			}
 		},
-		"chiseled_bookshelf": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:chiseled_bookshelf"
-								]
-							}
-						}
-					},
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"items": [
-								"minecraft:flint_and_steel",
-								"minecraft:fire_charge"
-							]
-						}
-					}
-				]
-			}
-		},
 		"pink_petals": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {

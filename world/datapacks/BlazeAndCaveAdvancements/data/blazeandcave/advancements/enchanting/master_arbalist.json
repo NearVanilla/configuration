@@ -25,19 +25,27 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:quick_charge",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},
 							{
 								"enchantment": "minecraft:multishot",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							},
 							{
 								"enchantment": "minecraft:mending",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							},
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}	
 						]
 					}
@@ -55,19 +63,27 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:quick_charge",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							},						
 							{
 								"enchantment": "minecraft:piercing",
-								"levels": 4
+								"levels": {
+									"min": 4
+								}
 							},
 							{
 								"enchantment": "minecraft:mending",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							},
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}	
 						]
 					}

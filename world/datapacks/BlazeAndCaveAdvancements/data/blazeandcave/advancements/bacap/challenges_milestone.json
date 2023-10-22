@@ -20,7 +20,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/a_million_blocks_away": "true"
+							"blazeandcave:challenges/a_million_blocks_away": true
 						}
 					}
 				}
@@ -33,7 +33,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/abyss_lord": "true"
+							"blazeandcave:challenges/abyss_lord": true
 						}
 					}
 				}
@@ -46,7 +46,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/all_the_blocks": "true"
+							"blazeandcave:challenges/all_the_blocks": true
 						}
 					}
 				}
@@ -59,7 +59,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/all_the_items": "true"
+							"blazeandcave:challenges/all_the_items": true
 						}
 					}
 				}
@@ -72,7 +72,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/biological_warfare": "true"
+							"blazeandcave:challenges/biological_warfare": true
 						}
 					}
 				}
@@ -85,7 +85,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/creepergeddon": "true"
+							"blazeandcave:challenges/creepergeddon": true
 						}
 					}
 				}
@@ -98,7 +98,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/death_from_all": "true"
+							"blazeandcave:challenges/death_from_all": true
 						}
 					}
 				}
@@ -111,7 +111,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/dragon_army": "true"
+							"blazeandcave:challenges/dragon_army": true
 						}
 					}
 				}
@@ -124,7 +124,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/dragon_vs_dragon_ii_electric_boogaloo": "true"
+							"blazeandcave:challenges/dragon_vs_dragon_ii_electric_boogaloo": true
 						}
 					}
 				}
@@ -137,7 +137,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/endergeddon": "true"
+							"blazeandcave:challenges/endergeddon": true
 						}
 					}
 				}
@@ -150,7 +150,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/global_vaccination": "true"
+							"blazeandcave:challenges/global_vaccination": true
 						}
 					}
 				}
@@ -163,7 +163,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/highway_to_hell": "true"
+							"blazeandcave:challenges/highway_to_hell": true
 						}
 					}
 				}
@@ -176,7 +176,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/im_in_space": "true"
+							"blazeandcave:challenges/im_in_space": true
 						}
 					}
 				}
@@ -189,7 +189,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/immortal": "true"
+							"blazeandcave:challenges/immortal": true
 						}
 					}
 				}
@@ -202,7 +202,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/nuclear_fusion": "true"
+							"blazeandcave:challenges/nuclear_fusion": true
 						}
 					}
 				}
@@ -215,7 +215,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/potion_master": "true"
+							"blazeandcave:challenges/potion_master": true
 						}
 					}
 				}
@@ -228,7 +228,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/rise_of_the_skeletons": "true"
+							"blazeandcave:challenges/rise_of_the_skeletons": true
 						}
 					}
 				}
@@ -241,7 +241,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/root": "true"
+							"blazeandcave:challenges/root": true
 						}
 					}
 				}
@@ -254,7 +254,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/stack_all_the_blocks": "true"
+							"blazeandcave:challenges/stack_all_the_blocks": true
 						}
 					}
 				}
@@ -267,7 +267,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/stack_all_the_items": "true"
+							"blazeandcave:challenges/stack_all_the_items": true
 						}
 					}
 				}
@@ -280,7 +280,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/the_world_is_ending": "true"
+							"blazeandcave:challenges/the_world_is_ending": true
 						}
 					}
 				}
@@ -293,7 +293,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/warlock": "true"
+							"blazeandcave:challenges/warlock": true
 						}
 					}
 				}
@@ -306,7 +306,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/were_in_the_endgame_now": "true"
+							"blazeandcave:challenges/were_in_the_endgame_now": true
 						}
 					}
 				}
@@ -319,7 +319,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/zombie_apocalypse": "true"
+							"blazeandcave:challenges/zombie_apocalypse": true
 						}
 					}
 				}
@@ -332,7 +332,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/constellation": "true"
+							"blazeandcave:challenges/constellation": true
 						}
 					}
 				}
@@ -345,7 +345,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/hearts_of_the_stack": "true"
+							"blazeandcave:challenges/hearts_of_the_stack": true
 						}
 					}
 				}
@@ -358,7 +358,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/the_devils_distance": "true"
+							"blazeandcave:challenges/the_devils_distance": true
 						}
 					}
 				}
@@ -371,7 +371,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/ad_astra": "true"
+							"blazeandcave:challenges/ad_astra": true
 						}
 					}
 				}
@@ -384,7 +384,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/dragon_vs_wither_the_pre_sequel": "true"
+							"blazeandcave:challenges/dragon_vs_wither_the_pre_sequel": true
 						}
 					}
 				}
@@ -397,7 +397,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/explorer_of_worlds": "true"
+							"blazeandcave:challenges/explorer_of_worlds": true
 						}
 					}
 				}
@@ -410,7 +410,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/i_am_loot": "true"
+							"blazeandcave:challenges/i_am_loot": true
 						}
 					}
 				}
@@ -423,7 +423,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/stockbroker": "true"
+							"blazeandcave:challenges/stockbroker": true
 						}
 					}
 				}
@@ -436,7 +436,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/ultimate_enchanter": "true"
+							"blazeandcave:challenges/ultimate_enchanter": true
 						}
 					}
 				}
@@ -449,7 +449,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/all_effects": "true"
+							"minecraft:nether/all_effects": true
 						}
 					}
 				}
@@ -462,7 +462,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/the_perfect_run": "true"
+							"blazeandcave:challenges/the_perfect_run": true
 						}
 					}
 				}
@@ -475,7 +475,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/telescopic": "true"
+							"blazeandcave:challenges/telescopic": true
 						}
 					}
 				}
@@ -488,7 +488,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/riddle_me_this": "true"
+							"blazeandcave:challenges/riddle_me_this": true
 						}
 					}
 				}
@@ -501,7 +501,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/poglin": "true"
+							"blazeandcave:challenges/poglin": true
 						}
 					}
 				}

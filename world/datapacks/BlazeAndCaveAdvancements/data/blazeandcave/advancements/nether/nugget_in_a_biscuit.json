@@ -22,9 +22,7 @@
 							{
 								"type": "minecraft:mined",
 								"stat": "minecraft:nether_gold_ore",
-								"value": {
-									"min": 1
-								}
+								"value": 1
 							}
 						]
 					}

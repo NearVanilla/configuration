@@ -1,5 +1,8 @@
 Lang:
   
+  # Defines whether the client language should be used, if it is available
+  client-lang: true
+  
   # Defines the plugin language
   lang: en_en
 
@@ -75,6 +78,7 @@ Options:
     get-up-sneak: true
     
     # Defines whether a player can double-sneak in a short amount of time to start crawling
+    # In order for it to work, you must be looking straight down
     double-sneak: false
   
   
@@ -109,7 +113,7 @@ Options:
     default-sit-mode: true
     sit-at-block-center: true
     
-    # Defines the blocks a player can sit on by clicking (materials and tags)
+    # Defines the blocks a player can sit on by clicking (materials and tags) (* means every block)
     # Separate a material or tag from its y-offset with a ";" character
     SitMaterials:
     - '#STAIRS'

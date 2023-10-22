@@ -8,7 +8,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:challenges/root": "true"
+							"blazeandcave:challenges/root": true
 						}
 					}
 				}

@@ -18,7 +18,7 @@
 			"conditions": {
 				"block": "minecraft:sweet_berry_bush",
 				"state": {
-					"age": 1
+					"age": "1"
 				}
 			}
 		},
@@ -27,7 +27,7 @@
 			"conditions": {
 				"block": "minecraft:sweet_berry_bush",
 				"state": {
-					"age": 2
+					"age": "2"
 				}
 			}
 		},
@@ -36,7 +36,7 @@
 			"conditions": {
 				"block": "minecraft:sweet_berry_bush",
 				"state": {
-					"age": 3
+					"age": "3"
 				}
 			}
 		}	

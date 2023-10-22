@@ -22,7 +22,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:protection",
-								"levels": 4
+								"levels": {
+									"min": 4
+								}
 							}
 						]
 					}
@@ -37,7 +39,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:fire_protection",
-								"levels": 4
+								"levels": {
+									"min": 4
+								}
 							}
 						]
 					}
@@ -52,7 +56,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:feather_falling",
-								"levels": 4
+								"levels": {
+									"min": 4
+								}
 							}
 						]
 					}
@@ -67,7 +73,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:blast_protection",
-								"levels": 4
+								"levels": {
+									"min": 4
+								}
 							}
 						]
 					}
@@ -82,7 +90,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:projectile_protection",
-								"levels": 4
+								"levels": {
+									"min": 4
+								}
 							}
 						]
 					}
@@ -97,7 +107,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:respiration",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -112,7 +124,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:aqua_affinity",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -127,7 +141,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:thorns",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -142,7 +158,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:depth_strider",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -157,7 +175,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:frost_walker",
-								"levels": 2
+								"levels": {
+									"min": 2
+								}
 							}
 						]
 					}
@@ -172,7 +192,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:binding_curse",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -187,7 +209,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:sharpness",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -202,7 +226,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:smite",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -217,7 +243,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:bane_of_arthropods",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -232,7 +260,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:knockback",
-								"levels": 2
+								"levels": {
+									"min": 2
+								}
 							}
 						]
 					}
@@ -247,7 +277,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:fire_aspect",
-								"levels": 2
+								"levels": {
+									"min": 2
+								}
 							}
 						]
 					}
@@ -262,7 +294,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:looting",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -277,7 +311,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:sweeping",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -292,7 +328,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:efficiency",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -307,7 +345,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:silk_touch",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -322,7 +362,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -337,7 +379,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:fortune",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -352,7 +396,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:power",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -367,7 +413,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:punch",
-								"levels": 2
+								"levels": {
+									"min": 2
+								}
 							}
 						]
 					}
@@ -382,7 +430,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:flame",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -397,7 +447,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:infinity",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -412,7 +464,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:luck_of_the_sea",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -427,7 +481,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:lure",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -442,7 +498,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:mending",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -457,7 +515,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:vanishing_curse",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -472,7 +532,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:loyalty",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -487,7 +549,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:riptide",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -502,7 +566,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:impaling",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -517,7 +583,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:channeling",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -532,7 +600,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:quick_charge",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -547,7 +617,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:piercing",
-								"levels": 4
+								"levels": {
+									"min": 4
+								}
 							}
 						]
 					}
@@ -562,7 +634,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:multishot",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -577,7 +651,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:soul_speed",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -592,7 +668,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:protection",
-								"levels": 4
+								"levels": {
+									"min": 4
+								}
 							}
 						]
 					}
@@ -607,7 +685,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:fire_protection",
-								"levels": 4
+								"levels": {
+									"min": 4
+								}
 							}
 						]
 					}
@@ -622,7 +702,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:feather_falling",
-								"levels": 4
+								"levels": {
+									"min": 4
+								}
 							}
 						]
 					}
@@ -637,7 +719,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:blast_protection",
-								"levels": 4
+								"levels": {
+									"min": 4
+								}
 							}
 						]
 					}
@@ -652,7 +736,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:projectile_protection",
-								"levels": 4
+								"levels": {
+									"min": 4
+								}
 							}
 						]
 					}
@@ -667,7 +753,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:respiration",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -682,7 +770,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:aqua_affinity",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -697,7 +787,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:thorns",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -712,7 +804,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:depth_strider",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -727,7 +821,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:frost_walker",
-								"levels": 2
+								"levels": {
+									"min": 2
+								}
 							}
 						]
 					}
@@ -742,7 +838,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:binding_curse",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -757,7 +855,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:sharpness",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -772,7 +872,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:smite",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -787,7 +889,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:bane_of_arthropods",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -802,7 +906,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:knockback",
-								"levels": 2
+								"levels": {
+									"min": 2
+								}
 							}
 						]
 					}
@@ -817,7 +923,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:fire_aspect",
-								"levels": 2
+								"levels": {
+									"min": 2
+								}
 							}
 						]
 					}
@@ -832,7 +940,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:looting",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -847,7 +957,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:sweeping",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -862,7 +974,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:efficiency",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -877,7 +991,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:silk_touch",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -892,7 +1008,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:unbreaking",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -907,7 +1025,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:fortune",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -922,7 +1042,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:power",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -937,7 +1059,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:punch",
-								"levels": 2
+								"levels": {
+									"min": 2
+								}
 							}
 						]
 					}
@@ -952,7 +1076,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:flame",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -967,7 +1093,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:infinity",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -982,7 +1110,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:luck_of_the_sea",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -997,7 +1127,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:lure",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -1012,7 +1144,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:mending",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -1027,7 +1161,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:vanishing_curse",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -1042,7 +1178,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:loyalty",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -1057,7 +1195,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:riptide",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -1072,7 +1212,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:impaling",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -1087,7 +1229,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:channeling",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -1102,7 +1246,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:quick_charge",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -1117,7 +1263,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:piercing",
-								"levels": 4
+								"levels": {
+									"min": 4
+								}
 							}
 						]
 					}
@@ -1132,7 +1280,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:multishot",
-								"levels": 1
+								"levels": {
+									"min": 1
+								}
 							}
 						]
 					}
@@ -1147,7 +1297,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:soul_speed",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -1162,7 +1314,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:swift_sneak",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}
@@ -1177,7 +1331,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:swift_sneak",
-								"levels": 3
+								"levels": {
+									"min": 3
+								}
 							}
 						]
 					}

@@ -23,7 +23,9 @@
 					"enchantments": [
 						{
 							"enchantment": "minecraft:quick_charge",
-							"levels": 3
+							"levels": {
+								"min": 3
+							}
 						}
 					]					
 				}

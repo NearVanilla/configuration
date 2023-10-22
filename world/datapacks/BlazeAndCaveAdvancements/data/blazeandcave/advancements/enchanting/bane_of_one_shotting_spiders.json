@@ -21,7 +21,9 @@
 						"enchantments": [
 							{
 								"enchantment": "minecraft:bane_of_arthropods",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}
@@ -36,7 +38,9 @@
 						"stored_enchantments": [
 							{
 								"enchantment": "minecraft:bane_of_arthropods",
-								"levels": 5
+								"levels": {
+									"min": 5
+								}
 							}
 						]
 					}

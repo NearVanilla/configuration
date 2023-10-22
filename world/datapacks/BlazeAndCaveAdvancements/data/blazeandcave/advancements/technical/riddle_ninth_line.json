@@ -37,7 +37,7 @@
 							"type_specific": {
 								"type": "player",
 								"advancements": {
-									"blazeandcave:technical/riddle_eighth_line": "true"
+									"blazeandcave:technical/riddle_eighth_line": true
 								}
 							}
 						},
@@ -80,7 +80,7 @@
 							"type_specific": {
 								"type": "player",
 								"advancements": {
-									"blazeandcave:technical/riddle_eighth_line": "true"
+									"blazeandcave:technical/riddle_eighth_line": true
 								}
 							}
 						},
@@ -123,7 +123,7 @@
 							"type_specific": {
 								"type": "player",
 								"advancements": {
-									"blazeandcave:technical/riddle_eighth_line": "true"
+									"blazeandcave:technical/riddle_eighth_line": true
 								}
 							}
 						},
@@ -166,7 +166,7 @@
 							"type_specific": {
 								"type": "player",
 								"advancements": {
-									"blazeandcave:technical/riddle_eighth_line": "true"
+									"blazeandcave:technical/riddle_eighth_line": true
 								}
 							}
 						},

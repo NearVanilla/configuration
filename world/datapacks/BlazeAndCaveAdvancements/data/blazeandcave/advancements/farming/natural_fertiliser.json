@@ -24,7 +24,7 @@
 									"minecraft:composter"
 								],
 								"state": {
-									"level": 7
+									"level": "7"
 								}
 							}
 						}

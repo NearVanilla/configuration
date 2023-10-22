@@ -8,7 +8,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:statistics/root": "true"
+							"blazeandcave:statistics/root": true
 						}
 					}
 				}

@@ -27,7 +27,7 @@
 							"type_specific": {
 								"type": "player",
 								"advancements": {
-									"blazeandcave:technical/unending_hell_end": "true"
+									"blazeandcave:technical/unending_hell_end": true
 								}
 							}
 						}
