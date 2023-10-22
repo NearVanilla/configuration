@@ -21,6 +21,7 @@ check_server_running() {
   local id
   local status
   local ecode
+  # shellcheck disable=SC2015
   id="$(docker-compose ps -qa "${container_name}")" && [ -n "${id}" ] || {
     ecode=$?
     echo "Server not existing?"
@@ -131,11 +132,11 @@ wait_for_servers "${svc_names[@]}"
 sleep 10s
 printf 'All servers are ready - press Y to shut them down\n' >&2
 
-while read -n1 char; do
+while read -r -n1 char; do
   if [ "${char,,}" = "y" ]; then
     break
   else
-    printf 'Got invalid character - "%s". Try again.\n' >&2
+    printf 'Got invalid character - "%s". Try again.\n' "${char}" >&2
   fi
 done
 
