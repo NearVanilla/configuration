@@ -17,9 +17,9 @@ send-supported-versions: false
 # An example to block 1.16.4, everything below 1.16, as well as everything above 1.17.1 would be: ["<1.16", "1.16.4", ">1.17.1"]
 # You can use both this and the block-protocols option at the same time as well.
 block-versions:
-- <1.19
+- <1.20
 # Block specific Minecraft protocol version numbers.
-# List of all Minecraft protocol versions: http://wiki.vg/Protocol_version_numbers, or use a generator: https://via.krusic22.com
+# List of all Minecraft protocol versions: https://wiki.vg/Protocol_version_numbers, or use a generator: https://via.krusic22.com
 block-protocols: []
 # Change the blocked disconnect message
 block-disconnect-msg: You are using an unsupported Minecraft version!
@@ -48,12 +48,12 @@ velocity-ping-save: false
 #
 # The format for the following is:
 #  servername: protocolversion
-# You can find protocol ids on http://wiki.vg/Protocol_version_numbers
+# You can find protocol ids on https://wiki.vg/Protocol_version_numbers
 # It will fallback to the default option if none found.
 velocity-servers:
-  default: 763
-  survival: 763
-  creative-spawn: 763
+  default: 764
+  survival: 764
+  creative-spawn: 764
 #
 #----------------------------------------------------------#
 #                  GLOBAL PACKET LIMITER                   #
