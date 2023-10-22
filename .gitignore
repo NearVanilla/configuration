@@ -25,6 +25,7 @@ plugins/*/translations/*
 plugins/BuycraftX/cache
 plugins/BuycraftX/*.json
 plugins/BuycraftX/gui.cache
+plugins/CarbonChat/party/*
 plugins/Chunky/tasks/*
 plugins/ChunkyBorder/borders.json
 plugins/DiscordSRV/discord-console-logs/

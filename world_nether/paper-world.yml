@@ -108,6 +108,7 @@ feature-seeds:
     minecraft:ore_copper_small: 1213849543275007770
     minecraft:ore_diamond_buried: -3024642142650392681
     minecraft:ore_diamond_large: -8823683261453298091
+    minecraft:ore_diamond_medium: 5565042275066032350
     minecraft:ore_diamond_small: 8996246962370915411
     minecraft:ore_diorite: 214080609921989268
     minecraft:ore_dirt: 8642290315340385903
