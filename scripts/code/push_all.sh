@@ -35,6 +35,7 @@ for repo in . ./server-config/*/; do
     exit 1
   }
   local_sha="$(get_sha "${ref}")"
-  remote_sha="$(get_sha "origin/${branch}")"
+  # If remote doesn't exist- ignore it :)
+  remote_sha="$(get_sha "origin/${branch}" || true)"
   [ "${local_sha}" = "${remote_sha}" ] || git push origin "${ref}":"${branch}"
 done
