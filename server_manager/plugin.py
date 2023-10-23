@@ -46,7 +46,7 @@ class PluginInfo:
         if isinstance(version, list) and len(version) == 1:
             version = version[0]
         return cls(
-            name=data["name"],
+            name=data.get("name") or data["id"],
             version=version,
             platform=platform,
             checksum=checksum,
@@ -99,16 +99,20 @@ class PluginInfo:
 
 
 def get_paper_plugin_info(file: Path) -> PluginInfo:
-    datafile = "plugin.yml"
     if not file.exists():
         raise FileNotExistentException(file)
     with ZipFile(file) as zipfile:
         try:
+            datafile = "plugin.yml"
             zipfile.getinfo(datafile)
-        except KeyError as e:
-            raise NotAPaperPluginException(
-                f"{file} does not contain {datafile}!"
-            ) from e
+        except KeyError:
+            try:
+                datafile = "paper-plugin.yml"
+                zipfile.getinfo(datafile)
+            except KeyError as e:
+                raise NotAPaperPluginException(
+                    f"{file} does not contain {datafile}!"
+                ) from e
         with zipfile.open(datafile) as plug:
             data = yaml.safe_load(plug)
     checksum = sha1(file)
