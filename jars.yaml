@@ -25,5 +25,5 @@ plugins:
   name: signedvelocity
   version: 1.1.0
 version:
-  build: 276
+  build: 294
   name: 3.2.0-SNAPSHOT
