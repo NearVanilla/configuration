@@ -234,7 +234,6 @@ fishing-time-range:
 fixes:
   disable-unloaded-chunk-enderpearl-exploit: false
   falling-block-height-nerf: disabled
-  fix-curing-zombie-villager-discount-exploit: true
   fix-items-merging-through-walls: false
   fix-wither-targeting-bug: false
   prevent-tnt-from-moving-in-water: false
