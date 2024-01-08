@@ -9,15 +9,15 @@ plugins:
 - checksum: e77b811d89234f7c56d2ae629dda97622f866c45
   name: CapAFK
   version: 1.4.1.10
-- checksum: d29c531f65c7b2b217c1983006afa1d235517eae
+- checksum: 80b795b0b1e943d63e2c152b6f32acd70f0596c3
   name: Chunky
-  version: 1.3.102
+  version: 1.3.105
 - checksum: 8017016965d5312a3bbc2fb9563abcb1634b9249
   name: DeathLog
   version: 1.0.2
-- checksum: 75336aab64e1bf8af30cd452c5af14859701a0f0
+- checksum: f55005317a18ec583a64821cf310b91d8f475c15
   name: DiscordSRV
-  version: 1.26.2
+  version: 1.27.0
 - checksum: 722793bc7977c7dae77b5d1774a753a2b6708beb
   name: FirstJoinMessage
   version: 1.0.2
@@ -36,9 +36,9 @@ plugins:
 - checksum: c8c78165907a53a5f542673b49c5cdd74f8cbf76
   name: OnePlayerSleep
   version: 1.0.6-2-ga87aac8
-- checksum: 0cfea88582a6a1865bdaff5cf32048b5e8a33121
+- checksum: 7310480a37c48a080faddda320ec4606d4ae9e2c
   name: OpenInv
-  version: 4.4.1
+  version: 4.4.2
 - checksum: 743c70bb0994aa4151eb9884786dd3960cbfe212
   name: ServerUtils
   version: 3.5.4
@@ -48,21 +48,21 @@ plugins:
 - checksum: 42ea9130bd6df8f3157bbbe7949c9bdcff7c0dff
   name: WorldGuard
   version: 7.0.9+5934e49
-- checksum: 1b763929913e17602c5041cacbd86b2abb52b39a
+- checksum: 13016481f072b779fd818c2e33a0ed8468a4e0e3
   name: LuckPerms
-  version: 5.4.108
-- checksum: 0ff297b5c2d6a2812a9a9e6ef05c1c1c1e48277f
+  version: 5.4.116
+- checksum: 1b0e110b019526b5fd0c5a6b3df0aeb3d636b32a
   name: spark
-  version: 1.10.55
+  version: 1.10.59
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
-- checksum: 0a70dea386fedb944c2f6e59d032efe4fe16ea8b
+- checksum: a7d0fcbde513de80c00e939ae963830912b45dfa
   name: dynmap
-  version: 3.7-beta-2-923
-- checksum: 0968f44f17fcb052aa4609e63ee2254f4e358d96
+  version: 3.7-beta-4-935
+- checksum: 27eefbff65a582991d44345f56b50d7336ca598a
   name: PrometheusExporter
-  version: 2.5.0
+  version: 2.6.0
 - checksum: 361064cb0c3cdf3d52aec3e89accd4e3dae3b88e
   name: WorldBorder
   version: '1.19'
@@ -84,9 +84,9 @@ plugins:
 - checksum: ee70d960fc483a01ea1697bbe3f431e05d8581bb
   name: FreedomChat
   version: 1.5.1
-- checksum: 245bb08fb3a6ce5c1c6c6efcb41b94260529ce6e
+- checksum: 0935cfa0ccade86f0f0d41943c2593c1da8e5220
   name: FastAsyncWorldEdit
-  version: 2.8.2-SNAPSHOT
+  version: 2.8.5-SNAPSHOT
 - checksum: 8e2d326c18de79cb81a669643a76ef09d5b986e8
   name: ChunkyBorder
   version: 1.1.50
@@ -96,6 +96,9 @@ plugins:
 - checksum: 597b6a551d0138bca2daa501d28c46a9937ecc80
   name: PaperTweaks
   version: 0.4.0
+- checksum: 43f485c2e3e906e915c861a43b4186c5fce06680
+  name: DeathDB
+  version: '1.0'
 version:
-  build: 291
-  name: 1.20.2
+  build: 381
+  name: 1.20.4
