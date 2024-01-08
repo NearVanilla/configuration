@@ -22,7 +22,7 @@ check_server_running() {
   local status
   local ecode
   # shellcheck disable=SC2015
-  id="$(docker-compose ps -qa "${container_name}")" && [ -n "${id}" ] || {
+  id="$(docker compose ps -qa "${container_name}")" && [ -n "${id}" ] || {
     ecode=$?
     echo "Server not existing?"
     return $ecode
@@ -50,7 +50,7 @@ check_server_running() {
 
 stop_servers() {
   local servers=( "${@}" )
-  docker-compose stop "${servers[@]}"
+  docker compose stop "${servers[@]}"
   for i in {1..60}; do
     local idx
     for idx in "${!servers[@]}"; do
@@ -73,7 +73,7 @@ wait_for_servers() {
         return 1
       }
       # TODO: Figure out a way to only get the logs since startup
-      if docker-compose logs --tail=40 "${servers[$idx]}" | grep 'Done ([^)]*)!'; then
+      if docker compose logs --tail=40 "${servers[$idx]}" | grep 'Done ([^)]*)!'; then
         printf 'Server %s got ready\n' "${servers[$idx]}" >&2
         unset "servers[$idx]"
       fi
@@ -121,7 +121,7 @@ done
 
 manage synchronize upload
 
-docker-compose up --build -d "${svc_names[@]}"
+docker compose up --build -d "${svc_names[@]}"
 for i in {3..1}; do
   printf 'Waiting %s more seconds before polling for status...\n' "$((i*10))" >&2
   sleep 10s
