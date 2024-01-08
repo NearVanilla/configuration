@@ -15,12 +15,12 @@ plugins:
 - checksum: 942946199c475658e5b82f09eed69eba078ed3b0
   name: CarbonChat
   version: 2.1.0-beta.23
-- checksum: b33d802736525a0eca20d9796cf8e4aa9242daa4
+- checksum: c8d03b8ae3c226faedc7a0c4117ad9de59606414
   name: voicechat
-  version: 2.4.27
-- checksum: ee70d960fc483a01ea1697bbe3f431e05d8581bb
+  version: 2.4.30
+- checksum: e4866a50200229eeae91ea1faf6bc87f623e70c1
   name: FreedomChat
-  version: 1.5.1
+  version: 1.5.2
 - checksum: 0935cfa0ccade86f0f0d41943c2593c1da8e5220
   name: FastAsyncWorldEdit
   version: 2.8.5-SNAPSHOT
