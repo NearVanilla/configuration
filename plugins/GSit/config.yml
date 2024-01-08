@@ -9,15 +9,10 @@ Lang:
 
 
 Options:
-  
-  
-  
   Emote:
-    
-    # Defines the maximum range at which emotes can be seen
     max-distance: 192.0
   
-  # Defines the worlds in which a player can sit, pose, crawl or emote (all other worlds will be blocked when the list is not empty)
+  # Defines the worlds in which a player can sit, pose or crawl (all other worlds will be blocked when the list is not empty)
   WorldWhitelist: []
   
   # Defines whether the plugin uses an extended compatibility mode for all features
@@ -182,7 +177,7 @@ Options:
     lay-can-skip-night: true
     lay-hide-nametag: false
   
-  # Defines the worlds in which a player cannot sit, pose, crawl or emote
+  # Defines the worlds in which a player cannot sit, pose or crawl
   WorldBlacklist: []
   MaterialWhiteList: []
   MaterialBlackList: []
