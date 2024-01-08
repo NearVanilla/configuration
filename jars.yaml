@@ -33,9 +33,9 @@ plugins:
 - checksum: eed4545a394f3be3bc4ae3187674d9b958de265d
   name: BlueMap
   version: '3.17'
-- checksum: a62fd42e64dff2992ddef6767079299b31276dd9
+- checksum: 80ea1f188a62ee4a7eec4dc5404b216c8aa1b7b5
   name: SignedVelocity
-  version: 1.1.0
+  version: 1.2.2
 - checksum: 597b6a551d0138bca2daa501d28c46a9937ecc80
   name: PaperTweaks
   version: 0.4.0
