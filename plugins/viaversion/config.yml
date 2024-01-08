@@ -50,9 +50,9 @@ velocity-ping-save: false
 # You can find protocol ids on https://wiki.vg/Protocol_version_numbers
 # It will fall back to the default option if none found.
 velocity-servers:
-  default: 764
-  survival: 764
-  creative-spawn: 764
+  default: 765
+  survival: 765
+  creative-spawn: 765
 #
 #----------------------------------------------------------#
 #                  GLOBAL PACKET LIMITER                   #
