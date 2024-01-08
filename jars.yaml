@@ -90,9 +90,9 @@ plugins:
 - checksum: 8e2d326c18de79cb81a669643a76ef09d5b986e8
   name: ChunkyBorder
   version: 1.1.50
-- checksum: a62fd42e64dff2992ddef6767079299b31276dd9
+- checksum: 80ea1f188a62ee4a7eec4dc5404b216c8aa1b7b5
   name: SignedVelocity
-  version: 1.1.0
+  version: 1.2.2
 - checksum: 597b6a551d0138bca2daa501d28c46a9937ecc80
   name: PaperTweaks
   version: 0.4.0
