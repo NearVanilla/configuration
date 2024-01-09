@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Little Sniffs"},
 		"description": {"color":"green","translate":"Feed a Snifflet"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/jurassic_sniff",
 	"rewards": {

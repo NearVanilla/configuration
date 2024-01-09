@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Point of No Return"},
 		"description": {"color":"green","translate":"Fall into the void"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:end/the_actual_end",
 	"rewards": {

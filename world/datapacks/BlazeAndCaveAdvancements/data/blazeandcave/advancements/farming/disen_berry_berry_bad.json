@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Disen Berry Berry Bad!"},
 		"description": {"color":"green","translate":"Get stuck in a sweet berry bush. Oh, icky yucky goo!"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 
 	},
 	"parent": "blazeandcave:farming/berry_nice",

@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Noxious Fumes"},
 		"description": {"color":"green","translate":"Use dragon's breath to brew a lingering potion"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:end/dragon_breath",
 	"rewards": {

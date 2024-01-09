@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Galileo Figaro"},
 		"description": {"color":"green","translate":"Zoom in on something using a Spyglass"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/gi_geode",
 	"rewards": {

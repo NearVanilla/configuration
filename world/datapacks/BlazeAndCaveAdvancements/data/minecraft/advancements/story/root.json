@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Benchmarking"},
 		"description": {"color":"green","translate":"Construct a crafting bench with four wooden planks"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:bacap/getting_wood",
 	"rewards": {

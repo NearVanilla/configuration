@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Yay! I got my wood!"},
 		"description": {"color":"#75E1FF","translate":"Collect every type of log and stem"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:building/lost_its_bark",

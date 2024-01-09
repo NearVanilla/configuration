@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Squid Game"},
 		"description": {"color":"#75E1FF","translate":"Hunt enough Squids to collect a stack of Ink Sacs"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:farming/its_full_of_ink",

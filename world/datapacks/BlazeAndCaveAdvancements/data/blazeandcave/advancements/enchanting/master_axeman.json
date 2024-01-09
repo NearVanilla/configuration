@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Master Axeman"},
 		"description": {"color":"dark_purple","translate":"Create an axe with all possible enchantments at max level"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:enchanting/master_digger",

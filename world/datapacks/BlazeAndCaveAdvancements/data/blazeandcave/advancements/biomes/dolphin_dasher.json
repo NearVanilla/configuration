@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Dolphin Dasher"},
 		"description": {"color":"green","translate":"Get a speed boost from your friendly underwater companions"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/flipper",
 	"rewards": {

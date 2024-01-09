@@ -5,9 +5,9 @@
 		},
 		"title": {"translate":"Good Luck Getting This One"},
 		"description": {"color":"light_purple","translate":"Kill a baby Turtle, a Witch, a Phantom, an Elder Guardian and a Piglin Brute with one piercing arrow in The End"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge",
-		"hidden": "true"
+		"hidden": true
 	},
 	"parent": "blazeandcave:end/anti_gravity_generator",
 	"rewards": {

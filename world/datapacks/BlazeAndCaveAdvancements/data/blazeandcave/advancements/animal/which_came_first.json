@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Which came first?"},
 		"description": {"color":"green","translate":"The chicken... or the egg??"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/so_good",
 	"rewards": {

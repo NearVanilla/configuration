@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Captain America"},
 		"description": {"color":"dark_purple","translate":"Get completely frozen inside two blocks of Powder Snow for a loooong time.","extra":[{"text":"\n"},{"translate":"Big question is: Can you do this all day?"}]},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:adventure/walk_on_powder_snow_with_leather_boots",

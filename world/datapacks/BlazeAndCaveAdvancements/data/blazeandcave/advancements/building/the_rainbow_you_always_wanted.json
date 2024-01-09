@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Rainbow You Always Wanted"},
 		"description": {"color":"#75E1FF","translate":"Craft all 16 colors of concrete"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:building/concrete_evidence",

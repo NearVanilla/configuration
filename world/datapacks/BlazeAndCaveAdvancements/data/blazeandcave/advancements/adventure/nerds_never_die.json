@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Nerds Never Die"},
 		"description": {"color":"#75E1FF","translate":"Name a Piglin Brute 'Technoblade'"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:adventure/the_one_and_true_johnny",
@@ -15,6 +15,26 @@
 	},		
 	"criteria": {
 		"technoblade": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:name_tag"
+					],
+					"nbt": "{display:{Name:\'\"Technoblade\"\'}}"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type": "minecraft:piglin_brute"
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"technoblade_old": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
@@ -34,5 +54,11 @@
 				]
 			}
 		}
-	}
+	},
+	"requirements": [
+		[
+			"technoblade",
+			"technoblade_old"
+		]
+	]
 }

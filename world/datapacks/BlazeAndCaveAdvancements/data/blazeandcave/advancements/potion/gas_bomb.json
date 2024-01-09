@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Gas Bomb"},
 		"description": {"color":"dark_purple","translate":"Ignite a Creeper of each possible effect using Flint and Steel"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:potion/a_furious_test_subject",

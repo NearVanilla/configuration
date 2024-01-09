@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Festival of Lights"},
 		"description": {"color":"green","translate":"Light up the area using a lantern"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/torched",
 	"rewards": {

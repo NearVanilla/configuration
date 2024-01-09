@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Even MOAR Tools"},
 		"description": {"color":"green","translate":"Craft a full diamond tools set"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/stabcraft",
 	"rewards": {

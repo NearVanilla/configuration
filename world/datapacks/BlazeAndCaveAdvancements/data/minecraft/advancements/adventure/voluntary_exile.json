@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"I've got a bad feeling about this"},
 		"description": {"color":"green","translate":"Kill a raid captain. Maybe consider staying away from villages for the time being..."},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 
 	},
 	"parent": "blazeandcave:adventure/riot_shield",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Undead Cavalry"},
 		"description": {"color":"#75E1FF","translate":"Ride a Skeleton Horse"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:monsters/skeleton_smiter",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"War is Coming"},
 		"description": {"color":"dark_purple","translate":"Defeat enough Illager Patrol leaders to attain the highest level of Bad Omen"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:adventure/buy_low_sell_high",

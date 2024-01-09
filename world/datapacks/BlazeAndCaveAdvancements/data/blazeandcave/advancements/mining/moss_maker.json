@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Moss Maker"},
 		"description": {"color":"green","translate":"Use Bone Meal on Moss to spread its wonderful lushness across hard blocks of stone"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/this_dirt_is_dirtier",
 	"rewards": {

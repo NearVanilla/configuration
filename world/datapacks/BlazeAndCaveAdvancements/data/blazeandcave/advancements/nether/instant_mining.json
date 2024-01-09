@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Instant Mining"},
 		"description": {"color":"dark_purple","translate":"Hold a Diamond or Netherite Pickaxe enchanted with Efficiency V while under the Haste II effect"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:nether/create_full_beacon",

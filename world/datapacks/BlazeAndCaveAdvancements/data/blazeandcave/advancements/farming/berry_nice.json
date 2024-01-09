@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Berry Nice!"},
 		"description": {"color":"green","translate":"Pick and eat some sweet berries"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:farming/care_for_the_environment",
 	"rewards": {

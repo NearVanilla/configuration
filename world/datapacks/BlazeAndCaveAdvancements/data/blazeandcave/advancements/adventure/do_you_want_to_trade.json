@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Do You Want to Trade?"},
 		"description": {"color":"green","translate":"Find an NPC village"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {

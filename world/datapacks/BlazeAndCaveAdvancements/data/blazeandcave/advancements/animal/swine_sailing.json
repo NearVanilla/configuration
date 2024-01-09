@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Swine Sailing"},
 		"description": {"color":"#75E1FF","translate":"Ride a saddled pig in a boat in a minecart"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:animal/pig_slaughterer",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Prepare to meet your Loom!"},
 		"description": {"color":"green","translate":"Craft a loom with string and planks for creating your own banners"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/raise_the_flag",
 	"rewards": {

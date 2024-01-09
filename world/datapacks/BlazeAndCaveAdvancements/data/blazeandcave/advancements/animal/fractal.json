@@ -6,9 +6,9 @@
 		},
 		"title": {"translate":"Fractal"},
 		"description": {"color":"light_purple","translate":"Put a Bundle in a Bundle in a Bundle in a Bundle in a Bundle… 16 layers deep"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge",
-		"hidden": "true"
+		"hidden": true
 	},
 	"parent": "blazeandcave:animal/humble_bundle",
 	"rewards": {

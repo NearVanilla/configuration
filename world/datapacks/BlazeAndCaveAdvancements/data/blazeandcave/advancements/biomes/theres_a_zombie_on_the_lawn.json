@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"There's a zombie on the lawn"},
 		"description": {"color":"green","translate":"Find a sunflower plains"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/for_you_my_sweet",	
 	"rewards": {

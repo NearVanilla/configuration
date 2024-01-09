@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"What a pane"},
 		"description": {"color":"green","translate":"Craft some glass panes"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/classy_glassy",
 	"rewards": {

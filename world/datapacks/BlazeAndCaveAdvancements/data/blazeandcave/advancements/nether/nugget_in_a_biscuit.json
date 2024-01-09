@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Nugget in a Biscuit"},
 		"description": {"color":"green","translate":"Mine Nether Gold Ore for a pile of gold nuggets"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/root",
 	"rewards": {
@@ -22,7 +22,9 @@
 							{
 								"type": "minecraft:mined",
 								"stat": "minecraft:nether_gold_ore",
-								"value": 1
+								"value": {
+									"min": 1
+								}
 							}
 						]
 					}

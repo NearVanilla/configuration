@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"The Actual End"},
 		"description": {"color":"green","translate":"Get killed by an Enderman in The End"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 
 	},
 	"parent": "minecraft:end/kill_dragon",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A Knight to Nether Forget"},
 		"description": {"color":"#75E1FF","translate":"Use a Smithing Table to upgrade your diamond armor to netherite armor"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:nether/moar_upgraded_tools",

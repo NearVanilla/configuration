@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Raiders of the Lost Trim"},
 		"description": {"color":"#75E1FF","translate":"Carefully excavate a Smithing Template from the Trail Ruins"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:adventure/happy_trails",

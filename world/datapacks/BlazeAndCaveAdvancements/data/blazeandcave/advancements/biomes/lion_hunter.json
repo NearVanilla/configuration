@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Lion Hunter"},
 		"description": {"color":"green","translate":"Feed an Ocelot fish to try and gain its trust"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/tarzan",
 	"rewards": {

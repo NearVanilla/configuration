@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Spider Smasher"},
 		"description": {"color":"#75E1FF","translate":"Collect a stack of string from spiders or cobwebs"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:monsters/poisonous_ew",

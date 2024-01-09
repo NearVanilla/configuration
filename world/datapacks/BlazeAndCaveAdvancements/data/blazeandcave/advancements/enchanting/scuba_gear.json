@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Scuba Gear"},
 		"description": {"color":"#75E1FF","translate":"Obtain every water related enchantment"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:enchanting/knocking_your_socks_off",

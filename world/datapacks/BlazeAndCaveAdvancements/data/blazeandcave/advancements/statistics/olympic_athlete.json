@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Olympic Athlete"},
 		"description": {"color":"#75E1FF","translate":"Swim 10km"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:statistics/laps_in_the_pool",

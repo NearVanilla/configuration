@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Ender Worm"},
 		"description": {"color":"green","translate":"Prevent an endermite from maturing"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:monsters/the_ender_of_ender",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Blast it!"},
 		"description": {"color":"#75E1FF","translate":"Upgrade your furnace to a blast furnace using iron and smooth stone for smelting ores quicker"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:building/smooth_dude",

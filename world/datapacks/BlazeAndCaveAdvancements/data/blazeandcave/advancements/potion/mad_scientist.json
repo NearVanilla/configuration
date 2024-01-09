@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Mad Scientist"},
 		"description": {"color":"dark_purple","translate":"Cure a zombie villager of every profession"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:story/cure_zombie_villager",

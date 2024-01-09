@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"My work here is done"},
 		"description": {"color":"green","translate":"Get caught in a cave-in of gravel"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 
 	},
 	"parent": "blazeandcave:mining/heart_of_darkness",

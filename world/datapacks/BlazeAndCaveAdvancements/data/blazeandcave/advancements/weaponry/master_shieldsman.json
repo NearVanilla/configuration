@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Master Shieldsman"},
 		"description": {"color":"dark_purple","translate":"Deflect an attack from every hostile monster"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:weaponry/flying_colors",

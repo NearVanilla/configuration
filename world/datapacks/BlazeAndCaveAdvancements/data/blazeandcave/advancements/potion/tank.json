@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Tank"},
 		"description": {"color":"#75E1FF","translate":"Become nearly invincible to all damage using a Turtle Master Potion"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:potion/true_feather_falling",

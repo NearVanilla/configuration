@@ -7,7 +7,7 @@
 		"description": {"color":"#CCCCCC","translate":"If your numbers go up, you're having more fun"},
 		"background": "minecraft:textures/block/loom_side.png",
 		"show_toast": false,
-		"announce_to_chat": "false"
+		"announce_to_chat": false
 	},
 	"rewards": {
 		"function": "bc_rewards:statistics/root"

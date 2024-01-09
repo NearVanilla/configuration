@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Void Frogs"},
 		"description": {"color":"dark_purple","translate":"Lower a Frog into the void using a Slow Falling potion, then kill it so it becomes one with the void"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:end/cow_jumped_over_the_moon",

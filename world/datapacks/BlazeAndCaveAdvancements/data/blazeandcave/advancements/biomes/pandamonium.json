@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Pandamonium"},
 		"description": {"color":"dark_purple","translate":"Feed cake to every type of panda"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:biomes/qinling",

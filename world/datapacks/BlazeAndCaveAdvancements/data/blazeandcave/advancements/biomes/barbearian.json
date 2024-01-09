@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Barbearian"},
 		"description": {"color":"green","translate":"It may be illegal to hunt polar bears in real life, but not in Minecraft"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/thin_ice",
 	"rewards": {

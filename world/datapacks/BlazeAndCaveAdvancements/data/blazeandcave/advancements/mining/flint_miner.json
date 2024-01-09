@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Flint Miner"},
 		"description": {"color":"#75E1FF","translate":"Mine a stack of flint"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:mining/strike_a_light",

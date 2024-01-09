@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Village Settler"},
 		"description": {"color":"green","translate":"Trade for a new bell to establish a new village"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/traveller",
 	"rewards": {

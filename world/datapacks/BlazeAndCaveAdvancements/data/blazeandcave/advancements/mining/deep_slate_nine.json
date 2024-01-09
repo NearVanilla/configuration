@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Deep Slate Nine"},
 		"description": {"color":"green","translate":"Mine deep enough that the stone darkens"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/heart_of_darkness",
 	"rewards": {

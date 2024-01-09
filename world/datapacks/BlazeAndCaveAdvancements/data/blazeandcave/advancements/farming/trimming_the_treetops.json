@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Trimming the Treetops"},
 		"description": {"color":"green","translate":"Use shears to obtain leaf blocks"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:farming/bapple",
 	"rewards": {

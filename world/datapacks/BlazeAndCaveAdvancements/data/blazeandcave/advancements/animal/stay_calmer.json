@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Stay Calmer"},
 		"description": {"color":"green","translate":"Tame a llama"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {

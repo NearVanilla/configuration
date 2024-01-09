@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Rebuilding the Oceans"},
 		"description": {"color":"#75E1FF","translate":"Trade for a coral block from the Wandering Trader"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:adventure/florist",

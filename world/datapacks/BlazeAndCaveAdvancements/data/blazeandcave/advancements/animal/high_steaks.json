@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"High Steaks"},
 		"description": {"color":"green","translate":"The steaks are high for this advancement!"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/cow_tipper",
 	"rewards": {

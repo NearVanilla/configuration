@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Start of Something"},
 		"description": {"color":"green","translate":"Craft your first ender crystal"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:end/dragon_egg",
 	"rewards": {

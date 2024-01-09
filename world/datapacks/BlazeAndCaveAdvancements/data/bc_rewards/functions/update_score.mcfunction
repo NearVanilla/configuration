@@ -1189,6 +1189,9 @@ execute as @a[advancements={minecraft:husbandry/feed_snifflet=true}] run scorebo
 execute as @a[advancements={minecraft:husbandry/plant_any_sniffer_seed=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={minecraft:adventure/read_power_of_chiseled_bookshelf=true}] run scoreboard players add @s bac_advancements 1
 
+# The singular Nullscape advancement (added by Nullscape itself, not by me)
+execute if score terralith_score bac_settings matches 1 as @a[advancements={nullscape:root=true}] run scoreboard players add @s bac_advancements 1
+
 
 # Updates team scores
 function bc_rewards:team_score

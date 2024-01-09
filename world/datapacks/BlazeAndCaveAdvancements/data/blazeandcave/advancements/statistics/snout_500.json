@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Snout 500"},
 		"description": {"color":"#75E1FF","translate":"Ride 1km on a pig"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:statistics/pig_training",

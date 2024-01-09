@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Grass Type"},
 		"description": {"color":"#75E1FF","translate":"Obtain every type of grass block in your inventory"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:building/pathways",

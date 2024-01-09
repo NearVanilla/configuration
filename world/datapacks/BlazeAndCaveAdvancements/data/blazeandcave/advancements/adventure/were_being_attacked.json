@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"We're being attacked!"},
 		"description": {"color":"green","translate":"Trigger a Pillager Raid"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/voluntary_exile",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Cargo Carrier"},
 		"description": {"color":"green","translate":"Ride a Boat with a Chest in it"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/boaty_mcboatface",
 	"rewards": {

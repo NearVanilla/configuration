@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Mighty Jungle"},
 		"description": {"color":"green","translate":"Go for a safari in the jungle"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/for_you_my_sweet",	
 	"rewards": {

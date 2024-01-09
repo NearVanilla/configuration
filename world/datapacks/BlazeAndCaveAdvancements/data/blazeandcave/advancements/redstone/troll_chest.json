@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Troll Chest"},
 		"description": {"color":"green","translate":"Trigger a trapped chest. Good for trolling your friends!"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/tripping_over",
 	"rewards": {

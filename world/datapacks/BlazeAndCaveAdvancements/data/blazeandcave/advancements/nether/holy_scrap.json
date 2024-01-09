@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Holy Scrap!"},
 		"description": {"color":"green","translate":"Smelt Ancient Debris into Netherite Scrap"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/obtain_ancient_debris",
 	"rewards": {

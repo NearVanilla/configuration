@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"I am Ravager, hear me ROAR!"},
 		"description": {"color":"green","translate":"Have a Ravager slam into your shield"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/its_so_beast_like",
 	"rewards": {

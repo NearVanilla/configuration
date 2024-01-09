@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Stealth Takedown"},
 		"description": {"color":"green","translate":"Dispatch a Creeper at melee range while you are invisible"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:potion/the_invisible_player",
 	"rewards": {

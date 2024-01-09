@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Cool Kids"},
 		"description": {"color":"green","translate":"Craft and wear a leather jacket"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/cow_tipper",
 	"rewards": {

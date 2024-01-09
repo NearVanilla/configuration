@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Uh, Houston? We have a problem"},
 		"description": {"color":"dark_purple","translate":"Fly up to a ridiculous height"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:end/sky_high",

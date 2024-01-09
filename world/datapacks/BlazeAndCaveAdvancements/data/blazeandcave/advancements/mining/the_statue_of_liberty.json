@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Statue of Liberty"},
 		"description": {"color":"#75E1FF","translate":"Obtain a fully oxidized Block of Copper"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:husbandry/wax_off",

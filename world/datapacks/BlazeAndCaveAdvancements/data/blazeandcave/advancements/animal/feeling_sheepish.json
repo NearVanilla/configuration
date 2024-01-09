@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Feeling Sheepish"},
 		"description": {"color":"green","translate":"You'll get over it"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/wooly",
 	"rewards": {

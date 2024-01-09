@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Dark Ages"},
 		"description": {"color":"green","translate":"Mine Blackstone from a Basalt Deltas biome"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/stepping_on_legos",
 	"rewards": {

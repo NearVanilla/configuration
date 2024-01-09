@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"NOT THE BEES!"},
 		"description": {"color":"green","translate":"Get stung to death by bees"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 
 	},
 	"parent": "blazeandcave:animal/hive_mind",

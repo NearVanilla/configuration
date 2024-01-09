@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"A rather pointy fence post"},
 		"description": {"color":"dark_purple","translate":"Enchant a wooden sword with Sharpness V. Not really the best weapon, but it could be a minor annoyance to someone"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:enchanting/newtons_flaming_laser_sword",

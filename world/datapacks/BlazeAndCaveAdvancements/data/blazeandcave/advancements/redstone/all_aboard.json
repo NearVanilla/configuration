@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"All Aboard!"},
 		"description": {"color":"green","translate":"Craft and board a Minecart for railway journeys"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/root",
 	"rewards": {

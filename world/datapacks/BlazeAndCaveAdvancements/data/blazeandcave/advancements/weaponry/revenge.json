@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Revenge!"},
 		"description": {"color":"green","translate":"Blow up a creeper with TNT"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:weaponry/bombs_away",
 	"rewards": {

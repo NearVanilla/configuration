@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Hot Reels!"},
 		"description": {"color":"green","translate":"Reel in a Strider using a Fishing Rod"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/what_a_fungi",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Bottom to Top"},
 		"description": {"color":"dark_purple","translate":"Place every cave block at the very top of the world"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:mining/rock_bottom",

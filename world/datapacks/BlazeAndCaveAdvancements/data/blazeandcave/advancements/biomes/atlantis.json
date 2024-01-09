@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Atlantis?"},
 		"description": {"color":"green","translate":"Explore some Underwater Ruins"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/pushed_around",
 	"rewards": {

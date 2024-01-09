@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Wooly!"},
 		"description": {"color":"green","translate":"Obtain wool from a sheep by killing it"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {

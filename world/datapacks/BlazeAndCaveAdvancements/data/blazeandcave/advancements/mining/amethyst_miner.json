@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Amethyst Miner"},
 		"description": {"color":"dark_purple","translate":"Mine a stack of Amethyst Blocks, Amethyst Clusters, and every size of Amethyst Bud"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:mining/blackout",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A Weak Brew"},
 		"description": {"color":"green","translate":"Brew up a potion of Weakness"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:potion/super_strength",
 	"rewards": {

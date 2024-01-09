@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Washing Machine"},
 		"description": {"color":"#75E1FF","translate":"Use a cauldron to clean leather armor, a banner and a shulker box"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:building/bubble_bubble_toil_and_trouble",

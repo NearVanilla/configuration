@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Ancient Restoration"},
 		"description": {"color":"#75E1FF","translate":"Rebuild and reactivate a Ruined Portal"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:nether/from_whence_it_came",

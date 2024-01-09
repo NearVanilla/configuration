@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Happy Trails!"},
 		"description": {"color":"green","translate":"Discover the Trail Ruins"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/brushed_away",
 	"rewards": {

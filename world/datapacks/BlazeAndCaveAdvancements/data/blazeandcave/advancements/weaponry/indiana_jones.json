@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Indiana Jones"},
 		"description": {"color":"green","translate":"Pull a monster using a fishing rod"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:weaponry/pig_fishing_tournament",
 	"rewards": {

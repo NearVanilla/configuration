@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Fuel Engine"},
 		"description": {"color":"green","translate":"Craft a Minecart with Furnace and use coal or charcoal to send it chugging"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/all_aboard",
 	"rewards": {

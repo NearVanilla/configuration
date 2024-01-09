@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Dragon Shield"},
 		"description": {"color":"green","translate":"Attempt to block the dragon's attacks"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:end/root",
 	"rewards": {

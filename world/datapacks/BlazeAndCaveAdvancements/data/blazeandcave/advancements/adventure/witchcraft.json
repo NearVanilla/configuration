@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Witchcraft"},
 		"description": {"color":"green","translate":"Find a witch hut in a swamp"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/tomb_raider",
 	"rewards": {

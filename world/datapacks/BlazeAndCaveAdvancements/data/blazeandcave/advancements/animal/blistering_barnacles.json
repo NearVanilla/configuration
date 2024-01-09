@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Blistering Barnacles!"},
 		"description": {"color":"green","translate":"Get spat at by a llama"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 
 	},
 	"parent": "blazeandcave:animal/so_i_got_that_going_for_me",

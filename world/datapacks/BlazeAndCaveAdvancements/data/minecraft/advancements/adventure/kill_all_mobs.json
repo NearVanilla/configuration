@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Monsters Hunted"},
 		"description": {"color":"dark_purple","translate":"Kill one of every hostile monster"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:monsters/dungeon_crawler",

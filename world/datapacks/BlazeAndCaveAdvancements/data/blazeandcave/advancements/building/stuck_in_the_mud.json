@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Stuck in the Mud"},
 		"description": {"color":"green","translate":"Use a Water Bottle on some Dirt to turn it into Mud"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/classy_glassy",
 	"rewards": {

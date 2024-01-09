@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Thick Ice!"},
 		"description": {"color":"green","translate":"Craft or mine a blue ice block from an iceberg"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/spike_ice",
 	"rewards": {

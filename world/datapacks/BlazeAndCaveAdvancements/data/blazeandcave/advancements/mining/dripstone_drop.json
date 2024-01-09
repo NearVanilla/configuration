@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Dripstone Drop"},
 		"description": {"color":"#75E1FF","translate":"Survive a fall of at least 10 blocks onto some Pointed Dripstone"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:mining/thats_the_point",

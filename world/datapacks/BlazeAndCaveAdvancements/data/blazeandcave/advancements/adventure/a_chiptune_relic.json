@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A Chiptune Relic"},
 		"description": {"color":"#75E1FF","translate":"Excavate an ancient record from within the Trail Ruins"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:adventure/raiders_of_the_lost_trim",

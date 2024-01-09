@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Grinding Nemo"},
 		"description": {"color":"#75E1FF","translate":"Skewer a tropical fish"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:animal/direct_fishing",

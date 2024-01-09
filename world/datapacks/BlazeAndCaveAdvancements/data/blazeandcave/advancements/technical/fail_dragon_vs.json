@@ -27,20 +27,13 @@
 			"conditions": {
 				"block": "minecraft:lava"
 			}
-		},
-		"enter_ladder": {
-			"trigger": "minecraft:enter_block",
-			"conditions": {
-				"tag": "minecraft:climbable"
-			}
 		}
 	},
 	"requirements": [
 		[
 			"ride",
 			"enter_water",
-			"enter_lava",
-			"enter_ladder"
+			"enter_lava"
 		]
 	]
 }

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"One-course meal"},
 		"description": {"color":"green","translate":"Use bone meal to grow a sapling into a tree"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:farming/natural_fertiliser",
 	"rewards": {

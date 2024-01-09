@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A Terrible Fortress"},
 		"description": {"color":"green","translate":"Break your way into a Nether Fortress"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/root",
 	"rewards": {

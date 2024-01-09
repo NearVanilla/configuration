@@ -5,9 +5,9 @@
 		},
 		"title": {"translate":"Stacked Smither"},
 		"description": {"color":"light_purple","translate":"Obtain a stack of every Smithing Template"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge",
-		"hidden": "true"
+		"hidden": true
 	},
 	"parent": "minecraft:adventure/trim_with_all_exclusive_armor_patterns",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"All chained up"},
 		"description": {"color":"green","translate":"Trade for a piece of chain armor from an armorer villager"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/knowledge_is_power",
 	"rewards": {

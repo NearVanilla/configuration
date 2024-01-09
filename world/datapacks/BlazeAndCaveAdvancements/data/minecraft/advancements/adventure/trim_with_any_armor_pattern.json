@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Crafting a New Look"},
 		"description": {"color":"green","translate":"Use a Smithing Template to apply a trim to a piece of armor"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/good_lookin_treasure",
 	"rewards": {

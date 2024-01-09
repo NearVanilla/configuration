@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Rainbow Sand"},
 		"description": {"color":"green","translate":"Craft concrete powder using sand, gravel and dye"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/i_dont_like_sand",
 	"rewards": {

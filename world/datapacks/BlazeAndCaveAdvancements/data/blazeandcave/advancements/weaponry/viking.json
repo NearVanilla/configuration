@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Viking"},
 		"description": {"color":"green","translate":"Attack a mob using an axe"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:weaponry/root",
 	"rewards": {

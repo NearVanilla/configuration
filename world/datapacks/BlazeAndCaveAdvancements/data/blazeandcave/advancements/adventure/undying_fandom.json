@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Undying Fandom"},
 		"description": {"color":"dark_purple","translate":"Receive every type of gift from Villagers as a Hero of the Village"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:adventure/buy_low_sell_high",

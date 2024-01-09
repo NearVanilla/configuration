@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A Gluttonous Diet"},
 		"description": {"color":"dark_purple","translate":"Obtain a full stack of all the foods"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:husbandry/balanced_diet",
@@ -97,7 +97,8 @@
 					{
 						"items": [
 							"minecraft:enchanted_golden_apple"
-						]
+						],
+						"count": 64
 					}
 				]
 			}

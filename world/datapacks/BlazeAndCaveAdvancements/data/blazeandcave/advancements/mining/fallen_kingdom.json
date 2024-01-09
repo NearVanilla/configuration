@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Fallen Kingdom"},
 		"description": {"color":"green","translate":"Find and enter an Ancient City deep underground"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/shriek_forever_after",
 	"rewards": {

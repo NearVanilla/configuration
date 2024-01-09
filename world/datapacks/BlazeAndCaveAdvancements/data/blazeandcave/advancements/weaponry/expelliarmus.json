@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Expelliarmus!"},
 		"description": {"color":"green","translate":"Hit a mob with a stick"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:weaponry/root",
 	"rewards": {

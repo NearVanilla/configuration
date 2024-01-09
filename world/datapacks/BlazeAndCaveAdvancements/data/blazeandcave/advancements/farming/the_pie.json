@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Pie"},
 		"description": {"color":"green","translate":"Bake a pumpkin pie"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:farming/naturally_carved",
 	"rewards": {

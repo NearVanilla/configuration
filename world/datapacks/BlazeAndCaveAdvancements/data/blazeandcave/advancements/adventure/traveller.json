@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Traveller"},
 		"description": {"color":"#75E1FF","translate":"Travel to every type of village and trade with a villager in each"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:adventure/trade",

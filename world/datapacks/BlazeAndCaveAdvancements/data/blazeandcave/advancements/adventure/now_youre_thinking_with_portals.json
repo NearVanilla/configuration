@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Now You’re Thinking With Portals"},
 		"description": {"color":"green","translate":"Find a broken Nether Portal in the Overworld"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {

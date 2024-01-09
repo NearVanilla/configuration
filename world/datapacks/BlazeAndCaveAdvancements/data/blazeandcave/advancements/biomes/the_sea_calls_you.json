@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The sea calls you..."},
 		"description": {"color":"green","translate":"Find an ocean"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/just_keep_swimming",	
 	"rewards": {

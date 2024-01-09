@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"For Mother, Clarence"},
 		"description": {"color":"green","translate":"Kill a shulker"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:end/find_end_city",
 	"rewards": {

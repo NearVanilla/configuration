@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"En Garde"},
 		"description": {"color":"green","translate":"Erect some fencing"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/your_door_was_locked",
 	"rewards": {

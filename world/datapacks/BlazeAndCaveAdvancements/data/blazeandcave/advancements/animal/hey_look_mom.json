@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Hey, look, Mom!"},
 		"description": {"color":"green","translate":"Use sea grass to make a turtle lay some eggs"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/poacher",
 	"rewards": {

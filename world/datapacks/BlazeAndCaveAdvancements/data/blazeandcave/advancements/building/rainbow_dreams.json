@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Rainbow Dreams"},
 		"description": {"color":"#75E1FF","translate":"Craft every color of bed"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:building/change_of_sheets",

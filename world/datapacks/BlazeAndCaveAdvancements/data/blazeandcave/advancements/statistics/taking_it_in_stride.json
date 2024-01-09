@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Taking It In Stride"},
 		"description": {"color":"green","translate":"Ride 100m on a Strider"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "task"
 	},
 	"parent": "blazeandcave:statistics/root",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Chicken Cooper"},
 		"description": {"color":"#75E1FF","translate":"Collect a stack of raw chicken and feathers"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:animal/feeding_the_chickens",

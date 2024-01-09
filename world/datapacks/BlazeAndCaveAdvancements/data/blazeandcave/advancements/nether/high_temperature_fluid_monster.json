@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"High Temperature Fluid Monster"},
 		"description": {"color":"green","translate":"Kill a magma cube"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/the_tribal_snouts",
 	"rewards": {

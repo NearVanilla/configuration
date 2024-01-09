@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Bone-to-party"},
 		"description": {"color":"dark_purple","translate":"Reunite all skeleton variants and their three-headed overlord in one place"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:monsters/melting",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Pork Chop"},
 		"description": {"color":"green","translate":"You know kung fu, how about pork chop?"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/bacon",
 	"rewards": {

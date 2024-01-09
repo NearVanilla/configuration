@@ -1,5 +1,5 @@
 tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
-tellraw @s {"color":"gray","bold":"false","text":" ","extra":[{"color":"gray","bold":"false","translate":"Advancement Completion Message Settings"}]}
+tellraw @s {"color":"gray","bold":false,"text":" ","extra":[{"color":"gray","bold":false,"translate":"Advancement Completion Message Settings"}]}
 
 tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
 

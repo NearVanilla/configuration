@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Rare Candy Shop"},
 		"description": {"color":"green","translate":"Trade for a Bottle o’ Enchanting from a Cleric"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/knowledge_is_power",
 	"rewards": {

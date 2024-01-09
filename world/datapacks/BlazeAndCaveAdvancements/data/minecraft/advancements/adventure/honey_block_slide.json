@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Sticky Situation"},
 		"description": {"color":"green","translate":"Jump into a honey block to slide down it"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/winnie_the_pooh",
 	"rewards": {

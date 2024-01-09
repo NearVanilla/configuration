@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Novice Enchanter"},
 		"description": {"color":"green","translate":"Enchant 10 items"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:technical/you_are_a_big_cheater",
 	"rewards": {

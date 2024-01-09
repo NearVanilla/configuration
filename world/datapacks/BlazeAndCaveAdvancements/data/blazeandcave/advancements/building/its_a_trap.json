@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"It's a Trap!"},
 		"description": {"color":"green","translate":"Craft and place down a trapdoor"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/ladder_climbers_inc",
 	"rewards": {

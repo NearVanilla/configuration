@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"XP Grinder"},
 		"description": {"color":"dark_purple","translate":"Reach 300 experience levels"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:statistics/overlevelling",

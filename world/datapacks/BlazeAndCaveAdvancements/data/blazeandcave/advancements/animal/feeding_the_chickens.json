@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Feeding the §mDucks§r Chickens"},
 		"description": {"color":"green","translate":"Breed chickens by feeding them seeds"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/which_came_first",
 	"rewards": {

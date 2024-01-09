@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"For you, my sweet"},
 		"description": {"color":"green","translate":"Pick a flower for someone special"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/root",
 	"rewards": {

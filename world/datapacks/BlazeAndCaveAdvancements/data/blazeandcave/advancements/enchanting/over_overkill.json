@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Over-Overkill"},
 		"description": {"color":"dark_purple","translate":"Deal sixteen hearts of damage in a single melee blow"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:enchanting/overkill",

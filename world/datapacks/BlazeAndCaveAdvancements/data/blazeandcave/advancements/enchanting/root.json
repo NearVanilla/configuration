@@ -7,7 +7,7 @@
 		"description": {"color":"#CCCCCC","translate":"Enchant items to give them magical abilities"},
 		"background": "minecraft:textures/block/obsidian.png",
 		"show_toast": false,
-		"announce_to_chat": "false"
+		"announce_to_chat": false
 	},
 	"rewards": {
 		"function": "bc_rewards:enchanting/root"

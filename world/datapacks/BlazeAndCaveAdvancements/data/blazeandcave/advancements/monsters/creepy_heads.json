@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Creepy Heads"},
 		"description": {"color":"dark_purple","translate":"Blow up a creeper with a charged creeper to get a creeper head"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:monsters/creeper_killer",

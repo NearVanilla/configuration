@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Potion Master"},
 		"description": {"color":"#FF2A2A","translate":"Kill every mob in the game with splash potions"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:challenges/endergeddon",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Wax On"},
 		"description": {"color":"green","translate":"Use Honeycombs to wax a Copper Block, preventing it from oxidising"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/dont_come_a_copper",
 	"rewards": {

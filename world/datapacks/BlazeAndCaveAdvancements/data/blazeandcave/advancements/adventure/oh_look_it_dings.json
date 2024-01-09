@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Oh, look, it dings!"},
 		"description": {"color":"green","translate":"Ring a bell in a village"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/do_you_want_to_trade",
 	"rewards": {
@@ -66,6 +66,18 @@
 										"condition": "minecraft:location_check",
 										"predicate": {
 											"structure": "minecraft:village_taiga"
+										}
+									},
+									{
+										"condition": "minecraft:location_check",
+										"predicate": {
+											"structure": "terralith:fortified_village"
+										}
+									},
+									{
+										"condition": "minecraft:location_check",
+										"predicate": {
+											"structure": "terralith:fortified_desert_village"
 										}
 									}
 								]

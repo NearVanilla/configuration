@@ -4,8 +4,8 @@
 			"item": "minecraft:dead_horn_coral_fan"
 		},
 		"title": {"translate":"Goat Simulator"},
-		"description": {"color":"green","translate":"Get killed by a Goat that rammed into you.","extra":[{"text":" "},{"italic":"true","translate":"You have Goat to be kidding me!"}]},
-		"announce_to_chat": "true"
+		"description": {"color":"green","translate":"Get killed by a Goat that rammed into you.","extra":[{"text":" "},{"italic":true,"translate":"You have Goat to be kidding me!"}]},
+		"announce_to_chat": true
 
 	},
 	"parent": "blazeandcave:animal/billy_the_kid",

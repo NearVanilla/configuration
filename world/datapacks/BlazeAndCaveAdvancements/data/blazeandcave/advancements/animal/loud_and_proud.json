@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Loud and Proud"},
 		"description": {"color":"#75E1FF","translate":"Play a Goat Horn in the Deep Dark"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:animal/ram",

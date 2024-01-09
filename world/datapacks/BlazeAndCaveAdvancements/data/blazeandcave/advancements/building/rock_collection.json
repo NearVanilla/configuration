@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Rock Collection"},
 		"description": {"color":"green","translate":"Collect all the types of rocks"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/root",
 	"rewards": {

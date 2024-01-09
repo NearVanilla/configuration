@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Astrobrute"},
 		"description": {"color":"dark_purple","translate":"Send a Piglin Brute to the End and kill it there before it zombifies"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:nether/et_tu_brute",

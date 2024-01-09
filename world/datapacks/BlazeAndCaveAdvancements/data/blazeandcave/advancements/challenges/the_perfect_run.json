@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"The Perfect Run"},
 		"description": {"color":"#FF2A2A","translate":"Summon the Ender Dragon, the Wither, and a Raid within thirty seconds of each other, then defeat all of them without taking damage"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:challenges/dragon_vs_wither_the_pre_sequel",

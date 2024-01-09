@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The End?"},
 		"description": {"color":"#75E1FF","translate":"Enter the End Portal"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:story/follow_ender_eye",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Purpurfect!"},
 		"description": {"color":"green","translate":"Craft or collect purpur blocks, slabs, pillars and stairs"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:end/extrabiologist",
 	"rewards": {

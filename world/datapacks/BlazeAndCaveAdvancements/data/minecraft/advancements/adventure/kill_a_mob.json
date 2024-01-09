@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Monster Hunter"},
 		"description": {"color":"green","translate":"Kill any hostile monster"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:monsters/root",
 	"rewards": {

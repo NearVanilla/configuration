@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Getting Into a Stew"},
 		"description": {"color":"green","translate":"Make and eat some rabbit stew"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/lucky_charm",
 	"rewards": {

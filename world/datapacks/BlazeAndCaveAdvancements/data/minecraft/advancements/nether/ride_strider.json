@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"This Boat Has Legs"},
 		"description": {"color":"green","translate":"Ride a Strider with a Warped Fungus on a Stick"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/hot_reels",
 	"rewards": {

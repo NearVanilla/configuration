@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Iskallium Collector"},
 		"description": {"color":"dark_purple","translate":"Collect enough slimeballs to craft a stack of slime blocks"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:monsters/slime_squisher",

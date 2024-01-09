@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Retro Future Knight"},
 		"description": {"color":"#75E1FF","translate":"Trade for full suit of chain armor from an armorer villager"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:adventure/all_chained_up",

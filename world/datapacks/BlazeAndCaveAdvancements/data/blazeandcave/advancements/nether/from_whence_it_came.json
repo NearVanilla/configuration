@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"From Whence It Came!"},
 		"description": {"color":"green","translate":"Find a broken Nether Portal in the Nether"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/root",
 	"rewards": {

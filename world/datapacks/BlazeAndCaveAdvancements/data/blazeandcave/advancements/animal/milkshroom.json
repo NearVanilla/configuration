@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Milkshroom"},
 		"description": {"color":"green","translate":"Milk a mooshroom with a bowl to get mushroom stew"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/super_mooshroom",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Overgrown!"},
 		"description": {"color":"#75E1FF","translate":"Discover every overgrown biome"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:biomes/cold_feet",	

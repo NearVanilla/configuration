@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Battle of the Bands"},
 		"description": {"color":"#75E1FF","translate":"Blow into a Goat Horn during a raid"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:animal/ram",

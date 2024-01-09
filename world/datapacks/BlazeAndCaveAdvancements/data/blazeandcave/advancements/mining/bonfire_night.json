@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Bonfire Night"},
 		"description": {"color":"dark_purple","translate":"Light every flammable block on fire"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:mining/flint_miner",
@@ -3246,7 +3246,7 @@
 						"predicate": {
 							"block": {
 								"blocks": [
-									"minecraft:grass"
+									"minecraft:short_grass"
 								]
 							}
 						}

@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Riot Shield"},
 		"description": {"color":"green","translate":"Deflect a Pillager's crossbow bolt"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/out_of_posts",
 	"rewards": {

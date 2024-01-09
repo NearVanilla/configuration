@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Giddy Up!"},
 		"description": {"color":"#75E1FF","translate":"Punch a baby Hoglin that is being ridden by a baby Piglin"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:nether/whole_hog",

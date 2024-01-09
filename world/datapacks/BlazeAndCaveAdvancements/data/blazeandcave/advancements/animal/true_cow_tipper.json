@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"True Cow Tipper"},
 		"description": {"color":"#75E1FF","translate":"Collect a stack of raw beef and leather"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:animal/milk_does_your_body_good",

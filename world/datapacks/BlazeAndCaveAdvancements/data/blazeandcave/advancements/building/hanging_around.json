@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Hanging Around"},
 		"description": {"color":"green","translate":"Put up a Hanging Sign"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/its_a_sign",
 	"rewards": {

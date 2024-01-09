@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Do A Barrel Roll!"},
 		"description": {"color":"#75E1FF","translate":"Use Riptide to give yourself a boost"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:enchanting/boomerang",

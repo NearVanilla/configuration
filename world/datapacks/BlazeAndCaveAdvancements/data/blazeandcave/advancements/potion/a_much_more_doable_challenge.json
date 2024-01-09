@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A Much More Doable Challenge"},
 		"description": {"color":"dark_purple","translate":"Get all the effects possible during your life (not all at the same time)"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:nether/all_potions",

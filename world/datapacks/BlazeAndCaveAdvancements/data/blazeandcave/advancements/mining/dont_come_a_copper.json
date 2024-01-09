@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Don’t Come a Copper!"},
 		"description": {"color":"green","translate":"Craft some Cut Copper"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/youll_never_take_me_alive_copper",
 	"rewards": {

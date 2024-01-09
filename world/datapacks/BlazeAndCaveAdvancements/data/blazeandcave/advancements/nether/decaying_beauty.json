@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Decaying Beauty"},
 		"description": {"color":"green","translate":"Pick up some Wither Roses from the damage the Wither wrought on your world"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/summon_wither",
 	"rewards": {

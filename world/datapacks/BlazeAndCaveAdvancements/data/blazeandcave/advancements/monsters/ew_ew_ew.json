@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Ew Ew Ew!"},
 		"description": {"color":"green","translate":"Kill a spider"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/kill_a_mob",
 	"rewards": {

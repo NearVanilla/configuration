@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"I don't like sand"},
 		"description": {"color":"green","translate":"It's coarse, and rough, and irritating, and it gets everywhere"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/root",
 	"rewards": {

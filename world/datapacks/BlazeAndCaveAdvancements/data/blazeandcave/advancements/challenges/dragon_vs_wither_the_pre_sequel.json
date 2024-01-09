@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Dragon vs Wither: Pre-Sequel"},
 		"description": {"color":"#FF2A2A","translate":"Defeat the Wither while wearing a Dragon head... without touching the ground"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:challenges/dragon_vs_dragon_ii_electric_boogaloo",

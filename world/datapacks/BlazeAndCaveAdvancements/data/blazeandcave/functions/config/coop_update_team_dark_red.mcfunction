@@ -1298,3 +1298,5 @@ execute if score blazeandcave:adventure/a_chiptune_relic bac_obtained_dark_red m
 execute if score minecraft:husbandry/feed_snifflet bac_obtained_dark_red matches 1.. run advancement grant @a[team=bac_team_dark_red] only minecraft:husbandry/feed_snifflet
 execute if score minecraft:husbandry/plant_any_sniffer_seed bac_obtained_dark_red matches 1.. run advancement grant @a[team=bac_team_dark_red] only minecraft:husbandry/plant_any_sniffer_seed
 execute if score minecraft:adventure/read_power_of_chiseled_bookshelf bac_obtained_dark_red matches 1.. run advancement grant @a[team=bac_team_dark_red] only minecraft:adventure/read_power_of_chiseled_bookshelf
+
+execute if score nullscape:root bac_obtained_dark_red matches 1.. run advancement grant @a[team=bac_team_dark_red] only nullscape:root

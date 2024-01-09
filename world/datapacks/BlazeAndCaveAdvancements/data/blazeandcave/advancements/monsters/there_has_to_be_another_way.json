@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"There has to be another way..."},
 		"description": {"color":"green","translate":"Kill a zombie villager"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:monsters/dead_dont_die",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Good For Your Bones"},
 		"description": {"color":"green","translate":"Mine some Calcite encasing an Amethyst Geode"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/gi_geode",
 	"rewards": {

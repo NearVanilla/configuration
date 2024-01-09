@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Genesis of the End"},
 		"description": {"color":"#75E1FF","translate":"Find the Eye Smithing Template in a Stronghold"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:adventure/good_lookin_treasure",

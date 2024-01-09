@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"It's So Beast-Like!"},
 		"description": {"color":"#75E1FF","translate":"Slay a Ravager in a raid"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:adventure/sound_the_alarm",

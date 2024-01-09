@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Feels Like Home"},
 		"description": {"color":"#75E1FF","translate":"Take a Strider for a loooong ride on a lava lake in the Overworld"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:nether/ride_strider",

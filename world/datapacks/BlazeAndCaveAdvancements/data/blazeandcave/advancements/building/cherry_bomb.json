@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Cherry Bomb"},
 		"description": {"color":"#75E1FF","translate":"Craft every item made out of cherry wood"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:building/professor_dark_oak",

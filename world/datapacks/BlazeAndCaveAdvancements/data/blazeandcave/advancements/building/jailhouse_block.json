@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Jailhouse Block"},
 		"description": {"color":"green","translate":"Craft or find iron bars"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/fake_stronghold",
 	"rewards": {

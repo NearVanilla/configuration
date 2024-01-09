@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Rock Bottom"},
 		"description": {"color":"#75E1FF","translate":"Dig down to the bottom of the world"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:mining/tuff_stuff",

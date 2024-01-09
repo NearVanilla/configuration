@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Target Acquired"},
 		"description": {"color":"green","translate":"Put up a Target for archery practise"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/dispense_with_this",
 	"rewards": {

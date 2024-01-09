@@ -7,7 +7,7 @@
 		"description": {"color":"#CCCCCC","translate":"Good luck completing... any of these ;)"},
 		"background": "minecraft:textures/block/bedrock.png",
 		"show_toast": false,
-		"announce_to_chat": "false",
+		"announce_to_chat": false,
 		"frame": "challenge"
 	},
 	"rewards": {

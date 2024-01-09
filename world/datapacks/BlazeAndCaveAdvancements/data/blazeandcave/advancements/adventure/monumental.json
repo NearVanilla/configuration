@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Monumental"},
 		"description": {"color":"green","translate":"Find an Ocean Monument"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/treasure_map",
 	"rewards": {

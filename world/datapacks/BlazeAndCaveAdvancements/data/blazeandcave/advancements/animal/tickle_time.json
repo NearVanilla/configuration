@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Tickle Time!"},
 		"description": {"color":"green","translate":"Pluck some feathers from a chicken"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {

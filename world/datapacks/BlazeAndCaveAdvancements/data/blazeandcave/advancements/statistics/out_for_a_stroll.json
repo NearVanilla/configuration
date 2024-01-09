@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Out for a stroll"},
 		"description": {"color":"green","translate":"Walk 10km"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:statistics/root",
 	"rewards": {

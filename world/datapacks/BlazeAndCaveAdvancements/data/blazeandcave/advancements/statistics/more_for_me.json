@@ -5,8 +5,8 @@
 			"nbt": "{Potion:\"minecraft:healing\"}"
 		},
 		"title": {"translate":"More For Me"},
-		"description": {"color":"#75E1FF","translate":"Open 100 loot chests","extra":[{"text":"\n\n"},{"italic":"true","color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_statistics"}]},
-		"announce_to_chat": "true",
+		"description": {"color":"#75E1FF","translate":"Open 100 loot chests","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_statistics"}]},
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:statistics/loot_em",

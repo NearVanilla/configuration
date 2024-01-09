@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Desert Nomad"},
 		"description": {"color":"green","translate":"Kill a husk"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:monsters/iron_belly",
 	"rewards": {

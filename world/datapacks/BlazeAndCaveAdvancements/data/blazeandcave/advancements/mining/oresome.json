@@ -4,8 +4,8 @@
 			"item": "minecraft:deepslate_redstone_ore"
 		},
 		"title": {"translate":"Oresome!"},
-		"description": {"color":"dark_purple","translate":"Mine a stack of every ore block","extra":[{"text":"\n\n"},{"italic":"true","color":"dark_gray","translate":"The following are not required:"},{"color":"gray","text":"\n"},{"color":"gray","translate":"block.minecraft.deepslate_emerald_ore"}]},
-		"announce_to_chat": "true",
+		"description": {"color":"dark_purple","translate":"Mine a stack of every ore block","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"The following are not required:"},{"color":"gray","text":"\n"},{"color":"gray","translate":"block.minecraft.deepslate_emerald_ore"}]},
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:mining/emerald_miner",

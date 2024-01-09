@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"We Got a Live One!"},
 		"description": {"color":"#75E1FF","translate":"Bring a Piglin into the Overworld then spare it from an eternity of zombification"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:nether/cultural_misunderstandings",

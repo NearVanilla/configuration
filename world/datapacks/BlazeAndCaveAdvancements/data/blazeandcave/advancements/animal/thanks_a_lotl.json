@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Thanks a lotl"},
 		"description": {"color":"#75E1FF","translate":"Team up with an Axolotl in an Ocean Monument to help clear the curse of the Elders"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:husbandry/kill_axolotl_target",

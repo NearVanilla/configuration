@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Axolotl of them"},
 		"description": {"color":"dark_purple","translate":"Catch all variants of Axolotls inside a Bucket"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:animal/axolittle",

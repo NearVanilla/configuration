@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Big Spender"},
 		"description": {"color":"#75E1FF","translate":"Trade with villagers 500 times"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:statistics/the_haggler",

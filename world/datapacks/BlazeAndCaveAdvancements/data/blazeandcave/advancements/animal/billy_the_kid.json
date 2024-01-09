@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Billy the Kid"},
 		"description": {"color":"green","translate":"Breed two Goats together using Wheat"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/goat_out_of_here",
 	"rewards": {

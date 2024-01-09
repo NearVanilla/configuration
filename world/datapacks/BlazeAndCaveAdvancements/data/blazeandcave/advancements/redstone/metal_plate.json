@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Metal Plate"},
 		"description": {"color":"green","translate":"Dinner time!"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/pressure_detector",
 	"rewards": {

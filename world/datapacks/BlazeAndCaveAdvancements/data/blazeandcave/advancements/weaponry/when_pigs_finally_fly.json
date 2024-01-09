@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"When Pigs Finally Fly"},
 		"description": {"color":"dark_purple","translate":"Pull a pig from 25 blocks below you and watch it go"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:weaponry/indiana_jones",

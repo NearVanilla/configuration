@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Take Notes"},
 		"description": {"color":"green","translate":"Tune a Note Block through every possible note"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/mozart",
 	"rewards": {

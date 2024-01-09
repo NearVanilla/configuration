@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Time to Mine!"},
 		"description": {"color":"green","translate":"Use planks and sticks to make a pickaxe"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:story/root",
 	"rewards": {

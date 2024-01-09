@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Zeus"},
 		"description": {"color":"#75E1FF","translate":"Obtain Channeling on a trident"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:enchanting/do_a_barrel_roll",

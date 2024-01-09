@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Die, Potato!"},
 		"description": {"color":"green","translate":"Squash and eat a potato"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/plant_seed",
 	"rewards": {

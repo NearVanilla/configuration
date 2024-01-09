@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"What's Up, Doc?"},
 		"description": {"color":"green","translate":"Turn a mob upside-down"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/i_just_want_to_make_toast",
 	"rewards": {
@@ -20,11 +20,33 @@
 					"items": [
 						"minecraft:name_tag"
 					],
-					"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Dinnerbone\\\"}\"}}"
+					"nbt": "{display:{Name:\'\"Dinnerbone\"\'}}"
 				}
 			}
 		},
 		"name_tag_grumm": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:name_tag"
+					],
+					"nbt": "{display:{Name:\'\"Grumm\"\'}}"
+				}
+			}
+		},
+		"name_tag_dinnerbone_old": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:name_tag"
+					],
+					"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Dinnerbone\\\"}\"}}"
+				}
+			}
+		},
+		"name_tag_grumm_old": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
@@ -39,7 +61,9 @@
 	"requirements": [
 		[
 			"name_tag",
-			"name_tag_grumm"
+			"name_tag_grumm",
+			"name_tag_dinnerbone_old",
+			"name_tag_grumm_old"
 		]
 	]
 }

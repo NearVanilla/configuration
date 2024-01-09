@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Classic Pocket Edition Block"},
 		"description": {"color":"green","translate":"Craft a stonecutter using stone and an iron ingot"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/sharpening_station",
 	"rewards": {

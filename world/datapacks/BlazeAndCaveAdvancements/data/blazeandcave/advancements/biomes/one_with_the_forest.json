@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"One with the forest"},
 		"description": {"color":"#75E1FF","translate":"Discover every forest biome"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:biomes/kilometre_walk",	

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Sound of Silence"},
 		"description": {"color":"#75E1FF","translate":"Find the Silence Smithing Template in an Ancient City"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:adventure/vexingly_hard_to_find",

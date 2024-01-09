@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Railwayman"},
 		"description": {"color":"#75E1FF","translate":"Craft a stack of all the different types of rails"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:redstone/electric_rails",

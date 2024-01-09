@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Soul Runnings!"},
 		"description": {"color":"#75E1FF","translate":"Step on Soul Sand with Netherite Boots enchanted with Soul Speed III"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:nether/netherite_armor",

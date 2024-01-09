@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"So I got that going for me"},
 		"description": {"color":"green","translate":"Breed two llamas with hay"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/stay_calmer",
 	"rewards": {

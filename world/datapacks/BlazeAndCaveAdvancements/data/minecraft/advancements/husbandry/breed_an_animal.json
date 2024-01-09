@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Repopulation"},
 		"description": {"color":"green","translate":"Breed two cows with wheat"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/high_steaks",
 	"rewards": {

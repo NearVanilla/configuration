@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Animal Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Animal tab"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:bacap/farming_milestone",

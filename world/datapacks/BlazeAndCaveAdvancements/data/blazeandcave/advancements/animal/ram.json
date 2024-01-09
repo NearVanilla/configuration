@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Ram"},
 		"description": {"color":"green","translate":"Obtain a Goat’s Horn by having one ram into a block"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/goat_simulator",
 	"rewards": {

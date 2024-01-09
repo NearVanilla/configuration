@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Blaze Extinguisher"},
 		"description": {"color":"#75E1FF","translate":"Collect a stack of blaze rods"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:nether/the_nethers_shield",

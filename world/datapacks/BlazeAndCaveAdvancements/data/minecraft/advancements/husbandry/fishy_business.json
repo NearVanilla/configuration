@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Fishy Business"},
 		"description": {"color":"green","translate":"Catch a fish"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {

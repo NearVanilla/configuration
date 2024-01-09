@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Beacon Overlord"},
 		"description": {"color":"dark_purple","translate":"Acquire every beacon-induced effect at once"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:nether/create_full_beacon",

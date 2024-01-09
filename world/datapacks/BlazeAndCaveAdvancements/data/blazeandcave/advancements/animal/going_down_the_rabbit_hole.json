@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Going Down the Rabbit Hole"},
 		"description": {"color":"#75E1FF","translate":"Bring a rabbit to the bottom of the world, then kill it"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:animal/getting_into_a_stew",

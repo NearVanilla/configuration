@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Sticky Parts"},
 		"description": {"color":"green","translate":"Craft a sticky piston so you can pull things"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/moving_parts",
 	"rewards": {

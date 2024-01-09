@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Hive Mind"},
 		"description": {"color":"green","translate":"Craft a bee hive using planks and honeycombs then place it"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/safely_harvest_honey",
 	"rewards": {

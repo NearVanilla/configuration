@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Aaaaaand... OPEN!"},
 		"description": {"color":"green","translate":"Craft and place an iron door"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/its_a_trap",
 	"rewards": {

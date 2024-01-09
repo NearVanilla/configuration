@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Plane Walker"},
 		"description": {"color":"#75E1FF","translate":"Kill endermen in all three dimensions"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:monsters/enderman_destroyer",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Bling Plate"},
 		"description": {"color":"green","translate":"Dine in style! (No, not really)"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/metal_plate",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"We’re Going on a Bear Hunt"},
 		"description": {"color":"green","translate":"Get hunted by a Polar Bear"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 
 	},
 	"parent": "blazeandcave:biomes/barbearian",

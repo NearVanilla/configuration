@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"I'm not lost anymore!"},
 		"description": {"color":"green","translate":"Right-click a banner with a map"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/mapmakers_table",
 	"rewards": {

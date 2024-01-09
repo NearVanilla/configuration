@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Star Trader"},
 		"description": {"color":"#75E1FF","translate":"Trade with a villager at the build height limit"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:adventure/lilypad_hatter",

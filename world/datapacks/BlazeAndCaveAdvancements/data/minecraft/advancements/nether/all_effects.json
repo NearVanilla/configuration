@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"How Did We Get Here?"},
 		"description": {"color":"#FF2A2A","translate":"Have every effect applied at the same time"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge",
 		"hidden": false
 	},

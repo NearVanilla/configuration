@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Delicious Fish"},
 		"description": {"color":"green","translate":"Cook and eat a fish!"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/fishy_business",
 	"rewards": {

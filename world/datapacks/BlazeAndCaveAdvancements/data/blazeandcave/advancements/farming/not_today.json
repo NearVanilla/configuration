@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Not Today!"},
 		"description": {"color":"green","translate":"Eat a poisonous potato"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:farming/die_potato",
 	"rewards": {

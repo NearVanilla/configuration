@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Global Railway Network"},
 		"description": {"color":"dark_purple","translate":"Ride 50km in a minecart"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:statistics/i_like_trains",

@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Fire Blast Shield"},
 		"description": {"color":"green","translate":"Block the explosion of a ghast's fireball"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/giant_floating_jellyfish",
 	"rewards": {

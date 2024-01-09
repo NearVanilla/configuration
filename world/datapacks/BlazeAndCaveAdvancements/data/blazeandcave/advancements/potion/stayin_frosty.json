@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Stayin' Frosty"},
 		"description": {"color":"green","translate":"Swim in lava while having the Fire Resistance effect"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:potion/root",
 	"rewards": {

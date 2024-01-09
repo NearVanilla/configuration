@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Ancient Kung Fu Master"},
 		"description": {"color":"dark_purple","translate":"Sneak 10km"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:statistics/black_belt_ninja",

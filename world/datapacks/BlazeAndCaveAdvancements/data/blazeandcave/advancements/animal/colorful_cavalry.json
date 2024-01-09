@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Colorful Cavalry"},
 		"description": {"color":"#75E1FF","translate":"Dye 16 sets of leather horse armor each with one of the individual colors"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:animal/a_horse_in_shining_armor",

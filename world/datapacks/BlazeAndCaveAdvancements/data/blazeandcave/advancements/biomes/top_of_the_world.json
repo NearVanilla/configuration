@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Top of the World"},
 		"description": {"color":"#75E1FF","translate":"Place scaffolding to the world limit"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:biomes/construction_worker",

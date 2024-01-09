@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"This is Mine Now!"},
 		"description": {"color":"green","translate":"Find an abandoned mineshaft that was not dug out by you"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/dungeons_and_spawners",
 	"rewards": {

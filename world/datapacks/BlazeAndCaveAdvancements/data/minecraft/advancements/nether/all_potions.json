@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A Furious Cocktail"},
 		"description": {"color":"dark_purple","translate":"Have every potion effect applied at the same time"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:potion/hopping_mad",

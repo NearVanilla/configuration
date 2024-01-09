@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Blackout"},
 		"description": {"color":"green","translate":"Craft Tinted Glass using Glass and Amethyst Shards and use it to block out light"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/galileo_figaro",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Snowball Fight"},
 		"description": {"color":"green","translate":"The spirit of Christmas... quickly drowned out by a battle"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:weaponry/root",
 	"rewards": {

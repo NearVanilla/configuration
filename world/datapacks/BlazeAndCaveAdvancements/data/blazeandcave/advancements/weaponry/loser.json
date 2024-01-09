@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Loser!"},
 		"description": {"color":"green","translate":"Die twice within ten seconds"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 
 	},
 	"parent": "blazeandcave:weaponry/its_time_consuming",

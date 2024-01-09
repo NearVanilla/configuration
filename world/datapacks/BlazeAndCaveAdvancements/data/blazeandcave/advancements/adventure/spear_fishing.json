@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Spear Fishing"},
 		"description": {"color":"green","translate":"Kill a Guardian with arrows"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/laser_sharks",
 	"rewards": {

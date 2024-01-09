@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Tridented Shield"},
 		"description": {"color":"green","translate":"Block a trident thrown by a Drowned"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:monsters/a_watery_grave",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Just a sample"},
 		"description": {"color":"green","translate":"Collect some coral from a coral reef"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/in_a_pickle",
 	"rewards": {

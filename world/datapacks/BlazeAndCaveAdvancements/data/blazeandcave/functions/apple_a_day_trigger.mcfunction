@@ -7,8 +7,8 @@ execute if score @s bac_apple_days matches 0.. run tellraw @s {"translate":"You 
 
 execute if score @s bac_apple_eaten matches 1.. run tellraw @s {"color":"green","translate":"You have eaten an apple today."}
 execute unless score @s bac_apple_eaten matches 1.. run tellraw @s {"color":"red","translate":"You have not eaten an apple today."}
-tellraw @s {"color":"gray","italic":"true","text":""}
-tellraw @s {"color":"gray","italic":"true","translate":"If you have just slept, and it says you have eaten an apple when you actually haven't yet, try running this trigger again in 10 seconds."}
+tellraw @s {"color":"gray","italic":true,"text":""}
+tellraw @s {"color":"gray","italic":true,"translate":"If you have just slept, and it says you have eaten an apple when you actually haven't yet, try running this trigger again in 10 seconds."}
 
 tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
 

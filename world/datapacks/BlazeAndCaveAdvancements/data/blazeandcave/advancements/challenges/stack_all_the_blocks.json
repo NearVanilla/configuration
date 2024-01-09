@@ -4,8 +4,8 @@
 			"item": "minecraft:prismarine_bricks"
 		},
 		"title": {"translate":"Stack All the Blocks!"},
-		"description": {"color":"#FF2A2A","translate":"Obtain a stack of all the blocks!","extra":[{"text":"\n\n"},{"italic":"true","color":"dark_gray","translate":"The following are not required:"},{"color":"gray","text":"\n"},{"color":"gray","translate":"block.minecraft.dragon_egg"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.netherite_block"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.deepslate_emerald_ore"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.tall_grass"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.large_fern"}]},
-		"announce_to_chat": "true",
+		"description": {"color":"#FF2A2A","translate":"Obtain a stack of all the blocks!","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"The following are not required:"},{"color":"gray","text":"\n"},{"color":"gray","translate":"block.minecraft.dragon_egg"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.netherite_block"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.deepslate_emerald_ore"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.tall_grass"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.large_fern"}]},
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:challenges/all_the_items",
@@ -2753,7 +2753,7 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:grass"
+							"minecraft:short_grass"
 						],
 						"count": 64
 					}
@@ -10399,7 +10399,8 @@
 					{
 						"items": [
 							"minecraft:decorated_pot"
-						]
+						],
+						"count": 64
 					}
 				]
 			}

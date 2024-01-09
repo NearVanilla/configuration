@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Horse Armorer"},
 		"description": {"color":"green","translate":"Make horse armor out of dead horses (No, joking, any leather will do)"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/foal_play",
 	"rewards": {

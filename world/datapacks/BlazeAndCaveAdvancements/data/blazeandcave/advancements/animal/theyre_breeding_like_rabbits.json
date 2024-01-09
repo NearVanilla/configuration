@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"They're breeding like rabbits!"},
 		"description": {"color":"green","translate":"Breed two bunnies together"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/rabbit_season",
 	"rewards": {

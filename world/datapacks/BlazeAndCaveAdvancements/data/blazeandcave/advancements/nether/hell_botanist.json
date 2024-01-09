@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Hell Botanist"},
 		"description": {"color":"#75E1FF","translate":"Gather a stack of every Nether plant"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:nether/explore_nether",

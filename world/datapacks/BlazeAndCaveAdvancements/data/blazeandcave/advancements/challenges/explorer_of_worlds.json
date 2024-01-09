@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Explorer of Worlds"},
 		"description": {"color":"#FF2A2A","translate":"Discover every biome in every dimension"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:challenges/im_in_space",	

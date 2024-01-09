@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Get a Lode Of This!"},
 		"description": {"color":"green","translate":"Craft a Lodestone using Chiseled Stone Bricks and a Netherite Ingot"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/diamonds_are_not_forever",
 	"rewards": {

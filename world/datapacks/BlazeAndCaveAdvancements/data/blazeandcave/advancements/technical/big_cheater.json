@@ -5,9 +5,9 @@
 		},
 		"title": {"translate":"You are a big cheater!"},
 		"description": {"color":"red","translate":"You don't want to have this advancement unlocked!"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal",
-		"hidden": "true"
+		"hidden": true
 	},
 	"parent": "blazeandcave:statistics/root",
 	"rewards": {

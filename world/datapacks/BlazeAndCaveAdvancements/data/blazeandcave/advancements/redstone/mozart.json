@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Mozart"},
 		"description": {"color":"green","translate":"Craft a note block"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/root",
 	"rewards": {

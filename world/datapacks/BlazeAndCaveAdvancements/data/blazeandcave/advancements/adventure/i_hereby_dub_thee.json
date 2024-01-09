@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"I hereby dub thee..."},
 		"description": {"color":"green","translate":"Obtain a name tag"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Master Logger"},
 		"description": {"color":"dark_purple","translate":"Cut down a full stack of logs and stems of all types"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:building/stripper",

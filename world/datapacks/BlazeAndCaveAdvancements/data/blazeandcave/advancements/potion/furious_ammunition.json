@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Furious Ammunition"},
 		"description": {"color":"dark_purple","translate":"Craft every type of tipped arrow"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:potion/poison_dart",

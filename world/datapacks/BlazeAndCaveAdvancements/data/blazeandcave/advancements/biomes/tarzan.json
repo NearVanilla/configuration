@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Tarzan"},
 		"description": {"color":"green","translate":"Swing (or climb) on some vines"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/the_mighty_jungle",
 	"rewards": {

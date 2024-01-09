@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Advancement Legend"},
 		"description": {"color":"gold","translate":"Complete every single advancement in BlazeandCave's Advancements Pack"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:bacap/challenges_milestone",

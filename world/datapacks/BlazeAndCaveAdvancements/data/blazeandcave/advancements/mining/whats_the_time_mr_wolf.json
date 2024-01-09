@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"What's the time, Mr Wolf?"},
 		"description": {"color":"green","translate":"Time to clean your clocks! (Or, craft them!)"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/the_way_to_spawn",
 	"rewards": {

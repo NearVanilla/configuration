@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The garbage will do!"},
 		"description": {"color":"green","translate":"Craft a composter using wooden slabs then place it"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/plant_seed",
 	"rewards": {

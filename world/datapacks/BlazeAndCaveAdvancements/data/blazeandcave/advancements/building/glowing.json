@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Glowing!"},
 		"description": {"color":"green","translate":"Light up the area with glowstone"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/festival_of_lights",
 	"rewards": {

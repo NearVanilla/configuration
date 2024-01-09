@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"It spreads!"},
 		"description": {"color":"green","translate":"Kill a mob near a Sculk Catalyst"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/avoid_vibration",
 	"rewards": {

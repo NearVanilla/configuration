@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Glows in the Dark"},
 		"description": {"color":"green","translate":"Shoot a mob with a spectral arrow"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/seeing_stars",
 	"rewards": {

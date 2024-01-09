@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Florist"},
 		"description": {"color":"green","translate":"Trade for a flower from the Wandering Trader"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/travelling_merchant",
 	"rewards": {

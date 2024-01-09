@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Rabbit Season"},
 		"description": {"color":"green","translate":"Killing bunnies is cruel. Period."},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {

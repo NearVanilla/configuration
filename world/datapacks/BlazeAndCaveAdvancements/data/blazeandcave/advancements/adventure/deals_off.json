@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Deal's Off!"},
 		"description": {"color":"green","translate":"Get spat at by one of the Trader Llamas"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 
 	},
 	"parent": "blazeandcave:adventure/rebuilding_the_oceans",

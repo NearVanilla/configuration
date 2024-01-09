@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Those Were the Days"},
 		"description": {"color":"green","translate":"Fight your way into a Bastion Remnant"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/cultural_misunderstandings",
 	"rewards": {

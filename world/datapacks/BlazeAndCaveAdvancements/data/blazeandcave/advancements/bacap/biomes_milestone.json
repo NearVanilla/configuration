@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Biomes Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Biomes tab"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:bacap/weaponry_milestone",

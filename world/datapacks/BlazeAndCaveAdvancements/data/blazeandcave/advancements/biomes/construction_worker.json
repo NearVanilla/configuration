@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Construction Worker"},
 		"description": {"color":"green","translate":"Craft and use some scaffolding"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/bamboom",
 	"rewards": {

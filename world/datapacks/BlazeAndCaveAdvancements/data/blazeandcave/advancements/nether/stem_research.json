@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Stem Research"},
 		"description": {"color":"green","translate":"Attack a huge Nether Fungi until a stem pops out"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/root",
 	"rewards": {

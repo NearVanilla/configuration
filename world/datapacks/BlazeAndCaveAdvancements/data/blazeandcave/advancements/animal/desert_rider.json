@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Desert Rider"},
 		"description": {"color":"green","translate":"Find a Camel in a desert village and ride it"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/cowboy",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Pane in the Glass"},
 		"description": {"color":"#75E1FF","translate":"Craft a stack of all 16 colors of stained glass panes"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:building/translucence",

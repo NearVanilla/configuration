@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Adventure Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Adventure tab"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:bacap/biomes_milestone",

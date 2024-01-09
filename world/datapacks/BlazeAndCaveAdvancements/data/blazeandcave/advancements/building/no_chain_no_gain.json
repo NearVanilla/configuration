@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"No Chain, No Gain"},
 		"description": {"color":"green","translate":"Craft a chain using an iron ingot and iron nuggets"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/greek_art_decor",
 	"rewards": {

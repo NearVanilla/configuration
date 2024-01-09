@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"I am Root"},
 		"description": {"color":"green","translate":"Pick up some crimson or warped roots"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/what_a_fungi",
 	"rewards": {

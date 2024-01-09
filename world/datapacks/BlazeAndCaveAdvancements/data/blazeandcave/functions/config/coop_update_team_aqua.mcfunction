@@ -1298,3 +1298,5 @@ execute if score blazeandcave:adventure/a_chiptune_relic bac_obtained_aqua match
 execute if score minecraft:husbandry/feed_snifflet bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only minecraft:husbandry/feed_snifflet
 execute if score minecraft:husbandry/plant_any_sniffer_seed bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only minecraft:husbandry/plant_any_sniffer_seed
 execute if score minecraft:adventure/read_power_of_chiseled_bookshelf bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only minecraft:adventure/read_power_of_chiseled_bookshelf
+
+execute if score nullscape:root bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only nullscape:root

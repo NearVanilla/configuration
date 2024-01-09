@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Time to Farm!"},
 		"description": {"color":"green","translate":"Use planks and sticks to make a hoe"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:bacap/time_to_dig",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Scuttler"},
 		"description": {"color":"green","translate":"Get a scute from a baby turtle when it grows up"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/hey_look_mom",
 	"rewards": {

@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Coppers and Robbers"},
 		"description": {"color":"green","translate":"Smelt a Copper Ingot"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/renewable_energy",
 	"rewards": {

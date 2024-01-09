@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Nuclear Fusion"},
 		"description": {"color":"#FF2A2A","translate":"Strike every mob that can transform with lightning at once"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:challenges/root",

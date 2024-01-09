@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Giant Floating Jellyfish"},
 		"description": {"color":"green","translate":"Shoot down a ghast"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/the_tribal_snouts",
 	"rewards": {

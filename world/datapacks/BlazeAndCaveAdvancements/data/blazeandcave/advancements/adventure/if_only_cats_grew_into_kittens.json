@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"If only cats grew into kittens"},
 		"description": {"color":"green","translate":"Breed two cats together to get a kitty!"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/crazy_cat_lady",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"God of Thunder"},
 		"description": {"color":"#75E1FF","translate":"Name your Trident with Loyalty III and Channeling 'Mjolnir'"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:enchanting/ill_be_back",
@@ -14,6 +14,33 @@
 	},	
 	"criteria": {
 		"mjolnir": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:trident"
+						],
+						"nbt": "{display:{Name:\'\"Mjolnir\"\'}}",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:loyalty",
+								"levels": {
+									"min": 3
+								}
+							},
+							{
+								"enchantment": "minecraft:channeling",
+								"levels": {
+									"min": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		"mjolnir_old": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -40,5 +67,11 @@
 				]
 			}
 		}
-	}
+	},
+	"requirements": [
+		[
+			"mjolnir",
+			"mjolnir_old"
+		]
+	]
 }

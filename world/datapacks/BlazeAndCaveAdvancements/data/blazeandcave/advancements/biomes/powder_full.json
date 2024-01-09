@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Powder-full"},
 		"description": {"color":"green","translate":"Pick up some Powder Snow in a Bucket"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/this_snow_is_snowier",
 	"rewards": {

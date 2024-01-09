@@ -169,8 +169,7 @@ execute as @a[advancements={blazeandcave:technical/respawn_dragon=true}] run fun
 
 # It is set back to '0' if they touch the ground OR are not wearing a dragon head, which will disqualify their eligibility for obtaining this advancement
 # Players are also disqualified for touching water, lava, or riding any vehicle
-execute as @a[scores={bac_dvd2eb=1}] unless entity @s[nbt={OnGround:0b},predicate=blazeandcave:wear_dragon_head] run function blazeandcave:dvd2eb_fail
-execute as @a[scores={bac_dvd2eb=1}] if entity @s[advancements={blazeandcave:technical/fail_dragon_vs=true}] run function blazeandcave:dvd2eb_fail
+execute as @a[scores={bac_dvd2eb=1}] run function blazeandcave:dvd2eb_fail_check
 
 # If the player successfully kills the Ender Dragon still with a score of '1' they will gain the advancement
 execute as @a[advancements={blazeandcave:technical/kill_dragon=true},scores={bac_dvd2eb=1}] run advancement grant @s only blazeandcave:challenges/dragon_vs_dragon_ii_electric_boogaloo
@@ -183,8 +182,7 @@ execute as @a[advancements={blazeandcave:technical/respawn_wither=true}] run fun
 
 # It is set back to '0' if they touch the ground OR are not wearing a dragon head OR more than 11 seconds has passed since spawning the Wither. Failing will disqualify their eligibility for obtaining this advancement
 scoreboard players remove @a[scores={bac_withercool=1..}] bac_withercool 1
-execute as @a[scores={bac_dveps=1}] unless score @s bac_withercool matches 1.. unless entity @s[nbt={OnGround:0b},predicate=blazeandcave:wear_dragon_head] run function blazeandcave:dveps_fail
-execute as @a[scores={bac_dveps=1}] unless score @s bac_withercool matches 1.. if entity @s[advancements={blazeandcave:technical/fail_dragon_vs=true}] run function blazeandcave:dveps_fail
+execute as @a[scores={bac_dveps=1}] unless score @s bac_withercool matches 1.. run function blazeandcave:dveps_fail_check
 
 scoreboard players set @s bac_dveps 0
 

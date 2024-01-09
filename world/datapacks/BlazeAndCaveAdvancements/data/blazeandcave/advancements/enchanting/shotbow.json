@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Shotbow"},
 		"description": {"color":"#75E1FF","translate":"Shoot three arrows at once with a crossbow"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:enchanting/machine_bow",

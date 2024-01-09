@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Point Blank"},
 		"description": {"color":"green","translate":"Shoot a mob from point-blank range"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/shoot_arrow",
 	"rewards": {

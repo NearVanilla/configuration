@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Fossil Fuel"},
 		"description": {"color":"green","translate":"Coal! As in dead dinosaurs!"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:story/upgrade_tools",
 	"rewards": {

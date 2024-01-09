@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Respecting the Remnants"},
 		"description": {"color":"green","translate":"Using a Brush, carefully excavate a Pottery Sherd from a suspicious block"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/brushed_away",
 	"rewards": {

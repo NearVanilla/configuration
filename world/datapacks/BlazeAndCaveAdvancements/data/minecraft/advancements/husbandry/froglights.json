@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Incandescent!"},
 		"description": {"color":"#75E1FF","translate":"Light up the area with all three hues of Froglight"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:building/cerulean",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"All the Blocks!"},
 		"description": {"color":"#FF2A2A","translate":"Obtain all the blocks!"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:challenges/root",
@@ -2563,7 +2563,7 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:grass"
+							"minecraft:short_grass"
 						]
 					}
 				]

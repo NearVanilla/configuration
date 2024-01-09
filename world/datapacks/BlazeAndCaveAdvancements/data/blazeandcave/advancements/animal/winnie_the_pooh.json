@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Winnie the Pooh"},
 		"description": {"color":"green","translate":"Drink some honey"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/safely_harvest_honey",
 	"rewards": {

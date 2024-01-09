@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"What a Deal!"},
 		"description": {"color":"green","translate":"Successfully trade with a Villager"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/do_you_want_to_trade",
 	"rewards": {

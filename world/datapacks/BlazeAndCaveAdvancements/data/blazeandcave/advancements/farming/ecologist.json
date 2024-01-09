@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Ecologist"},
 		"description": {"color":"#75E1FF","translate":"Plant down all types of saplings"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:farming/bapple",

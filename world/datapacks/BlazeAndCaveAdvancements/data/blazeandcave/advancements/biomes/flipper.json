@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Flipper"},
 		"description": {"color":"green","translate":"Give a Dolphin something to play with"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/cargo_carrier",
 	"rewards": {

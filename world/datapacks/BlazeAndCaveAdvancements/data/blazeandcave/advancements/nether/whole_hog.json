@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Whole Hog"},
 		"description": {"color":"green","translate":"Get mauled by a Hoglin"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 
 	},
 	"parent": "blazeandcave:nether/when_hoglins_breed",

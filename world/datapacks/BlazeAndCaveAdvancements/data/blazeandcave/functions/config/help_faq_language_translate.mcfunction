@@ -1,5 +1,5 @@
 tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
-tellraw @s {"color":"gray","bold":"false","text":" ","extra":[{"color":"gray","bold":"false","translate":"How can I translate the advancements into a new language?"}]}
+tellraw @s {"color":"gray","bold":false,"text":" ","extra":[{"color":"gray","bold":false,"translate":"How can I translate the advancements into a new language?"}]}
 
 tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
 

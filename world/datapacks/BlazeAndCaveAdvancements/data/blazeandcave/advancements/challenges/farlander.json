@@ -5,9 +5,9 @@
 		},
 		"title": {"translate":"Farlander"},
 		"description": {"color":"light_purple","translate":"Travel all the way to the border of the world"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge",
-		"hidden": "true"
+		"hidden": true
 	},
 	"parent": "blazeandcave:challenges/a_million_blocks_away",
 	"rewards": {

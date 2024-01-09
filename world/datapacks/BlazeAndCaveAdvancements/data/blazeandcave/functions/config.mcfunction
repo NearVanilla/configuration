@@ -1,5 +1,5 @@
 tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
-tellraw @s {"color":"gray","bold":"false","text":" ","extra":[{"color":"yellow","bold":"false","translate":"Blaze"},{"color":"gray","bold":"false","translate":"and"},{"color":"aqua","bold":"false","translate":"Cave"},{"color":"gray","bold":"false","translate":"'s Advancements Pack Config"}]}
+tellraw @s {"color":"gray","bold":false,"text":" ","extra":[{"color":"yellow","bold":false,"translate":"Blaze"},{"color":"gray","bold":false,"translate":"and"},{"color":"aqua","bold":false,"translate":"Cave"},{"color":"gray","bold":false,"translate":"'s Advancements Pack Config"}]}
 
 tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
 

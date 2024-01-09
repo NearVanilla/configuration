@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Custom Boss Fight!"},
 		"description": {"color":"dark_purple","translate":"Give a zombie full diamond armor and a diamond sword... then kill it"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:monsters/freezing",

@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Flying Colors"},
 		"description": {"color":"green","translate":"Apply a banner (with no patterns) to your shield"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:weaponry/shield_luck",
 	"rewards": {

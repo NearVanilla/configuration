@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Statistics Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Statistics tab"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:bacap/enchanting_milestone",

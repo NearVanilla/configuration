@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Pig Fishing Tournament"},
 		"description": {"color":"green","translate":"Pull a pig using a fishing rod"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:weaponry/root",
 	"rewards": {

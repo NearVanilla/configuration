@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Space Dropper"},
 		"description": {"color":"green","translate":"Craft a dropper for item transportation"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/space_hopper",
 	"rewards": {

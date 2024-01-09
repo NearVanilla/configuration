@@ -1,4 +1,4 @@
-tellraw @s {"color":"gray","italic":"true","translate":"You have unlocked the root of the Biomes tab"}
+tellraw @s {"color":"gray","italic":true,"translate":"You have unlocked the root of the Biomes tab"}
 execute if score reward bac_settings matches 1 run function bc_rewards:reward/biomes/root
 execute if score reward bac_settings matches -1 unless score blazeandcave:biomes/root bac_obtained matches 1.. run function bc_rewards:reward/biomes/root
 execute if score reward bac_settings matches -2 if entity @s[team=bac_team_black] unless score blazeandcave:biomes/root bac_obtained_black matches 1.. run function bc_rewards:reward/biomes/root

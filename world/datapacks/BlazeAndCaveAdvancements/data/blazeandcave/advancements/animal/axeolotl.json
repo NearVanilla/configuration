@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Axeolotl"},
 		"description": {"color":"green","translate":"Kill an Axolotl with an axe"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/axolittle",
 	"rewards": {

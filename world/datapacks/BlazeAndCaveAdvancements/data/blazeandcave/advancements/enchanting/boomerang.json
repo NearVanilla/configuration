@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Boomerang"},
 		"description": {"color":"#75E1FF","translate":"Turn your trident into a boomerang by getting Loyalty on it"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:enchanting/librarian",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Insomniac"},
 		"description": {"color":"dark_purple","translate":"Go 30 days without sleep"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:building/rainbow_dreams",

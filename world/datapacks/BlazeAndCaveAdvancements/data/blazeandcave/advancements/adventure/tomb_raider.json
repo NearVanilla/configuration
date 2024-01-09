@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Tomb Raider"},
 		"description": {"color":"green","translate":"Enter a jungle temple"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/grave_robber",
 	"rewards": {

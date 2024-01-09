@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"House of Psychos"},
 		"description": {"color":"green","translate":"Find a Woodland Mansion"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/treasure_map",
 	"rewards": {

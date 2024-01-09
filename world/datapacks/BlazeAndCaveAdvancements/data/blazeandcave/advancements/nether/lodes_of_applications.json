@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Lodes of Applications"},
 		"description": {"color":"#75E1FF","translate":"Create a Lodestone Compass in all three dimensions"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:nether/use_lodestone",

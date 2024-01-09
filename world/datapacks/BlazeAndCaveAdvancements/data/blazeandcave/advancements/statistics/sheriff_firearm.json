@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Sheriff Firearm"},
 		"description": {"color":"#75E1FF","translate":"Ride 10km on a horse"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:statistics/horse_training",

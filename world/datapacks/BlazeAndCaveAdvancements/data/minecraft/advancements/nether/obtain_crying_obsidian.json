@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Who is Cutting Onions?"},
 		"description": {"color":"green","translate":"Obtain Crying Obsidian from a ruined portal or bartering with Piglins"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/from_whence_it_came",
 	"rewards": {

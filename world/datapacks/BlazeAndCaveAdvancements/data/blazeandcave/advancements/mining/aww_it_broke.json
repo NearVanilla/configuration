@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Aww it broke!"},
 		"description": {"color":"green","translate":"Break your first tool"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/moar_tools",
 	"rewards": {

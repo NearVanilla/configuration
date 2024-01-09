@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Axolittle"},
 		"description": {"color":"green","translate":"Breed two Axolotls together using Tropical Fish"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/kill_axolotl_target",
 	"rewards": {

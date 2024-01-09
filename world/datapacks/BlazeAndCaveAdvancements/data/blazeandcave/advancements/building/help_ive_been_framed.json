@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Help! I've been framed!"},
 		"description": {"color":"green","translate":"Craft an item frame for displaying your items"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/its_a_sign",
 	"rewards": {

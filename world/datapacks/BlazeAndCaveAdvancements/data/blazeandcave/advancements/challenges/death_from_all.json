@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Death From All"},
 		"description": {"color":"#FF2A2A","translate":"Get killed by every mob that can kill you. (Ignore in hardcore mode)"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:challenges/immortal",

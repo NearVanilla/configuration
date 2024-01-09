@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Me Love Cookie"},
 		"description": {"color":"green","translate":"Bake some cookies... and then scoff them all yourself"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:farming/its_where_nutella_comes_from",
 	"rewards": {

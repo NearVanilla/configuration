@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Horse Training"},
 		"description": {"color":"green","translate":"Ride 1km on a horse"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:statistics/root",
 	"rewards": {

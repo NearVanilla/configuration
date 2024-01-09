@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A Shiny Treat"},
 		"description": {"color":"green","translate":"Eat some Glow Berries"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/leaflet_drop",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Dispense With This"},
 		"description": {"color":"green","translate":"Construct a dispenser"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/space_dropper",
 	"rewards": {

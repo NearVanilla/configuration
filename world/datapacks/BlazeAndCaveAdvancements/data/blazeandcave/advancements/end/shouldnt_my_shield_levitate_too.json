@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Shouldn't my shield levitate too?"},
 		"description": {"color":"green","translate":"Block a Shulker's bullet with your shield"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:end/for_mother_clarence",
 	"rewards": {

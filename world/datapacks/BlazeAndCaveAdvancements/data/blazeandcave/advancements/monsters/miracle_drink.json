@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Miracle Drink"},
 		"description": {"color":"#75E1FF","translate":"Drink milk or honey to cure poison when on half a heart"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:monsters/witch",

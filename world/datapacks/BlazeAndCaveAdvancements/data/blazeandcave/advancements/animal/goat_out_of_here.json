@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Goat out of here!"},
 		"description": {"color":"green","translate":"Slaughter a Goat"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/have_a_shearful_day",
 	"rewards": {

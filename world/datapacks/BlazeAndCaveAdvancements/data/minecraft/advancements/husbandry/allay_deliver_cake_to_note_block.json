@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Birthday Song"},
 		"description": {"color":"#75E1FF","translate":"Have an Allay drop a cake at a note block"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:adventure/and_make_it_double",

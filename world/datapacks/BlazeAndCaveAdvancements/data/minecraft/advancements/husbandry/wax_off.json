@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Wax Off"},
 		"description": {"color":"green","translate":"Use an axe to scrape wax off of a Copper Block"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/wax_on",
 	"rewards": {

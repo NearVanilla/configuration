@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"When Piglins Fly"},
 		"description": {"color":"#75E1FF","translate":"Give a piglin elytra then kill it"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:nether/we_got_a_live_one",

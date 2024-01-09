@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Totally not an AFK fisher!"},
 		"description": {"color":"dark_purple","translate":"Fish out all types of items"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:animal/someones_been_here_before",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Ooh, Baby!"},
 		"description": {"color":"green","translate":"Kill a baby zombie"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:monsters/dead_dont_die",
 	"rewards": {

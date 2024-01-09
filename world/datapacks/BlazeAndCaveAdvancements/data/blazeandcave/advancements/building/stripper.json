@@ -4,7 +4,7 @@
 			"item": "minecraft:stripped_jungle_log"
 		},
 		"title": {"translate":"Stripper"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"description": {"color":"#75E1FF","translate":"Strip the bark off every type of log, stem, and bamboo block"},
 		"frame": "goal"
 	},

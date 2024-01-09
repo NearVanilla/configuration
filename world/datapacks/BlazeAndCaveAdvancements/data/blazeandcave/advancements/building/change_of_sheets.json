@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Change of Sheets"},
 		"description": {"color":"green","translate":"Dye your bed a different color than white"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/sleep_in_bed",
 	"rewards": {

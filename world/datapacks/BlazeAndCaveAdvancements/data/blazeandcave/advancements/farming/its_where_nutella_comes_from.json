@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"It's where nutella comes from"},
 		"description": {"color":"green","translate":"Obtain some cocoa beans from a jungle"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:farming/bake_bread",
 	"rewards": {

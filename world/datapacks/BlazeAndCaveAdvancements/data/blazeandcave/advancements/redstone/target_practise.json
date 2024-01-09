@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Target Practise"},
 		"description": {"color":"#75E1FF","translate":"Hit a Target with all types of projectiles"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:redstone/target_acquired",

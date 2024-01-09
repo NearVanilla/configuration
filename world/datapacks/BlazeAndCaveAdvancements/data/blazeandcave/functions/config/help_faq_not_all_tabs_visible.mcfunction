@@ -1,5 +1,5 @@
 tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
-tellraw @s {"color":"gray","bold":"false","text":" ","extra":[{"color":"gray","bold":"false","translate":"Why aren't all tabs visible at the start?"}]}
+tellraw @s {"color":"gray","bold":false,"text":" ","extra":[{"color":"gray","bold":false,"translate":"Why aren't all tabs visible at the start?"}]}
 
 tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
 

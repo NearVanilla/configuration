@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Quicksand"},
 		"description": {"color":"green","translate":"You sink like quicksand and move slow like mud"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/nugget_in_a_biscuit",
 	"rewards": {

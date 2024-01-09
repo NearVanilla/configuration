@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"DIAM- oh, wait, no."},
 		"description": {"color":"green","translate":"It's still useful for enchanting"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:story/iron_tools",
 	"rewards": {

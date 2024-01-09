@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Portable Storage"},
 		"description": {"color":"green","translate":"Use shulker shells to craft a shulker box"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:end/for_mother_clarence",
 	"rewards": {

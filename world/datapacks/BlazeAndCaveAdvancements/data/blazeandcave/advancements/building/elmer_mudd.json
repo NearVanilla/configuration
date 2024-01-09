@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Elmer Mudd"},
 		"description": {"color":"green","translate":"Craft or obtain all forms of Mud and Mud Brick"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/stuck_in_the_mud",
 	"rewards": {

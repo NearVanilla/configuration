@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Renewable Energy"},
 		"description": {"color":"green","translate":"Smelt wood trunks using charcoal to make more charcoal"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/hot_topic",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Boaty McBoatface"},
 		"description": {"color":"green","translate":"Craft and ride a boat to sail on the high seas"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/the_sea_calls_you",
 	"rewards": {

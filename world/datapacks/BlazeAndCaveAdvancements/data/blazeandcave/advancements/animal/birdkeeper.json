@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Birdkeeper"},
 		"description": {"color":"#75E1FF","translate":"Tame all parrot variants"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:animal/chatterbox",

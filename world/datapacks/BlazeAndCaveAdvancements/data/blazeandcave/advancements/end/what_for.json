@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"What For?"},
 		"description": {"color":"#75E1FF","translate":"Craft 64 ender crystals"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:end/respawn_dragon",

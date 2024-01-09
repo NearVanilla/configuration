@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Master Netherite Miner"},
 		"description": {"color":"dark_purple","translate":"Mine enough Ancient Debris to make a stack of Netherite Ingots (don’t worry, mining a stack of Netherite Blocks is optional in this datapack, I’m not that evil…)"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:nether/netherite_miner",

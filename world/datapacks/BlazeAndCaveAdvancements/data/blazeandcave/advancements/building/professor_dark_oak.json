@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Professor Dark Oak"},
 		"description": {"color":"#75E1FF","translate":"Craft every item made out of dark oak wood"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:building/the_acacia_king",

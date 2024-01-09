@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Slapfish"},
 		"description": {"color":"green","translate":"Slap a mob across the face with a fish"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:weaponry/expelliarmus",
 	"rewards": {

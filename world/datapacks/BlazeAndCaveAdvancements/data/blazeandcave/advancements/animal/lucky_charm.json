@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Lucky Charm"},
 		"description": {"color":"green","translate":"Get a rabbit's foot"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/theyre_breeding_like_rabbits",
 	"rewards": {

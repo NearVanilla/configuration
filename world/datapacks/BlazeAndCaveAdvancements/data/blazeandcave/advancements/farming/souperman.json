@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Souperman"},
 		"description": {"color":"green","translate":"Beetroot soup gives you souperpowers!"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/plant_seed",
 	"rewards": {

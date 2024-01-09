@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Trick or Treat!"},
 		"description": {"color":"#75E1FF","translate":"Defeat a mob wearing a pumpkin"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:monsters/desert_nomad",

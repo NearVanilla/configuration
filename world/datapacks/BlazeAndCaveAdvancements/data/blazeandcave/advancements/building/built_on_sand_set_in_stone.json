@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Built on Sand, Set in Stone"},
 		"description": {"color":"#75E1FF","translate":"Craft or collect a stack of all forms of Sandstone and Red Sandstone"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:building/creepers_and_withers",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Care For the Environment"},
 		"description": {"color":"green","translate":"Plant down a sapling"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:farming/root",
 	"rewards": {

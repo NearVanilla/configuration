@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Setting up the mood"},
 		"description": {"color":"green","translate":"Place a candle and light it using Flint and Steel"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/one_pickle_two_pickle_sea_pickle_four",
 	"rewards": {

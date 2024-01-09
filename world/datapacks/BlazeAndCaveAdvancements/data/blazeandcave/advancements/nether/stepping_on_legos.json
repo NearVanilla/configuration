@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Stepping on Legos"},
 		"description": {"color":"green","translate":"Walk on some hot Magma Blocks in the Nether"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/nugget_in_a_biscuit",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Bamboom!"},
 		"description": {"color":"green","translate":"Break down some bamboo"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/tarzan",
 	"rewards": {

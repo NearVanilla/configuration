@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Egging, Dude!"},
 		"description": {"color":"green","translate":"Vandalise something with eggs"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:weaponry/root",
 	"rewards": {

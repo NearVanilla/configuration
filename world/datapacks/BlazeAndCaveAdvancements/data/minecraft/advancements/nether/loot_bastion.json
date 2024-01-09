@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"War Pigs"},
 		"description": {"color":"green","translate":"Loot a chest in a Bastion Remnant"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/brute_force",
 	"rewards": {

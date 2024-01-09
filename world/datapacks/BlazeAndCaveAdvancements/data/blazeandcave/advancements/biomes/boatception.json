@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Boatception"},
 		"description": {"color":"#75E1FF","translate":"Get in a boat within a shipwreck"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:biomes/ahoy",

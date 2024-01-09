@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Milk does your body good"},
 		"description": {"color":"green","translate":"Take a swig swig swig swig"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/breed_an_animal",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Basketblock Championship"},
 		"description": {"color":"dark_purple","translate":"Kill Endermen that are holding every block that they can hold"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:monsters/impossible",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Redstone Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Redstone tab"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:bacap/adventure_milestone",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A Horse in Shining Armor"},
 		"description": {"color":"green","translate":"Find diamond horse armor"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/horse_armorer",
 	"rewards": {

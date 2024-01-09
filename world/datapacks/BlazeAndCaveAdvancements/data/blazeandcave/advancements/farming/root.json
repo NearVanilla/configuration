@@ -7,7 +7,7 @@
 		"description": {"color":"#CCCCCC","translate":"Hoe hoe hoe!"},
 		"background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
 		"show_toast": false,
-		"announce_to_chat": "false"
+		"announce_to_chat": false
 	},
 	"rewards": {
 		"function": "bc_rewards:farming/root"

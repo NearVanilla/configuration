@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Barking Mad"},
 		"description": {"color":"green","translate":"Craft a bark block"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/a_good_start",
 	"rewards": {

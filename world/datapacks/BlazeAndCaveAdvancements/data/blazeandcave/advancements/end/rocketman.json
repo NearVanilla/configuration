@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Rocketman"},
 		"description": {"color":"dark_purple","translate":"Fill your inventory with full stacks of firework rockets"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:end/some_breakthrough",

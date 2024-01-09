@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Meat Lovers"},
 		"description": {"color":"#75E1FF","translate":"Eat every type of meat, even if uncooked or rotten"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:farming/vegetarian",

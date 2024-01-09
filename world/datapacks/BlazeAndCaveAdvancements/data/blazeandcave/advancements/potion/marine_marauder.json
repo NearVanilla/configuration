@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Marine Marauder"},
 		"description": {"color":"green","translate":"Swim in water while having the Water Breathing effect"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:potion/stayin_frosty",
 	"rewards": {

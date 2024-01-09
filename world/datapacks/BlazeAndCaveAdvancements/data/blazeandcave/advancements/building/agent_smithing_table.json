@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Agent Smithing Table"},
 		"description": {"color":"green","translate":"Craft a smithing table"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/classic_pocket_edition_block",
 	"rewards": {

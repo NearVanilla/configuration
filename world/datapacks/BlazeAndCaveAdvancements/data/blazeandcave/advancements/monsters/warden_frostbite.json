@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Warden Frostbite"},
 		"description": {"color":"dark_purple","translate":"Bring a Warden to the surface of a snowy plains biome and kill it"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:monsters/stealth_is_optional",

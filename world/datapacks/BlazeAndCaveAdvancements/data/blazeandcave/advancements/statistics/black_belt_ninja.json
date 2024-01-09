@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Black Belt Ninja"},
 		"description": {"color":"#75E1FF","translate":"Sneak 1km"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:statistics/sneaky_snitch",

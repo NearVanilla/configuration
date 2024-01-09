@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A Seedy Place"},
 		"description": {"color":"green","translate":"Plant a seed and watch it grow"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:farming/root",
 	"rewards": {

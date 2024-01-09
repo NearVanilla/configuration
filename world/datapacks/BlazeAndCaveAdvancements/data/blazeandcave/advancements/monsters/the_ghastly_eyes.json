@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Ghastly Eyes"},
 		"description": {"color":"dark_purple","translate":"Kill an invisible spider"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:monsters/spider_skeleton",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Planting the Past"},
 		"description": {"color":"green","translate":"Plant any Sniffer Seed"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/feed_snifflet",
 	"rewards": {

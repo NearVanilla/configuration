@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Basis of Brewing"},
 		"description": {"color":"green","translate":"Harvest some nether wart from a nether fortress"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/obtain_blaze_rod",
 	"rewards": {

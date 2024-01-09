@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"This Snow is Snowier"},
 		"description": {"color":"green","translate":"Fall into some Powder Snow"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/smooth_operator",
 	"rewards": {

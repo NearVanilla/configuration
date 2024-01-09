@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Lightning McPig"},
 		"description": {"color":"dark_purple","translate":"Ride 10km on a pig"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:statistics/snout_500",

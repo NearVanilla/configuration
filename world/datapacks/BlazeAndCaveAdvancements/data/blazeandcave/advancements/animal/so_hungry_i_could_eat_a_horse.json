@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"So Hungry I Could Eat a Horse!"},
 		"description": {"color":"#75E1FF","translate":"Feed a Horse every type of food that it can eat"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:animal/a_horse_in_shining_armor",

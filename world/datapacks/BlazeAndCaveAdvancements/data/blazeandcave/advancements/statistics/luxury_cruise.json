@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Luxury Cruise"},
 		"description": {"color":"green","translate":"Sail 1km in a boat"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:statistics/root",
 	"rewards": {

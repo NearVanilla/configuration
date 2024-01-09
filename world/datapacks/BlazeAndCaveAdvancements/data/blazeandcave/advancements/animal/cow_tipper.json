@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Cow Tipper"},
 		"description": {"color":"green","translate":"Harvest some leather"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {

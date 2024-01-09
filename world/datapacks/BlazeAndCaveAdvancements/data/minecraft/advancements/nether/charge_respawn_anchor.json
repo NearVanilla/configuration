@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Not Quite 'Nine' Lives"},
 		"description": {"color":"#75E1FF","translate":"Charge a Respawn Anchor to the maximum"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:nether/anchorman",

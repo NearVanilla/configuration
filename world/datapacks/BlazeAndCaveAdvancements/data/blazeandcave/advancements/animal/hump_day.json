@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Hump Day"},
 		"description": {"color":"green","translate":"Breed two Camels using cactus"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/desert_rider",
 	"rewards": {

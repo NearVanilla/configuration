@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Not Today, Thank You"},
 		"description": {"color":"green","translate":"Deflect an arrow with a shield"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:monsters/boned",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Bricks!"},
 		"description": {"color":"green","translate":"Fire up that clay!"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/clay_dough",
 	"rewards": {

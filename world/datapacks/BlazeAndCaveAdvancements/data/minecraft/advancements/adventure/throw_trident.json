@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A Throwaway Joke"},
 		"description": {"color":"green","translate":"Throw a trident at something. Note: Throwing away your only weapon is not a good idea"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:weaponry/root",
 	"rewards": {

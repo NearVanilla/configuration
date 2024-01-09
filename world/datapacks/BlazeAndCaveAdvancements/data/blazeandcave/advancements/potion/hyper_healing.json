@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Hyper-Healing"},
 		"description": {"color":"green","translate":"Brew and drink a regeneration potion"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:potion/medic",
 	"rewards": {

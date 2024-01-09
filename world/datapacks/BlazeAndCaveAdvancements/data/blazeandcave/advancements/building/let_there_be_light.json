@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Let There Be Light!"},
 		"description": {"color":"dark_purple","translate":"Hold a stack of every light-emitting block and item"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:building/fluorescent",

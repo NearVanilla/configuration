@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Parrots and the Bats"},
 		"description": {"color":"green","translate":"Breed 100 animals"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:technical/you_are_a_big_cheater",
 	"rewards": {

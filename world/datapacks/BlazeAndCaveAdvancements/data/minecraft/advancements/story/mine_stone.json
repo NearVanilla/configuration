@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Stone Age"},
 		"description": {"color":"green","translate":"Mine stone with your new pickaxe"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/root",
 	"rewards": {

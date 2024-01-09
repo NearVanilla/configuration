@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"You Lead, I'll Follow"},
 		"description": {"color":"green","translate":"Attach a lead to a llama to form a llama caravan"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/beeloons",
 	"rewards": {

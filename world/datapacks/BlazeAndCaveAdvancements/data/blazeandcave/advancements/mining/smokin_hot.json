@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Smokin' Hot"},
 		"description": {"color":"green","translate":"Upgrade your furnace to a smoker using some logs"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/renewable_energy",
 	"rewards": {

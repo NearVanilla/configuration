@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Event Horizon"},
 		"description": {"color":"dark_purple","translate":"Survive void damage"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:end/the_point_of_no_return",

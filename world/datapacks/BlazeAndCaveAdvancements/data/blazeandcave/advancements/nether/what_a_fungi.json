@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"What a Fungi!"},
 		"description": {"color":"green","translate":"Pick up Crimson or Warped Fungus"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/stem_research",
 	"rewards": {

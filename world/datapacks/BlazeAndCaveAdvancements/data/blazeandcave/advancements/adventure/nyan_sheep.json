@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Nyan Sheep"},
 		"description": {"color":"green","translate":"Nyan Nyan Nyan Nyan..."},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/whats_up_doc",
 	"rewards": {
@@ -13,6 +13,26 @@
 	},		
 	"criteria": {
 		"name_tag": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:name_tag"
+					],
+					"nbt": "{display:{Name:\'\"jeb_\"\'}}"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type": "minecraft:sheep"
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"name_tag_old": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
@@ -32,5 +52,11 @@
 				]
 			}
 		}
-	}
+	},
+	"requirements": [
+		[
+			"name_tag",
+			"name_tag_old"
+		]
+	]
 }

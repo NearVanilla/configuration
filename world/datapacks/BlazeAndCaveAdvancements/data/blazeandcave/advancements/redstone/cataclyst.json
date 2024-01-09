@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Cataclyst"},
 		"description": {"color":"dark_purple","translate":"Kill a Wither near a Sculk Catalyst to unleash a large explosion of sculk"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:redstone/the_block_of_eternal_screaming",

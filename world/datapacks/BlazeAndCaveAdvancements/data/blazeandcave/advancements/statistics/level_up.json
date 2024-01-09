@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Level Up"},
 		"description": {"color":"green","translate":"Reach 30 experience levels"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:technical/you_are_a_big_cheater",
 	"rewards": {

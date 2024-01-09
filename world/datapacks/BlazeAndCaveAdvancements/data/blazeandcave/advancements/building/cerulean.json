@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Cerulean!"},
 		"description": {"color":"green","translate":"Light up the area with soul fire torches and soul fire lanterns!"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/shroom_lightyear",
 	"rewards": {

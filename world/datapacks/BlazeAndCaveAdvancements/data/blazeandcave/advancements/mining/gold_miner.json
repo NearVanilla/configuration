@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Gold Miner"},
 		"description": {"color":"#75E1FF","translate":"Mine a stack of Raw Gold"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:mining/living_like_kings",

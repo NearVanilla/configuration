@@ -1,4 +1,4 @@
-tellraw @s {"color":"gray","italic":"true","translate":"You have unlocked the root of the Adventure tab"}
+tellraw @s {"color":"gray","italic":true,"translate":"You have unlocked the root of the Adventure tab"}
 execute if score reward bac_settings matches 1 run function bc_rewards:reward/adventure/root
 execute if score reward bac_settings matches -1 unless score minecraft:adventure/root bac_obtained matches 1.. run function bc_rewards:reward/adventure/root
 execute if score reward bac_settings matches -2 if entity @s[team=bac_team_black] unless score minecraft:adventure/root bac_obtained_black matches 1.. run function bc_rewards:reward/adventure/root

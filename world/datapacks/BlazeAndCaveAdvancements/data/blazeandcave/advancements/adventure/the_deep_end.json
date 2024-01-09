@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Deep End"},
 		"description": {"color":"#75E1FF","translate":"Defeat an Elder Guardian"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:adventure/laser_sharks",

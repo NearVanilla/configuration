@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Don't Blink"},
 		"description": {"color":"green","translate":"Climb on some Weeping Vines in a Crimson Forest"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/i_am_root",
 	"rewards": {

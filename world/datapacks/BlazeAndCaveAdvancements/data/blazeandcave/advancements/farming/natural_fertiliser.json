@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Natural Fertiliser"},
 		"description": {"color":"green","translate":"Fill up a composter"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:farming/the_garbage_will_do",
 	"rewards": {

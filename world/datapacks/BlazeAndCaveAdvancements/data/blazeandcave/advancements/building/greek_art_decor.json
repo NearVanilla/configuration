@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Greek Art Decor"},
 		"description": {"color":"green","translate":"Craft all forms of quartz blocks"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/fake_fortress",
 	"rewards": {

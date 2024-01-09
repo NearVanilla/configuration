@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Laps in the pool"},
 		"description": {"color":"green","translate":"Swim 1km"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:statistics/root",
 	"rewards": {

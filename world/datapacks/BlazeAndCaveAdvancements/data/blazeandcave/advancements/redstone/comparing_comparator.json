@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Comparing Comparator"},
 		"description": {"color":"green","translate":"Craft a redstone comparator"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/quirky_quartz",
 	"rewards": {

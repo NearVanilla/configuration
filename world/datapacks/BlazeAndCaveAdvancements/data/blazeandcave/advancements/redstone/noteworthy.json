@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Noteworthy"},
 		"description": {"color":"#75E1FF","translate":"Play every possible instrument on a Note Block"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:redstone/take_notes",

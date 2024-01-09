@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Leveraging Synergy"},
 		"description": {"color":"green","translate":"Flick a lever"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/click",
 	"rewards": {

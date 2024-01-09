@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Et tu, Brute?"},
 		"description": {"color":"green","translate":"Get murdered by Piglin Brutes"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 
 	},
 	"parent": "blazeandcave:nether/brute_force",

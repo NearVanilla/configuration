@@ -7,7 +7,7 @@
 		"description": {"color":"#CCCCCC","translate":"Bring summer clothes"},
 		"background": "minecraft:textures/block/netherrack.png",
 		"show_toast": false,
-		"announce_to_chat": "false"
+		"announce_to_chat": false
 	},
 	"rewards": {
 		"function": "bc_rewards:nether/root"

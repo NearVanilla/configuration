@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Bamboozled"},
 		"description": {"color":"#75E1FF","translate":"Craft every item made out of bamboo wood"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:building/the_jungler",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Foal Play"},
 		"description": {"color":"green","translate":"Breed a horse in an effort to get a better one"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/cowboy",
 	"rewards": {

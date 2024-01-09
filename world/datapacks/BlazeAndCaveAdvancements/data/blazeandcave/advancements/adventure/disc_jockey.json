@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Disc Jockey"},
 		"description": {"color":"dark_purple","translate":"Listen to all the music discs"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:adventure/play_jukebox_in_meadows",	

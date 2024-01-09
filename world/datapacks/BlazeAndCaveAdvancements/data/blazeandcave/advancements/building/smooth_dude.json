@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Smooth, dude!"},
 		"description": {"color":"green","translate":"Smelt normal stone further into smooth stone"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/its_original_form",
 	"rewards": {

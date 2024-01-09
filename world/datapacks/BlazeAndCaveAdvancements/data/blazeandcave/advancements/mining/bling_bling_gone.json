@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Bling Bling Gone"},
 		"description": {"color":"#75E1FF","translate":"Completely use up a golden pickaxe, and then seriously reevaluate your life choices"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:mining/living_like_kings",

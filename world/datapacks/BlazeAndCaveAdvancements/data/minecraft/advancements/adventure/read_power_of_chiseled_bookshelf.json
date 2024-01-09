@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Power of Books"},
 		"description": {"color":"green","translate":"Read the power signal of a Chiseled Bookshelf using a comparator"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/comparing_comparator",
 	"rewards": {

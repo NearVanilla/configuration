@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Buy Low, Sell High"},
 		"description": {"color":"#75E1FF","translate":"Trade with a villager while under the Hero of the Village effect"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:adventure/hero_of_the_village",

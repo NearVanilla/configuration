@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Incredible Sculk"},
 		"description": {"color":"#75E1FF","translate":"Collect a stack of all sculk-related blocks"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:redstone/the_block_of_eternal_screaming",

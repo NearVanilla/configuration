@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Getting an Upgrade"},
 		"description": {"color":"green","translate":"Construct a better pickaxe"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:story/mine_stone",
 	"rewards": {

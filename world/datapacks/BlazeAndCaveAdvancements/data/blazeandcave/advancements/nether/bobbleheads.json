@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Bobbleheads"},
 		"description": {"color":"green","translate":"Breed two Striders using Warped Fungus"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/ride_strider",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Zoologist"},
 		"description": {"color":"green","translate":"Breed two pandas to get a baby panda"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/construction_worker",
 	"rewards": {

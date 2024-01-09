@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"When Hoglins Breed"},
 		"description": {"color":"green","translate":"Breed a baby Hoglin using Crimson Fungi"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/roadhog",
 	"rewards": {

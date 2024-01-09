@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Pixel Perfect"},
 		"description": {"color":"dark_purple","translate":"Use a Spyglass to stare at a bat from at least 50 blocks away"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:mining/blind_as_a_bat",

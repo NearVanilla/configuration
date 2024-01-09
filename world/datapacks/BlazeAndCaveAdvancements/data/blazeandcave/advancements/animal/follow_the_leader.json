@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Follow the Leader"},
 		"description": {"color":"dark_purple","translate":"Attach a lead to every mob that can be leashed"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:animal/you_lead_ill_follow",

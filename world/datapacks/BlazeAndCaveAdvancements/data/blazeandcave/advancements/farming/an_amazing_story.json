@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"An amazing story!"},
 		"description": {"color":"green","translate":"Finish writing in your book or get a book from another player"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:farming/write_your_thoughts",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"This name sounds cooler"},
 		"description": {"color":"green","translate":"Name your Diamond Sword 'Diamond Edge'"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:enchanting/heavy_metal",
 	"rewards": {
@@ -20,10 +20,29 @@
 						"items": [
 							"minecraft:diamond_sword"
 						],
+						"nbt": "{display:{Name:\'\"Diamond Edge\"\'}}"
+					}
+				]
+			}
+		},
+		"diamond_edge_old": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:diamond_sword"
+						],
 						"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Diamond Edge\\\"}\"}}"
 					}
 				]
 			}
 		}
-	}
+	},
+	"requirements": [
+		[
+			"diamond_edge",
+			"diamond_edge_old"
+		]
+	]
 }

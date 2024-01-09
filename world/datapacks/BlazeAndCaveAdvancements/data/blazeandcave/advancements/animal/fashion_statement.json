@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Fashion Statement"},
 		"description": {"color":"green","translate":"Dye some leather pants with one color, then put them on"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/cool_kids",
 	"rewards": {

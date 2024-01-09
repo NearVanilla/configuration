@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Mary Had a Little Lamb..."},
 		"description": {"color":"green","translate":"Breed two sheep to get a lamb"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/feeling_sheepish",
 	"rewards": {

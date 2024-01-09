@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Hot Spring"},
 		"description": {"color":"green","translate":"Sit in water in the Nether"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/hells_bells",
 	"rewards": {

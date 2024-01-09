@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"G.I. Geode"},
 		"description": {"color":"green","translate":"Find an Amethyst Geode and mine an Amethyst Cluster"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:story/iron_tools",
 	"rewards": {

@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Who's the Pillager Now?"},
 		"description": {"color":"green","translate":"Give a Pillager a taste of their own medicine"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/ol_betsy",
 	"rewards": {

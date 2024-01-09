@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Travelling Bard"},
 		"description": {"color":"dark_purple","translate":"Play a Note Block in every type of biome"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:redstone/noteworthy",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Boned"},
 		"description": {"color":"green","translate":"Grind up some bones into bonemeal"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:monsters/spooky_skeleton",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Mob Hunter"},
 		"description": {"color":"green","translate":"Defeat 250 mobs"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:technical/you_are_a_big_cheater",
 	"rewards": {

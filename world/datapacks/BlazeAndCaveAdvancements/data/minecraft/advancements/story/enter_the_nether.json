@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"We Need to Go Deeper"},
 		"description": {"color":"#75E1FF","translate":"Build, light and enter a Nether Portal"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:story/form_obsidian",

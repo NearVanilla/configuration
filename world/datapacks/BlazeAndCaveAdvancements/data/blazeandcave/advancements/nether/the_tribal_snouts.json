@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Tribal Snouts"},
 		"description": {"color":"green","translate":"Kill a zombie pigman"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/root",
 	"rewards": {

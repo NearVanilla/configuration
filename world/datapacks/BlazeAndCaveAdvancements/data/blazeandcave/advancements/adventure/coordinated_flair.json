@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Coordinated Flair"},
 		"description": {"color":"#75E1FF","translate":"Wear a suit of armor with all four pieces trimmed with the same material"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:adventure/mold_maker",

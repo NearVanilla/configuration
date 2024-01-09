@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Take to the Skies"},
 		"description": {"color":"green","translate":"Fly 10km with elytra"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:statistics/root",
 	"rewards": {

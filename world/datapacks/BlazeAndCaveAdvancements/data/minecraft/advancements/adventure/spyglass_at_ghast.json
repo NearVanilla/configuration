@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Is it a Balloon?"},
 		"description": {"color":"green","translate":"Look at a Ghast through a Spyglass"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/fire_blast_shield",
 	"rewards": {

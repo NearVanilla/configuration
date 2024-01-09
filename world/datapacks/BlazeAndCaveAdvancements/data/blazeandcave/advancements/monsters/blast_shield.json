@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Blast Shield"},
 		"description": {"color":"green","translate":"Survive a creeper's blast with your shield"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:monsters/keep_your_distance",
 	"rewards": {

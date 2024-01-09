@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Kung Fu Panda!"},
 		"description": {"color":"green","translate":"Get beaten up by an angry panda"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 
 	},
 	"parent": "blazeandcave:biomes/zoologist",

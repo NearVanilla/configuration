@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Heeere's Johnny!"},
 		"description": {"color":"green","translate":"Kill a Vindicator in a Woodland Mansion"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/house_of_psychos",
 	"rewards": {

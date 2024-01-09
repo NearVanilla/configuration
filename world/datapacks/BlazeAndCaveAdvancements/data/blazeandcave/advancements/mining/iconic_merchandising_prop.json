@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Iconic Merchandising Prop"},
 		"description": {"color":"green","translate":"Create a pickaxe of the highest calibre"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:story/mine_diamond",
 	"rewards": {

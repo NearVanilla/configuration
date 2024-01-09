@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Kill or be Killed"},
 		"description": {"color":"dark_purple","translate":"Defeat 25,000 mobs"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:statistics/bloodthirsty",

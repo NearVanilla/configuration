@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"End Bricks!"},
 		"description": {"color":"green","translate":"Craft end bricks from end stone"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:end/enter_end_gateway",
 	"rewards": {

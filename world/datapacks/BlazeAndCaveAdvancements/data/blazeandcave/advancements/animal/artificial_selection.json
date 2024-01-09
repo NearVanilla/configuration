@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Artificial Selection"},
 		"description": {"color":"green","translate":"Breed a horse and a donkey to get a mule"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/are_we_there_yet",
 	"rewards": {

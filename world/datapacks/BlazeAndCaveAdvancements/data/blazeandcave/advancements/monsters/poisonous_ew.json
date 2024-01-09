@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Poisonous Ew"},
 		"description": {"color":"green","translate":"Kill a cave spider"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:monsters/ew_ew_ew",
 	"rewards": {

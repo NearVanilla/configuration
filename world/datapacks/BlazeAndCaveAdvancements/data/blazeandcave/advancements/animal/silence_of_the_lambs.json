@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Silence of the Lambs"},
 		"description": {"color":"#75E1FF","translate":"Bring a Sheep into an Ancient City and silence it"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:animal/loud_and_proud",

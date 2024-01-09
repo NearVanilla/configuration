@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Free the End"},
 		"description": {"color":"#75E1FF","translate":"Good luck"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:end/dragon_shield",

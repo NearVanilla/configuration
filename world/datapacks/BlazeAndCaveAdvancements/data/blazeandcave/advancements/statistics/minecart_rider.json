@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Minecart Rider"},
 		"description": {"color":"green","translate":"Ride 1km in a minecart"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:statistics/root",
 	"rewards": {

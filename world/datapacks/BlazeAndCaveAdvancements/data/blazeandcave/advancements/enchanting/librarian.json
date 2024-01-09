@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Librarian"},
 		"description": {"color":"green","translate":"Build some bookshelves for your enchanting table"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:enchanting/root",
 	"rewards": {

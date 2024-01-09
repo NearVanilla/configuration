@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Raidin' Master"},
 		"description": {"color":"dark_purple","translate":"Discover every structure type"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:adventure/secret_of_the_igloo",

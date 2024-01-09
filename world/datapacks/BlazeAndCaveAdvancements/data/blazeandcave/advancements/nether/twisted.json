@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Twisted"},
 		"description": {"color":"green","translate":"Climb on some Twisting Vines in a Warped Forest"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/dont_blink",
 	"rewards": {

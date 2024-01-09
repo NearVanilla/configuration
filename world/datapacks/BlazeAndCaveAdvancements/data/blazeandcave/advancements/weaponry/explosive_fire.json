@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Explosive Fire"},
 		"description": {"color":"green","translate":"Load your crossbow with a firework"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:weaponry/fireworks_display",
 	"rewards": {

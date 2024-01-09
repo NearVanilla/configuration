@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Gold Rush"},
 		"description": {"color":"green","translate":"Strike gold and smelt it into a gold ingot"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:story/iron_tools",
 	"rewards": {

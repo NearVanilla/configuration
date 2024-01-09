@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Death by Magic"},
 		"description": {"color":"green","translate":"Kill a mob with a splash potion"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:potion/root",
 	"rewards": {

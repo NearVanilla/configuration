@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Art Gallery"},
 		"description": {"color":"#75E1FF","translate":"Place every type of painting"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:building/a_masterpiece",

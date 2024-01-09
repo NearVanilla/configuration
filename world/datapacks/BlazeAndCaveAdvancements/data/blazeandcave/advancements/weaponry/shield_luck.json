@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Shield Luck"},
 		"description": {"color":"green","translate":"Protect yourself from an enemy's attack with your shield"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:weaponry/sir_knight",
 	"rewards": {

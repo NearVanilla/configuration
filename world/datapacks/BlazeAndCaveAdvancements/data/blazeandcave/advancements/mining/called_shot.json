@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Called Shot"},
 		"description": {"color":"#75E1FF","translate":"Get struck by lightning while standing on a Lightning Rod"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:adventure/lightning_rod_with_villager_no_fire",

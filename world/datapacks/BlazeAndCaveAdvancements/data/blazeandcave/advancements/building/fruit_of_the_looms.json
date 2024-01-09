@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Fruit of the Looms"},
 		"description": {"color":"dark_purple","translate":"Obtain all the special banner patterns"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:building/prepare_to_meet_your_loom",

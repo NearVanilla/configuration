@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"One Pickle, Two Pickle, Sea Pickle, Four"},
 		"description": {"color":"green","translate":"Place four sea pickles in a group underwater"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/halloween",
 	"rewards": {

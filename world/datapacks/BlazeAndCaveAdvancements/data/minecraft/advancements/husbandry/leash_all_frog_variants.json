@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"When the Squad Hops into Town"},
 		"description": {"color":"#75E1FF","translate":"Attach a lead to each variant of Frog"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:husbandry/tadpole_in_a_bucket",

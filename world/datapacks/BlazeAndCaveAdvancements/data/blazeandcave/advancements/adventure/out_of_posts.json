@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Out of Posts"},
 		"description": {"color":"green","translate":"Enter a Pillager Outpost"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {

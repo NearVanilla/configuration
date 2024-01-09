@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"What about Corruption Planks?"},
 		"description": {"color":"#75E1FF","translate":"Craft every item made out of crimson wood"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:nether/twisted",

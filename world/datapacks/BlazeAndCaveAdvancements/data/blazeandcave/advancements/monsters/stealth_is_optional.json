@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Stealth is Optional"},
 		"description": {"color":"#75E1FF","translate":"Overcome a Warden in the deepest and darkest of caves"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:monsters/blind_stare",

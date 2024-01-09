@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Where are all your clothes?"},
 		"description": {"color":"dark_purple","translate":"Break every type of armor piece in the game"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:mining/weve_broken_our_last_shovel",

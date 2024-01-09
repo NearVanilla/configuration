@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Burnt Right Into Your Soul"},
 		"description": {"color":"green","translate":"Get caught on Soul Fire"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/quicksand",
 	"rewards": {

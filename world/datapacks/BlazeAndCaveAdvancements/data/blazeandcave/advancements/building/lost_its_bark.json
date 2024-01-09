@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Lost Its Bark"},
 		"description": {"color":"green","translate":"Strip a bark block of its bark"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/barking_mad",
 	"rewards": {

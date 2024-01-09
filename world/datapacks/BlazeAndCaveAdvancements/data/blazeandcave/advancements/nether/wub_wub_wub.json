@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Wub wub wub!"},
 		"description": {"color":"#75E1FF","translate":"Obtain the Pigstep music disc from a Bastion Remnant"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:nether/time_to_upgrade",

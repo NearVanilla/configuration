@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Netherite Miner"},
 		"description": {"color":"#75E1FF","translate":"Mine a stack of Ancient Debris"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:nether/diamonds_are_not_forever",

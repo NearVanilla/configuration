@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Sign Off"},
 		"description": {"color":"green","translate":"Use honeycomb to wax a sign, setting its ink for eternity"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/hanging_around",
 	"rewards": {

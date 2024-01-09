@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Poison Dart"},
 		"description": {"color":"green","translate":"Craft tipped arrows of poison"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:potion/gas",
 	"rewards": {

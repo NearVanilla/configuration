@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Pig Slaughterer"},
 		"description": {"color":"#75E1FF","translate":"Collect a stack of raw porkchops"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:animal/when_pigs_used_to_fly",

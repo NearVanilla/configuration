@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A Wizard’s Breakfast"},
 		"description": {"color":"dark_purple","translate":"Eat a stack of Chorus Fruit in one go"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:end/purpurfect",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Under Pressure"},
 		"description": {"color":"green","translate":"Step on a pressure plate"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/leveraging_synergy",
 	"rewards": {

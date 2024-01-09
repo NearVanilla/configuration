@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Natural Sprinter"},
 		"description": {"color":"green","translate":"Sprint 10km"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:statistics/root",
 	"rewards": {

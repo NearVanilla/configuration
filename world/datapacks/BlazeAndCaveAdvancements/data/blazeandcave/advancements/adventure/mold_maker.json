@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Mold Maker"},
 		"description": {"color":"green","translate":"Use seven diamonds to duplicate a Smithing Template"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/trim_with_any_armor_pattern",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Smithing With Style"},
 		"description": {"color":"dark_purple","translate":"Apply every type of armor trim at least once"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:adventure/the_sound_of_silence",

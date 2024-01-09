@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Poacher"},
 		"description": {"color":"green","translate":"Kill a turtle for their shells only to find they don't actually drop any when killed"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {

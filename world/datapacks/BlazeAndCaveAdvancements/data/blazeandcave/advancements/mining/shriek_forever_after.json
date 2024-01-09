@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Shriek Forever After"},
 		"description": {"color":"green","translate":"Trigger a Sculk Shrieker in the Deep Dark. Might not want to do that too many more times…"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/kill_mob_near_sculk_catalyst",
 	"rewards": {

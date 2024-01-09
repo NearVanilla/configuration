@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Diemonds!"},
 		"description": {"color":"green","translate":"Hit a mob with diamonds"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:weaponry/slapfish",
 	"rewards": {

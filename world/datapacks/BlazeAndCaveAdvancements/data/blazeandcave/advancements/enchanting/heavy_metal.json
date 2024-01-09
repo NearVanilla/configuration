@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Heavy Metal"},
 		"description": {"color":"green","translate":"Craft an anvil"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:enchanting/root",
 	"rewards": {

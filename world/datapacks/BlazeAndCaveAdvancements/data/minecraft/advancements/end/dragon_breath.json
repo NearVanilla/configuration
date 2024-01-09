@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"You Need a Mint"},
 		"description": {"color":"green","translate":"Collect dragon's breath in a glass bottle"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:potion/root",
 	"rewards": {

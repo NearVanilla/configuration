@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Spike Ice!"},
 		"description": {"color":"green","translate":"Break down an ice spike using a silk touch pickaxe"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/thin_ice",
 	"rewards": {

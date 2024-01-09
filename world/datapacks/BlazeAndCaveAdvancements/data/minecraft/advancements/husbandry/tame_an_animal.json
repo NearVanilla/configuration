@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Leader of the Pack"},
 		"description": {"color":"green","translate":"Befriend a wolf"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {

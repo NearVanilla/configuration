@@ -140,30 +140,38 @@ execute unless score milestone bac_settings matches ..1000 run scoreboard player
 
 
 # If a setting is set to anything other than off, /gamerule announceAdvancements is set to false
+# (This is done in all dimensions because on some kinds of servers this is required)
 execute unless score task bac_settings matches 0 run execute in the_end run gamerule announceAdvancements false
-execute in overworld run gamerule announceAdvancements false 
-execute in the_nether run gamerule announceAdvancements false
+execute unless score task bac_settings matches 0 run execute in overworld run gamerule announceAdvancements false 
+execute unless score task bac_settings matches 0 run execute in the_nether run gamerule announceAdvancements false
 execute unless score goal bac_settings matches 0 run execute in the_end run gamerule announceAdvancements false
-execute in overworld run gamerule announceAdvancements false 
-execute in the_nether run gamerule announceAdvancements false
+execute unless score goal bac_settings matches 0 run execute in overworld run gamerule announceAdvancements false 
+execute unless score goal bac_settings matches 0 run execute in the_nether run gamerule announceAdvancements false
 execute unless score challenge bac_settings matches 0 run execute in the_end run gamerule announceAdvancements false
-execute in overworld run gamerule announceAdvancements false 
-execute in the_nether run gamerule announceAdvancements false
+execute unless score challenge bac_settings matches 0 run execute in overworld run gamerule announceAdvancements false 
+execute unless score challenge bac_settings matches 0 run execute in the_nether run gamerule announceAdvancements false
 execute unless score super_challenge bac_settings matches 0 run execute in the_end run gamerule announceAdvancements false
-execute in overworld run gamerule announceAdvancements false 
-execute in the_nether run gamerule announceAdvancements false
+execute unless score super_challenge bac_settings matches 0 run execute in overworld run gamerule announceAdvancements false 
+execute unless score super_challenge bac_settings matches 0 run execute in the_nether run gamerule announceAdvancements false
 execute unless score milestone bac_settings matches 0 run execute in the_end run gamerule announceAdvancements false
-execute in overworld run gamerule announceAdvancements false 
-execute in the_nether run gamerule announceAdvancements false
+execute unless score milestone bac_settings matches 0 run execute in overworld run gamerule announceAdvancements false 
+execute unless score milestone bac_settings matches 0 run execute in the_nether run gamerule announceAdvancements false
 
 
 # # Starts timers
 function blazeandcave:one_second_timer
 function blazeandcave:ten_second_timer
+function blazeandcave:five_minute_timer
 
 # # This function sets base scoreboards when loading a world for the first time
 scoreboard objectives add bac_created dummy
 execute unless score bac_created bac_created matches 1 run function blazeandcave:new_world
+
+# # This function sets scoreboard number format. This function is also run for a player when they log onto the world for the first time and gain the root of the BlazeandCave's Advancements tab
+execute as @a run function blazeandcave:config/update_number_format
+
+# # This function sets the scoreboard team format.
+execute as @a run function blazeandcave:config/update_team_format
 
 # # These functions are run only if this is an Alpha or Beta Build, and give a warning to players based on the nature
 scoreboard players set alpha_build bac_settings 0

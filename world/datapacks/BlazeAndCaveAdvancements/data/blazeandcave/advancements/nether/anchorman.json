@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Anchorman"},
 		"description": {"color":"green","translate":"Craft a Respawn Anchor using Crying Obsidian and Glowstone then place it down"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "task"
 	},
 	"parent": "minecraft:nether/obtain_crying_obsidian",

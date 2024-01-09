@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Strike a Light"},
 		"description": {"color":"green","translate":"Craft Flint and Steel and use it to light the ground on fire"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/meet_the_flintstones",
 	"rewards": {

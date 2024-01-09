@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Barrel Rider"},
 		"description": {"color":"green","translate":"Craft and place a barrel. Totally not for riding in"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/stationary_storage",
 	"rewards": {

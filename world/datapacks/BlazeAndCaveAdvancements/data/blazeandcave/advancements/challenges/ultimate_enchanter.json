@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Ultimate Enchanter"},
 		"description": {"color":"#FF2A2A","translate":"Obtain every enchantment at every level throughout your enchanting career"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:challenges/root",

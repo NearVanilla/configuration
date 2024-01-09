@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Baron of Blacksmiths"},
 		"description": {"color":"dark_purple","translate":"Get a stack of regular, chipped and damaged Anvils"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:enchanting/heavy_metal",

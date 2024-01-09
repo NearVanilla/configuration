@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Elderly Enchanter"},
 		"description": {"color":"dark_purple","translate":"Enchant 250 items"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:statistics/journeyman_enchanter",

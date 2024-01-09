@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Bake Bread"},
 		"description": {"color":"green","translate":"Grow wheat and use it to bake bread"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/plant_seed",
 	"rewards": {

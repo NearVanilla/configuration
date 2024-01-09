@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Flashy Items"},
 		"description": {"color":"green","translate":"Put an item up for display in a Glowing Item Frame"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/make_a_sign_glow",
 	"rewards": {

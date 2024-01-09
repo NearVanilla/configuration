@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Ahoy!"},
 		"description": {"color":"green","translate":"Come across a sunken ship"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/atlantis",
 	"rewards": {

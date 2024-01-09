@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Medic!"},
 		"description": {"color":"green","translate":"Brew a healing potion"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:potion/root",
 	"rewards": {

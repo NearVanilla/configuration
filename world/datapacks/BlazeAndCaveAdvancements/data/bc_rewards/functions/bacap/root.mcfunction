@@ -1,6 +1,8 @@
 execute if score introduced bac_settings matches 1 if score intro_msg bac_settings matches 1 run function blazeandcave:msg_welcome
 execute unless score introduced bac_settings matches 1 run function blazeandcave:msg_intro
 
+function blazeandcave:config/update_number_format
+
 gamerule commandBlockOutput false
 execute if score reward bac_settings matches 1 run function bc_rewards:reward/bacap/root
 execute if score reward bac_settings matches -1 unless score blazeandcave:bacap/root bac_obtained matches 1.. run function bc_rewards:reward/bacap/root

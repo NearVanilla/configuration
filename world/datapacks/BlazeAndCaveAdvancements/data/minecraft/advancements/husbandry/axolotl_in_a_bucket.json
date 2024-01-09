@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Cutest Predator"},
 		"description": {"color":"green","translate":"Catch an Axolotl in a Bucket"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:husbandry/tactical_fishing",
 	"rewards": {

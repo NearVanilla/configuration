@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"In Your Face, Neil Armstrong"},
 		"description": {"color":"green","translate":"Colonise the End with potato crops"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:end/extrabiologist",
 	"rewards": {

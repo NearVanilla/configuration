@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Life… uhh… finds a way"},
 		"description": {"color":"green","translate":"Find a strange egg among the sand of an Ocean Ruin using a Brush. Smells interesting"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/brushed_away",
 	"rewards": {

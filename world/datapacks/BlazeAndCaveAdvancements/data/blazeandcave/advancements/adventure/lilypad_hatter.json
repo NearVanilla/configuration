@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Lilypad Hatter"},
 		"description": {"color":"#75E1FF","translate":"Breed and trade with a swamp villager"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:adventure/the_tribal_villagers",

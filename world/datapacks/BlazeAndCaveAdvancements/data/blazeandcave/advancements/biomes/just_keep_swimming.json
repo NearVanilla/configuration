@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Just Keep Swimming"},
 		"description": {"color":"green","translate":"Go for a swim"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/root",
 	"rewards": {

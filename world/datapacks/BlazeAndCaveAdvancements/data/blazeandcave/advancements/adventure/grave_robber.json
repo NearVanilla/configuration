@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Grave Robber"},
 		"description": {"color":"green","translate":"Enter a pyramid in a desert"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/now_youre_thinking_with_portals",
 	"rewards": {

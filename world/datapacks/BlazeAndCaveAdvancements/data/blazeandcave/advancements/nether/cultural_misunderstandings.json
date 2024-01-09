@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Cultural Misunderstandings"},
 		"description": {"color":"green","translate":"Slay a Piglin in battle... or an accidental incursion"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/distract_piglin",
 	"rewards": {

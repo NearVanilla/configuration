@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Hot Tourist Destination"},
 		"description": {"color":"#75E1FF","translate":"Explore every Nether biome"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:nether/twisted",	

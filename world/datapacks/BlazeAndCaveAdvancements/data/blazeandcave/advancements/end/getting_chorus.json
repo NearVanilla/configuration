@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Getting Chorus"},
 		"description": {"color":"green","translate":"Attack a chorus tree until it collapses"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:end/end_bricks",
 	"rewards": {

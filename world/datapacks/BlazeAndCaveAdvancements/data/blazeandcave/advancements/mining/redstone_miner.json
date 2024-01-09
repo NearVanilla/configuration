@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Redstone Miner"},
 		"description": {"color":"#75E1FF","translate":"Mine enough redstone to craft a stack of redstone blocks"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:mining/whats_the_time_mr_wolf",

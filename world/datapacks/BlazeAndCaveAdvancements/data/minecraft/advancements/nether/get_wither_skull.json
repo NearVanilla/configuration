@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Spooky Scary Skeleton"},
 		"description": {"color":"green","translate":"Obtain a wither skeleton's skull"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/the_hunt_begins",
 	"rewards": {

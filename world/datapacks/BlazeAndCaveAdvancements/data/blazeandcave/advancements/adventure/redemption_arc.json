@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Redemption Arc"},
 		"description": {"color":"#75E1FF","translate":"Befriend a Pillager that doesn’t have a crossbow"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:adventure/riot_shield",

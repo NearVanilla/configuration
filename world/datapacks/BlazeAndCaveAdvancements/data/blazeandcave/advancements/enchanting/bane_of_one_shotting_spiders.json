@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Bane of one-shotting spiders"},
 		"description": {"color":"#75E1FF","translate":"Obtain Bane of Arthropods V"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:enchanting/undead_slayer",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Crazy Cat Lady"},
 		"description": {"color":"green","translate":"Tame a stray cat in a village"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/trade",
 	"rewards": {

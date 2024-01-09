@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Terracotta Army"},
 		"description": {"color":"#75E1FF","translate":"Craft all 16 colors of terracotta (stained clay)"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:building/pot_planter",

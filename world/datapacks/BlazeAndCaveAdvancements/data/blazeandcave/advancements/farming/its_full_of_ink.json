@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"It's full of ink"},
 		"description": {"color":"green","translate":"Obtain some ink from hunting a squid"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:farming/sugar_sugar",
 	"rewards": {

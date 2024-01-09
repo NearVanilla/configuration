@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Map Room"},
 		"description": {"color":"green","translate":"Place a map in an item frame"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/im_not_lost_anymore",
 	"rewards": {

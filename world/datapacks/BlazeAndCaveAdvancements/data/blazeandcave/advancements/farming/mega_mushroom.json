@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Mega Mushroom"},
 		"description": {"color":"green","translate":"Grow a giant mushroom and then harvest it with silk touch"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:farming/mushroom_mushroom",
 	"rewards": {

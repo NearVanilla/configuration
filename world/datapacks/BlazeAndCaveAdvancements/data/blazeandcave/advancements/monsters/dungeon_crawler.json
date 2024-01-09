@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Dungeon Crawler"},
 		"description": {"color":"#75E1FF","translate":"Defeat all kinds of mobs from special structures"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:monsters/void_ender",

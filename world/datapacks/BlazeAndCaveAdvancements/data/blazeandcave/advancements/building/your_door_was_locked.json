@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Your Door Was Locked"},
 		"description": {"color":"green","translate":"Craft a door to stop monsters from entering your house"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/root",
 	"rewards": {

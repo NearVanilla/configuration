@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Failed Concoctions"},
 		"description": {"color":"green","translate":"Brew a mundane and thick potion"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:potion/root",
 	"rewards": {

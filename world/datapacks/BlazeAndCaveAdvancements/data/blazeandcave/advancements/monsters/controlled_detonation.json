@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Controlled Detonation"},
 		"description": {"color":"green","translate":"Persuade a Creeper to blow up using Flint and Steel"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:monsters/blast_shield",
 	"rewards": {

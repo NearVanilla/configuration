@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"I just want to make toast!"},
 		"description": {"color":"green","translate":"Name a bunny 'Toast'"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/i_hereby_dub_thee",
 	"rewards": {
@@ -13,6 +13,26 @@
 	},		
 	"criteria": {
 		"name_tag": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:name_tag"
+					],
+					"nbt": "{display:{Name:\'\"Toast\"\'}}"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type": "minecraft:rabbit"
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"name_tag_old": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
@@ -32,5 +52,11 @@
 				]
 			}
 		}
-	}
+	},
+	"requirements": [
+		[
+			"name_tag",
+			"name_tag_old"
+		]
+	]
 }

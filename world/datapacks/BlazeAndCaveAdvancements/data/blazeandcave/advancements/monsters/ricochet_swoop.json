@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Ricochet Swoop"},
 		"description": {"color":"green","translate":"Deflect a Phantom's swoop with your shield"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:monsters/the_phantom_menace",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Pumpa kungen!"},
 		"description": {"color":"#75E1FF","translate":"Carve a stack of pumpkins"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:farming/unmasked",

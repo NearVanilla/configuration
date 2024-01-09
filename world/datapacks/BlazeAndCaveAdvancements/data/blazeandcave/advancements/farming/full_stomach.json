@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Full Stomach"},
 		"description": {"color":"green","translate":"Fill both your hunger bar and saturation level"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:farming/root",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Cut In Half"},
 		"description": {"color":"green","translate":"Craft some slabs"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/your_door_was_locked",
 	"rewards": {

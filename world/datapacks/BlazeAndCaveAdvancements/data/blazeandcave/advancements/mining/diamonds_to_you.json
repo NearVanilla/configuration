@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Diamonds to you!"},
 		"description": {"color":"green","translate":"Throw diamonds at another player or mob"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/diamond_miner",
 	"rewards": {

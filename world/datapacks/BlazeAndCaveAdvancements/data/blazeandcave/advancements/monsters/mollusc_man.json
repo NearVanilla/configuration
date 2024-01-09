@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Mollusc Man"},
 		"description": {"color":"#75E1FF","translate":"Defeat a Drowned that is holding a nautilus shell"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:monsters/a_watery_grave",

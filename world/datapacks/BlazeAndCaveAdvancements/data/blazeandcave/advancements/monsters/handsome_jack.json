@@ -5,9 +5,9 @@
 		},
 		"title": {"translate":"Handsome Jack"},
 		"description": {"color":"light_purple","translate":"Defeat a mob wearing a Jack o' Lantern on Halloween"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge",
-		"hidden": "true"
+		"hidden": true
 	},
 	"parent": "blazeandcave:monsters/trick_or_treat",
 	"rewards": {

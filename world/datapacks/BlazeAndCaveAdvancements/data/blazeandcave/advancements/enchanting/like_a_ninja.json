@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Like a Ninja"},
 		"description": {"color":"#75E1FF","translate":"Find the Swift Sneak enchantment on an Enchanted Book in an Ancient City"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:enchanting/fiery",

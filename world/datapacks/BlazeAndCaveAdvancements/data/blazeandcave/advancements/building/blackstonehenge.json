@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Blackstonehenge"},
 		"description": {"color":"green","translate":"Craft or collect all forms of Blackstone, Polished Blackstone and Polished Blackstone Bricks"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/no_chain_no_gain",
 	"rewards": {

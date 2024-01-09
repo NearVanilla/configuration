@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Mobile Explosion"},
 		"description": {"color":"green","translate":"Put TNT in a minecart"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/moving_moving_storage",
 	"rewards": {

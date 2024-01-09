@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Chromatic Armory"},
 		"description": {"color":"#75E1FF","translate":"Trim pieces of armor with all types of materials"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:adventure/coordinated_flair",

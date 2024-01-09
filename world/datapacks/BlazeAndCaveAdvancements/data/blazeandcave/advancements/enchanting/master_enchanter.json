@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Master Enchanter"},
 		"description": {"color":"dark_purple","translate":"Obtain every enchantment at their max level throughout your enchanting career"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:enchanting/complete_enchanter",

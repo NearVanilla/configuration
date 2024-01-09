@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Acquire Hardware"},
 		"description": {"color":"green","translate":"Smelt an iron ingot"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/renewable_energy",
 	"rewards": {

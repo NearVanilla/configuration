@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Iron Belly"},
 		"description": {"color":"green","translate":"Stop starvation using rotten flesh"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:monsters/there_has_to_be_another_way",
 	"rewards": {

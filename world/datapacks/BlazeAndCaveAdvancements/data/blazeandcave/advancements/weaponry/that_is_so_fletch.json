@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"That is so fletch!"},
 		"description": {"color":"green","translate":"Craft a fletching table"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/shoot_arrow",
 	"rewards": {

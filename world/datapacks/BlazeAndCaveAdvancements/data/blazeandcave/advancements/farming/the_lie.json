@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Lie"},
 		"description": {"color":"green","translate":"Wheat, sugar, milk and eggs!"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:farming/bake_bread",
 	"rewards": {

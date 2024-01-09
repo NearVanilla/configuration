@@ -5,9 +5,9 @@
 		},
 		"title": {"translate":"Netherite Mad Lad"},
 		"description": {"color":"light_purple","translate":"Be an absolute madlad and grind enough Ancient Debris to make a stack of Netherite Blocks (this is hidden and not required for Advancement Legend btw…)"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge",
-		"hidden": "true"
+		"hidden": true
 	},
 	"parent": "blazeandcave:nether/master_netherite_miner",
 	"rewards": {

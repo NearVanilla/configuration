@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Fake stronghold"},
 		"description": {"color":"green","translate":"Craft or collect all forms of normal, cracked, mossy and chiseled stone bricks"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/rock_polish",
 	"rewards": {

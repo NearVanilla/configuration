@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Shroom Lightyear"},
 		"description": {"color":"green","translate":"Light up the area with Shroomlight!"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/glowing",
 	"rewards": {

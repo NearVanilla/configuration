@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Pressure Detector"},
 		"description": {"color":"green","translate":"Use a pressure plate to craft a detector rail"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/under_pressure",
 	"rewards": {

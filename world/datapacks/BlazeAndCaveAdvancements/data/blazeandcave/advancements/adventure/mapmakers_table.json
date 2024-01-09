@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Mapmaker's Table"},
 		"description": {"color":"green","translate":"Craft a cartography table with paper and planks"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/mapmaker",
 	"rewards": {

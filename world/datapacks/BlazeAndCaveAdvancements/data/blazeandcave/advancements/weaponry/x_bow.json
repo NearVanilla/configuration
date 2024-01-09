@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"X-Bow"},
 		"description": {"color":"green","translate":"Craft a crossbow using stick, spider string, iron and a hook"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:weaponry/root",
 	"rewards": {

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Hey! You two should kiss!"},
 		"description": {"color":"#75E1FF","translate":"Use a Spyglass to look at two Villagers sitting in a Boat from at least 50 blocks away"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:adventure/trade",

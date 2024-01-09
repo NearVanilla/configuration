@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Armor for the masses"},
 		"description": {"color":"#75E1FF","translate":"Obtain every protection related enchantment"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:enchanting/like_a_cat",

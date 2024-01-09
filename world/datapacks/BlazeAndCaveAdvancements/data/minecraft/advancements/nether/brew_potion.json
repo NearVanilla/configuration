@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Local Brewery"},
 		"description": {"color":"green","translate":"Craft a Brewing Stand for brewing potions"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:nether/basis_of_brewing",
 	"rewards": {

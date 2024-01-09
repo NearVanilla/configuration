@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Mushroom, Mushroom!"},
 		"description": {"color":"green","translate":"Slurp some mushroom stew"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:farming/shrooms",
 	"rewards": {

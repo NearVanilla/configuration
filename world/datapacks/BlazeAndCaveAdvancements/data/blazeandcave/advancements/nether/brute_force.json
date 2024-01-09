@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Brute Force"},
 		"description": {"color":"green","translate":"Defeat a Piglin Brute in a Bastion Remnant"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/find_bastion",
 	"rewards": {

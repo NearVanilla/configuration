@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Adventuring Time"},
 		"description": {"color":"dark_purple","translate":"Discover each type of surface biome in the Overworld"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:biomes/wet_feet",	

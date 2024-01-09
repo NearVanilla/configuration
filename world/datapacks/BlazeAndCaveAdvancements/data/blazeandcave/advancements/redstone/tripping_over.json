@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Tripping Over"},
 		"description": {"color":"green","translate":"Place a line of string between two tripwire hooks, and trigger it"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/under_pressure",
 	"rewards": {

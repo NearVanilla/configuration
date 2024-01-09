@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Leaflet Drop"},
 		"description": {"color":"green","translate":"Fall through a Big Dripleaf"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/this_dirt_is_dirtier",
 	"rewards": {

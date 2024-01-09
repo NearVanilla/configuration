@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"That's the point!"},
 		"description": {"color":"green","translate":"Obtain some Pointed Dripstone from a Dripstone Cave"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:mining/lichen_subscribe",
 	"rewards": {

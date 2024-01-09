@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Moving Moving Storage"},
 		"description": {"color":"green","translate":"Put a hopper in a minecart"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:redstone/moving_storage",
 	"rewards": {

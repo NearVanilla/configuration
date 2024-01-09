@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"In a Pickle"},
 		"description": {"color":"green","translate":"Collect some sea pickles from a coral reef"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/the_great_blocky_reef",
 	"rewards": {

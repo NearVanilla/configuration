@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Gilty!"},
 		"description": {"color":"green","translate":"Mine some Gilded Blackstone from a Bastion Remnant"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/loot_bastion",
 	"rewards": {

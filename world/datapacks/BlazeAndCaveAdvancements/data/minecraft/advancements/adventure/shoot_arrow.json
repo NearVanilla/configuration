@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Take Aim"},
 		"description": {"color":"green","translate":"Shoot something with a bow and arrow"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:weaponry/root",
 	"rewards": {

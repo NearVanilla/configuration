@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Olympic Gold Medallist"},
 		"description": {"color":"dark_purple","translate":"Swim 50km"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:statistics/olympic_athlete",

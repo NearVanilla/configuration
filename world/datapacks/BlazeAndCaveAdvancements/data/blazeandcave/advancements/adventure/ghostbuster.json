@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Ghostbuster!"},
 		"description": {"color":"green","translate":"Bust a Vex summoned by an Evoker"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/heres_johnny",
 	"rewards": {

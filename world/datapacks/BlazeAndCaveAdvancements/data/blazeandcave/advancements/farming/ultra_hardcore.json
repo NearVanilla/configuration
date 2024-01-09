@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Ultra Hardcore"},
 		"description": {"color":"green","translate":"Craft and eat a normal golden apple"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:farming/bapple",
 	"rewards": {

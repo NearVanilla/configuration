@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Rock, Paper, Shears!"},
 		"description": {"color":"green","translate":"Beat a zombie at rock, paper, shears"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:weaponry/inspector_gadget",
 	"rewards": {

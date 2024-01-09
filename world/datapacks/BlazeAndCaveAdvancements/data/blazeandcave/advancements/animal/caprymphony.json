@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Caprymphony"},
 		"description": {"color":"dark_purple","translate":"Blow every type of Goat Horn"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:animal/battle_of_the_bands",

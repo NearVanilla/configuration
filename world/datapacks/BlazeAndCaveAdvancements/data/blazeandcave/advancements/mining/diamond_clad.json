@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Diamond Clad"},
 		"description": {"color":"#75E1FF","translate":"A full suit of diamond armor saves even more lives"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "minecraft:story/shiny_gear",

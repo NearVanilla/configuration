@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Sweet dreams"},
 		"description": {"color":"green","translate":"Sleep in a bed to change your respawn point"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/your_door_was_locked",
 	"rewards": {

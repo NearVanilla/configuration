@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Sir Knight"},
 		"description": {"color":"green","translate":"Use planks and iron to craft a shield"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:weaponry/root",
 	"rewards": {

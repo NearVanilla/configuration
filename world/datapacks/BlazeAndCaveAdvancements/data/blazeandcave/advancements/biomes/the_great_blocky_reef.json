@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Great Blocky Reef"},
 		"description": {"color":"green","translate":"Come across a coral reef in the ocean"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:biomes/dolphin_dasher",	
 	"rewards": {

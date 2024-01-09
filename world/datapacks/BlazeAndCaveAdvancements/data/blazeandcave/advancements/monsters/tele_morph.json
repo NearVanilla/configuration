@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Tele-Morph"},
 		"description": {"color":"green","translate":"Damage a mob by teleporting into it"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:monsters/ender_worm",
 	"rewards": {

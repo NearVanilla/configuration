@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"When Pigs Used to Fly"},
 		"description": {"color":"green","translate":"Craft a carrot on a stick so you can ride a pig off a cliff"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/pork_chop",
 	"rewards": {

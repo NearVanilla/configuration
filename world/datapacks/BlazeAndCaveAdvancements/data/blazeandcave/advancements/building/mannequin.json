@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Mannequin"},
 		"description": {"color":"green","translate":"Craft an armor stand for displaying your armor"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/smooth_dude",
 	"rewards": {

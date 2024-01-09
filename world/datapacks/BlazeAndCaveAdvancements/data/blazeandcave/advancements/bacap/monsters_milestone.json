@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Monsters Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Monsters tab"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:bacap/animal_milestone",

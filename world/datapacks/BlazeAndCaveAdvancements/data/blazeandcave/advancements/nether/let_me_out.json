@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Let Me Out!"},
 		"description": {"color":"dark_purple","translate":"Stay in the Nether for twenty ingame days"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "minecraft:nether/fast_travel",

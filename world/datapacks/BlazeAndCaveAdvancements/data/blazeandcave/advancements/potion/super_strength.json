@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Super Strength"},
 		"description": {"color":"green","translate":"Brew a Strength Potion for cheating on weightlifting"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:potion/performance_enhancing_drugs",
 	"rewards": {

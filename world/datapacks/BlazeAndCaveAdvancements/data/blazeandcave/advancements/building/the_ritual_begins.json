@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"The Ritual Begins"},
 		"description": {"color":"#75E1FF","translate":"Get one stack of Black Candles"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:building/setting_up_the_mood",

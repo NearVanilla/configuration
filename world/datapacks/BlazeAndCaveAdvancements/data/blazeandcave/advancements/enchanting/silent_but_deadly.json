@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Silent But Deadly"},
 		"description": {"color":"dark_purple","translate":"Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings. Try saying that six times swiftly"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:enchanting/like_a_ninja",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Treasure Hunter"},
 		"description": {"color":"green","translate":"Fish out a piece of treasure"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/what_a_piece_of_junk",
 	"rewards": {

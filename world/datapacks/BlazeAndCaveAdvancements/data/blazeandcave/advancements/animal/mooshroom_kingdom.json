@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Mooshroom Kingdom"},
 		"description": {"color":"green","translate":"Find mooshrooms on a mushroom island"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/true_cow_tipper",	
 	"rewards": {

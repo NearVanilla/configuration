@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Into Fire"},
 		"description": {"color":"green","translate":"Relieve a Blaze of its rod"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:nether/find_fortress",
 	"rewards": {

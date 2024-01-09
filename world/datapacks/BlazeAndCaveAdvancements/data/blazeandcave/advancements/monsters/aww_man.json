@@ -6,7 +6,7 @@
 		},
 		"title": {"translate":"Aww man!"},
 		"description": {"color":"green","translate":"That was a nice life you had. Shame it had to end at this time time time"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 
 	},
 	"parent": "blazeandcave:monsters/blast_shield",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"You’ve Got a Friend in Me"},
 		"description": {"color":"green","translate":"Have an Allay deliver items to you"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:adventure/allayance",
 	"rewards": {

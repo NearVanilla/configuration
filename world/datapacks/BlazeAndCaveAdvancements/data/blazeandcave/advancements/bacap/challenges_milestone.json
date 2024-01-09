@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Super Challenges Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Super Challenges tab. Good luck with this one ;)"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:bacap/end_milestone",

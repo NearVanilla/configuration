@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Stairs? NOOOOO!"},
 		"description": {"color":"green","translate":"Craft some stairs"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/cut_in_half",
 	"rewards": {

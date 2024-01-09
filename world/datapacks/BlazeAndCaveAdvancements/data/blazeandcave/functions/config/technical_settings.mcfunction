@@ -1,10 +1,10 @@
 tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
-tellraw @s {"color":"gray","bold":"false","text":" ","extra":[{"color":"gray","bold":"false","translate":"Technical Settings"}]}
+tellraw @s {"color":"gray","bold":false,"text":" ","extra":[{"color":"gray","bold":false,"translate":"Technical Settings"}]}
 
 tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
 
 # Warning
-tellraw @s {"bold":"false","text":" ","extra":[{"color":"red","bold":"false","translate":"Warning: Some of these settings may cause adverse effects on your progress, and will cause a lag-spike upon being used. Only use if you absolutely know what they do! Use with caution!"}]}
+tellraw @s {"bold":false,"text":" ","extra":[{"color":"red","bold":false,"translate":"Warning: Some of these settings may cause adverse effects on your progress, and will cause a lag-spike upon being used. Only use if you absolutely know what they do! Use with caution!"}]}
 
 tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
 

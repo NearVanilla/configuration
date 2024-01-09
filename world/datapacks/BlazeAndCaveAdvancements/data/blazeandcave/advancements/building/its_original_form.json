@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Its original form"},
 		"description": {"color":"green","translate":"Use your furnace to smelt cobblestone back into stone"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:building/rock_collection",
 	"rewards": {

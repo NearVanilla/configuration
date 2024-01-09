@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Travelling Merchant"},
 		"description": {"color":"green","translate":"Trade with a Wandering Trader"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {

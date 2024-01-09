@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Telescopic"},
 		"description": {"color":"#FF2A2A","translate":"Look at every mob using a Spyglass, each from at least 25 blocks away"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:challenges/root",

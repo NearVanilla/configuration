@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Remote Getaway"},
 		"description": {"color":"green","translate":"Escape the island"},
-		"announce_to_chat": "true"
+		"announce_to_chat": true
 	},
 	"parent": "minecraft:end/kill_dragon",
 	"rewards": {

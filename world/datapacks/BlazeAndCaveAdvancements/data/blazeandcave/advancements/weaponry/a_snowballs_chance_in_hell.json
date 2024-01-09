@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"A snowball's chance in hell"},
 		"description": {"color":"#75E1FF","translate":"Defeat a Blaze using snowballs"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:weaponry/snowball_fight",

@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Prime Specimen"},
 		"description": {"color":"#75E1FF","translate":"Find Tall Grass or a Large Fern inside a village chest"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:adventure/do_you_want_to_trade",

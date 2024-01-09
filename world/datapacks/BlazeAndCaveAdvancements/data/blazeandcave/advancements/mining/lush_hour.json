@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Lush Hour"},
 		"description": {"color":"#75E1FF","translate":"Obtain a stack of all lush-related blocks"},
-		"announce_to_chat": "true",
+		"announce_to_chat": true,
 		"frame": "goal"
 	},
 	"parent": "blazeandcave:mining/iggy",
