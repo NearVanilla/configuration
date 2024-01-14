@@ -15,6 +15,7 @@
     }
   ],
   "whitelist": [
+    "bac_advancements",
     "ts_PlayTime",
     "ts_Deaths",
     "ts_DamageTaken",
@@ -24,9 +25,9 @@
     "ts_VillagerTrade"
 	],
   "blacklist": [
-    "ops.sleep", 
-    "ops.kickBed", 
-    "hc_tick", 
+    "ops.sleep",
+    "ops.kickBed",
+    "hc_tick",
     "hc_uninstall",
     "nv_constant",
     "nv_swimKmShow",
