@@ -16,6 +16,7 @@
   ],
   "whitelist": [
     "bac_advancements",
+    "old_tab_overlord",
     "ts_PlayTime",
     "ts_Deaths",
     "ts_DamageTaken",

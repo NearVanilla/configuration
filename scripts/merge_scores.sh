@@ -30,12 +30,13 @@ send_cmd() {
 }
 
 
-echo "Checking player names validity"
-uuid_resp="$(curl -s "https://api.mojang.com/users/profiles/minecraft/${new_name}")"
-[ -n "${uuid_resp}" ] || (echo "Couldn't find such player ${new_name}"; exit 1)
-uuid="$(jq -er '.id' <<< "${uuid_resp}")"
-previous_names="$(curl -s "https://api.mojang.com/user/profiles/${uuid}/names")"
-jq -e --arg OLD_NAME "${old_name}" '[.[] | .name == $OLD_NAME] | any' >/dev/null <<< "${previous_names}" || (echo "Couldn't find name ${old_name} in ${new_name}'s history!"; exit 1)
+# echo "Checking player names validity"
+# uuid_resp="$(curl -s "https://api.mojang.com/users/profiles/minecraft/${new_name}")"
+# [ -n "${uuid_resp}" ] || (echo "Couldn't find such player ${new_name}"; exit 1)
+# uuid="$(jq -er '.id' <<< "${uuid_resp}")"
+# previous_names="$(curl -s "https://api.mojang.com/user/profiles/${uuid}/names")"
+# echo "${previous_names}"
+# jq -e --arg OLD_NAME "${old_name}" '[.[] | .name == $OLD_NAME] | any' >/dev/null <<< "${previous_names}" || (echo "Couldn't find name ${old_name} in ${new_name}'s history!"; exit 1)
 
 echo "Downloading scoreboard extracting script"
 
