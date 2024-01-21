@@ -69,7 +69,7 @@ todo() {
 
 setup_git() {
   local username email
-  username="$(id -u)"
+  username="$(id -un)"
   email="${username}@$(hostname)"
   git config --global user.name "${username}"
   git config --global user.email "${email}"
@@ -84,7 +84,7 @@ is_patched() {
 }
 
 pull_config() {
-  git pull --ff-only --autostash
+  git pull --ff-only --autostash --rebase=true
 }
 
 download_jars() {
