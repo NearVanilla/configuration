@@ -84,7 +84,7 @@ is_patched() {
 }
 
 pull_config() {
-  git pull --ff-only --autostash --rebase=true
+  git pull --autostash --rebase=true
 }
 
 download_jars() {
