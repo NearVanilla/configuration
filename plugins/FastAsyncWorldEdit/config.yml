@@ -1,9 +1,9 @@
 # These first 6 aren't configurable
 issues: "https://github.com/IntellectualSites/FastAsyncWorldEdit/issues"
 wiki: "https://intellectualsites.github.io/fastasyncworldedit-documentation/"
-date: "Mon Jan 22 00:00:00 UTC 2024"
+date: "Sat May 04 00:00:00 UTC 2024"
 build: "https://ci.athion.net/job/FastAsyncWorldEdit/0"
-commit: "https://github.com/IntellectualSites/FastAsyncWorldEdit/commit/f5b5eeda"
+commit: "https://github.com/IntellectualSites/FastAsyncWorldEdit/commit/fa1ef368"
 platform: "Bukkit"
 # Set true to enable WorldEdit restrictions per region (e.g. PlotSquared or WorldGuard).
 # To be allowed to WorldEdit in a region, users need the appropriate
@@ -158,7 +158,7 @@ queue:
   #  - A larger value will use slightly less CPU time
   #  - A smaller value will reduce memory usage
   #  - A value too small may break some operations (deform?)
-  #  - Values smaller than the configurated parallel-threads are not accepted
+  #  - Values smaller than the configured parallel-threads are not accepted
   #  - It is recommended this option be at least 4x greater than parallel-threads
   target-size: 88
   # Increase or decrease queue intensity (ms) [-50,50]:
@@ -177,9 +177,6 @@ queue:
   # If pooling is enabled (reduces GC, higher memory usage)
   #  - Enable to improve performance at the expense of memory
   pool: true
-  # When using fastmode do not bother to tick existing/placed blocks/fluids
-  # Only works in versions up to 1.17.1
-  no-tick-fastmode: true
 
 history:
   # Should history be saved on disk:
