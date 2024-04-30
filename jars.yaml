@@ -100,5 +100,5 @@ plugins:
   name: DeathDB
   version: '1.0'
 version:
-  build: 381
+  build: 496
   name: 1.20.4
