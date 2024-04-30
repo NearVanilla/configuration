@@ -9,6 +9,7 @@ readonly HOOKS_SCRIPT="${SCRIPT_ROOT}/run_hooks.sh"
 readonly GIT_HOOK_PATH="${SCRIPT_ROOT}/githooks/"
 
 readonly GIT_REPO_ADDRESS="git@github.com:NearVanilla/configuration.git"
+readonly GIT_KEY="${HOME}/.ssh/config_repo_ro_key"
 
 # TODO: Handle it based on hostname, if not set?
 readonly GIT_BRANCH="${GIT_BRANCH?:Missing git branch to use}"
@@ -52,7 +53,7 @@ unpatch_config() {
 git() {
   local -r git_args=(
     -c core.hookPath="${GIT_HOOK_PATH}"
-    -c core.sshCommand="ssh -F /dev/null"
+    -c core.sshCommand="ssh -i ${GIT_KEY} -F /dev/null"
   )
   command git "${git_args[@]}" "${@}"
 }
