@@ -15,9 +15,9 @@ plugins:
 - checksum: 942946199c475658e5b82f09eed69eba078ed3b0
   name: CarbonChat
   version: 2.1.0-beta.23
-- checksum: c8d03b8ae3c226faedc7a0c4117ad9de59606414
+- checksum: 72af4feefb7c986907aba9dd009ce258654d2fce
   name: voicechat
-  version: 2.4.30
+  version: 2.5.13
 - checksum: e4866a50200229eeae91ea1faf6bc87f623e70c1
   name: FreedomChat
   version: 1.5.2
