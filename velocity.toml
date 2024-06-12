@@ -1,5 +1,5 @@
 # Config version. Do not change this
-config-version = "2.6"
+config-version = "2.7"
 # What port should the proxy be bound to? By default, we'll bind to all addresses on port 25577.
 bind = "0.0.0.0:25565"
 # What should be the MOTD? This gets displayed when the player adds your server to
@@ -57,16 +57,15 @@ ping-passthrough = "DISABLED"
 # If not enabled (default is true) player IP addresses will be replaced by <ip address withheld> in logs
 enable-player-address-logging = true
 
+# Configure your servers here. Each key represents the server's name, and the value
+# represents the IP address of the server to connect to.
 [servers]
-	# Configure your servers here. Each key represents the server's name, and the value
-	# represents the IP address of the server to connect to.
-	creative-spawn = "creative-spawn:25565"
 	survival = "survival:25565"
+	creative-spawn = "creative-spawn:25565"
 	# In what order we should try servers when a player logs in or is kicked from a server.
 	try = ["survival"]
-
+# Configure your forced hosts here.
 [forced-hosts]
-	# Configure your forced hosts here.
 	"creative-spawn.{{ DOMAIN }}" = ["creative-spawn"]
 	"creative.{{ DOMAIN }}" = ["creative-spawn"]
 	"survival.{{ DOMAIN }}" = ["survival"]
@@ -94,6 +93,9 @@ enable-player-address-logging = true
 	bungee-plugin-message-channel = true
 	# Shows ping requests to the proxy from clients.
 	show-ping-requests = false
+	#Allows players transferred from other hosts via the
+	#Transfer packet (Minecraft 1.20.5) to be received.
+	accepts-transfers = false
 	# By default, Velocity will attempt to gracefully handle situations where the user unexpectedly
 	# loses connection to the server without an explicit disconnect message by attempting to fall the
 	# user back, except in the case of read timeouts. BungeeCord will disconnect the user instead. You
@@ -106,7 +108,6 @@ enable-player-address-logging = true
 	haproxy-protocol = false
 	# Enables the logging of commands
 	log-command-executions = true
-
 [query]
 	# If query is enabled, on what port should the query protocol listen on?
 	port = 25565
@@ -116,4 +117,3 @@ enable-player-address-logging = true
 	map = "Velocity"
 	# Whether to enable responding to GameSpy 4 query responses or not.
 	enabled = false
-

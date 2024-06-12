@@ -9,8 +9,6 @@ protected-plugins = []
 	check-updates-boot = true
 	install-updates-login = false
 	download-updates-boot = false
-
 [unload-after-startup]
 	plugins = []
 	delay-ticks = 20
-
