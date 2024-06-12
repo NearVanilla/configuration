@@ -6,9 +6,9 @@ plugins:
 - checksum: f55005317a18ec583a64821cf310b91d8f475c15
   name: DiscordSRV
   version: 1.27.0
-- checksum: ac47fe19bb06641a8c60520f3a75438f277b8535
+- checksum: 912aafa299e58c18d6e273bae6fb57e9b281bcc3
   name: LuckPerms
-  version: 5.4.126
+  version: 5.4.131
 - checksum: 743c70bb0994aa4151eb9884786dd3960cbfe212
   name: ServerUtils
   version: 3.5.4
@@ -21,15 +21,15 @@ plugins:
 - checksum: e4866a50200229eeae91ea1faf6bc87f623e70c1
   name: FreedomChat
   version: 1.5.2
-- checksum: 10c955f052035edb5aa5ec9eeb8504ae6d535a71
+- checksum: bcabbb99eadc69b5da8cb6719faf5c722cb6a390
   name: FastAsyncWorldEdit
-  version: 2.9.2
-- checksum: 8e2d326c18de79cb81a669643a76ef09d5b986e8
+  version: 2.10.0
+- checksum: 33b6c2b5dad6f5b99235d4883d4ac1a3d200c3d4
   name: ChunkyBorder
-  version: 1.1.50
-- checksum: 2d317bb67ed25bf9b60f589522320479d362341a
+  version: 1.2.13
+- checksum: 7587bdb1717f45f9fb78045d4f2ed40cd72d5802
   name: Chunky
-  version: 1.4.8
+  version: 1.4.13
 - checksum: eed4545a394f3be3bc4ae3187674d9b958de265d
   name: BlueMap
   version: '3.17'
@@ -40,5 +40,5 @@ plugins:
   name: PaperTweaks
   version: 0.4.0
 version:
-  build: 381
-  name: 1.20.4
+  build: 138
+  name: 1.20.6

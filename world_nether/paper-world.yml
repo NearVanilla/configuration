@@ -3,7 +3,7 @@
 # 
 # World: world_nether (minecraft:the_nether)
 
-_version: 30
+_version: 31
 feature-seeds:
   features:
     minecraft:acacia: 6771903186525551652

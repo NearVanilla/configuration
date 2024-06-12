@@ -3,7 +3,7 @@
 # 
 # World: world (minecraft:overworld)
 
-_version: 30
+_version: 31
 feature-seeds:
   features:
     minecraft:acacia: 4599662364520489049

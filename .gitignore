@@ -22,6 +22,7 @@ whitelist.json
 plugins/*/*.log
 plugins/*/lang/*
 plugins/*/translations/*
+plugins/.paper-remapped/
 plugins/BuycraftX/cache
 plugins/BuycraftX/*.json
 plugins/BuycraftX/gui.cache

@@ -3,7 +3,7 @@
 # 
 # World: world_the_end (minecraft:the_end)
 
-_version: 30
+_version: 31
 feature-seeds:
   features:
     minecraft:acacia: -2409227721784008681
