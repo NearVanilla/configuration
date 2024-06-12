@@ -3,7 +3,7 @@
 # 
 # World: world_nether (minecraft:the_nether)
 
-_version: 30
+_version: 31
 anticheat:
   anti-xray:
     hidden-blocks:
@@ -223,5 +223,3 @@ feature-seeds:
     minecraft:weeping_vines: -2285368095908761454
 lootables:
   auto-replenish: true
-spawn:
-  keep-spawn-loaded: false

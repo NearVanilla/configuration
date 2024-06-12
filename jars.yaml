@@ -9,9 +9,9 @@ plugins:
 - checksum: e77b811d89234f7c56d2ae629dda97622f866c45
   name: CapAFK
   version: 1.4.1.10
-- checksum: 2d317bb67ed25bf9b60f589522320479d362341a
+- checksum: 7587bdb1717f45f9fb78045d4f2ed40cd72d5802
   name: Chunky
-  version: 1.4.8
+  version: 1.4.13
 - checksum: 8017016965d5312a3bbc2fb9563abcb1634b9249
   name: DeathLog
   version: 1.0.2
@@ -24,9 +24,9 @@ plugins:
 - checksum: 5cb2143f5cf229f3f3407d6c5a9ff321f1161f8c
   name: GFly
   version: 2.3.0.0
-- checksum: 742c8810b7af774b9a93a15f798e85f03bfd77ce
+- checksum: 60829cd2cf0bddda32ae0c5d1c4f5f6f158ef3f5
   name: GSit
-  version: 1.9.0
+  version: 1.9.1
 - checksum: 1ffc1a060c77e071aa4f41a3fb482704c6afe2eb
   name: Hat
   version: 1.5.0
@@ -36,9 +36,9 @@ plugins:
 - checksum: c8c78165907a53a5f542673b49c5cdd74f8cbf76
   name: OnePlayerSleep
   version: 1.0.6-2-ga87aac8
-- checksum: 781422142113f5580b2babf39f6bec8cc20bfee8
+- checksum: 603ef95594f774812e14d7e9115145d94065379f
   name: OpenInv
-  version: 4.4.3
+  version: 4.4.5
 - checksum: 743c70bb0994aa4151eb9884786dd3960cbfe212
   name: ServerUtils
   version: 3.5.4
@@ -48,12 +48,12 @@ plugins:
 - checksum: 42ea9130bd6df8f3157bbbe7949c9bdcff7c0dff
   name: WorldGuard
   version: 7.0.9+5934e49
-- checksum: ac47fe19bb06641a8c60520f3a75438f277b8535
+- checksum: 912aafa299e58c18d6e273bae6fb57e9b281bcc3
   name: LuckPerms
-  version: 5.4.126
-- checksum: e9715e2e3d605d83299d21408ede9b2504ad87f2
+  version: 5.4.131
+- checksum: 7d98e6cc99a7cd3ef92a6f45bdc27097065b9a5e
   name: spark
-  version: 1.10.65
+  version: 1.10.71
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
@@ -84,12 +84,12 @@ plugins:
 - checksum: e4866a50200229eeae91ea1faf6bc87f623e70c1
   name: FreedomChat
   version: 1.5.2
-- checksum: 10c955f052035edb5aa5ec9eeb8504ae6d535a71
+- checksum: bcabbb99eadc69b5da8cb6719faf5c722cb6a390
   name: FastAsyncWorldEdit
-  version: 2.9.2
-- checksum: 8e2d326c18de79cb81a669643a76ef09d5b986e8
+  version: 2.10.0
+- checksum: 33b6c2b5dad6f5b99235d4883d4ac1a3d200c3d4
   name: ChunkyBorder
-  version: 1.1.50
+  version: 1.2.13
 - checksum: 80ea1f188a62ee4a7eec4dc5404b216c8aa1b7b5
   name: SignedVelocity
   version: 1.2.2
@@ -100,5 +100,5 @@ plugins:
   name: DeathDB
   version: '1.0'
 version:
-  build: 381
-  name: 1.20.4
+  build: 138
+  name: 1.20.6

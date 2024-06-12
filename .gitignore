@@ -19,6 +19,7 @@ logs/
 plugins/*/*.log
 plugins/*/lang/*
 plugins/*/translations/*
+plugins/.paper-remapped/
 plugins/BuycraftX/*.json
 plugins/BuycraftX/cache
 plugins/BuycraftX/gui.cache

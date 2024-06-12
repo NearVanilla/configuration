@@ -3,7 +3,7 @@
 # 
 # World: world_the_end (minecraft:the_end)
 
-_version: 30
+_version: 31
 anticheat:
   anti-xray:
     enabled: false
@@ -206,5 +206,3 @@ feature-seeds:
     minecraft:warped_fungus: 8845852911711353420
     minecraft:warped_fungus_planted: 8152297058458231711
     minecraft:weeping_vines: -6655640142269015182
-spawn:
-  keep-spawn-loaded: false
