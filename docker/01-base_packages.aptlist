@@ -1,7 +1,10 @@
+apt-transport-https
+ca-certificates
 curl
 dumb-init
 gawk
 git
+gnupg
 jq
 python3-full
 wget

@@ -19,10 +19,19 @@ FROM debian:${DEBIAN_VERSION} AS base
 SHELL ["/bin/bash", "-c"]
 
 # Install all requirements first
-COPY docker/*.aptlist /tmp/
-RUN apt-get update \
-  && for list in /tmp/*.aptlist; do xargs apt-get install -y < <(sed '/^#/d' "${list}"); done \
-  && rm -rf /var/lib/apt/lists/*
+#COPY docker/*.aptlist /tmp/
+RUN --mount=type=bind,source=docker,target=/docker <<APT
+  base64 -d </docker/corretto.key > /usr/share/keyrings/corretto-keyring.gpg
+  cat - <<<"deb [signed-by=/usr/share/keyrings/corretto-keyring.gpg] https://apt.corretto.aws stable main" > /etc/apt/sources.list.d/corretto.list
+  set -eux
+  apt-get update
+  apt-get upgrade -y
+  for list in /docker/*.aptlist; do
+    apt-get update
+    xargs apt-get install -y < <(sed '/^#/d' "${list}")
+  done
+  rm -rf /var/lib/apt/lists/*
+APT
 
 RUN useradd --create-home --uid 1000 runner
 

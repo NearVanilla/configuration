@@ -1,2 +1,4 @@
-# We need to install jre separately as otherwise it hits a debian bug around ca-certificates
-openjdk-17-jre
+java-21-amazon-corretto-jdk
+libxi6
+libxtst6
+libxrender1
