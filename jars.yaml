@@ -75,9 +75,9 @@ plugins:
 - checksum: 55e89ae1c8e01117d89165cc933a217b76f55bb7
   name: SpectatorMode
   version: 2.2.0
-- checksum: 942946199c475658e5b82f09eed69eba078ed3b0
+- checksum: 1ccab7ed038e1e4f7b9d16ec53ab8a9de233d576
   name: CarbonChat
-  version: 2.1.0-beta.23
+  version: 3.0.0-beta.26
 - checksum: c8d03b8ae3c226faedc7a0c4117ad9de59606414
   name: voicechat
   version: 2.4.30
