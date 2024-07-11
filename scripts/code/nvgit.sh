@@ -28,17 +28,38 @@ get_base_branch_for_dir() {
 }
 
 pull() {
+  local d
   for d in "${all_dirs[@]}"; do
     printf "Pulling in %s\n" "${d}"
     git -C "${d}" pull
   done
 }
 
+fetch() {
+  local d
+  for d in "${all_dirs[@]}"; do
+    printf "Fetching in %s\n" "${d}"
+    git -C "${d}" fetch
+  done
+}
+
 set-upstream() {
+  local d
   for d in "${all_dirs[@]}"; do
     local branch
     branch="$(git -C "${d}" branch --show-current)"
     git -C "${d}" branch --set-upstream-to=origin/"${branch}" "${branch}"
+  done
+}
+
+checkout() {
+  local prefix="${1:-}"
+  local d base_branch branch
+  for d in "${all_dirs[@]}"; do
+    base_branch="$(get_base_branch_for_dir "${d}")"
+    branch="${prefix}${base_branch}"
+    printf "Checking out %s in %s\n" "${branch}" "${d}"
+    git -C "${d}" checkout "${branch}"
   done
 }
 
@@ -47,7 +68,7 @@ action="${1?action}"
 shift
 
 case "${action}" in
-  pull|set-upstream) "${action}"
+  pull|set-upstream|fetch|checkout) "${action}" "${@}"
     ;;
   *)
     printf 'Unknown action - %s\n' "${action}" >&2
