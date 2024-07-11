@@ -12,9 +12,6 @@ plugins:
 - checksum: 3c8c9a14a76520dbd9d2b41fd9d1138a26210fc6
   name: swap
   version: 1.0.0
-- checksum: 83170699c1a79e6ce5ed1efbb35b52d054b51efb
-  name: ServerUtils
-  version: 3.5.4
 - checksum: dc6e874a07a5b5da410fb600d4a99c57a0df321c
   name: ViaBackwards
   version: 4.10.2
@@ -25,5 +22,5 @@ plugins:
   name: signedvelocity
   version: 1.2.2
 version:
-  build: 398
+  build: 406
   name: 3.3.0-SNAPSHOT
