@@ -2,12 +2,6 @@ plugins:
 - name: DiscordSRV
   resource: DiscordSRV/DiscordSRV
   type: github
-- name: ServerUtils-Velocity
-  resource: FrankHeijden/ServerUtils
-  type: github
-- name: ServerUtils-Bukkit
-  resource: FrankHeijden/ServerUtils
-  type: github
 - name: OpenInv
   resource: Jikoo/OpenInv
   type: github
