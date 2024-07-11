@@ -9,12 +9,9 @@ plugins:
 - checksum: 912aafa299e58c18d6e273bae6fb57e9b281bcc3
   name: LuckPerms
   version: 5.4.131
-- checksum: 743c70bb0994aa4151eb9884786dd3960cbfe212
-  name: ServerUtils
-  version: 3.5.4
-- checksum: 1ccab7ed038e1e4f7b9d16ec53ab8a9de233d576
+- checksum: f471bbcefbe5ef63f4a948b9c2a4d3abdee1e24a
   name: CarbonChat
-  version: 3.0.0-beta.26
+  version: 3.0.0-beta.27
 - checksum: c8d03b8ae3c226faedc7a0c4117ad9de59606414
   name: voicechat
   version: 2.4.30
@@ -40,5 +37,5 @@ plugins:
   name: PaperTweaks
   version: 0.4.0
 version:
-  build: 138
+  build: 148
   name: 1.20.6
