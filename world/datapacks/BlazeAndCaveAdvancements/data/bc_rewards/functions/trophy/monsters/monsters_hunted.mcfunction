@@ -1,2 +1,3 @@
-give @s minecraft:book{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:132,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#6D864C\",\"translate\":\"Mobestiary\"}",Lore:["{\"color\":\"#6D864C\",\"translate\":\"Available at stores now\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Monsters Hunted\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Mobestiary"}]}
+give @s book[item_name='{"translate":"Mobestiary","color":"#6D864C","bold":true,"italic":false}',lore=['{"translate":"Available at stores now","color":"#6D864C"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Monsters Hunted","color":"light_purple","italic":false}'],custom_model_data=132,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Mobestiary"}]

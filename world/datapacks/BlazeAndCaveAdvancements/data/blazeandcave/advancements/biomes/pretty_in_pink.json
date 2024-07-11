@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cherry_leaves"
+			"id": "minecraft:cherry_leaves"
 		},
 		"title": {"translate":"Pretty in Pink"},
 		"description": {"color":"#75E1FF","translate":"Find a Cherry Grove"},
@@ -22,7 +22,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:cherry_grove"
+								"biomes": "minecraft:cherry_grove"
 							}
 						}
 					},

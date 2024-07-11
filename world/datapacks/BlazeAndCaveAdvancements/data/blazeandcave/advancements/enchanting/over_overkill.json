@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:netherite_axe"
+			"id": "minecraft:netherite_axe"
 		},
 		"title": {"translate":"Over-Overkill"},
 		"description": {"color":"dark_purple","translate":"Deal sixteen hearts of damage in a single melee blow"},

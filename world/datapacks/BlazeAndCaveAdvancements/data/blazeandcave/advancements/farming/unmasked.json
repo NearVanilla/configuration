@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:shears"
+			"id": "minecraft:shears"
 		},
 		"title": {"translate":"Unmasked"},
 		"description": {"color":"green","translate":"Shear the Pumpkin off of a Snow Golem to unveil their true face"},

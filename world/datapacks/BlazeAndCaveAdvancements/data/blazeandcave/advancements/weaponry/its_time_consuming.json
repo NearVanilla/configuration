@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:clock"
+			"id": "minecraft:clock"
 		},
 		"title": {"translate":"It's time consuming"},
 		"description": {"color":"green","translate":"Kill something using a clock"},

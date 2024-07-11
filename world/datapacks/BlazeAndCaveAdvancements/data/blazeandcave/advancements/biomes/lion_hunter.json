@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cod"
+			"id": "minecraft:cod"
 		},
 		"title": {"translate":"Lion Hunter"},
 		"description": {"color":"green","translate":"Feed an Ocelot fish to try and gain its trust"},
@@ -16,7 +16,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"tag": "blazeandcave:ocelot_feedable"
+					"items": "#blazeandcave:ocelot_feedable"
 				},
 				"entity": [
 					{

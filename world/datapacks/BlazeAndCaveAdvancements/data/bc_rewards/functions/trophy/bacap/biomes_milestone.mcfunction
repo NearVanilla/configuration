@@ -1,2 +1,3 @@
-give @s minecraft:spruce_boat{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:1,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#805E36\",\"translate\":\"Explorer's Trophy\"}",Lore:["{\"color\":\"#805E36\",\"translate\":\"It's a magical world, ol' buddy... let's go exploring!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"yellow\",\"translate\":\"Biomes Milestone\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Explorer's Trophy"}]}
+give @s spruce_boat[item_name='{"translate":"Explorer\'s Trophy","color":"#805E36","bold":true,"italic":false}',lore=['{"translate":"It\'s a magical world, ol\' buddy... let\'s go exploring!","color":"#805E36"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Biomes Milestone","color":"yellow","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantments={levels:{"minecraft:unbreaking":1},show_in_tooltip:false}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Explorer's Trophy"}]

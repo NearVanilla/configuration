@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:fox_spawn_egg"
+			"id": "minecraft:fox_spawn_egg"
 		},
 		"title": {"translate":"What Does The Fox Say?"},
 		"description": {"color":"green","translate":"Breed two red foxes with sweet berries"},

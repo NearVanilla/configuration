@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:composter"
+			"id": "minecraft:composter"
 		},
 		"title": {"translate":"The garbage will do!"},
 		"description": {"color":"green","translate":"Craft a composter using wooden slabs then place it"},

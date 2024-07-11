@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:spruce_stairs"
+			"id": "minecraft:spruce_stairs"
 		},
 		"title": {"translate":"Stairs? NOOOOO!"},
 		"description": {"color":"green","translate":"Craft some stairs"},
@@ -17,7 +17,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "minecraft:stairs"
+						"items": "#minecraft:stairs"
 					}
 				]
 			}

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:mangrove_propagule"
+			"id": "minecraft:mangrove_propagule"
 		},
 		"title": {"translate":"Mangrove Master"},
 		"description": {"color":"#75E1FF","translate":"Craft every item made out of mangrove wood"},

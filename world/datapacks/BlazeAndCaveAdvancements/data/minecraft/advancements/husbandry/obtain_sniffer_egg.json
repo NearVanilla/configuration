@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sniffer_egg"
+			"id": "minecraft:sniffer_egg"
 		},
 		"title": {"translate":"Life… uhh… finds a way"},
 		"description": {"color":"green","translate":"Find a strange egg among the sand of an Ocean Ruin using a Brush. Smells interesting"},

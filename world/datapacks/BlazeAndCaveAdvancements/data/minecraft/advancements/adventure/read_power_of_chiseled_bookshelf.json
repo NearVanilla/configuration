@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chiseled_bookshelf"
+			"id": "minecraft:chiseled_bookshelf"
 		},
 		"title": {"translate":"The Power of Books"},
 		"description": {"color":"green","translate":"Read the power signal of a Chiseled Bookshelf using a comparator"},

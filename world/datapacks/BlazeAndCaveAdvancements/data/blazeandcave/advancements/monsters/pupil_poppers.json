@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:spider_eye"
+			"id": "minecraft:spider_eye"
 		},
 		"title": {"translate":"Pupil Poppers"},
 		"description": {"color":"dark_purple","translate":"Eat 1000 Spider Eyes"},

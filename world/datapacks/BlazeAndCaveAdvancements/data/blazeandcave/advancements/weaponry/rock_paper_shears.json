@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:shears"
+			"id": "minecraft:shears"
 		},
 		"title": {"translate":"Rock, Paper, Shears!"},
 		"description": {"color":"green","translate":"Beat a zombie at rock, paper, shears"},

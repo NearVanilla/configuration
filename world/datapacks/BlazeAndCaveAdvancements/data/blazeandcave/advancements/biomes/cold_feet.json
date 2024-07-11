@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:snowball"
+			"id": "minecraft:snowball"
 		},
 		"title": {"translate":"Cold Feet"},
 		"description": {"color":"#75E1FF","translate":"Discover every snowy biome"},
@@ -22,7 +22,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:snowy_taiga"
+								"biomes": "minecraft:snowy_taiga"
 							}
 						}
 					},
@@ -51,7 +51,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:snowy_plains"
+								"biomes": "minecraft:snowy_plains"
 							}
 						}
 					},
@@ -80,7 +80,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:ice_spikes"
+								"biomes": "minecraft:ice_spikes"
 							}
 						}
 					},
@@ -109,7 +109,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:frozen_river"
+								"biomes": "minecraft:frozen_river"
 							}
 						}
 					},
@@ -138,7 +138,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:snowy_beach"
+								"biomes": "minecraft:snowy_beach"
 							}
 						}
 					},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chorus_fruit"
+			"id": "minecraft:chorus_fruit"
 		},
 		"title": {"translate":"Getting Chorus"},
 		"description": {"color":"green","translate":"Attack a chorus tree until it collapses"},

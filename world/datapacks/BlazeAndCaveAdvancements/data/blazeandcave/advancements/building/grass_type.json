@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:podzol"
+			"id": "minecraft:podzol"
 		},
 		"title": {"translate":"Grass Type"},
 		"description": {"color":"#75E1FF","translate":"Obtain every type of grass block in your inventory"},

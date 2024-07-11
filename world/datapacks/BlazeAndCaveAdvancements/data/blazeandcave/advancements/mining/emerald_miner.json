@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:emerald_ore"
+			"id": "minecraft:emerald_ore"
 		},
 		"title": {"translate":"Emerald Miner"},
 		"description": {"color":"dark_purple","translate":"Mine a stack of raw emerald ore"},
@@ -18,7 +18,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "minecraft:emerald_ores",
+						"items": "#minecraft:emerald_ores",
 						"count": 64
 					}
 				]

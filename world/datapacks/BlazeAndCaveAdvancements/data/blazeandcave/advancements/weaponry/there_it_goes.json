@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:spectral_arrow"
+			"id": "minecraft:spectral_arrow"
 		},
 		"title": {"translate":"There it goes…"},
 		"description": {"color":"dark_purple","translate":"Kill a mob at the bottom of the world from the build limit using any kind of projectile"},

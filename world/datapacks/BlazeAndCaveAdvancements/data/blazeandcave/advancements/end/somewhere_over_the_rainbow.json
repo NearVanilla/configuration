@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:lime_shulker_box"
+			"id": "minecraft:lime_shulker_box"
 		},
 		"title": {"translate":"Somewhere Over The Rainbow..."},
 		"description": {"color":"#75E1FF","translate":"Craft all 16 shulker box types"},

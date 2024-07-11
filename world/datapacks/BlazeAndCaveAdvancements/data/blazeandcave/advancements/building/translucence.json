@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:magenta_stained_glass"
+			"id": "minecraft:magenta_stained_glass"
 		},
 		"title": {"translate":"Translucence"},
 		"description": {"color":"#75E1FF","translate":"Craft all 16 colors of stained glass"},

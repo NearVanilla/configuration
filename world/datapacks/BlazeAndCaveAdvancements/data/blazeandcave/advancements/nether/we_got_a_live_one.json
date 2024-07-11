@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:piglin_spawn_egg"
+			"id": "minecraft:piglin_spawn_egg"
 		},
 		"title": {"translate":"We Got a Live One!"},
 		"description": {"color":"#75E1FF","translate":"Bring a Piglin into the Overworld then spare it from an eternity of zombification"},

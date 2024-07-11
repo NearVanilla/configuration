@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bread"
+			"id": "minecraft:bread"
 		},
 		"title": {"translate":"Om Nom Nom"},
 		"description": {"color":"green","translate":"Eat 200 food items","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_statistics"}]},

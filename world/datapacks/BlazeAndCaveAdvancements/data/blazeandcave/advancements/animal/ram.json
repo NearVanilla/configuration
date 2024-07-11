@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:goat_horn"
+			"id": "minecraft:goat_horn"
 		},
 		"title": {"translate":"Ram"},
 		"description": {"color":"green","translate":"Obtain a Goat’s Horn by having one ram into a block"},

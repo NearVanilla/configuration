@@ -12,4 +12,12 @@ execute if score challenge bac_settings matches -1 run scoreboard players set ch
 execute if score super_challenge bac_settings matches -1 run scoreboard players set super_challenge bac_settings -2
 execute if score milestone bac_settings matches -1 run scoreboard players set milestone bac_settings -2
 
+execute if score reward bac_settings matches 1 run scoreboard players set reward bac_settings -2
+execute if score exp bac_settings matches 1 run scoreboard players set exp bac_settings -2
+execute if score trophy bac_settings matches 1 run scoreboard players set trophy bac_settings -2
+
+execute if score reward bac_settings matches -1 run scoreboard players set reward bac_settings -2
+execute if score exp bac_settings matches -1 run scoreboard players set exp bac_settings -2
+execute if score trophy bac_settings matches -1 run scoreboard players set trophy bac_settings -2
+
 function blazeandcave:config

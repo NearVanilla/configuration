@@ -1,2 +1,3 @@
-give @s minecraft:poisonous_potato{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:132,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#DF7F77\",\"translate\":\"Zork Chop\"}",Lore:["{\"color\":\"#698E45\",\"translate\":\"Don't ask\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#75E1FF\",\"translate\":\"Zork Chop\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Zork Chop"}]}
+give @s poisonous_potato[item_name='{"translate":"Zork Chop","color":"#DF7F77","bold":true,"italic":false}',lore=['{"translate":"Don\'t ask","color":"#698E45"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Zork Chop","color":"#75E1FF","italic":false}'],custom_model_data=132,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Zork Chop"}]

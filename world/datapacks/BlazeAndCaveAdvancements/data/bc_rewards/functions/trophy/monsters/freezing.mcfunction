@@ -1,2 +1,3 @@
-give @s minecraft:packed_ice{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#C8DCFF\",\"translate\":\"Vanilla Ice Cream\"}",Lore:["{\"color\":\"#C8DCFF\",\"translate\":\"Life would be vanilla ice cream without 31 flavors of individuality\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Freezing\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Vanilla Ice Cream"}]}
+give @s packed_ice[item_name='{"translate":"Vanilla Ice Cream","color":"#C8DCFF","bold":true,"italic":false}',lore=['{"translate":"Life would be vanilla ice cream without 31 flavors of individuality","color":"#C8DCFF"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Freezing","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Vanilla Ice Cream"}]

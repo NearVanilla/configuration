@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sandstone_wall"
+			"id": "minecraft:sandstone_wall"
 		},
 		"title": {"translate":"Crazy Walls"},
 		"description": {"color":"#75E1FF","translate":"Craft every type of wall"},

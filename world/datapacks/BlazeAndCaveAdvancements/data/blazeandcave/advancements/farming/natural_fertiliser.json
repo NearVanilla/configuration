@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:podzol"
+			"id": "minecraft:podzol"
 		},
 		"title": {"translate":"Natural Fertiliser"},
 		"description": {"color":"green","translate":"Fill up a composter"},

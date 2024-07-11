@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:magenta_carpet"
+			"id": "minecraft:magenta_carpet"
 		},
 		"title": {"translate":"Fuzzy Feet"},
 		"description": {"color":"#75E1FF","translate":"Craft all 16 colors of carpet"},

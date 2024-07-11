@@ -1,2 +1,3 @@
-give @s minecraft:leather_helmet{Trophy:1,CustomModelData:131,HideFlags:70,Unbreakable:1,display:{color:6244353,Name:"{\"italic\":false,\"bold\":true,\"color\":\"#5F4801\",\"translate\":\"Cowboy Hat\"}",Lore:["{\"color\":\"#5F4801\",\"translate\":\"Don't let it get shot off!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Master Farrier\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Cowboy Hat"}]}
+give @s leather_helmet[item_name='{"translate":"Cowboy Hat","color":"#5F4801","bold":true,"italic":false}',lore=['{"translate":"Don\'t let it get shot off!","color":"#5F4801"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Master Farrier","color":"light_purple","italic":false}'],unbreakable={show_in_tooltip:false},custom_model_data=131,custom_data={Trophy:1},dyed_color={rgb:6244353,show_in_tooltip:false}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Cowboy Hat"}]

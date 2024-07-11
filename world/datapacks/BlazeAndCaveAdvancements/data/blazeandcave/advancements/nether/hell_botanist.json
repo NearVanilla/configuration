@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:warped_roots"
+			"id": "minecraft:warped_roots"
 		},
 		"title": {"translate":"Hell Botanist"},
 		"description": {"color":"#75E1FF","translate":"Gather a stack of every Nether plant"},

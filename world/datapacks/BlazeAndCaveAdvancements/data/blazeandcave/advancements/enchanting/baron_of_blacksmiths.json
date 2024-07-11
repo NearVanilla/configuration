@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:damaged_anvil"
+			"id": "minecraft:damaged_anvil"
 		},
 		"title": {"translate":"Baron of Blacksmiths"},
 		"description": {"color":"dark_purple","translate":"Get a stack of regular, chipped and damaged Anvils"},

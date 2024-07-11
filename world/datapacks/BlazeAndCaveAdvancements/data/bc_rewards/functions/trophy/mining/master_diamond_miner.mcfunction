@@ -1,2 +1,3 @@
-give @s minecraft:diamond_block{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#70FBF0\",\"translate\":\"Mayor's Throne\"}",Lore:["{\"color\":\"#70FBF0\",\"translate\":\"MUMBO FOR MAYOR!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Master Diamond Miner\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Mayor's Throne"}]}
+give @s diamond_block[item_name='{"translate":"Mayor\'s Throne","color":"#70FBF0","bold":true,"italic":false}',lore=['{"translate":"MUMBO FOR MAYOR!","color":"#70FBF0"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Master Diamond Miner","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Mayor's Throne"}]

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dead_bush"
+			"id": "minecraft:dead_bush"
 		},
 		"title": {"translate":"Desert Nomad"},
 		"description": {"color":"green","translate":"Kill a husk"},

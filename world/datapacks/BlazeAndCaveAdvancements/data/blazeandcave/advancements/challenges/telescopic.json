@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:spyglass"
+			"id": "minecraft:spyglass"
 		},
 		"title": {"translate":"Telescopic"},
 		"description": {"color":"#FF2A2A","translate":"Look at every mob using a Spyglass, each from at least 25 blocks away"},
@@ -2199,6 +2199,35 @@
 								"type": "player",
 								"looking_at": {
 									"type": "minecraft:sniffer",
+									"distance": {
+										"absolute": {
+											"min": 25
+										}
+									}
+								}
+							}
+						},
+						"entity": "this"
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:spyglass"
+					]
+				}
+			}
+		},
+		"armadillo": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type_specific": {
+								"type": "player",
+								"looking_at": {
+									"type": "minecraft:armadillo",
 									"distance": {
 										"absolute": {
 											"min": 25

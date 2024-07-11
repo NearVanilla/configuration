@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:candle"
+			"id": "minecraft:candle"
 		},
 		"title": {"translate":"Setting up the mood"},
 		"description": {"color":"green","translate":"Place a candle and light it using Flint and Steel"},
@@ -20,14 +20,14 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:candles_and_cakes"
+								"blocks": "#blazeandcave:candles_and_cakes"
 							}
 						}
 					},
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"tag": "blazeandcave:candle_lightables"
+							"items": "#blazeandcave:candle_lightables"
 						}
 					}
 				]

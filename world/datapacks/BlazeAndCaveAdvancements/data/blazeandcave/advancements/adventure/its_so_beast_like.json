@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:saddle"
+			"id": "minecraft:saddle"
 		},
 		"title": {"translate":"It's So Beast-Like!"},
 		"description": {"color":"#75E1FF","translate":"Slay a Ravager in a raid"},

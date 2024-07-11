@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_sword"
+			"id": "minecraft:iron_sword"
 		},
 		"title": {"translate":"The High Road"},
 		"description": {"color":"#75E1FF","translate":"Kill a hostile monster with a melee attack while riding a Camel"},

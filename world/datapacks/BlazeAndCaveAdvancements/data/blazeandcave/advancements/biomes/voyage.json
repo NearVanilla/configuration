@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_boots"
+			"id": "minecraft:diamond_boots"
 		},
 		"title": {"translate":"Voyage"},
 		"description": {"color":"dark_purple","translate":"A hundred kilometres!"},

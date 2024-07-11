@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bone"
+			"id": "minecraft:bone"
 		},
 		"title": {"translate":"Spooky Skeleton"},
 		"description": {"color":"green","translate":"Kill a skeleton"},

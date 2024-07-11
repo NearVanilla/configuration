@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:emerald"
+			"id": "minecraft:emerald"
 		},
 		"title": {"translate":"Filthy Rich"},
 		"description": {"color":"#75E1FF","translate":"Make 64 emeralds"},

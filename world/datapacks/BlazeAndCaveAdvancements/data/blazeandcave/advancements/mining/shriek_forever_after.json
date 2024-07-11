@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sculk_shrieker"
+			"id": "minecraft:sculk_shrieker"
 		},
 		"title": {"translate":"Shriek Forever After"},
 		"description": {"color":"green","translate":"Trigger a Sculk Shrieker in the Deep Dark. Might not want to do that too many more times…"},

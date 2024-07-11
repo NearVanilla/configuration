@@ -1,2 +1,3 @@
-give @s minecraft:milk_bucket{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#F4FFD6\",\"translate\":\"Stale Milk\"}",Lore:["{\"color\":\"#F4FFD6\",\"translate\":\"Please drink this\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#FF2A2A\",\"translate\":\"How Did We Get Here?\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Stale Milk"}]}
+give @s milk_bucket[item_name='{"translate":"Stale Milk","color":"#F4FFD6","bold":true,"italic":false}',lore=['{"translate":"Please drink this","color":"#F4FFD6"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"How Did We Get Here?","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Stale Milk"}]

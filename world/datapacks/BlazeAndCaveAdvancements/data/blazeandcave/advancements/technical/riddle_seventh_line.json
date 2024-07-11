@@ -7,7 +7,7 @@
 			"trigger": "minecraft:thrown_item_picked_up_by_entity",
 			"conditions": {
 				"item": {
-					"tag": "minecraft:piglin_loved"
+					"items": "#minecraft:piglin_loved"
 				},
 				"entity": [
 					{
@@ -35,7 +35,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"tag": "minecraft:piglin_loved"
+					"items": "#minecraft:piglin_loved"
 				},
 				"entity": [
 					{

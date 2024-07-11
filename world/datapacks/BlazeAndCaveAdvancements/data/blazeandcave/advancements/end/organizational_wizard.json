@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:anvil"
+			"id": "minecraft:anvil"
 		},
 		"title": {"translate":"Organizational Wizard"},
 		"description": {"color":"green","translate":"Name a Shulker Box 'Blocks' for storing your blocks"},
@@ -17,7 +17,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "minecraft:shulker_boxes",
+						"items": "#minecraft:shulker_boxes",
 						"nbt": "{display:{Name:\'\"Blocks\"\'}}"
 					}
 				]
@@ -28,7 +28,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "minecraft:shulker_boxes",
+						"items": "#minecraft:shulker_boxes",
 						"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Blocks\\\"}\"}}"
 					}
 				]

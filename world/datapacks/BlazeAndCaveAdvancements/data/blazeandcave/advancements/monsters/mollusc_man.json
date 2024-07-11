@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:nautilus_shell"
+			"id": "minecraft:nautilus_shell"
 		},
 		"title": {"translate":"Mollusc Man"},
 		"description": {"color":"#75E1FF","translate":"Defeat a Drowned that is holding a nautilus shell"},

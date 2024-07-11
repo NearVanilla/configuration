@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chiseled_sandstone"
+			"id": "minecraft:chiseled_sandstone"
 		},
 		"title": {"translate":"Creepers and Withers"},
 		"description": {"color":"green","translate":"Engrave sandstone with creeper and wither patterns"},

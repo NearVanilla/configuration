@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:beacon"
+			"id": "minecraft:beacon"
 		},
 		"title": {"translate":"Bring Home the Beacon"},
 		"description": {"color":"#75E1FF","translate":"Construct and place a Beacon"},

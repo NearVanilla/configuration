@@ -1,2 +1,3 @@
-give @s minecraft:trident{Enchantments:[{id:"minecraft:loyalty",lvl:1},{id:"minecraft:impaling",lvl:3}],Trophy:1,CustomModelData:131,HideFlags:70,Unbreakable:0,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#B11F1F\",\"translate\":\"Devil's Pitchfork\"}",Lore:["{\"color\":\"#B11F1F\",\"translate\":\"One Hell Of A Time\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#FF2A2A\",\"translate\":\"The Devil's Distance\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Devil's Pitchfork"}]}
+give @s trident[item_name='{"translate":"Devil\'s Pitchfork","color":"#B11F1F","bold":true,"italic":false}',lore=['{"translate":"One Hell Of A Time","color":"#B11F1F"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"The Devil\'s Distance","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantments={levels:{"minecraft:impaling":3,"minecraft:loyalty":1}}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Devil's Pitchfork"}]

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:vindicator_spawn_egg"
+			"id": "minecraft:vindicator_spawn_egg"
 		},
 		"title": {"translate":"The one and true Johnny"},
 		"description": {"color":"#75E1FF","translate":"Defeat Johnny"},

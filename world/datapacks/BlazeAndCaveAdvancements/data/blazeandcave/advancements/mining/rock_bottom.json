@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bedrock"
+			"id": "minecraft:bedrock"
 		},
 		"title": {"translate":"Rock Bottom"},
 		"description": {"color":"#75E1FF","translate":"Dig down to the bottom of the world"},

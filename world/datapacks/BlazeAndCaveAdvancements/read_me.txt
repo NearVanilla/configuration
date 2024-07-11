@@ -1,12 +1,12 @@
 BlazeandCave's Advancements Pack
-Version 1.16.6
+Version 1.16.9
 
 By Cavinator1
 
 Thank you for downloading this datapack!
 If you liked or have any ideas for other advancements that could be added to this datapack (or found any issues) feel free to comment.
 
-For this version, please use Minecraft 1.20.3 or 1.20.4.
+For this version, please use Minecraft 1.20.5 or 1.20.6.
 The datapack may or may not continue to work properly in future versions. Please make a backup of your world before attempting to use in future versions in case of bugs.
 
 --- Installing ---
@@ -38,7 +38,7 @@ https://bit.ly/3u9BXTr
 
 
 --- List of advancements: ---
-I challenge you to get all 1100 advancements. :) Or at least as many as you can.
+I challenge you to get all 1104 advancements. :) Or at least as many as you can.
 
 View the list of advancements here:
 http://bit.ly/3HXkft2

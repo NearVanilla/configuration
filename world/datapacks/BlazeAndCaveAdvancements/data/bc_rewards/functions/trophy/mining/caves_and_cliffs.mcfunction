@@ -1,2 +1,3 @@
-give @s minecraft:flowering_azalea{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#70922D\",\"translate\":\"Azalea Parachute\"}",Lore:["{\"color\":\"#70922D\",\"translate\":\"Good thing you didn't need this\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Caves & Cliffs\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Azalea Parachute"}]}
+give @s flowering_azalea[item_name='{"translate":"Azalea Parachute","color":"#70922D","bold":true,"italic":false}',lore=['{"translate":"Good thing you didn\'t need this","color":"#70922D"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Caves & Cliffs","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Azalea Parachute"}]

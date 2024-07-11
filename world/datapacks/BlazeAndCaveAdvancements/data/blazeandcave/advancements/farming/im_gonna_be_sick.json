@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:slime_ball"
+			"id": "minecraft:slime_ball"
 		},
 		"title": {"translate":"I'm gonna be sick!"},
 		"description": {"color":"#75E1FF","translate":"Slurp every kind of suspicious stew"},
@@ -20,7 +20,13 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{effects:[{id:\"minecraft:regeneration\"}]}"
+					"components": {
+						"minecraft:suspicious_stew_effects": [
+							{
+								"id": "minecraft:regeneration"
+							}
+						]
+					}
 				}
 			}
 		},
@@ -31,7 +37,14 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{effects:[{id:\"minecraft:jump_boost\"}]}"
+					"components": {
+						"minecraft:suspicious_stew_effects": [
+							{
+								"id": "minecraft:jump_boost",
+								"duration": 120
+							}
+						]
+					}
 				}
 			}
 		},
@@ -42,7 +55,14 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{effects:[{id:\"minecraft:poison\"}]}"
+					"components": {
+						"minecraft:suspicious_stew_effects": [
+							{
+								"id": "minecraft:poison",
+								"duration": 240
+							}
+						]
+					}
 				}
 			}
 		},
@@ -53,7 +73,13 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{effects:[{id:\"minecraft:wither\"}]}"
+					"components": {
+						"minecraft:suspicious_stew_effects": [
+							{
+								"id": "minecraft:wither"
+							}
+						]
+					}
 				}
 			}
 		},
@@ -64,7 +90,14 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{effects:[{id:\"minecraft:weakness\"}]}"
+					"components": {
+						"minecraft:suspicious_stew_effects": [
+							{
+								"id": "minecraft:weakness",
+								"duration": 180
+							}
+						]
+					}
 				}
 			}
 		},
@@ -75,7 +108,13 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{effects:[{id:\"minecraft:blindness\"}]}"
+					"components": {
+						"minecraft:suspicious_stew_effects": [
+							{
+								"id": "minecraft:blindness"
+							}
+						]
+					}
 				}
 			}
 		},
@@ -86,7 +125,14 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{effects:[{id:\"minecraft:fire_resistance\"}]}"
+					"components": {
+						"minecraft:suspicious_stew_effects": [
+							{
+								"id": "minecraft:fire_resistance",
+								"duration": 80
+							}
+						]
+					}
 				}
 			}
 		},		
@@ -97,7 +143,14 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{effects:[{id:\"minecraft:saturation\"}]}"
+					"components": {
+						"minecraft:suspicious_stew_effects": [
+							{
+								"id": "minecraft:saturation",
+								"duration": 7
+							}
+						]
+					}
 				}
 			}
 		},
@@ -108,7 +161,14 @@
 					"items": [
 						"minecraft:suspicious_stew"
 					],
-					"nbt": "{effects:[{id:\"minecraft:night_vision\"}]}"
+					"components": {
+						"minecraft:suspicious_stew_effects": [
+							{
+								"id": "minecraft:night_vision",
+								"duration": 100
+							}
+						]
+					}
 				}
 			}
 		}

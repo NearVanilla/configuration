@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:ender_eye"
+			"id": "minecraft:ender_eye"
 		},
 		"title": {"translate":"Super Challenges Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Super Challenges tab. Good luck with this one ;)"},

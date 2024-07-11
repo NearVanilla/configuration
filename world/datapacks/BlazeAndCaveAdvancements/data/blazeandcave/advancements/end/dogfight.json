@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bow"
+			"id": "minecraft:bow"
 		},
 		"title": {"translate":"Dogfight"},
 		"description": {"color":"dark_purple","translate":"Kill a Skeleton or Stray while both you and it have levitation"},
@@ -22,9 +22,6 @@
 						"minecraft:levitation": {
 							"amplifier": {
 								"min": 0
-							},
-							"duration": {
-								"min": 1
 							}
 						}
 					}
@@ -38,9 +35,6 @@
 								"minecraft:levitation": {
 									"amplifier": {
 										"min": 0
-									},
-									"duration": {
-										"min": 1
 									}
 								}
 							}
@@ -58,9 +52,6 @@
 						"minecraft:levitation": {
 							"amplifier": {
 								"min": 0
-							},
-							"duration": {
-								"min": 1
 							}
 						}
 					}
@@ -74,9 +65,6 @@
 								"minecraft:levitation": {
 									"amplifier": {
 										"min": 0
-									},
-									"duration": {
-										"min": 1
 									}
 								}
 							}

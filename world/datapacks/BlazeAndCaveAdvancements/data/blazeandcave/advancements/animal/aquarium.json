@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:salmon_bucket"
+			"id": "minecraft:salmon_bucket"
 		},
 		"title": {"translate":"Aquarium"},
 		"description": {"color":"#75E1FF","translate":"Catch all four types of fish and set them free in an aquarium"},

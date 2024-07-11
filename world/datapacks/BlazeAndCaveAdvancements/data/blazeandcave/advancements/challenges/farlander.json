@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:structure_void"
+			"id": "minecraft:structure_void"
 		},
 		"title": {"translate":"Farlander"},
 		"description": {"color":"light_purple","translate":"Travel all the way to the border of the world"},

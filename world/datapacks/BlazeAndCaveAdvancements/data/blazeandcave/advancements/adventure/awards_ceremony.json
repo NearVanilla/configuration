@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:gold_block"
+			"id": "minecraft:gold_block"
 		},
 		"title": {"translate":"Awards Ceremony"},
 		"description": {"color":"light_purple","translate":"Have an Allay present to you a trophy awarded from completing one of the advancements"},
@@ -27,7 +27,9 @@
 					}
 				],
 				"item": {
-					"nbt": "{Trophy:1}"
+					"custom_data": {
+						"Trophy": 1
+					}
 				}
 			}
 		}

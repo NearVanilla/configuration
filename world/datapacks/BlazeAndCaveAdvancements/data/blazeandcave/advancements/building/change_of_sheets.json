@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:light_blue_bed"
+			"id": "minecraft:light_blue_bed"
 		},
 		"title": {"translate":"Change of Sheets"},
 		"description": {"color":"green","translate":"Dye your bed a different color than white"},

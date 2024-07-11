@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:prismarine"
+			"id": "minecraft:prismarine"
 		},
 		"title": {"translate":"Monumental"},
 		"description": {"color":"green","translate":"Find an Ocean Monument"},
@@ -21,7 +21,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"structure": "monument"
+								"structures": "monument"
 							}
 						}
 					},

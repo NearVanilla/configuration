@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"id": "minecraft:stone"
 		},
 		"title": {"translate":"Its original form"},
 		"description": {"color":"green","translate":"Use your furnace to smelt cobblestone back into stone"},

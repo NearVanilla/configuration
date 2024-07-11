@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dispenser"
+			"id": "minecraft:dispenser"
 		},
 		"title": {"translate":"A Furious Test Subject"},
 		"description": {"color":"dark_purple","translate":"Get attacked by a mob with every potion effect"},

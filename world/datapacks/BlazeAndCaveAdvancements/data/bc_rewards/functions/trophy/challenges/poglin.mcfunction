@@ -1,2 +1,3 @@
-give @s minecraft:porkchop{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:134,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#ab4d4d\",\"translate\":\"Poglin\"}",Lore:["{\"color\":\"#ab4d4d\",\"translate\":\"So when I MLG water-bucket... Poglin!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#FF2A2A\",\"translate\":\"Poglin!\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Poglin"}]}
+give @s porkchop[item_name='{"translate":"Poglin","color":"#AB4D4D","bold":true,"italic":false}',lore=['{"translate":"So when I MLG water-bucket... Poglin!","color":"#AB4D4D"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Poglin!","color":"#FF2A2A","italic":false}'],custom_model_data=134,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Poglin"}]

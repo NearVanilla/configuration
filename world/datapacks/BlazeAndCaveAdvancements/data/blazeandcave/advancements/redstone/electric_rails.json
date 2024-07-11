@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:powered_rail"
+			"id": "minecraft:powered_rail"
 		},
 		"title": {"translate":"Electric Rails"},
 		"description": {"color":"green","translate":"Making furnace minecarts completely useless"},

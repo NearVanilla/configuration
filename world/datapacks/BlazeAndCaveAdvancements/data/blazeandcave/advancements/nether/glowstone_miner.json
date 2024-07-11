@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:glowstone"
+			"id": "minecraft:glowstone"
 		},
 		"title": {"translate":"Glowstone Miner"},
 		"description": {"color":"#75E1FF","translate":"Mine or craft a stack of glowstone blocks"},

@@ -1,2 +1,3 @@
-give @s minecraft:leather{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#C65C35\",\"translate\":\"Quiver\"}",Lore:["{\"color\":\"#C65C35\",\"translate\":\"You can't actually store arrows in it\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Bullseye\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Quiver"}]}
+give @s leather[item_name='{"translate":"Quiver","color":"#C65C35","bold":true,"italic":false}',lore=['{"translate":"You can\'t actually store arrows in it","color":"#C65C35"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Bullseye","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Quiver"}]

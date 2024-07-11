@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stick",
-			"nbt": "{Enchantments:[{id:\"minecraft:smite\",lvl:10}]}"
+			"id": "minecraft:stick",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
 		},
 		"title": {"translate":"Expelliarmus!"},
 		"description": {"color":"green","translate":"Hit a mob with a stick"},

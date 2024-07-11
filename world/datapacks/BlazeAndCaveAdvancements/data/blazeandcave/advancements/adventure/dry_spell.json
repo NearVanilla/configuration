@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:wet_sponge"
+			"id": "minecraft:wet_sponge"
 		},
 		"title": {"translate":"Dry Spell"},
 		"description": {"color":"green","translate":"Dry a sponge in a furnace"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:saddle"
+			"id": "minecraft:saddle"
 		},
 		"title": {"translate":"Cowboy"},
 		"description": {"color":"green","translate":"Tame a horse by jumping on it over and over again"},

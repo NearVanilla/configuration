@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:acacia_boat"
+			"id": "minecraft:acacia_boat"
 		},
 		"title": {"translate":"Jenga"},
 		"description": {"color":"#75E1FF","translate":"Ride a Strider riding another Strider riding a boat riding a minecart"},

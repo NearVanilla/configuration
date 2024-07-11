@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:smooth_stone"
+			"id": "minecraft:smooth_stone"
 		},
 		"title": {"translate":"Smooth, dude!"},
 		"description": {"color":"green","translate":"Smelt normal stone further into smooth stone"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:map"
+			"id": "minecraft:map"
 		},
 		"title": {"translate":"Subspace Bubble"},
 		"description": {"color":"dark_purple","translate":"Use the Nether to travel 7km in the Overworld"},

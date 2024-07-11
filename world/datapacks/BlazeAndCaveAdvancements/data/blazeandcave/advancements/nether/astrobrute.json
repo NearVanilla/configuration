@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:glass"
+			"id": "minecraft:glass"
 		},
 		"title": {"translate":"Astrobrute"},
 		"description": {"color":"dark_purple","translate":"Send a Piglin Brute to the End and kill it there before it zombifies"},

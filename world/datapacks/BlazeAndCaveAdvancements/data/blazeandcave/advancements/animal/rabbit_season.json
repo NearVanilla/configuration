@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cooked_rabbit"
+			"id": "minecraft:cooked_rabbit"
 		},
 		"title": {"translate":"Rabbit Season"},
 		"description": {"color":"green","translate":"Killing bunnies is cruel. Period."},

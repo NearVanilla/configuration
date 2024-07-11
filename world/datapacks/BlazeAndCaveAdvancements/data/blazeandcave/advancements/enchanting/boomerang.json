@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:trident"
+			"id": "minecraft:trident"
 		},
 		"title": {"translate":"Boomerang"},
 		"description": {"color":"#75E1FF","translate":"Turn your trident into a boomerang by getting Loyalty on it"},
@@ -21,11 +21,13 @@
 						"items": [
 							"minecraft:trident"
 						],
-						"enchantments": [
-							{
-								"enchantment": "minecraft:loyalty"
-							}
-						]
+						"predicates": {
+							"enchantments": [
+								{
+										"enchantment": "minecraft:loyalty"
+								}
+							]
+						}
 					}
 				]
 			}

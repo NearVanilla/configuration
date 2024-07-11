@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:redstone_block"
+			"id": "minecraft:redstone_block"
 		},
 		"title": {"translate":"Master Engineer"},
 		"description": {"color":"dark_purple","translate":"Craft a stack of all types of redstone component"},

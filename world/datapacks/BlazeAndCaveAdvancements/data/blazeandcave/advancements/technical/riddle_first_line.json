@@ -11,11 +11,13 @@
 						"items": [
 							"minecraft:compass"
 						],					
-						"enchantments": [
-							{
-								"enchantment": "minecraft:vanishing_curse"
-							}
-						]
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:vanishing_curse"
+								}
+							]
+						}
 					}
 				],
 				"type_specific": {

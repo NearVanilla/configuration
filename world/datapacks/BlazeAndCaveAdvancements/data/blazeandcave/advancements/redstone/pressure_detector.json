@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:detector_rail"
+			"id": "minecraft:detector_rail"
 		},
 		"title": {"translate":"Pressure Detector"},
 		"description": {"color":"green","translate":"Use a pressure plate to craft a detector rail"},

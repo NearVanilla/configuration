@@ -73,6 +73,7 @@ world-settings:
     simulation-distance: 4
     view-distance: 7
   default:
+    unload-frozen-chunks: false
     seed-trialchambers: 94251327
     seed-trailruins: 83469867
     seed-ancientcity: 20083232

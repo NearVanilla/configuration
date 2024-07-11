@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:water_bucket"
+			"id": "minecraft:water_bucket"
 		},
 		"title": {"translate":"Do A Barrel Roll!"},
 		"description": {"color":"#75E1FF","translate":"Use Riptide to give yourself a boost"},
@@ -20,11 +20,13 @@
 					"items": [
 						"minecraft:trident"
 					],
-					"enchantments": [
-						{
-							"enchantment": "minecraft:riptide"
-						}
-					]
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantment": "minecraft:riptide"
+							}
+						]
+					}
 				}
 			}
 		}

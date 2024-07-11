@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:elytra"
+			"id": "minecraft:elytra"
 		},
 		"title": {"translate":"Supersonic"},
 		"description": {"color":"#75E1FF","translate":"Fly 100km with elytra"},

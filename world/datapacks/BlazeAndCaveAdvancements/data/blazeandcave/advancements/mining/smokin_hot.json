@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:smoker"
+			"id": "minecraft:smoker"
 		},
 		"title": {"translate":"Smokin' Hot"},
 		"description": {"color":"green","translate":"Upgrade your furnace to a smoker using some logs"},

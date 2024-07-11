@@ -1,2 +1,3 @@
-give @s minecraft:splash_potion{CustomPotionEffects:[{Id:7,Amplifier:2}],CustomPotionColor:8912896,Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#880000\",\"translate\":\"Instant Death\"}",Lore:["{\"color\":\"#880000\",\"translate\":\"Since you like dying so much...\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#FF2A2A\",\"translate\":\"Death From All\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Instant Death"}]}
+give @s splash_potion[item_name='{"translate":"Instant Death","color":"#880000","bold":true,"italic":false}',lore=['{"translate":"Since you like dying so much...","color":"#880000"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Death From All","color":"#FF2A2A","italic":false}'],custom_data={Trophy:1},custom_model_data=131,potion_contents={custom_effects:[{"id":"minecraft:instant_damage","amplifier":2}],show_in_tooltip:false},hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Instant Death"}]

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:coal_block"
+			"id": "minecraft:coal_block"
 		},
 		"title": {"translate":"Master Coal Miner"},
 		"description": {"color":"dark_purple","translate":"Mine enough coal to make a stack of coal blocks"},

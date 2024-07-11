@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:light_blue_carpet"
+			"id": "minecraft:light_blue_carpet"
 		},
 		"title": {"translate":"Blistering Barnacles!"},
 		"description": {"color":"green","translate":"Get spat at by a llama"},

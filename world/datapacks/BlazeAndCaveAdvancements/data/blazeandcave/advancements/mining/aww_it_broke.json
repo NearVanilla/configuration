@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stick"
+			"id": "minecraft:stick"
 		},
 		"title": {"translate":"Aww it broke!"},
 		"description": {"color":"green","translate":"Break your first tool"},

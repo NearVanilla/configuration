@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:armadillo_scute"
+		},
+		"title": {"translate":"advancements.adventure.brush_armadillo.title"},
+		"description": {"color":"green","translate":"advancements.adventure.brush_armadillo.description"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:animal/puppies_yipe",
+	"rewards": {
+		"function": "bc_rewards:animal/isnt_it_scute"
+	},
+	"criteria": {
+		"brush_armadillo": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:armadillo"
+						}
+					}
+				],
+				"item": {
+					"items": "minecraft:brush"
+				}
+			}
+		}
+	}
+}

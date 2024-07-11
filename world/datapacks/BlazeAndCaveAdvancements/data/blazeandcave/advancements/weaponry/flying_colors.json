@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:shield",
-			"nbt": "{BlockEntityTag:{Base:14}}"
+			"id": "minecraft:shield",
+			"components": {
+				"minecraft:base_color": "red"
+			}
 		},
 		"title": {"translate":"Flying Colors"},
 		"description": {"color":"green","translate":"Apply a banner (with no patterns) to your shield"},
@@ -21,7 +23,9 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{BlockEntityTag:{Base:0}}"
+						"components": {
+							"minecraft:base_color": "white"
+						}
 					}
 				]
 			}
@@ -34,7 +38,9 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{BlockEntityTag:{Base:1}}"
+						"components": {
+							"minecraft:base_color": "orange"
+						}
 					}
 				]
 			}
@@ -47,7 +53,9 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{BlockEntityTag:{Base:2}}"
+						"components": {
+							"minecraft:base_color": "magenta"
+						}
 					}
 				]
 			}
@@ -60,7 +68,9 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{BlockEntityTag:{Base:3}}"
+						"components": {
+							"minecraft:base_color": "light_blue"
+						}
 					}
 				]
 			}
@@ -73,7 +83,9 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{BlockEntityTag:{Base:4}}"
+						"components": {
+							"minecraft:base_color": "yellow"
+						}
 					}
 				]
 			}
@@ -86,7 +98,9 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{BlockEntityTag:{Base:5}}"
+						"components": {
+							"minecraft:base_color": "lime"
+						}
 					}
 				]
 			}
@@ -99,7 +113,9 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{BlockEntityTag:{Base:6}}"
+						"components": {
+							"minecraft:base_color": "pink"
+						}
 					}
 				]
 			}
@@ -112,7 +128,9 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{BlockEntityTag:{Base:7}}"
+						"components": {
+							"minecraft:base_color": "gray"
+						}
 					}
 				]
 			}
@@ -125,7 +143,9 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{BlockEntityTag:{Base:8}}"
+						"components": {
+							"minecraft:base_color": "light_gray"
+						}
 					}
 				]
 			}
@@ -138,7 +158,9 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{BlockEntityTag:{Base:9}}"
+						"components": {
+							"minecraft:base_color": "cyan"
+						}
 					}
 				]
 			}
@@ -151,7 +173,9 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{BlockEntityTag:{Base:10}}"
+						"components": {
+							"minecraft:base_color": "purple"
+						}
 					}
 				]
 			}
@@ -164,7 +188,9 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{BlockEntityTag:{Base:11}}"
+						"components": {
+							"minecraft:base_color": "blue"
+						}
 					}
 				]
 			}
@@ -177,7 +203,9 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{BlockEntityTag:{Base:12}}"
+						"components": {
+							"minecraft:base_color": "brown"
+						}
 					}
 				]
 			}
@@ -190,7 +218,9 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{BlockEntityTag:{Base:13}}"
+						"components": {
+							"minecraft:base_color": "green"
+						}
 					}
 				]
 			}
@@ -203,7 +233,9 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{BlockEntityTag:{Base:14}}"
+						"components": {
+							"minecraft:base_color": "red"
+						}
 					}
 				]
 			}
@@ -216,7 +248,9 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{BlockEntityTag:{Base:15}}"
+						"components": {
+							"minecraft:base_color": "black"
+						}
 					}
 				]
 			}

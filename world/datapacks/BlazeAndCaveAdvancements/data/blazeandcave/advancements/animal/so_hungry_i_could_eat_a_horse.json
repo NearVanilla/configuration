@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:hay_block"
+			"id": "minecraft:hay_block"
 		},
 		"title": {"translate":"So Hungry I Could Eat a Horse!"},
 		"description": {"color":"#75E1FF","translate":"Feed a Horse every type of food that it can eat"},

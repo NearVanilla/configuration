@@ -18,7 +18,7 @@
     }
   },
   "result": {
-    "item": "minecraft:sheaf_pottery_sherd",
-    "count": 2
+    "count": 2,
+    "id": "minecraft:sheaf_pottery_sherd"
   }
 }

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:zombie_head"
+			"id": "minecraft:zombie_head"
 		},
 		"title": {"translate":"Monsters Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Monsters tab"},

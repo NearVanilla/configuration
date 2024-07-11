@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_chestplate"
+			"id": "minecraft:diamond_chestplate"
 		},
 		"title": {"translate":"Cover Me With Diamonds"},
 		"description": {"color":"green","translate":"Diamond armor saves lives"},

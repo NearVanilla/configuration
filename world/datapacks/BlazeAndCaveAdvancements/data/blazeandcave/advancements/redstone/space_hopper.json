@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:hopper"
+			"id": "minecraft:hopper"
 		},
 		"title": {"translate":"Space Hopper"},
 		"description": {"color":"green","translate":"Craft a hopper for item transportation"},

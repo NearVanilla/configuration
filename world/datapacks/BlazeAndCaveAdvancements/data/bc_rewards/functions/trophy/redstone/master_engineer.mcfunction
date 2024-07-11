@@ -1,2 +1,3 @@
-give @s minecraft:blast_furnace{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#595858\",\"translate\":\"Steam Engine\"}",Lore:["{\"color\":\"#595858\",\"translate\":\"The beginning of the Industrial Revolution\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Master Engineer\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Steam Engine"}]}
+give @s blast_furnace[item_name='{"translate":"Steam Engine","color":"#595858","bold":true,"italic":false}',lore=['{"translate":"The beginning of the Industrial Revolution","color":"#595858"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Master Engineer","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Steam Engine"}]

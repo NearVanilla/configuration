@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:mycelium"
+			"id": "minecraft:mycelium"
 		},
 		"title": {"translate":"Mooshroom Kingdom"},
 		"description": {"color":"green","translate":"Find mooshrooms on a mushroom island"},
@@ -21,7 +21,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:mushroom_fields"
+								"biomes": "minecraft:mushroom_fields"
 							}
 						}
 					},

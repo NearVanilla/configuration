@@ -1,2 +1,3 @@
-give @s minecraft:sunflower{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#FDF55F\",\"translate\":\"Gold Medal\"}",Lore:["{\"color\":\"#FDF55F\",\"translate\":\"Probably not real gold\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Olympic Gold Medallist\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Gold Medal"}]}
+give @s sunflower[item_name='{"translate":"Gold Medal","color":"#FDF55F","bold":true,"italic":false}',lore=['{"translate":"Probably not real gold","color":"#FDF55F"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Olympic Gold Medallist","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Gold Medal"}]

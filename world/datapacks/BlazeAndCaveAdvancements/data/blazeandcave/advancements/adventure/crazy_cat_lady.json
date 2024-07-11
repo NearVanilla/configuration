@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:salmon"
+			"id": "minecraft:salmon"
 		},
 		"title": {"translate":"Crazy Cat Lady"},
 		"description": {"color":"green","translate":"Tame a stray cat in a village"},

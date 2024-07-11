@@ -1,2 +1,3 @@
-give @s minecraft:amethyst_cluster{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#A8EC4B\",\"translate\":\"Energy Crystal\"}",Lore:["{\"color\":\"#A8EC4B\",\"translate\":\"Looks like a slimy slug sucked all the power out of it…\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Amethyst Miner\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Energy Crystal"}]}
+give @s amethyst_cluster[item_name='{"translate":"Energy Crystal","color":"#A8EC4B","bold":true,"italic":false}',lore=['{"translate":"Looks like a slimy slug sucked all the power out of it…","color":"#A8EC4B"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Amethyst Miner","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Energy Crystal"}]

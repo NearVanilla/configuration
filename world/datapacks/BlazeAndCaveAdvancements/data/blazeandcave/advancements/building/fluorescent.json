@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:end_rod"
+			"id": "minecraft:end_rod"
 		},
 		"title": {"translate":"Fluorescent!"},
 		"description": {"color":"green","translate":"Light up the area with some end rods"},

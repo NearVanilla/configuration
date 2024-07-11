@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:glass"
+			"id": "minecraft:glass"
 		},
 		"title": {"translate":"Classy Glassy"},
 		"description": {"color":"green","translate":"Smelt sand in a furnace to get glass"},

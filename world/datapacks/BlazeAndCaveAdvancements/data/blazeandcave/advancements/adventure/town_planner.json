@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stonecutter"
+			"id": "minecraft:stonecutter"
 		},
 		"title": {"translate":"Town Planner"},
 		"description": {"color":"#75E1FF","translate":"Craft and place every type of villager workstation"},

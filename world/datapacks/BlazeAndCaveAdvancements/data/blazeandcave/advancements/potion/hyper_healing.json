@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:ghast_tear"
+			"id": "minecraft:ghast_tear"
 		},
 		"title": {"translate":"Hyper-Healing"},
 		"description": {"color":"green","translate":"Brew and drink a regeneration potion"},
@@ -19,7 +19,9 @@
 					"items": [
 						"minecraft:potion"
 					],
-					"potion": "minecraft:regeneration"
+					"predicates": {
+						"potion_contents": "minecraft:regeneration"
+					}
 				}
 			}
 		},
@@ -30,7 +32,9 @@
 					"items": [
 						"minecraft:potion"
 					],
-					"potion": "minecraft:strong_regeneration"
+					"predicates": {
+						"potion_contents": "minecraft:strong_regeneration"
+					}
 				}
 			}
 		},
@@ -41,7 +45,9 @@
 					"items": [
 						"minecraft:potion"
 					],
-					"potion": "minecraft:long_regeneration"
+					"predicates": {
+						"potion_contents": "minecraft:long_regeneration"
+					}
 				}
 			}
 		}

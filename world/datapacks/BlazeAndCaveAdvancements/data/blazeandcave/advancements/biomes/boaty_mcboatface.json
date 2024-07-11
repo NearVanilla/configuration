@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_boat"
+			"id": "minecraft:oak_boat"
 		},
 		"title": {"translate":"Boaty McBoatface"},
 		"description": {"color":"green","translate":"Craft and ride a boat to sail on the high seas"},

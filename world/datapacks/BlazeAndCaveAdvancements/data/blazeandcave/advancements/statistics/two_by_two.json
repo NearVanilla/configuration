@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chicken"
+			"id": "minecraft:chicken"
 		},
 		"title": {"translate":"Two By Two"},
 		"description": {"color":"dark_purple","translate":"Breed 2500 animals"},

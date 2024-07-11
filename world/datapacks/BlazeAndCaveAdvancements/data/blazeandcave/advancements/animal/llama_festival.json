@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:purple_banner"
+			"id": "minecraft:purple_banner"
 		},
 		"title": {"translate":"Llama Festival"},
 		"description": {"color":"#75E1FF","translate":"Sit on Llamas with all 16 colors of carpet. Getting off will reset your progress"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:gunpowder"
+			"id": "minecraft:gunpowder"
 		},
 		"title": {"translate":"What a creep!"},
 		"description": {"color":"green","translate":"Kill a creeper"},

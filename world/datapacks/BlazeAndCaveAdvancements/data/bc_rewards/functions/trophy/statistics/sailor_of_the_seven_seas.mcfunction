@@ -1,2 +1,3 @@
-give @s minecraft:dark_oak_boat{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#333333\",\"translate\":\"Black Pearl\"}",Lore:["{\"color\":\"#333333\",\"translate\":\"Wherever we want to go, we'll go\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Sailor of the Seven Seas\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Black Pearl"}]}
+give @s dark_oak_boat[item_name='{"translate":"Black Pearl","color":"#333333","bold":true,"italic":false}',lore=['{"translate":"Wherever we want to go, we\'ll go","color":"#333333"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Sailor of the Seven Seas","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Black Pearl"}]

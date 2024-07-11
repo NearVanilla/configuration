@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bone"
+			"id": "minecraft:bone"
 		},
 		"title": {"translate":"The Undead Cavalry"},
 		"description": {"color":"#75E1FF","translate":"Ride a Skeleton Horse"},

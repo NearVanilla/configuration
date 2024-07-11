@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dried_kelp"
+			"id": "minecraft:dried_kelp"
 		},
 		"title": {"translate":"Castaway"},
 		"description": {"color":"dark_purple","translate":"Eat nothing but dried kelp for three in-game days"},

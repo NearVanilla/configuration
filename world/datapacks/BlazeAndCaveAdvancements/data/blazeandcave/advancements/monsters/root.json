@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:zombie_head"
+			"id": "minecraft:zombie_head"
 		},
 		"title": {"translate":"Monsters"},
 		"description": {"color":"#CCCCCC","translate":"Battle against the monsters of darkness"},
@@ -18,7 +18,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "minecraft:swords"
+						"items": "#minecraft:swords"
 					}
 				]
 			}

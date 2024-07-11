@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_planks"
+			"id": "minecraft:oak_planks"
 		},
 		"title": {"translate":"Building"},
 		"description": {"color":"#CCCCCC","translate":"Your only limit is your imagination... and resources"},

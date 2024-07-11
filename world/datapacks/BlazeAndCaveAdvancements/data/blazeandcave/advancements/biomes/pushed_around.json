@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:magma_block"
+			"id": "minecraft:magma_block"
 		},
 		"title": {"translate":"Pushed Around"},
 		"description": {"color":"green","translate":"Enter a bubble column"},

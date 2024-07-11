@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bone_meal"
+			"id": "minecraft:bone_meal"
 		},
 		"title": {"translate":"Combine Harvester"},
 		"description": {"color":"dark_purple","translate":"Use bone meal on everything that can be grown"},
@@ -121,7 +121,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:ch_bamboos"
+								"blocks": "#blazeandcave:ch_bamboos"
 							}
 						}
 					},
@@ -144,7 +144,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:ch_melon_stems"
+								"blocks": "#blazeandcave:ch_melon_stems"
 							}
 						}
 					},
@@ -167,7 +167,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:ch_pumpkin_stems"
+								"blocks": "#blazeandcave:ch_pumpkin_stems"
 							}
 						}
 					},
@@ -190,7 +190,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:ch_oak_saplings"
+								"blocks": "#blazeandcave:ch_oak_saplings"
 							}
 						}
 					},
@@ -213,7 +213,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:ch_spruce_saplings"
+								"blocks": "#blazeandcave:ch_spruce_saplings"
 							}
 						}
 					},
@@ -236,7 +236,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:ch_birch_saplings"
+								"blocks": "#blazeandcave:ch_birch_saplings"
 							}
 						}
 					},
@@ -259,7 +259,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:ch_jungle_saplings"
+								"blocks": "#blazeandcave:ch_jungle_saplings"
 							}
 						}
 					},
@@ -282,7 +282,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:ch_acacia_saplings"
+								"blocks": "#blazeandcave:ch_acacia_saplings"
 							}
 						}
 					},
@@ -305,7 +305,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:ch_dark_oak_saplings"
+								"blocks": "#blazeandcave:ch_dark_oak_saplings"
 							}
 						}
 					},
@@ -628,7 +628,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:ch_kelps"
+								"blocks": "#blazeandcave:ch_kelps"
 							}
 						}
 					},
@@ -651,7 +651,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:ch_weeping_vines"
+								"blocks": "#blazeandcave:ch_weeping_vines"
 							}
 						}
 					},
@@ -674,7 +674,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:ch_twisting_vines"
+								"blocks": "#blazeandcave:ch_twisting_vines"
 							}
 						}
 					},
@@ -697,7 +697,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:ch_crimson_fungus"
+								"blocks": "#blazeandcave:ch_crimson_fungus"
 							}
 						}
 					},
@@ -720,7 +720,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:ch_warped_fungus"
+								"blocks": "#blazeandcave:ch_warped_fungus"
 							}
 						}
 					},
@@ -768,7 +768,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:ch_dripleaves"
+								"blocks": "#blazeandcave:ch_dripleaves"
 							}
 						}
 					},
@@ -791,7 +791,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:ch_cave_vines",
+								"blocks": "#blazeandcave:ch_cave_vines",
 						"state": {
 							"berries": "true"
 						}

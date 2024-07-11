@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_leggings",
-			"nbt": "{Enchantments:[{id:\"minecraft:swift_sneak\",lvl:3}]}"
+			"id": "minecraft:diamond_leggings",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
 		},
 		"title": {"translate":"Silent But Deadly"},
 		"description": {"color":"dark_purple","translate":"Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings. Try saying that six times swiftly"},
@@ -30,22 +32,21 @@
 							},
 							"equipment": {
 								"legs": {
-									"enchantments": [
-										{
-											"enchantment": "minecraft:swift_sneak",
-											"levels": {
-												"min": 3
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantment": "minecraft:swift_sneak",
+												"levels": {
+													"min": 3
+												}
 											}
-										}
-									]
+										]
+									}
 								}
 							},
 							"effects": {
 								"minecraft:speed": {
 									"amplifier": {
-										"min": 1
-									},
-									"duration": {
 										"min": 1
 									}
 								}

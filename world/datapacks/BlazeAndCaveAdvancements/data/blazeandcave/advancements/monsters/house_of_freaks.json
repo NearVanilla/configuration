@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sculk_shrieker"
+			"id": "minecraft:sculk_shrieker"
 		},
 		"title": {"translate":"House of Freaks"},
 		"description": {"color":"dark_purple","translate":"Summon five Wardens and have them all be within 16 blocks of the player"},

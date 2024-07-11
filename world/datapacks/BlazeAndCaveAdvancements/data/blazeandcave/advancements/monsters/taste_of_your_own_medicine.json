@@ -1,8 +1,12 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:splash_potion",
-			"nbt": "{Potion:\"minecraft:poison\"}"
+			"id": "minecraft:splash_potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:poison"
+				}
+			}
 		},
 		"title": {"translate":"Taste of your own medicine"},
 		"description": {"color":"dark_purple","translate":"Kill a witch with a splash potion"},

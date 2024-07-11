@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:beetroot_seeds"
+			"id": "minecraft:beetroot_seeds"
 		},
 		"title": {"translate":"Come to the countryside!"},
 		"description": {"color":"#75E1FF","translate":"Plant every single type of crop on farmland"},

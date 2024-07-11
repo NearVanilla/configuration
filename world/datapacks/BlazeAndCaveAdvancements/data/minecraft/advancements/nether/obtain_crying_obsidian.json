@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:crying_obsidian"
+			"id": "minecraft:crying_obsidian"
 		},
 		"title": {"translate":"Who is Cutting Onions?"},
 		"description": {"color":"green","translate":"Obtain Crying Obsidian from a ruined portal or bartering with Piglins"},

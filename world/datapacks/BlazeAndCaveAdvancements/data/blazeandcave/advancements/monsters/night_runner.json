@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_sword"
+			"id": "minecraft:iron_sword"
 		},
 		"title": {"translate":"Night Runner"},
 		"description": {"color":"#75E1FF","translate":"Defeat all kinds of Overworld night mobs"},

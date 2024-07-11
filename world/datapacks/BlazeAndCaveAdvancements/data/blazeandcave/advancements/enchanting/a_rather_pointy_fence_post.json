@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_fence",
-			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+			"id": "minecraft:oak_fence",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
 		},
 		"title": {"translate":"A rather pointy fence post"},
 		"description": {"color":"dark_purple","translate":"Enchant a wooden sword with Sharpness V. Not really the best weapon, but it could be a minor annoyance to someone"},
@@ -22,14 +24,16 @@
 						"items": [
 							"minecraft:wooden_sword"
 						],
-						"enchantments": [
-							{
-								"enchantment": "minecraft:sharpness",
-								"levels": {
-									"min": 5
-								}
-							}	
-						]
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:sharpness",
+									"levels": {
+										"min": 5
+									}
+								}	
+							]
+						}
 					}
 				]
 			}

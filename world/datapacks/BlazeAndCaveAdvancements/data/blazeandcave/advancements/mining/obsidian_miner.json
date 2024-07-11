@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:obsidian"
+			"id": "minecraft:obsidian"
 		},
 		"title": {"translate":"Obsidian Miner"},
 		"description": {"color":"#75E1FF","translate":"Mine a stack of obsidian. (This might take a while...)"},

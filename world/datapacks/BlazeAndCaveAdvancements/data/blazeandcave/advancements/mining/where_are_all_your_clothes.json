@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chainmail_leggings"
+			"id": "minecraft:chainmail_leggings"
 		},
 		"title": {"translate":"Where are all your clothes?"},
 		"description": {"color":"dark_purple","translate":"Break every type of armor piece in the game"},

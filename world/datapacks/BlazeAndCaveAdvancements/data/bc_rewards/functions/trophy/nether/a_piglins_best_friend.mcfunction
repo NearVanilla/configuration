@@ -1,2 +1,3 @@
-give @s minecraft:golden_sword{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,Unbreakable:1,HideFlags:39,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#FFE019\",\"translate\":\"Gilded Blade\"}",Lore:["{\"color\":\"#FFE019\",\"translate\":\"A powerful weapon wielded by ancient mobs\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"A Piglin's Best Friend\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Gilded Blade"}]}
+give @s golden_sword[item_name='{"translate":"Gilded Blade","color":"#FFE019","bold":true,"italic":false}',lore=['{"translate":"A powerful weapon wielded by ancient mobs","color":"#FFE019"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"A Piglin\'s Best Friend","color":"light_purple","italic":false}'],unbreakable={show_in_tooltip:false},custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Gilded Blade"}]

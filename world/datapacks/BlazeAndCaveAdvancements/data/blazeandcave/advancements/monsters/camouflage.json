@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:wither_skeleton_skull"
+			"id": "minecraft:wither_skeleton_skull"
 		},
 		"title": {"translate":"Camouflage"},
 		"description": {"color":"dark_purple","translate":"Kill a mob while wearing the same type of mob head"},

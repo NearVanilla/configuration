@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dead_bush"
+			"id": "minecraft:dead_bush"
 		},
 		"title": {"translate":"Yay! Deadbush!"},
 		"description": {"color":"green","translate":"Get a deadbush cause you're a noob"},

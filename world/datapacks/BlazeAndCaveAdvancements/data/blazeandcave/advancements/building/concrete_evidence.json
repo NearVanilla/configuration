@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:light_blue_concrete"
+			"id": "minecraft:light_blue_concrete"
 		},
 		"title": {"translate":"Concrete Evidence"},
 		"description": {"color":"green","translate":"Create concrete from concrete powder by dropping it into water"},

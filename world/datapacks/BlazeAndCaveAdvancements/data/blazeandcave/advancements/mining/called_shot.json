@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:exposed_cut_copper"
+			"id": "minecraft:exposed_cut_copper"
 		},
 		"title": {"translate":"Called Shot"},
 		"description": {"color":"#75E1FF","translate":"Get struck by lightning while standing on a Lightning Rod"},

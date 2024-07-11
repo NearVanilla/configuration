@@ -1,2 +1,3 @@
-give @s minecraft:end_stone{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:1,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#EEF6B4\",\"translate\":\"End Adventurer's Trophy\"}",Lore:["{\"color\":\"#EEF6B4\",\"translate\":\"What could possibly come after the end?\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"yellow\",\"translate\":\"End Milestone\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"End Adventurer's Trophy"}]}
+give @s end_stone[item_name='{"translate":"End Adventurer\'s Trophy","color":"#EEF6B4","bold":true,"italic":false}',lore=['{"translate":"What could possibly come after the end?","color":"#EEF6B4"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"End Milestone","color":"yellow","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantments={levels:{"minecraft:unbreaking":1},show_in_tooltip:false}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"End Adventurer's Trophy"}]

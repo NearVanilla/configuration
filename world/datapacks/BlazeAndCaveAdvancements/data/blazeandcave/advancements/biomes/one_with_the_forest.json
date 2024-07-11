@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_sapling"
+			"id": "minecraft:oak_sapling"
 		},
 		"title": {"translate":"One with the forest"},
 		"description": {"color":"#75E1FF","translate":"Discover every forest biome"},
@@ -22,7 +22,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:forest"
+								"biomes": "minecraft:forest"
 							}
 						}
 					},
@@ -51,7 +51,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:flower_forest"
+								"biomes": "minecraft:flower_forest"
 							}
 						}
 					},
@@ -80,7 +80,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:plains"
+								"biomes": "minecraft:plains"
 							}
 						}
 					},
@@ -109,7 +109,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:sunflower_plains"
+								"biomes": "minecraft:sunflower_plains"
 							}
 						}
 					},
@@ -138,7 +138,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:dark_forest"
+								"biomes": "minecraft:dark_forest"
 							}
 						}
 					},
@@ -167,7 +167,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:birch_forest"
+								"biomes": "minecraft:birch_forest"
 							}
 						}
 					},
@@ -196,7 +196,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:old_growth_birch_forest"
+								"biomes": "minecraft:old_growth_birch_forest"
 							}
 						}
 					},
@@ -225,7 +225,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:old_growth_pine_taiga"
+								"biomes": "minecraft:old_growth_pine_taiga"
 							}
 						}
 					},
@@ -254,7 +254,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:old_growth_spruce_taiga"
+								"biomes": "minecraft:old_growth_spruce_taiga"
 							}
 						}
 					},
@@ -283,7 +283,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:taiga"
+								"biomes": "minecraft:taiga"
 							}
 						}
 					},

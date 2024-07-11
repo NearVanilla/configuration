@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_sword"
+			"id": "minecraft:iron_sword"
 		},
 		"title": {"translate":"Bring Down The Beast"},
 		"description": {"color":"#75E1FF","translate":"Bring down a ghast with a sword"},
@@ -23,7 +23,7 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"tag": "minecraft:swords"
+								"items": "#minecraft:swords"
 							}
 						}
 					},

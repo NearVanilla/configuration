@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:music_disc_cat"
+			"id": "minecraft:music_disc_cat"
 		},
 		"title": {"translate":"Music To My Ears"},
 		"description": {"color":"green","translate":"Play a music disc in a jukebox"},
@@ -33,7 +33,7 @@
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"tag": "minecraft:music_discs"
+							"items": "#minecraft:music_discs"
 						}
 					}
 				]

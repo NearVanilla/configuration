@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:light_blue_shulker_box"
+			"id": "minecraft:light_blue_shulker_box"
 		},
 		"title": {"translate":"Anti-Gravity Generator"},
 		"description": {"color":"dark_purple","translate":"Bring a shulker into the overworld and let it give you anti-gravity"},

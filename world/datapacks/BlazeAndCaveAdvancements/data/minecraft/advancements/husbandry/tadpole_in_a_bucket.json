@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:tadpole_bucket"
+			"id": "minecraft:tadpole_bucket"
 		},
 		"title": {"translate":"Bukkit bukkit"},
 		"description": {"color":"green","translate":"Catch a Tadpole in a Bucket"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:blue_carpet"
+			"id": "minecraft:blue_carpet"
 		},
 		"title": {"translate":"Deal's Off!"},
 		"description": {"color":"green","translate":"Get spat at by one of the Trader Llamas"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_fence"
+			"id": "minecraft:oak_fence"
 		},
 		"title": {"translate":"Spring in your step"},
 		"description": {"color":"green","translate":"Jump 1000 times"},

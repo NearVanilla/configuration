@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cake"
+			"id": "minecraft:cake"
 		},
 		"title": {"translate":"Happy Birthday!"},
 		"description": {"color":"green","translate":"Place a candle on a cake"},
@@ -20,14 +20,14 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:candle_cakes"
+								"blocks": "#minecraft:candle_cakes"
 							}
 						}
 					},
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"tag": "minecraft:candles"
+							"items": "#minecraft:candles"
 						}
 					}
 				]

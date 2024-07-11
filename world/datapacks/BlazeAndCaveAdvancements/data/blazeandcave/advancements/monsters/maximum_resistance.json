@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:netherite_chestplate",
-			"nbt": "{Enchantments:[{id:\"minecraft:protection\",lvl:4}]}"
+			"id": "minecraft:netherite_chestplate",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
 		},
 		"title": {"translate":"Maximum Resistance"},
 		"description": {"color":"dark_purple","translate":"Take a hit from the Warden with the maximum possible protection"},
@@ -33,62 +35,67 @@
 									"items": [
 										"minecraft:netherite_helmet"
 									],
-									"enchantments": [
-										{
-											"enchantment": "minecraft:protection",
-											"levels": {
-												"min": 4
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantment": "minecraft:protection",
+												"levels": {
+													"min": 4
+												}
 											}
-										}
-									]
+										]
+									}
 								},
 								"chest": {
 									"items": [
 										"minecraft:netherite_chestplate"
 									],
-									"enchantments": [
-										{
-											"enchantment": "minecraft:protection",
-											"levels": {
-												"min": 4
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantment": "minecraft:protection",
+												"levels": {
+													"min": 4
+												}
 											}
-										}
-									]
+										]
+									}
 								},
 								"legs": {
 									"items": [
 										"minecraft:netherite_leggings"
 									],
-									"enchantments": [
-										{
-											"enchantment": "minecraft:protection",
-											"levels": {
-												"min": 4
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantment": "minecraft:protection",
+												"levels": {
+													"min": 4
+												}
 											}
-										}
-									]
+										]
+									}
 								},
 								"feet": {
 									"items": [
 										"minecraft:netherite_boots"
 									],
-									"enchantments": [
-										{
-											"enchantment": "minecraft:protection",
-											"levels": {
-												"min": 4
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantment": "minecraft:protection",
+												"levels": {
+													"min": 4
+												}
 											}
-										}
-									]
+										]
+									}
 								}
 							},
 							"effects": {
 								"minecraft:resistance": {
 									"amplifier": {
 										"min": 3
-									},
-									"duration": {
-										"min": 1
 									}
 								}
 							}

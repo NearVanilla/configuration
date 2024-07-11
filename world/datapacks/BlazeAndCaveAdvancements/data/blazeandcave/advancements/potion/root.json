@@ -1,7 +1,12 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:potion"
+			"id": "minecraft:potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"custom_color": 16056565
+				}
+			}
 		},
 		"title": {"translate":"Potions"},
 		"description": {"color":"#CCCCCC","translate":"Brewing potions with helpful and hindering effects"},

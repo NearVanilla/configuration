@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:black_wool"
+			"id": "minecraft:black_wool"
 		},
 		"title": {"translate":"Blind as a Bat"},
 		"description": {"color":"dark_purple","translate":"Kill a Bat while under the blindness or darkness effect"},
@@ -31,9 +31,6 @@
 										"minecraft:blindness": {
 											"amplifier": {
 												"min": 0
-											},
-											"duration": {
-												"min": 1
 											}
 										}
 									}
@@ -47,9 +44,6 @@
 										"minecraft:darkness": {
 											"amplifier": {
 												"min": 0
-											},
-											"duration": {
-												"min": 1
 											}
 										}
 									}

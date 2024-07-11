@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:reinforced_deepslate"
+			"id": "minecraft:reinforced_deepslate"
 		},
 		"title": {"translate":"Fallen Kingdom"},
 		"description": {"color":"green","translate":"Find and enter an Ancient City deep underground"},
@@ -21,7 +21,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"structure": "ancient_city"
+								"structures": "ancient_city"
 							}
 						}
 					},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sculk_sensor"
+			"id": "minecraft:sculk_sensor"
 		},
 		"title": {"translate":"Vibe Check"},
 		"description": {"color":"green","translate":"Use Silk Touch to pick up a Sculk Sensor or find one among Ancient City treasure"},

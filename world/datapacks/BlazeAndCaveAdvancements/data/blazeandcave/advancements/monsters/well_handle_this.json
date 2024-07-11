@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:netherrack"
+			"id": "minecraft:netherrack"
 		},
 		"title": {"translate":"We'll handle this"},
 		"description": {"color":"dark_purple","translate":"Lure a Phantom into the Nether and then kill it"},

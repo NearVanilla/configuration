@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:horse_spawn_egg"
+			"id": "minecraft:horse_spawn_egg"
 		},
 		"title": {"translate":"Master Farrier"},
 		"description": {"color":"dark_purple","translate":"Tame all horse variants"},

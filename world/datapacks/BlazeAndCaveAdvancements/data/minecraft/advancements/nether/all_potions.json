@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:milk_bucket"
+			"id": "minecraft:milk_bucket"
 		},
 		"title": {"translate":"A Furious Cocktail"},
 		"description": {"color":"dark_purple","translate":"Have every potion effect applied at the same time"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:mossy_cobblestone"
+			"id": "minecraft:mossy_cobblestone"
 		},
 		"title": {"translate":"Dungeons and Spawners"},
 		"description": {"color":"green","translate":"Open a chest in a dungeon deep underground"},

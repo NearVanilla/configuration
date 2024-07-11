@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:saddle"
+			"id": "minecraft:saddle"
 		},
 		"title": {"translate":"This One’s Mine!"},
 		"description": {"color":"#75E1FF","translate":"Kill a Zombified Piglin that is riding a Strider and take its steed"},

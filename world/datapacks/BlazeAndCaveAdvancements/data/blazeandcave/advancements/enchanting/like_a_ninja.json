@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sculk"
+			"id": "minecraft:sculk"
 		},
 		"title": {"translate":"Like a Ninja"},
 		"description": {"color":"#75E1FF","translate":"Find the Swift Sneak enchantment on an Enchanted Book in an Ancient City"},
@@ -18,11 +18,13 @@
 			"conditions": {
 				"items": [
 					{
-						"stored_enchantments": [
-							{
-								"enchantment": "minecraft:swift_sneak"
-							}
-						]
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantment": "minecraft:swift_sneak"
+								}
+							]
+						}
 					}
 				]
 			}

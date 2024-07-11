@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_boots"
+			"id": "minecraft:iron_boots"
 		},
 		"title": {"translate":"Who needs cars?"},
 		"description": {"color":"#75E1FF","translate":"Walk 50km"},

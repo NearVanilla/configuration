@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:arrow"
+			"id": "minecraft:arrow"
 		},
 		"title": {"translate":"Shotbow"},
 		"description": {"color":"#75E1FF","translate":"Shoot three arrows at once with a crossbow"},
@@ -20,11 +20,13 @@
 					"items": [
 						"minecraft:crossbow"
 					],
-					"enchantments": [
-						{
-							"enchantment": "minecraft:multishot"
-						}
-					]					
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantment": "minecraft:multishot"
+							}
+						]	
+					}				
 				}
 			}
 		}

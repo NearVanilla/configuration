@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:wooden_hoe"
+			"id": "minecraft:wooden_hoe"
 		},
 		"title": {"translate":"Time to Farm!"},
 		"description": {"color":"green","translate":"Use planks and sticks to make a hoe"},

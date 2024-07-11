@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:birch_boat"
+			"id": "minecraft:birch_boat"
 		},
 		"title": {"translate":"Whatever Floats Your Goat!"},
 		"description": {"color":"green","translate":"Get in a Boat and float with a Goat"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:golden_apple"
+			"id": "minecraft:golden_apple"
 		},
 		"title": {"translate":"Foal Play"},
 		"description": {"color":"green","translate":"Breed a horse in an effort to get a better one"},

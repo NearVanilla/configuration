@@ -1,8 +1,12 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:splash_potion",
-			"nbt": "{Potion:\"minecraft:fire_resistance\"}"
+			"id": "minecraft:splash_potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:fire_resistance"
+				}
+			}
 		},
 		"title": {"translate":"Hung, Drawn and Bartered"},
 		"description": {"color":"dark_purple","translate":"Barter for every possible type of item with Piglins"},
@@ -68,7 +72,11 @@
 					"items": [
 						"minecraft:splash_potion"
 					],
-					"nbt": "{Potion:\"minecraft:fire_resistance\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:fire_resistance"
+						}
+					}
 				}
 			}
 		},
@@ -88,7 +96,11 @@
 					"items": [
 						"minecraft:potion"
 					],
-					"nbt": "{Potion:\"minecraft:fire_resistance\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:fire_resistance"
+						}
+					}
 				}
 			}
 		},
@@ -108,7 +120,11 @@
 					"items": [
 						"minecraft:potion"
 					],
-					"nbt": "{Potion:\"minecraft:water\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:water"
+						}
+					}
 				}
 			}
 		},

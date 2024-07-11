@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_hanging_sign"
+			"id": "minecraft:oak_hanging_sign"
 		},
 		"title": {"translate":"Hanging Around"},
 		"description": {"color":"green","translate":"Put up a Hanging Sign"},
@@ -19,7 +19,7 @@
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"tag": "minecraft:hanging_signs"
+							"items": "#minecraft:hanging_signs"
 						}
 					}
 				]

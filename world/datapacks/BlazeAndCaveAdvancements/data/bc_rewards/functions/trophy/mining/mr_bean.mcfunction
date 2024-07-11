@@ -1,2 +1,3 @@
-give @s minecraft:raw_copper_block{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#FB9E58\",\"translate\":\"Bean Block\"}",Lore:["{\"color\":\"#FB9E58\",\"translate\":\"Mmm, tasty\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Mr. Bean\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Bean Block"}]}
+give @s raw_copper_block[item_name='{"translate":"Bean Block","color":"#FB9E58","bold":true,"italic":false}',lore=['{"translate":"Mmm, tasty","color":"#FB9E58"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Mr. Bean","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Bean Block"}]

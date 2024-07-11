@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dark_oak_fence"
+			"id": "minecraft:dark_oak_fence"
 		},
 		"title": {"translate":"Titanic"},
 		"description": {"color":"dark_purple","translate":"Find a shipwreck in an iceberg biome"},
@@ -25,8 +25,8 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:shipwreck",
-										"biome": "minecraft:deep_frozen_ocean"
+										"structures": "minecraft:shipwreck",
+										"biomes": "minecraft:deep_frozen_ocean"
 									}
 								}
 							},
@@ -35,8 +35,8 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:shipwreck_beached",
-										"biome": "minecraft:deep_frozen_ocean"
+										"structures": "minecraft:shipwreck_beached",
+										"biomes": "minecraft:deep_frozen_ocean"
 									}
 								}
 							}
@@ -70,8 +70,8 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:shipwreck",
-										"biome": "minecraft:frozen_ocean"
+										"structures": "minecraft:shipwreck",
+										"biomes": "minecraft:frozen_ocean"
 									}
 								}
 							},
@@ -80,8 +80,8 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:shipwreck_beached",
-										"biome": "minecraft:frozen_ocean"
+										"structures": "minecraft:shipwreck_beached",
+										"biomes": "minecraft:frozen_ocean"
 									}
 								}
 							}

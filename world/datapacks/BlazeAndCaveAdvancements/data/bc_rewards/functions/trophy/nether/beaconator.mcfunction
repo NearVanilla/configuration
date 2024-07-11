@@ -1,2 +1,3 @@
-give @s minecraft:cooked_porkchop{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#FFC6C6\",\"translate\":\"Baconator\"}",Lore:["{\"color\":\"#FFC6C6\",\"translate\":\"Oh... wait, I thought you said Bacon!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Beaconator\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Baconator"}]}
+give @s cooked_porkchop[item_name='{"translate":"Baconator","color":"#FFC6C6","bold":true,"italic":false}',lore=['{"translate":"Oh... wait, I thought you said Bacon!","color":"#FFC6C6"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Beaconator","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Baconator"}]

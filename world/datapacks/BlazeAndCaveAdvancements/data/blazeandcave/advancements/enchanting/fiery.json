@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:blaze_powder"
+			"id": "minecraft:blaze_powder"
 		},
 		"title": {"translate":"Fiery"},
 		"description": {"color":"#75E1FF","translate":"Obtain every fire related enchantment"},
@@ -18,11 +18,13 @@
 			"conditions": {
 				"items": [
 					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:fire_protection"
-							}
-						]
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:fire_protection"
+								}
+							]
+						}
 					}
 				]
 			}
@@ -32,11 +34,13 @@
 			"conditions": {
 				"items": [
 					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:fire_aspect"
-							}
-						]
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:fire_aspect"
+								}
+							]
+						}
 					}
 				]
 			}
@@ -46,11 +50,13 @@
 			"conditions": {
 				"items": [
 					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:flame"
-							}
-						]
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:flame"
+								}
+							]
+						}
 					}
 				]
 			}
@@ -60,11 +66,13 @@
 			"conditions": {
 				"items": [
 					{
-						"stored_enchantments": [
-							{
-								"enchantment": "minecraft:fire_protection"
-							}
-						]
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantment": "minecraft:fire_protection"
+								}
+							]
+						}
 					}
 				]
 			}
@@ -74,11 +82,13 @@
 			"conditions": {
 				"items": [
 					{
-						"stored_enchantments": [
-							{
-								"enchantment": "minecraft:fire_aspect"
-							}
-						]
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantment": "minecraft:fire_aspect"
+								}
+							]
+						}
 					}
 				]
 			}
@@ -88,11 +98,13 @@
 			"conditions": {
 				"items": [
 					{
-						"stored_enchantments": [
-							{
-								"enchantment": "minecraft:flame"
-							}
-						]
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantment": "minecraft:flame"
+								}
+							]
+						}
 					}
 				]
 			}

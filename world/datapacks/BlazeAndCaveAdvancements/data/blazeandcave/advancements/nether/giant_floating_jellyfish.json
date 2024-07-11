@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:gunpowder"
+			"id": "minecraft:gunpowder"
 		},
 		"title": {"translate":"Giant Floating Jellyfish"},
 		"description": {"color":"green","translate":"Shoot down a ghast"},

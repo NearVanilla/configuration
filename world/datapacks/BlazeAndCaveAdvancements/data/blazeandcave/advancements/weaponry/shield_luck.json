@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:rotten_flesh"
+			"id": "minecraft:rotten_flesh"
 		},
 		"title": {"translate":"Shield Luck"},
 		"description": {"color":"green","translate":"Protect yourself from an enemy's attack with your shield"},

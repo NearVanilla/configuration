@@ -1,8 +1,15 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:decorated_pot",
-			"nbt": "{BlockEntityTag:{sherds:[\"minecraft:brick\",\"minecraft:heart_pottery_sherd\",\"minecraft:brick\",\"minecraft:explorer_pottery_sherd\"]}}"
+			"id": "minecraft:decorated_pot",
+			"components": {
+				"minecraft:pot_decorations": [
+					"minecraft:brick",
+					"minecraft:heart_pottery_sherd",
+					"minecraft:brick",
+					"minecraft:explorer_pottery_sherd"
+				]
+			}
 		},
 		"title": {"translate":"Careful Restoration"},
 		"description": {"color":"#75E1FF","translate":"Put together a Decorated Pot using four Pottery Sherds"},

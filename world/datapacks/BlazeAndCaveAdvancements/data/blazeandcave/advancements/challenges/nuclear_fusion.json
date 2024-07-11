@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:trident"
+			"id": "minecraft:trident"
 		},
 		"title": {"translate":"Nuclear Fusion"},
 		"description": {"color":"#FF2A2A","translate":"Strike every mob that can transform with lightning at once"},

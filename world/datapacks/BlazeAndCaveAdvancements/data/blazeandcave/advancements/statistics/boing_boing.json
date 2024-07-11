@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:acacia_leaves"
+			"id": "minecraft:acacia_leaves"
 		},
 		"title": {"translate":"Boing, Boing"},
 		"description": {"color":"#75E1FF","translate":"Jump 10,000 times"},

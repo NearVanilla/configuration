@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sand"
+			"id": "minecraft:sand"
 		},
 		"title": {"translate":"Melting"},
 		"description": {"color":"dark_purple","translate":"Bring a stray to a desert biome and then kill it"},
@@ -19,7 +19,7 @@
 				"entity": {
 					"type": "minecraft:stray",
 					"location": {
-						"biome": "desert"
+						"biomes": "desert"
 					}
 				}
 			}

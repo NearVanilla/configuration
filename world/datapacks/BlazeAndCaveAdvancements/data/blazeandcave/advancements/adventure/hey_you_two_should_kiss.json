@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:red_tulip"
+			"id": "minecraft:red_tulip"
 		},
 		"title": {"translate":"Hey! You two should kiss!"},
 		"description": {"color":"#75E1FF","translate":"Use a Spyglass to look at two Villagers sitting in a Boat from at least 50 blocks away"},

@@ -1,2 +1,3 @@
-give @s minecraft:nether_brick{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#AD604B\",\"translate\":\"Brick Astley\"}",Lore:["{\"color\":\"#AD604B\",\"translate\":\"Nether gonna brick you up!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Master Netherite Miner\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Brick Astley"}]}
+give @s nether_brick[item_name='{"translate":"Brick Astley","color":"#AD604B","bold":true,"italic":false}',lore=['{"translate":"Nether gonna brick you up!","color":"#AD604B"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Master Netherite Miner","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Brick Astley"}]

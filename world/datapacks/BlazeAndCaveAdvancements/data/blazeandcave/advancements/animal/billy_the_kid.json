@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:goat_spawn_egg"
+			"id": "minecraft:goat_spawn_egg"
 		},
 		"title": {"translate":"Billy the Kid"},
 		"description": {"color":"green","translate":"Breed two Goats together using Wheat"},

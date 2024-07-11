@@ -37,4 +37,7 @@ execute as @e[type=#minecraft:zombies,tag=!bac_baby] run tag @s[predicate=blazea
 execute as @a[gamemode=!spectator] at @s store result score @s bac_ten_withers run execute if entity @e[type=wither,distance=..128]
 execute as @a[gamemode=!spectator] if score @s bac_ten_withers matches 10.. run advancement grant @s only blazeandcave:challenges/the_world_is_ending
 
-schedule function blazeandcave:ten_second_timer 10s
+
+scoreboard players set ten_second bac_timer 0
+
+#schedule function blazeandcave:ten_second_timer 10s

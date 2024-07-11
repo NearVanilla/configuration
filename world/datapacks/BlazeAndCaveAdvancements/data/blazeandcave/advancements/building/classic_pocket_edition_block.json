@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stonecutter"
+			"id": "minecraft:stonecutter"
 		},
 		"title": {"translate":"Classic Pocket Edition Block"},
 		"description": {"color":"green","translate":"Craft a stonecutter using stone and an iron ingot"},

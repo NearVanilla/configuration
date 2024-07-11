@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cactus"
+			"id": "minecraft:cactus"
 		},
 		"title": {"translate":"Spikey!"},
 		"description": {"color":"green","translate":"Run into a cactus"},

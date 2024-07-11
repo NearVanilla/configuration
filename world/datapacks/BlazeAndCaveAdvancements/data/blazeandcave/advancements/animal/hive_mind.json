@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:beehive"
+			"id": "minecraft:beehive"
 		},
 		"title": {"translate":"Hive Mind"},
 		"description": {"color":"green","translate":"Craft a bee hive using planks and honeycombs then place it"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_boots"
+			"id": "minecraft:iron_boots"
 		},
 		"title": {"translate":"Like a Cat"},
 		"description": {"color":"#75E1FF","translate":"Obtain boots enchanted with Feather Falling"},
@@ -26,11 +26,13 @@
 							"minecraft:diamond_boots",
 							"minecraft:netherite_boots"
 						],					
-						"enchantments": [
-							{
-								"enchantment": "minecraft:feather_falling"
-							}
-						]
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:feather_falling"
+								}
+							]
+						}
 					}
 				]
 			}

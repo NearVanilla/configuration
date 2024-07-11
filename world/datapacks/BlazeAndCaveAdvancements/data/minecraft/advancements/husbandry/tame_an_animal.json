@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bone"
+			"id": "minecraft:bone"
 		},
 		"title": {"translate":"Leader of the Pack"},
 		"description": {"color":"green","translate":"Befriend a wolf"},

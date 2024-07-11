@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:golden_carrot"
+			"id": "minecraft:golden_carrot"
 		},
 		"title": {"translate":"Food, Glorious Food!"},
 		"description": {"color":"dark_purple","translate":"Eat 5000 food items","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_statistics"}]},

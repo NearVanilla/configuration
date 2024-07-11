@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:enchanted_golden_apple"
+			"id": "minecraft:enchanted_golden_apple"
 		},
 		"title": {"translate":"Overpowered"},
 		"description": {"color":"dark_purple","translate":"Obtain a Notch Apple"},

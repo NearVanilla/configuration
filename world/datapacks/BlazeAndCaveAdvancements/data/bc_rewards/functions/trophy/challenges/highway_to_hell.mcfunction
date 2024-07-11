@@ -1,2 +1,3 @@
-give @s minecraft:music_disc_pigstep{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#BE1E2A\",\"translate\":\"ACDC - Back in Black\"}",Lore:["{\"color\":\"#BE1E2A\",\"translate\":\"Back in Black stomped Highway to Hell in terms of success\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#FF2A2A\",\"translate\":\"Highway to Hell\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"ACDC - Back in Black"}]}
+give @s music_disc_pigstep[item_name='{"translate":"ACDC - Back in Black","color":"#BE1E2A","bold":true,"italic":false}',lore=['{"translate":"Back in Black stomped Highway to Hell in terms of success","color":"#BE1E2A"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Highway to Hell","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"ACDC - Back in Black"}]

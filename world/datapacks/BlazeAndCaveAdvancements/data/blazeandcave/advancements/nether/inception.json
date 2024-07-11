@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:piston"
+			"id": "minecraft:piston"
 		},
 		"title": {"translate":"Inception"},
 		"description": {"color":"dark_purple","translate":"Build a machine that can break a hole in the roof of the Nether"},
@@ -23,7 +23,7 @@
 						"predicate": {
 							"location": {
 								"block": {
-									"tag": "minecraft:non_underwater_blocks"
+									"blocks": "#minecraft:non_underwater_blocks"
 								},
 								"position": {
 									"y": {

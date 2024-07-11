@@ -1,2 +1,3 @@
-give @s minecraft:porkchop{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:133,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#EB9492\",\"translate\":\"Reuben the Wither Storm Ender\"}",Lore:["{\"color\":\"#EB9492\",\"translate\":\"He was a great pig\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"When Pigs Finally Fly\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Reuben the Wither Storm Ender"}]}
+give @s porkchop[item_name='{"translate":"Reuben the Wither Storm Ender","color":"#EB9492","bold":true,"italic":false}',lore=['{"translate":"He was a great pig","color":"#EB9492"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"When Pigs Finally Fly","color":"light_purple","italic":false}'],custom_model_data=133,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Reuben the Wither Storm Ender"}]

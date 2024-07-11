@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:campfire"
+			"id": "minecraft:campfire"
 		},
 		"title": {"translate":"Bee Our Guest"},
 		"description": {"color":"green","translate":"Use a bottle to collect Honey from a Beehive with a campfire beneath it so you don't aggravate the bees"},
@@ -21,7 +21,7 @@
 						"predicate": {
 							"smokey": true,
 							"block": {
-								"tag": "minecraft:beehives"
+								"blocks": "#minecraft:beehives"
 							}
 						}
 					},

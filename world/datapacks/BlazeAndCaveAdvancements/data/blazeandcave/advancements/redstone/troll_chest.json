@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:trapped_chest"
+			"id": "minecraft:trapped_chest"
 		},
 		"title": {"translate":"Troll Chest"},
 		"description": {"color":"green","translate":"Trigger a trapped chest. Good for trolling your friends!"},
@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"trapped_chest": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{

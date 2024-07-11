@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:wooden_shovel"
+			"id": "minecraft:wooden_shovel"
 		},
 		"title": {"translate":"Time to Dig!"},
 		"description": {"color":"green","translate":"Use planks and sticks to make a shovel"},

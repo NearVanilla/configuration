@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:milk_bucket"
+			"id": "minecraft:milk_bucket"
 		},
 		"title": {"translate":"Milk does your body good"},
 		"description": {"color":"green","translate":"Take a swig swig swig swig"},

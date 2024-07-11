@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:red_mushroom_block"
+			"id": "minecraft:red_mushroom_block"
 		},
 		"title": {"translate":"Mega Mushroom"},
 		"description": {"color":"green","translate":"Grow a giant mushroom and then harvest it with silk touch"},

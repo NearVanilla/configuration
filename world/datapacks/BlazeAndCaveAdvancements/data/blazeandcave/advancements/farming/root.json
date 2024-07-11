@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:hay_block"
+			"id": "minecraft:hay_block"
 		},
 		"title": {"translate":"Farming"},
 		"description": {"color":"#CCCCCC","translate":"Hoe hoe hoe!"},
@@ -18,7 +18,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "minecraft:hoes"
+						"items": "#minecraft:hoes"
 					}
 				]
 			}

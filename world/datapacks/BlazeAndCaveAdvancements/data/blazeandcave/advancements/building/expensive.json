@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sea_lantern"
+			"id": "minecraft:sea_lantern"
 		},
 		"title": {"translate":"Expensive!"},
 		"description": {"color":"green","translate":"Light up the area with some sea lanterns"},

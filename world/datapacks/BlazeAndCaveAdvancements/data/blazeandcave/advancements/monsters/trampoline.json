@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:slime_block"
+			"id": "minecraft:slime_block"
 		},
 		"title": {"translate":"Trampoline"},
 		"description": {"color":"green","translate":"Bounce onto a slime block from at least 30 blocks high"},

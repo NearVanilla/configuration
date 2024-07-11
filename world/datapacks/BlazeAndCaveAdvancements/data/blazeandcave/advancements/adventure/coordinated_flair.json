@@ -1,8 +1,13 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_boots",
-			"nbt": "{Trim:{material:\"minecraft:redstone\",pattern:\"minecraft:sentry\"}}"
+			"id": "minecraft:diamond_boots",
+			"components": {
+				"minecraft:trim": {
+					"material": "minecraft:redstone",
+					"pattern": "minecraft:sentry"
+				}
+			}
 		},
 		"title": {"translate":"Coordinated Flair"},
 		"description": {"color":"#75E1FF","translate":"Wear a suit of armor with all four pieces trimmed with the same material"},
@@ -24,16 +29,32 @@
 						"predicate": {
 							"equipment": {
 								"head": {
-									"nbt": "{Trim:{material:\"minecraft:amethyst\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:amethyst"
+										}
+									}
 								},
 								"chest": {
-									"nbt": "{Trim:{material:\"minecraft:amethyst\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:amethyst"
+										}
+									}
 								},
 								"legs": {
-									"nbt": "{Trim:{material:\"minecraft:amethyst\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:amethyst"
+										}
+									}
 								},
 								"feet": {
-									"nbt": "{Trim:{material:\"minecraft:amethyst\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:amethyst"
+										}
+									}
 								}
 							}
 						}
@@ -51,16 +72,32 @@
 						"predicate": {
 							"equipment": {
 								"head": {
-									"nbt": "{Trim:{material:\"minecraft:copper\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:copper"
+										}
+									}
 								},
 								"chest": {
-									"nbt": "{Trim:{material:\"minecraft:copper\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:copper"
+										}
+									}
 								},
 								"legs": {
-									"nbt": "{Trim:{material:\"minecraft:copper\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:copper"
+										}
+									}
 								},
 								"feet": {
-									"nbt": "{Trim:{material:\"minecraft:copper\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:copper"
+										}
+									}
 								}
 							}
 						}
@@ -78,16 +115,32 @@
 						"predicate": {
 							"equipment": {
 								"head": {
-									"nbt": "{Trim:{material:\"minecraft:diamond\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:diamond"
+										}
+									}
 								},
 								"chest": {
-									"nbt": "{Trim:{material:\"minecraft:diamond\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:diamond"
+										}
+									}
 								},
 								"legs": {
-									"nbt": "{Trim:{material:\"minecraft:diamond\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:diamond"
+										}
+									}
 								},
 								"feet": {
-									"nbt": "{Trim:{material:\"minecraft:diamond\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:diamond"
+										}
+									}
 								}
 							}
 						}
@@ -105,16 +158,32 @@
 						"predicate": {
 							"equipment": {
 								"head": {
-									"nbt": "{Trim:{material:\"minecraft:emerald\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:emerald"
+										}
+									}
 								},
 								"chest": {
-									"nbt": "{Trim:{material:\"minecraft:emerald\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:emerald"
+										}
+									}
 								},
 								"legs": {
-									"nbt": "{Trim:{material:\"minecraft:emerald\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:emerald"
+										}
+									}
 								},
 								"feet": {
-									"nbt": "{Trim:{material:\"minecraft:emerald\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:emerald"
+										}
+									}
 								}
 							}
 						}
@@ -132,16 +201,32 @@
 						"predicate": {
 							"equipment": {
 								"head": {
-									"nbt": "{Trim:{material:\"minecraft:gold\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:gold"
+										}
+									}
 								},
 								"chest": {
-									"nbt": "{Trim:{material:\"minecraft:gold\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:gold"
+										}
+									}
 								},
 								"legs": {
-									"nbt": "{Trim:{material:\"minecraft:gold\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:gold"
+										}
+									}
 								},
 								"feet": {
-									"nbt": "{Trim:{material:\"minecraft:gold\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:gold"
+										}
+									}
 								}
 							}
 						}
@@ -159,16 +244,32 @@
 						"predicate": {
 							"equipment": {
 								"head": {
-									"nbt": "{Trim:{material:\"minecraft:iron\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:iron"
+										}
+									}
 								},
 								"chest": {
-									"nbt": "{Trim:{material:\"minecraft:iron\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:iron"
+										}
+									}
 								},
 								"legs": {
-									"nbt": "{Trim:{material:\"minecraft:iron\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:iron"
+										}
+									}
 								},
 								"feet": {
-									"nbt": "{Trim:{material:\"minecraft:iron\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:iron"
+										}
+									}
 								}
 							}
 						}
@@ -186,16 +287,32 @@
 						"predicate": {
 							"equipment": {
 								"head": {
-									"nbt": "{Trim:{material:\"minecraft:lapis\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:lapis"
+										}
+									}
 								},
 								"chest": {
-									"nbt": "{Trim:{material:\"minecraft:lapis\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:lapis"
+										}
+									}
 								},
 								"legs": {
-									"nbt": "{Trim:{material:\"minecraft:lapis\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:lapis"
+										}
+									}
 								},
 								"feet": {
-									"nbt": "{Trim:{material:\"minecraft:lapis\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:lapis"
+										}
+									}
 								}
 							}
 						}
@@ -213,16 +330,32 @@
 						"predicate": {
 							"equipment": {
 								"head": {
-									"nbt": "{Trim:{material:\"minecraft:quartz\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:quartz"
+										}
+									}
 								},
 								"chest": {
-									"nbt": "{Trim:{material:\"minecraft:quartz\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:quartz"
+										}
+									}
 								},
 								"legs": {
-									"nbt": "{Trim:{material:\"minecraft:quartz\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:quartz"
+										}
+									}
 								},
 								"feet": {
-									"nbt": "{Trim:{material:\"minecraft:quartz\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:quartz"
+										}
+									}
 								}
 							}
 						}
@@ -240,16 +373,32 @@
 						"predicate": {
 							"equipment": {
 								"head": {
-									"nbt": "{Trim:{material:\"minecraft:netherite\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:netherite"
+										}
+									}
 								},
 								"chest": {
-									"nbt": "{Trim:{material:\"minecraft:netherite\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:netherite"
+										}
+									}
 								},
 								"legs": {
-									"nbt": "{Trim:{material:\"minecraft:netherite\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:netherite"
+										}
+									}
 								},
 								"feet": {
-									"nbt": "{Trim:{material:\"minecraft:netherite\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:netherite"
+										}
+									}
 								}
 							}
 						}
@@ -267,16 +416,32 @@
 						"predicate": {
 							"equipment": {
 								"head": {
-									"nbt": "{Trim:{material:\"minecraft:redstone\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:redstone"
+										}
+									}
 								},
 								"chest": {
-									"nbt": "{Trim:{material:\"minecraft:redstone\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:redstone"
+										}
+									}
 								},
 								"legs": {
-									"nbt": "{Trim:{material:\"minecraft:redstone\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:redstone"
+										}
+									}
 								},
 								"feet": {
-									"nbt": "{Trim:{material:\"minecraft:redstone\"}}"
+									"predicates": {
+										"minecraft:trim": {
+											"material": "minecraft:redstone"
+										}
+									}
 								}
 							}
 						}

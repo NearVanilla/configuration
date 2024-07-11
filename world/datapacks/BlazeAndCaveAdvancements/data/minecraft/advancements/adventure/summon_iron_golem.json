@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_block"
+			"id": "minecraft:iron_block"
 		},
 		"title": {"translate":"Hired Help"},
 		"description": {"color":"#75E1FF","translate":"Summon an Iron Golem to help defend a village"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sugar"
+			"id": "minecraft:sugar"
 		},
 		"title": {"translate":"Performance-Enhancing Drugs"},
 		"description": {"color":"green","translate":"Brew a Speed Potion for cheating on athletics"},

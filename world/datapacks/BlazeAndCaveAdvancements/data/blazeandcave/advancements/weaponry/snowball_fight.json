@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:snowball"
+			"id": "minecraft:snowball"
 		},
 		"title": {"translate":"Snowball Fight"},
 		"description": {"color":"green","translate":"The spirit of Christmas... quickly drowned out by a battle"},

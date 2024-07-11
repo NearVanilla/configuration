@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:white_glazed_terracotta"
+			"id": "minecraft:white_glazed_terracotta"
 		},
 		"title": {"translate":"Happy Trails!"},
 		"description": {"color":"green","translate":"Discover the Trail Ruins"},
@@ -21,7 +21,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"structure": "minecraft:trail_ruins"
+								"structures": "minecraft:trail_ruins"
 							}
 						}
 					},

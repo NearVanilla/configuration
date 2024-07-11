@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:grindstone"
+			"id": "minecraft:grindstone"
 		},
 		"title": {"translate":"Master Trader"},
 		"description": {"color":"dark_purple","translate":"Trade with every type of villager career at master level"},

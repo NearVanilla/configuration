@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:porkchop"
+			"id": "minecraft:porkchop"
 		},
 		"title": {"translate":"The Parrots and the Bats"},
 		"description": {"color":"green","translate":"Breed 100 animals"},

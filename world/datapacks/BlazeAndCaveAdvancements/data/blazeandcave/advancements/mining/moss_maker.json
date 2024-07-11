@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:moss_carpet"
+			"id": "minecraft:moss_carpet"
 		},
 		"title": {"translate":"Moss Maker"},
 		"description": {"color":"green","translate":"Use Bone Meal on Moss to spread its wonderful lushness across hard blocks of stone"},

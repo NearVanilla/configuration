@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:spyglass"
+			"id": "minecraft:spyglass"
 		},
 		"title": {"translate":"Is it a Balloon?"},
 		"description": {"color":"green","translate":"Look at a Ghast through a Spyglass"},

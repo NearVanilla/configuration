@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:ice"
+			"id": "minecraft:ice"
 		},
 		"title": {"translate":"Thin Ice!"},
 		"description": {"color":"green","translate":"Use a silk touch pickaxe to pick up some ice blocks"},

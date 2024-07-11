@@ -1,8 +1,31 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:shield",
-			"nbt": "{BlockEntityTag:{Base:0,Patterns:[{Pattern:bt,Color:8},{Pattern:tt,Color:8},{Pattern:mr,Color:8},{Pattern:cbo,Color:8},{Pattern:sku,Color:0}]}}"
+			"id": "minecraft:shield",
+			"components": {
+				"minecraft:banner_patterns": [
+					{
+						"color": "light_gray",
+						"pattern": "minecraft:triangle_bottom"
+					},
+					{
+						"color": "light_gray",
+						"pattern": "minecraft:triangle_top"
+					},
+					{
+						"color": "light_gray",
+						"pattern": "minecraft:rhombus"
+					},
+					{
+						"color": "light_gray",
+						"pattern": "minecraft:curly_border"
+					},
+					{
+						"color": "white",
+						"pattern": "minecraft:skull"
+					}
+				]
+			}
 		},
 		"title": {"translate":"Not Today, Thank You"},
 		"description": {"color":"green","translate":"Deflect an arrow with a shield"},

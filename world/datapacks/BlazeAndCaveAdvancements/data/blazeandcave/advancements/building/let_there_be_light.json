@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:soul_lantern"
+			"id": "minecraft:soul_lantern"
 		},
 		"title": {"translate":"Let There Be Light!"},
 		"description": {"color":"dark_purple","translate":"Hold a stack of every light-emitting block and item"},

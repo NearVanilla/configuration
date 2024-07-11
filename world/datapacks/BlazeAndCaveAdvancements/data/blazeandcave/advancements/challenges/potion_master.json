@@ -1,8 +1,12 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:splash_potion",
-			"nbt": "{Potion:\"minecraft:harming\"}"
+			"id": "minecraft:splash_potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:healing"
+				}
+			}
 		},
 		"title": {"translate":"Potion Master"},
 		"description": {"color":"#FF2A2A","translate":"Kill every mob in the game with splash potions"},
@@ -21,7 +25,6 @@
 					"type": "bat"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -35,7 +38,6 @@
 					"type": "chicken"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -49,7 +51,6 @@
 					"type": "cod"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -63,7 +64,6 @@
 					"type": "cow"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -77,7 +77,6 @@
 					"type": "mooshroom"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -91,7 +90,6 @@
 					"type": "pig"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -105,7 +103,6 @@
 					"type": "rabbit"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -119,7 +116,6 @@
 					"type": "salmon"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -133,7 +129,6 @@
 					"type": "sheep"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -147,7 +142,6 @@
 					"type": "squid"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -161,7 +155,6 @@
 					"type": "tropical_fish"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -175,7 +168,6 @@
 					"type": "turtle"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -189,7 +181,6 @@
 					"type": "villager"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -203,7 +194,6 @@
 					"type": "wandering_trader"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -217,7 +207,6 @@
 					"type": "pufferfish"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -231,7 +220,6 @@
 					"type": "cave_spider"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -245,7 +233,6 @@
 					"type": "panda"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -259,7 +246,6 @@
 					"type": "polar_bear"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -273,7 +259,6 @@
 					"type": "spider"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -287,7 +272,6 @@
 					"type": "zombified_piglin"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -301,7 +285,6 @@
 					"type": "blaze"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -315,7 +298,6 @@
 					"type": "creeper"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -329,7 +311,6 @@
 					"type": "drowned"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -343,7 +324,6 @@
 					"type": "endermite"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -357,7 +337,6 @@
 					"type": "evoker"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -371,7 +350,6 @@
 					"type": "ghast"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -385,7 +363,6 @@
 					"type": "guardian"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -399,7 +376,6 @@
 					"type": "husk"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -413,7 +389,6 @@
 					"type": "magma_cube"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -427,7 +402,6 @@
 					"type": "phantom"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -441,7 +415,6 @@
 					"type": "pillager"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -455,7 +428,6 @@
 					"type": "ravager"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -469,7 +441,6 @@
 					"type": "shulker"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -483,7 +454,6 @@
 					"type": "silverfish"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -497,7 +467,6 @@
 					"type": "skeleton"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -511,7 +480,6 @@
 					"type": "slime"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -525,7 +493,6 @@
 					"type": "stray"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -539,7 +506,6 @@
 					"type": "vex"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -553,7 +519,6 @@
 					"type": "vindicator"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -567,7 +532,6 @@
 					"type": "witch"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -581,7 +545,6 @@
 					"type": "wither_skeleton"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -595,7 +558,6 @@
 					"type": "zombie_villager"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -609,7 +571,6 @@
 					"type": "zombie"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -623,7 +584,6 @@
 					"type": "cat"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -637,7 +597,6 @@
 					"type": "donkey"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -651,7 +610,6 @@
 					"type": "horse"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -665,7 +623,6 @@
 					"type": "llama"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -679,7 +636,6 @@
 					"type": "mule"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -693,7 +649,6 @@
 					"type": "parrot"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -707,7 +662,6 @@
 					"type": "skeleton_horse"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -721,7 +675,6 @@
 					"type": "trader_llama"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -735,7 +688,6 @@
 					"type": "wolf"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -749,7 +701,6 @@
 					"type": "dolphin"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -763,7 +714,6 @@
 					"type": "fox"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -777,7 +727,6 @@
 					"type": "ocelot"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -791,7 +740,6 @@
 					"type": "iron_golem"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -805,7 +753,6 @@
 					"type": "snow_golem"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -819,7 +766,6 @@
 					"type": "wither"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -833,7 +779,6 @@
 					"type": "bee"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -847,7 +792,6 @@
 					"type": "piglin"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -861,7 +805,6 @@
 					"type": "hoglin"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -875,7 +818,6 @@
 					"type": "strider"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -889,7 +831,6 @@
 					"type": "zoglin"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -903,7 +844,6 @@
 					"type": "piglin_brute"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -917,7 +857,6 @@
 					"type": "axolotl"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -931,7 +870,6 @@
 					"type": "glow_squid"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -945,7 +883,6 @@
 					"type": "goat"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -959,7 +896,6 @@
 					"type": "frog"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -973,7 +909,6 @@
 					"type": "tadpole"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -987,7 +922,6 @@
 					"type": "allay"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -1001,7 +935,6 @@
 					"type": "warden"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -1015,7 +948,6 @@
 					"type": "camel"
 				},
 				"killing_blow": {
-
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}
@@ -1029,7 +961,19 @@
 					"type": "sniffer"
 				},
 				"killing_blow": {
-
+					"direct_entity": {
+						"type": "minecraft:potion"
+					}
+				}
+			}
+		},
+		"armadillo": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "armadillo"
+				},
+				"killing_blow": {
 					"direct_entity": {
 						"type": "minecraft:potion"
 					}

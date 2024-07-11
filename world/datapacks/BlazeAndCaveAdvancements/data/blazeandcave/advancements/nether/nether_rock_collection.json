@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:basalt"
+			"id": "minecraft:basalt"
 		},
 		"title": {"translate":"Nether Rock Collection"},
 		"description": {"color":"green","translate":"Mine a stack of Netherrack, Basalt, Blackstone and Magma in the Nether"},

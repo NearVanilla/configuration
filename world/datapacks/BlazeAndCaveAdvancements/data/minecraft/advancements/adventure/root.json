@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:map"
+			"id": "minecraft:map"
 		},
 		"title": {"translate":"Adventure"},
 		"description": {"color":"#CCCCCC","translate":"Village, pillage and exploration"},

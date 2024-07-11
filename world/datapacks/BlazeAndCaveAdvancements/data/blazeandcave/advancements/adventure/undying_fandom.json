@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:magenta_wool"
+			"id": "minecraft:magenta_wool"
 		},
 		"title": {"translate":"Undying Fandom"},
 		"description": {"color":"dark_purple","translate":"Receive every type of gift from Villagers as a Hero of the Village"},
@@ -409,7 +409,11 @@
 					"items": [
 						"minecraft:tipped_arrow"
 					],
-					"nbt": "{Potion:\"minecraft:fire_resistance\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:fire_resistance"
+						}
+					}
 				}
 			}
 		},
@@ -429,7 +433,11 @@
 					"items": [
 						"minecraft:tipped_arrow"
 					],
-					"nbt": "{Potion:\"minecraft:harming\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:harming"
+						}
+					}
 				}
 			}
 		},
@@ -449,7 +457,11 @@
 					"items": [
 						"minecraft:tipped_arrow"
 					],
-					"nbt": "{Potion:\"minecraft:healing\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:healing"
+						}
+					}
 				}
 			}
 		},
@@ -469,7 +481,11 @@
 					"items": [
 						"minecraft:tipped_arrow"
 					],
-					"nbt": "{Potion:\"minecraft:invisibility\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:invisibility"
+						}
+					}
 				}
 			}
 		},
@@ -489,7 +505,11 @@
 					"items": [
 						"minecraft:tipped_arrow"
 					],
-					"nbt": "{Potion:\"minecraft:leaping\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:leaping"
+						}
+					}
 				}
 			}
 		},
@@ -509,7 +529,11 @@
 					"items": [
 						"minecraft:tipped_arrow"
 					],
-					"nbt": "{Potion:\"minecraft:night_vision\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:night_vision"
+						}
+					}
 				}
 			}
 		},
@@ -529,7 +553,11 @@
 					"items": [
 						"minecraft:tipped_arrow"
 					],
-					"nbt": "{Potion:\"minecraft:poison\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:poison"
+						}
+					}
 				}
 			}
 		},
@@ -549,7 +577,11 @@
 					"items": [
 						"minecraft:tipped_arrow"
 					],
-					"nbt": "{Potion:\"minecraft:regeneration\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:regeneration"
+						}
+					}
 				}
 			}
 		},
@@ -569,7 +601,11 @@
 					"items": [
 						"minecraft:tipped_arrow"
 					],
-					"nbt": "{Potion:\"minecraft:slowness\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:slowness"
+						}
+					}
 				}
 			}
 		},
@@ -589,7 +625,11 @@
 					"items": [
 						"minecraft:tipped_arrow"
 					],
-					"nbt": "{Potion:\"minecraft:strength\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:strength"
+						}
+					}
 				}
 			}
 		},
@@ -609,7 +649,11 @@
 					"items": [
 						"minecraft:tipped_arrow"
 					],
-					"nbt": "{Potion:\"minecraft:swiftness\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:swiftness"
+						}
+					}
 				}
 			}
 		},
@@ -629,7 +673,11 @@
 					"items": [
 						"minecraft:tipped_arrow"
 					],
-					"nbt": "{Potion:\"minecraft:water_breathing\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:water_breathing"
+						}
+					}
 				}
 			}
 		},
@@ -649,7 +697,11 @@
 					"items": [
 						"minecraft:tipped_arrow"
 					],
-					"nbt": "{Potion:\"minecraft:weakness\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:weakness"
+						}
+					}
 				}
 			}
 		},

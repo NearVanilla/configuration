@@ -1,2 +1,3 @@
-give @s minecraft:polished_blackstone_slab{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#3C3947\",\"translate\":\"TARS\"}",Lore:["{\"color\":\"#3C3947\",\"translate\":\"Everybody good? Plenty of slaves for my robot colony?\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"No! Don't let me leave, Murph!\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"TARS"}]}
+give @s polished_blackstone_slab[item_name='{"translate":"TARS","color":"#3C3947","bold":true,"italic":false}',lore=['{"translate":"Everybody good? Plenty of slaves for my robot colony?","color":"#3C3947"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"No! Don\'t let me leave, Murph!","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"TARS"}]

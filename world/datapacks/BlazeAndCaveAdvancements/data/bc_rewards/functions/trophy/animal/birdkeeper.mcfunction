@@ -1,2 +1,3 @@
-give @s minecraft:black_dye{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#696969\",\"translate\":\"Black Bird\"}",Lore:["{\"color\":\"#696969\",\"translate\":\"They should add Crows to Minecraft. Caw!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#75E1FF\",\"translate\":\"Birdkeeper\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Black Bird"}]}
+give @s black_dye[item_name='{"translate":"Black Bird","color":"#696969","bold":true,"italic":false}',lore=['{"translate":"They should add Crows to Minecraft. Caw!","color":"#696969"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Birdkeeper","color":"#75E1FF","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Black Bird"}]

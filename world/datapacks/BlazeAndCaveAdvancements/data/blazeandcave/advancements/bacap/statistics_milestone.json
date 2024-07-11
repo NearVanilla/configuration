@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:writable_book"
+			"id": "minecraft:writable_book"
 		},
 		"title": {"translate":"Statistics Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Statistics tab"},

@@ -1193,6 +1193,13 @@ execute as @a[advancements={minecraft:adventure/read_power_of_chiseled_bookshelf
 execute if score terralith_score bac_settings matches 1 as @a[advancements={nullscape:root=true}] run scoreboard players add @s bac_advancements 1
 
 
+# The following advancements were added in version 1.16.8
+execute as @a[advancements={minecraft:adventure/brush_armadillo=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:husbandry/repair_wolf_armor=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:husbandry/remove_wolf_armor=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:husbandry/whole_pack=true}] run scoreboard players add @s bac_advancements 1
+
+
 # Updates team scores
 function bc_rewards:team_score
 

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_hoe"
+			"id": "minecraft:diamond_hoe"
 		},
 		"title": {"translate":"Serious Dedication"},
 		"description": {"color":"dark_purple","translate":"Completely use up a diamond hoe, and then reevaluate your life choices"},

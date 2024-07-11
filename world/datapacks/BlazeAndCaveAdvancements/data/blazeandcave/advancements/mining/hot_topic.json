@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:furnace"
+			"id": "minecraft:furnace"
 		},
 		"title": {"translate":"Hot Topic"},
 		"description": {"color":"green","translate":"Construct a furnace out of eight stone blocks"},

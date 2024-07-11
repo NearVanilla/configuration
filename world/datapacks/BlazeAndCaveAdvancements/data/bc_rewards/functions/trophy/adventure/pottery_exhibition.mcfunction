@@ -1,2 +1,3 @@
-give @s minecraft:yellow_glazed_terracotta{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#f5e1a2\",\"translate\":\"Golden Idol\"}",Lore:["{\"color\":\"#f5e1a2\",\"translate\":\"Stealing this may result in a giant boulder rolling after you\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Pottery Exhibition\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Golden Idol"}]}
+give @s yellow_glazed_terracotta[item_name='{"translate":"Golden Idol","color":"#F5E1A2","bold":true,"italic":false}',lore=['{"translate":"Stealing this may result in a giant boulder rolling after you","color":"#F5E1A2"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Pottery Exhibition","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Golden Idol"}]

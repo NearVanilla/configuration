@@ -1,8 +1,15 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:firework_star",
-			"nbt": "{Explosion:{Type:0b,Colors:[I; 11743532]}}"
+			"id": "minecraft:crossbow",
+			"components": {
+				"minecraft:charged_projectiles": [
+					{
+						"id": "minecraft:firework_rocket",
+						"count": 1
+					}
+				]
+			}
 		},
 		"title": {"translate":"Explosive Fire"},
 		"description": {"color":"green","translate":"Load your crossbow with a firework"},
@@ -21,7 +28,13 @@
 						"items": [
 							"minecraft:crossbow"
 						],
-						"nbt": "{ChargedProjectiles:[{id:\"minecraft:firework_rocket\"}]}"
+						"components": {
+							"minecraft:charged_projectiles": [
+								{
+									"id": "minecraft:firework_rocket"
+								}
+							]
+						}
 					}
 				]
 			}

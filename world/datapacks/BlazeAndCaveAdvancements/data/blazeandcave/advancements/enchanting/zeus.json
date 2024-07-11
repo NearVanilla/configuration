@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:end_rod"
+			"id": "minecraft:end_rod"
 		},
 		"title": {"translate":"Zeus"},
 		"description": {"color":"#75E1FF","translate":"Obtain Channeling on a trident"},
@@ -21,11 +21,13 @@
 						"items": [
 							"minecraft:trident"
 						],
-						"enchantments": [
-							{
-								"enchantment": "minecraft:channeling"
-							}
-						]
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:channeling"
+								}
+							]
+						}
 					}
 				]
 			}

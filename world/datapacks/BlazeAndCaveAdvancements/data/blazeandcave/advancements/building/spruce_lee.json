@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:spruce_sapling"
+			"id": "minecraft:spruce_sapling"
 		},
 		"title": {"translate":"Spruce Lee"},
 		"description": {"color":"#75E1FF","translate":"Craft every item made out of spruce wood"},

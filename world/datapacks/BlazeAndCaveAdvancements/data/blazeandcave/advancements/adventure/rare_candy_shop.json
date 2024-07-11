@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:experience_bottle"
+			"id": "minecraft:experience_bottle"
 		},
 		"title": {"translate":"Rare Candy Shop"},
 		"description": {"color":"green","translate":"Trade for a Bottle o’ Enchanting from a Cleric"},

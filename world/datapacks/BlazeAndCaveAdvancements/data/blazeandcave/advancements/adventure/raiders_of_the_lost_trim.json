@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:wayfinder_armor_trim_smithing_template"
+			"id": "minecraft:wayfinder_armor_trim_smithing_template"
 		},
 		"title": {"translate":"Raiders of the Lost Trim"},
 		"description": {"color":"#75E1FF","translate":"Carefully excavate a Smithing Template from the Trail Ruins"},

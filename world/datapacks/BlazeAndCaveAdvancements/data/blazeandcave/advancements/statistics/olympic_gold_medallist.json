@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:gold_block"
+			"id": "minecraft:gold_block"
 		},
 		"title": {"translate":"Olympic Gold Medallist"},
 		"description": {"color":"dark_purple","translate":"Swim 50km"},

@@ -1,2 +1,3 @@
-give @s minecraft:purple_dye{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#8338B7\",\"translate\":\"Power Stone\"}",Lore:["{\"color\":\"#8338B7\",\"translate\":\"Maybe you should start a cool rock collection\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#FF2A2A\",\"translate\":\"Dragon vs Wither: Pre-Sequel\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Power Stone"}]}
+give @s purple_dye[item_name='{"translate":"Power Stone","color":"#8338B7","bold":true,"italic":false}',lore=['{"translate":"Maybe you should start a cool rock collection","color":"#8338B7"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Dragon vs Wither: Pre-Sequel","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Power Stone"}]

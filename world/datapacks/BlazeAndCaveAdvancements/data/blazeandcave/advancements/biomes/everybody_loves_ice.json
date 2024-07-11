@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:poisonous_potato"
+			"id": "minecraft:poisonous_potato"
 		},
 		"title": {"translate":"Everybody Loves Ice!"},
 		"description": {"color":"#75E1FF","translate":"Obtain a stack of every type of ice in your inventory"},

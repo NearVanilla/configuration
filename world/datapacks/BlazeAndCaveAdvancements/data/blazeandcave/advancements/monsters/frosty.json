@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:snowball"
+			"id": "minecraft:snowball"
 		},
 		"title": {"translate":"Frosty"},
 		"description": {"color":"green","translate":"Kill a stray"},

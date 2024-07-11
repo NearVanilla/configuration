@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:honeycomb"
+			"id": "minecraft:honeycomb"
 		},
 		"title": {"translate":"Wax On"},
 		"description": {"color":"green","translate":"Use Honeycombs to wax a Copper Block, preventing it from oxidising"},
@@ -17,7 +17,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "blazeandcave:waxed_copper_blocks"
+						"items": "#blazeandcave:waxed_copper_blocks"
 					}
 				]
 			}
@@ -30,7 +30,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "blazeandcave:waxed_copper_blocks"
+								"blocks": "#blazeandcave:waxed_copper_blocks"
 							}
 						}
 					},

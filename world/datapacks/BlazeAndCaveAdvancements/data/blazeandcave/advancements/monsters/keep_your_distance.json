@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bow"
+			"id": "minecraft:bow"
 		},
 		"title": {"translate":"Keep Your Distance"},
 		"description": {"color":"green","translate":"Kill a Creeper with arrows"},

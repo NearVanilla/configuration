@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:hay_block"
+			"id": "minecraft:hay_block"
 		},
 		"title": {"translate":"Farming Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Farming tab"},

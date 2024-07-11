@@ -1,6 +1,21 @@
 {
-	"pack":{
-		"pack_format": 10,
-		"description": "§6Vanilla Tweaks 1.19\n§evanillatweaks.net"
+	"pack": {
+		"pack_format": 15,
+		"supported_formats": {
+			"min_inclusive": 15,
+			"max_inclusive": 41
+		},
+		"description": "§6Vanilla Tweaks 1.20\n§evanillatweaks.net"
+	},
+	"overlays": {
+		"entries": [
+			{
+				"formats": {
+					"min_inclusive": 41,
+					"max_inclusive": 2147483647
+				},
+				"directory": "overlay_41"
+			}
+		]
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:red_sand"
+			"id": "minecraft:red_sand"
 		},
 		"title": {"translate":"Basketblock Championship"},
 		"description": {"color":"dark_purple","translate":"Kill Endermen that are holding every block that they can hold"},

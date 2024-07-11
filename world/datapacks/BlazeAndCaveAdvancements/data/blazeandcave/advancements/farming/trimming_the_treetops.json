@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_leaves"
+			"id": "minecraft:oak_leaves"
 		},
 		"title": {"translate":"Trimming the Treetops"},
 		"description": {"color":"green","translate":"Use shears to obtain leaf blocks"},
@@ -17,7 +17,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "minecraft:leaves"
+						"items": "#minecraft:leaves"
 					}
 				]
 			}

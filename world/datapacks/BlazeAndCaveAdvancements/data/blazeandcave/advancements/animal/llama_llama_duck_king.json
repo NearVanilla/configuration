@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:llama_spawn_egg"
+			"id": "minecraft:llama_spawn_egg"
 		},
 		"title": {"translate":"Llama Llama Duck King"},
 		"description": {"color":"#75E1FF","translate":"Tame all llama variants"},

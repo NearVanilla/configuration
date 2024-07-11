@@ -1,2 +1,3 @@
-give @s minecraft:end_crystal{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#BE95D4\",\"translate\":\"Endfinity Source\"}",Lore:["{\"color\":\"#BE95D4\",\"translate\":\"They will END the world...\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#FF2A2A\",\"translate\":\"Endergeddon\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Endfinity Source"}]}
+give @s end_crystal[item_name='{"translate":"Endfinity Source","color":"#BE95D4","bold":true,"italic":false}',lore=['{"translate":"They will END the world...","color":"#BE95D4"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Endergeddon","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Endfinity Source"}]

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:arrow"
+			"id": "minecraft:arrow"
 		},
 		"title": {"translate":"To Infinity And Beyond!"},
 		"description": {"color":"#75E1FF","translate":"Obtain Infinity on a bow"},
@@ -21,11 +21,13 @@
 						"items": [
 							"minecraft:bow"
 						],
-						"enchantments": [
-							{
-								"enchantment": "minecraft:infinity"
-							}
-						]
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:infinity"
+								}
+							]
+						}
 					}
 				]
 			}

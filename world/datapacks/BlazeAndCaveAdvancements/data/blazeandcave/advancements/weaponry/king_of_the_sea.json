@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:water_bucket"
+			"id": "minecraft:water_bucket"
 		},
 		"title": {"translate":"King of the Sea"},
 		"description": {"color":"dark_purple","translate":"Kill a drowned using a trident from at least 30 metres"},

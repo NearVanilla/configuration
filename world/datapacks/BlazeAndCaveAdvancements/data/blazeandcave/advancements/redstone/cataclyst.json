@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:nether_star"
+			"id": "minecraft:nether_star"
 		},
 		"title": {"translate":"Cataclyst"},
 		"description": {"color":"dark_purple","translate":"Kill a Wither near a Sculk Catalyst to unleash a large explosion of sculk"},

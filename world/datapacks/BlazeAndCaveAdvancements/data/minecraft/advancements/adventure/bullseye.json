@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:arrow"
+			"id": "minecraft:arrow"
 		},
 		"title": {"translate":"Bullseye"},
 		"description": {"color":"dark_purple","translate":"Hit the bullseye of a Target Block with an arrow from 30 blocks away"},

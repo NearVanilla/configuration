@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:emerald_block"
+			"id": "minecraft:emerald_block"
 		},
 		"title": {"translate":"Filthy Stinkin' Rich"},
 		"description": {"color":"dark_purple","translate":"Make 64 emerald blocks"},

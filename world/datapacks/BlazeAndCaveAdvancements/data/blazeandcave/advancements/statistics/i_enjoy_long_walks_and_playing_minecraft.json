@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_boots"
+			"id": "minecraft:diamond_boots"
 		},
 		"title": {"translate":"I enjoy long walks & playing MC"},
 		"description": {"color":"dark_purple","translate":"Walk 250km"},

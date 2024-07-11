@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:crossbow",
-			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+			"id": "minecraft:crossbow",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
 		},
 		"title": {"translate":"Master Arbalist"},
 		"description": {"color":"dark_purple","translate":"Create a crossbow with all possible enchantments at max level"},
@@ -22,32 +24,34 @@
 						"items": [
 							"minecraft:crossbow"
 						],
-						"enchantments": [
-							{
-								"enchantment": "minecraft:quick_charge",
-								"levels": {
-									"min": 3
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:quick_charge",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantment": "minecraft:multishot",
+									"levels": {
+										"min": 1
+									}
+								},
+								{
+									"enchantment": "minecraft:mending",
+									"levels": {
+										"min": 1
+									}
+								},
+								{
+									"enchantment": "minecraft:unbreaking",
+									"levels": {
+										"min": 3
+									}
 								}
-							},
-							{
-								"enchantment": "minecraft:multishot",
-								"levels": {
-									"min": 1
-								}
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": {
-									"min": 1
-								}
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": {
-									"min": 3
-								}
-							}	
-						]
+							]
+						}
 					}
 				]
 			}
@@ -60,32 +64,34 @@
 						"items": [
 							"minecraft:crossbow"
 						],
-						"enchantments": [
-							{
-								"enchantment": "minecraft:quick_charge",
-								"levels": {
-									"min": 3
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:quick_charge",
+									"levels": {
+										"min": 3
+									}
+								},						
+								{
+									"enchantment": "minecraft:piercing",
+									"levels": {
+										"min": 4
+									}
+								},
+								{
+									"enchantment": "minecraft:mending",
+									"levels": {
+										"min": 1
+									}
+								},
+								{
+									"enchantment": "minecraft:unbreaking",
+									"levels": {
+										"min": 3
+									}
 								}
-							},						
-							{
-								"enchantment": "minecraft:piercing",
-								"levels": {
-									"min": 4
-								}
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": {
-									"min": 1
-								}
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": {
-									"min": 3
-								}
-							}	
-						]
+							]
+						}
 					}
 				]
 			}

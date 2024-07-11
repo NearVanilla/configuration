@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:crimson_roots"
+			"id": "minecraft:crimson_roots"
 		},
 		"title": {"translate":"I am Root"},
 		"description": {"color":"green","translate":"Pick up some crimson or warped roots"},
@@ -17,7 +17,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "minecraft:nether_roots"
+						"items": "#minecraft:nether_roots"
 					}
 				]
 			}

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone_pressure_plate"
+			"id": "minecraft:stone_pressure_plate"
 		},
 		"title": {"translate":"Under Pressure"},
 		"description": {"color":"green","translate":"Step on a pressure plate"},

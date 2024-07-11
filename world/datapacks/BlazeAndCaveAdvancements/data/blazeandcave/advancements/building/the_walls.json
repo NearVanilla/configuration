@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cobblestone_wall"
+			"id": "minecraft:cobblestone_wall"
 		},
 		"title": {"translate":"The Walls"},
 		"description": {"color":"green","translate":"Build some cobblestone walls"},

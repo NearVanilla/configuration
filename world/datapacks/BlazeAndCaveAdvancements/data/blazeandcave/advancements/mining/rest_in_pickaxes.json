@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_pickaxe"
+			"id": "minecraft:diamond_pickaxe"
 		},
 		"title": {"translate":"Rest in Pickaxes"},
 		"description": {"color":"#75E1FF","translate":"Break your first diamond pickaxe"},

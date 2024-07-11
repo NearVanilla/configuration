@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:polar_bear_spawn_egg"
+			"id": "minecraft:polar_bear_spawn_egg"
 		},
 		"title": {"translate":"Barbearian"},
 		"description": {"color":"green","translate":"It may be illegal to hunt polar bears in real life, but not in Minecraft"},

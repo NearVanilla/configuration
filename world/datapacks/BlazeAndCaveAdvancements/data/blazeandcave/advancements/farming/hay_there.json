@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:hay_block"
+			"id": "minecraft:hay_block"
 		},
 		"title": {"translate":"Hay there!"},
 		"description": {"color":"#75E1FF","translate":"Craft a stack of hay blocks"},

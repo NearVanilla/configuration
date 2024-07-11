@@ -1,2 +1,2 @@
-give @s minecraft:scute 8
+give @s minecraft:turtle_scute 8
 tellraw @s {"color":"green","text":" +8 ","extra":[{"translate":"item.minecraft.scute"}]}

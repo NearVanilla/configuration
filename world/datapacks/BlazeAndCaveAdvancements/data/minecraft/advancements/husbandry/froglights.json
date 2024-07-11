@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:verdant_froglight"
+			"id": "minecraft:verdant_froglight"
 		},
 		"title": {"translate":"Incandescent!"},
 		"description": {"color":"#75E1FF","translate":"Light up the area with all three hues of Froglight"},

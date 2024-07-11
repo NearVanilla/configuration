@@ -1,2 +1,3 @@
-give @s minecraft:cobblestone{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#888788\",\"translate\":\"Octuple Compressed Cobblestone\"}",Lore:["{\"color\":\"#888788\",\"translate\":\"Just imagine how much cobblestone it contains…\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#75E1FF\",\"translate\":\"Chestful of Cobblestone\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Octuple Compressed Cobblestone"}]}
+give @s cobblestone[item_name='{"translate":"Octuple Compressed Cobblestone","color":"#888788","bold":true,"italic":false}',lore=['{"translate":"Just imagine how much cobblestone it contains…","color":"#888788"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Chestful of Cobblestone","color":"#75E1FF","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Octuple Compressed Cobblestone"}]

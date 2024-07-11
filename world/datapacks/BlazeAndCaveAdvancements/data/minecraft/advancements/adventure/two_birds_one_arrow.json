@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:crossbow"
+			"id": "minecraft:crossbow"
 		},
 		"title": {"translate":"Two Birds, One Arrow"},
 		"description": {"color":"dark_purple","translate":"Kill two Phantoms with a piercing arrow"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:ender_pearl"
+			"id": "minecraft:ender_pearl"
 		},
 		"title": {"translate":"Tele-Morph"},
 		"description": {"color":"green","translate":"Damage a mob by teleporting into it"},

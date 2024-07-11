@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:trident"
+			"id": "minecraft:trident"
 		},
 		"title": {"translate":"Captain Etho"},
 		"description": {"color":"dark_purple","translate":"Defeat a Drowned that is holding both a nautilus shell and a trident"},

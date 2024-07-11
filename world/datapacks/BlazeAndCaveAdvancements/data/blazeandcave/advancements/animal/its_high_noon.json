@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bow"
+			"id": "minecraft:bow"
 		},
 		"title": {"translate":"It's High Noon"},
 		"description": {"color":"dark_purple","translate":"Snipe a Husk from 50 blocks away while riding a Horse"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chest"
+			"id": "minecraft:chest"
 		},
 		"title": {"translate":"Stationary Storage"},
 		"description": {"color":"green","translate":"Craft and place down a chest for storing your items"},

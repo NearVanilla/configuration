@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sentry_armor_trim_smithing_template"
+			"id": "minecraft:sentry_armor_trim_smithing_template"
 		},
 		"title": {"translate":"Good-Lookin’ Treasure"},
 		"description": {"color":"green","translate":"Find a Smithing Template"},
@@ -17,7 +17,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "minecraft:trim_templates"
+						"items": "#minecraft:trim_templates"
 					}
 				]
 			}

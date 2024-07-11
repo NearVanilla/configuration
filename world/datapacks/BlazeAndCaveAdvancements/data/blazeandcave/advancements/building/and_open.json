@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_door"
+			"id": "minecraft:iron_door"
 		},
 		"title": {"translate":"Aaaaaand... OPEN!"},
 		"description": {"color":"green","translate":"Craft and place an iron door"},

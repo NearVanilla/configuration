@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dolphin_spawn_egg"
+			"id": "minecraft:dolphin_spawn_egg"
 		},
 		"title": {"translate":"Dolphin Dasher"},
 		"description": {"color":"green","translate":"Get a speed boost from your friendly underwater companions"},

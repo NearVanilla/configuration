@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:axolotl_bucket"
+			"id": "minecraft:axolotl_bucket"
 		},
 		"title": {"translate":"The Cutest Predator"},
 		"description": {"color":"green","translate":"Catch an Axolotl in a Bucket"},

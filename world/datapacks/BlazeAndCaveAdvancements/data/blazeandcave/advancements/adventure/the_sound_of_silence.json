@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:silence_armor_trim_smithing_template"
+			"id": "minecraft:silence_armor_trim_smithing_template"
 		},
 		"title": {"translate":"The Sound of Silence"},
 		"description": {"color":"#75E1FF","translate":"Find the Silence Smithing Template in an Ancient City"},

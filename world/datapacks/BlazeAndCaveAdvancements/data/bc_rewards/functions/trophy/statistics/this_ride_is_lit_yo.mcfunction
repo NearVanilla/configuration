@@ -1,2 +1,3 @@
-give @s minecraft:warped_fungus{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#14B485\",\"translate\":\"Strider Treat\"}",Lore:["{\"color\":\"#14B485\",\"translate\":\"Your strider deserved it\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"This Ride Is Lit, Yo!\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Strider Treat"}]}
+give @s warped_fungus[item_name='{"translate":"Strider Treat","color":"#14B485","bold":true,"italic":false}',lore=['{"translate":"Your strider deserved it","color":"#14B485"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"This Ride Is Lit, Yo!","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Strider Treat"}]

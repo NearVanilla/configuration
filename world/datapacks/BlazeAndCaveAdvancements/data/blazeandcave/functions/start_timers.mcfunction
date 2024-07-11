@@ -129,6 +129,11 @@ scoreboard objectives add bac_oar_current_z dummy
 scoreboard objectives add bac_oar_eligible_x dummy
 scoreboard objectives add bac_oar_eligible_z dummy
 scoreboard objectives add bac_1000th_item minecraft.used:minecraft.warped_button
+scoreboard objectives add bac_inv_check dummy
+scoreboard objectives add bac_inv_artillery dummy
+scoreboard objectives add bac_inv_chestful_of_cobblestone dummy
+scoreboard objectives add bac_inv_rocketman dummy
+scoreboard objectives add bac_inv_immortal dummy
 
 
 # If a setting for advancement message visibility is not found, it is set to its default (which is all on)
@@ -159,6 +164,8 @@ execute unless score milestone bac_settings matches 0 run execute in the_nether 
 
 
 # # Starts timers
+scoreboard objectives add bac_timer dummy
+
 function blazeandcave:one_second_timer
 function blazeandcave:ten_second_timer
 function blazeandcave:five_minute_timer

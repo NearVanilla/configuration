@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:firework_rocket"
+			"id": "minecraft:firework_rocket"
 		},
 		"title": {"translate":"Uh, Houston? We have a problem"},
 		"description": {"color":"dark_purple","translate":"Fly up to a ridiculous height"},

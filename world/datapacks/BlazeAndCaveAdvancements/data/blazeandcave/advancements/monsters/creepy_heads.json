@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:creeper_head"
+			"id": "minecraft:creeper_head"
 		},
 		"title": {"translate":"Creepy Heads"},
 		"description": {"color":"dark_purple","translate":"Blow up a creeper with a charged creeper to get a creeper head"},

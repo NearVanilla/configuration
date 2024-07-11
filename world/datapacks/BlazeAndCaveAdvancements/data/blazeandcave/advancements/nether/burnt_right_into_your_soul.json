@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:soul_soil"
+			"id": "minecraft:soul_soil"
 		},
 		"title": {"translate":"Burnt Right Into Your Soul"},
 		"description": {"color":"green","translate":"Get caught on Soul Fire"},

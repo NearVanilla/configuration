@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:honey_block"
+			"id": "minecraft:honey_block"
 		},
 		"title": {"translate":"Sticky Situation"},
 		"description": {"color":"green","translate":"Jump into a honey block to slide down it"},

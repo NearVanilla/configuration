@@ -1,2 +1,3 @@
-give @s minecraft:totem_of_undying{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#EADB84\",\"translate\":\"Totem of Immortality\"}",Lore:["{\"color\":\"#EADB84\",\"translate\":\"You'll be immortal as long as you don't die\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#FF2A2A\",\"translate\":\"Immortal\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Totem of Immortality"}]}
+give @s totem_of_undying[item_name='{"translate":"Totem of Immortality","color":"#EADB84","bold":true,"italic":false}',lore=['{"translate":"You\'ll be immortal as long as you don\'t die","color":"#EADB84"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Immortal","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Totem of Immortality"}]

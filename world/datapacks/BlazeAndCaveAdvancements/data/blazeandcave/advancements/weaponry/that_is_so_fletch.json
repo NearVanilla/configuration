@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:fletching_table"
+			"id": "minecraft:fletching_table"
 		},
 		"title": {"translate":"That is so fletch!"},
 		"description": {"color":"green","translate":"Craft a fletching table"},

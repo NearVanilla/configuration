@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:honey_bottle"
+			"id": "minecraft:honey_bottle"
 		},
 		"title": {"translate":"Miracle Drink"},
 		"description": {"color":"#75E1FF","translate":"Drink milk or honey to cure poison when on half a heart"},
@@ -17,7 +17,7 @@
 			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"item": {
-					"tag": "blazeandcave:poison_cures"
+					"items": "#blazeandcave:poison_cures"
 				},
 				"player": [
 					{
@@ -28,9 +28,6 @@
 								"minecraft:poison": {
 									"amplifier": {
 										"min": 0
-									},
-									"duration": {
-										"min": 1
 									}
 								}
 							}

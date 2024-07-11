@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bread"
+			"id": "minecraft:bread"
 		},
 		"title": {"translate":"Bake Bread"},
 		"description": {"color":"green","translate":"Grow wheat and use it to bake bread"},

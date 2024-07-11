@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:brown_carpet"
+			"id": "minecraft:brown_carpet"
 		},
 		"title": {"translate":"You Lead, I'll Follow"},
 		"description": {"color":"green","translate":"Attach a lead to a llama to form a llama caravan"},

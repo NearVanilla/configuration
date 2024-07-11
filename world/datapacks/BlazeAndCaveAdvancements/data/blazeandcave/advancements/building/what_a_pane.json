@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:glass_pane"
+			"id": "minecraft:glass_pane"
 		},
 		"title": {"translate":"What a pane"},
 		"description": {"color":"green","translate":"Craft some glass panes"},

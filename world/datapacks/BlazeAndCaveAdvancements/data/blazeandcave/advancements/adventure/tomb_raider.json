@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:mossy_cobblestone"
+			"id": "minecraft:mossy_cobblestone"
 		},
 		"title": {"translate":"Tomb Raider"},
 		"description": {"color":"green","translate":"Enter a jungle temple"},
@@ -21,7 +21,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"structure": "jungle_pyramid"
+								"structures": "jungle_pyramid"
 							}
 						}
 					},

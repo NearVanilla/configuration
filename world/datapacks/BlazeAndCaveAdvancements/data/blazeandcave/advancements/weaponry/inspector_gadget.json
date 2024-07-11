@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:spyglass"
+			"id": "minecraft:spyglass"
 		},
 		"title": {"translate":"Inspector Gadget"},
 		"description": {"color":"green","translate":"Kill a zombie while holding a spyglass"},

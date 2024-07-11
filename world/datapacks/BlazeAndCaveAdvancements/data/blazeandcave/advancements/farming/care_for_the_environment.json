@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_sapling"
+			"id": "minecraft:oak_sapling"
 		},
 		"title": {"translate":"Care For the Environment"},
 		"description": {"color":"green","translate":"Plant down a sapling"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dragon_breath"
+			"id": "minecraft:dragon_breath"
 		},
 		"title": {"translate":"Global Vaccination"},
 		"description": {"color":"#FF2A2A","translate":"Cure a zombie villager of every profession... from every biome"},

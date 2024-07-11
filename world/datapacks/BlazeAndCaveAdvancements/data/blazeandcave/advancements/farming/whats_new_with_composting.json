@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_leaves"
+			"id": "minecraft:oak_leaves"
 		},
 		"title": {"translate":"What's new with composting?"},
 		"description": {"color":"dark_purple","translate":"Compost every type of compostable item in a Composter"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:light_blue_stained_glass_pane"
+			"id": "minecraft:light_blue_stained_glass_pane"
 		},
 		"title": {"translate":"Pane in the Glass"},
 		"description": {"color":"#75E1FF","translate":"Craft a stack of all 16 colors of stained glass panes"},

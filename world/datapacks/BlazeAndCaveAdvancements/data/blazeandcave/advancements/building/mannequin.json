@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:armor_stand"
+			"id": "minecraft:armor_stand"
 		},
 		"title": {"translate":"Mannequin"},
 		"description": {"color":"green","translate":"Craft an armor stand for displaying your armor"},

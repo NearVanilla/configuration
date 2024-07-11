@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cat_spawn_egg"
+			"id": "minecraft:cat_spawn_egg"
 		},
 		"title": {"translate":"If only cats grew into kittens"},
 		"description": {"color":"green","translate":"Breed two cats together to get a kitty!"},

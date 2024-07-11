@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:ender_eye"
+			"id": "minecraft:ender_eye"
 		},
 		"title": {"translate":"Spawn Camping"},
 		"description": {"color":"#75E1FF","translate":"Travel close to 0,0 coordinates and place down a campfire"},

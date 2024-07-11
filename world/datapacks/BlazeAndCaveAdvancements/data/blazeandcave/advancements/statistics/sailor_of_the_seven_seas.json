@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dark_oak_boat"
+			"id": "minecraft:dark_oak_boat"
 		},
 		"title": {"translate":"Sailor of the Seven Seas"},
 		"description": {"color":"dark_purple","translate":"Sail 50km in a boat"},

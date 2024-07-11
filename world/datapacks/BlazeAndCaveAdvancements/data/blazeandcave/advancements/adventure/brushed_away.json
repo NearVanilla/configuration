@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:brush"
+			"id": "minecraft:brush"
 		},
 		"title": {"translate":"Brushed Away"},
 		"description": {"color":"green","translate":"Craft a Brush using a feather, copper and a stick"},

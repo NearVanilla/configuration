@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_button"
+			"id": "minecraft:oak_button"
 		},
 		"title": {"translate":"Click!"},
 		"description": {"color":"green","translate":"Place and push a button"},
@@ -13,14 +13,14 @@
 	},
 	"criteria": {
 		"oak_button": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:buttons"
+								"blocks": "#minecraft:buttons"
 							}
 						}
 					}

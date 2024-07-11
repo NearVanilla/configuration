@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:flint"
+			"id": "minecraft:flint"
 		},
 		"title": {"translate":"Meet The Flintstones"},
 		"description": {"color":"green","translate":"Dig up some flint from a patch of gravel"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:leather_boots"
+			"id": "minecraft:leather_boots"
 		},
 		"title": {"translate":"Someone's been here before..."},
 		"description": {"color":"#75E1FF","translate":"Fish out a ratty old pair of boots"},

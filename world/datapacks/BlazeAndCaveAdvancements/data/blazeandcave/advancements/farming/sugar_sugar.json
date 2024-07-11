@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sugar_cane"
+			"id": "minecraft:sugar_cane"
 		},
 		"title": {"translate":"Sugar, Sugar"},
 		"description": {"color":"green","translate":"Harvest some sugar cane from a river or ocean"},

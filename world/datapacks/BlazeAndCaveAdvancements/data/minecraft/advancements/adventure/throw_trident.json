@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:trident"
+			"id": "minecraft:trident"
 		},
 		"title": {"translate":"A Throwaway Joke"},
 		"description": {"color":"green","translate":"Throw a trident at something. Note: Throwing away your only weapon is not a good idea"},

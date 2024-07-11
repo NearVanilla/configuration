@@ -1,2 +1,3 @@
-give @s minecraft:dandelion{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#FFE70F\",\"translate\":\"Flowey the Flower\"}",Lore:["{\"color\":\"#FFE70F\",\"translate\":\"All what's left of Asriel, the monsters' prince\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Kill or be Killed\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Flowey the Flower"}]}
+give @s dandelion[item_name='{"translate":"Flowey the Flower","color":"#FFE70F","bold":true,"italic":false}',lore=['{"translate":"All what\'s left of Asriel, the monsters\' prince","color":"#FFE70F"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Kill or be Killed","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Flowey the Flower"}]

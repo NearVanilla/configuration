@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:wheat_seeds"
+			"id": "minecraft:wheat_seeds"
 		},
 		"title": {"translate":"Feeding the §mDucks§r Chickens"},
 		"description": {"color":"green","translate":"Breed chickens by feeding them seeds"},

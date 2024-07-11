@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:end_portal_frame"
+			"id": "minecraft:end_portal_frame"
 		},
 		"title": {"translate":"Endergeddon"},
 		"description": {"color":"#FF2A2A","translate":"Send every mob to the End... and kill them all there"},
@@ -832,6 +832,17 @@
 			"conditions": {
 				"entity": {
 					"type": "sniffer",
+					"location": {
+						"dimension": "the_end"
+					}
+				}
+			}
+		},
+		"armadillo": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "armadillo",
 					"location": {
 						"dimension": "the_end"
 					}

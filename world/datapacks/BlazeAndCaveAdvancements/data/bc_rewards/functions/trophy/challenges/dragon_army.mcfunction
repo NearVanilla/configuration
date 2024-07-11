@@ -1,2 +1,3 @@
-give @s minecraft:red_dye{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#FF2E34\",\"translate\":\"Reality Stone\"}",Lore:["{\"color\":\"#FF2E34\",\"translate\":\"Reality can be whatever I want...\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#FF2A2A\",\"translate\":\"Dragon Army\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Reality Stone"}]}
+give @s red_dye[item_name='{"translate":"Reality Stone","color":"#FF2E34","bold":true,"italic":false}',lore=['{"translate":"Reality can be whatever I want...","color":"#FF2E34"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Dragon Army","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Reality Stone"}]

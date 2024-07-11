@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:tropical_fish"
+			"id": "minecraft:tropical_fish"
 		},
 		"title": {"translate":"Grinding Nemo"},
 		"description": {"color":"#75E1FF","translate":"Skewer a tropical fish"},

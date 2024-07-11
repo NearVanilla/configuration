@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:fire_coral_fan"
+			"id": "minecraft:fire_coral_fan"
 		},
 		"title": {"translate":"Just a sample"},
 		"description": {"color":"green","translate":"Collect some coral from a coral reef"},

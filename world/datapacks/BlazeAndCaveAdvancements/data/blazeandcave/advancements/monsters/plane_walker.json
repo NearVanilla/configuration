@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:ender_eye"
+			"id": "minecraft:ender_eye"
 		},
 		"title": {"translate":"Plane Walker"},
 		"description": {"color":"#75E1FF","translate":"Kill endermen in all three dimensions"},

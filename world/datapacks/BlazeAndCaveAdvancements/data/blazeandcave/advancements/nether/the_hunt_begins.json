@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bone"
+			"id": "minecraft:bone"
 		},
 		"title": {"translate":"The Hunt Begins"},
 		"description": {"color":"green","translate":"Kill a wither skeleton"},

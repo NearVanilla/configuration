@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_helmet"
+			"id": "minecraft:diamond_helmet"
 		},
 		"title": {"translate":"Custom Boss Fight!"},
 		"description": {"color":"dark_purple","translate":"Give a zombie full diamond armor and a diamond sword... then kill it"},

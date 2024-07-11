@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:popped_chorus_fruit"
+			"id": "minecraft:popped_chorus_fruit"
 		},
 		"title": {"translate":"A Wizard’s Breakfast"},
 		"description": {"color":"dark_purple","translate":"Eat a stack of Chorus Fruit in one go"},

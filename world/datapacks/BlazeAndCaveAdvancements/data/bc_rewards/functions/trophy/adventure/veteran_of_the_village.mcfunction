@@ -1,2 +1,3 @@
-give @s minecraft:emerald_block{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#E31700\",\"translate\":\"Medal of Honor\"}",Lore:["{\"color\":\"#E31700\",\"translate\":\"But didn't you start the raid yourself?\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Veteran of the Village\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Medal of Honor"}]}
+give @s emerald_block[item_name='{"translate":"Medal of Honor","color":"#E31700","bold":true,"italic":false}',lore=['{"translate":"But didn\'t you start the raid yourself?","color":"#E31700"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Veteran of the Village","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Medal of Honor"}]

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:elytra"
+			"id": "minecraft:elytra"
 		},
 		"title": {"translate":"A Million Blocks Away"},
 		"description": {"color":"#FF2A2A","translate":"Travel a million blocks away from spawn"},

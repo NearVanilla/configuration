@@ -1,2 +1,3 @@
-give @s minecraft:slime_ball{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#65209D\",\"translate\":\"Nuclear Reactor\"}",Lore:["{\"color\":\"#65209D\",\"translate\":\"You have transcended humanity's progression\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#FF2A2A\",\"translate\":\"Nuclear Fusion\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Nuclear Reactor"}]}
+give @s slime_ball[item_name='{"translate":"Nuclear Reactor","color":"#65209D","bold":true,"italic":false}',lore=['{"translate":"You have transcended humanity\'s progression","color":"#65209D"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Nuclear Fusion","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Nuclear Reactor"}]

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chicken_spawn_egg"
+			"id": "minecraft:chicken_spawn_egg"
 		},
 		"title": {"translate":"Chicken Cooper"},
 		"description": {"color":"#75E1FF","translate":"Collect a stack of raw chicken and feathers"},

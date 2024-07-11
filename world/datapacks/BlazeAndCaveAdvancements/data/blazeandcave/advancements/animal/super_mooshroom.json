@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:red_mushroom"
+			"id": "minecraft:red_mushroom"
 		},
 		"title": {"translate":"Super Mooshroom"},
 		"description": {"color":"green","translate":"Breed two stubborn mooshrooms together"},

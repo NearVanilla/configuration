@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:pumpkin"
+			"id": "minecraft:pumpkin"
 		},
 		"title": {"translate":"Naturally Carved"},
 		"description": {"color":"green","translate":"Harvest some spooky pumpkins"},

@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:fishing_rod",
-			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+			"id": "minecraft:fishing_rod",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
 		},
 		"title": {"translate":"Totally not an AFK fisher!"},
 		"description": {"color":"dark_purple","translate":"Fish out all types of items"},

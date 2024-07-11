@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chainmail_chestplate",
-			"nbt": "{Enchantments:[{id:\"minecraft:thorns\",lvl:3}]}"
+			"id": "minecraft:chainmail_chestplate",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
 		},
 		"title": {"translate":"Living Dummy"},
 		"description": {"color":"#75E1FF","translate":"Get killed from hitting an Armor Stand"},

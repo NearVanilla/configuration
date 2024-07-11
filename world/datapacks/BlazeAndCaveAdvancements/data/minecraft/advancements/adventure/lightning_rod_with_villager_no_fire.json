@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:villager_spawn_egg"
+			"id": "minecraft:villager_spawn_egg"
 		},
 		"title": {"translate":"Surge Protector"},
 		"description": {"color":"#75E1FF","translate":"Protect a villager from an undesired shock without starting a fire"},

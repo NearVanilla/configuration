@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:flint_and_steel"
+			"id": "minecraft:flint_and_steel"
 		},
 		"title": {"translate":"Ancient Restoration"},
 		"description": {"color":"#75E1FF","translate":"Rebuild and reactivate a Ruined Portal"},
@@ -26,7 +26,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal"
+										"structures": "minecraft:ruined_portal"
 									}
 								}
 							},
@@ -35,7 +35,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_desert"
+										"structures": "minecraft:ruined_portal_desert"
 									}
 								}
 							},
@@ -44,7 +44,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_jungle"
+										"structures": "minecraft:ruined_portal_jungle"
 									}
 								}
 							},
@@ -53,7 +53,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_mountain"
+										"structures": "minecraft:ruined_portal_mountain"
 									}
 								}
 							},
@@ -62,7 +62,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_nether"
+										"structures": "minecraft:ruined_portal_nether"
 									}
 								}
 							},
@@ -71,7 +71,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_ocean"
+										"structures": "minecraft:ruined_portal_ocean"
 									}
 								}
 							},
@@ -80,7 +80,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_swamp"
+										"structures": "minecraft:ruined_portal_swamp"
 									}
 								}
 							}

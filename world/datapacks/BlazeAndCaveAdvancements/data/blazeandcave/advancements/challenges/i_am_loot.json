@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chest"
+			"id": "minecraft:chest"
 		},
 		"title": {"translate":"I am Loot!"},
 		"description": {"color":"#FF2A2A","translate":"Open up every type of loot chest"},

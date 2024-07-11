@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_shovel"
+			"id": "minecraft:diamond_shovel"
 		},
 		"title": {"translate":"Even MOAR Tools"},
 		"description": {"color":"green","translate":"Craft a full diamond tools set"},

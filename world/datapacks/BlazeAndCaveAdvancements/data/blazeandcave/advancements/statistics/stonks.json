@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:egg"
+			"id": "minecraft:egg"
 		},
 		"title": {"translate":"STONKS!"},
 		"description": {"color":"dark_purple","translate":"Trade with villagers 2500 times"},

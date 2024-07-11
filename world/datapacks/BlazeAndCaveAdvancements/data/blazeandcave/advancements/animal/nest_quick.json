@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bee_spawn_egg"
+			"id": "minecraft:bee_spawn_egg"
 		},
 		"title": {"translate":"Nest, Quick!"},
 		"description": {"color":"dark_purple","translate":"Collect a stack of empty bee nests"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:compass"
+			"id": "minecraft:compass"
 		},
 		"title": {"translate":"The way to spawn"},
 		"description": {"color":"green","translate":"Craft a compass in case you forgot where spawn is"},

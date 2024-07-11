@@ -1,2 +1,3 @@
-give @s minecraft:orange_dye{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:132,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#EB731C\",\"translate\":\"Annoying Orange\"}",Lore:["{\"color\":\"#EB731C\",\"translate\":\"Hey apple, can you spit seeds?\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"An Apple a Day\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Annoying Orange"}]}
+give @s orange_dye[item_name='{"translate":"Annoying Orange","color":"#EB731C","bold":true,"italic":false}',lore=['{"translate":"Hey apple, can you spit seeds?","color":"#EB731C"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"An Apple a Day","color":"light_purple","italic":false}'],custom_model_data=132,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Annoying Orange"}]

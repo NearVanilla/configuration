@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bedrock"
+			"id": "minecraft:bedrock"
 		},
 		"title": {"translate":"Unbreakable"},
 		"description": {"color":"#75E1FF","translate":"Obtain Mending on an item"},
@@ -18,11 +18,13 @@
 			"conditions": {
 				"items": [
 					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:mending"
-							}
-						]
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:mending"
+								}
+							]
+						}
 					}
 				]
 			}

@@ -1,2 +1,3 @@
-give @s minecraft:tuff{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#B7B3B2\",\"translate\":\"The Moon\"}",Lore:["{\"color\":\"#B7B3B2\",\"translate\":\"Yeah, it's just me, you, and the moon\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#75E1FF\",\"translate\":\"Hey! You two should kiss!\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"The Moon"}]}
+give @s tuff[item_name='{"translate":"The Moon","color":"#B7B3B2","bold":true,"italic":false}',lore=['{"translate":"Yeah, it\'s just me, you, and the moon","color":"#B7B3B2"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Hey! You two should kiss!","color":"#75E1FF","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"The Moon"}]

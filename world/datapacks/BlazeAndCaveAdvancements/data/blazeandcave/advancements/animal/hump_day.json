@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cactus"
+			"id": "minecraft:cactus"
 		},
 		"title": {"translate":"Hump Day"},
 		"description": {"color":"green","translate":"Breed two Camels using cactus"},

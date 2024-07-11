@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cocoa_beans"
+			"id": "minecraft:cocoa_beans"
 		},
 		"title": {"translate":"It's where nutella comes from"},
 		"description": {"color":"green","translate":"Obtain some cocoa beans from a jungle"},

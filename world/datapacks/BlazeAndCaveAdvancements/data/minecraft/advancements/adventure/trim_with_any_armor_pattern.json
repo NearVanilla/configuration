@@ -1,8 +1,13 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_helmet",
-			"nbt": "{Trim:{material:\"minecraft:lapis\",pattern:\"minecraft:sentry\"}}"
+			"id": "minecraft:iron_helmet",
+			"components": {
+				"minecraft:trim": {
+					"material": "minecraft:lapis",
+					"pattern": "minecraft:sentry"
+				}
+			}
 		},
 		"title": {"translate":"Crafting a New Look"},
 		"description": {"color":"green","translate":"Use a Smithing Template to apply a trim to a piece of armor"},

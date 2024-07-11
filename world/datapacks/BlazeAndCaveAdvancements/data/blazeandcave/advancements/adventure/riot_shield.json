@@ -1,8 +1,20 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:shield",
-			"nbt": "{BlockEntityTag:{Base:7,Patterns:[{Pattern:hh,Color:3},{Pattern:ts,Color:7}]}}"
+			"id": "minecraft:shield",
+			"components": {
+				"minecraft:base_color": "gray",
+				"minecraft:banner_patterns": [
+					{
+						"color": "light_blue", 
+						"pattern": "minecraft:half_horizontal"
+					},
+					{
+						"color": "gray", 
+						"pattern": "minecraft:stripe_top"
+					}
+				]
+			}
 		},
 		"title": {"translate":"Riot Shield"},
 		"description": {"color":"green","translate":"Deflect a Pillager's crossbow bolt"},

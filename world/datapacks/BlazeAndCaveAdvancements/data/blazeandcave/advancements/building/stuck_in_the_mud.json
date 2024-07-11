@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:mud"
+			"id": "minecraft:mud"
 		},
 		"title": {"translate":"Stuck in the Mud"},
 		"description": {"color":"green","translate":"Use a Water Bottle on some Dirt to turn it into Mud"},

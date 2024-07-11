@@ -1,2 +1,3 @@
-give @s minecraft:crimson_nylium{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:1,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#854242\",\"translate\":\"Nether Adventurer's Trophy\"}",Lore:["{\"color\":\"#854242\",\"translate\":\"You'll nether find a better trophy anywhere else!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"yellow\",\"translate\":\"Nether Milestone\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Nether Adventurer's Trophy"}]}
+give @s crimson_nylium[item_name='{"translate":"Nether Adventurer\'s Trophy","color":"#854242","bold":true,"italic":false}',lore=['{"translate":"You\'ll nether find a better trophy anywhere else!","color":"#854242"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Nether Milestone","color":"yellow","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantments={levels:{"minecraft:unbreaking":1},show_in_tooltip:false}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Nether Adventurer's Trophy"}]

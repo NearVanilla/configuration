@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"id": "minecraft:stone"
 		},
 		"title": {"translate":"High Feet"},
 		"description": {"color":"#75E1FF","translate":"Discover every mountain biome"},
@@ -22,7 +22,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:stony_shore"
+								"biomes": "minecraft:stony_shore"
 							}
 						}
 					},
@@ -51,7 +51,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:windswept_hills"
+								"biomes": "minecraft:windswept_hills"
 							}
 						}
 					},
@@ -80,7 +80,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:windswept_forest"
+								"biomes": "minecraft:windswept_forest"
 							}
 						}
 					},
@@ -109,7 +109,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:windswept_gravelly_hills"
+								"biomes": "minecraft:windswept_gravelly_hills"
 							}
 						}
 					},
@@ -138,7 +138,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:meadow"
+								"biomes": "minecraft:meadow"
 							}
 						}
 					},
@@ -167,7 +167,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:grove"
+								"biomes": "minecraft:grove"
 							}
 						}
 					},
@@ -196,7 +196,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:snowy_slopes"
+								"biomes": "minecraft:snowy_slopes"
 							}
 						}
 					},
@@ -225,7 +225,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:frozen_peaks"
+								"biomes": "minecraft:frozen_peaks"
 							}
 						}
 					},
@@ -254,7 +254,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:jagged_peaks"
+								"biomes": "minecraft:jagged_peaks"
 							}
 						}
 					},
@@ -283,7 +283,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:stony_peaks"
+								"biomes": "minecraft:stony_peaks"
 							}
 						}
 					},

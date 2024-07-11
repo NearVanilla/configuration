@@ -12,7 +12,7 @@
 				},
 				"player":  {
 					"location": {
-						"structure": "jungle_pyramid"
+						"structures": "jungle_pyramid"
 					},
 					"type_specific": {
 						"type": "player",
@@ -32,7 +32,7 @@
 				},
 				"player":  {
 					"location": {
-						"biome": "jungle"
+						"biomes": "jungle"
 					},
 					"stepping_on": {
 						"block": {
@@ -60,7 +60,7 @@
 				},
 				"player":  {
 					"location": {
-						"biome": "sparse_jungle"
+						"biomes": "sparse_jungle"
 					},
 					"stepping_on": {
 						"block": {
@@ -88,7 +88,7 @@
 				},
 				"player":  {
 					"location": {
-						"biome": "bamboo_jungle"
+						"biomes": "bamboo_jungle"
 					},
 					"stepping_on": {
 						"block": {

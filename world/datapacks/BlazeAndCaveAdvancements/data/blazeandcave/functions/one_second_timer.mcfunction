@@ -11,6 +11,17 @@ scoreboard players enable @a bac_statistics
 execute as @a if score @s bac_statistics matches 1.. run function blazeandcave:statistics_trigger
 
 
+# # Item and mob rename advancements
+execute as @e[type=rabbit,name=Toast] at @s run advancement grant @a[distance=..5] only blazeandcave:adventure/i_just_want_to_make_toast
+execute as @e[name=Dinnerbone] at @s run advancement grant @a[distance=..5] only blazeandcave:adventure/whats_up_doc
+execute as @e[name=Grumm] at @s run advancement grant @a[distance=..5] only blazeandcave:adventure/whats_up_doc
+execute as @e[type=sheep,name=jeb_] at @s run advancement grant @a[distance=..5] only blazeandcave:adventure/nyan_sheep
+execute as @e[type=piglin_brute,name=Technoblade] at @s run advancement grant @a[distance=..5] only blazeandcave:adventure/nerds_never_die
+execute as @a if items entity @s weapon.* diamond_sword[custom_name='"Diamond Edge"'] run advancement grant @s only blazeandcave:enchanting/this_name_sounds_cooler
+execute as @a if items entity @s weapon.* bow[custom_name='"Terminator"'] run advancement grant @s only blazeandcave:enchanting/ill_be_back
+execute as @a if items entity @s weapon.* trident[custom_name='"Mjolnir"',enchantments={levels:{"minecraft:loyalty":3,"minecraft:channeling":1}}] run advancement grant @s only blazeandcave:enchanting/god_of_thunder
+
+
 # # Llama Festival (progress resets if the player has not completed the advancement and is not sitting on a llama)
 execute as @a at @s unless entity @s[predicate=blazeandcave:llama_sit] if entity @s[advancements={blazeandcave:animal/llama_festival=false}] run advancement revoke @s only blazeandcave:animal/llama_festival
 
@@ -26,9 +37,14 @@ execute as @a at @s if score @s bac_oar_eligible_x matches 1 run function blazea
 execute as @a at @s unless score @s bac_oar_eligible_x matches 1 if score @s bac_oar_eligible_z matches 1 run function blazeandcave:on_a_rail_check
 
 
+# # Chestful of Cobblestone
+execute as @a[advancements={blazeandcave:mining/chestful_of_cobblestone=false}] at @s run function blazeandcave:inv_check_chestful_of_cobblestone
+
+
 # All mobs with Wave set to 1 or higher (part of a raid) get given a special tag for being detected by advancements
-execute as @e[type=#minecraft:raiders] store result score @s bac_part_of_raid run data get entity @s Wave
-tag @e[type=#minecraft:raiders,scores={bac_part_of_raid=1..}] add part_of_raid
+# THESE COMMANDS HAVE BEEN COMMENTED OUT - AS OF MC 1.20.5, THE HAS_RAID TYPE_SPECIFIC RAIDER SUB-PREDICATE HAS BEEN ADDED AND ACCOMPLISHES WHAT THIS ONCE DID
+#execute as @e[type=#minecraft:raiders] store result score @s bac_part_of_raid run data get entity @s Wave
+#tag @e[type=#minecraft:raiders,scores={bac_part_of_raid=1..}] add part_of_raid
 
 # # Full Stomach
 advancement grant @a[nbt={foodLevel:20,foodSaturationLevel:20.0f}] only blazeandcave:farming/full_stomach
@@ -219,5 +235,8 @@ execute as @a if entity @s[advancements={blazeandcave:technical/riddle_ninth_lin
 execute as @a if entity @s[advancements={blazeandcave:technical/riddle_ninth_line=true}] if score @s bac_1000th_item matches 1000.. run advancement grant @s only blazeandcave:technical/riddle_tenth_line
 
 
+# Runs the ten_second_timer every 10 times
+scoreboard players add ten_second bac_timer 1
+execute if score ten_second bac_timer matches 10.. run function blazeandcave:ten_second_timer
 
 schedule function blazeandcave:one_second_timer 1s

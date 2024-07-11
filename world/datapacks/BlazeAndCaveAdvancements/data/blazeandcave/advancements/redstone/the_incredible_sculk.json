@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sculk_vein"
+			"id": "minecraft:sculk_vein"
 		},
 		"title": {"translate":"The Incredible Sculk"},
 		"description": {"color":"#75E1FF","translate":"Collect a stack of all sculk-related blocks"},

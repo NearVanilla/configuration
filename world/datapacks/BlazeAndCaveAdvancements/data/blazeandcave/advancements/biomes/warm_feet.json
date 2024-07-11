@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dead_bush"
+			"id": "minecraft:dead_bush"
 		},
 		"title": {"translate":"Warm Feet"},
 		"description": {"color":"#75E1FF","translate":"Discover every dry biome"},
@@ -22,7 +22,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:desert"
+								"biomes": "minecraft:desert"
 							}
 						}
 					},
@@ -51,7 +51,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:badlands"
+								"biomes": "minecraft:badlands"
 							}
 						}
 					},
@@ -80,7 +80,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:wooded_badlands"
+								"biomes": "minecraft:wooded_badlands"
 							}
 						}
 					},
@@ -109,7 +109,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:eroded_badlands"
+								"biomes": "minecraft:eroded_badlands"
 							}
 						}
 					},
@@ -138,7 +138,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:savanna"
+								"biomes": "minecraft:savanna"
 							}
 						}
 					},
@@ -167,7 +167,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:savanna_plateau"
+								"biomes": "minecraft:savanna_plateau"
 							}
 						}
 					},
@@ -196,7 +196,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:windswept_savanna"
+								"biomes": "minecraft:windswept_savanna"
 							}
 						}
 					},

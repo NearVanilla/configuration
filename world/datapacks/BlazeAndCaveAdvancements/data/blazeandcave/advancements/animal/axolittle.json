@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:axolotl_spawn_egg"
+			"id": "minecraft:axolotl_spawn_egg"
 		},
 		"title": {"translate":"Axolittle"},
 		"description": {"color":"green","translate":"Breed two Axolotls together using Tropical Fish"},

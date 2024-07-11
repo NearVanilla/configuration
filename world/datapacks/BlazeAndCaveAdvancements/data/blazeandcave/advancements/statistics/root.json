@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:writable_book"
+			"id": "minecraft:writable_book"
 		},
 		"title": {"translate":"Statistics"},
 		"description": {"color":"#CCCCCC","translate":"If your numbers go up, you're having more fun"},

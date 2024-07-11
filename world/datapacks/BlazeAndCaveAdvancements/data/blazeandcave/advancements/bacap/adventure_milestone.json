@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:map"
+			"id": "minecraft:map"
 		},
 		"title": {"translate":"Adventure Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Adventure tab"},

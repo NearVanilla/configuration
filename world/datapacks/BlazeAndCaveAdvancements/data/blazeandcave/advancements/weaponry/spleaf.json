@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:big_dripleaf"
+			"id": "minecraft:big_dripleaf"
 		},
 		"title": {"translate":"Spleaf"},
 		"description": {"color":"#75E1FF","translate":"Kill a mob using a shovel while both of you are standing on a Big Dripleaf"},
@@ -34,7 +34,7 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"tag": "minecraft:shovels"
+								"items": "#minecraft:shovels"
 							}
 						},
 						"stepping_on": {

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cooked_beef"
+			"id": "minecraft:cooked_beef"
 		},
 		"title": {"translate":"High Steaks"},
 		"description": {"color":"green","translate":"The steaks are high for this advancement!"},

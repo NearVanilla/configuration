@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cooked_mutton"
+			"id": "minecraft:cooked_mutton"
 		},
 		"title": {"translate":"Feeling Sheepish"},
 		"description": {"color":"green","translate":"You'll get over it"},

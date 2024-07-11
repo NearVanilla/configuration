@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chainmail_chestplate"
+			"id": "minecraft:chainmail_chestplate"
 		},
 		"title": {"translate":"All chained up"},
 		"description": {"color":"green","translate":"Trade for a piece of chain armor from an armorer villager"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:suspicious_sand"
+			"id": "minecraft:suspicious_sand"
 		},
 		"title": {"translate":"Respecting the Remnants"},
 		"description": {"color":"green","translate":"Using a Brush, carefully excavate a Pottery Sherd from a suspicious block"},
@@ -17,7 +17,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "minecraft:decorated_pot_sherds"
+						"items": "#minecraft:decorated_pot_sherds"
 					}
 				]
 			}

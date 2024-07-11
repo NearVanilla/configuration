@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:pufferfish_bucket"
+			"id": "minecraft:pufferfish_bucket"
 		},
 		"title": {"translate":"Tactical Fishing"},
 		"description": {"color":"green","translate":"Catch a fish... without a fishing rod!"},

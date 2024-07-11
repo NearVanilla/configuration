@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stick"
+			"id": "minecraft:stick"
 		},
 		"title": {"translate":"Take Notes"},
 		"description": {"color":"green","translate":"Tune a Note Block through every possible note"},
@@ -13,7 +13,7 @@
 	},		
 	"criteria": {
 		"note0": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -33,7 +33,7 @@
 			}
 		},
 		"note1": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -53,7 +53,7 @@
 			}
 		},
 		"note2": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -73,7 +73,7 @@
 			}
 		},
 		"note3": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -93,7 +93,7 @@
 			}
 		},
 		"note4": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -113,7 +113,7 @@
 			}
 		},
 		"note5": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -133,7 +133,7 @@
 			}
 		},
 		"note6": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -153,7 +153,7 @@
 			}
 		},
 		"note7": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -173,7 +173,7 @@
 			}
 		},
 		"note8": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -193,7 +193,7 @@
 			}
 		},
 		"note9": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -213,7 +213,7 @@
 			}
 		},
 		"note10": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -233,7 +233,7 @@
 			}
 		},
 		"note11": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -253,7 +253,7 @@
 			}
 		},
 		"note12": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -273,7 +273,7 @@
 			}
 		},
 		"note13": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -293,7 +293,7 @@
 			}
 		},
 		"note14": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -313,7 +313,7 @@
 			}
 		},
 		"note15": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -333,7 +333,7 @@
 			}
 		},
 		"note16": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -353,7 +353,7 @@
 			}
 		},
 		"note17": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -373,7 +373,7 @@
 			}
 		},
 		"note18": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -393,7 +393,7 @@
 			}
 		},
 		"note19": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -413,7 +413,7 @@
 			}
 		},
 		"note20": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -433,7 +433,7 @@
 			}
 		},
 		"note21": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -453,7 +453,7 @@
 			}
 		},
 		"note22": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -473,7 +473,7 @@
 			}
 		},
 		"note23": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -493,7 +493,7 @@
 			}
 		},
 		"note24": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sunflower"
+			"id": "minecraft:sunflower"
 		},
 		"title": {"translate":"There's a zombie on the lawn"},
 		"description": {"color":"green","translate":"Find a sunflower plains"},
@@ -21,7 +21,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:sunflower_plains"
+								"biomes": "minecraft:sunflower_plains"
 							}
 						}
 					},

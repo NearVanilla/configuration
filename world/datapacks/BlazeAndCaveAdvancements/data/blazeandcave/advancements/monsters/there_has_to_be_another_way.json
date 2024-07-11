@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_nugget"
+			"id": "minecraft:iron_nugget"
 		},
 		"title": {"translate":"There has to be another way..."},
 		"description": {"color":"green","translate":"Kill a zombie villager"},

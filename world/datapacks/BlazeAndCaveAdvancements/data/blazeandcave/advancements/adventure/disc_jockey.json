@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:music_disc_chirp"
+			"id": "minecraft:music_disc_chirp"
 		},
 		"title": {"translate":"Disc Jockey"},
 		"description": {"color":"dark_purple","translate":"Listen to all the music discs"},

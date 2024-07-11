@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:lapis_block"
+			"id": "minecraft:lapis_block"
 		},
 		"title": {"translate":"Lapis Lazuli Miner"},
 		"description": {"color":"#75E1FF","translate":"Mine enough lapis lazuli to craft a stack of lapis lazuli blocks"},

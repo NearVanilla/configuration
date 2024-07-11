@@ -1,8 +1,12 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:tipped_arrow",
-			"nbt": "{Potion:\"minecraft:poison\"}"
+			"id": "minecraft:tipped_arrow",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:poison"
+				}
+			}
 		},
 		"title": {"translate":"Poison Dart"},
 		"description": {"color":"green","translate":"Craft tipped arrows of poison"},
@@ -21,7 +25,9 @@
 						"items": [
 							"minecraft:tipped_arrow"
 						],
-						"potion": "minecraft:poison"
+						"predicates": {
+							"potion_contents": "minecraft:poison"
+						}
 					}
 				]
 			}
@@ -34,7 +40,9 @@
 						"items": [
 							"minecraft:tipped_arrow"
 						],
-						"potion": "minecraft:long_poison"
+						"predicates": {
+							"potion_contents": "minecraft:long_poison"
+						}
 					}
 				]
 			}
@@ -47,7 +55,9 @@
 						"items": [
 							"minecraft:tipped_arrow"
 						],
-						"potion": "minecraft:strong_poison"
+						"predicates": {
+							"potion_contents": "minecraft:strong_poison"
+						}
 					}
 				]
 			}

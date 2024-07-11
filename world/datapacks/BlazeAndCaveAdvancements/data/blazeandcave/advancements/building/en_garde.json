@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_fence"
+			"id": "minecraft:oak_fence"
 		},
 		"title": {"translate":"En Garde"},
 		"description": {"color":"green","translate":"Erect some fencing"},
@@ -19,7 +19,7 @@
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"tag": "minecraft:fences"
+							"items": "#minecraft:fences"
 						}
 					}
 				]

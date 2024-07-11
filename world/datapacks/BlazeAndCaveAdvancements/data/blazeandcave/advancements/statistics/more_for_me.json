@@ -1,8 +1,12 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:potion",
-			"nbt": "{Potion:\"minecraft:healing\"}"
+			"id": "minecraft:potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:healing"
+				}
+			}
 		},
 		"title": {"translate":"More For Me"},
 		"description": {"color":"#75E1FF","translate":"Open 100 loot chests","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_statistics"}]},

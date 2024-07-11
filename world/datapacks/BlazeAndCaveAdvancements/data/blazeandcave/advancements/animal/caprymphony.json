@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:note_block"
+			"id": "minecraft:note_block"
 		},
 		"title": {"translate":"Caprymphony"},
 		"description": {"color":"dark_purple","translate":"Blow every type of Goat Horn"},
@@ -20,7 +20,9 @@
 					"items": [
 						"minecraft:goat_horn"
 					],
-					"nbt": "{instrument:\"minecraft:ponder_goat_horn\"}"
+					"components": {
+						"minecraft:instrument": "minecraft:ponder_goat_horn"
+					}
 				}
 			}
 		},
@@ -31,7 +33,9 @@
 					"items": [
 						"minecraft:goat_horn"
 					],
-					"nbt": "{instrument:\"minecraft:sing_goat_horn\"}"
+					"components": {
+						"minecraft:instrument": "minecraft:sing_goat_horn"
+					}
 				}
 			}
 		},
@@ -42,7 +46,9 @@
 					"items": [
 						"minecraft:goat_horn"
 					],
-					"nbt": "{instrument:\"minecraft:seek_goat_horn\"}"
+					"components": {
+						"minecraft:instrument": "minecraft:seek_goat_horn"
+					}
 				}
 			}
 		},
@@ -53,7 +59,9 @@
 					"items": [
 						"minecraft:goat_horn"
 					],
-					"nbt": "{instrument:\"minecraft:feel_goat_horn\"}"
+					"components": {
+						"minecraft:instrument": "minecraft:feel_goat_horn"
+					}
 				}
 			}
 		},
@@ -64,7 +72,9 @@
 					"items": [
 						"minecraft:goat_horn"
 					],
-					"nbt": "{instrument:\"minecraft:admire_goat_horn\"}"
+					"components": {
+						"minecraft:instrument": "minecraft:admire_goat_horn"
+					}
 				}
 			}
 		},
@@ -75,7 +85,9 @@
 					"items": [
 						"minecraft:goat_horn"
 					],
-					"nbt": "{instrument:\"minecraft:call_goat_horn\"}"
+					"components": {
+						"minecraft:instrument": "minecraft:call_goat_horn"
+					}
 				}
 			}
 		},
@@ -86,7 +98,9 @@
 					"items": [
 						"minecraft:goat_horn"
 					],
-					"nbt": "{instrument:\"minecraft:yearn_goat_horn\"}"
+					"components": {
+						"minecraft:instrument": "minecraft:yearn_goat_horn"
+					}
 				}
 			}
 		},
@@ -97,7 +111,9 @@
 					"items": [
 						"minecraft:goat_horn"
 					],
-					"nbt": "{instrument:\"minecraft:dream_goat_horn\"}"
+					"components": {
+						"minecraft:instrument": "minecraft:dream_goat_horn"
+					}
 				}
 			}
 		}

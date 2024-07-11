@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:phantom_spawn_egg"
+			"id": "minecraft:phantom_spawn_egg"
 		},
 		"title": {"translate":"Insomniac"},
 		"description": {"color":"dark_purple","translate":"Go 30 days without sleep"},

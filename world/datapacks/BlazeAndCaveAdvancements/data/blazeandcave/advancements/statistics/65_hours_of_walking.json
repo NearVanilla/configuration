@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:netherite_boots"
+			"id": "minecraft:netherite_boots"
 		},
 		"title": {"bold":true,"translate":"65","extra":[{"text":" "},{"bold":false,"translate":"hours of walking"}]},
 		"description": {"color":"light_purple","translate":"Walk 1000km. The statistics tab shall no longer be the grindy super challenges tab"},

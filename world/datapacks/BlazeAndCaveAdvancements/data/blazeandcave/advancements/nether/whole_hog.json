@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:leather"
+			"id": "minecraft:leather"
 		},
 		"title": {"translate":"Whole Hog"},
 		"description": {"color":"green","translate":"Get mauled by a Hoglin"},

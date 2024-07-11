@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:structure_void"
+			"id": "minecraft:structure_void"
 		},
 		"title": {"translate":"The Invisible Player"},
 		"description": {"color":"green","translate":"Brew and drink an invisibility potion"},
@@ -19,7 +19,9 @@
 					"items": [
 						"minecraft:potion"
 					],
-					"potion": "minecraft:invisibility"
+					"predicates": {
+						"potion_contents": "minecraft:invisibility"
+					}
 				}
 			}
 		},
@@ -30,7 +32,9 @@
 					"items": [
 						"minecraft:potion"
 					],
-					"potion": "minecraft:long_invisibility"
+					"predicates": {
+						"potion_contents": "minecraft:long_invisibility"
+					}
 				}
 			}
 		}

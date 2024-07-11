@@ -1,2 +1,3 @@
-give @s minecraft:sponge{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:132,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#FFF463\",\"translate\":\"Spongebob Squarepants\"}",Lore:["{\"color\":\"#FFF463\",\"translate\":\"Who lives in a pineapple under the sea?\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#75E1FF\",\"translate\":\"Sponge Miner\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Spongebob Squarepants"}]}
+give @s sponge[item_name='{"translate":"Spongebob Squarepants","color":"#FFF463","bold":true,"italic":false}',lore=['{"translate":"Who lives in a pineapple under the sea?","color":"#FFF463"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Sponge Miner","color":"#75E1FF","italic":false}'],custom_model_data=132,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Spongebob Squarepants"}]

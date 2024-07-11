@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:hoglin_spawn_egg"
+			"id": "minecraft:hoglin_spawn_egg"
 		},
 		"title": {"translate":"Giddy Up!"},
 		"description": {"color":"#75E1FF","translate":"Punch a baby Hoglin that is being ridden by a baby Piglin"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:end_stone"
+			"id": "minecraft:end_stone"
 		},
 		"title": {"translate":"We're in the endgame now"},
 		"description": {"color":"#FF2A2A","translate":"Construct a village in the End and defend it from a raid"},

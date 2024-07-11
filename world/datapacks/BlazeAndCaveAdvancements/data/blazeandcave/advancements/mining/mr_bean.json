@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:raw_copper_block"
+			"id": "minecraft:raw_copper_block"
 		},
 		"title": {"translate":"Mr. Bean"},
 		"description": {"color":"dark_purple","translate":"Mine and craft a stack of Raw Iron, Copper and Gold Blocks"},

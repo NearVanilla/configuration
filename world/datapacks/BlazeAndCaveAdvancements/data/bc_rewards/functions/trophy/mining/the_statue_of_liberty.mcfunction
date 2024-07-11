@@ -1,2 +1,3 @@
-give @s minecraft:oxidized_copper{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#59B292\",\"translate\":\"Weathered Copper BlocK\"}",Lore:["{\"color\":\"#59B292\",\"translate\":\"It was spelt like this for six whole snapshots\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#75E1FF\",\"translate\":\"The Statue of Liberty\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Weathered Copper BlocK"}]}
+give @s oxidized_copper[item_name='{"translate":"Weathered Copper BlocK","color":"#59B292","bold":true,"italic":false}',lore=['{"translate":"It was spelt like this for six whole snapshots","color":"#59B292"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"The Statue of Liberty","color":"#75E1FF","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Weathered Copper BlocK"}]

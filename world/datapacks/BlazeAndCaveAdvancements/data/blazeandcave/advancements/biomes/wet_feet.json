@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:water_bucket"
+			"id": "minecraft:water_bucket"
 		},
 		"title": {"translate":"Wet Feet"},
 		"description": {"color":"#75E1FF","translate":"Discover every water biome"},
@@ -22,7 +22,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:river"
+								"biomes": "minecraft:river"
 							}
 						}
 					},
@@ -51,7 +51,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:deep_ocean"
+								"biomes": "minecraft:deep_ocean"
 							}
 						}
 					},
@@ -80,7 +80,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:ocean"
+								"biomes": "minecraft:ocean"
 							}
 						}
 					},
@@ -109,7 +109,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:beach"
+								"biomes": "minecraft:beach"
 							}
 						}
 					},
@@ -138,7 +138,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:deep_frozen_ocean"
+								"biomes": "minecraft:deep_frozen_ocean"
 							}
 						}
 					},
@@ -167,7 +167,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:frozen_ocean"
+								"biomes": "minecraft:frozen_ocean"
 							}
 						}
 					},
@@ -196,7 +196,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:cold_ocean"
+								"biomes": "minecraft:cold_ocean"
 							}
 						}
 					},
@@ -225,7 +225,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:deep_cold_ocean"
+								"biomes": "minecraft:deep_cold_ocean"
 							}
 						}
 					},
@@ -254,7 +254,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:lukewarm_ocean"
+								"biomes": "minecraft:lukewarm_ocean"
 							}
 						}
 					},
@@ -283,7 +283,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:deep_lukewarm_ocean"
+								"biomes": "minecraft:deep_lukewarm_ocean"
 							}
 						}
 					},
@@ -312,7 +312,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:warm_ocean"
+								"biomes": "minecraft:warm_ocean"
 							}
 						}
 					},

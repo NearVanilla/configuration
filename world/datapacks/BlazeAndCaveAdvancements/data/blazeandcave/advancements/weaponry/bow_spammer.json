@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:arrow"
+			"id": "minecraft:arrow"
 		},
 		"title": {"translate":"Bow Spammer"},
 		"description": {"color":"green","translate":"Attack a mob by bow-spamming"},

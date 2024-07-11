@@ -1,2 +1,3 @@
-give @s minecraft:coal_block{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#412C2C\",\"translate\":\"Santa's Present\"}",Lore:["{\"color\":\"#412C2C\",\"translate\":\"Someone's been naughty this year...\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Master Coal Miner\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Santa's Present"}]}
+give @s coal_block[item_name='{"translate":"Santa\'s Present","color":"#412C2C","bold":true,"italic":false}',lore=['{"translate":"Someone\'s been naughty this year...","color":"#412C2C"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Master Coal Miner","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Santa's Present"}]

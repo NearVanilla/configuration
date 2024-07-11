@@ -1,8 +1,32 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:shield",
-			"nbt": "{BlockEntityTag:{Base:5,Patterns:[{Pattern:hh,Color:5},{Pattern:hhb,Color:5},{Pattern:cre,Color:15},{Pattern:cre,Color:15},{Pattern:cre,Color:15}]}}"
+			"id": "minecraft:shield",
+			"components": {
+				"minecraft:base_color": "lime",
+				"minecraft:banner_patterns": [
+					{
+						"color": "lime",
+						"pattern": "minecraft:half_horizontal"
+					},
+					{
+						"color": "lime",
+						"pattern": "minecraft:half_horizontal_bottom"
+					},
+					{
+						"color": "black",
+						"pattern": "minecraft:creeper"
+					},
+					{
+						"color": "black",
+						"pattern": "minecraft:creeper"
+					},
+					{
+						"color": "black",
+						"pattern": "minecraft:creeper"
+					}
+				]
+			}
 		},
 		"title": {"translate":"Blast Shield"},
 		"description": {"color":"green","translate":"Survive a creeper's blast with your shield"},

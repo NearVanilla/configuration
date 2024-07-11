@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:blaze_rod"
+			"id": "minecraft:blaze_rod"
 		},
 		"title": {"translate":"Backfire"},
 		"description": {"color":"#75E1FF","translate":"Kill a Blaze using a Blaze Rod while both you and it are on fire"},

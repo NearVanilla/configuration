@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:allay_spawn_egg"
+			"id": "minecraft:allay_spawn_egg"
 		},
 		"title": {"translate":"Allayance"},
 		"description": {"color":"green","translate":"Rescue an Allay from a Pillager Outpost or Woodland Mansion and give it something to play with"},

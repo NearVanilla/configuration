@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sponge"
+			"id": "minecraft:sponge"
 		},
 		"title": {"translate":"Sponge Miner"},
 		"description": {"color":"#75E1FF","translate":"Collect a stack of sponges from ocean monuments"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:potion",
+			"id": "minecraft:potion",
 			"nbt": "{CustomPotionColor:8453375}"
 		},
 		"title": {"translate":"Diagon Allay"},
@@ -42,7 +42,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"biome": "minecraft:deep_dark"
+										"biomes": "minecraft:deep_dark"
 									}
 								}
 							},
@@ -51,7 +51,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ancient_city"
+										"structures": "minecraft:ancient_city"
 									}
 								}
 							}

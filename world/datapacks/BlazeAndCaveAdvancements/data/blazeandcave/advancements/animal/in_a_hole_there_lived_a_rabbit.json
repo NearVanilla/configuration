@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:rabbit_spawn_egg"
+			"id": "minecraft:rabbit_spawn_egg"
 		},
 		"title": {"translate":"In a hole there lived a Rabbit"},
 		"description": {"color":"#75E1FF","translate":"Collect a stack of raw rabbit and rabbit hide"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:totem_of_undying"
+			"id": "minecraft:totem_of_undying"
 		},
 		"title": {"translate":"Wololo!"},
 		"description": {"color":"#75E1FF","translate":"Defeat an Evoker in a Woodland Mansion"},
@@ -19,7 +19,7 @@
 				"entity": {
 					"type": "evoker",
 					"location": {
-						"structure": "mansion"
+						"structures": "mansion"
 					}
 				}
 			}

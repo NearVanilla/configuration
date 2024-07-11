@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:glow_lichen"
+			"id": "minecraft:glow_lichen"
 		},
 		"title": {"translate":"Lichen Subscribe"},
 		"description": {"color":"green","translate":"Use shears to obtain Glow Lichen from an underground cave"},

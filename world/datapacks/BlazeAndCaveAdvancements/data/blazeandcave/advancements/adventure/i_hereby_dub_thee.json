@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:name_tag"
+			"id": "minecraft:name_tag"
 		},
 		"title": {"translate":"I hereby dub thee..."},
 		"description": {"color":"green","translate":"Obtain a name tag"},

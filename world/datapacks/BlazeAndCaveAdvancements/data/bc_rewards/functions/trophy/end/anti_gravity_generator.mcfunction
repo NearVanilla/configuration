@@ -1,2 +1,3 @@
-give @s minecraft:bow{Trophy:1,CustomModelData:132,HideFlags:71,Unbreakable:1,Enchantments:[{id:"minecraft:unbreaking",lvl:1}],display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\",\"translate\":\"Portal Bow\"}",Lore:["{\"italic\":false,\"color\":\"gray\",\"translate\":\"Portal II\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Anti-Gravity Generator\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Portal Bow"}]}
+give @s bow[item_name='{"translate":"Portal Bow","color":"dark_aqua","bold":true,"italic":false}',lore=['{"translate":"Portal II","color":"gray","italic":false}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Anti-Gravity Generator","color":"light_purple","italic":false}'],unbreakable={show_in_tooltip:false},custom_model_data=132,custom_data={Trophy:1},enchantments={levels:{"minecraft:unbreaking":1},show_in_tooltip:false}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Portal Bow"}]

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:poisonous_potato"
+			"id": "minecraft:poisonous_potato"
 		},
 		"title": {"translate":"Not Today!"},
 		"description": {"color":"green","translate":"Eat a poisonous potato"},

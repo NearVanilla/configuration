@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bamboo"
+			"id": "minecraft:bamboo"
 		},
 		"title": {"translate":"Bamboozled"},
 		"description": {"color":"#75E1FF","translate":"Craft every item made out of bamboo wood"},

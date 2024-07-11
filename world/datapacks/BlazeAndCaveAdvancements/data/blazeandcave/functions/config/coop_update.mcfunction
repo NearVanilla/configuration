@@ -1299,3 +1299,10 @@ execute if score minecraft:husbandry/feed_snifflet bac_obtained matches 1.. run 
 execute if score minecraft:husbandry/plant_any_sniffer_seed bac_obtained matches 1.. run advancement grant @a only minecraft:husbandry/plant_any_sniffer_seed
 execute if score minecraft:adventure/read_power_of_chiseled_bookshelf bac_obtained matches 1.. run advancement grant @a only minecraft:adventure/read_power_of_chiseled_bookshelf
 
+execute if score nullscape:root bac_obtained matches 1.. run advancement grant @a only nullscape:root
+
+execute if score minecraft:adventure/brush_armadillo bac_obtained matches 1.. run advancement grant @a only minecraft:adventure/brush_armadillo
+execute if score minecraft:husbandry/repair_wolf_armor bac_obtained matches 1.. run advancement grant @a only minecraft:husbandry/repair_wolf_armor
+execute if score minecraft:husbandry/remove_wolf_armor bac_obtained matches 1.. run advancement grant @a only minecraft:husbandry/remove_wolf_armor
+execute if score minecraft:husbandry/whole_pack bac_obtained matches 1.. run advancement grant @a only minecraft:husbandry/whole_pack
+

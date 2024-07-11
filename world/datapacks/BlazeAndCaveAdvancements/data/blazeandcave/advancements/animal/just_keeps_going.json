@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bowl"
+			"id": "minecraft:bowl"
 		},
 		"title": {"translate":"Just Keeps Going"},
 		"description": {"color":"dark_purple","translate":"Eat Rabbit Stew, then avoid eating for the next 3 in-game days"},

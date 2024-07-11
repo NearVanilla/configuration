@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sand"
+			"id": "minecraft:sand"
 		},
 		"title": {"translate":"I don't like sand"},
 		"description": {"color":"green","translate":"It's coarse, and rough, and irritating, and it gets everywhere"},

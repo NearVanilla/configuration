@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:scute"
+			"id": "minecraft:turtle_scute"
 		},
 		"title": {"translate":"Scuttler"},
 		"description": {"color":"green","translate":"Get a scute from a baby turtle when it grows up"},
@@ -18,7 +18,7 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:scute"
+							"minecraft:turtle_scute"
 						]
 					}
 				]

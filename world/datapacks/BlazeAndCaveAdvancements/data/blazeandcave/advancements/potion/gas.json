@@ -1,8 +1,12 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:lingering_potion",
-			"nbt": "{Potion:\"minecraft:harming\"}"
+			"id": "minecraft:lingering_potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:harming"
+				}
+			}
 		},
 		"title": {"translate":"Gas!"},
 		"description": {"color":"#75E1FF","translate":"Kill a mob using a lingering potion"},

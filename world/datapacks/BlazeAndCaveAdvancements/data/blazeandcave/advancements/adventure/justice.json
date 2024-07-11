@@ -1,8 +1,12 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:tipped_arrow",
-			"nbt": "{Potion:\"minecraft:leaping\"}"
+			"id": "minecraft:tipped_arrow",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:leaping"
+				}
+			}
 		},
 		"title": {"translate":"Justice"},
 		"description": {"color":"dark_purple","translate":"Kill each type of Illager with a single crossbow arrow"},

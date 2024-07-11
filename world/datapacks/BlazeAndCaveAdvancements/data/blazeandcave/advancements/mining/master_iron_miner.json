@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_block"
+			"id": "minecraft:iron_block"
 		},
 		"title": {"translate":"Master Iron Miner"},
 		"description": {"color":"dark_purple","translate":"Mine enough iron to make a stack of iron blocks"},

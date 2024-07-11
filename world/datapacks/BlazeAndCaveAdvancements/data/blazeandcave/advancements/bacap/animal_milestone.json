@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:beef"
+			"id": "minecraft:beef"
 		},
 		"title": {"translate":"Animal Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Animal tab"},
@@ -1659,6 +1659,58 @@
 						"type": "player",
 						"advancements": {
 							"blazeandcave:animal/the_high_road": true
+						}
+					}
+				}
+			}
+		},
+		"isnt_it_scute": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:adventure/brush_armadillo": true
+						}
+					}
+				}
+			}
+		},
+		"good_as_new": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:husbandry/repair_wolf_armor": true
+						}
+					}
+				}
+			}
+		},
+		"shear_brilliance": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:husbandry/remove_wolf_armor": true
+						}
+					}
+				}
+			}
+		},
+		"the_whole_pack": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:husbandry/whole_pack": true
 						}
 					}
 				}

@@ -1,2 +1,3 @@
-give @s minecraft:smoker{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#967441\",\"translate\":\"Zero Tick Farm\"}",Lore:["{\"color\":\"#967441\",\"translate\":\"RIP Zero Tick Farms\"}","{\"color\":\"#967441\",\"translate\":\"2013 - 2020\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"XP Grinder\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Zero Tick Farm"}]}
+give @s smoker[item_name='{"translate":"Zero Tick Farm","color":"#967441","bold":true,"italic":false}',lore=['{"translate":"RIP Zero Tick Farms","color":"#967441"}','{"translate":"2013 - 2020","color":"#967441"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"XP Grinder","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Zero Tick Farm"}]

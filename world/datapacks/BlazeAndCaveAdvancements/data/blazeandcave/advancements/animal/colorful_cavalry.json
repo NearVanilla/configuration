@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:leather_horse_armor",
-			"nbt": "{display:{color:16701501}}"
+			"id": "minecraft:leather_horse_armor",
+			"components": {
+				"minecraft:dyed_color": 16701501
+			}
 		},
 		"title": {"translate":"Colorful Cavalry"},
 		"description": {"color":"#75E1FF","translate":"Dye 16 sets of leather horse armor each with one of the individual colors"},
@@ -22,7 +24,9 @@
 						"items": [
 							"minecraft:leather_horse_armor"
 						],
-						"nbt": "{display:{color:16383998}}"
+						"components": {
+							"minecraft:dyed_color": 16383998
+						}
 					}
 				]
 			}
@@ -35,7 +39,9 @@
 						"items": [
 							"minecraft:leather_horse_armor"
 						],
-						"nbt": "{display:{color:16351261}}"
+						"components": {
+							"minecraft:dyed_color": 16351261
+						}
 					}
 				]
 			}
@@ -48,7 +54,9 @@
 						"items": [
 							"minecraft:leather_horse_armor"
 						],
-						"nbt": "{display:{color:13061821}}"
+						"components": {
+							"minecraft:dyed_color": 13061821
+						}
 					}
 				]
 			}
@@ -61,7 +69,9 @@
 						"items": [
 							"minecraft:leather_horse_armor"
 						],
-						"nbt": "{display:{color:3847130}}"
+						"components": {
+							"minecraft:dyed_color": 3847130
+						}
 					}
 				]
 			}
@@ -74,7 +84,9 @@
 						"items": [
 							"minecraft:leather_horse_armor"
 						],
-						"nbt": "{display:{color:16701501}}"
+						"components": {
+							"minecraft:dyed_color": 16701501
+						}
 					}
 				]
 			}
@@ -87,7 +99,9 @@
 						"items": [
 							"minecraft:leather_horse_armor"
 						],
-						"nbt": "{display:{color:8439583}}"
+						"components": {
+							"minecraft:dyed_color": 8439583
+						}
 					}
 				]
 			}
@@ -100,7 +114,9 @@
 						"items": [
 							"minecraft:leather_horse_armor"
 						],
-						"nbt": "{display:{color:15961002}}"
+						"components": {
+							"minecraft:dyed_color": 15961002
+						}
 					}
 				]
 			}
@@ -113,7 +129,9 @@
 						"items": [
 							"minecraft:leather_horse_armor"
 						],
-						"nbt": "{display:{color:4673362}}"
+						"components": {
+							"minecraft:dyed_color": 4673362
+						}
 					}
 				]
 			}
@@ -126,7 +144,9 @@
 						"items": [
 							"minecraft:leather_horse_armor"
 						],
-						"nbt": "{display:{color:10329495}}"
+						"components": {
+							"minecraft:dyed_color": 10329495
+						}
 					}
 				]
 			}
@@ -139,7 +159,9 @@
 						"items": [
 							"minecraft:leather_horse_armor"
 						],
-						"nbt": "{display:{color:1481884}}"
+						"components": {
+							"minecraft:dyed_color": 1481884
+						}
 					}
 				]
 			}
@@ -152,7 +174,9 @@
 						"items": [
 							"minecraft:leather_horse_armor"
 						],
-						"nbt": "{display:{color:8991416}}"
+						"components": {
+							"minecraft:dyed_color": 8991416
+						}
 					}
 				]
 			}
@@ -165,7 +189,9 @@
 						"items": [
 							"minecraft:leather_horse_armor"
 						],
-						"nbt": "{display:{color:3949738}}"
+						"components": {
+							"minecraft:dyed_color": 3949738
+						}
 					}
 				]
 			}
@@ -178,7 +204,9 @@
 						"items": [
 							"minecraft:leather_horse_armor"
 						],
-						"nbt": "{display:{color:8606770}}"
+						"components": {
+							"minecraft:dyed_color": 8606770
+						}
 					}
 				]
 			}
@@ -191,7 +219,9 @@
 						"items": [
 							"minecraft:leather_horse_armor"
 						],
-						"nbt": "{display:{color:6192150}}"
+						"components": {
+							"minecraft:dyed_color": 6192150
+						}
 					}
 				]
 			}
@@ -204,7 +234,9 @@
 						"items": [
 							"minecraft:leather_horse_armor"
 						],
-						"nbt": "{display:{color:11546150}}"
+						"components": {
+							"minecraft:dyed_color": 11546150
+						}
 					}
 				]
 			}
@@ -217,7 +249,9 @@
 						"items": [
 							"minecraft:leather_horse_armor"
 						],
-						"nbt": "{display:{color:1908001}}"
+						"components": {
+							"minecraft:dyed_color": 1908001
+						}
 					}
 				]
 			}

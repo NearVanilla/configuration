@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:barrel"
+			"id": "minecraft:barrel"
 		},
 		"title": {"translate":"Barrel Rider"},
 		"description": {"color":"green","translate":"Craft and place a barrel. Totally not for riding in"},

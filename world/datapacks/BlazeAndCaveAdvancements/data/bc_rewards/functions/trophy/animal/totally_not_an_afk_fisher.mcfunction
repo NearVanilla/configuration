@@ -1,2 +1,3 @@
-give @s minecraft:fishing_rod{Trophy:1,CustomModelData:131,HideFlags:70,Unbreakable:0,Enchantments:[{id:"minecraft:unbreaking",lvl:3}],display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#6B9F93\",\"translate\":\"Super Rod\"}",Lore:["{\"color\":\"#6B9F93\",\"translate\":\"Catches the best pokemon from the seas\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Totally not an AFK fisher!\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Super Rod"}]}
+give @s fishing_rod[item_name='{"translate":"Super Rod","color":"#6B9F93","bold":true,"italic":false}',lore=['{"translate":"Catches the best pokemon from the seas","color":"#6B9F93"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Totally not an AFK fisher!","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantments={levels:{"minecraft:unbreaking":3}}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Super Rod"}]

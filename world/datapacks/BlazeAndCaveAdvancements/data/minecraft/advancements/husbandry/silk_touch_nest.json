@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bee_nest"
+			"id": "minecraft:bee_nest"
 		},
 		"title": {"translate":"Total Beelocation"},
 		"description": {"color":"#75E1FF","translate":"Move a Bee Nest with 3 bees inside using Silk Touch"},
@@ -21,14 +21,16 @@
 				],
 				"num_bees_inside": 3,
 				"item": {
-					"enchantments": [
-						{
-							"enchantment": "minecraft:silk_touch",
-							"levels": {
-								"min": 1
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantment": "minecraft:silk_touch",
+								"levels": {
+									"min": 1
+								}
 							}
-						}
-					]
+						]
+					}
 				}
 			}
 		}

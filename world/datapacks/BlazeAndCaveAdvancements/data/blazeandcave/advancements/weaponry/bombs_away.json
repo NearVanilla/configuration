@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:tnt"
+			"id": "minecraft:tnt"
 		},
 		"title": {"translate":"Bombs Away!"},
 		"description": {"color":"green","translate":"Use gunpowder and sand to craft TNT"},

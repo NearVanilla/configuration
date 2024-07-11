@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:acacia_log"
+			"id": "minecraft:acacia_log"
 		},
 		"title": {"translate":"Yay! I got my wood!"},
 		"description": {"color":"#75E1FF","translate":"Collect every type of log and stem"},

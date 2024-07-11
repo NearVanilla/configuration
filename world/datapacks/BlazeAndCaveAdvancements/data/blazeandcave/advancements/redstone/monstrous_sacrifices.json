@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sculk_catalyst"
+			"id": "minecraft:sculk_catalyst"
 		},
 		"title": {"translate":"Monstrous Sacrifices"},
 		"description": {"color":"dark_purple","translate":"Kill every hostile monster near a Sculk Catalyst"},

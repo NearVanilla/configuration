@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:rotten_flesh"
+			"id": "minecraft:rotten_flesh"
 		},
 		"title": {"translate":"Zork Chop"},
 		"description": {"color":"#75E1FF","translate":"Bring a Hoglin into the Overworld to zombify it, then kill it for zorkchops"},

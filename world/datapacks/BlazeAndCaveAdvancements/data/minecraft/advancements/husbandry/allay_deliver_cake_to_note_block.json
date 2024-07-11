@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:note_block"
+			"id": "minecraft:note_block"
 		},
 		"title": {"translate":"Birthday Song"},
 		"description": {"color":"#75E1FF","translate":"Have an Allay drop a cake at a note block"},

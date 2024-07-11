@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:trident"
+			"id": "minecraft:trident"
 		},
 		"title": {"translate":"Electrifying Alliance"},
 		"description": {"color":"dark_purple","translate":"Smite a ghast with lightning from the Overworld’s heavens"},

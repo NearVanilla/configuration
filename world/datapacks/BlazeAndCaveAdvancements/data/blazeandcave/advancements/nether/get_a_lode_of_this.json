@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:lodestone"
+			"id": "minecraft:lodestone"
 		},
 		"title": {"translate":"Get a Lode Of This!"},
 		"description": {"color":"green","translate":"Craft a Lodestone using Chiseled Stone Bricks and a Netherite Ingot"},

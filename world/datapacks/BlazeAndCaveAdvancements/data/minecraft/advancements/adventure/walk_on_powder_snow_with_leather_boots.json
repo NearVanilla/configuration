@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:leather_boots",
-			"nbt": "{display:{color:16777215}}"
+			"id": "minecraft:leather_boots",
+			"components": {
+				"minecraft:dyed_color": 16777215
+			}
 		},
 		"title": {"translate":"Light as a Rabbit"},
 		"description": {"color":"green","translate":"Walk on Powder Snow… without sinking in it"},

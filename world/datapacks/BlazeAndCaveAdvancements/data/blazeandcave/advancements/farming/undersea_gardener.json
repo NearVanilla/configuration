@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dried_kelp_block"
+			"id": "minecraft:dried_kelp_block"
 		},
 		"title": {"translate":"Undersea Gardener"},
 		"description": {"color":"#75E1FF","translate":"Craft a stack of dried kelp blocks"},

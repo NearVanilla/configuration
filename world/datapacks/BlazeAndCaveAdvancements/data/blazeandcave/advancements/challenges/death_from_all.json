@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:mossy_cobblestone_wall"
+			"id": "minecraft:mossy_cobblestone_wall"
 		},
 		"title": {"translate":"Death From All"},
 		"description": {"color":"#FF2A2A","translate":"Get killed by every mob that can kill you. (Ignore in hardcore mode)"},

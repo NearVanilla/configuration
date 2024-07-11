@@ -1,2 +1,3 @@
-give @s minecraft:stone_hoe{Trophy:1,CustomModelData:131,HideFlags:71,Unbreakable:1,Enchantments:[{id:"minecraft:unbreaking",lvl:1}],display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#55AB2D\",\"translate\":\"Farmer's Trophy\"}",Lore:["{\"color\":\"#55AB2D\",\"translate\":\"It ain't much but it's honest work\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"yellow\",\"translate\":\"Farming Milestone\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Farmer's Trophy"}]}
+give @s stone_hoe[item_name='{"translate":"Farmer\'s Trophy","color":"#55AB2D","bold":true,"italic":false}',lore=['{"translate":"It ain\'t much but it\'s honest work","color":"#55AB2D"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Farming Milestone","color":"yellow","italic":false}'],unbreakable={show_in_tooltip:false},custom_model_data=131,custom_data={Trophy:1},enchantments={levels:{"minecraft:unbreaking":1},show_in_tooltip:false}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Farmer's Trophy"}]

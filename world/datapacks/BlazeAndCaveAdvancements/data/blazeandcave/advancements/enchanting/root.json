@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:enchanting_table"
+			"id": "minecraft:enchanting_table"
 		},
 		"title": {"translate":"Enchanting"},
 		"description": {"color":"#CCCCCC","translate":"Enchant items to give them magical abilities"},

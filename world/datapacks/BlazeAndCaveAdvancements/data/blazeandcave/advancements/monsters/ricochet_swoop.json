@@ -1,8 +1,28 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:shield",
-			"nbt": "{BlockEntityTag:{Base:11,Patterns:[{Pattern:ms,Color:5},{Pattern:cs,Color:11},{Pattern:ts,Color:15},{Pattern:bs,Color:15}]}}"
+			"id": "minecraft:shield",
+			"components": {
+				"minecraft:base_color": "blue",
+				"minecraft:banner_patterns": [
+					{
+						"color": "lime",
+						"pattern": "minecraft:stripe_middle"
+					},
+					{
+						"color": "blue",
+						"pattern": "minecraft:stripe_center"
+					},
+					{
+						"color": "black",
+						"pattern": "minecraft:stripe_top"
+					},
+					{
+						"color": "black",
+						"pattern": "minecraft:stripe_bottom"
+					}
+				]
+			}
 		},
 		"title": {"translate":"Ricochet Swoop"},
 		"description": {"color":"green","translate":"Deflect a Phantom's swoop with your shield"},

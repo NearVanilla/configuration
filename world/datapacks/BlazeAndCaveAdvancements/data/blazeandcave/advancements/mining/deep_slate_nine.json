@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:deepslate"
+			"id": "minecraft:deepslate"
 		},
 		"title": {"translate":"Deep Slate Nine"},
 		"description": {"color":"green","translate":"Mine deep enough that the stone darkens"},

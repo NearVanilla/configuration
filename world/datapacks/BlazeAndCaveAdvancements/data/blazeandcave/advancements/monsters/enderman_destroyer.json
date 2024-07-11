@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:enderman_spawn_egg"
+			"id": "minecraft:enderman_spawn_egg"
 		},
 		"title": {"translate":"Enderman Destroyer"},
 		"description": {"color":"#75E1FF","translate":"Collect a stack of ender pearls"},

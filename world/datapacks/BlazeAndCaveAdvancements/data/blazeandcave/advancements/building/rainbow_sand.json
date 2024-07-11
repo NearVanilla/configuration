@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:light_blue_concrete_powder"
+			"id": "minecraft:light_blue_concrete_powder"
 		},
 		"title": {"translate":"Rainbow Sand"},
 		"description": {"color":"green","translate":"Craft concrete powder using sand, gravel and dye"},

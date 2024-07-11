@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:trident"
+			"id": "minecraft:trident"
 		},
 		"title": {"translate":"Mushroom Scientist"},
 		"description": {"color":"dark_purple","translate":"Strike a mooshroom with lightning and see what happens"},

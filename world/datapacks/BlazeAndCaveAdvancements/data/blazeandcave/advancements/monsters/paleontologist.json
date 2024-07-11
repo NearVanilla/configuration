@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bone_block"
+			"id": "minecraft:bone_block"
 		},
 		"title": {"translate":"Paleontologist"},
 		"description": {"color":"#75E1FF","translate":"Craft or mine a stack of bone blocks"},

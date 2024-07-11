@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:firework_rocket"
+			"id": "minecraft:firework_rocket"
 		},
 		"title": {"translate":"Frequent Flyer"},
 		"description": {"color":"dark_purple","translate":"Fly 1000km with elytra"},

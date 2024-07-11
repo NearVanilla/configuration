@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_axe"
+			"id": "minecraft:diamond_axe"
 		},
 		"title": {"translate":"Axeman"},
 		"description": {"color":"#75E1FF","translate":"Attack a mob using all six types of axes"},

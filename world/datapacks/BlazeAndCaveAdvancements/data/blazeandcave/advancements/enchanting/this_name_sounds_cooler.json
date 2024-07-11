@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_sword"
+			"id": "minecraft:diamond_sword"
 		},
 		"title": {"translate":"This name sounds cooler"},
 		"description": {"color":"green","translate":"Name your Diamond Sword 'Diamond Edge'"},
@@ -13,7 +13,7 @@
 	},	
 	"criteria": {
 		"diamond_edge": {
-			"trigger": "minecraft:inventory_changed",
+			"trigger": "minecraft:impossible",
 			"conditions": {
 				"items": [
 					{
@@ -26,7 +26,7 @@
 			}
 		},
 		"diamond_edge_old": {
-			"trigger": "minecraft:inventory_changed",
+			"trigger": "minecraft:impossible",
 			"conditions": {
 				"items": [
 					{

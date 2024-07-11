@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:gold_ingot"
+			"id": "minecraft:gold_ingot"
 		},
 		"title": {"translate":"Oh, Shiny!"},
 		"description": {"color":"green","translate":"Distract Piglins with gold"},
@@ -82,7 +82,7 @@
 					}
 				],
 				"item": {
-					"tag": "minecraft:piglin_loved"
+					"items": "#minecraft:piglin_loved"
 				},
 				"entity": [
 					{
@@ -168,7 +168,7 @@
 					}
 				],
 				"item": {
-					"tag": "minecraft:piglin_loved"
+					"items": "#minecraft:piglin_loved"
 				},
 				"entity": [
 					{

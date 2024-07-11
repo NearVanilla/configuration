@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_pickaxe"
+			"id": "minecraft:iron_pickaxe"
 		},
 		"title": {"translate":"Isn't It Iron Pick"},
 		"description": {"color":"green","translate":"Upgrade your pickaxe"},

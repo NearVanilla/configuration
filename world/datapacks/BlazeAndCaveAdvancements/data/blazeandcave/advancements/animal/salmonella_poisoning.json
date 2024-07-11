@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:salmon"
+			"id": "minecraft:salmon"
 		},
 		"title": {"translate":"Salmonella Poisoning"},
 		"description": {"color":"green","translate":"Eat some raw salmon... and not get poisoned after all"},

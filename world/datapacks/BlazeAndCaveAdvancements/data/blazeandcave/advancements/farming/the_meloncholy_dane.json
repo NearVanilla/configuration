@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:melon"
+			"id": "minecraft:melon"
 		},
 		"title": {"translate":"The Meloncholy Dane"},
 		"description": {"color":"#75E1FF","translate":"Craft a stack of melon blocks"},

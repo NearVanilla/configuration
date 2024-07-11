@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_block"
+			"id": "minecraft:diamond_block"
 		},
 		"title": {"translate":"Master Diamond Miner"},
 		"description": {"color":"dark_purple","translate":"Mine enough diamond to make a stack of diamond blocks"},

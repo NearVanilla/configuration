@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bundle"
+			"id": "minecraft:bundle"
 		},
 		"title": {"translate":"Humble Bundle"},
 		"description": {"color":"light_purple","translate":"Craft a Bundle using Rabbit Hide and String"},

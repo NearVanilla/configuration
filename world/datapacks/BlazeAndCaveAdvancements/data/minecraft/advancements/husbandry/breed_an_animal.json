@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:wheat"
+			"id": "minecraft:wheat"
 		},
 		"title": {"translate":"Repopulation"},
 		"description": {"color":"green","translate":"Breed two cows with wheat"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:golden_boots"
+			"id": "minecraft:golden_boots"
 		},
 		"title": {"translate":"Hot Tourist Destination"},
 		"description": {"color":"#75E1FF","translate":"Explore every Nether biome"},
@@ -22,7 +22,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:nether_wastes"
+								"biomes": "minecraft:nether_wastes"
 							}
 						}
 					},
@@ -51,7 +51,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:crimson_forest"
+								"biomes": "minecraft:crimson_forest"
 							}
 						}
 					},
@@ -80,7 +80,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:warped_forest"
+								"biomes": "minecraft:warped_forest"
 							}
 						}
 					},
@@ -109,7 +109,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:soul_sand_valley"
+								"biomes": "minecraft:soul_sand_valley"
 							}
 						}
 					},
@@ -138,7 +138,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:basalt_deltas"
+								"biomes": "minecraft:basalt_deltas"
 							}
 						}
 					},

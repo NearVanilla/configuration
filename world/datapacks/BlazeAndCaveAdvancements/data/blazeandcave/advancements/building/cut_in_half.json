@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_slab"
+			"id": "minecraft:oak_slab"
 		},
 		"title": {"translate":"Cut In Half"},
 		"description": {"color":"green","translate":"Craft some slabs"},
@@ -17,7 +17,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "minecraft:slabs"
+						"items": "#minecraft:slabs"
 					}
 				]
 			}

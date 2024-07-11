@@ -1,2 +1,3 @@
-give @s minecraft:item_frame{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#674637\",\"translate\":\"Frame of Infinite Items\"}",Lore:["{\"color\":\"#674637\",\"translate\":\"One of each item is stored on here\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#FF2A2A\",\"translate\":\"All the Items!\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Frame of Infinite Items"}]}
+give @s item_frame[item_name='{"translate":"Frame of Infinite Items","color":"#674637","bold":true,"italic":false}',lore=['{"translate":"One of each item is stored on here","color":"#674637"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"All the Items!","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Frame of Infinite Items"}]

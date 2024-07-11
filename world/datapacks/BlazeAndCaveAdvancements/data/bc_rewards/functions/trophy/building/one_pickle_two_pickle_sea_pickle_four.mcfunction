@@ -1,2 +1,3 @@
-give @s minecraft:sea_pickle{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#669B29\",\"translate\":\"Pickle Rick\"}",Lore:["{\"color\":\"#669B29\",\"translate\":\"Look Morty, I've turned myself into a pickle!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"green\",\"translate\":\"One Pickle, Two Pickle, Sea Pickle, Four\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Pickle Rick"}]}
+give @s sea_pickle[item_name='{"translate":"Pickle Rick","color":"#669B29","bold":true,"italic":false}',lore=['{"translate":"Look Morty, I\'ve turned myself into a pickle!","color":"#669B29"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"One Pickle, Two Pickle, Sea Pickle, Four","color":"green","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Pickle Rick"}]

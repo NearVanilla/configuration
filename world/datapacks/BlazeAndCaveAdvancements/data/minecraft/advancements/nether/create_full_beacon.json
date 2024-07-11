@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:beacon"
+			"id": "minecraft:beacon"
 		},
 		"title": {"translate":"Beaconator"},
 		"description": {"color":"dark_purple","translate":"Bring a beacon to full power"},

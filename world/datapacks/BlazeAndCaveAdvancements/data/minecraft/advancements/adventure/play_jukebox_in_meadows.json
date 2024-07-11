@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:azure_bluet"
+			"id": "minecraft:azure_bluet"
 		},
 		"title": {"translate":"The Sound of Music"},
 		"description": {"color":"#75E1FF","translate":"Make the Meadows come alive with the sound of music from a jukebox"},
@@ -25,13 +25,13 @@
 									"minecraft:jukebox"
 								]
 							},
-							"biome": "minecraft:meadow"
+							"biomes": "minecraft:meadow"
 						}
 					},
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"tag": "minecraft:music_discs"
+							"items": "#minecraft:music_discs"
 						}
 					}
 				]

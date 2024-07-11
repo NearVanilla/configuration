@@ -1,2 +1,3 @@
-give @s minecraft:brick{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:1,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#C66851\",\"translate\":\"Builder's Trophy\"}",Lore:["{\"color\":\"#C66851\",\"translate\":\"A build of a thousand blocks begins with a single brick\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"yellow\",\"translate\":\"Building Milestone\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Builder's Trophy"}]}
+give @s brick[item_name='{"translate":"Builder\'s Trophy","color":"#C66851","bold":true,"italic":false}',lore=['{"translate":"A build of a thousand blocks begins with a single brick","color":"#C66851"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Building Milestone","color":"yellow","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantments={levels:{"minecraft:unbreaking":1},show_in_tooltip:false}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Builder's Trophy"}]

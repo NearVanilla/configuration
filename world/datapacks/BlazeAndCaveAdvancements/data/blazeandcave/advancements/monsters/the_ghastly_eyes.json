@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:fermented_spider_eye"
+			"id": "minecraft:fermented_spider_eye"
 		},
 		"title": {"translate":"The Ghastly Eyes"},
 		"description": {"color":"dark_purple","translate":"Kill an invisible spider"},

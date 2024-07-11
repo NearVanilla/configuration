@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:pointed_dripstone"
+			"id": "minecraft:pointed_dripstone"
 		},
 		"title": {"translate":"That's the point!"},
 		"description": {"color":"green","translate":"Obtain some Pointed Dripstone from a Dripstone Cave"},

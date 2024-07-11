@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_fence"
+			"id": "minecraft:oak_fence"
 		},
 		"title": {"translate":"Follow the Leader"},
 		"description": {"color":"dark_purple","translate":"Attach a lead to every mob that can be leashed"},
@@ -635,6 +635,25 @@
 						"entity": "this",
 						"predicate": {
 							"type": "minecraft:sniffer"
+						}
+					}
+				]
+			}
+		},
+		"armadillo": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:lead"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:armadillo"
 						}
 					}
 				]

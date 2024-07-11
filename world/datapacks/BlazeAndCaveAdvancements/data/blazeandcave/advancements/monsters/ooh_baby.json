@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:paper"
+			"id": "minecraft:paper"
 		},
 		"title": {"translate":"Ooh, Baby!"},
 		"description": {"color":"green","translate":"Kill a baby zombie"},

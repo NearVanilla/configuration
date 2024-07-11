@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:rabbit_spawn_egg"
+			"id": "minecraft:rabbit_spawn_egg"
 		},
 		"title": {"translate":"I just want to make toast!"},
 		"description": {"color":"green","translate":"Name a bunny 'Toast'"},
@@ -13,13 +13,15 @@
 	},		
 	"criteria": {
 		"name_tag": {
-			"trigger": "minecraft:player_interacted_with_entity",
+			"trigger": "minecraft:impossible",
 			"conditions": {
 				"item": {
 					"items": [
 						"minecraft:name_tag"
 					],
-					"nbt": "{display:{Name:\'\"Toast\"\'}}"
+					"components": {
+						"minecraft:custom_name": "\"Toast\""
+					}
 				},
 				"entity": [
 					{
@@ -33,7 +35,7 @@
 			}
 		},
 		"name_tag_old": {
-			"trigger": "minecraft:player_interacted_with_entity",
+			"trigger": "minecraft:impossible",
 			"conditions": {
 				"item": {
 					"items": [

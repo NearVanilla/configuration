@@ -1,2 +1,3 @@
-give @s minecraft:armor_stand{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#E8E8E8\",\"translate\":\"Silver Armor Stand\"}",Lore:["{\"color\":\"#E8E8E8\",\"translate\":\"To display your best armor set!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Armor Display\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Silver Armor Stand"}]}
+give @s armor_stand[item_name='{"translate":"Silver Armor Stand","color":"#E8E8E8","bold":true,"italic":false}',lore=['{"translate":"To display your best armor set!","color":"#E8E8E8"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Armor Display","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={},entity_data={id:"minecraft:armor_stand"}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Silver Armor Stand"}]

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:potato"
+			"id": "minecraft:potato"
 		},
 		"title": {"translate":"Die, Potato!"},
 		"description": {"color":"green","translate":"Squash and eat a potato"},

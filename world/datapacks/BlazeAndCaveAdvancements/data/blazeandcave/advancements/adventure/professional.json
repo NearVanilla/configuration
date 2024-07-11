@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:loom"
+			"id": "minecraft:loom"
 		},
 		"title": {"translate":"Professional"},
 		"description": {"color":"#75E1FF","translate":"Trade with a villager at master level"},

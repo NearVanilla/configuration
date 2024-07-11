@@ -1,2 +1,3 @@
-give @s minecraft:egg{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#E5C0AE\",\"translate\":\"Stonk Man's Head\"}",Lore:["{\"color\":\"#E5C0AE\",\"translate\":\"STONKS\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Filthy Stinkin' Rich\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Stonk Man's Head"}]}
+give @s egg[item_name='{"translate":"Stonk Man\'s Head","color":"#E5C0AE","bold":true,"italic":false}',lore=['{"translate":"STONKS","color":"#E5C0AE"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Filthy Stinkin\' Rich","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Stonk Man's Head"}]

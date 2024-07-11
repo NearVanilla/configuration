@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:trident"
+			"id": "minecraft:trident"
 		},
 		"title": {"translate":"Target Practise"},
 		"description": {"color":"#75E1FF","translate":"Hit a Target with all types of projectiles"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bone"
+			"id": "minecraft:bone"
 		},
 		"title": {"translate":"What a piece of junk!"},
 		"description": {"color":"green","translate":"Fish out a junk item"},

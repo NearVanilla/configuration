@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_sword"
+			"id": "minecraft:iron_sword"
 		},
 		"title": {"translate":"Stealth Takedown"},
 		"description": {"color":"green","translate":"Dispatch a Creeper at melee range while you are invisible"},
@@ -32,9 +32,6 @@
 								"minecraft:invisibility": {
 									"amplifier": {
 										"min": 0
-									},
-									"duration": {
-										"min": 1
 									}
 								}
 							}

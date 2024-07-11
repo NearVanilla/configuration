@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:vine"
+			"id": "minecraft:vine"
 		},
 		"title": {"translate":"Tarzan"},
 		"description": {"color":"green","translate":"Swing (or climb) on some vines"},

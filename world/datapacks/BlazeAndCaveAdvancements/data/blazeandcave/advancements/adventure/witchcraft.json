@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cauldron"
+			"id": "minecraft:cauldron"
 		},
 		"title": {"translate":"Witchcraft"},
 		"description": {"color":"green","translate":"Find a witch hut in a swamp"},
@@ -21,7 +21,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"structure": "swamp_hut"
+								"structures": "swamp_hut"
 							}
 						}
 					},

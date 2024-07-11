@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:painting"
+			"id": "minecraft:painting"
 		},
 		"title": {"translate":"A Masterpiece!"},
 		"description": {"color":"green","translate":"Put up a painting"},

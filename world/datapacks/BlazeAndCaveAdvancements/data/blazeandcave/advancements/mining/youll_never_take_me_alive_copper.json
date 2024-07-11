@@ -2,7 +2,7 @@
 	"note": "Yes I know this advancement's internal name is different to it's true name, this is so the tab doesn't end up being a giant disorganised mess #MojangPlzFixAdvancementOrdering",
 	"display": {
 		"icon": {
-			"item": "minecraft:copper_ingot"
+			"id": "minecraft:copper_ingot"
 		},
 		"title": {"translate":"Coppers and Robbers"},
 		"description": {"color":"green","translate":"Smelt a Copper Ingot"},

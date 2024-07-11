@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dirt_path"
+			"id": "minecraft:dirt_path"
 		},
 		"title": {"translate":"Pathways"},
 		"description": {"color":"green","translate":"Use a shovel to create dirt paths"},
@@ -29,7 +29,7 @@
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"tag": "minecraft:shovels"
+							"items": "#minecraft:shovels"
 						}
 					}
 				]

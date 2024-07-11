@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_sword"
+			"id": "minecraft:iron_sword"
 		},
 		"title": {"translate":"Ghostbuster!"},
 		"description": {"color":"green","translate":"Bust a Vex summoned by an Evoker"},

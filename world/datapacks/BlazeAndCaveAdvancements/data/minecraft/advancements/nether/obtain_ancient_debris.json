@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:ancient_debris"
+			"id": "minecraft:ancient_debris"
 		},
 		"title": {"translate":"Nether Say Die"},
 		"description": {"color":"green","translate":"Excavate out some Ancient Debris from deep beneath the lava oceans"},

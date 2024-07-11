@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:green_dye"
+			"id": "minecraft:green_dye"
 		},
 		"title": {"translate":"It's a cactus!"},
 		"description": {"color":"green","translate":"Break down a cactus in a desert"},

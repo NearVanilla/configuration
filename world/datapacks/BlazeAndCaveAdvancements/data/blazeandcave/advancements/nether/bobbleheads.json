@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:strider_spawn_egg"
+			"id": "minecraft:strider_spawn_egg"
 		},
 		"title": {"translate":"Bobbleheads"},
 		"description": {"color":"green","translate":"Breed two Striders using Warped Fungus"},

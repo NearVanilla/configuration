@@ -1,7 +1,13 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:gunpowder"
+			"id": "minecraft:firework_star",
+			"components": {
+				"minecraft:firework_explosion": {
+					"shape": "small_ball",
+					"colors": [11743532]
+				}
+			}
 		},
 		"title": {"translate":"My eyes!"},
 		"description": {"color":"green","translate":"Kill a mob using a firework's explosion"},

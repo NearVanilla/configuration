@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:end_portal_frame"
+			"id": "minecraft:end_portal_frame"
 		},
 		"title": {"translate":"The End?"},
 		"description": {"color":"#75E1FF","translate":"Enter the End Portal"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:purple_dye"
+			"id": "minecraft:purple_dye"
 		},
 		"title": {"translate":"Ender Worm"},
 		"description": {"color":"green","translate":"Prevent an endermite from maturing"},

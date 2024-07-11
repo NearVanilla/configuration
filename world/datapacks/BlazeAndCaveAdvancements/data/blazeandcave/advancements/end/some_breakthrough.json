@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:elytra",
-			"nbt": "{Damage:432}"
+			"id": "minecraft:elytra",
+			"components": {
+				"minecraft:damage": 432
+			}
 		},
 		"title": {"translate":"Some Breakthrough"},
 		"description": {"color":"dark_purple","translate":"Exhaust your elytra"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:jukebox"
+			"id": "minecraft:jukebox"
 		},
 		"title": {"translate":"Beethoven"},
 		"description": {"color":"green","translate":"Craft a jukebox with planks and a diamond"},

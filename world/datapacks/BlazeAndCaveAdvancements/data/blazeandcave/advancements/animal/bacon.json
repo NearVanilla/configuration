@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:porkchop"
+			"id": "minecraft:porkchop"
 		},
 		"title": {"translate":"Bacon!"},
 		"description": {"color":"green","translate":"Gotta kill this pig pig pig pig"},

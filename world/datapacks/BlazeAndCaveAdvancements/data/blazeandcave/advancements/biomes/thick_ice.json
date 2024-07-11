@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:blue_ice"
+			"id": "minecraft:blue_ice"
 		},
 		"title": {"translate":"Thick Ice!"},
 		"description": {"color":"green","translate":"Craft or mine a blue ice block from an iceberg"},

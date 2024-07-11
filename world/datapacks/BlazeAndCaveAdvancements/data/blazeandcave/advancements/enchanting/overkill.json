@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_sword"
+			"id": "minecraft:diamond_sword"
 		},
 		"title": {"translate":"Overkill"},
 		"description": {"color":"#75E1FF","translate":"Deal eight hearts of damage in a single melee blow"},

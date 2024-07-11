@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:golden_axe"
+			"id": "minecraft:golden_axe"
 		},
 		"title": {"translate":"Brute Force"},
 		"description": {"color":"green","translate":"Defeat a Piglin Brute in a Bastion Remnant"},

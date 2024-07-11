@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:beetroot_soup"
+			"id": "minecraft:beetroot_soup"
 		},
 		"title": {"translate":"Souperman"},
 		"description": {"color":"green","translate":"Beetroot soup gives you souperpowers!"},

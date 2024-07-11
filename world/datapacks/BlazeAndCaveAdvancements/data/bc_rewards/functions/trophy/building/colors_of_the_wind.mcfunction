@@ -1,2 +1,3 @@
-give @s minecraft:feather{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:132,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#F28F8A\",\"translate\":\"Magic Paintbrush\"}",Lore:["{\"color\":\"#F28F8A\",\"translate\":\"For painting with all the colors of the wind\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#75E1FF\",\"translate\":\"Colors of the Wind\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Magic Paintbrush"}]}
+give @s feather[item_name='{"translate":"Magic Paintbrush","color":"#F28F8A","bold":true,"italic":false}',lore=['{"translate":"For painting with all the colors of the wind","color":"#F28F8A"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Colors of the Wind","color":"#75E1FF","italic":false}'],custom_model_data=132,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Magic Paintbrush"}]

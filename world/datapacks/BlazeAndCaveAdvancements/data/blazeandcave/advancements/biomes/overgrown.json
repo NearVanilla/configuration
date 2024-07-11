@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:jungle_sapling"
+			"id": "minecraft:jungle_sapling"
 		},
 		"title": {"translate":"Overgrown!"},
 		"description": {"color":"#75E1FF","translate":"Discover every overgrown biome"},
@@ -22,7 +22,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:swamp"
+								"biomes": "minecraft:swamp"
 							}
 						}
 					},
@@ -51,7 +51,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:mangrove_swamp"
+								"biomes": "minecraft:mangrove_swamp"
 							}
 						}
 					},
@@ -80,7 +80,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:mushroom_fields"
+								"biomes": "minecraft:mushroom_fields"
 							}
 						}
 					},
@@ -109,7 +109,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:sparse_jungle"
+								"biomes": "minecraft:sparse_jungle"
 							}
 						}
 					},
@@ -138,7 +138,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:jungle"
+								"biomes": "minecraft:jungle"
 							}
 						}
 					},
@@ -167,7 +167,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:bamboo_jungle"
+								"biomes": "minecraft:bamboo_jungle"
 							}
 						}
 					},
@@ -196,7 +196,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:cherry_grove"
+								"biomes": "minecraft:cherry_grove"
 							}
 						}
 					},

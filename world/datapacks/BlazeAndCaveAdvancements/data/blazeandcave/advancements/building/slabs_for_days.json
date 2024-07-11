@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:smooth_stone_slab"
+			"id": "minecraft:smooth_stone_slab"
 		},
 		"title": {"translate":"Slabs For Days"},
 		"description": {"color":"#75E1FF","translate":"Craft every type of slab"},

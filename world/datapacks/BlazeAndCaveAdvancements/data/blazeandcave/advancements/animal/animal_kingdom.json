@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:mangrove_fence"
+			"id": "minecraft:mangrove_fence"
 		},
 		"title": {"translate":"Animal Kingdom"},
 		"description": {"color":"dark_purple","translate":"Bring one of every type of animal to one place (have them all within 32 blocks of you)"},

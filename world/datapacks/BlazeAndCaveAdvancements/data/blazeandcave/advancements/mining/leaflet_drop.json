@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:big_dripleaf"
+			"id": "minecraft:big_dripleaf"
 		},
 		"title": {"translate":"Leaflet Drop"},
 		"description": {"color":"green","translate":"Fall through a Big Dripleaf"},

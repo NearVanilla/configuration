@@ -458,6 +458,48 @@
 			"conditions": {
 				"loot_table": "terralith:underground/chest"
 			}
+		},
+		"giant_bee_hive": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "terralith:underground/giant_bee_hive"
+			}
+		},
+		"desert_outpost": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "terralith:desert_outpost"
+			}
+		},
+		"terralith_igloo": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "terralith:igloo"
+			}
+		},
+		"mage_barracks": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "terralith:mage/barracks"
+			}
+		},
+		"mage_extras": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "terralith:mage/extras"
+			}
+		},
+		"mage_treasure": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "terralith:mage/treasure"
+			}
+		},
+		"lodge_drinkables": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "terralith:lodge_drinkables"
+			}
 		}
 	},
 	"requirements": [
@@ -537,7 +579,14 @@
 			"spire_common",
 			"spire_rare",
 			"spire_treasure",
-			"underground_cabin"
+			"underground_cabin",
+			"giant_bee_hive",
+			"desert_outpost",
+			"terralith_igloo",
+			"mage_barracks",
+			"mage_extras",
+			"mage_treasure",
+			"lodge_drinkables"
 		]
 	]
 }

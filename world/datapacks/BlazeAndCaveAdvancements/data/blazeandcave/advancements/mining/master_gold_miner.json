@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:gold_block"
+			"id": "minecraft:gold_block"
 		},
 		"title": {"translate":"Master Gold Miner"},
 		"description": {"color":"dark_purple","translate":"Mine enough gold to make a stack of gold blocks"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:beacon"
+			"id": "minecraft:beacon"
 		},
 		"title": {"translate":"Warlock"},
 		"description": {"color":"#FF2A2A","translate":"Obtain a stack of Beacons"},

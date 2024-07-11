@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:blaze_spawn_egg"
+			"id": "minecraft:blaze_spawn_egg"
 		},
 		"title": {"translate":"Blaze Extinguisher"},
 		"description": {"color":"#75E1FF","translate":"Collect a stack of blaze rods"},

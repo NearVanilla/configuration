@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:mushroom_stew"
+			"id": "minecraft:mushroom_stew"
 		},
 		"title": {"translate":"Milkshroom"},
 		"description": {"color":"green","translate":"Milk a mooshroom with a bowl to get mushroom stew"},

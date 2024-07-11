@@ -1,2 +1,3 @@
-give @s minecraft:furnace_minecart{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#2AB9E5\",\"translate\":\"Thomas the Tank Engine\"}",Lore:["{\"color\":\"#2AB9E5\",\"translate\":\"He's number one\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Global Railway Network\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Thomas the Tank Engine"}]}
+give @s furnace_minecart[item_name='{"translate":"Thomas the Tank Engine","color":"#2AB9E5","bold":true,"italic":false}',lore=['{"translate":"He\'s number one","color":"#2AB9E5"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Global Railway Network","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Thomas the Tank Engine"}]

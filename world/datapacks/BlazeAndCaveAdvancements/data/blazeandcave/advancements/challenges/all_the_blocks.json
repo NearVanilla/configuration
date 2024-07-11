@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:polished_andesite"
+			"id": "minecraft:polished_andesite"
 		},
 		"title": {"translate":"All the Blocks!"},
 		"description": {"color":"#FF2A2A","translate":"Obtain all the blocks!"},

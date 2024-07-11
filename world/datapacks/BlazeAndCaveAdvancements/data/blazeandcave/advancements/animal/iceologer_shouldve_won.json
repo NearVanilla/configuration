@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:blue_ice"
+			"id": "minecraft:blue_ice"
 		},
 		"title": {"translate":"Iceologer Should've Won"},
 		"description": {"color":"dark_purple","translate":"Kill 100 Glow Squids"},

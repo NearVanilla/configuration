@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:phantom_membrane"
+			"id": "minecraft:phantom_membrane"
 		},
 		"title": {"translate":"True Feather Falling"},
 		"description": {"color":"green","translate":"Brew and drink a slow falling potion"},
@@ -19,7 +19,9 @@
 					"items": [
 						"minecraft:potion"
 					],
-					"potion": "minecraft:slow_falling"
+					"predicates": {
+						"potion_contents": "minecraft:slow_falling"
+					}
 				}
 			}
 		},
@@ -30,7 +32,9 @@
 					"items": [
 						"minecraft:potion"
 					],
-					"potion": "minecraft:long_slow_falling"
+					"predicates": {
+						"potion_contents": "minecraft:long_slow_falling"
+					}
 				}
 			}
 		}

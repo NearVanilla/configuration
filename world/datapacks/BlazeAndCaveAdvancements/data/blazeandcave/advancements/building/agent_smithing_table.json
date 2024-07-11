@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:smithing_table"
+			"id": "minecraft:smithing_table"
 		},
 		"title": {"translate":"Agent Smithing Table"},
 		"description": {"color":"green","translate":"Craft a smithing table"},

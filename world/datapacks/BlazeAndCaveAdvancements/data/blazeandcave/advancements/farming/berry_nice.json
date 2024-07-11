@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sweet_berries"
+			"id": "minecraft:sweet_berries"
 		},
 		"title": {"translate":"Berry Nice!"},
 		"description": {"color":"green","translate":"Pick and eat some sweet berries"},

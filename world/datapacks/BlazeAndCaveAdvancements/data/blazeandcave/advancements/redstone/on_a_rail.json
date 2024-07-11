@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:rail"
+			"id": "minecraft:rail"
 		},
 		"title": {"translate":"On A Rail"},
 		"description": {"color":"dark_purple","translate":"Travel by Minecart in a straight line to at least 1 km from where you started"},

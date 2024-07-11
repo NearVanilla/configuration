@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:minecart"
+			"id": "minecraft:minecart"
 		},
 		"title": {"translate":"All Aboard!"},
 		"description": {"color":"green","translate":"Craft and board a Minecart for railway journeys"},

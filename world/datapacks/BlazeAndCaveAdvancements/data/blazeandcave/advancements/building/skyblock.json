@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:grass_block"
+			"id": "minecraft:grass_block"
 		},
 		"title": {"translate":"Skyblock"},
 		"description": {"color":"#75E1FF","translate":"Place a Grass Block high in the sky"},

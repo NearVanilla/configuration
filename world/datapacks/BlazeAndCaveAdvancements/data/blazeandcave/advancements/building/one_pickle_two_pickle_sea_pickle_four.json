@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sea_pickle"
+			"id": "minecraft:sea_pickle"
 		},
 		"title": {"translate":"One Pickle, Two Pickle, Sea Pickle, Four"},
 		"description": {"color":"green","translate":"Place four sea pickles in a group underwater"},

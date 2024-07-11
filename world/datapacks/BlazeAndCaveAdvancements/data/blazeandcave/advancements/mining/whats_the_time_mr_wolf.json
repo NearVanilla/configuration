@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:clock"
+			"id": "minecraft:clock"
 		},
 		"title": {"translate":"What's the time, Mr Wolf?"},
 		"description": {"color":"green","translate":"Time to clean your clocks! (Or, craft them!)"},

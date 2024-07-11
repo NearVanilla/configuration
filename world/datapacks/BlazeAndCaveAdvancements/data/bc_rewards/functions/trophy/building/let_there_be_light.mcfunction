@@ -1,2 +1,3 @@
-give @s minecraft:soul_torch{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#FE7902\",\"translate\":\"Torch God's Favor\"}",Lore:["{\"color\":\"#FE7902\",\"translate\":\"The Torch God shall no longer haunt Minecraft\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Let There Be Light!\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Torch God's Favor"}]}
+give @s soul_torch[item_name='{"translate":"Torch God\'s Favor","color":"#FE7902","bold":true,"italic":false}',lore=['{"translate":"The Torch God shall no longer haunt Minecraft","color":"#FE7902"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Let There Be Light!","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Torch God's Favor"}]

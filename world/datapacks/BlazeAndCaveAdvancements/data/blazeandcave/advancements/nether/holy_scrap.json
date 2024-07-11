@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:netherite_scrap"
+			"id": "minecraft:netherite_scrap"
 		},
 		"title": {"translate":"Holy Scrap!"},
 		"description": {"color":"green","translate":"Smelt Ancient Debris into Netherite Scrap"},

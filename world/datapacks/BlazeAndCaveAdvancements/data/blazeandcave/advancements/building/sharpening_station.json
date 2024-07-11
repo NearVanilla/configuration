@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:grindstone"
+			"id": "minecraft:grindstone"
 		},
 		"title": {"translate":"Sharpening Station"},
 		"description": {"color":"green","translate":"Craft a grindstone using a stone slab, planks and sticks for repairing tools"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:waxed_weathered_cut_copper_stairs"
+			"id": "minecraft:waxed_weathered_cut_copper_stairs"
 		},
 		"title": {"translate":"Sly Copper: The Copper Heist"},
 		"description": {"color":"dark_purple","translate":"Collect a stack of every oxidizing stage of Copper Block, Cut Copper, Cut Copper Slabs and Stairs, and the waxed variants of them all"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:repeater"
+			"id": "minecraft:repeater"
 		},
 		"title": {"translate":"Repeating Repeater"},
 		"description": {"color":"green","translate":"Craft a redstone repeater for delaying signals"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:pearlescent_froglight"
+			"id": "minecraft:pearlescent_froglight"
 		},
 		"title": {"translate":"The Void Frogs"},
 		"description": {"color":"dark_purple","translate":"Lower a Frog into the void using a Slow Falling potion, then kill it so it becomes one with the void"},

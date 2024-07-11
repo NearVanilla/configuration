@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:shears"
+			"id": "minecraft:shears"
 		},
 		"title": {"translate":"Have a Shearful Day"},
 		"description": {"color":"green","translate":"Use Shears to obtain wool from a sheep"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:black_concrete_powder"
+			"id": "minecraft:black_concrete_powder"
 		},
 		"title": {"translate":"Not Afraid of Heights"},
 		"description": {"color":"dark_purple","translate":"Bring a Warden to world height. It can’t be afraid of heights if it can’t see"},

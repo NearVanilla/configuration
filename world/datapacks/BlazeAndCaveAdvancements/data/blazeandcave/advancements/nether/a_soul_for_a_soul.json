@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:soul_campfire"
+			"id": "minecraft:soul_campfire"
 		},
 		"title": {"translate":"A Soul For A Soul"},
 		"description": {"color":"green","translate":"Place down a Soul Campfire"},

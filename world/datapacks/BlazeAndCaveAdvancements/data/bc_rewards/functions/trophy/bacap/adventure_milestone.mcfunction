@@ -1,2 +1,3 @@
-give @s minecraft:filled_map{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#69A93F\",\"translate\":\"Adventurer's Trophy\"}",Lore:["{\"color\":\"#69A93F\",\"translate\":\"So much to do, so much to see...\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"yellow\",\"translate\":\"Adventure Milestone\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Adventurer's Trophy"}]}
+give @s filled_map[item_name='{"translate":"Adventurer\'s Trophy","color":"#69A93F","bold":true,"italic":false}',lore=['{"translate":"So much to do, so much to see...","color":"#69A93F"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Adventure Milestone","color":"yellow","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Adventurer's Trophy"}]

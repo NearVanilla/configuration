@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:pumpkin_pie"
+			"id": "minecraft:pumpkin_pie"
 		},
 		"title": {"translate":"The Pie"},
 		"description": {"color":"green","translate":"Bake a pumpkin pie"},

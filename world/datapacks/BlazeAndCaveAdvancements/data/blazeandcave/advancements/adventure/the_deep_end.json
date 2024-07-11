@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:prismarine_crystals"
+			"id": "minecraft:prismarine_crystals"
 		},
 		"title": {"translate":"The Deep End"},
 		"description": {"color":"#75E1FF","translate":"Defeat an Elder Guardian"},

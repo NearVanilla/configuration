@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:soul_sand"
+			"id": "minecraft:soul_sand"
 		},
 		"title": {"translate":"Quicksand"},
 		"description": {"color":"green","translate":"You sink like quicksand and move slow like mud"},

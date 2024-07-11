@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:redstone"
+			"id": "minecraft:redstone"
 		},
 		"title": {"translate":"Redstone Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Redstone tab"},

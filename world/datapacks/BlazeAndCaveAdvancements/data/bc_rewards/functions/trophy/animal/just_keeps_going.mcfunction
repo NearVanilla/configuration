@@ -1,2 +1,3 @@
-give @s minecraft:potato{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#E4D173\",\"translate\":\"Potato Mine\"}",Lore:["{\"color\":\"#E4D173\",\"translate\":\"SPUDOW!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Just Keeps Going\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Potato Mine"}]}
+give @s potato[item_name='{"translate":"Potato Mine","color":"#E4D173","bold":true,"italic":false}',lore=['{"translate":"SPUDOW!","color":"#E4D173"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Just Keeps Going","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Potato Mine"}]

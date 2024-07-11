@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:red_nether_bricks"
+			"id": "minecraft:red_nether_bricks"
 		},
 		"title": {"translate":"Nether Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Nether tab"},

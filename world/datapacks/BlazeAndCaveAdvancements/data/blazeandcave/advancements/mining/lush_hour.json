@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:moss_block"
+			"id": "minecraft:moss_block"
 		},
 		"title": {"translate":"Lush Hour"},
 		"description": {"color":"#75E1FF","translate":"Obtain a stack of all lush-related blocks"},

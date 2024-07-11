@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:daylight_detector"
+			"id": "minecraft:daylight_detector"
 		},
 		"title": {"translate":"Solar Power"},
 		"description": {"color":"green","translate":"Craft a daylight sensor"},

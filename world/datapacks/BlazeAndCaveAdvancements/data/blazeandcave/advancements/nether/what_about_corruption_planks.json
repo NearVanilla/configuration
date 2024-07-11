@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:crimson_planks"
+			"id": "minecraft:crimson_planks"
 		},
 		"title": {"translate":"What about Corruption Planks?"},
 		"description": {"color":"#75E1FF","translate":"Craft every item made out of crimson wood"},

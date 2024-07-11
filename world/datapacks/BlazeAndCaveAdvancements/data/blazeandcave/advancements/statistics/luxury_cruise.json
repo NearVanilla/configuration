@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_boat"
+			"id": "minecraft:oak_boat"
 		},
 		"title": {"translate":"Luxury Cruise"},
 		"description": {"color":"green","translate":"Sail 1km in a boat"},

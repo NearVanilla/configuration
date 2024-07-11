@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:carved_pumpkin",
-			"nbt": "{Enchantments:[{id:\"minecraft:binding_curse\",lvl:1}]}"
+			"id": "minecraft:carved_pumpkin",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
 		},
 		"title": {"translate":"Handmade Blinding"},
 		"description": {"color":"#75E1FF","translate":"Wear a carved pumpkin enchanted with Curse of Binding"},
@@ -27,13 +29,15 @@
 									"items": [
 										"minecraft:carved_pumpkin"
 									],
-									"enchantments": [
-										{
-											"enchantment": "minecraft:binding_curse"
-										}
-									]
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantment": "minecraft:binding_curse"
+											}	
+										]
+									}
 								}
-							}
+							}	
 						}
 					}
 				]

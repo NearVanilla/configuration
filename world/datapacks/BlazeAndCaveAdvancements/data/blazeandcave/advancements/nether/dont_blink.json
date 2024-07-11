@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:weeping_vines"
+			"id": "minecraft:weeping_vines"
 		},
 		"title": {"translate":"Don't Blink"},
 		"description": {"color":"green","translate":"Climb on some Weeping Vines in a Crimson Forest"},

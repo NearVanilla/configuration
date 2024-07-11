@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:rabbit_stew"
+			"id": "minecraft:rabbit_stew"
 		},
 		"title": {"translate":"Getting Into a Stew"},
 		"description": {"color":"green","translate":"Make and eat some rabbit stew"},

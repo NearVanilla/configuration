@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:crossbow"
+			"id": "minecraft:crossbow"
 		},
 		"title": {"translate":"Machine Bow"},
 		"description": {"color":"#75E1FF","translate":"Fire a crossbow as rapidly as possible"},
@@ -20,14 +20,16 @@
 					"items": [
 						"minecraft:crossbow"
 					],
-					"enchantments": [
-						{
-							"enchantment": "minecraft:quick_charge",
-							"levels": {
-								"min": 3
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantment": "minecraft:quick_charge",
+								"levels": {
+									"min": 3
+								}
 							}
-						}
-					]					
+						]		
+					}			
 				}
 			}
 		}

@@ -1,2 +1,3 @@
-give @s minecraft:oak_boat{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#1604FF\",\"translate\":\"Noah's Ark\"}",Lore:["{\"color\":\"#1604FF\",\"translate\":\"A deluge is imminent\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Two By Two\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Noah's Ark"}]}
+give @s oak_boat[item_name='{"translate":"Noah\'s Ark","color":"#1604FF","bold":true,"italic":false}',lore=['{"translate":"A deluge is imminent","color":"#1604FF"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Two By Two","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Noah's Ark"}]

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:wooden_sword"
+			"id": "minecraft:wooden_sword"
 		},
 		"title": {"translate":"Time to Strike!"},
 		"description": {"color":"green","translate":"Use planks and sticks to make a sword"},

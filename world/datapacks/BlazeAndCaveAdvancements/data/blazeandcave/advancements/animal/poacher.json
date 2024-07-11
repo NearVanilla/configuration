@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:seagrass"
+			"id": "minecraft:seagrass"
 		},
 		"title": {"translate":"Poacher"},
 		"description": {"color":"green","translate":"Kill a turtle for their shells only to find they don't actually drop any when killed"},

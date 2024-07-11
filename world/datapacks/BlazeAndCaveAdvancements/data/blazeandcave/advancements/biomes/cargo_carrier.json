@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:spruce_chest_boat"
+			"id": "minecraft:spruce_chest_boat"
 		},
 		"title": {"translate":"Cargo Carrier"},
 		"description": {"color":"green","translate":"Ride a Boat with a Chest in it"},

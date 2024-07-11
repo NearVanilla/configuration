@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:lantern"
+			"id": "minecraft:lantern"
 		},
 		"title": {"translate":"Festival of Lights"},
 		"description": {"color":"green","translate":"Light up the area using a lantern"},

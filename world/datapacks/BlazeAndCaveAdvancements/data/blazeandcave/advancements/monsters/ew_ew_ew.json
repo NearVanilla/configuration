@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:string"
+			"id": "minecraft:string"
 		},
 		"title": {"translate":"Ew Ew Ew!"},
 		"description": {"color":"green","translate":"Kill a spider"},

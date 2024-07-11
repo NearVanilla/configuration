@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:rotten_flesh"
+			"id": "minecraft:rotten_flesh"
 		},
 		"title": {"translate":"Undead Slayer"},
 		"description": {"color":"#75E1FF","translate":"Obtain Smite V"},
@@ -18,14 +18,16 @@
 			"conditions": {
 				"items": [
 					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:smite",
-								"levels": {
-									"min": 5
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:smite",
+									"levels": {
+										"min": 5
+									}
 								}
-							}
-						]
+							]
+						}
 					}
 				]
 			}
@@ -35,14 +37,16 @@
 			"conditions": {
 				"items": [
 					{
-						"stored_enchantments": [
-							{
-								"enchantment": "minecraft:smite",
-								"levels": {
-									"min": 5
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantment": "minecraft:smite",
+									"levels": {
+										"min": 5
+									}
 								}
-							}
-						]
+							]
+						}
 					}
 				]
 			}

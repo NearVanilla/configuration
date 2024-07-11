@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:zombie_head"
+			"id": "minecraft:zombie_head"
 		},
 		"title": {"translate":"Still Talking!"},
 		"description": {"color":"dark_purple","translate":"Blow up a zombie with a charged creeper to get a zombie head"},

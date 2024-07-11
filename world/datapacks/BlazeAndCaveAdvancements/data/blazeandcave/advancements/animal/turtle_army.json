@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:turtle_spawn_egg"
+			"id": "minecraft:turtle_spawn_egg"
 		},
 		"title": {"translate":"Turtle Army"},
 		"description": {"color":"#75E1FF","translate":"Collect a stack of scutes"},
@@ -19,7 +19,7 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:scute"
+							"minecraft:turtle_scute"
 						],
 						"count": 64
 					}

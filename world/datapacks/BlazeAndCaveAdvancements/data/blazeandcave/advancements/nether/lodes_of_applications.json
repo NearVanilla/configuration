@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:end_stone"
+			"id": "minecraft:end_stone"
 		},
 		"title": {"translate":"Lodes of Applications"},
 		"description": {"color":"#75E1FF","translate":"Create a Lodestone Compass in all three dimensions"},
@@ -14,40 +14,67 @@
 	},	
 	"criteria": {
 		"overworld": {
-			"trigger": "minecraft:inventory_changed",
+			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"items": [
+				"location": [
 					{
-						"items": [
-							"minecraft:compass"
-						],
-						"nbt": "{LodestoneDimension:\"minecraft:overworld\"}"
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:lodestone"
+							},
+							"dimension": "minecraft:overworld"
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "minecraft:compass"
+						}
 					}
 				]
 			}
 		},
 		"the_nether": {
-			"trigger": "minecraft:inventory_changed",
+			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"items": [
+				"location": [
 					{
-						"items": [
-							"minecraft:compass"
-						],
-						"nbt": "{LodestoneDimension:\"minecraft:the_nether\"}"
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:lodestone"
+							},
+							"dimension": "minecraft:the_nether"
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "minecraft:compass"
+						}
 					}
 				]
 			}
 		},
 		"the_end": {
-			"trigger": "minecraft:inventory_changed",
+			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"items": [
+				"location": [
 					{
-						"items": [
-							"minecraft:compass"
-						],
-						"nbt": "{LodestoneDimension:\"minecraft:the_end\"}"
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:lodestone"
+							},
+							"dimension": "minecraft:the_end"
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "minecraft:compass"
+						}
 					}
 				]
 			}

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cobblestone"
+			"id": "minecraft:cobblestone"
 		},
 		"title": {"translate":"Mining"},
 		"description": {"color":"#CCCCCC","translate":"Dig deep down, mine up ore"},
@@ -18,7 +18,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "minecraft:pickaxes"
+						"items": "#minecraft:pickaxes"
 					}
 				]
 			}

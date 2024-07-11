@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:rabbit_hide"
+			"id": "minecraft:rabbit_hide"
 		},
 		"title": {"translate":"Going Down the Rabbit Hole"},
 		"description": {"color":"#75E1FF","translate":"Bring a rabbit to the bottom of the world, then kill it"},

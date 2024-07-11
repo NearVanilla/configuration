@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_sword"
+			"id": "minecraft:iron_sword"
 		},
 		"title": {"translate":"Bloodthirsty"},
 		"description": {"color":"#75E1FF","translate":"Defeat 2500 mobs"},

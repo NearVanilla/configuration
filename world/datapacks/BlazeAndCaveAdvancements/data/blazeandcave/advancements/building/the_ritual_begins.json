@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:black_candle"
+			"id": "minecraft:black_candle"
 		},
 		"title": {"translate":"The Ritual Begins"},
 		"description": {"color":"#75E1FF","translate":"Get one stack of Black Candles"},

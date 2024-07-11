@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:lever"
+			"id": "minecraft:lever"
 		},
 		"title": {"translate":"Leveraging Synergy"},
 		"description": {"color":"green","translate":"Flick a lever"},
@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"lever": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{

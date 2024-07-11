@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:potion"
+			"id": "minecraft:potion"
 		},
 		"title": {"translate":"Potions Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Potions tab"},

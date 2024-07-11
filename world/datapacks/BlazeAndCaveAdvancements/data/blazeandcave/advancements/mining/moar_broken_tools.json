@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:shears"
+			"id": "minecraft:shears"
 		},
 		"title": {"translate":"MOAR Broken Tools"},
 		"description": {"color":"dark_purple","translate":"Break every single tool and weapon in the game"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:white_dye"
+			"id": "minecraft:white_dye"
 		},
 		"title": {"translate":"Goat out of here!"},
 		"description": {"color":"green","translate":"Slaughter a Goat"},

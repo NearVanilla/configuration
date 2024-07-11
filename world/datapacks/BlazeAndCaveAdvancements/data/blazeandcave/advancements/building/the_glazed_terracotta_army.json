@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:magenta_glazed_terracotta"
+			"id": "minecraft:magenta_glazed_terracotta"
 		},
 		"title": {"translate":"The Glazed Terracotta Army"},
 		"description": {"color":"#75E1FF","translate":"Craft all 16 colors of glazed terracotta"},

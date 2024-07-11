@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:brain_coral"
+			"id": "minecraft:brain_coral"
 		},
 		"title": {"translate":"The Great Blocky Reef"},
 		"description": {"color":"green","translate":"Come across a coral reef in the ocean"},
@@ -21,7 +21,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:warm_ocean"
+								"biomes": "minecraft:warm_ocean"
 							}
 						}
 					},

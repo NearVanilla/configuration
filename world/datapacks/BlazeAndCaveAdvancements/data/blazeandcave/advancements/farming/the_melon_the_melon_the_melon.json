@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:melon_slice"
+			"id": "minecraft:melon_slice"
 		},
 		"title": {"translate":"The Melon! The Melon! The Melon!"},
 		"description": {"color":"green","translate":"Eat a melon. Be careful not to drop it over a cliff"},

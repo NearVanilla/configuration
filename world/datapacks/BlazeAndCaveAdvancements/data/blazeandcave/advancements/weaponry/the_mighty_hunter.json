@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chicken"
+			"id": "minecraft:chicken"
 		},
 		"title": {"translate":"The Mighty Hunter"},
 		"description": {"color":"dark_purple","translate":"Hunt all types of land animals with your bow"},
@@ -523,6 +523,25 @@
 				},
 				"entity": {
 					"type": "sniffer"
+				}
+			}
+		},
+		"armadillo": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"type": "#blazeandcave:arrows"
+						}
+				},
+				"entity": {
+					"type": "armadillo"
 				}
 			}
 		}

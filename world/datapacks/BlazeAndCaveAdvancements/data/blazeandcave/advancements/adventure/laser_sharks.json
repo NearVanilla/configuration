@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:prismarine_shard"
+			"id": "minecraft:prismarine_shard"
 		},
 		"title": {"translate":"Laser Sharks!"},
 		"description": {"color":"green","translate":"Defeat a Guardian"},

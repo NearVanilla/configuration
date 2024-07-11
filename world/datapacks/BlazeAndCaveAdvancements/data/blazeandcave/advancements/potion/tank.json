@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:turtle_helmet"
+			"id": "minecraft:turtle_helmet"
 		},
 		"title": {"translate":"Tank"},
 		"description": {"color":"#75E1FF","translate":"Become nearly invincible to all damage using a Turtle Master Potion"},
@@ -20,7 +20,9 @@
 					"items": [
 						"minecraft:potion"
 					],
-					"potion": "minecraft:turtle_master"
+					"predicates": {
+						"potion_contents": "minecraft:turtle_master"
+					}
 				}
 			}
 		},
@@ -31,7 +33,9 @@
 					"items": [
 						"minecraft:potion"
 					],
-					"potion": "minecraft:strong_turtle_master"
+					"predicates": {
+						"potion_contents": "minecraft:strong_turtle_master"
+					}
 				}
 			}
 		},
@@ -42,7 +46,9 @@
 					"items": [
 						"minecraft:potion"
 					],
-					"potion": "minecraft:long_turtle_master"
+					"predicates": {
+						"potion_contents": "minecraft:long_turtle_master"
+					}
 				}
 			}
 		}

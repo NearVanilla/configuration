@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:water_bucket"
+			"id": "minecraft:water_bucket"
 		},
 		"title": {"translate":"Scuba Gear"},
 		"description": {"color":"#75E1FF","translate":"Obtain every water related enchantment"},
@@ -18,11 +18,13 @@
 			"conditions": {
 				"items": [
 					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:respiration"
-							}
-						]
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:respiration"
+								}
+							]
+						}
 					}
 				]
 			}
@@ -32,11 +34,13 @@
 			"conditions": {
 				"items": [
 					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:aqua_affinity"
-							}
-						]
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:aqua_affinity"
+								}
+							]
+						}
 					}
 				]
 			}
@@ -46,11 +50,13 @@
 			"conditions": {
 				"items": [
 					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:depth_strider"
-							}
-						]
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:depth_strider"
+								}
+							]
+						}
 					}
 				]
 			}
@@ -60,11 +66,13 @@
 			"conditions": {
 				"items": [
 					{
-						"stored_enchantments": [
-							{
-								"enchantment": "minecraft:respiration"
-							}
-						]
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantment": "minecraft:respiration"
+								}
+							]
+						}
 					}
 				]
 			}
@@ -74,11 +82,13 @@
 			"conditions": {
 				"items": [
 					{
-						"stored_enchantments": [
-							{
-								"enchantment": "minecraft:aqua_affinity"
-							}
-						]
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantment": "minecraft:aqua_affinity"
+								}
+							]
+						}
 					}
 				]
 			}
@@ -88,11 +98,13 @@
 			"conditions": {
 				"items": [
 					{
-						"stored_enchantments": [
-							{
-								"enchantment": "minecraft:depth_strider"
-							}
-						]
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantment": "minecraft:depth_strider"
+								}
+							]
+						}
 					}
 				]
 			}

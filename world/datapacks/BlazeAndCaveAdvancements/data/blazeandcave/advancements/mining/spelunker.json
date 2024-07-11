@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chainmail_helmet"
+			"id": "minecraft:chainmail_helmet"
 		},
 		"title": {"translate":"Spelunker"},
 		"description": {"color":"#75E1FF","translate":"Discover every cave biome"},
@@ -22,7 +22,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:lush_caves"
+								"biomes": "minecraft:lush_caves"
 							}
 						}
 					},
@@ -51,7 +51,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:dripstone_caves"
+								"biomes": "minecraft:dripstone_caves"
 							}
 						}
 					},
@@ -80,7 +80,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:deep_dark"
+								"biomes": "minecraft:deep_dark"
 							}
 						}
 					},

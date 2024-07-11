@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cookie"
+			"id": "minecraft:cookie"
 		},
 		"title": {"translate":"You’ve Got a Friend in Me"},
 		"description": {"color":"green","translate":"Have an Allay deliver items to you"},

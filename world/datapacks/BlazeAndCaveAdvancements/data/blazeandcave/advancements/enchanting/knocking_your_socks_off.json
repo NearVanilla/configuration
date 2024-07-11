@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_sword"
+			"id": "minecraft:iron_sword"
 		},
 		"title": {"translate":"Knocking Your Socks Off"},
 		"description": {"color":"#75E1FF","translate":"Obtain Knockback and Punch enchantments"},
@@ -18,11 +18,13 @@
 			"conditions": {
 				"items": [
 					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:knockback"
-							}
-						]
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:knockback"
+								}
+							]
+						}
 					}
 				]
 			}
@@ -32,11 +34,13 @@
 			"conditions": {
 				"items": [
 					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:punch"
-							}
-						]
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:punch"
+								}
+							]
+						}
 					}
 				]
 			}
@@ -46,11 +50,13 @@
 			"conditions": {
 				"items": [
 					{
-						"stored_enchantments": [
-							{
-								"enchantment": "minecraft:knockback"
-							}
-						]
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantment": "minecraft:knockback"
+								}
+							]
+						}
 					}
 				]
 			}
@@ -60,11 +66,13 @@
 			"conditions": {
 				"items": [
 					{
-						"stored_enchantments": [
-							{
-								"enchantment": "minecraft:punch"
-							}
-						]
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantment": "minecraft:punch"
+								}
+							]
+						}
 					}
 				]
 			}

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:purpur_pillar"
+			"id": "minecraft:purpur_pillar"
 		},
 		"title": {"translate":"Purpurfect!"},
 		"description": {"color":"green","translate":"Craft or collect purpur blocks, slabs, pillars and stairs"},

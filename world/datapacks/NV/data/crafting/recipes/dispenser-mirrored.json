@@ -1,24 +1,24 @@
 {
-    "type": "crafting_shaped",
-    "group": "dispenser",
-    "pattern": [
-        "SW ",
-        "SDW",
-        "SW "
-    ],
-    "key": {
-        "W": {
-            "item": "minecraft:stick"
-        },
-        "S": {
-            "item": "minecraft:string"
-        },
-        "D": {
-            "item": "minecraft:dropper"
-        }
+  "type": "crafting_shaped",
+  "group": "dispenser",
+  "pattern": [
+    "SW ",
+    "SDW",
+    "SW "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:stick"
     },
-    "result": {
-        "item": "minecraft:dispenser",
-        "count": 1
+    "S": {
+      "item": "minecraft:string"
+    },
+    "D": {
+      "item": "minecraft:dropper"
     }
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:dispenser"
+  }
 }

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_sword"
+			"id": "minecraft:diamond_sword"
 		},
 		"title": {"translate":"Monsters Hunted"},
 		"description": {"color":"dark_purple","translate":"Kill one of every hostile monster"},

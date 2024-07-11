@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cobblestone"
+			"id": "minecraft:cobblestone"
 		},
 		"title": {"translate":"Mining Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Mining tab"},

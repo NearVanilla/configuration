@@ -1,2 +1,3 @@
-give @s minecraft:sugar{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#F2C66F\",\"translate\":\"Amphitrite\"}",Lore:["{\"color\":\"#F2C66F\",\"translate\":\"Many people called her the personification of the sea itself...\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#FF2A2A\",\"translate\":\"Abyss Lord\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Amphitrite"}]}
+give @s sugar[item_name='{"translate":"Amphitrite","color":"#F2C66F","bold":true,"italic":false}',lore=['{"translate":"Many people called her the personification of the sea itself...","color":"#F2C66F"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Abyss Lord","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Amphitrite"}]

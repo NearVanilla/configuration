@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:elytra"
+			"id": "minecraft:elytra"
 		},
 		"title": {"translate":"When Piglins Fly"},
 		"description": {"color":"#75E1FF","translate":"Give a piglin elytra then kill it"},

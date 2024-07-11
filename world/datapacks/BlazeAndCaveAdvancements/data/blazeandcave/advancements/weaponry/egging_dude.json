@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:egg"
+			"id": "minecraft:egg"
 		},
 		"title": {"translate":"Egging, Dude!"},
 		"description": {"color":"green","translate":"Vandalise something with eggs"},

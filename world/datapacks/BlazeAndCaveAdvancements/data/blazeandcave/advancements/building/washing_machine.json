@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_block"
+			"id": "minecraft:iron_block"
 		},
 		"title": {"translate":"Washing Machine"},
 		"description": {"color":"#75E1FF","translate":"Use a cauldron to clean leather armor, a banner and a shulker box"},
@@ -21,14 +21,14 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:cauldrons"
+								"blocks": "#minecraft:cauldrons"
 							}
 						}
 					},
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"tag": "minecraft:leather_armor"
+							"items": "#minecraft:leather_armor"
 						}
 					}
 				]
@@ -42,14 +42,14 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:cauldrons"
+								"blocks": "#minecraft:cauldrons"
 							}
 						}
 					},
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"tag": "minecraft:banners"
+							"items": "#minecraft:banners"
 						}
 					}
 				]
@@ -63,14 +63,14 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:cauldrons"
+								"blocks": "#minecraft:cauldrons"
 							}
 						}
 					},
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"tag": "minecraft:shulker_boxes"
+							"items": "#minecraft:shulker_boxes"
 						}
 					}
 				]

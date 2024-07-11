@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:magenta_terracotta"
+			"id": "minecraft:magenta_terracotta"
 		},
 		"title": {"translate":"The Terracotta Army"},
 		"description": {"color":"#75E1FF","translate":"Craft all 16 colors of terracotta (stained clay)"},

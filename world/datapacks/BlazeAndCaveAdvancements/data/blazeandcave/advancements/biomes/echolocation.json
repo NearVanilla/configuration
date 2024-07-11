@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cod"
+			"id": "minecraft:cod"
 		},
 		"title": {"translate":"Echolocation"},
 		"description": {"color":"green","translate":"Feed a dolphin fish to have it lead you to treasure"},
@@ -16,7 +16,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"tag": "blazeandcave:dolphin_feedable"
+					"items": "#blazeandcave:dolphin_feedable"
 				},
 				"entity": [
 					{

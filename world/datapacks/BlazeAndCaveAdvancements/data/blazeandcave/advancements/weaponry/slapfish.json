@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cod"
+			"id": "minecraft:cod"
 		},
 		"title": {"translate":"Slapfish"},
 		"description": {"color":"green","translate":"Slap a mob across the face with a fish"},
@@ -27,7 +27,7 @@
 						"source_entity": {
 							"equipment": {
 								"mainhand": {
-									"tag": "minecraft:fishes"
+									"items": "#minecraft:fishes"
 								}
 							}
 						}

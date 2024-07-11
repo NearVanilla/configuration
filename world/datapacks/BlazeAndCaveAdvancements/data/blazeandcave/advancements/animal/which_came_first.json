@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:egg"
+			"id": "minecraft:egg"
 		},
 		"title": {"translate":"Which came first?"},
 		"description": {"color":"green","translate":"The chicken... or the egg??"},

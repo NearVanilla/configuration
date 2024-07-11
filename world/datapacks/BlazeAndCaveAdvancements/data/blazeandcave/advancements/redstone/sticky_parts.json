@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sticky_piston"
+			"id": "minecraft:sticky_piston"
 		},
 		"title": {"translate":"Sticky Parts"},
 		"description": {"color":"green","translate":"Craft a sticky piston so you can pull things"},

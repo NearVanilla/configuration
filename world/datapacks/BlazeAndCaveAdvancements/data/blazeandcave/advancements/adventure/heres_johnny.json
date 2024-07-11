@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_axe"
+			"id": "minecraft:iron_axe"
 		},
 		"title": {"translate":"Heeere's Johnny!"},
 		"description": {"color":"green","translate":"Kill a Vindicator in a Woodland Mansion"},
@@ -18,7 +18,7 @@
 				"entity": {
 					"type": "vindicator",
 					"location": {
-						"structure": "mansion"
+						"structures": "mansion"
 					}
 				}
 			}

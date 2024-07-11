@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:gravel"
+			"id": "minecraft:gravel"
 		},
 		"title": {"translate":"My work here is done"},
 		"description": {"color":"green","translate":"Get caught in a cave-in of gravel"},

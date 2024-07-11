@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_helmet"
+			"id": "minecraft:iron_helmet"
 		},
 		"title": {"translate":"Iron Man"},
 		"description": {"color":"#75E1FF","translate":"Wear a full suit of iron armor"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:popped_chorus_fruit"
+			"id": "minecraft:popped_chorus_fruit"
 		},
 		"title": {"translate":"Stack All the Items!"},
 		"description": {"color":"#FF2A2A","translate":"Obtain a stack of all the items!","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"The following are not required:"},{"text":"\n"},{"color":"gray","translate":"item.minecraft.recovery_compass"},{"color":"gray","text":", "},{"color":"gray","translate":"Pottery Sherd"},{"color":"gray","text":". \n"},{"color":"gray","translate":"You only need a stack of one kind of Smithing Template"}]},
@@ -2905,7 +2905,7 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:scute"
+							"minecraft:turtle_scute"
 						],
 						"count": 64
 					}
@@ -3592,6 +3592,31 @@
 							"minecraft:spire_armor_trim_smithing_template"
 						],
 						"count": 64
+					}
+				]
+			}
+		},
+		"armadillo_scute": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:armadillo_scute"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"wolf_armor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wolf_armor"
+						]
 					}
 				]
 			}

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:large_fern"
+			"id": "minecraft:large_fern"
 		},
 		"title": {"translate":"Prime Specimen"},
 		"description": {"color":"#75E1FF","translate":"Find Tall Grass or a Large Fern inside a village chest"},

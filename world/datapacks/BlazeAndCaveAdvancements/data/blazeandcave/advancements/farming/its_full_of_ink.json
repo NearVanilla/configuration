@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:ink_sac"
+			"id": "minecraft:ink_sac"
 		},
 		"title": {"translate":"It's full of ink"},
 		"description": {"color":"green","translate":"Obtain some ink from hunting a squid"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cake"
+			"id": "minecraft:cake"
 		},
 		"title": {"translate":"Pandamonium"},
 		"description": {"color":"dark_purple","translate":"Feed cake to every type of panda"},

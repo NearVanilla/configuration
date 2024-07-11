@@ -1,2 +1,3 @@
-give @s minecraft:carved_pumpkin{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#E3901D\",\"translate\":\"Handsome Pumpkin\"}",Lore:["{\"color\":\"#E3901D\",\"translate\":\"This guy rushes me with a spoon... A freakin' spoon!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#FFAEFF\",\"translate\":\"Handsome Jack\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Handsome Pumpkin"}]}
+give @s carved_pumpkin[item_name='{"translate":"Handsome Pumpkin","color":"#E3901D","bold":true,"italic":false}',lore=['{"translate":"This guy rushes me with a spoon... A freakin\' spoon!","color":"#E3901D"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Handsome Jack","color":"#FFAEFF","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Handsome Pumpkin"}]

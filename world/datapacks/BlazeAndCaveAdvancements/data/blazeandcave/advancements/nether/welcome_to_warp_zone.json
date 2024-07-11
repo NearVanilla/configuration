@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:warped_planks"
+			"id": "minecraft:warped_planks"
 		},
 		"title": {"translate":"Welcome to Warp Zone!"},
 		"description": {"color":"#75E1FF","translate":"Craft every item made out of warped wood"},

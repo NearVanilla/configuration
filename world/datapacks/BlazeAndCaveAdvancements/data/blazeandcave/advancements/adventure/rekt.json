@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_bars"
+			"id": "minecraft:iron_bars"
 		},
 		"title": {"translate":"Rekt!"},
 		"description": {"color":"green","translate":"Get killed by a natural iron golem defending its village"},

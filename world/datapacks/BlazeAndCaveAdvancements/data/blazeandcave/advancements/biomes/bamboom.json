@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bamboo"
+			"id": "minecraft:bamboo"
 		},
 		"title": {"translate":"Bamboom!"},
 		"description": {"color":"green","translate":"Break down some bamboo"},

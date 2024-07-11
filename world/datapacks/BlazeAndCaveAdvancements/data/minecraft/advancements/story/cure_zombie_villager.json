@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:golden_apple"
+			"id": "minecraft:golden_apple"
 		},
 		"title": {"translate":"Zombie Doctor"},
 		"description": {"color":"#75E1FF","translate":"Cure a zombie villager"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bell"
+			"id": "minecraft:bell"
 		},
 		"title": {"translate":"Sound the Alarm!"},
 		"description": {"color":"green","translate":"Ring the bell with a hostile enemy in the village"},

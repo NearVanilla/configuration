@@ -1,2 +1,3 @@
-give @s minecraft:chainmail_boots{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Unbreakable:1,Trophy:1,CustomModelData:131,HideFlags:70,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#669B29\",\"translate\":\"Very Muddy Boots\"}",Lore:["{\"color\":\"#669B29\",\"translate\":\"The result of too long in muddy fields\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"green\",\"translate\":\"Elmer Mudd\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Very Muddy Boots"}]}
+give @s chainmail_boots[item_name='{"translate":"Very Muddy Boots","color":"#669B29","bold":true,"italic":false}',lore=['{"translate":"The result of too long in muddy fields","color":"#669B29"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Elmer Mudd","color":"green","italic":false}'],unbreakable={show_in_tooltip:false},custom_model_data=131,custom_data={Trophy:1},enchantments={levels:{"minecraft:unbreaking":1}}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Very Muddy Boots"}]

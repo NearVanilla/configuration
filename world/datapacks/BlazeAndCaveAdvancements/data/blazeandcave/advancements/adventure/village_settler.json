@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bell"
+			"id": "minecraft:bell"
 		},
 		"title": {"translate":"Village Settler"},
 		"description": {"color":"green","translate":"Trade for a new bell to establish a new village"},

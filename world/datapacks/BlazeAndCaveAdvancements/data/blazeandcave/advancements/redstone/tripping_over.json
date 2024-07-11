@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:tripwire_hook"
+			"id": "minecraft:tripwire_hook"
 		},
 		"title": {"translate":"Tripping Over"},
 		"description": {"color":"green","translate":"Place a line of string between two tripwire hooks, and trigger it"},

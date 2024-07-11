@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:warped_sign"
+			"id": "minecraft:warped_sign"
 		},
 		"title": {"translate":"Glow and Behold"},
 		"description": {"color":"green","translate":"Use a Glow Ink Sac to light up a sign"},
@@ -28,7 +28,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:all_signs"
+								"blocks": "#minecraft:all_signs"
 							}
 						}
 					}

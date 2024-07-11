@@ -1,8 +1,13 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:firework_star",
-			"nbt": "{Explosion:{Type:0b,Colors:[I; 4312372]}}"
+			"id": "minecraft:firework_star",
+			"components": {
+				"minecraft:firework_explosion": {
+					"shape": "small_ball",
+					"colors": [4312372]
+				}
+			}
 		},
 		"title": {"translate":"Pyrotechnic"},
 		"description": {"color":"#75E1FF","translate":"Craft a firework of every shape and additional effect"},
@@ -22,7 +27,17 @@
 						"items": [
 							"minecraft:firework_rocket"
 						],
-						"nbt": "{Fireworks:{Explosions:[{Type:0b}]}}"
+						"predicates": {
+							"minecraft:fireworks": {
+								"explosions": {
+									"contains": [
+										{
+											"shape": "small_ball"
+										}
+									]
+								}
+							}
+						}
 					}
 				]
 			}
@@ -35,7 +50,17 @@
 						"items": [
 							"minecraft:firework_rocket"
 						],
-						"nbt": "{Fireworks:{Explosions:[{Type:1b}]}}"
+						"predicates": {
+							"minecraft:fireworks": {
+								"explosions": {
+									"contains": [
+										{
+											"shape": "large_ball"
+										}
+									]
+								}
+							}
+						}
 					}
 				]
 			}
@@ -48,7 +73,17 @@
 						"items": [
 							"minecraft:firework_rocket"
 						],
-						"nbt": "{Fireworks:{Explosions:[{Type:2b}]}}"
+						"predicates": {
+							"minecraft:fireworks": {
+								"explosions": {
+									"contains": [
+										{
+											"shape": "star"
+										}
+									]
+								}
+							}
+						}
 					}
 				]
 			}
@@ -61,7 +96,17 @@
 						"items": [
 							"minecraft:firework_rocket"
 						],
-						"nbt": "{Fireworks:{Explosions:[{Type:3b}]}}"
+						"predicates": {
+							"minecraft:fireworks": {
+								"explosions": {
+									"contains": [
+										{
+											"shape": "creeper"
+										}
+									]
+								}
+							}
+						}
 					}
 				]
 			}
@@ -74,7 +119,17 @@
 						"items": [
 							"minecraft:firework_rocket"
 						],
-						"nbt": "{Fireworks:{Explosions:[{Type:4b}]}}"
+						"predicates": {
+							"minecraft:fireworks": {
+								"explosions": {
+									"contains": [
+										{
+											"shape": "burst"
+										}
+									]
+								}
+							}
+						}
 					}
 				]
 			}
@@ -87,7 +142,17 @@
 						"items": [
 							"minecraft:firework_rocket"
 						],
-						"nbt": "{Fireworks:{Explosions:[{Flicker:1b}]}}"
+						"predicates": {
+							"minecraft:fireworks": {
+								"explosions": {
+									"contains": [
+										{
+											"has_twinkle": true
+										}
+									]
+								}
+							}
+						}
 					}
 				]
 			}
@@ -100,7 +165,17 @@
 						"items": [
 							"minecraft:firework_rocket"
 						],
-						"nbt": "{Fireworks:{Explosions:[{Trail:1b}]}}"
+						"predicates": {
+							"minecraft:fireworks": {
+								"explosions": {
+									"contains": [
+										{
+											"has_trail": true
+										}
+									]
+								}
+							}
+						}
 					}
 				]
 			}

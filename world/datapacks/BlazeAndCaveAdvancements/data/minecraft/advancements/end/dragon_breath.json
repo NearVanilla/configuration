@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dragon_breath"
+			"id": "minecraft:dragon_breath"
 		},
 		"title": {"translate":"You Need a Mint"},
 		"description": {"color":"green","translate":"Collect dragon's breath in a glass bottle"},

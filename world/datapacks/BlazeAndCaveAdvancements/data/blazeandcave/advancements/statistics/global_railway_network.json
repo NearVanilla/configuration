@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:command_block_minecart"
+			"id": "minecraft:command_block_minecart"
 		},
 		"title": {"translate":"Global Railway Network"},
 		"description": {"color":"dark_purple","translate":"Ride 50km in a minecart"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:jungle_sapling"
+			"id": "minecraft:jungle_sapling"
 		},
 		"title": {"translate":"Ecologist"},
 		"description": {"color":"#75E1FF","translate":"Plant down all types of saplings"},

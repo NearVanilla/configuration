@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:respawn_anchor"
+			"id": "minecraft:respawn_anchor"
 		},
 		"title": {"translate":"Anchorman"},
 		"description": {"color":"green","translate":"Craft a Respawn Anchor using Crying Obsidian and Glowstone then place it down"},

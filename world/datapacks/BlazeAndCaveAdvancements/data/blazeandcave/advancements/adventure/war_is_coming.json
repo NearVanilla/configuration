@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_sword"
+			"id": "minecraft:iron_sword"
 		},
 		"title": {"translate":"War is Coming"},
 		"description": {"color":"dark_purple","translate":"Defeat enough Illager Patrol leaders to attain the highest level of Bad Omen"},

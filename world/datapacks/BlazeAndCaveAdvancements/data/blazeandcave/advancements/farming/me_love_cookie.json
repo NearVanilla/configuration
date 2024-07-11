@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cookie"
+			"id": "minecraft:cookie"
 		},
 		"title": {"translate":"Me Love Cookie"},
 		"description": {"color":"green","translate":"Bake some cookies... and then scoff them all yourself"},

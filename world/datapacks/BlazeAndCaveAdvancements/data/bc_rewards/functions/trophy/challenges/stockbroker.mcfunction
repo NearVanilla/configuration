@@ -1,2 +1,3 @@
-give @s minecraft:stone_brick_wall{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#D3D3D3\",\"translate\":\"Wall Street\"}",Lore:["{\"color\":\"#C9C9CB\",\"translate\":\"Yes, it's a wall\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#FF2A2A\",\"translate\":\"Stockbroker\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Wall Street"}]}
+give @s stone_brick_wall[item_name='{"translate":"Wall Street","color":"#D3D3D3","bold":true,"italic":false}',lore=['{"translate":"Yes, it\'s a wall","color":"#C9C9CB"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Stockbroker","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Wall Street"}]

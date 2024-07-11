@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:netherite_sword"
+			"id": "minecraft:netherite_sword"
 		},
 		"title": {"translate":"Multiclassed"},
 		"description": {"color":"dark_purple","translate":"Hit a mob with every type of weapon"},
@@ -28,7 +28,7 @@
 						"source_entity": {
 							"equipment": {
 								"mainhand": {
-									"tag": "minecraft:axes"
+									"items": "#minecraft:axes"
 								}
 							}
 						}
@@ -51,7 +51,7 @@
 						"source_entity": {
 							"equipment": {
 								"mainhand": {
-									"tag": "minecraft:shovels"
+									"items": "#minecraft:shovels"
 								}
 							}
 						}
@@ -74,7 +74,7 @@
 						"source_entity": {
 							"equipment": {
 								"mainhand": {
-									"tag": "minecraft:pickaxes"
+									"items": "#minecraft:pickaxes"
 								}
 							}
 						}
@@ -97,7 +97,7 @@
 						"source_entity": {
 							"equipment": {
 								"mainhand": {
-									"tag": "minecraft:hoes"
+									"items": "#minecraft:hoes"
 								}
 							}
 						}
@@ -120,7 +120,7 @@
 						"source_entity": {
 							"equipment": {
 								"mainhand": {
-									"tag": "minecraft:swords"
+									"items": "#minecraft:swords"
 								}
 							}
 						}

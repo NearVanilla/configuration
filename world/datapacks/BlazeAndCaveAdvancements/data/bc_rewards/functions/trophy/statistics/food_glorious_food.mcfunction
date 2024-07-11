@@ -1,2 +1,3 @@
-give @s minecraft:cooked_beef{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#c1793a\",\"translate\":\"Mammoth Steak\"}",Lore:["{\"color\":\"#c1793a\",\"translate\":\"Just picture a mammoth steak, fried, roasted or stewed!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Food, Glorious Food!\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Mammoth Steak"}]}
+give @s cooked_beef[item_name='{"translate":"Mammoth Steak","color":"#C1793A","bold":true,"italic":false}',lore=['{"translate":"Just picture a mammoth steak, fried, roasted or stewed!","color":"#C1793A"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Food, Glorious Food!","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Mammoth Steak"}]

@@ -1300,3 +1300,8 @@ execute if score minecraft:husbandry/plant_any_sniffer_seed bac_obtained_gold ma
 execute if score minecraft:adventure/read_power_of_chiseled_bookshelf bac_obtained_gold matches 1.. run advancement grant @a[team=bac_team_gold] only minecraft:adventure/read_power_of_chiseled_bookshelf
 
 execute if score nullscape:root bac_obtained_gold matches 1.. run advancement grant @a[team=bac_team_gold] only nullscape:root
+
+execute if score minecraft:adventure/brush_armadillo bac_obtained_gold matches 1.. run advancement grant @a[team=bac_team_gold] only minecraft:adventure/brush_armadillo
+execute if score minecraft:husbandry/repair_wolf_armor bac_obtained_gold matches 1.. run advancement grant @a[team=bac_team_gold] only minecraft:husbandry/repair_wolf_armor
+execute if score minecraft:husbandry/remove_wolf_armor bac_obtained_gold matches 1.. run advancement grant @a[team=bac_team_gold] only minecraft:husbandry/remove_wolf_armor
+execute if score minecraft:husbandry/whole_pack bac_obtained_gold matches 1.. run advancement grant @a[team=bac_team_gold] only minecraft:husbandry/whole_pack

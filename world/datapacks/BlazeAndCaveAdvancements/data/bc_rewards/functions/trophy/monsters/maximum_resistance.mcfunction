@@ -1,2 +1,3 @@
-give @s minecraft:polished_deepslate_slab{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#2b2936\",\"translate\":\"Nokia 3310\"}",Lore:["{\"color\":\"#2b2936\",\"translate\":\"Awarded to players who prove themselves as unbreakable as this object\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Maximum Resistance\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Nokia 3310"}]}
+give @s polished_deepslate_slab[item_name='{"translate":"Nokia 3310","color":"#2B2936","bold":true,"italic":false}',lore=['{"translate":"Awarded to players who prove themselves as unbreakable as this object","color":"#2B2936"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Maximum Resistance","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Nokia 3310"}]

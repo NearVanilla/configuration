@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dragon_head"
+			"id": "minecraft:dragon_head"
 		},
 		"title": {"translate":"Off With His Head!"},
 		"description": {"color":"green","translate":"Collect a dragon's head from the bow of an end ship"},

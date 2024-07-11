@@ -27,13 +27,20 @@
 			"conditions": {
 				"block": "minecraft:lava"
 			}
+		},
+		"enter_bubble_column": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:bubble_column"
+			}
 		}
 	},
 	"requirements": [
 		[
 			"ride",
 			"enter_water",
-			"enter_lava"
+			"enter_lava",
+			"enter_bubble_column"
 		]
 	]
 }

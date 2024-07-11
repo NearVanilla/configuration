@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:minecart"
+			"id": "minecraft:minecart"
 		},
 		"title": {"translate":"Minecart Rider"},
 		"description": {"color":"green","translate":"Ride 1km in a minecart"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:obsidian"
+			"id": "minecraft:obsidian"
 		},
 		"title": {"translate":"From Whence It Came!"},
 		"description": {"color":"green","translate":"Find a broken Nether Portal in the Nether"},
@@ -24,7 +24,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal",
+										"structures": "minecraft:ruined_portal",
 										"dimension": "the_nether"
 									}
 								}
@@ -34,7 +34,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_desert",
+										"structures": "minecraft:ruined_portal_desert",
 										"dimension": "the_nether"
 									}
 								}
@@ -44,7 +44,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_jungle",
+										"structures": "minecraft:ruined_portal_jungle",
 										"dimension": "the_nether"
 									}
 								}
@@ -54,7 +54,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_mountain",
+										"structures": "minecraft:ruined_portal_mountain",
 										"dimension": "the_nether"
 									}
 								}
@@ -64,7 +64,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_nether",
+										"structures": "minecraft:ruined_portal_nether",
 										"dimension": "the_nether"
 									}
 								}
@@ -74,7 +74,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_ocean",
+										"structures": "minecraft:ruined_portal_ocean",
 										"dimension": "the_nether"
 									}
 								}
@@ -84,7 +84,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_swamp",
+										"structures": "minecraft:ruined_portal_swamp",
 										"dimension": "the_nether"
 									}
 								}

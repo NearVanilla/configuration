@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:spider_eye"
+			"id": "minecraft:spider_eye"
 		},
 		"title": {"translate":"Poisonous Ew"},
 		"description": {"color":"green","translate":"Kill a cave spider"},

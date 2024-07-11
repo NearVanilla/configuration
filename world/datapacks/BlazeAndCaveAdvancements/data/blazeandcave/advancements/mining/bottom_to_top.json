@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diorite"
+			"id": "minecraft:diorite"
 		},
 		"title": {"translate":"Bottom to Top"},
 		"description": {"color":"dark_purple","translate":"Place every cave block at the very top of the world"},

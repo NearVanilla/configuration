@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:leather_boots",
-			"nbt": "{display:{color:0}}"
+			"id": "minecraft:leather_boots",
+			"components": {
+				"minecraft:dyed_color": 0
+			}
 		},
 		"title": {"translate":"Sneaky Snitch"},
 		"description": {"color":"green","translate":"Sneak 100m"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:twisting_vines"
+			"id": "minecraft:twisting_vines"
 		},
 		"title": {"translate":"Twisted"},
 		"description": {"color":"green","translate":"Climb on some Twisting Vines in a Warped Forest"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:pitcher_pod"
+			"id": "minecraft:pitcher_pod"
 		},
 		"title": {"translate":"Truffle Worm"},
 		"description": {"color":"green","translate":"Have a Sniffer dig up seeds"},

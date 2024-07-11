@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sheep_spawn_egg"
+			"id": "minecraft:sheep_spawn_egg"
 		},
 		"title": {"translate":"Mary Had a Little Lamb..."},
 		"description": {"color":"green","translate":"Breed two sheep to get a lamb"},

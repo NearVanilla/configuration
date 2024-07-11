@@ -1,2 +1,3 @@
-give @s minecraft:leather_leggings{Trophy:1,CustomModelData:131,HideFlags:70,Unbreakable:1,display:{color:13665433,Name:"{\"italic\":false,\"bold\":true,\"color\":\"#D08499\",\"translate\":\"Pink Camo Pants\"}",Lore:["{\"color\":\"#D08499\",\"translate\":\"They don't camouflage anywhere!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Camouflage\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Pink Camo Pants"}]}
+give @s leather_leggings[item_name='{"translate":"Pink Camo Pants","color":"#D08499","bold":true,"italic":false}',lore=['{"translate":"They don\'t camouflage anywhere!","color":"#D08499"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Camouflage","color":"light_purple","italic":false}'],unbreakable={show_in_tooltip:false},custom_model_data=131,custom_data={Trophy:1},dyed_color={rgb:13665433,show_in_tooltip:false}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Pink Camo Pants"}]

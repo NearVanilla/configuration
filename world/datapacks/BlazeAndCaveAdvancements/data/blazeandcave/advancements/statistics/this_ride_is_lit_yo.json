@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:strider_spawn_egg"
+			"id": "minecraft:strider_spawn_egg"
 		},
 		"title": {"translate":"This Ride Is Lit, Yo!"},
 		"description": {"color":"dark_purple","translate":"Ride 10km on a Strider"},

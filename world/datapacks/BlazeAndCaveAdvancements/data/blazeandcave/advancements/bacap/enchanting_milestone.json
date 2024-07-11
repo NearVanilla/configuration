@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:enchanting_table"
+			"id": "minecraft:enchanting_table"
 		},
 		"title": {"translate":"Enchanting Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Enchanting tab"},

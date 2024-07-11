@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:fletching_table"
+			"id": "minecraft:fletching_table"
 		},
 		"title": {"translate":"Businessman"},
 		"description": {"color":"#75E1FF","translate":"Trade with every type of villager career"},

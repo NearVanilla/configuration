@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:furnace_minecart"
+			"id": "minecraft:furnace_minecart"
 		},
 		"title": {"translate":"Fuel Engine"},
 		"description": {"color":"green","translate":"Craft a Minecart with Furnace and use coal or charcoal to send it chugging"},

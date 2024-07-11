@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:golden_apple"
+			"id": "minecraft:golden_apple"
 		},
 		"title": {"translate":"Ultra Hardcore"},
 		"description": {"color":"green","translate":"Craft and eat a normal golden apple"},

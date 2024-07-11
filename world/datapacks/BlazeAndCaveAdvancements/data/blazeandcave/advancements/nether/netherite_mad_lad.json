@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:netherite_block"
+			"id": "minecraft:netherite_block"
 		},
 		"title": {"translate":"Netherite Mad Lad"},
 		"description": {"color":"light_purple","translate":"Be an absolute madlad and grind enough Ancient Debris to make a stack of Netherite Blocks (this is hidden and not required for Advancement Legend btw…)"},

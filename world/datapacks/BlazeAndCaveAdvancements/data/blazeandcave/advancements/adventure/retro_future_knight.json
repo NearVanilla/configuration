@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chainmail_helmet"
+			"id": "minecraft:chainmail_helmet"
 		},
 		"title": {"translate":"Retro Future Knight"},
 		"description": {"color":"#75E1FF","translate":"Trade for full suit of chain armor from an armorer villager"},

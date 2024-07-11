@@ -1,7 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:trident"
+			"id": "minecraft:trident",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
 		},
 		"title": {"translate":"God of Thunder"},
 		"description": {"color":"#75E1FF","translate":"Name your Trident with Loyalty III and Channeling 'Mjolnir'"},
@@ -14,7 +17,7 @@
 	},	
 	"criteria": {
 		"mjolnir": {
-			"trigger": "minecraft:inventory_changed",
+			"trigger": "minecraft:impossible",
 			"conditions": {
 				"items": [
 					{
@@ -22,26 +25,28 @@
 							"minecraft:trident"
 						],
 						"nbt": "{display:{Name:\'\"Mjolnir\"\'}}",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:loyalty",
-								"levels": {
-									"min": 3
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:loyalty",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantment": "minecraft:channeling",
+									"levels": {
+										"min": 1
+									}
 								}
-							},
-							{
-								"enchantment": "minecraft:channeling",
-								"levels": {
-									"min": 1
-								}
-							}
-						]
+							]
+						}
 					}
 				]
 			}
 		},
 		"mjolnir_old": {
-			"trigger": "minecraft:inventory_changed",
+			"trigger": "minecraft:impossible",
 			"conditions": {
 				"items": [
 					{
@@ -49,20 +54,22 @@
 							"minecraft:trident"
 						],
 						"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Mjolnir\\\"}\"}}",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:loyalty",
-								"levels": {
-									"min": 3
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:loyalty",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantment": "minecraft:channeling",
+									"levels": {
+										"min": 1
+									}
 								}
-							},
-							{
-								"enchantment": "minecraft:channeling",
-								"levels": {
-									"min": 1
-								}
-							}
-						]
+							]
+						}
 					}
 				]
 			}

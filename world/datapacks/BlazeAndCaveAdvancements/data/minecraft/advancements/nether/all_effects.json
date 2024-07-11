@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bucket"
+			"id": "minecraft:bucket"
 		},
 		"title": {"translate":"How Did We Get Here?"},
 		"description": {"color":"#FF2A2A","translate":"Have every effect applied at the same time"},

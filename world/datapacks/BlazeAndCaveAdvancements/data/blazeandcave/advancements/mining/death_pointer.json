@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:recovery_compass"
+			"id": "minecraft:recovery_compass"
 		},
 		"title": {"translate":"Death Pointer"},
 		"description": {"color":"#75E1FF","translate":"Using Echo Shards found in Ancient Cities, craft a Recovery Compass"},

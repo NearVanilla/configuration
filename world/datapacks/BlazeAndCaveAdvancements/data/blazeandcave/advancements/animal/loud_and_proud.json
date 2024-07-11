@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sculk_sensor"
+			"id": "minecraft:sculk_sensor"
 		},
 		"title": {"translate":"Loud and Proud"},
 		"description": {"color":"#75E1FF","translate":"Play a Goat Horn in the Deep Dark"},
@@ -30,7 +30,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"biome": "minecraft:deep_dark"
+										"biomes": "minecraft:deep_dark"
 									}
 								}
 							},
@@ -39,7 +39,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ancient_city"
+										"structures": "minecraft:ancient_city"
 									}
 								}
 							}

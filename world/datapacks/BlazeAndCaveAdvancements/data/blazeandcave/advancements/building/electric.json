@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:redstone_lamp"
+			"id": "minecraft:redstone_lamp"
 		},
 		"title": {"translate":"Electric!"},
 		"description": {"color":"green","translate":"Light up the area with some redstone lamps"},

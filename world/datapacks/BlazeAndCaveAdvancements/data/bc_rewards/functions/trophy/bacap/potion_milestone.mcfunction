@@ -1,2 +1,3 @@
-give @s minecraft:glass_bottle{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#D9CC3F\",\"translate\":\"Potion Brewer's Trophy\"}",Lore:["{\"color\":\"#D9CC3F\",\"translate\":\"How did you get here?\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"yellow\",\"translate\":\"Potions Milestone\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Potion Brewer's Trophy"}]}
+give @s glass_bottle[item_name='{"translate":"Potion Brewer\'s Trophy","color":"#D9CC3F","bold":true,"italic":false}',lore=['{"translate":"How did you get here?","color":"#D9CC3F"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Potions Milestone","color":"yellow","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Potion Brewer's Trophy"}]

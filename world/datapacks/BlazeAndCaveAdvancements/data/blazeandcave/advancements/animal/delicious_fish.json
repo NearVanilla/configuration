@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cooked_cod"
+			"id": "minecraft:cooked_cod"
 		},
 		"title": {"translate":"Delicious Fish"},
 		"description": {"color":"green","translate":"Cook and eat a fish!"},

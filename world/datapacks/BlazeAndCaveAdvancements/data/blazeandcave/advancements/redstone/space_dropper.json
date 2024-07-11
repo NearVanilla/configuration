@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dropper"
+			"id": "minecraft:dropper"
 		},
 		"title": {"translate":"Space Dropper"},
 		"description": {"color":"green","translate":"Craft a dropper for item transportation"},

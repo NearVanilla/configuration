@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:mangrove_propagule"
+			"id": "minecraft:mangrove_propagule"
 		},
 		"title": {"translate":"A Mangrove Grove"},
 		"description": {"color":"#75E1FF","translate":"Plant a Mangrove Propagule in a Grove biome"},
@@ -25,7 +25,7 @@
 									"minecraft:mangrove_propagule"
 								]
 							},
-							"biome": "minecraft:grove"
+							"biomes": "minecraft:grove"
 						}
 					}
 				]

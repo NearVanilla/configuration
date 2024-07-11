@@ -1,8 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:{Id:[I;-1915600451,-335789442,-1161758725,291830941],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk5YzBkYjJhMjE2MjU1OGVmYThhYTU2MmM5YWU3YmFiZmU3MWQwODNkYzA5MmEwNTIzM2EzMWQ4YmRiM2JhYSJ9fX0=\"}]}}}"
+			"id": "minecraft:player_head",
+			"components": {"profile":{"id":[-1915600451,-335789442,-1161758725,291830941],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk5YzBkYjJhMjE2MjU1OGVmYThhYTU2MmM5YWU3YmFiZmU3MWQwODNkYzA5MmEwNTIzM2EzMWQ4YmRiM2JhYSJ9fX0="}]}}
 		},
 		"title": {"translate":"Advancement Legend"},
 		"description": {"color":"gold","translate":"Complete every single advancement in BlazeandCave's Advancements Pack"},
@@ -14296,6 +14296,58 @@
 						"type": "player",
 						"advancements": {
 							"minecraft:adventure/read_power_of_chiseled_bookshelf": true
+						}
+					}
+				}
+			}
+		},
+		"isnt_it_scute": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:adventure/brush_armadillo": true
+						}
+					}
+				}
+			}
+		},
+		"good_as_new": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:husbandry/repair_wolf_armor": true
+						}
+					}
+				}
+			}
+		},
+		"shear_brilliance": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:husbandry/remove_wolf_armor": true
+						}
+					}
+				}
+			}
+		},
+		"the_whole_pack": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:husbandry/whole_pack": true
 						}
 					}
 				}

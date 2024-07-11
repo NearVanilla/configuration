@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dark_oak_planks"
+			"id": "minecraft:dark_oak_planks"
 		},
 		"title": {"translate":"Out of Posts"},
 		"description": {"color":"green","translate":"Enter a Pillager Outpost"},
@@ -21,7 +21,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"structure": "pillager_outpost"
+								"structures": "pillager_outpost"
 							}
 						}
 					},

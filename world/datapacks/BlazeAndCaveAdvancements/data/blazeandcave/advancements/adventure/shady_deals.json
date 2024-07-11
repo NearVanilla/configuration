@@ -1,8 +1,12 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:potion",
-			"nbt": "{Potion:\"minecraft:invisibility\"}"
+			"id": "minecraft:potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:invisibility"
+				}
+			}
 		},
 		"title": {"translate":"Shady Deals"},
 		"description": {"color":"#75E1FF","translate":"Trade with a Wandering Trader while he is invisible"},

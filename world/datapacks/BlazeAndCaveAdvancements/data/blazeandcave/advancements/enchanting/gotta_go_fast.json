@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:soul_soil"
+			"id": "minecraft:soul_soil"
 		},
 		"title": {"translate":"Gotta Go Fast!"},
 		"description": {"color":"#75E1FF","translate":"Obtain the Soul Speed enchantment from a Bastion or bartering with Piglins"},
@@ -18,11 +18,13 @@
 			"conditions": {
 				"items": [
 					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:soul_speed"
-							}
-						]
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:soul_speed"
+								}
+							]
+						}
 					}
 				]
 			}
@@ -32,11 +34,13 @@
 			"conditions": {
 				"items": [
 					{
-						"stored_enchantments": [
-							{
-								"enchantment": "minecraft:soul_speed"
-							}
-						]
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantment": "minecraft:soul_speed"
+								}
+							]
+						}
 					}
 				]
 			}

@@ -1,2 +1,3 @@
-give @s minecraft:emerald{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#17DD62\",\"translate\":\"Farmer's Badge\"}",Lore:["{\"color\":\"#17DD62\",\"translate\":\"For the continued work you've put out there, take this reward!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Serious Dedication\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Farmer's Badge"}]}
+give @s emerald[item_name='{"translate":"Farmer\'s Badge","color":"#17DD62","bold":true,"italic":false}',lore=['{"translate":"For the continued work you\'ve put out there, take this reward!","color":"#17DD62"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Serious Dedication","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Farmer's Badge"}]

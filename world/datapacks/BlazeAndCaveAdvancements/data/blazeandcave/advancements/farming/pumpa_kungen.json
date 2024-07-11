@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:carved_pumpkin"
+			"id": "minecraft:carved_pumpkin"
 		},
 		"title": {"translate":"Pumpa kungen!"},
 		"description": {"color":"#75E1FF","translate":"Carve a stack of pumpkins"},

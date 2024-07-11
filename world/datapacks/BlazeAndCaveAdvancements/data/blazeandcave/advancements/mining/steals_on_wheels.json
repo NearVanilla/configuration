@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chest_minecart"
+			"id": "minecraft:chest_minecart"
 		},
 		"title": {"translate":"Steals on Wheels"},
 		"description": {"color":"green","translate":"Loot a minecart chest from an Abandoned Mineshaft"},

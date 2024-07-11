@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:hay_block"
+			"id": "minecraft:hay_block"
 		},
 		"title": {"translate":"Overpopulation"},
 		"description": {"color":"dark_purple","translate":"Breed every type of animal"},
@@ -210,6 +210,14 @@
 	  "conditions": {
 		"parent": {
 		  "type": "minecraft:sniffer"
+		}
+	  }
+	},
+	"minecraft:armadillo": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "type": "minecraft:armadillo"
 		}
 	  }
 	}

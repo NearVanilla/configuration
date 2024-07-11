@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:charcoal"
+			"id": "minecraft:charcoal"
 		},
 		"title": {"translate":"Renewable Energy"},
 		"description": {"color":"green","translate":"Smelt wood trunks using charcoal to make more charcoal"},

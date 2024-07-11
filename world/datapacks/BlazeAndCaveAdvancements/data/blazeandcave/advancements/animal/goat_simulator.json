@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dead_horn_coral_fan"
+			"id": "minecraft:dead_horn_coral_fan"
 		},
 		"title": {"translate":"Goat Simulator"},
 		"description": {"color":"green","translate":"Get killed by a Goat that rammed into you.","extra":[{"text":" "},{"italic":true,"translate":"You have Goat to be kidding me!"}]},

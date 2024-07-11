@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:piston"
+			"id": "minecraft:piston"
 		},
 		"title": {"translate":"Moving Parts"},
 		"description": {"color":"green","translate":"Craft a piston so you can push things"},

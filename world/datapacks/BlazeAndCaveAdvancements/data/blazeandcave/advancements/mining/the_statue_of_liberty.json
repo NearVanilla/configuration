@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oxidized_copper"
+			"id": "minecraft:oxidized_copper"
 		},
 		"title": {"translate":"The Statue of Liberty"},
 		"description": {"color":"#75E1FF","translate":"Obtain a fully oxidized Block of Copper"},

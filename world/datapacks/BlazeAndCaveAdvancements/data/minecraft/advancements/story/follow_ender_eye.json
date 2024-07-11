@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:ender_eye"
+			"id": "minecraft:ender_eye"
 		},
 		"title": {"translate":"Eye Spy"},
 		"description": {"color":"green","translate":"Follow an Ender Eye"},
@@ -21,7 +21,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"structure": "stronghold"
+								"structures": "stronghold"
 							}
 						}
 					},

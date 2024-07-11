@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dragon_head"
+			"id": "minecraft:dragon_head"
 		},
 		"title": {"translate":"Free the End"},
 		"description": {"color":"#75E1FF","translate":"Good luck"},

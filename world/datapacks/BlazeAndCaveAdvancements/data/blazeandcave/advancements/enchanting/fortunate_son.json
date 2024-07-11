@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:golden_pickaxe"
+			"id": "minecraft:golden_pickaxe"
 		},
 		"title": {"translate":"Fortunate Son"},
 		"description": {"color":"#75E1FF","translate":"Obtain Fortune III"},
@@ -18,14 +18,16 @@
 			"conditions": {
 				"items": [
 					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:fortune",
-								"levels": {
-									"min": 3
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:fortune",
+									"levels": {
+										"min": 3
+									}
 								}
-							}
-						]
+							]
+						}
 					}
 				]
 			}
@@ -35,14 +37,16 @@
 			"conditions": {
 				"items": [
 					{
-						"stored_enchantments": [
-							{
-								"enchantment": "minecraft:fortune",
-								"levels": {
-									"min": 3
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantment": "minecraft:fortune",
+									"levels": {
+										"min": 3
+									}
 								}
-							}
-						]
+							]
+						}
 					}
 				]
 			}

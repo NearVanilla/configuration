@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:apple"
+			"id": "minecraft:apple"
 		},
 		"title": {"translate":"A Balanced Diet"},
 		"description": {"color":"dark_purple","translate":"Eat everything that is edible, even if it's not good for you"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:emerald_block"
+			"id": "minecraft:emerald_block"
 		},
 		"title": {"translate":"Noteworthy"},
 		"description": {"color":"#75E1FF","translate":"Play every possible instrument on a Note Block"},
@@ -14,7 +14,7 @@
 	},
 	"criteria": {
 		"banjo": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -34,7 +34,7 @@
 			}
 		},
 		"basedrum": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -54,7 +54,7 @@
 			}
 		},
 		"bass": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -74,7 +74,7 @@
 			}
 		},
 		"bell": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -94,7 +94,7 @@
 			}
 		},
 		"bit": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -114,7 +114,7 @@
 			}
 		},
 		"chime": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -134,7 +134,7 @@
 			}
 		},
 		"cow_bell": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -154,7 +154,7 @@
 			}
 		},
 		"didgeridoo": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -174,7 +174,7 @@
 			}
 		},
 		"flute": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -194,7 +194,7 @@
 			}
 		},
 		"guitar": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -214,7 +214,7 @@
 			}
 		},
 		"harp": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -234,7 +234,7 @@
 			}
 		},
 		"hat": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -254,7 +254,7 @@
 			}
 		},
 		"iron_xylophone": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -274,7 +274,7 @@
 			}
 		},
 		"pling": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -294,7 +294,7 @@
 			}
 		},
 		"snare": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -314,7 +314,7 @@
 			}
 		},
 		"xylophone": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{

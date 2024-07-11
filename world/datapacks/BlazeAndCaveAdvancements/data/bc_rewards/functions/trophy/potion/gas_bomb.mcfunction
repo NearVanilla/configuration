@@ -1,2 +1,3 @@
-give @s minecraft:brown_dye{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#7A4621\",\"translate\":\"Stink Bomb\"}",Lore:["{\"color\":\"#7A4621\",\"translate\":\"P.U!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Gas Bomb\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Stink Bomb"}]}
+give @s brown_dye[item_name='{"translate":"Stink Bomb","color":"#7A4621","bold":true,"italic":false}',lore=['{"translate":"P.U!","color":"#7A4621"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Gas Bomb","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Stink Bomb"}]

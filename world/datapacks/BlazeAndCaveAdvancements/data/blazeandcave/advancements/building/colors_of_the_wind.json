@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:yellow_dye"
+			"id": "minecraft:yellow_dye"
 		},
 		"title": {"translate":"Colors of the Wind"},
 		"description": {"color":"#75E1FF","translate":"Dye a sign with each color of dye"},
@@ -21,7 +21,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:all_signs"
+								"blocks": "#minecraft:all_signs"
 							}
 						}
 					},
@@ -44,7 +44,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:all_signs"
+								"blocks": "#minecraft:all_signs"
 							}
 						}
 					},
@@ -67,7 +67,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:all_signs"
+								"blocks": "#minecraft:all_signs"
 							}
 						}
 					},
@@ -90,7 +90,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:all_signs"
+								"blocks": "#minecraft:all_signs"
 							}
 						}
 					},
@@ -113,7 +113,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:all_signs"
+								"blocks": "#minecraft:all_signs"
 							}
 						}
 					},
@@ -136,7 +136,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:all_signs"
+								"blocks": "#minecraft:all_signs"
 							}
 						}
 					},
@@ -159,7 +159,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:all_signs"
+								"blocks": "#minecraft:all_signs"
 							}
 						}
 					},
@@ -182,7 +182,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:all_signs"
+								"blocks": "#minecraft:all_signs"
 							}
 						}
 					},
@@ -205,7 +205,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:all_signs"
+								"blocks": "#minecraft:all_signs"
 							}
 						}
 					},
@@ -228,7 +228,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:all_signs"
+								"blocks": "#minecraft:all_signs"
 							}
 						}
 					},
@@ -251,7 +251,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:all_signs"
+								"blocks": "#minecraft:all_signs"
 							}
 						}
 					},
@@ -274,7 +274,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:all_signs"
+								"blocks": "#minecraft:all_signs"
 							}
 						}
 					},
@@ -297,7 +297,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:all_signs"
+								"blocks": "#minecraft:all_signs"
 							}
 						}
 					},
@@ -320,7 +320,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:all_signs"
+								"blocks": "#minecraft:all_signs"
 							}
 						}
 					},
@@ -343,7 +343,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:all_signs"
+								"blocks": "#minecraft:all_signs"
 							}
 						}
 					},
@@ -366,7 +366,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:all_signs"
+								"blocks": "#minecraft:all_signs"
 							}
 						}
 					},

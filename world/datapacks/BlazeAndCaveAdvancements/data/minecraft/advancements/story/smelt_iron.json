@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_ingot"
+			"id": "minecraft:iron_ingot"
 		},
 		"title": {"translate":"Acquire Hardware"},
 		"description": {"color":"green","translate":"Smelt an iron ingot"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:leather_boots"
+			"id": "minecraft:leather_boots"
 		},
 		"title": {"translate":"Out for a stroll"},
 		"description": {"color":"green","translate":"Walk 10km"},

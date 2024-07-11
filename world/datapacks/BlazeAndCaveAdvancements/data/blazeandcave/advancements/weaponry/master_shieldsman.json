@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:shield",
-			"nbt": "{BlockEntityTag:{Base:15}}"
+			"id": "minecraft:shield",
+			"components": {
+				"minecraft:base_color": "black"
+			}
 		},
 		"title": {"translate":"Master Shieldsman"},
 		"description": {"color":"dark_purple","translate":"Deflect an attack from every hostile monster"},

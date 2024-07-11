@@ -1,2 +1,3 @@
-give @s minecraft:bamboo{Enchantments:[{id:"minecraft:sharpness",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:32,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#5E8A24\",\"translate\":\"Bamboo Sword\"}",Lore:["{\"color\":\"#5E8A24\",\"translate\":\"Not the best material for a weapon…\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Pandamonium\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Bamboo Sword"}]}
+give @s bamboo[item_name='{"translate":"Bamboo Sword","color":"#5E8A24","bold":true,"italic":false}',lore=['{"translate":"Not the best material for a weapon…","color":"#5E8A24"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Pandamonium","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantments={levels:{"minecraft:sharpness":1}},hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Bamboo Sword"}]

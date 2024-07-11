@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:rooted_dirt"
+			"id": "minecraft:rooted_dirt"
 		},
 		"title": {"translate":"This Dirt is Dirtier"},
 		"description": {"color":"green","translate":"Dig through some Rooted Dirt beneath an Azalea Tree so you can find a Lush Cave"},

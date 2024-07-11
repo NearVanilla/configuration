@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:conduit"
+			"id": "minecraft:conduit"
 		},
 		"title": {"translate":"Moskstraumen"},
 		"description": {"color":"#75E1FF","translate":"Construct a Conduit in the ocean"},

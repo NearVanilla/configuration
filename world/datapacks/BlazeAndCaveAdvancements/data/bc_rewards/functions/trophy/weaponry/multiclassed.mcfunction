@@ -1,2 +1,3 @@
-give @s minecraft:stick{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:133,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#DBB364\",\"translate\":\"Multiweapon\"}",Lore:["{\"color\":\"#DBB364\",\"translate\":\"It's a sword, axe and…\"}","{\"color\":\"#DBB364\",\"translate\":\"Never mind, it broke\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Multiclassed\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Multiweapon"}]}
+give @s stick[item_name='{"translate":"Multiweapon","color":"#DBB364","bold":true,"italic":false}',lore=['{"translate":"It\'s a sword, axe and…","color":"#DBB364"}','{"translate":"Never mind, it broke","color":"#DBB364"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Multiclassed","color":"light_purple","italic":false}'],custom_model_data=133,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Multiweapon"}]

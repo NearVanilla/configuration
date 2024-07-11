@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bowl"
+			"id": "minecraft:bowl"
 		},
 		"title": {"translate":"So Long & Thanks For The Fish"},
 		"description": {"color":"green","translate":"Get murdered by dolphins"},

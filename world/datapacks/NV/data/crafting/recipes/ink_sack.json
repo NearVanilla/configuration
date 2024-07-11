@@ -1,23 +1,23 @@
 {
-    "type": "crafting_shaped",
-    "pattern": [
-        "   ",
-        "#WB",
-        "   "
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:coal"
-        },
-        "W": {
-            "item": "minecraft:water_bucket"
-        },
-        "B": {
-            "item": "minecraft:bone_meal"
-        }
+  "type": "crafting_shaped",
+  "pattern": [
+    "   ",
+    "#WB",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:coal"
     },
-    "result": {
-        "item": "minecraft:ink_sac",
-        "count": 1
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "B": {
+      "item": "minecraft:bone_meal"
     }
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:ink_sac"
+  }
 }

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:observer"
+			"id": "minecraft:observer"
 		},
 		"title": {"translate":"Observer Buddy"},
 		"description": {"color":"green","translate":"Craft an observer"},

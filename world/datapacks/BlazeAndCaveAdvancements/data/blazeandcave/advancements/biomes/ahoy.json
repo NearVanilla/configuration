@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:spruce_fence"
+			"id": "minecraft:spruce_fence"
 		},
 		"title": {"translate":"Ahoy!"},
 		"description": {"color":"green","translate":"Come across a sunken ship"},
@@ -24,7 +24,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:shipwreck"
+										"structures": "minecraft:shipwreck"
 									}
 								}
 							},
@@ -33,7 +33,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:shipwreck_beached"
+										"structures": "minecraft:shipwreck_beached"
 									}
 								}
 							}

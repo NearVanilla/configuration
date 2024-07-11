@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:honey_bottle"
+			"id": "minecraft:honey_bottle"
 		},
 		"title": {"translate":"Winnie the Pooh"},
 		"description": {"color":"green","translate":"Drink some honey"},

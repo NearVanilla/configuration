@@ -1,2 +1,3 @@
-give @s minecraft:stick{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:132,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#684E1E\",\"translate\":\"Groot's Stick\"}",Lore:["{\"color\":\"#684E1E\",\"translate\":\"I am Groot\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#FF2A2A\",\"translate\":\"I am Loot!\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Groot's Stick"}]}
+give @s stick[item_name='{"translate":"Groot\'s Stick","color":"#684E1E","bold":true,"italic":false}',lore=['{"translate":"I am Groot","color":"#684E1E"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"I am Loot!","color":"#FF2A2A","italic":false}'],custom_model_data=132,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Groot's Stick"}]

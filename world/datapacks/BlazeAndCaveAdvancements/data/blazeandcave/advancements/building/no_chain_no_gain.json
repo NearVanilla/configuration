@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chain"
+			"id": "minecraft:chain"
 		},
 		"title": {"translate":"No Chain, No Gain"},
 		"description": {"color":"green","translate":"Craft a chain using an iron ingot and iron nuggets"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:wither_rose"
+			"id": "minecraft:wither_rose"
 		},
 		"title": {"translate":"Decaying Beauty"},
 		"description": {"color":"green","translate":"Pick up some Wither Roses from the damage the Wither wrought on your world"},

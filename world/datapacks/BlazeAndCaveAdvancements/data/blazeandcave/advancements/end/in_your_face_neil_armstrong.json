@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:potato"
+			"id": "minecraft:potato"
 		},
 		"title": {"translate":"In Your Face, Neil Armstrong"},
 		"description": {"color":"green","translate":"Colonise the End with potato crops"},

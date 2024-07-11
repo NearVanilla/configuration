@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_door"
+			"id": "minecraft:oak_door"
 		},
 		"title": {"translate":"Your Door Was Locked"},
 		"description": {"color":"green","translate":"Craft a door to stop monsters from entering your house"},
@@ -17,7 +17,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "minecraft:doors"
+						"items": "#minecraft:doors"
 					}
 				]
 			}

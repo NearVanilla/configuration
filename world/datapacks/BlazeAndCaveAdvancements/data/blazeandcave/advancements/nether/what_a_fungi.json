@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:warped_fungus"
+			"id": "minecraft:warped_fungus"
 		},
 		"title": {"translate":"What a Fungi!"},
 		"description": {"color":"green","translate":"Pick up Crimson or Warped Fungus"},
@@ -17,7 +17,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "minecraft:nether_fungus"
+						"items": "#minecraft:nether_fungus"
 					}
 				]
 			}

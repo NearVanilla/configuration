@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:crimson_stem"
+			"id": "minecraft:crimson_stem"
 		},
 		"title": {"translate":"Stem Research"},
 		"description": {"color":"green","translate":"Attack a huge Nether Fungi until a stem pops out"},

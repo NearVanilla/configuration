@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:light_blue_wool"
+			"id": "minecraft:light_blue_wool"
 		},
 		"title": {"translate":"Rainbow Collection"},
 		"description": {"color":"#75E1FF","translate":"Gather all 16 colors of wool"},

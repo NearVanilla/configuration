@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:arrow"
+			"id": "minecraft:arrow"
 		},
 		"title": {"translate":"Impossible..."},
 		"description": {"color":"dark_purple","translate":"Kill an Enderman with an arrow"},

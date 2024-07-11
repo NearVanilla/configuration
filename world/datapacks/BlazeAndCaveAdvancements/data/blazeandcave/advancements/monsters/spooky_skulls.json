@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:skeleton_skull"
+			"id": "minecraft:skeleton_skull"
 		},
 		"title": {"translate":"Spooky Skulls"},
 		"description": {"color":"dark_purple","translate":"Blow up a skeleton with a charged creeper to get a skeleton skull"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:redstone_torch"
+			"id": "minecraft:redstone_torch"
 		},
 		"title": {"translate":"Engineer"},
 		"description": {"color":"#75E1FF","translate":"Craft all types of redstone component"},

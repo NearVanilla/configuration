@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:hay_block"
+			"id": "minecraft:hay_block"
 		},
 		"title": {"translate":"So I got that going for me"},
 		"description": {"color":"green","translate":"Breed two llamas with hay"},

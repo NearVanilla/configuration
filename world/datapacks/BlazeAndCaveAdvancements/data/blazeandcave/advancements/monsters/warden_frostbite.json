@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cyan_stained_glass"
+			"id": "minecraft:cyan_stained_glass"
 		},
 		"title": {"translate":"Warden Frostbite"},
 		"description": {"color":"dark_purple","translate":"Bring a Warden to the surface of a snowy plains biome and kill it"},
@@ -19,7 +19,7 @@
 				"entity": {
 					"type": "warden",
 					"location": {
-						"biome": "snowy_plains",
+						"biomes": "snowy_plains",
 						"position": {
 							"y": {
 								"min": 64
@@ -35,7 +35,7 @@
 				"entity": {
 					"type": "warden",
 					"location": {
-						"biome": "ice_spikes",
+						"biomes": "ice_spikes",
 						"position": {
 							"y": {
 								"min": 64

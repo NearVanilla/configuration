@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:shield"
+			"id": "minecraft:shield"
 		},
 		"title": {"translate":"Sir Knight"},
 		"description": {"color":"green","translate":"Use planks and iron to craft a shield"},

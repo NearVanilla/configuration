@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:spider_eye"
+			"id": "minecraft:spider_eye"
 		},
 		"title": {"translate":"Bane of one-shotting spiders"},
 		"description": {"color":"#75E1FF","translate":"Obtain Bane of Arthropods V"},
@@ -18,14 +18,16 @@
 			"conditions": {
 				"items": [
 					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:bane_of_arthropods",
-								"levels": {
-									"min": 5
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:bane_of_arthropods",
+									"levels": {
+										"min": 5
+									}
 								}
-							}
-						]
+							]
+						}
 					}
 				]
 			}
@@ -35,14 +37,16 @@
 			"conditions": {
 				"items": [
 					{
-						"stored_enchantments": [
-							{
-								"enchantment": "minecraft:bane_of_arthropods",
-								"levels": {
-									"min": 5
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantment": "minecraft:bane_of_arthropods",
+									"levels": {
+										"min": 5
+									}
 								}
-							}
-						]
+							]
+						}
 					}
 				]
 			}

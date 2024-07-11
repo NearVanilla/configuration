@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:frogspawn"
+			"id": "minecraft:frogspawn"
 		},
 		"title": {"translate":"Frog Family"},
 		"description": {"color":"green","translate":"Breed two Frogs together using slimeballs"},

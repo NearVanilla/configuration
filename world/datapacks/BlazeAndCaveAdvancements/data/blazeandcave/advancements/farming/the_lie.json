@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cake"
+			"id": "minecraft:cake"
 		},
 		"title": {"translate":"The Lie"},
 		"description": {"color":"green","translate":"Wheat, sugar, milk and eggs!"},

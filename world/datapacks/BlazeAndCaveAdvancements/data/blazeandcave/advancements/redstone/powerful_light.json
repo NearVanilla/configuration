@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:redstone_torch"
+			"id": "minecraft:redstone_torch"
 		},
 		"title": {"translate":"Powerful Light"},
 		"description": {"color":"green","translate":"Craft and place a redstone torch"},

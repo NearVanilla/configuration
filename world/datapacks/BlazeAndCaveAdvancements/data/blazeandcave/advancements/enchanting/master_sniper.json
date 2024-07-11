@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bow",
-			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+			"id": "minecraft:bow",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
 		},
 		"title": {"translate":"Master Sniper"},
 		"description": {"color":"dark_purple","translate":"Create a bow with all possible enchantments at max level"},
@@ -22,38 +24,40 @@
 						"items": [
 							"minecraft:bow"
 						],
-						"enchantments": [
-							{
-								"enchantment": "minecraft:power",
-								"levels": {
-									"min": 5
-								}
-							},
-							{
-								"enchantment": "minecraft:punch",
-								"levels": {
-									"min": 2
-								}
-							},
-							{
-								"enchantment": "minecraft:flame",
-								"levels": {
-									"min": 1
-								}
-							},
-							{
-								"enchantment": "minecraft:infinity",
-								"levels": {
-									"min": 1
-								}
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": {
-									"min": 3
-								}
-							}	
-						]
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:power",
+									"levels": {
+										"min": 5
+									}
+								},
+								{
+									"enchantment": "minecraft:punch",
+									"levels": {
+										"min": 2
+									}
+								},
+								{
+									"enchantment": "minecraft:flame",
+									"levels": {
+										"min": 1
+									}
+								},
+								{
+									"enchantment": "minecraft:infinity",
+									"levels": {
+										"min": 1
+									}
+								},
+								{
+									"enchantment": "minecraft:unbreaking",
+									"levels": {
+										"min": 3
+									}
+								}	
+							]
+						}
 					}
 				]
 			}
@@ -66,38 +70,40 @@
 						"items": [
 							"minecraft:bow"
 						],
-						"enchantments": [
-							{
-								"enchantment": "minecraft:power",
-								"levels": {
-									"min": 5
-								}
-							},
-							{
-								"enchantment": "minecraft:punch",
-								"levels": {
-									"min": 2
-								}
-							},
-							{
-								"enchantment": "minecraft:flame",
-								"levels": {
-									"min": 1
-								}
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": {
-									"min": 1
-								}
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": {
-									"min": 3
-								}
-							}	
-						]
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantment": "minecraft:power",
+									"levels": {
+										"min": 5
+									}
+								},
+								{
+									"enchantment": "minecraft:punch",
+									"levels": {
+										"min": 2
+									}
+								},
+								{
+									"enchantment": "minecraft:flame",
+									"levels": {
+										"min": 1
+									}
+								},
+								{
+									"enchantment": "minecraft:mending",
+									"levels": {
+										"min": 1
+									}
+								},
+								{
+									"enchantment": "minecraft:unbreaking",
+									"levels": {
+										"min": 3
+									}
+								}	
+							]
+						}
 					}
 				]
 			}

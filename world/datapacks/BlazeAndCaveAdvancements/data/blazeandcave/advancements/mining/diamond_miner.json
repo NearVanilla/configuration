@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:deepslate_diamond_ore"
+			"id": "minecraft:deepslate_diamond_ore"
 		},
 		"title": {"translate":"Diamond Miner"},
 		"description": {"color":"#75E1FF","translate":"Mine a stack of diamonds. Good luck!"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:golden_chestplate"
+			"id": "minecraft:golden_chestplate"
 		},
 		"title": {"translate":"Living Like Kings"},
 		"description": {"color":"green","translate":"Make yourself shiny with golden armor"},

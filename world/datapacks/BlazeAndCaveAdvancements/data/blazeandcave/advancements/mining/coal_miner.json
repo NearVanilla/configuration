@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:coal_block"
+			"id": "minecraft:coal_block"
 		},
 		"title": {"translate":"Coal Miner"},
 		"description": {"color":"#75E1FF","translate":"Mine a stack of coal"},

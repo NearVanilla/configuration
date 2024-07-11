@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:suspicious_stew"
+			"id": "minecraft:suspicious_stew"
 		},
 		"title": {"translate":"Suspicious Looking Stew"},
 		"description": {"color":"green","translate":"Slurp some suspicious stew and pray you don't suddenly see giant flying eyeballs in the sky"},

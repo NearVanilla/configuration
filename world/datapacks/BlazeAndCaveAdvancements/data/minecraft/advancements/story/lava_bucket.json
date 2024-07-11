@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:lava_bucket"
+			"id": "minecraft:lava_bucket"
 		},
 		"title": {"translate":"Hot Stuff"},
 		"description": {"color":"green","translate":"Fill a bucket with lava"},

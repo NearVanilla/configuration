@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:glowstone_dust"
+			"id": "minecraft:glowstone_dust"
 		},
 		"title": {"translate":"All the Items!"},
 		"description": {"color":"#FF2A2A","translate":"Obtain all the items!"},
@@ -2779,7 +2779,7 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:scute"
+							"minecraft:turtle_scute"
 						]
 					}
 				]
@@ -3872,6 +3872,30 @@
 					{
 						"items": [
 							"minecraft:spire_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"armadillo_scute": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:armadillo_scute"
+						]
+					}
+				]
+			}
+		},
+		"wolf_armor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wolf_armor"
 						]
 					}
 				]

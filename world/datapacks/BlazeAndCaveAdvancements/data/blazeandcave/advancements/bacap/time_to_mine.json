@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:wooden_pickaxe"
+			"id": "minecraft:wooden_pickaxe"
 		},
 		"title": {"translate":"Time to Mine!"},
 		"description": {"color":"green","translate":"Use planks and sticks to make a pickaxe"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_ore"
+			"id": "minecraft:diamond_ore"
 		},
 		"title": {"translate":"Pick Like Silk"},
 		"description": {"color":"dark_purple","translate":"Use a Silk Touch enchanted pickaxe to obtain diamond ore as a block"},

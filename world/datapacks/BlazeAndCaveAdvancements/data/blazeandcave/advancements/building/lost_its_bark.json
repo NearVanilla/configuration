@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stripped_oak_wood"
+			"id": "minecraft:stripped_oak_wood"
 		},
 		"title": {"translate":"Lost Its Bark"},
 		"description": {"color":"green","translate":"Strip a bark block of its bark"},
@@ -38,7 +38,7 @@
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"tag": "minecraft:axes"
+							"items": "#minecraft:axes"
 						}
 					}
 				]

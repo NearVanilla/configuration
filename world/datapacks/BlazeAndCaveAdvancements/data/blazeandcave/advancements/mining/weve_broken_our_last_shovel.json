@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:golden_shovel"
+			"id": "minecraft:golden_shovel"
 		},
 		"title": {"translate":"We've broken our last shovel"},
 		"description": {"color":"dark_purple","translate":"Break all six types of shovels"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:emerald"
+			"id": "minecraft:emerald"
 		},
 		"title": {"translate":"The Haggler"},
 		"description": {"color":"green","translate":"Trade with villagers 100 times"},

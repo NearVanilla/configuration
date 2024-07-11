@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:beef"
+			"id": "minecraft:beef"
 		},
 		"title": {"translate":"Animals"},
 		"description": {"color":"#CCCCCC","translate":"The world is full of friends and food"},

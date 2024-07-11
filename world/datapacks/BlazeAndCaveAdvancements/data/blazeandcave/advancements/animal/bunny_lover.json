@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:golden_carrot"
+			"id": "minecraft:golden_carrot"
 		},
 		"title": {"translate":"Bunny Lover"},
 		"description": {"color":"#75E1FF","translate":"Breed a baby bunny of every variant"},

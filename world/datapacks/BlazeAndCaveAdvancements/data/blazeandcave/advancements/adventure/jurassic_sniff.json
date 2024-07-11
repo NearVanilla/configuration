@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:torchflower_seeds"
+			"id": "minecraft:torchflower_seeds"
 		},
 		"title": {"translate":"Jurassic Sniff"},
 		"description": {"color":"green","translate":"Breed two Sniffers together using Torchflower Seeds"},

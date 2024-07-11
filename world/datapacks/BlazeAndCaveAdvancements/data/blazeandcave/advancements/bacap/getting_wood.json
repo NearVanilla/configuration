@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_log"
+			"id": "minecraft:oak_log"
 		},
 		"title": {"translate":"Getting Wood"},
 		"description": {"color":"green","translate":"Attack a tree until a block of wood pops out"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:blaze_powder"
+			"id": "minecraft:blaze_powder"
 		},
 		"title": {"translate":"A snowball's chance in hell"},
 		"description": {"color":"#75E1FF","translate":"Defeat a Blaze using snowballs"},

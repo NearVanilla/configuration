@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:quartz"
+			"id": "minecraft:quartz"
 		},
 		"title": {"translate":"Quirky Quartz"},
 		"description": {"color":"green","translate":"Mine Nether Quartz from the Nether"},

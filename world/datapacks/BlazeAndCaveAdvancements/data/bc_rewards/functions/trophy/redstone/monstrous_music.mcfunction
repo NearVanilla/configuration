@@ -1,2 +1,3 @@
-give @s minecraft:music_disc_mall{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#32367b\",\"translate\":\"The Midnight - Monsters\"}",Lore:["{\"color\":\"#32367b\",\"translate\":\"I was wrong, love's a con\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Monstrous Music\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"The Midnight - Monsters"}]}
+give @s music_disc_mall[item_name='{"translate":"The Midnight - Monsters","color":"#32367B","bold":true,"italic":false}',lore=['{"translate":"I was wrong, love\'s a con","color":"#32367B"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Monstrous Music","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"The Midnight - Monsters"}]

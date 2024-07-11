@@ -1,8 +1,15 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:crossbow",
-			"nbt": "{Charged:1b,ChargedProjectiles:[{id:\"minecraft:arrow\",Count:1b}]}"
+			"id": "minecraft:crossbow",
+			"components": {
+				"minecraft:charged_projectiles": [
+					{
+						"id": "minecraft:arrow",
+						"count": 1
+					}
+				]
+			}
 		},
 		"title": {"translate":"Artillery"},
 		"description": {"color":"#75E1FF","translate":"Have nine loaded crossbows in your hotbar. All set!"},
@@ -15,12 +22,7 @@
 	},		
 	"criteria": {
 		"nine_crossbow": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"player": {
-					"nbt": "{Inventory:[{Slot:0b,id:\"minecraft:crossbow\",Count:1b,tag:{Charged:1b}},{Slot:1b,id:\"minecraft:crossbow\",Count:1b,tag:{Charged:1b}},{Slot:2b,id:\"minecraft:crossbow\",Count:1b,tag:{Charged:1b}},{Slot:3b,id:\"minecraft:crossbow\",Count:1b,tag:{Charged:1b}},{Slot:4b,id:\"minecraft:crossbow\",Count:1b,tag:{Charged:1b}},{Slot:5b,id:\"minecraft:crossbow\",Count:1b,tag:{Charged:1b}},{Slot:6b,id:\"minecraft:crossbow\",Count:1b,tag:{Charged:1b}},{Slot:7b,id:\"minecraft:crossbow\",Count:1b,tag:{Charged:1b}},{Slot:8b,id:\"minecraft:crossbow\",Count:1b,tag:{Charged:1b}}]}"
-				}
-			}
+			"trigger": "minecraft:impossible"
 		}
 	}
 }

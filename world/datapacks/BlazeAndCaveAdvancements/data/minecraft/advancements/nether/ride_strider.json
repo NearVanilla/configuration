@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:warped_fungus_on_a_stick"
+			"id": "minecraft:warped_fungus_on_a_stick"
 		},
 		"title": {"translate":"This Boat Has Legs"},
 		"description": {"color":"green","translate":"Ride a Strider with a Warped Fungus on a Stick"},

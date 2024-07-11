@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_block"
+			"id": "minecraft:diamond_block"
 		},
 		"title": {"translate":"Beacon Overlord"},
 		"description": {"color":"dark_purple","translate":"Acquire every beacon-induced effect at once"},

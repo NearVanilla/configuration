@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:crying_obsidian"
+			"id": "minecraft:crying_obsidian"
 		},
 		"title": {"translate":"What For?"},
 		"description": {"color":"#75E1FF","translate":"Craft 64 ender crystals"},

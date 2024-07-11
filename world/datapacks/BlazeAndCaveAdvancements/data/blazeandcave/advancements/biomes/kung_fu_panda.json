@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:leather_chestplate",
-			"nbt": "{display:{color:16383998}}"
+			"id": "minecraft:leather_chestplate",
+			"components": {
+				"minecraft:dyed_color": 16383998
+			}
 		},
 		"title": {"translate":"Kung Fu Panda!"},
 		"description": {"color":"green","translate":"Get beaten up by an angry panda"},

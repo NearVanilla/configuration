@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_sapling"
+			"id": "minecraft:oak_sapling"
 		},
 		"title": {"translate":"Professor Oak"},
 		"description": {"color":"#75E1FF","translate":"Craft every item made out of oak wood"},

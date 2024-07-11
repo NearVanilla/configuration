@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:lectern"
+			"id": "minecraft:lectern"
 		},
 		"title": {"translate":"Stockbroker"},
 		"description": {"color":"#FF2A2A","translate":"Trade with every profession from every biome type"},

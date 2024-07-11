@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:magma_block"
+			"id": "minecraft:magma_block"
 		},
 		"title": {"translate":"Stepping on Legos"},
 		"description": {"color":"green","translate":"Walk on some hot Magma Blocks in the Nether"},
@@ -40,11 +40,13 @@
 							"predicate": {
 								"equipment": {
 									"feet": {
-										"enchantments": [
-											{
-												"enchantment": "minecraft:frost_walker"
-											}
-										]
+										"predicates": {
+											"enchantments": [
+												{
+													"enchantment": "minecraft:frost_walker"
+												}
+											]
+										}
 									}
 								}
 							},
@@ -60,9 +62,6 @@
 									"minecraft:fire_resistance": {
 										"amplifier": {
 											"min": 0
-										},
-										"duration": {
-											"min": 1
 										}
 									}
 								}

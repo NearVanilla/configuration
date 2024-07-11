@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:torchflower"
+			"id": "minecraft:torchflower"
 		},
 		"title": {"translate":"Planting the Past"},
 		"description": {"color":"green","translate":"Plant any Sniffer Seed"},

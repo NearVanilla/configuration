@@ -1,8 +1,13 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:netherite_chestplate",
-			"nbt": "{Trim:{material:\"minecraft:gold\",pattern:\"minecraft:sentry\"}}"
+			"id": "minecraft:netherite_chestplate",
+			"components": {
+				"minecraft:trim": {
+					"material": "minecraft:gold",
+					"pattern": "minecraft:sentry"
+				}
+			}
 		},
 		"title": {"translate":"Chromatic Armory"},
 		"description": {"color":"#75E1FF","translate":"Trim pieces of armor with all types of materials"},
@@ -19,7 +24,11 @@
 			"conditions": {
 				"items": [
 					{
-						"nbt": "{Trim:{material:\"minecraft:amethyst\"}}"
+						"predicates": {
+							"minecraft:trim": {
+								"material": "minecraft:amethyst"
+							}
+						}
 					}
 				]
 			}
@@ -29,7 +38,11 @@
 			"conditions": {
 				"items": [
 					{
-						"nbt": "{Trim:{material:\"minecraft:copper\"}}"
+						"predicates": {
+							"minecraft:trim": {
+								"material": "minecraft:copper"
+							}
+						}
 					}
 				]
 			}
@@ -39,7 +52,11 @@
 			"conditions": {
 				"items": [
 					{
-						"nbt": "{Trim:{material:\"minecraft:diamond\"}}"
+						"predicates": {
+							"minecraft:trim": {
+								"material": "minecraft:diamond"
+							}
+						}
 					}
 				]
 			}
@@ -49,7 +66,11 @@
 			"conditions": {
 				"items": [
 					{
-						"nbt": "{Trim:{material:\"minecraft:emerald\"}}"
+						"predicates": {
+							"minecraft:trim": {
+								"material": "minecraft:emerald"
+							}
+						}
 					}
 				]
 			}
@@ -59,7 +80,11 @@
 			"conditions": {
 				"items": [
 					{
-						"nbt": "{Trim:{material:\"minecraft:gold\"}}"
+						"predicates": {
+							"minecraft:trim": {
+								"material": "minecraft:gold"
+							}
+						}
 					}
 				]
 			}
@@ -69,7 +94,11 @@
 			"conditions": {
 				"items": [
 					{
-						"nbt": "{Trim:{material:\"minecraft:iron\"}}"
+						"predicates": {
+							"minecraft:trim": {
+								"material": "minecraft:iron"
+							}
+						}
 					}
 				]
 			}
@@ -79,7 +108,11 @@
 			"conditions": {
 				"items": [
 					{
-						"nbt": "{Trim:{material:\"minecraft:lapis\"}}"
+						"predicates": {
+							"minecraft:trim": {
+								"material": "minecraft:lapis"
+							}
+						}
 					}
 				]
 			}
@@ -89,7 +122,11 @@
 			"conditions": {
 				"items": [
 					{
-						"nbt": "{Trim:{material:\"minecraft:quartz\"}}"
+						"predicates": {
+							"minecraft:trim": {
+								"material": "minecraft:quartz"
+							}
+						}
 					}
 				]
 			}
@@ -99,7 +136,11 @@
 			"conditions": {
 				"items": [
 					{
-						"nbt": "{Trim:{material:\"minecraft:netherite\"}}"
+						"predicates": {
+							"minecraft:trim": {
+								"material": "minecraft:netherite"
+							}
+						}
 					}
 				]
 			}
@@ -109,7 +150,11 @@
 			"conditions": {
 				"items": [
 					{
-						"nbt": "{Trim:{material:\"minecraft:redstone\"}}"
+						"predicates": {
+							"minecraft:trim": {
+								"material": "minecraft:redstone"
+							}
+						}
 					}
 				]
 			}

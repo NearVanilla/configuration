@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:netherite_boots"
+			"id": "minecraft:netherite_boots"
 		},
 		"title": {"translate":"Explorer of Worlds"},
 		"description": {"color":"#FF2A2A","translate":"Discover every biome in every dimension"},
@@ -22,7 +22,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:river"
+								"biomes": "minecraft:river"
 							}
 						}
 					},
@@ -51,7 +51,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:swamp"
+								"biomes": "minecraft:swamp"
 							}
 						}
 					},
@@ -80,7 +80,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:desert"
+								"biomes": "minecraft:desert"
 							}
 						}
 					},
@@ -109,7 +109,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:snowy_taiga"
+								"biomes": "minecraft:snowy_taiga"
 							}
 						}
 					},
@@ -138,7 +138,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:badlands"
+								"biomes": "minecraft:badlands"
 							}
 						}
 					},
@@ -167,7 +167,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:forest"
+								"biomes": "minecraft:forest"
 							}
 						}
 					},
@@ -196,7 +196,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:stony_shore"
+								"biomes": "minecraft:stony_shore"
 							}
 						}
 					},
@@ -225,7 +225,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:snowy_plains"
+								"biomes": "minecraft:snowy_plains"
 							}
 						}
 					},
@@ -254,7 +254,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:wooded_badlands"
+								"biomes": "minecraft:wooded_badlands"
 							}
 						}
 					},
@@ -283,7 +283,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:savanna"
+								"biomes": "minecraft:savanna"
 							}
 						}
 					},
@@ -312,7 +312,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:plains"
+								"biomes": "minecraft:plains"
 							}
 						}
 					},
@@ -341,7 +341,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:frozen_river"
+								"biomes": "minecraft:frozen_river"
 							}
 						}
 					},
@@ -370,7 +370,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:old_growth_pine_taiga"
+								"biomes": "minecraft:old_growth_pine_taiga"
 							}
 						}
 					},
@@ -399,7 +399,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:snowy_beach"
+								"biomes": "minecraft:snowy_beach"
 							}
 						}
 					},
@@ -428,7 +428,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:deep_ocean"
+								"biomes": "minecraft:deep_ocean"
 							}
 						}
 					},
@@ -457,7 +457,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:sparse_jungle"
+								"biomes": "minecraft:sparse_jungle"
 							}
 						}
 					},
@@ -486,7 +486,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:ocean"
+								"biomes": "minecraft:ocean"
 							}
 						}
 					},
@@ -515,7 +515,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:windswept_hills"
+								"biomes": "minecraft:windswept_hills"
 							}
 						}
 					},
@@ -544,7 +544,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:jungle"
+								"biomes": "minecraft:jungle"
 							}
 						}
 					},
@@ -573,7 +573,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:beach"
+								"biomes": "minecraft:beach"
 							}
 						}
 					},
@@ -602,7 +602,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:savanna_plateau"
+								"biomes": "minecraft:savanna_plateau"
 							}
 						}
 					},
@@ -631,7 +631,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:dark_forest"
+								"biomes": "minecraft:dark_forest"
 							}
 						}
 					},
@@ -660,7 +660,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:taiga"
+								"biomes": "minecraft:taiga"
 							}
 						}
 					},
@@ -689,7 +689,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:birch_forest"
+								"biomes": "minecraft:birch_forest"
 							}
 						}
 					},
@@ -718,7 +718,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:mushroom_fields"
+								"biomes": "minecraft:mushroom_fields"
 							}
 						}
 					},
@@ -747,7 +747,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:windswept_forest"
+								"biomes": "minecraft:windswept_forest"
 							}
 						}
 					},
@@ -776,7 +776,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:cold_ocean"
+								"biomes": "minecraft:cold_ocean"
 							}
 						}
 					},
@@ -805,7 +805,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:warm_ocean"
+								"biomes": "minecraft:warm_ocean"
 							}
 						}
 					},
@@ -834,7 +834,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:lukewarm_ocean"
+								"biomes": "minecraft:lukewarm_ocean"
 							}
 						}
 					},
@@ -863,7 +863,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:frozen_ocean"
+								"biomes": "minecraft:frozen_ocean"
 							}
 						}
 					},
@@ -892,7 +892,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:deep_frozen_ocean"
+								"biomes": "minecraft:deep_frozen_ocean"
 							}
 						}
 					},
@@ -921,7 +921,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:deep_lukewarm_ocean"
+								"biomes": "minecraft:deep_lukewarm_ocean"
 							}
 						}
 					},
@@ -950,7 +950,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:deep_cold_ocean"
+								"biomes": "minecraft:deep_cold_ocean"
 							}
 						}
 					},
@@ -979,7 +979,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:bamboo_jungle"
+								"biomes": "minecraft:bamboo_jungle"
 							}
 						}
 					},
@@ -1008,7 +1008,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:sunflower_plains"
+								"biomes": "minecraft:sunflower_plains"
 							}
 						}
 					},
@@ -1037,7 +1037,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:windswept_gravelly_hills"
+								"biomes": "minecraft:windswept_gravelly_hills"
 							}
 						}
 					},
@@ -1066,7 +1066,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:flower_forest"
+								"biomes": "minecraft:flower_forest"
 							}
 						}
 					},
@@ -1095,7 +1095,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:ice_spikes"
+								"biomes": "minecraft:ice_spikes"
 							}
 						}
 					},
@@ -1124,7 +1124,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:old_growth_birch_forest"
+								"biomes": "minecraft:old_growth_birch_forest"
 							}
 						}
 					},
@@ -1153,7 +1153,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:old_growth_spruce_taiga"
+								"biomes": "minecraft:old_growth_spruce_taiga"
 							}
 						}
 					},
@@ -1182,7 +1182,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:windswept_savanna"
+								"biomes": "minecraft:windswept_savanna"
 							}
 						}
 					},
@@ -1211,7 +1211,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:eroded_badlands"
+								"biomes": "minecraft:eroded_badlands"
 							}
 						}
 					},
@@ -1240,7 +1240,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:meadow"
+								"biomes": "minecraft:meadow"
 							}
 						}
 					},
@@ -1269,7 +1269,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:grove"
+								"biomes": "minecraft:grove"
 							}
 						}
 					},
@@ -1298,7 +1298,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:snowy_slopes"
+								"biomes": "minecraft:snowy_slopes"
 							}
 						}
 					},
@@ -1327,7 +1327,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:frozen_peaks"
+								"biomes": "minecraft:frozen_peaks"
 							}
 						}
 					},
@@ -1356,7 +1356,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:jagged_peaks"
+								"biomes": "minecraft:jagged_peaks"
 							}
 						}
 					},
@@ -1385,7 +1385,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:stony_peaks"
+								"biomes": "minecraft:stony_peaks"
 							}
 						}
 					},
@@ -1414,7 +1414,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:lush_caves"
+								"biomes": "minecraft:lush_caves"
 							}
 						}
 					},
@@ -1443,7 +1443,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:dripstone_caves"
+								"biomes": "minecraft:dripstone_caves"
 							}
 						}
 					},
@@ -1472,7 +1472,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:nether_wastes"
+								"biomes": "minecraft:nether_wastes"
 							}
 						}
 					},
@@ -1501,7 +1501,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:crimson_forest"
+								"biomes": "minecraft:crimson_forest"
 							}
 						}
 					},
@@ -1530,7 +1530,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:warped_forest"
+								"biomes": "minecraft:warped_forest"
 							}
 						}
 					},
@@ -1559,7 +1559,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:soul_sand_valley"
+								"biomes": "minecraft:soul_sand_valley"
 							}
 						}
 					},
@@ -1588,7 +1588,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:basalt_deltas"
+								"biomes": "minecraft:basalt_deltas"
 							}
 						}
 					},
@@ -1617,7 +1617,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:the_end"
+								"biomes": "minecraft:the_end"
 							}
 						}
 					},
@@ -1646,7 +1646,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:small_end_islands"
+								"biomes": "minecraft:small_end_islands"
 							}
 						}
 					},
@@ -1675,7 +1675,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:end_highlands"
+								"biomes": "minecraft:end_highlands"
 							}
 						}
 					},
@@ -1707,16 +1707,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"biome": "minecraft:end_midlands"
-									}
-								}
-							},
-							{
-								"condition": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"location": {
-										"biome": "nullscape:shadowlands"
+										"biomes": "#blazeandcave:end_midlands"
 									}
 								}
 							}
@@ -1750,25 +1741,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"biome": "minecraft:end_barrens"
-									}
-								}
-							},
-							{
-								"condition": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"location": {
-										"biome": "nullscape:void_barrens"
-									}
-								}
-							},
-							{
-								"condition": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"location": {
-										"biome": "nullscape:crystal_peaks"
+										"biomes": "#blazeandcave:end_barrens"
 									}
 								}
 							}
@@ -1799,7 +1772,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:mangrove_swamp"
+								"biomes": "minecraft:mangrove_swamp"
 							}
 						}
 					},
@@ -1828,7 +1801,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:deep_dark"
+								"biomes": "minecraft:deep_dark"
 							}
 						}
 					},
@@ -1857,7 +1830,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"biome": "minecraft:cherry_grove"
+								"biomes": "minecraft:cherry_grove"
 							}
 						}
 					},

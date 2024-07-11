@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:piglin_head"
+			"id": "minecraft:piglin_head"
 		},
 		"title": {"translate":"Monstrous Music"},
 		"description": {"color":"dark_purple","translate":"Play Note Blocks with each type of mob head above it"},
@@ -14,7 +14,7 @@
 	},
 	"criteria": {
 		"zombie": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -34,7 +34,7 @@
 			}
 		},
 		"skeleton": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -54,7 +54,7 @@
 			}
 		},
 		"wither_skeleton": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -74,7 +74,7 @@
 			}
 		},
 		"creeper": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -94,7 +94,7 @@
 			}
 		},
 		"piglin": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{
@@ -114,7 +114,7 @@
 			}
 		},
 		"dragon": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:default_block_use",
 			"conditions": {
 				"location": [
 					{

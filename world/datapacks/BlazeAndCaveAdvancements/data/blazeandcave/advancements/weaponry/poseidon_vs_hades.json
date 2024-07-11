@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:fire_charge"
+			"id": "minecraft:fire_charge"
 		},
 		"title": {"translate":"Poseidon vs. Hades"},
 		"description": {"color":"dark_purple","translate":"Hunt all types of nether creatures with your trident"},

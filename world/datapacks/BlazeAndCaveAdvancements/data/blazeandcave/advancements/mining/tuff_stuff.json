@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:tuff"
+			"id": "minecraft:tuff"
 		},
 		"title": {"translate":"Tuff Stuff"},
 		"description": {"color":"green","translate":"Mine some Tuff in the deep underground"},

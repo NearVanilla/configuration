@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:magma_cream"
+			"id": "minecraft:magma_cream"
 		},
 		"title": {"translate":"Stayin' Frosty"},
 		"description": {"color":"green","translate":"Swim in lava while having the Fire Resistance effect"},
@@ -24,40 +24,24 @@
 								"minecraft:fire_resistance": {
 									"amplifier": {
 										"min": 0
-									},
-									"duration": {
-										"min": 1
 									}
 								}
 							}
 						}
 					},
 					{
-						"condition": "minecraft:any_of",
-						"terms": [
-							{
-								"condition": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"location": {
-										"fluid": {
-											"fluid": "minecraft:lava"
-										}
-									}
-								}
-							},
-							{
-								"condition": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"location": {
-										"fluid": {
-											"fluid": "minecraft:flowing_lava"
-										}
-									}
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"fluid": {
+									"fluids": [
+										"minecraft:lava",
+										"minecraft:flowing_lava"
+									]
 								}
 							}
-						]
+						}
 					},
 					{
 						"condition": "minecraft:inverted",

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:lever"
+			"id": "minecraft:lever"
 		},
 		"title": {"translate":"Baby, baby, baby noo!!"},
 		"description": {"color":"#75E1FF","translate":"Kill one of each of a baby zombie, zombie villager, husk, drowned and zombie pigman"},

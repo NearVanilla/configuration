@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:ender_pearl"
+			"id": "minecraft:ender_pearl"
 		},
 		"title": {"translate":"Void Ender"},
 		"description": {"color":"#75E1FF","translate":"Defeat all kinds of End mobs"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:prismarine_shard"
+			"id": "minecraft:prismarine_shard"
 		},
 		"title": {"translate":"The Aquatic Hunter"},
 		"description": {"color":"dark_purple","translate":"Hunt all types of aquatic creatures with your trident"},

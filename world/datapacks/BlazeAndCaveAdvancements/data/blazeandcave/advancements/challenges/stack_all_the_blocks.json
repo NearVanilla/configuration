@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:prismarine_bricks"
+			"id": "minecraft:prismarine_bricks"
 		},
 		"title": {"translate":"Stack All the Blocks!"},
 		"description": {"color":"#FF2A2A","translate":"Obtain a stack of all the blocks!","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"The following are not required:"},{"color":"gray","text":"\n"},{"color":"gray","translate":"block.minecraft.dragon_egg"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.netherite_block"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.deepslate_emerald_ore"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.tall_grass"},{"color":"gray","text":", "},{"color":"gray","translate":"block.minecraft.large_fern"}]},

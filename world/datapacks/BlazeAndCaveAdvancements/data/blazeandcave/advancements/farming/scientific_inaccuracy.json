@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:melon"
+			"id": "minecraft:melon"
 		},
 		"title": {"translate":"Scientific Inaccuracy"},
 		"description": {"color":"green","translate":"Craft 9 melon slices back into a block that, when broken, will probably not give you all 9 slices back"},

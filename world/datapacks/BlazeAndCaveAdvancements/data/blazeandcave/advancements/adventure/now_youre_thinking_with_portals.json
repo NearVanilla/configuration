@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:crying_obsidian"
+			"id": "minecraft:crying_obsidian"
 		},
 		"title": {"translate":"Now You’re Thinking With Portals"},
 		"description": {"color":"green","translate":"Find a broken Nether Portal in the Overworld"},
@@ -24,7 +24,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal",
+										"structures": "minecraft:ruined_portal",
 										"dimension": "overworld"
 									}
 								}
@@ -34,7 +34,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_desert",
+										"structures": "minecraft:ruined_portal_desert",
 										"dimension": "overworld"
 									}
 								}
@@ -44,7 +44,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_jungle",
+										"structures": "minecraft:ruined_portal_jungle",
 										"dimension": "overworld"
 									}
 								}
@@ -54,7 +54,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_mountain",
+										"structures": "minecraft:ruined_portal_mountain",
 										"dimension": "overworld"
 									}
 								}
@@ -64,7 +64,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_nether",
+										"structures": "minecraft:ruined_portal_nether",
 										"dimension": "overworld"
 									}
 								}
@@ -74,7 +74,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_ocean",
+										"structures": "minecraft:ruined_portal_ocean",
 										"dimension": "overworld"
 									}
 								}
@@ -84,7 +84,7 @@
 								"entity": "this",
 								"predicate": {
 									"location": {
-										"structure": "minecraft:ruined_portal_swamp",
+										"structures": "minecraft:ruined_portal_swamp",
 										"dimension": "overworld"
 									}
 								}

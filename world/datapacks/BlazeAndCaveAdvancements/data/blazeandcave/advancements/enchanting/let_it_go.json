@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:ice"
+			"id": "minecraft:ice"
 		},
 		"title": {"translate":"Let It Go!"},
 		"description": {"color":"#75E1FF","translate":"Using Frost Walker boots, walk on frozen water over a deep ocean"},
@@ -37,15 +37,17 @@
 										"minecraft:diamond_boots",
 										"minecraft:netherite_boots"
 									],					
-									"enchantments": [
-										{
-											"enchantment": "minecraft:frost_walker"
-										}
-									]
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantment": "minecraft:frost_walker"
+											}
+										]
+									}
 								}
 							},
 							"location": {
-								"biome": "minecraft:deep_lukewarm_ocean"
+								"biomes": "minecraft:deep_lukewarm_ocean"
 							}
 						},
 						"entity": "this"
@@ -90,15 +92,17 @@
 										"minecraft:diamond_boots",
 										"minecraft:netherite_boots"
 									],					
-									"enchantments": [
-										{
-											"enchantment": "minecraft:frost_walker"
-										}
-									]
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantment": "minecraft:frost_walker"
+											}
+										]
+									}
 								}
 							},
 							"location": {
-								"biome": "minecraft:deep_ocean"
+								"biomes": "minecraft:deep_ocean"
 							}
 						},
 						"entity": "this"
@@ -143,15 +147,17 @@
 										"minecraft:diamond_boots",
 										"minecraft:netherite_boots"
 									],					
-									"enchantments": [
-										{
-											"enchantment": "minecraft:frost_walker"
-										}
-									]
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantment": "minecraft:frost_walker"
+											}
+										]
+									}
 								}
 							},
 							"location": {
-								"biome": "minecraft:deep_cold_ocean"
+								"biomes": "minecraft:deep_cold_ocean"
 							}
 						},
 						"entity": "this"
@@ -196,15 +202,17 @@
 										"minecraft:diamond_boots",
 										"minecraft:netherite_boots"
 									],					
-									"enchantments": [
-										{
-											"enchantment": "minecraft:frost_walker"
-										}
-									]
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantment": "minecraft:frost_walker"
+											}
+										]
+									}
 								}
 							},
 							"location": {
-								"biome": "minecraft:deep_frozen_ocean"
+								"biomes": "minecraft:deep_frozen_ocean"
 							}
 						},
 						"entity": "this"

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:drowned_spawn_egg"
+			"id": "minecraft:drowned_spawn_egg"
 		},
 		"title": {"translate":"Sleep with the Fishes"},
 		"description": {"color":"dark_purple","translate":"Spend a day underwater"},

@@ -1,2 +1,3 @@
-give @s minecraft:netherite_block{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#00FFE4\",\"translate\":\"Ultimate Flex\"}",Lore:["{\"color\":\"#00FFE4\",\"translate\":\"Dab on dem haters\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"#FFAEFF\",\"translate\":\"Netherite Mad Lad\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Ultimate Flex"}]}
+give @s netherite_block[item_name='{"translate":"Ultimate Flex","color":"#00FFE4","bold":true,"italic":false}',lore=['{"translate":"Dab on dem haters","color":"#00FFE4"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Netherite Mad Lad","color":"#FFAEFF","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Ultimate Flex"}]

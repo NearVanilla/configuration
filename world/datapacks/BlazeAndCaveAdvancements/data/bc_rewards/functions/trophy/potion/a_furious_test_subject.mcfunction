@@ -1,2 +1,3 @@
-give @s minecraft:rotten_flesh{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:132,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#B44420\",\"translate\":\"This is Anarchy\"}",Lore:["{\"color\":\"#B44420\",\"translate\":\"If you want to survive you need a strong belly\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"A Furious Test Subject\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"This is Anarchy"}]}
+give @s rotten_flesh[item_name='{"translate":"This is Anarchy","color":"#B44420","bold":true,"italic":false}',lore=['{"translate":"If you want to survive you need a strong belly","color":"#B44420"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"A Furious Test Subject","color":"light_purple","italic":false}'],custom_model_data=132,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"This is Anarchy"}]

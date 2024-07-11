@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:shulker_shell"
+			"id": "minecraft:shulker_shell"
 		},
 		"title": {"translate":"I'm in Space!"},
 		"description": {"color":"#FF2A2A","translate":"Levitate up a distance of 256 blocks"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:enderman_spawn_egg"
+			"id": "minecraft:enderman_spawn_egg"
 		},
 		"title": {"translate":"Slenderman"},
 		"description": {"color":"#75E1FF","translate":"Defeat this terrifying monster"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:ender_chest"
+			"id": "minecraft:ender_chest"
 		},
 		"title": {"translate":"Ender's Chest"},
 		"description": {"color":"green","translate":"Craft an ender chest for some extra inventory space"},

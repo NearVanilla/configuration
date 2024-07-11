@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:spruce_boat"
+			"id": "minecraft:spruce_boat"
 		},
 		"title": {"translate":"Pirate Captain"},
 		"description": {"color":"#75E1FF","translate":"Sail 10km in a boat"},

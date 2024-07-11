@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:snow"
+			"id": "minecraft:snow"
 		},
 		"title": {"translate":"We’re Going on a Bear Hunt"},
 		"description": {"color":"green","translate":"Get hunted by a Polar Bear"},

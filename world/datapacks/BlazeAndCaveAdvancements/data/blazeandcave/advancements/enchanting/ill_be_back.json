@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:black_stained_glass"
+			"id": "minecraft:black_stained_glass"
 		},
 		"title": {"translate":"I'll be back"},
 		"description": {"color":"green","translate":"Name your bow 'Terminator'"},
@@ -13,7 +13,7 @@
 	},	
 	"criteria": {
 		"terminator": {
-			"trigger": "minecraft:inventory_changed",
+			"trigger": "minecraft:impossible",
 			"conditions": {
 				"items": [
 					{
@@ -26,7 +26,7 @@
 			}
 		},
 		"terminator_old": {
-			"trigger": "minecraft:inventory_changed",
+			"trigger": "minecraft:impossible",
 			"conditions": {
 				"items": [
 					{

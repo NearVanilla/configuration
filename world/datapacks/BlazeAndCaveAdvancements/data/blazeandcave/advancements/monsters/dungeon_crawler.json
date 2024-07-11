@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone_bricks"
+			"id": "minecraft:stone_bricks"
 		},
 		"title": {"translate":"Dungeon Crawler"},
 		"description": {"color":"#75E1FF","translate":"Defeat all kinds of mobs from special structures"},
@@ -48,28 +48,55 @@
 		"pillager": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"entity": {
-					"type": "pillager",
-					"nbt": "{Wave:0}"
-				}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "pillager",
+							"type_specific": {
+								"type": "raider",
+								"has_raid": false
+							}
+						}
+					}
+				]
 			}
 		},		
 		"vindicator": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"entity": {
-					"type": "vindicator",
-					"nbt": "{Wave:0}"
-				}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "vindicator",
+							"type_specific": {
+								"type": "raider",
+								"has_raid": false
+							}
+						}
+					}
+				]
 			}
 		},
 		"evoker": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"entity": {
-					"type": "evoker",
-					"nbt": "{Wave:0}"
-				}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "evoker",
+							"type_specific": {
+								"type": "raider",
+								"has_raid": false
+							}
+						}
+					}
+				]
 			}
 		},
 		"vex": {

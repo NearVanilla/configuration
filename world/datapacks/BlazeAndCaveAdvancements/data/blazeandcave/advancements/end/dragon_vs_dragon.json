@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dragon_breath",
+			"id": "minecraft:dragon_breath",
 			"nbt": "{Charged:1b}"
 		},
 		"title": {"translate":"Dragon vs Dragon"},

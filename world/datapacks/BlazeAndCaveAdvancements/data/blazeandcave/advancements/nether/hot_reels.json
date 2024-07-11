@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:fishing_rod"
+			"id": "minecraft:fishing_rod"
 		},
 		"title": {"translate":"Hot Reels!"},
 		"description": {"color":"green","translate":"Reel in a Strider using a Fishing Rod"},

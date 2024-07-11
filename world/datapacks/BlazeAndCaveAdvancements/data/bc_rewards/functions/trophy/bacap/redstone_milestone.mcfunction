@@ -1,2 +1,3 @@
-give @s minecraft:lever{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:1,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#FF0000\",\"translate\":\"Mechanic's Trophy\"}",Lore:["{\"color\":\"#FF0000\",\"translate\":\"Give me somewhere to stand and I can move the Earth\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"yellow\",\"translate\":\"Redstone Milestone\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Mechanic's Trophy"}]}
+give @s lever[item_name='{"translate":"Mechanic\'s Trophy","color":"#FF0000","bold":true,"italic":false}',lore=['{"translate":"Give me somewhere to stand and I can move the Earth","color":"#FF0000"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Redstone Milestone","color":"yellow","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantments={levels:{"minecraft:unbreaking":1},show_in_tooltip:false}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Mechanic's Trophy"}]

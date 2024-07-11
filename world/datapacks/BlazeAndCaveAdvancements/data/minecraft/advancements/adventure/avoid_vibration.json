@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sculk"
+			"id": "minecraft:sculk"
 		},
 		"title": {"translate":"Sneak 100"},
 		"description": {"color":"green","translate":"Sneak near something in the Deep Dark to prevent being heard"},

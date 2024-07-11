@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cod"
+			"id": "minecraft:cod"
 		},
 		"title": {"translate":"Sushi"},
 		"description": {"color":"green","translate":"Eat some raw fish"},

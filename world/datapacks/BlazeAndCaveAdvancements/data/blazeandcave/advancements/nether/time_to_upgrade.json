@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:netherite_upgrade_smithing_template"
+			"id": "minecraft:netherite_upgrade_smithing_template"
 		},
 		"title": {"translate":"Time to Upgrade!"},
 		"description": {"color":"#75E1FF","translate":"Find a Netherite Upgrade Smithing Template in a Bastion Remnant"},

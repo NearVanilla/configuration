@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:prismarine_bricks"
+			"id": "minecraft:prismarine_bricks"
 		},
 		"title": {"translate":"Fake monument"},
 		"description": {"color":"green","translate":"Craft or collect all forms of prismarine blocks"},

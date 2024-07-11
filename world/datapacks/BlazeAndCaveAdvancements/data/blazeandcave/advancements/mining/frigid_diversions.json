@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:packed_ice"
+			"id": "minecraft:packed_ice"
 		},
 		"title": {"translate":"Frigid Diversions"},
 		"description": {"color":"#75E1FF","translate":"Loot a chest inside an ice box in an Ancient City"},

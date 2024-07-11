@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:activator_rail"
+			"id": "minecraft:activator_rail"
 		},
 		"title": {"translate":"Railwayman"},
 		"description": {"color":"#75E1FF","translate":"Craft a stack of all the different types of rails"},

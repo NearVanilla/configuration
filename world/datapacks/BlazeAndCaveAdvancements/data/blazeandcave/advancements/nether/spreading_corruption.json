@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:basalt"
+			"id": "minecraft:basalt"
 		},
 		"title": {"translate":"Spreading Corruption"},
 		"description": {"color":"dark_purple","translate":"Place one of every nether block in the overworld"},

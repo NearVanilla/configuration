@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:purple_shulker_box"
+			"id": "minecraft:purple_shulker_box"
 		},
 		"title": {"translate":"Portable Storage"},
 		"description": {"color":"green","translate":"Use shulker shells to craft a shulker box"},
@@ -17,7 +17,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "minecraft:shulker_boxes"
+						"items": "#minecraft:shulker_boxes"
 					}
 				]
 			}

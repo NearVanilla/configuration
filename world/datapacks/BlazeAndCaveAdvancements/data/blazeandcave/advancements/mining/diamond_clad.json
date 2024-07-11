@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_helmet"
+			"id": "minecraft:diamond_helmet"
 		},
 		"title": {"translate":"Diamond Clad"},
 		"description": {"color":"#75E1FF","translate":"A full suit of diamond armor saves even more lives"},

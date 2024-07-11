@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cobweb"
+			"id": "minecraft:cobweb"
 		},
 		"title": {"translate":"Eeuuwww!"},
 		"description": {"color":"green","translate":"Get stuck in a cobweb"},

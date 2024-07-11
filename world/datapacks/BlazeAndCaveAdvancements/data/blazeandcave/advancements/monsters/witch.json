@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sugar"
+			"id": "minecraft:sugar"
 		},
 		"title": {"translate":"Witch!"},
 		"description": {"color":"green","translate":"Kill a witch"},

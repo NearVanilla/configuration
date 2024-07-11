@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:totem_of_undying"
+			"id": "minecraft:totem_of_undying"
 		},
 		"title": {"translate":"Dead Really Don’t Die"},
 		"description": {"color":"#75E1FF","translate":"Give a zombie a Totem... so that you have to kill it twice"},

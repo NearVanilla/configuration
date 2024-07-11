@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:red_nether_bricks"
+			"id": "minecraft:red_nether_bricks"
 		},
 		"title": {"translate":"Fake fortress"},
 		"description": {"color":"green","translate":"Craft or collect all forms of nether brick and red nether brick"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cauldron"
+			"id": "minecraft:cauldron"
 		},
 		"title": {"translate":"Bubble, Bubble, Toil and Trouble!"},
 		"description": {"color":"green","translate":"Fill a cauldron using a bucket"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:spire_armor_trim_smithing_template"
+			"id": "minecraft:spire_armor_trim_smithing_template"
 		},
 		"title": {"translate":"Smithing With Style"},
 		"description": {"color":"dark_purple","translate":"Apply every type of armor trim at least once"},

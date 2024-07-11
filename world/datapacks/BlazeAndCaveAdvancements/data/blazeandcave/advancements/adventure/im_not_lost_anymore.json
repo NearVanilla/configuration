@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:blue_banner"
+			"id": "minecraft:blue_banner"
 		},
 		"title": {"translate":"I'm not lost anymore!"},
 		"description": {"color":"green","translate":"Right-click a banner with a map"},
@@ -20,7 +20,7 @@
 						"condition": "minecraft:location_check",
 						"predicate": {
 							"block": {
-								"tag": "minecraft:banners"
+								"blocks": "#minecraft:banners"
 							}
 						}
 					},

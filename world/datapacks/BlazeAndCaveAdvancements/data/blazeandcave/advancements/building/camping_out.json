@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:campfire"
+			"id": "minecraft:campfire"
 		},
 		"title": {"translate":"Camping Out"},
 		"description": {"color":"green","translate":"Craft and place a campfire using some logs, sticks and coal"},

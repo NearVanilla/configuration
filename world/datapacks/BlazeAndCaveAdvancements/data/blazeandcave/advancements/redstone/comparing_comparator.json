@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:comparator"
+			"id": "minecraft:comparator"
 		},
 		"title": {"translate":"Comparing Comparator"},
 		"description": {"color":"green","translate":"Craft a redstone comparator"},

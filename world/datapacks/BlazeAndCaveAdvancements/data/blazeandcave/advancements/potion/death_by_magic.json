@@ -1,8 +1,12 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:splash_potion",
-			"nbt": "{Potion:\"minecraft:harming\"}"
+			"id": "minecraft:splash_potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:harming"
+				}
+			}
 		},
 		"title": {"translate":"Death by Magic"},
 		"description": {"color":"green","translate":"Kill a mob with a splash potion"},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dragon_egg"
+			"id": "minecraft:dragon_egg"
 		},
 		"title": {"translate":"The Next Generation"},
 		"description": {"color":"#75E1FF","translate":"Hold the Dragon Egg"},

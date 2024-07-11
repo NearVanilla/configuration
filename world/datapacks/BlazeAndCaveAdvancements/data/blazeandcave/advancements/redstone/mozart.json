@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:note_block"
+			"id": "minecraft:note_block"
 		},
 		"title": {"translate":"Mozart"},
 		"description": {"color":"green","translate":"Craft a note block"},

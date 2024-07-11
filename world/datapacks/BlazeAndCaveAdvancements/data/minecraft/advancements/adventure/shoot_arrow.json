@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bow"
+			"id": "minecraft:bow"
 		},
 		"title": {"translate":"Take Aim"},
 		"description": {"color":"green","translate":"Shoot something with a bow and arrow"},
