@@ -43,6 +43,14 @@ fetch() {
   done
 }
 
+status() {
+  local d
+  for d in "${all_dirs[@]}"; do
+    printf "Status in %s\n" "${d}"
+    git -C "${d}" status
+  done
+}
+
 set-upstream() {
   local d
   for d in "${all_dirs[@]}"; do
@@ -68,7 +76,7 @@ action="${1?action}"
 shift
 
 case "${action}" in
-  pull|set-upstream|fetch|checkout) "${action}" "${@}"
+  pull|set-upstream|fetch|checkout|status) "${action}" "${@}"
     ;;
   *)
     printf 'Unknown action - %s\n' "${action}" >&2
