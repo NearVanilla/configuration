@@ -12,12 +12,12 @@ plugins:
 - checksum: 3c8c9a14a76520dbd9d2b41fd9d1138a26210fc6
   name: swap
   version: 1.0.0
-- checksum: dc6e874a07a5b5da410fb600d4a99c57a0df321c
+- checksum: 59d3f3178bceae798cfa8ba42491b30cd8da088d
   name: ViaBackwards
-  version: 4.10.2
-- checksum: 8f10fc9149d9c9f8e096b54e0ff3c31c80fcd626
+  version: 5.0.1
+- checksum: 8679aea429cce389032aefec7184e0463bf8ecfd
   name: ViaVersion
-  version: 4.10.2
+  version: 5.0.1
 - checksum: 9305e3c8cb625819300757abb162f81fc47ee01a
   name: signedvelocity
   version: 1.2.2
