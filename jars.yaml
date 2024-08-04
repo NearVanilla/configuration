@@ -36,6 +36,9 @@ plugins:
 - checksum: a9e1ac036f207d3ca8b3131042d6a080cfbfda97
   name: PaperTweaks
   version: 0.5.0-beta.1
+- checksum: 24371475974a40ce674043ffd69b2a026d6263e8
+  name: PlotSquared
+  version: 7.3.9-SNAPSHOT
 version:
   build: 123
   name: '1.21'
