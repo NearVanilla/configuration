@@ -37,7 +37,7 @@ Currently due to historical reasons, configuration is stored in different detach
 in the same repository. To ensure proper permissions, you should clone the config manually:
 
 ```sh
-for server in survival creative-spawn velocity; do
+for server in survival creative velocity; do
   git clone --branch config_"${server/-/_}" -- "$(git remote get-url origin)" server-config/"${server}"
 done
 ```

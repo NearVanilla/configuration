@@ -117,5 +117,5 @@ www.{$DOMAIN},
 }
 
 bluemap.{$DOMAIN} {
-	import bluemap /usr/share/caddy/creative-bluemap creative-spawn:8100
+	import bluemap /usr/share/caddy/creative-bluemap creative:8100
 }

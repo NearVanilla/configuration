@@ -1,4 +1,4 @@
-version: '3.7'
+#version: '3.7'
 x-shared-envs:
   &shared_envs
   RCON_PASSWORD: "${RCON_PASSWORD:-minecraft}"
@@ -63,13 +63,13 @@ services:
     ports:
       # Simple Voice Chat
       - 24454:24454/udp
-  creative-spawn:
+  creative:
     <<: [*user, *mc_common_settings, *jvm_image]
-    container_name: "creative-spawn"
-    hostname: "creative-spawn"
+    container_name: "creative"
+    hostname: "creative"
     volumes:
-      - './server-config/creative-spawn:/server'
-      - './scripts/hooks/creative-spawn/:/hooks/:ro'
+      - './server-config/creative:/server'
+      - './scripts/hooks/creative/:/hooks/:ro'
     #restart: unless-stopped
     restart: "no"
     #command:
@@ -77,9 +77,9 @@ services:
     environment:
       <<: [*shared_envs, *mc_common_env]
       MEMORY: "${CREATIVE_MEM?}"
-      GIT_BRANCH: config_creative_spawn
+      GIT_BRANCH: config_creative
     env_file:
-      - ./.env-creative-spawn
+      - ./.env-creative
       - ./.env
     ports:
       # Simple Voice Chat
@@ -137,7 +137,7 @@ services:
       - './website/data/caddy:/data/caddy:rw'
       - './website/data/highscores.json:/usr/share/caddy/highscores/highscores.json:ro'
       - './website/data/awards:/usr/share/caddy/awards/data:ro'
-      - './server-config/creative-spawn/bluemap/web/:/usr/share/caddy/creative-bluemap:ro'
+      - './server-config/creative/bluemap/web/:/usr/share/caddy/creative-bluemap:ro'
     environment:
       DOMAIN: "${DOMAIN?}"
       DISCORD_INVITE_LINK: "${DISCORDSRV_INVITE_LINK?}"

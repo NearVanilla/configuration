@@ -22,7 +22,7 @@ translate_arg() {
   local -r arg="${1?}"
   case "${arg}" in
     s|sur|surv) printf 'survival';;
-    c|creat) printf 'creative-spawn';;
+    c|creat) printf 'creative';;
     v|vel) printf 'velocity';;
     *) printf '%s' "${arg}";;
   esac
