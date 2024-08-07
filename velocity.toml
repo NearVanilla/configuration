@@ -61,13 +61,12 @@ enable-player-address-logging = true
 # represents the IP address of the server to connect to.
 [servers]
 	survival = "survival:25565"
-	creative-spawn = "creative-spawn:25565"
+	creative = "creative:25565"
 	# In what order we should try servers when a player logs in or is kicked from a server.
-	try = ["survival"]
+	try = ["survival", "creative"]
 # Configure your forced hosts here.
 [forced-hosts]
-	"creative-spawn.{{ DOMAIN }}" = ["creative-spawn"]
-	"creative.{{ DOMAIN }}" = ["creative-spawn"]
+	"creative.{{ DOMAIN }}" = ["creative"]
 	"survival.{{ DOMAIN }}" = ["survival"]
 
 [advanced]
