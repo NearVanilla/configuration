@@ -114,7 +114,7 @@ scoreboards:
   save-empty-scoreboard-teams: false
   track-plugin-scoreboards: false
 spam-limiter:
-  incoming-packet-threshold: 3000
+  incoming-packet-threshold: 300
   recipe-spam-increment: 1
   recipe-spam-limit: 20
   tab-spam-increment: 1

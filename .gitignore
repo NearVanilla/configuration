@@ -38,6 +38,10 @@ plugins/FastAsyncWorldEdit/.archive-unpack
 plugins/FastAsyncWorldEdit/schematics/
 plugins/FastAsyncWorldEdit/sessions/
 plugins/FastAsyncWorldGuard/worlds/
+plugins/FastAsyncWorldEdit/clipboard/
+plugins/FastAsyncWorldEdit/history/
+plugins/PlotSquared/persistent_regen_data_null_world
+plugins/PlotSquared/schematics/
 plugins/WorldGuard/worlds/
 plugins/dynmap/*.pending
 plugins/dynmap/colorschemes/

@@ -13,7 +13,7 @@ worlds:
       floor: minecraft:grass_block
     wall:
       filling: minecraft:stone
-      block_claimed: minecraft:sandstone_slab
+      block_claimed: minecraft:polished_deepslate_slab
       height: 62
       block: minecraft:stone_slab
       place_top_block: true
