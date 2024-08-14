@@ -46,12 +46,92 @@ chunks:
   auto-save-interval: default
   delay-chunk-unloads-by: 10s
   entity-per-chunk-save-limit:
+    allay: 5
+    armadillo: 5
     arrow: -1
+    axolotl: 5
+    bat: 5
+    bee: 5
+    blaze: 5
+    bogged: 5
+    breeze: 5
+    camel: 5
+    cat: 5
+    cave_spider: 5
+    chicken: 5
+    cod: 5
+    cow: 5
+    creeper: 5
+    dolphin: 5
+    donkey: 5
+    drowned: 5
+    elder_guardian: 5
+    ender_dragon: 5
     ender_pearl: -1
+    enderman: 5
+    endermite: 5
+    evoker: 5
     experience_orb: -1
     fireball: -1
+    fox: 5
+    frog: 5
+    ghast: 5
+    glow_squid: 5
+    goat: 5
+    guardian: 5
+    hoglin: 5
+    horse: 5
+    husk: 5
+    iron_golem: 5
+    llama: 5
+    magma_cube: 5
+    mooshroom: 5
+    mule: 5
+    ocelot: 5
+    panda: 5
+    parrot: 5
+    phantom: 5
+    pig: 5
+    piglin: 5
+    piglin_brute: 5
+    pillager: 5
+    polar_bear: 5
+    pufferfish: 5
+    rabbit: 5
+    ravager: 5
+    salmon: 5
+    sheep: 5
+    shulker: 5
+    silverfish: 5
+    skeleton: 5
+    skeleton_horse: 5
+    slime: 5
     small_fireball: -1
+    sniffer: 5
+    snow_golem: 5
     snowball: -1
+    spider: 5
+    squid: 5
+    stray: 5
+    strider: 5
+    tadpole: 5
+    trader_llama: 5
+    tropical_fish: 5
+    turtle: 5
+    vex: 5
+    villager: 5
+    vindicator: 5
+    wandering_trader: 5
+    warden: 5
+    witch: 5
+    wither: 5
+    wither_skeleton: 5
+    wolf: 5
+    zoglin: 5
+    zombie: 5
+    zombie_horse: 5
+    zombie_villager: 5
+    zombified_piglin: 5
   fixed-chunk-inhabited-time: -1
   flush-regions-on-save: false
   max-auto-save-chunks-per-tick: 24
@@ -134,28 +214,28 @@ entities:
     creative-arrow-despawn-rate: default
     despawn-ranges:
       ambient:
-        hard: 128
+        hard: 96
         soft: 32
       axolotls:
-        hard: 128
+        hard: 96
         soft: 32
       creature:
-        hard: 128
+        hard: 96
         soft: 32
       misc:
-        hard: 128
+        hard: 96
         soft: 32
       monster:
-        hard: 128
+        hard: 96
         soft: 32
       underground_water_creature:
-        hard: 128
+        hard: 96
         soft: 32
       water_ambient:
-        hard: 64
+        hard: 96
         soft: 32
       water_creature:
-        hard: 128
+        hard: 96
         soft: 32
     disable-mob-spawner-spawn-egg-transformation: false
     duplicate-uuid:

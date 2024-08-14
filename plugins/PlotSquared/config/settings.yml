@@ -75,15 +75,15 @@ enabled-components:
   # Processes chunks (trimming, or entity/tile limits) 
   chunk-processor: false
   # Kill mobs on roads (Chicken, Cow, etc.)
-  kill-road-mobs: false
+  kill-road-mobs: true
   # Also kill any road mobs that are being ridden, or are leashed
-  kill-owned-road-mobs: false
+  kill-owned-road-mobs: true
   # Also kill any road mobs that are named
-  kill-named-road-mobs: false
+  kill-named-road-mobs: true
   # Kill items on roads (Stick, Paper, etc.)
   kill-road-items: false
   # Kill vehicles on roads (Boat, Minecart, etc.)
-  kill-road-vehicles: false
+  kill-road-vehicles: true
   # Notify a player of any missed plot comments upon plot entry
   comment-notifier: true
   # Let players claim entire worlds with PlotSquared

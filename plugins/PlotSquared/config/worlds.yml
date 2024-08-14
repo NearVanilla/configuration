@@ -51,7 +51,7 @@ worlds:
       use: false
     event:
       spawn:
-        egg: false
+        egg: true
         breeding: false
         custom: true
     natural_mob_spawning: false
