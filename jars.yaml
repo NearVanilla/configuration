@@ -18,9 +18,9 @@ plugins:
 - checksum: d39d0b410497aea25c66b03409f3fce100c006bd
   name: FreedomChat
   version: 1.7.0
-- checksum: 65cf2ec9c5fc9dd245edb67ef72568e1b15bd1e2
+- checksum: 3ac2c8aaee12df48154ced666e78473dd3a52235
   name: FastAsyncWorldEdit
-  version: 2.11.1-SNAPSHOT-866;f93ad59
+  version: 2.11.2-SNAPSHOT-879;d1e2511
 - checksum: 33b6c2b5dad6f5b99235d4883d4ac1a3d200c3d4
   name: ChunkyBorder
   version: 1.2.13
