@@ -46,14 +46,9 @@ chunks:
   auto-save-interval: default
   delay-chunk-unloads-by: 10s
   entity-per-chunk-save-limit:
-    arrow: -1
-    ender_pearl: -1
-    experience_orb: -1
-    fireball: -1
-    small_fireball: -1
-    snowball: -1
     allay: 5
     armadillo: 5
+    arrow: -1
     axolotl: 5
     bat: 5
     bee: 5
@@ -71,9 +66,13 @@ chunks:
     donkey: 5
     drowned: 5
     elder_guardian: 5
+    ender_dragon: 5
+    ender_pearl: -1
     enderman: 5
     endermite: 5
     evoker: 5
+    experience_orb: -1
+    fireball: -1
     fox: 5
     frog: 5
     ghast: 5
@@ -107,8 +106,10 @@ chunks:
     skeleton: 5
     skeleton_horse: 5
     slime: 5
+    small_fireball: -1
     sniffer: 5
     snow_golem: 5
+    snowball: -1
     spider: 5
     squid: 5
     stray: 5
@@ -123,6 +124,7 @@ chunks:
     wandering_trader: 5
     warden: 5
     witch: 5
+    wither: 5
     wither_skeleton: 5
     wolf: 5
     zoglin: 5
@@ -130,8 +132,6 @@ chunks:
     zombie_horse: 5
     zombie_villager: 5
     zombified_piglin: 5
-    wither: 5
-    ender_dragon: 5
   fixed-chunk-inhabited-time: -1
   flush-regions-on-save: false
   max-auto-save-chunks-per-tick: 24

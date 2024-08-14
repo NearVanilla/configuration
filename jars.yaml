@@ -39,6 +39,9 @@ plugins:
 - checksum: 24371475974a40ce674043ffd69b2a026d6263e8
   name: PlotSquared
   version: 7.3.9-SNAPSHOT
+- checksum: 5cb2143f5cf229f3f3407d6c5a9ff321f1161f8c
+  name: GFly
+  version: 2.3.0.0
 version:
   build: 123
   name: '1.21'
