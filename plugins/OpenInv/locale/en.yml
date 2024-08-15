@@ -14,6 +14,7 @@ messages:
     permissionPlayerOffline: '&cYou''re not allowed to open the inventory of offline
       players.'
     commandException: '&cAn error occurred. Please check console for details.'
+    permissionOpenOther: '&cYou''re not allowed to access others'' inventories.'
   info:
     containerBlocked: You are opening a blocked container.
     containerBlockedSilent: You are opening a blocked container silently.
