@@ -1,8 +1,8 @@
 platform: Velocity
 plugins:
-- checksum: 4a092186276103302022daed51b66e5edf5c1600
+- checksum: 0943da01516a5d254d41224d8a68562e7f5124c3
   name: LuckPerms
-  version: 5.4.131
+  version: 5.4.139
 - checksum: 5322ce52cc5ad082d561c13ca16f7ac4029b7737
   name: MiniMOTD
   version: 2.1.1
@@ -12,12 +12,12 @@ plugins:
 - checksum: 3c8c9a14a76520dbd9d2b41fd9d1138a26210fc6
   name: swap
   version: 1.0.0
-- checksum: 59d3f3178bceae798cfa8ba42491b30cd8da088d
+- checksum: 7466d60d8de8269bb82b5815638e7bc58bd180c8
   name: ViaBackwards
-  version: 5.0.1
-- checksum: 8679aea429cce389032aefec7184e0463bf8ecfd
+  version: 5.0.4-SNAPSHOT
+- checksum: bd9ba40e34c8dbf4e755072abeeb121e331a8616
   name: ViaVersion
-  version: 5.0.1
+  version: 5.0.3
 - checksum: 9305e3c8cb625819300757abb162f81fc47ee01a
   name: signedvelocity
   version: 1.2.2
