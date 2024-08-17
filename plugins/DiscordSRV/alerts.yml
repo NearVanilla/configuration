@@ -120,6 +120,4 @@ Alerts:
   #    Color: "#00ff00"
   #    Author:
   #      ImageUrl: "{embedavatarurl}"
-  #      Name: "* {username} ${#allArgs}"
-
-
+  #      Name: "* {username} ${#allArgs}"
