@@ -2,11 +2,18 @@
 # Need help? Join our Discord, https://discordsrv.com/discord
 
 # Don't touch pls
-ConfigVersion: 1.27.0
+ConfigVersion: 1.28.0
 
 # Bot token; don't know what this is? Look at the video on the plugin page for instructions
 # You must restart your server after changing this option
 BotToken: "{{ CREATIVE_DISCORDSRV_TOKEN }}"
+
+# The proxy to be used for Discord
+# Leave this alone if you don't understand what it does
+ProxyHost: "https://example.com"
+ProxyPort: 1234
+ProxyUser: "USERNAME"
+ProxyPassword: "PASSWORD"
 
 # Channel links from game to Discord
 # syntax is Channels: {"in-game channel name from Minecraft": "numerical channel ID from Discord", "another in-game channel name from Minecraft": "another numerical channel ID from Discord"}
@@ -63,10 +70,6 @@ DiscordInviteLink: "{{ DISCORDSRV_INVITE_LINK }}"
 #
 Debug: []
 
-# Legacy option for transitioning to the new Debug option,
-# setting this to anything above 0 is the same as setting Debug to [ALL]
-DebugLevel: 0
-
 # Experiments
 # These features are not fully optimized; use at your own risk
 
@@ -85,8 +88,8 @@ Experiment_WebhookChatMessageAvatarFromDiscord: false
 Experiment_WebhookChatMessageUsernameFilters: {}
 
 # Embed & webhook image/avatar url format
-# Alternative embed avatar url for offline servers:
-# https://cravatar.eu/helmavatar/{username}/{size}.png#{texture}
+# Leave blank to use a default value
+# Available placeholders: {texture} {username} {uuid} {uuid-nodashes} {size}
 AvatarUrl: https://minotar.net/helm/{uuid-nodashes}/{size}.png
 
 # Reserializer
@@ -98,7 +101,6 @@ Experiment_MCDiscordReserializer_InBroadcast: false
 # Other
 CancelConsoleCommandIfLoggingFailed: true
 ForcedLanguage: none
-PrintGuildsAndChannels: true
 ForceTLSv12: true
 NoopHostnameVerifier: false
 MaximumAttemptsForSystemDNSBeforeUsingFallbackDNS: 3
@@ -122,10 +124,12 @@ EnablePresenceInformation: false
 UseModernPaperChatEvent: false
 
 # Game Information
-# Sets the "Playing: ______" indicator for the bot.
+# Sets the user status for the bot
 # Can be a single, static value, or cycle through multiple different options
-# You can preface the status with "playing", "watching", or "listening to" to set the activity type
-# PlaceholderAPI placeholders are supported
+# You can preface the status with "playing", "watching", "listening to", or "competing" to set the activity type
+# You can set your own custom status by not including the prefixes
+#    %online%: number of online players
+#    PlaceholderAPI placeholders are supported
 #
 # DiscordGameStatus: Text to display. Can be a single value e.g. "Minecraft", or multiple values e.g. ["Minecraft", "yourip.changeme.com"]
 # DiscordOnlineStatus: Activity status to display. This must be one of the following: ONLINE, DND, IDLE or INVISIBLE
@@ -200,8 +204,8 @@ DiscordChatChannelRoleAliases: {"Developer": "Dev"}
 #
 DiscordConsoleChannelLogRefreshRateInSeconds: 5
 DiscordConsoleChannelUsageLog: "Console-%date%.log"
-DiscordConsoleChannelBlacklistActsAsWhitelist: false
-DiscordConsoleChannelBlacklistedCommands: ["?", "op", "deop", "execute"]
+DiscordConsoleChannelBlacklistActsAsWhitelist: true
+DiscordConsoleChannelBlacklistedCommands: ["paper", "timings", "tps"]
 DiscordConsoleChannelFilters: {".*(?i)async chat thread.*": "", ".*There are \\d+ of a max of \\d+ players online.*": "", "\\[\\/[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+(?::[0-9]+)?\\]": "[IP HIDDEN]"}
 DiscordConsoleChannelLevels: [info, warn, error]
 DiscordConsoleChannelUseCodeBlocks: true
@@ -289,7 +293,7 @@ ChannelTopicUpdaterRateInMinutes: 10
 #     %totalplayers%:   total number of players to ever join the main world
 #     %timestamp%:      current unix timestamp
 #   UpdateInterval: Time in minutes to wait between updating the channel's name (minimum is 10 due to rate limits)
-ChannelUpdater: 
+ChannelUpdater:
   - ChannelId: "0000000000000000"
     Format: "%playercount% players online"
     ShutdownFormat: "Server is offline"

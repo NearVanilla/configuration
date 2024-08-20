@@ -3,12 +3,12 @@ plugins:
 - checksum: cc628135106ef53b0995a87d4e198620dc8b7b00
   name: ArmorStandEditor
   version: 1.21-47
-- checksum: f55005317a18ec583a64821cf310b91d8f475c15
+- checksum: 7ecbc8662b2681a33ad68ffa0858a9bceba655c7
   name: DiscordSRV
-  version: 1.27.0
-- checksum: a583006bcf668cd001c5cef5a5586cce7a3ea434
+  version: 1.28.0
+- checksum: 4d94aef8f86b24c6effe541bd1094cd42d881ca7
   name: LuckPerms
-  version: 5.4.137
+  version: 5.4.139
 - checksum: f471bbcefbe5ef63f4a948b9c2a4d3abdee1e24a
   name: CarbonChat
   version: 3.0.0-beta.27
@@ -43,5 +43,5 @@ plugins:
   name: GFly
   version: 2.3.0.0
 version:
-  build: 123
-  name: '1.21'
+  build: 39
+  name: 1.21.1
