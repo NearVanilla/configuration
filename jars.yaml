@@ -48,13 +48,13 @@ plugins:
 - checksum: 4d94aef8f86b24c6effe541bd1094cd42d881ca7
   name: LuckPerms
   version: 5.4.139
-- checksum: 7d98e6cc99a7cd3ef92a6f45bdc27097065b9a5e
+- checksum: 92aecb0cf6d2a4da7e8ab30720976d477c6910ef
   name: spark
-  version: 1.10.71
+  version: 1.10.97
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
-- checksum: e6025dfdac4001e0fd85e2af628c57301c2830ec
+- checksum: 9edf62db56519682e30c3753f2964dc2b4250e1f
   name: dynmap
   version: 3.7-SNAPSHOT-948
 - checksum: 052318a649e0c0751cba7eec7e107e1b95bb06fd
@@ -100,5 +100,5 @@ plugins:
   name: HuntTheAdmins
   version: 1.0-SNAPSHOT
 version:
-  build: 26
+  build: 39
   name: 1.21.1
