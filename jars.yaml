@@ -3,9 +3,9 @@ plugins:
 - checksum: 0943da01516a5d254d41224d8a68562e7f5124c3
   name: LuckPerms
   version: 5.4.139
-- checksum: 5322ce52cc5ad082d561c13ca16f7ac4029b7737
+- checksum: 27bf326ad4df66eada968f545a77a5a585a19dea
   name: MiniMOTD
-  version: 2.1.1
+  version: 2.1.2
 - checksum: 0710c18e91eefe9a0dd2d82ba1a218ce8831409d
   name: bat
   version: 1.0.1
@@ -15,7 +15,7 @@ plugins:
 - checksum: 7466d60d8de8269bb82b5815638e7bc58bd180c8
   name: ViaBackwards
   version: 5.0.4-SNAPSHOT
-- checksum: bd9ba40e34c8dbf4e755072abeeb121e331a8616
+- checksum: e9e9bf96a426a971878aca29dabfc0e7c536782f
   name: ViaVersion
   version: 5.0.3
 - checksum: 9305e3c8cb625819300757abb162f81fc47ee01a
