@@ -1,14 +1,14 @@
 # These first 6 aren't configurable
 issues: "https://github.com/IntellectualSites/FastAsyncWorldEdit/issues"
 wiki: "https://intellectualsites.github.io/fastasyncworldedit-documentation/"
-date: "Sat Aug 31 00:00:00 UTC 2024"
-build: "https://ci.athion.net/job/FastAsyncWorldEdit/866"
-commit: "https://github.com/IntellectualSites/FastAsyncWorldEdit/commit/f06c52a7"
+date: "Thu Sep 12 00:00:00 UTC 2024"
+build: "https://ci.athion.net/job/FastAsyncWorldEdit/879"
+commit: "https://github.com/IntellectualSites/FastAsyncWorldEdit/commit/f2e1daef"
 platform: "Bukkit"
 # Set true to enable WorldEdit restrictions per region (e.g. PlotSquared or WorldGuard).
 # To be allowed to WorldEdit in a region, users need the appropriate
 # fawe.<plugin>  permission. See the Permissions page for supported region plugins.
-region-restrictions: false
+region-restrictions: true
 # FAWE will cancel non admin edits when memory consumption exceeds this %
 #  - Bypass with `/wea` or `//fast` or `fawe.bypass`
 #  - Disable with 100 or -1.
