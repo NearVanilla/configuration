@@ -1,6 +1,6 @@
 platform: Paper
 plugins:
-- checksum: 53255db02a0b72ea01457d8e7a8bb78305ad7ea4
+- checksum: cc628135106ef53b0995a87d4e198620dc8b7b00
   name: ArmorStandEditor
   version: 1.21-47
 - checksum: f55005317a18ec583a64821cf310b91d8f475c15
