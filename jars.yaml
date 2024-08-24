@@ -99,6 +99,15 @@ plugins:
 - checksum: d1cd4ef15eac3f5de887f960e41e6f4a18f307ed
   name: HuntTheAdmins
   version: 1.0-SNAPSHOT
+- checksum: 7ccd84c5dd7337fb216fcdd1d970036bd53e2f15
+  name: Rtag
+  version: 1.5.5
+- checksum: 664f0a6292616e5fc6cea345f6fe20fde56b03e6
+  name: ForgetfulTrialVault
+  version: 1.0.1
+- checksum: 8f6b8350693753ecdd8b365228fbb7c724f7f246
+  name: LootChestManager
+  version: 1.0-SNAPSHOT
 version:
   build: 39
   name: 1.21.1

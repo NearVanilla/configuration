@@ -15,7 +15,7 @@
 settings:
   use-map-color-cache: true
   minimum-api: none
-  allow-end: true
+  allow-end: false
   warn-on-overload: true
   permissions-file: permissions.yml
   update-folder: update

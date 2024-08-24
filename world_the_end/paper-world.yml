@@ -11,199 +11,199 @@ chunks:
   auto-save-interval: 17500
 feature-seeds:
   features:
-    minecraft:acacia: 6581247656577680895
-    minecraft:amethyst_geode: -1180420191497872744
-    minecraft:azalea_tree: 1705612471416393574
-    minecraft:bamboo_no_podzol: -983735690965197448
-    minecraft:bamboo_some_podzol: -4915119178067505567
-    minecraft:bamboo_vegetation: -2586931193558791973
-    minecraft:basalt_blobs: 4528914137878987787
-    minecraft:basalt_pillar: 1998828066812422923
-    minecraft:birch: -1380825786707252462
-    minecraft:birch_bees_0002: 5042414939573496442
-    minecraft:birch_bees_002: -9059717222250798261
-    minecraft:birch_bees_005: -8614355627873436389
-    minecraft:birch_tall: -133262338233006617
-    minecraft:blackstone_blobs: 141798973734872661
-    minecraft:blue_ice: 7227885781285393912
-    minecraft:bonus_chest: 1651257480460429223
-    minecraft:cave_vine: -8943941414787802418
-    minecraft:cave_vine_in_moss: 2857944148342611949
-    minecraft:cherry: -3913326119124409629
-    minecraft:cherry_bees_005: 548187485463815399
-    minecraft:chorus_plant: 3954079746197017739
-    minecraft:clay_pool_with_dripleaves: -3511904172855979300
-    minecraft:clay_with_dripleaves: -7426809712446191577
-    minecraft:crimson_forest_vegetation: -8560598016708870471
-    minecraft:crimson_forest_vegetation_bonemeal: -1802033113298664769
-    minecraft:crimson_fungus: -8565517209654036821
-    minecraft:crimson_fungus_planted: 8311061812333843343
-    minecraft:dark_forest_vegetation: -90418385866413707
-    minecraft:dark_oak: -9041946287069452927
-    minecraft:delta: 3346007008057631218
-    minecraft:desert_well: 2976527185512025653
-    minecraft:disk_clay: -2671509034817180692
-    minecraft:disk_grass: -7113282196482173161
-    minecraft:disk_gravel: -477653157754322794
-    minecraft:disk_sand: -7316361926837465864
-    minecraft:dripleaf: 8916423023283683355
-    minecraft:dripstone_cluster: -7296406435190878628
-    minecraft:end_gateway_delayed: -3075270389393006605
-    minecraft:end_gateway_return: 9011001658597040737
-    minecraft:end_island: 6320509041599754232
-    minecraft:end_platform: -2740535246378192315
-    minecraft:end_spike: 1918752438814833337
-    minecraft:fancy_oak: 7520785091685533002
-    minecraft:fancy_oak_bees: 3163824587842550646
-    minecraft:fancy_oak_bees_0002: 4978747236571371854
-    minecraft:fancy_oak_bees_002: 7438441914631380191
-    minecraft:fancy_oak_bees_005: 3857968431935109577
-    minecraft:flower_cherry: 6360080677866528029
-    minecraft:flower_default: -3276080485890237269
-    minecraft:flower_flower_forest: -2801535016717659496
-    minecraft:flower_meadow: 4618721440116622327
-    minecraft:flower_plain: -6657336909654253739
-    minecraft:flower_swamp: -1207391095703656503
-    minecraft:forest_flowers: 1350626941460936388
-    minecraft:forest_rock: -2237034036530854611
-    minecraft:fossil_coal: -1015411515730153126
-    minecraft:fossil_diamonds: -7548961027401307851
-    minecraft:freeze_top_layer: -5250115224298777623
-    minecraft:glow_lichen: -7648136822064555649
-    minecraft:glowstone_extra: -3366018655061830987
-    minecraft:huge_brown_mushroom: -698027551595471910
-    minecraft:huge_red_mushroom: -5775612575582878495
-    minecraft:ice_patch: -1281807795746493686
-    minecraft:ice_spike: 54561826153839361
-    minecraft:iceberg_blue: 2711649577348788735
-    minecraft:iceberg_packed: -2582969959652014029
-    minecraft:jungle_bush: 6845840294475570609
-    minecraft:jungle_tree: 6782980413937979993
-    minecraft:jungle_tree_no_vine: -8290586500478030858
-    minecraft:kelp: 3778132196618437237
-    minecraft:lake_lava: -6611252855776682826
-    minecraft:large_basalt_columns: -3071754611049318697
-    minecraft:large_dripstone: 641501407119969816
-    minecraft:lush_caves_clay: 2012181049946384757
-    minecraft:mangrove: 2986858557217673689
-    minecraft:mangrove_vegetation: -844651911612515319
-    minecraft:meadow_trees: -3985553917016328889
-    minecraft:mega_jungle_tree: 4460634912212867175
-    minecraft:mega_pine: -9141428990304474736
-    minecraft:mega_spruce: 3578188663256980679
-    minecraft:monster_room: -6614692850695551506
-    minecraft:moss_patch: -2097574188360532546
-    minecraft:moss_patch_bonemeal: -2671217079780618055
-    minecraft:moss_patch_ceiling: 3423507521391650981
-    minecraft:moss_vegetation: 6471255173224299784
-    minecraft:mushroom_island_vegetation: 110625545744668707
-    minecraft:nether_sprouts: -7599422031555641371
-    minecraft:nether_sprouts_bonemeal: 4869184967844890188
-    minecraft:oak: 1547465539562431707
-    minecraft:oak_bees_0002: -7320919337020344689
-    minecraft:oak_bees_002: -928849479373255955
-    minecraft:oak_bees_005: 1405851327125596627
-    minecraft:ore_ancient_debris_large: 5857566164640929069
-    minecraft:ore_ancient_debris_small: -3389955664589215834
-    minecraft:ore_andesite: 7853801460261418867
-    minecraft:ore_blackstone: 4061605912705409634
-    minecraft:ore_clay: 2622035849476107303
-    minecraft:ore_coal: 191195307615083392
-    minecraft:ore_coal_buried: -5443897961378344167
-    minecraft:ore_copper_large: -3878268434633689264
-    minecraft:ore_copper_small: 2442014818167338186
-    minecraft:ore_diamond_buried: -5308042324910552594
-    minecraft:ore_diamond_large: -1816839954821333089
-    minecraft:ore_diamond_medium: -8184706209199587054
-    minecraft:ore_diamond_small: 899570472521257152
-    minecraft:ore_diorite: -2155035070943711000
-    minecraft:ore_dirt: -7224047727973552591
-    minecraft:ore_emerald: -7352987593088535494
-    minecraft:ore_gold: -5851563208327823146
-    minecraft:ore_gold_buried: -1463089452048531842
-    minecraft:ore_granite: 1747367399684445666
-    minecraft:ore_gravel: -107785427150547608
-    minecraft:ore_gravel_nether: -7408987965493090414
-    minecraft:ore_infested: 3498041450341139032
-    minecraft:ore_iron: 4994398823203014325
-    minecraft:ore_iron_small: -3043091768232810466
-    minecraft:ore_lapis: -3272354495580703606
-    minecraft:ore_lapis_buried: 8050837189417551990
-    minecraft:ore_magma: -7923379312257389952
-    minecraft:ore_nether_gold: 3445634791605252638
-    minecraft:ore_quartz: 6268184509510915898
-    minecraft:ore_redstone: -3923419897174635935
-    minecraft:ore_soul_sand: 1946098645569655278
-    minecraft:ore_tuff: -8848991582229643190
-    minecraft:patch_berry_bush: 7823059213894946462
-    minecraft:patch_brown_mushroom: 7255021571518096149
-    minecraft:patch_cactus: -7559102869344675246
-    minecraft:patch_crimson_roots: 3419275551488268049
-    minecraft:patch_dead_bush: 7056204979610896403
-    minecraft:patch_fire: 7215059160749970688
-    minecraft:patch_grass: 3312915402764547148
-    minecraft:patch_grass_jungle: -539490912966785464
-    minecraft:patch_large_fern: 2976852292784693255
-    minecraft:patch_melon: 303863014428534744
-    minecraft:patch_pumpkin: -5247079040553743872
-    minecraft:patch_red_mushroom: 2378885252817251306
-    minecraft:patch_soul_fire: -1385159469850013255
-    minecraft:patch_sugar_cane: 7326693221898109660
-    minecraft:patch_sunflower: -4417714730774262405
-    minecraft:patch_taiga_grass: 2720347035508155213
-    minecraft:patch_tall_grass: -3159997317980294030
-    minecraft:patch_waterlily: -4309819744662664525
-    minecraft:pile_hay: 8160765096785953237
-    minecraft:pile_ice: -259108934106840787
-    minecraft:pile_melon: -2371000351812792033
-    minecraft:pile_pumpkin: 5792059344883893367
-    minecraft:pile_snow: -6429760023956487384
-    minecraft:pine: 2371021952096303101
-    minecraft:pointed_dripstone: -7267620653449654034
-    minecraft:rooted_azalea_tree: 6910472758081052447
-    minecraft:sculk_patch_ancient_city: -5573700662292694927
-    minecraft:sculk_patch_deep_dark: -1910011864191054899
-    minecraft:sculk_vein: 3418953135302305599
-    minecraft:sea_pickle: -9057047208648206392
-    minecraft:seagrass_mid: -1879335785157778579
-    minecraft:seagrass_short: 9044689981453609041
-    minecraft:seagrass_simple: 8766913092534041618
-    minecraft:seagrass_slightly_less_short: -7818776783350040395
-    minecraft:seagrass_tall: -959269660561377505
-    minecraft:single_piece_of_grass: 3433580368519982972
-    minecraft:small_basalt_columns: -4604474641056502974
-    minecraft:spore_blossom: 3401741104047390100
-    minecraft:spring_lava_frozen: -5121833481345733139
-    minecraft:spring_lava_nether: -8043377174009201103
-    minecraft:spring_lava_overworld: -4540633298701453878
-    minecraft:spring_nether_closed: -8796475737922260585
-    minecraft:spring_nether_open: -5508113711230488907
-    minecraft:spring_water: 4555172359498182504
-    minecraft:spruce: -2493127577617954977
-    minecraft:super_birch_bees: -8003014300848927243
-    minecraft:super_birch_bees_0002: 8321320844758080617
-    minecraft:swamp_oak: -3685381028476653077
-    minecraft:tall_mangrove: 5353697807319257289
-    minecraft:trees_birch_and_oak: 7269394273032073144
-    minecraft:trees_flower_forest: -1808519285749207344
-    minecraft:trees_grove: 4937551902804786620
-    minecraft:trees_jungle: 8504114219034249743
-    minecraft:trees_old_growth_pine_taiga: -8150832718483355069
-    minecraft:trees_old_growth_spruce_taiga: 5526074224642139949
-    minecraft:trees_plains: 4406807734298026033
-    minecraft:trees_savanna: -6663683448692789813
-    minecraft:trees_sparse_jungle: 8919444189539192414
-    minecraft:trees_taiga: 3948913404397840317
-    minecraft:trees_water: -1319344063134986764
-    minecraft:trees_windswept_hills: -9217164315840951647
-    minecraft:twisting_vines: -6674859686857795615
-    minecraft:twisting_vines_bonemeal: 3846002087790661560
-    minecraft:underwater_magma: -2655538030458752575
-    minecraft:vines: 207566150133151237
-    minecraft:void_start_platform: 1661095076200703436
-    minecraft:warm_ocean_vegetation: -2354630288858472491
-    minecraft:warped_forest_vegetation: -5294577021542699354
-    minecraft:warped_forest_vegetation_bonemeal: 4072018180821259725
-    minecraft:warped_fungus: 8845852911711353420
-    minecraft:warped_fungus_planted: 8152297058458231711
-    minecraft:weeping_vines: -6655640142269015182
+    minecraft:acacia: 658124765657{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:amethyst_geode: -118042019149{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:azalea_tree: 170561247141{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:bamboo_no_podzol: -98373569096{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:bamboo_some_podzol: -491511917806{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:bamboo_vegetation: -258693119355{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:basalt_blobs: 452891413787{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:basalt_pillar: 199882806681{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:birch: -138082578670{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:birch_bees_0002: 504241493957{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:birch_bees_002: -905971722225{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:birch_bees_005: -861435562787{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:birch_tall: -13326233823{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:blackstone_blobs: 14179897373{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:blue_ice: 722788578128{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:bonus_chest: 165125748046{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:cave_vine: -894394141478{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:cave_vine_in_moss: 285794414834{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:cherry: -391332611912{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:cherry_bees_005: 54818748546{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:chorus_plant: 395407974619{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:clay_pool_with_dripleaves: -351190417285{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:clay_with_dripleaves: -742680971244{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:crimson_forest_vegetation: -856059801670{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:crimson_forest_vegetation_bonemeal: -180203311329{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:crimson_fungus: -856551720965{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:crimson_fungus_planted: 831106181233{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:dark_forest_vegetation: -9041838586{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:dark_oak: -904194628706{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:delta: 334600700805{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:desert_well: 297652718551{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:disk_clay: -267150903481{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:disk_grass: -711328219648{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:disk_gravel: -47765315775{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:disk_sand: -731636192683{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:dripleaf: 891642302328{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:dripstone_cluster: -729640643519{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:end_gateway_delayed: -307527038939{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:end_gateway_return: 901100165859{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:end_island: 632050904159{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:end_platform: -274053524637{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:end_spike: 191875243881{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:fancy_oak: 752078509168{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:fancy_oak_bees: 316382458784{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:fancy_oak_bees_0002: 497874723657{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:fancy_oak_bees_002: 743844191463{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:fancy_oak_bees_005: 385796843193{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:flower_cherry: 636008067786{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:flower_default: -327608048589{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:flower_flower_forest: -280153501671{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:flower_meadow: 461872144011{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:flower_plain: -665733690965{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:flower_swamp: -120739109570{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:forest_flowers: 135062694146{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:forest_rock: -223703403653{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:fossil_coal: -101541151573{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:fossil_diamonds: -754896102740{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:freeze_top_layer: -525011522429{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:glow_lichen: -764813682206{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:glowstone_extra: -336601865506{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:huge_brown_mushroom: -69802755159{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:huge_red_mushroom: -577561257558{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ice_patch: -128180779574{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ice_spike: 5456182615{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:iceberg_blue: 271164957734{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:iceberg_packed: -258296995965{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:jungle_bush: 684584029447{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:jungle_tree: 678298041393{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:jungle_tree_no_vine: -829058650047{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:kelp: 377813219661{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:lake_lava: -661125285577{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:large_basalt_columns: -307175461104{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:large_dripstone: 64150140711{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:lush_caves_clay: 201218104994{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:mangrove: 298685855721{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:mangrove_vegetation: -84465191161{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:meadow_trees: -398555391701{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:mega_jungle_tree: 446063491221{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:mega_pine: -914142899030{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:mega_spruce: 357818866325{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:monster_room: -661469285069{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:moss_patch: -209757418836{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:moss_patch_bonemeal: -267121707978{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:moss_patch_ceiling: 342350752139{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:moss_vegetation: 647125517322{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:mushroom_island_vegetation: 11062554574{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:nether_sprouts: -759942203155{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:nether_sprouts_bonemeal: 486918496784{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:oak: 154746553956{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:oak_bees_0002: -732091933702{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:oak_bees_002: -92884947937{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:oak_bees_005: 140585132712{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_ancient_debris_large: 585756616464{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_ancient_debris_small: -338995566458{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_andesite: 785380146026{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_blackstone: 406160591270{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_clay: 262203584947{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_coal: 19119530761{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_coal_buried: -544389796137{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_copper_large: -387826843463{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_copper_small: 244201481816{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_diamond_buried: -530804232491{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_diamond_large: -181683995482{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_diamond_medium: -818470620919{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_diamond_small: 89957047252{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_diorite: -215503507094{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_dirt: -722404772797{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_emerald: -735298759308{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_gold: -585156320832{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_gold_buried: -146308945204{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_granite: 174736739968{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_gravel: -10778542715{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_gravel_nether: -740898796549{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_infested: 349804145034{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_iron: 499439882320{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_iron_small: -304309176823{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_lapis: -327235449558{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_lapis_buried: 805083718941{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_magma: -792337931225{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_nether_gold: 344563479160{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_quartz: 626818450951{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_redstone: -392341989717{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_soul_sand: 194609864556{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:ore_tuff: -884899158222{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_berry_bush: 782305921389{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_brown_mushroom: 725502157151{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_cactus: -755910286934{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_crimson_roots: 341927555148{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_dead_bush: 705620497961{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_fire: 721505916074{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_grass: 331291540276{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_grass_jungle: -53949091296{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_large_fern: 297685229278{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_melon: 30386301442{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_pumpkin: -524707904055{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_red_mushroom: 237888525281{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_soul_fire: -138515946985{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_sugar_cane: 732669322189{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_sunflower: -441771473077{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_taiga_grass: 272034703550{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_tall_grass: -315999731798{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_waterlily: -430981974466{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:pile_hay: 816076509678{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:pile_ice: -25910893410{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:pile_melon: -237100035181{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:pile_pumpkin: 579205934488{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:pile_snow: -642976002395{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:pine: 237102195209{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:pointed_dripstone: -726762065344{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:rooted_azalea_tree: 691047275808{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:sculk_patch_ancient_city: -557370066229{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:sculk_patch_deep_dark: -191001186419{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:sculk_vein: 341895313530{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:sea_pickle: -905704720864{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:seagrass_mid: -187933578515{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:seagrass_short: 904468998145{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:seagrass_simple: 876691309253{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:seagrass_slightly_less_short: -781877678335{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:seagrass_tall: -95926966056{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:single_piece_of_grass: 343358036851{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:small_basalt_columns: -460447464105{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:spore_blossom: 340174110404{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:spring_lava_frozen: -512183348134{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:spring_lava_nether: -804337717400{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:spring_lava_overworld: -454063329870{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:spring_nether_closed: -879647573792{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:spring_nether_open: -550811371123{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:spring_water: 455517235949{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:spruce: -249312757761{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:super_birch_bees: -800301430084{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:super_birch_bees_0002: 832132084475{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:swamp_oak: -368538102847{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:tall_mangrove: 535369780731{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:trees_birch_and_oak: 726939427303{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:trees_flower_forest: -180851928574{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:trees_grove: 493755190280{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:trees_jungle: 850411421903{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:trees_old_growth_pine_taiga: -815083271848{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:trees_old_growth_spruce_taiga: 552607422464{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:trees_plains: 440680773429{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:trees_savanna: -666368344869{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:trees_sparse_jungle: 891944418953{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:trees_taiga: 394891340439{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:trees_water: -131934406313{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:trees_windswept_hills: -921716431584{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:twisting_vines: -667485968685{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:twisting_vines_bonemeal: 384600208779{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:underwater_magma: -265553803045{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:vines: 20756615013{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:void_start_platform: 166109507620{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:warm_ocean_vegetation: -235463028885{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:warped_forest_vegetation: -529457702154{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:warped_forest_vegetation_bonemeal: 407201818082{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:warped_fungus: 884585291171{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:warped_fungus_planted: 815229705845{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:weeping_vines: -665564014226{{ FEATURE_SEED_SUFFIX_END }}

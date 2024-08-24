@@ -1,0 +1,5 @@
+#Milliseconds: How long should players wait before they can reset a vault
+#0 = no delay, allow players to spam keys
+RESET_DELAY: 273600000
+#If there is a delay on the vault, should it send a message to the player letting them know how much time left
+PRINT_TIME_REMAINING: false
