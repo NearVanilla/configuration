@@ -79,14 +79,6 @@ tracking-warning-pps: 120
 tracking-max-warnings: 4
 # The kick message sent if the user hits the max packets per second.
 tracking-max-kick-msg: You are sending too many packets, :(
-#
-#----------------------------------------------------------#
-#                 MULTIPLE VERSIONS OPTIONS                #
-#----------------------------------------------------------#
-#
-# Whether to make sure ViaVersion's UserConnection object is already available in the PlayerJoinEvent.
-# You may disable this for faster startup/join time if you are 100% sure no plugin requires this.
-register-userconnections-on-join: true
 # Should we enable our hologram patch?
 # If they're in the wrong place, enable this
 hologram-patch: false
@@ -139,9 +131,6 @@ resource-pack-1_17-prompt: ''
 # Only disable this if you know what you are doing.
 cache-1_17-light: true
 #
-# Force-update 1.19.4+ player's inventory when they try to swap armor in a pre-occupied slot.
-armor-toggle-fix: true
-#
 # Get the world names which should be returned for each vanilla dimension
 map-1_16-world-names:
   overworld: minecraft:overworld
@@ -167,7 +156,7 @@ handle-invalid-item-count: false
 prevent-collision: true
 # If the above is true, should we automatically team players until you do?
 auto-team: true
-# When enabled if certain metadata can't be read, we won't tell you about it
+# When enabled if certain entity data can't be read, we won't tell you about it
 suppress-metadata-errors: false
 # When enabled, 1.9+ will be able to block by using shields
 shield-blocking: true
@@ -187,15 +176,13 @@ bossbar-patch: true
 bossbar-anti-flicker: false
 # This will show the new effect indicator in the top-right corner for 1.9+ players.
 use-new-effect-indicator: true
-# Show the new death messages for 1.9+ on the death screen
-use-new-deathmessages: true
 # Should we replace extended pistons to fix 1.10.1 (Only on chunk loading)?
 replace-pistons: false
 # What id should we replace with, default is air. (careful of players getting stuck standing on them)
 replacement-piston-id: 0
 # Fix 1.9+ clients not rendering the far away chunks and improve chunk rendering when moving fast (Increases network usage and decreases client fps slightly)
 chunk-border-fix: false
-# Minimize the cooldown animation in 1.8 servers
-minimize-cooldown: true
 # Allows 1.9+ left-handedness (main hand) on 1.8 servers
 left-handed-handling: true
+# Tries to cancel block break/place sounds sent by 1.8 servers to 1.9+ clients to prevent them from playing twice
+cancel-block-sounds: true
