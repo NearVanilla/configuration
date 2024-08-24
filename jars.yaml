@@ -1,6 +1,6 @@
 platform: Paper
 plugins:
-- checksum: 53255db02a0b72ea01457d8e7a8bb78305ad7ea4
+- checksum: cc628135106ef53b0995a87d4e198620dc8b7b00
   name: ArmorStandEditor
   version: 1.21-47
 - checksum: 8d447a7ebe4d0c0bcca4a5f78cf7043e3432475a
@@ -30,9 +30,9 @@ plugins:
 - checksum: 1ffc1a060c77e071aa4f41a3fb482704c6afe2eb
   name: Hat
   version: 1.5.0
-- checksum: 487eac5125d2126d0e31c99e17abd88112d0230c
+- checksum: 0c30f38fec62ed09497b6d433f1b2cc954baa8cc
   name: IsSlimeChunk
-  version: 1.0.3
+  version: 1.0.4
 - checksum: c8c78165907a53a5f542673b49c5cdd74f8cbf76
   name: OnePlayerSleep
   version: 1.0.6-2-ga87aac8
