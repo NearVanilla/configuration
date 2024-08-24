@@ -47,7 +47,7 @@ You are PROHIBITED from:
 -- As part of a modpack or as part of a larger datapack.
 
 - Using this datapack when it has been downloaded from any non-official source.
--- At the time of writing, this datapack is only uploaded on Planet Minecraft, the Datapack Cente, CurseForge, Minecraft Forums, MinecraftMaps.com, and MCCreations.com, and always by me (Cavinator1). Any form of this datapack that has been uploaded on any other site by any other user is in breach of this licence.
+-- At the time of writing, this datapack is only actively uploaded on Planet Minecraft, Modrinth and CurseForge, always by me (Cavinator1). Older versions of this datapack have been uploaded to the Datapack Centre, Minecraft Forums, MinecraftMaps.com, and MCCreations.com, but are no longer updated there. Any form of this datapack that has been uploaded on any other site by any other user is in breach of this licence.
 
 - Using this datapack in a video, stream or other content without giving credit AND/OR attempting to take credit for this datapack's development.
 
