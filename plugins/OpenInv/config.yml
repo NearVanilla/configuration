@@ -1,19 +1,11 @@
-config-version: 6
+config-version: 8
 settings:
   disable-saving: false
-  locale: en_us
   disable-offline-access: false
   command:
     open:
       no-args-opens-self: false
     searchcontainer:
       max-radius: 10
-toggles:
-  silent-chest:
-    1ad6177c-322a-438a-af9c-9fd19f44771d: false
-    c704aecb-564b-4e23-90c9-b607d005e168: false
-    e6205625-4b6b-4e6f-ae74-ab335d52dfb8: false
-  any-chest:
-    c704aecb-564b-4e23-90c9-b607d005e168: true
-    1ad6177c-322a-438a-af9c-9fd19f44771d: false
-    e6205625-4b6b-4e6f-ae74-ab335d52dfb8: false
+  console-locale: en
+  equal-access: view
