@@ -66,6 +66,7 @@ feature-seeds:
     minecraft:end_gateway_delayed: -4641747965031731707
     minecraft:end_gateway_return: 7387007125764944129
     minecraft:end_island: 7755399883990687656
+    minecraft:end_platform: -655347975097660194
     minecraft:end_spike: -8636711748367353433
     minecraft:fancy_oak: -8072610753041548258
     minecraft:fancy_oak_bees: 2096387942372570073
