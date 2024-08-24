@@ -4,3 +4,4 @@ dotenv # load .env file
 dotenv .env-b2
 
 export DEBUG=<EXAMPLE>
+PATH_add ./scripts/code/
