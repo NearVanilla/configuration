@@ -14,4 +14,4 @@ for (( i=0; i<max_n; i++ )); do
     echo "clear Prof_Bloodstone" >&3
   fi
   echo "give Prof_Bloodstone minecraft:filled_map{map:$((i+initial))}" >&3
-done 3> >(docker-compose exec -T creative rcon-cli)
+done 3> >(docker compose exec -T creative rcon-cli)

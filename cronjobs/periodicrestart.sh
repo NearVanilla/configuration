@@ -37,7 +37,7 @@ rcon_cli() {
   local -r container_name="${1?}"
   shift
   local -r command=( "${@}" )
-  docker-compose exec -T "${container_name}" rcon-cli --port 25575 "${command[@]}"
+  docker compose exec -T "${container_name}" rcon-cli --port 25575 "${command[@]}"
 }
 
 check_server_running() {
@@ -45,7 +45,7 @@ check_server_running() {
   local id
   local status
   local ecode
-  id="$(docker-compose ps -q "${container_name}")" || {
+  id="$(docker compose ps -q "${container_name}")" || {
     ecode=$?
     echo "Server not existing?"
     return $ecode
@@ -86,7 +86,7 @@ for target_server in "${target_servers[@]}"; do
   [ "${target_server}" = "velocity" ] || rcon_cli "${target_server}" "kick @a Periodic server restart, sorry :/"
 done
 
-docker-compose stop "${target_servers[@]}"
+docker compose stop "${target_servers[@]}"
 git pull --ff-only --autostash
 git submodule update --init
-docker-compose up -d --build "${target_servers[@]}" "website"
+docker compose up -d --build "${target_servers[@]}" "website"

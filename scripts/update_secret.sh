@@ -18,7 +18,7 @@ EOF
 
 if [[ -t 1 ]]; then
   printf 'Stdout is a tty - skipping update of %s number\n' "${secret_file}" >&2
-  printf 'To update, run: ./scripts/update_secret.sh | docker-compose exec -T survival rcon-cli\n' >&2
+  printf 'To update, run: ./scripts/update_secret.sh | docker compose exec -T survival rcon-cli\n' >&2
 else
   printf 'Stdout is NOT a tty - updating %s number\n' "${secret_file}" >&2
   printf '%d' "${new_secret_val}" >| "${secret_file}"

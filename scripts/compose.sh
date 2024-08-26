@@ -33,4 +33,4 @@ for arg in "${original_args[@]}"; do
   new_args+=( "$(translate_arg "${arg}")" )
 done
 
-docker-compose "${new_args[@]}"
+docker compose "${new_args[@]}"

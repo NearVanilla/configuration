@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-# Usage: ./scripts/tab_overlord.sh | docker-compose exec -T survival rcon-cli
+# Usage: ./scripts/tab_overlord.sh | docker compose exec -T survival rcon-cli
 # json_config='
 # {
 #   "text": "",

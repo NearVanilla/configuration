@@ -7,4 +7,4 @@ cd "${toplevel}"
 
 cp -v server-config/survival/{whitelist.json,ban*.json} server-config/creative/
 
-docker-compose exec -T creative rcon-cli whitelist reload
+docker compose exec -T creative rcon-cli whitelist reload

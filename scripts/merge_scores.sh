@@ -26,7 +26,7 @@ trap cleanup EXIT
 send_cmd() {
   local command="$1"
   printf 'CMD: %s\n' "${1}"
-  docker-compose exec -T survival rcon-cli <<<"${1}"
+  docker compose exec -T survival rcon-cli <<<"${1}"
 }
 
 

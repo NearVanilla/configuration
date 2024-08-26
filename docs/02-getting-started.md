@@ -14,12 +14,12 @@ pip install pre-commit
 pre-commit install
 ```
 
-### docker and docker-compose
+### docker and docker compose
 
 Required to actually run the server and necessary services.
 
 Follow the guide at: <https://docs.docker.com/engine/install/ubuntu/>
-Then install `docker-compose` through your package manager or pip.
+Then install `docker compose` through your package manager or pip.
 
 ### mineager
 
@@ -49,10 +49,10 @@ You need to make a copy of each and every one of them without the `.example` suf
 
 ### Running the services
 
-You can use `docker-compose up -d --build <SERVICE>` to start a service in the background.
+You can use `docker compose up -d --build <SERVICE>` to start a service in the background.
 It'll download latest changes, prepare configs and start the server.
 
 To tweak how the startup/stopping should be handled,
 create one of the files mentioned at the top of <../docker/entrypoint.sh>.
 
-Run `docker-compose stop <SERVICE>` to stop it.
+Run `docker compose stop <SERVICE>` to stop it.
