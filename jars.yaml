@@ -105,9 +105,9 @@ plugins:
 - checksum: 664f0a6292616e5fc6cea345f6fe20fde56b03e6
   name: ForgetfulTrialVault
   version: 1.0.1
-- checksum: 4ffd7e10479be66ab88c706b0573f881c9961e36
+- checksum: 6523c3d687d245e7c8e39556a05c59aa48d55975
   name: LootChestManager
-  version: 1.0-SNAPSHOT
+  version: 1.3-SNAPSHOT
 version:
   build: 39
   name: 1.21.1
