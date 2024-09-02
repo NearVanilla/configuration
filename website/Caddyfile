@@ -25,12 +25,12 @@ http://*.{$DOMAIN} {
 
 # Snippet https://caddyserver.com/docs/caddyfile/concepts#snippets
 (mapredir) {
-	#reverse_proxy survival:25566 {
-	#	header_up Host {http.reverse_proxy.upstream.hostport}
-	#}
-	root * /usr/share/caddy
-	file_server
-	try_files {path} {path}.html /map_coming_soon.html
+	reverse_proxy survival:25566 {
+		header_up Host {http.reverse_proxy.upstream.hostport}
+	}
+	#root * /usr/share/caddy
+	#file_server
+	#try_files {path} {path}.html /map_coming_soon.html
 }
 
 (bluemap) {
