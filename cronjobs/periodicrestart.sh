@@ -17,6 +17,8 @@ readonly countdown_times=(
   0
 )
 
+readonly btrfs_volume=/btrfs/home
+
 readonly scriptpath="$(realpath "${0}")"
 readonly scriptdir="$(dirname "${scriptpath}")"
 readonly gitroot="$(git -C "${scriptdir}" rev-parse --show-toplevel)"
@@ -62,6 +64,36 @@ check_server_running() {
   }
 }
 
+handle_backup() {
+  local -r offset_days='7'
+  local -r check_back_days='3'
+  local -r date_args=(
+    --utc
+    --iso-8601
+  )
+  if ! command -v btrfs; then
+    echo "BTRFS command is missing - skipping backup"
+    return
+  fi
+  if ! [ -e "${btrfs_volume}" ]; then
+    echo "BTRFS volume is missing - failing"
+    return 1
+  fi
+  local today
+  today="$(date "${date_args[@]}")"
+  sudo btrfs subvolume snapshot "${btrfs_volume}" "${btrfs_volume}_restart_${today}"
+  local offset delete_day delete_date delete_path
+  for (( offset=0; offset < "${check_back_days}"; ++offset )); do
+    delete_day="$(( offset_days + offset ))"
+    delete_date="$(date -d "${delete_day} days ago" "${date_args[@]}")"
+    delete_path="${btrfs_volume}_restart_${delete_date}"
+    if [ -e "${delete_path}" ]; then
+      echo "Deleting ${delete_path}"
+      sudo btrfs subvolume delete "${delete_path}"
+    fi
+  done
+}
+
 target_servers=( "${@}" )
 if [  "${#target_servers[@]}" -eq 0 ]; then
   for confdir in "${gitroot}"/server-config/*; do
@@ -87,6 +119,7 @@ for target_server in "${target_servers[@]}"; do
 done
 
 docker compose stop "${target_servers[@]}"
+handle_backup
 git pull --ff-only --autostash
 git submodule update --init
 docker compose up -d --build "${target_servers[@]}" "website"
