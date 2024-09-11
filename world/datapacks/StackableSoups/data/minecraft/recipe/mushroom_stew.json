@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:brown_mushroom"
+      },
+      {
+        "item": "minecraft:red_mushroom"
+      }
+    ],
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "minecraft:mushroom_stew",
+    "count": 1,
+    "components": {
+      "minecraft:max_stack_size": 64
+    }
+  }
+}
