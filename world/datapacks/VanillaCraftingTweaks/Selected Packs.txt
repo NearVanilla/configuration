@@ -2,4 +2,5 @@ Vanilla Tweaks Crafting Tweaks
 Version: 1.21
 Packs:
 	universal dyeing
+	craftable bundles leather
 	craftable coral blocks 2x2
