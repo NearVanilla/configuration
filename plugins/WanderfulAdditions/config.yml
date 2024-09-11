@@ -11,16 +11,17 @@ wands:
             glow: true
         crafting:
             shape: 
-            - E
-            - E
+            - D
+            - I
             - S
             ingredients:
                 S: STICK
-                E: EMERALD
+                I: ITEM_FRAME
+                D: DIAMOND
             amount: 1
-            enabled: false
+            enabled: true
         wandering_trader:
-            chance: 20
+            chance: 5
             uses:
                 min: 1
                 max: 2
@@ -41,16 +42,17 @@ wands:
             glow: true
         crafting:
             shape: 
-            - E
-            - S
+            - D
+            - A
             - S
             ingredients:
                 S: STICK
-                E: EMERALD
+                A: ARMOR_STAND
+                D: DIAMOND
             amount: 1
-            enabled: false
+            enabled: true
         wandering_trader:
-            chance: 20
+            chance: 5
             uses:
                 min: 1
                 max: 2
