@@ -108,6 +108,12 @@ plugins:
 - checksum: 6523c3d687d245e7c8e39556a05c59aa48d55975
   name: LootChestManager
   version: 1.3-SNAPSHOT
+- checksum: 2cf368d0c06331531e5a3e84ad57e679afef719d
+  name: CustomDiscs
+  version: 2.0.0
+- checksum: 5ae6349bc9020c0242dda226bf1a115af4478a11
+  name: ProtocolLib
+  version: 5.3.0-SNAPSHOT-726
 version:
   build: 76
   name: 1.21.1
