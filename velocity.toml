@@ -63,7 +63,7 @@ enable-player-address-logging = true
 	survival = "survival:25565"
 	creative = "creative:25565"
 	# In what order we should try servers when a player logs in or is kicked from a server.
-	try = ["survival", "creative"]
+	try = ["survival"]
 # Configure your forced hosts here.
 [forced-hosts]
 	"creative.{{ DOMAIN }}" = ["creative"]
