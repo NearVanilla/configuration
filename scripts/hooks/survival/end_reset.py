@@ -93,6 +93,7 @@ EXCLUSIONS = [
     Square(x1=1111, z1=1111, x2=-1111, z2=-1111),  # Spawn island
     Square(x1=-2, z1=999995, x2=2, z2=1000001),  # Buk's 1mil platform
     Square(x1=153, z1=-1837, x2=132, z2=-1817),  # Demo & Sunny Shulker Farm
+    Square(x1=-550, z1=500, x2=550, z2=1550),  # Astral's End Base
 ]
 
 
