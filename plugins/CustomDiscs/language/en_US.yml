@@ -1,0 +1,70 @@
+version: 2.0.0
+language:
+  prefix:
+    normal: '<dark_aqua>CustomDiscs <white>- '
+    debug: '<yellow>[CustomDiscs Debug] '
+    info: <blue>[CustomDiscs Info] <reset>
+    error: '<red>[CustomDiscs Error] '
+  error:
+    command:
+      cant-perform: You can't execute that command!
+      no-permission: No permission to perform that command!
+      unknown-extension: File extension must be <dark_aqua>wav<white>, <dark_aqua>flac
+        <white>or <dark_aqua>mp3<white>!
+      invalid-filename: Invalid filename!
+      disc-name-empty: You must specify the disc name.
+    play:
+      no-permission: No permissions to play that disc!
+      no-matches: No URL matches!
+      audio-load: Error loading audio!
+      while-playing: Error while playing disc!
+    file:
+      not-found: File not found!
+  command:
+    download:
+      syntax: <dark_aqua>/cd download <direct link> <name.extension>
+      description: <white>Downloads music file from URL.
+      messages:
+        downloading: <gray>Downloading file...
+        successfully: File successfully downloaded!
+        create-tooltip: Create disc, using command {0}
+        error:
+          while-download: Error while downloading file.
+          file-too-large: File size larger than {0}mb.
+    reload:
+      syntax: <dark_aqua>/cd reload
+      description: <white>Reloads configuration files.
+      messages:
+        successfully: Plugin successfully reloaded.
+    createyt:
+      syntax: <dark_aqua>/cd createyt <video url> <disc name>
+      description: <white>Create disc with music from YouTube.
+      messages:
+        link: '<white>Audio URL: <dark_aqua>{0}'
+    create:
+      syntax: <dark_aqua>/cd create <file name> <disc name>
+      description: <white>Creates music disc.
+      messages:
+        error:
+          not-holding-disc: First, take a disc in your hand!
+        name: '<white>Disc name: <dark_aqua>{0}'
+        file: '<white>Filename: <dark_aqua>{0}'
+    distance:
+      syntax: <dark_aqua>/cd distance <radius>
+      description: <white>Sets the radius for the jukebox.
+      messages:
+        error:
+          not-jukebox: You didn't click on the jukebox
+        success: The radius of the jukebox was set to {0}.
+        click: Click on the jukebox to which you want to set the radius.
+    help:
+      syntax: <dark_aqua>/cd help
+      description: <white>Shows command help
+      messages:
+        header: <white>Custom discs
+        format: '{0}<white>: {1}'
+        footer: ''
+  disc-name:
+    simple: <white>Music disc
+    youtube: <white>YouTube disc
+  now-playing: '<gold>Now playing: {0}'
