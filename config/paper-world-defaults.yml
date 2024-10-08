@@ -141,6 +141,7 @@ entities:
         cobblestone: 300
     count-all-mobs-for-spawning: false
     creative-arrow-despawn-rate: '300'
+    despawn-range-shape: ELLIPSOID
     despawn-ranges:
       ambient:
         hard: 96
@@ -275,6 +276,7 @@ lootables:
   reset-seed-on-fill: true
   restrict-player-reloot: false
   restrict-player-reloot-time: disabled
+  retain-unlooted-shulker-box-loot-table-on-non-player-break: true
 maps:
   item-frame-cursor-limit: 128
   item-frame-cursor-update-interval: 10
@@ -286,6 +288,7 @@ max-growth-height:
   reeds: 3
 misc:
   allow-permanent-chunk-loaders: false
+  alternate-current-update-order: HORIZONTAL_FIRST_OUTWARD
   disable-end-credits: true
   disable-relative-projectile-velocity: false
   disable-sprint-interruption-on-attack: false
