@@ -32,6 +32,7 @@ anticheat:
     - clay
     - emerald_ore
     - ender_chest
+    - copper_ore
     lava-obscures: false
     max-block-height: 128
     replacement-blocks:
@@ -248,6 +249,8 @@ environment:
     find-already-discovered:
       loot-tables: default
       villager-trade: false
+  void-damage-amount: 4.0
+  void-damage-min-build-height-offset: -64.0
   water-over-lava-flow-speed: 5
 feature-seeds:
   generate-random-seeds-for-all: true
