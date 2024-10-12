@@ -76,6 +76,4 @@ paper.yml-README.txt
 .NO_PULL
 
 plugins/spark/tmp-client/
-plugins/CustomDiscs/musicdata
-plugins/CustomDiscs/data.yml
-world/datapacks/copper-door-cutting/LICENSE
+plugins/ProtocolLib/lastupdate
