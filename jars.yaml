@@ -93,7 +93,7 @@ plugins:
 - checksum: a9e1ac036f207d3ca8b3131042d6a080cfbfda97
   name: PaperTweaks
   version: 0.5.0-beta.1
-- checksum: 43f485c2e3e906e915c861a43b4186c5fce06680
+- checksum: bd5b4acafc87c63ad73a085b5d6da784f1ef54de
   name: DeathDB
   version: '1.0'
 - checksum: d1cd4ef15eac3f5de887f960e41e6f4a18f307ed
