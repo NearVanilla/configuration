@@ -94,6 +94,7 @@ EXCLUSIONS = [
     Square(x1=-2, z1=999995, x2=2, z2=1000001),  # Buk's 1mil platform
     Square(x1=153, z1=-1837, x2=132, z2=-1817),  # Demo & Sunny Shulker Farm
     Square(x1=-550, z1=500, x2=550, z2=1550),  # Astral's End Base
+    Square(x1=-372, z1=-1020, x2=-406, z2=-986),  # Dynant's Wither Rose Farm
 ]
 
 
