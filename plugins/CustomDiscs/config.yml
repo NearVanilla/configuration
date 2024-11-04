@@ -25,7 +25,7 @@ disc:
   distance: 64
   # The master volume of music discs from 0-1.
   # You can set values like 0.5 for 50% volume.
-  volume: '1.0'
+  volume: '0.5'
   allow-hoppers: true
 global:
   # Language of the plugin
