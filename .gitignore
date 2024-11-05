@@ -77,3 +77,5 @@ paper.yml-README.txt
 
 plugins/spark/tmp-client/
 plugins/ProtocolLib/lastupdate
+plugins/CustomDiscs/musicdata
+plugins/CustomDiscs/data.yml
