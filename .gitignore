@@ -62,6 +62,7 @@ plugins/dynmap/worlds.txt
 plugins/luckperms/contexts.json
 plugins/serverutils/.pluginCommandsCache.json
 plugins/spark/tmp/*
+plugins/spark/tmp-client/
 plugins/tcpshield/ip-whitelist/tcpshield-ips.list
 usercache.json
 version_history.json

@@ -1,9 +1,9 @@
 # These first 6 aren't configurable
 issues: "https://github.com/IntellectualSites/FastAsyncWorldEdit/issues"
 wiki: "https://intellectualsites.github.io/fastasyncworldedit-documentation/"
-date: "Thu Sep 12 00:00:00 UTC 2024"
-build: "https://ci.athion.net/job/FastAsyncWorldEdit/879"
-commit: "https://github.com/IntellectualSites/FastAsyncWorldEdit/commit/f2e1daef"
+date: "Wed Jan 29 00:00:00 UTC 2025"
+build: "https://ci.athion.net/job/FastAsyncWorldEdit/0"
+commit: "https://github.com/IntellectualSites/FastAsyncWorldEdit/commit/f0c96050"
 platform: "Bukkit"
 # Set true to enable WorldEdit restrictions per region (e.g. PlotSquared or WorldGuard).
 # To be allowed to WorldEdit in a region, users need the appropriate
@@ -112,6 +112,11 @@ extent:
 #  - UNSAFE = Can cause permanent damage to the server
 #  - SAFE = Can be buggy but unlikely to cause any damage
 experimental:
+  # Undo operation batch size
+  #  - The size defines the number of changes read at once.
+  #  - Larger numbers might reduce overhead but increase latency for edits with only few changes.
+  #  - 0 means undo operations are not batched.
+  undo-batch-size: 128
   # [UNSAFE] Directly modify the region files. (OBSOLETE - USE ANVIL COMMANDS)
   #  - IMPROPER USE CAN CAUSE WORLD CORRUPTION!
   anvil-queue-mode: false
@@ -139,6 +144,8 @@ experimental:
   # This has no effect on existing blocks one way or the other.
   # Changes due to fluid flow will not be tracked by history, thus may have unintended consequences
   allow-tick-fluids: false
+  # Whether FAWE should use the incubator Vector API to accelerate some operations
+  use-vector-api: false
 
 # This relates to how FAWE places chunks
 queue:
