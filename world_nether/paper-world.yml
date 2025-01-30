@@ -77,6 +77,7 @@ feature-seeds:
     minecraft:flower_default: -803458556036{{ FEATURE_SEED_SUFFIX_NETHER }}
     minecraft:flower_flower_forest: -454906433832{{ FEATURE_SEED_SUFFIX_NETHER }}
     minecraft:flower_meadow: -887478191517{{ FEATURE_SEED_SUFFIX_NETHER }}
+    minecraft:flower_pale_garden: 435009812924{{ FEATURE_SEED_SUFFIX_NETHER }}
     minecraft:flower_plain: 352623904249{{ FEATURE_SEED_SUFFIX_NETHER }}
     minecraft:flower_swamp: -378946609128{{ FEATURE_SEED_SUFFIX_NETHER }}
     minecraft:forest_flowers: -664397043352{{ FEATURE_SEED_SUFFIX_NETHER }}
@@ -150,6 +151,14 @@ feature-seeds:
     minecraft:ore_redstone: 138536274588{{ FEATURE_SEED_SUFFIX_NETHER }}
     minecraft:ore_soul_sand: -240617612451{{ FEATURE_SEED_SUFFIX_NETHER }}
     minecraft:ore_tuff: 301300397431{{ FEATURE_SEED_SUFFIX_NETHER }}
+    minecraft:pale_forest_flowers: 240419172830{{ FEATURE_SEED_SUFFIX_NETHER }}
+    minecraft:pale_garden_vegetation: -427729015808{{ FEATURE_SEED_SUFFIX_NETHER }}
+    minecraft:pale_moss_patch: 218393005864{{ FEATURE_SEED_SUFFIX_NETHER }}
+    minecraft:pale_moss_patch_bonemeal: 306905470107{{ FEATURE_SEED_SUFFIX_NETHER }}
+    minecraft:pale_moss_vegetation: 435735901179{{ FEATURE_SEED_SUFFIX_NETHER }}
+    minecraft:pale_oak: 538998119783{{ FEATURE_SEED_SUFFIX_NETHER }}
+    minecraft:pale_oak_bonemeal: -683086098701{{ FEATURE_SEED_SUFFIX_NETHER }}
+    minecraft:pale_oak_creaking: 734033958587{{ FEATURE_SEED_SUFFIX_NETHER }}
     minecraft:patch_berry_bush: 60711568819{{ FEATURE_SEED_SUFFIX_NETHER }}
     minecraft:patch_brown_mushroom: 686216753800{{ FEATURE_SEED_SUFFIX_NETHER }}
     minecraft:patch_cactus: -562228863552{{ FEATURE_SEED_SUFFIX_NETHER }}
@@ -182,7 +191,6 @@ feature-seeds:
     minecraft:sea_pickle: 381483212864{{ FEATURE_SEED_SUFFIX_NETHER }}
     minecraft:seagrass_mid: -503275135129{{ FEATURE_SEED_SUFFIX_NETHER }}
     minecraft:seagrass_short: 613956017048{{ FEATURE_SEED_SUFFIX_NETHER }}
-    minecraft:seagrass_simple: -842706679605{{ FEATURE_SEED_SUFFIX_NETHER }}
     minecraft:seagrass_slightly_less_short: -278415397291{{ FEATURE_SEED_SUFFIX_NETHER }}
     minecraft:seagrass_tall: 813338936605{{ FEATURE_SEED_SUFFIX_NETHER }}
     minecraft:single_piece_of_grass: -678679357216{{ FEATURE_SEED_SUFFIX_NETHER }}
