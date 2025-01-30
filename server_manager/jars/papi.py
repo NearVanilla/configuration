@@ -9,7 +9,7 @@ from typing import Iterable, List, Dict, Any, Optional
 
 from .utils import response_to_file
 
-BASE_URL = "https://papermc.io/api/v2"
+BASE_URL = "https://api.papermc.io/v2"
 SESSION = Session()
 SESSION.headers["User-Agent"] = "ServerJarManager"
 SESSION.headers["Accept"] = "application/json"
