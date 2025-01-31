@@ -115,11 +115,6 @@ extent:
 #  - UNSAFE = Can cause permanent damage to the server
 #  - SAFE = Can be buggy but unlikely to cause any damage
 experimental:
-  # Undo operation batch size
-  #  - The size defines the number of changes read at once.
-  #  - Larger numbers might reduce overhead but increase latency for edits with only few changes.
-  #  - 0 means undo operations are not batched.
-  undo-batch-size: 128
   # [UNSAFE] Directly modify the region files. (OBSOLETE - USE ANVIL COMMANDS)
   #  - IMPROPER USE CAN CAUSE WORLD CORRUPTION!
   anvil-queue-mode: false
@@ -151,8 +146,6 @@ experimental:
   # This has no effect on existing blocks one way or the other.
   # Changes due to fluid flow will not be tracked by history, thus may have unintended consequences
   allow-tick-fluids: false
-  # Whether FAWE should use the incubator Vector API to accelerate some operations
-  use-vector-api: false
 
 # This relates to how FAWE places chunks
 queue:
