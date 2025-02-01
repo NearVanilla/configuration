@@ -57,6 +57,7 @@ feature-seeds:
     minecraft:flower_default: 8763780876705331708
     minecraft:flower_flower_forest: -162697994909184664
     minecraft:flower_meadow: 3617821057944522221
+    minecraft:flower_pale_garden: -6810821501425467540
     minecraft:flower_plain: 4118573949213322289
     minecraft:flower_swamp: -96182483438422685
     minecraft:forest_flowers: -1322117636627606831
@@ -130,6 +131,14 @@ feature-seeds:
     minecraft:ore_redstone: -3805418940613126979
     minecraft:ore_soul_sand: -7756817570652601420
     minecraft:ore_tuff: 6607883474895005187
+    minecraft:pale_forest_flowers: -6052160290451490339
+    minecraft:pale_garden_vegetation: -848881296019505322
+    minecraft:pale_moss_patch: 6045217322010055217
+    minecraft:pale_moss_patch_bonemeal: 7274156555741687093
+    minecraft:pale_moss_vegetation: -8346651418961074957
+    minecraft:pale_oak: -92918986914983249
+    minecraft:pale_oak_bonemeal: -1803995249221180977
+    minecraft:pale_oak_creaking: 3506613744750059445
     minecraft:patch_berry_bush: 7044279153600388627
     minecraft:patch_brown_mushroom: -5321210484926894011
     minecraft:patch_cactus: 398028008712107320
@@ -162,7 +171,6 @@ feature-seeds:
     minecraft:sea_pickle: 3130870918751885072
     minecraft:seagrass_mid: -9181527727788655938
     minecraft:seagrass_short: -9017900297684237428
-    minecraft:seagrass_simple: -6107724580478605493
     minecraft:seagrass_slightly_less_short: -6854052335157893244
     minecraft:seagrass_tall: -6581794569672441398
     minecraft:single_piece_of_grass: -5403947243886086327
