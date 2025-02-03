@@ -305,6 +305,8 @@ paper-components:
   paper-listeners: true
   # Prevent entities from leaving plots
   entity-pathing: true
+  # Prevent entities from leaving plots, even by pushing or pulling
+  entity-movement: false
   # Cancel entity spawns when the chunk is loaded if the PlotArea's mob spawning is off
   cancel-chunk-spawn: true
   # Use paper's PlayerLaunchProjectileEvent to cancel projectiles

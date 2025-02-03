@@ -18,9 +18,9 @@ plugins:
 - checksum: d39d0b410497aea25c66b03409f3fce100c006bd
   name: FreedomChat
   version: 1.7.0
-- checksum: 7a54432ef7e811901cf23bb96d71f811a6a27cc7
+- checksum: 815aec568fcea8c6f90e2f8737c25741bfecda13
   name: FastAsyncWorldEdit
-  version: 2.12.3
+  version: 2.12.4-SNAPSHOT-1035;09473c5
 - checksum: 33b6c2b5dad6f5b99235d4883d4ac1a3d200c3d4
   name: ChunkyBorder
   version: 1.2.13
@@ -36,9 +36,9 @@ plugins:
 - checksum: a9e1ac036f207d3ca8b3131042d6a080cfbfda97
   name: PaperTweaks
   version: 0.5.0-beta.1
-- checksum: 24371475974a40ce674043ffd69b2a026d6263e8
+- checksum: 53788389638a48a96b1618fcaf62c47f3036cea1
   name: PlotSquared
-  version: 7.3.9-SNAPSHOT
+  version: 7.4.2-SNAPSHOT
 - checksum: 5cb2143f5cf229f3f3407d6c5a9ff321f1161f8c
   name: GFly
   version: 2.3.0.0
