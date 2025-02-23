@@ -6,9 +6,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:copper_ingot"
-    }
+    "#": "minecraft:copper_ingot"
   },
   "result": {
     "id": "minecraft:copper_trapdoor",

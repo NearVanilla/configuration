@@ -10,9 +10,7 @@
         "item": "minecraft:red_mushroom"
       }
     ],
-    {
-      "item": "minecraft:bowl"
-    }
+    "minecraft:bowl"
   ],
   "result": {
     "id": "minecraft:mushroom_stew",
