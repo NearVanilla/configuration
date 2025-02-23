@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:animal/super_mooshroom",
 	"rewards": {
-		"function": "bc_rewards:animal/milkshroom"
+		"function": "bacap_rewards:animal/milkshroom"
 	},		
 	"criteria": {
 		"shears": {

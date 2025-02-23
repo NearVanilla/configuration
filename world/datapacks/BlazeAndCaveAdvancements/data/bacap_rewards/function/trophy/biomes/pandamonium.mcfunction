@@ -1,0 +1,3 @@
+give @s bamboo[custom_name='{"translate":"Bamboo Sword","color":"#5E8A24","bold":true,"italic":false}',lore=['{"translate":"Not the best material for a weapon…","color":"#5E8A24"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Pandamonium","color":"light_purple","italic":false}'],custom_model_data={floats:[131]},custom_data={Trophy:1b},enchantments={levels:{"minecraft:sharpness":1}},hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Bamboo Sword"}]

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:redstone/target_acquired",
 	"rewards": {
-		"function": "bc_rewards:redstone/bullseye"
+		"function": "bacap_rewards:redstone/bullseye"
 	},	
 	"criteria": {
 		"bullseye": {

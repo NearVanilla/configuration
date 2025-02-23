@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:adventure/house_of_psychos",
 	"rewards": {
-		"function": "bc_rewards:adventure/heres_johnny"
+		"function": "bacap_rewards:adventure/heres_johnny"
 	},		
 	"criteria": {
 		"vindicator": {

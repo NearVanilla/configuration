@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:weaponry/revenge",
 	"rewards": {
-		"function": "bc_rewards:weaponry/demolitions_expert"
+		"function": "bacap_rewards:weaponry/demolitions_expert"
 	},		
 	"criteria": {
 		"cave_spider": {
@@ -20,6 +20,9 @@
 					"type": "cave_spider"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -36,6 +39,9 @@
 					"type": "minecraft:spider"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -52,6 +58,9 @@
 					"type": "minecraft:zombified_piglin"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -68,6 +77,9 @@
 					"type": "minecraft:enderman"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -84,6 +96,9 @@
 					"type": "minecraft:blaze"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -100,6 +115,9 @@
 					"type": "minecraft:creeper"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -116,6 +134,9 @@
 					"type": "minecraft:ghast"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -132,6 +153,9 @@
 					"type": "minecraft:guardian"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -148,6 +172,9 @@
 					"type": "minecraft:husk"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -164,6 +191,9 @@
 					"type": "minecraft:magma_cube"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -180,6 +210,9 @@
 					"type": "minecraft:shulker"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -196,6 +229,9 @@
 					"type": "minecraft:silverfish"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -212,6 +248,9 @@
 					"type": "minecraft:skeleton"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -228,6 +267,9 @@
 					"type": "minecraft:slime"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -244,6 +286,9 @@
 					"type": "minecraft:stray"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -260,6 +305,9 @@
 					"type": "minecraft:vindicator"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -276,6 +324,9 @@
 					"type": "minecraft:witch"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -292,6 +343,9 @@
 					"type": "minecraft:wither_skeleton"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -308,6 +362,9 @@
 					"type": "minecraft:zombie"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -324,6 +381,9 @@
 					"type": "minecraft:zombie_villager"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -340,6 +400,9 @@
 					"type": "minecraft:phantom"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -356,6 +419,9 @@
 					"type": "minecraft:drowned"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -372,6 +438,9 @@
 					"type": "minecraft:endermite"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -388,6 +457,9 @@
 					"type": "minecraft:pillager"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -404,6 +476,9 @@
 					"type": "minecraft:ravager"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -420,6 +495,9 @@
 					"type": "minecraft:evoker"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -436,6 +514,9 @@
 					"type": "minecraft:vex"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -452,6 +533,9 @@
 					"type": "minecraft:piglin"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -468,6 +552,9 @@
 					"type": "minecraft:hoglin"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -484,6 +571,9 @@
 					"type": "minecraft:zoglin"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -500,6 +590,9 @@
 					"type": "minecraft:piglin_brute"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -516,6 +609,9 @@
 					"type": "minecraft:warden"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -532,6 +628,9 @@
 					"type": "minecraft:breeze"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",
@@ -548,6 +647,28 @@
 					"type": "minecraft:bogged"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
+					"tags": [
+						{
+							"id": "minecraft:is_explosion",
+							"expected": true
+						}
+					]
+				}
+			}
+		},
+		"creaking": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:creaking"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",

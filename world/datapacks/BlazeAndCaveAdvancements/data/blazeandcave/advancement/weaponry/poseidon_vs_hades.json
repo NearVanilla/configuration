@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:weaponry/king_of_the_sea",
 	"rewards": {
-		"function": "bc_rewards:weaponry/poseidon_vs_hades"
+		"function": "bacap_rewards:weaponry/poseidon_vs_hades"
 	},	
 	"criteria": {
 		"zombified_piglin": {

@@ -12,7 +12,7 @@
 	},
 	"parent": "blazeandcave:statistics/root",
 	"rewards": {
-		"function": "bc_rewards:statistics/laps_in_the_pool"
+		"function": "bacap_rewards:statistics/laps_in_the_pool"
 	},		
 	"criteria": {
 		"trigger": {

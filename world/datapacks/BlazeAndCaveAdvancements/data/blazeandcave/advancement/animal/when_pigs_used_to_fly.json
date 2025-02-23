@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:animal/pork_chop",
 	"rewards": {
-		"function": "bc_rewards:animal/when_pigs_used_to_fly"
+		"function": "bacap_rewards:animal/when_pigs_used_to_fly"
 	},		
 	"criteria": {
 		"carrot_on_a_stick": {

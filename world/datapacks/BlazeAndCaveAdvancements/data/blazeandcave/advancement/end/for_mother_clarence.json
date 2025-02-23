@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:end/find_end_city",
 	"rewards": {
-		"function": "bc_rewards:end/for_mother_clarence"
+		"function": "bacap_rewards:end/for_mother_clarence"
 	},		
 	"criteria": {
 		"shulker": {

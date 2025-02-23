@@ -12,7 +12,7 @@
 	},
 	"parent": "blazeandcave:technical/you_are_a_big_cheater",
 	"rewards": {
-		"function": "bc_rewards:statistics/level_up"
+		"function": "bacap_rewards:statistics/level_up"
 	},		
 	"criteria": {
 		"trigger": {

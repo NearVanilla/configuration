@@ -15,11 +15,11 @@
 	},
 	"parent": "blazeandcave:adventure/superhero_of_the_village",
 	"rewards": {
-		"function": "bc_rewards:adventure/justice"
+		"function": "bacap_rewards:adventure/justice"
 	},	
 	"criteria": {
 		"arbalistic": {
-			"trigger": "minecraft:killed_by_crossbow",
+			"trigger": "minecraft:killed_by_arrow",
 			"conditions": {
 				"victims": [
 					{
@@ -37,7 +37,10 @@
 					{
 						"type": "minecraft:witch"
 					}
-				]
+				],
+				"fired_from_weapon": {
+					"items": "minecraft:crossbow"
+				}
 			}
 		}
 	}

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:weaponry/king_of_the_sea",
 	"rewards": {
-		"function": "bc_rewards:weaponry/the_aquatic_hunter"
+		"function": "bacap_rewards:weaponry/the_aquatic_hunter"
 	},	
 	"criteria": {
 		"guardian": {

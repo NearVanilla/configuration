@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/kill_a_mob",
 	"rewards": {
-		"function": "bc_rewards:monsters/ew_ew_ew"
+		"function": "bacap_rewards:monsters/ew_ew_ew"
 	},		
 	"criteria": {
 		"spider": {

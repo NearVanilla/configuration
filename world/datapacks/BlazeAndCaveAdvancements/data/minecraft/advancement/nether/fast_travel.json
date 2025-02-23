@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:nether/limbo_walker",
 	"rewards": {
-		"function": "bc_rewards:nether/subspace_bubble"
+		"function": "bacap_rewards:nether/subspace_bubble"
 	},	
 	"criteria": {
 		"travelled": {

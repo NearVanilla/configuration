@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:biomes/warm_feet",	
 	"rewards": {
-		"function": "bc_rewards:biomes/cold_feet"
+		"function": "bacap_rewards:biomes/cold_feet"
 	},	
 	"criteria": {
 		"snowy_taiga": {

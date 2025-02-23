@@ -1,5 +1,7 @@
 # Function that updates everyone's shared advancements based on what everyone currently has
 
+function #bacap_fanpacks:config/coop_update_team_black
+
 # Go through every advancement, and adds 1 to score if you have obtained that advancement
 execute if score blazeandcave:adventure/businessman bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:adventure/businessman
 execute if score blazeandcave:adventure/disc_jockey bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:adventure/disc_jockey
@@ -683,7 +685,7 @@ execute if score blazeandcave:adventure/superhero_of_the_village bac_obtained_bl
 
 execute if score blazeandcave:monsters/aww_man bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:monsters/aww_man
 execute if score blazeandcave:monsters/spider_skeleton bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:monsters/spider_skeleton
-execute if score blazeandcave:monsters/iskallium_collector bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:monsters/iskallium_collector
+execute if score blazeandcave:monsters/oh_no_guys_im_oozing bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:monsters/oh_no_guys_im_oozing
 
 execute if score blazeandcave:weaponry/artillery bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:weaponry/artillery
 
@@ -1170,7 +1172,7 @@ execute if score blazeandcave:adventure/expedition_of_discovery bac_obtained_bla
 
 # The following advancements were added in version 1.14
 execute if score minecraft:adventure/avoid_vibration bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only minecraft:adventure/avoid_vibration
-execute if score minecraft:adventure/kill_mob_near_sculk_catalyst bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only minecraft:mining/kill_mob_near_sculk_catalyst
+execute if score minecraft:adventure/kill_mob_near_sculk_catalyst bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only minecraft:adventure/kill_mob_near_sculk_catalyst
 execute if score blazeandcave:mining/shriek_forever_after bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:mining/shriek_forever_after
 execute if score blazeandcave:redstone/the_block_of_eternal_screaming bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:redstone/the_block_of_eternal_screaming
 execute if score blazeandcave:redstone/cataclyst bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:redstone/cataclyst
@@ -1294,7 +1296,7 @@ execute if score blazeandcave:nether/piglin_peril bac_obtained_black matches 1..
 
 execute if score blazeandcave:challenges/poglin bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:challenges/poglin
 
-execute if score blazeandcave:adventure/a_chiptune_relic bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:challenges/a_chiptune_relic
+execute if score blazeandcave:adventure/a_chiptune_relic bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:adventure/a_chiptune_relic
 execute if score minecraft:husbandry/feed_snifflet bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only minecraft:husbandry/feed_snifflet
 execute if score minecraft:husbandry/plant_any_sniffer_seed bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only minecraft:husbandry/plant_any_sniffer_seed
 execute if score minecraft:adventure/read_power_of_chiseled_bookshelf bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only minecraft:adventure/read_power_of_chiseled_bookshelf
@@ -1357,3 +1359,18 @@ execute if score blazeandcave:end/divers_dozen bac_obtained_black matches 1.. ru
 execute if score blazeandcave:end/dimension_penetration bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:end/dimension_penetration
 
 execute if score blazeandcave:challenges/overwarden bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:challenges/overwarden
+
+
+execute if score blazeandcave:biomes/eyeball_forest bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:biomes/eyeball_forest
+execute if score blazeandcave:biomes/heart_breaker bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:biomes/heart_breaker
+execute if score blazeandcave:biomes/pale_in_comparison bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:biomes/pale_in_comparison
+execute if score blazeandcave:biomes/resinance bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:biomes/resinance
+execute if score blazeandcave:biomes/fake_copper bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:biomes/fake_copper
+
+execute if score blazeandcave:building/pale_gardener bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:building/pale_gardener
+
+execute if score blazeandcave:animal/flamboyant_range bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:animal/flamboyant_range
+
+execute if score blazeandcave:nether/light_show bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:nether/light_show
+
+execute if score blazeandcave:mining/i_yearned_for_the_mines bac_obtained_black matches 1.. run advancement grant @a[team=bac_team_black] only blazeandcave:mining/i_yearned_for_the_mines

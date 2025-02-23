@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:nether/twisted",	
 	"rewards": {
-		"function": "bc_rewards:nether/hot_tourist_destination"
+		"function": "bacap_rewards:nether/hot_tourist_destination"
 	},	
 	"criteria": {
 		"nether_wastes": {

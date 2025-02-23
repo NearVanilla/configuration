@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:end/the_point_of_no_return",
 	"rewards": {
-		"function": "bc_rewards:end/cow_jumped_over_the_moon"
+		"function": "bacap_rewards:end/cow_jumped_over_the_moon"
 	},		
 	"criteria": {
 		"killed_cow": {

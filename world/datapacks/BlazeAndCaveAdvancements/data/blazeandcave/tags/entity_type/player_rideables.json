@@ -10,8 +10,8 @@
 	"minecraft:llama",
 	"minecraft:trader_llama",
 	"minecraft:strider",
-	"minecraft:boat",
-	"minecraft:chest_boat",
+	"#minecraft:boat",
+	"#blazeandcave:chest_boats",
 	"minecraft:minecart"
   ]
 }

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:adventure/rebuilding_the_oceans",
 	"rewards": {
-		"function": "bc_rewards:adventure/deals_off"
+		"function": "bacap_rewards:adventure/deals_off"
 	},		
 	"criteria": {
 		"llama_hurt_player": {

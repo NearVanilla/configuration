@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:nether/et_tu_brute",
 	"rewards": {
-		"function": "bc_rewards:nether/astrobrute"
+		"function": "bacap_rewards:nether/astrobrute"
 	},		
 	"criteria": {
 		"astrobrute": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:adventure/monumental",
 	"rewards": {
-		"function": "bc_rewards:adventure/laser_sharks"
+		"function": "bacap_rewards:adventure/laser_sharks"
 	},		
 	"criteria": {
 		"guardian": {

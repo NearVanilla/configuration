@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/loud_and_proud",
 	"rewards": {
-		"function": "bc_rewards:animal/silence_of_the_lambs"
+		"function": "bacap_rewards:animal/silence_of_the_lambs"
 	},		
 	"criteria": {
 		"rabbit": {

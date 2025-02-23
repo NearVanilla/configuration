@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:story/deflect_arrow",
 	"rewards": {
-		"function": "bc_rewards:monsters/frosty"
+		"function": "bacap_rewards:monsters/frosty"
 	},		
 	"criteria": {
 		"stray": {

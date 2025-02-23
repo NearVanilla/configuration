@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:weaponry/root",
 	"rewards": {
-		"function": "bc_rewards:weaponry/take_aim"
+		"function": "bacap_rewards:weaponry/take_aim"
 	},		
 	"criteria": {
 		"shot_arrow": {

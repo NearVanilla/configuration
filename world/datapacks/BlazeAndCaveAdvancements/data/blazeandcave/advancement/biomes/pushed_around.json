@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:biomes/echolocation",
 	"rewards": {
-		"function": "bc_rewards:biomes/pushed_around"
+		"function": "bacap_rewards:biomes/pushed_around"
 	},
 	"criteria": {
 		"enter_water": {

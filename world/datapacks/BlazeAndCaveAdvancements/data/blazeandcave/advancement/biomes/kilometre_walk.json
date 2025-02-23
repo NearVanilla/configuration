@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:biomes/root",
 	"rewards": {
-		"function": "bc_rewards:biomes/kilometre_walk"
+		"function": "bacap_rewards:biomes/kilometre_walk"
 	},		
 	"criteria": {
 		"outer_pos_x": {

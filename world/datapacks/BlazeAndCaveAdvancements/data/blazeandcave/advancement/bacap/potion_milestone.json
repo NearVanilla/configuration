@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:bacap/nether_milestone",
 	"rewards": {
-		"function": "bc_rewards:bacap/potion_milestone"
+		"function": "bacap_rewards:bacap/potion_milestone"
 	},		
 	"criteria": {
 		"a_furious_cocktail": {

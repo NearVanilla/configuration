@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:enchanting/gotta_go_fast",
 	"rewards": {
-		"function": "bc_rewards:enchanting/let_it_go"
+		"function": "bacap_rewards:enchanting/let_it_go"
 	},			
 	"criteria": {
 		"frost_walker_deep_lukewarm_ocean": {

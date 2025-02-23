@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/milkshroom",
 	"rewards": {
-		"function": "bc_rewards:animal/overpopulation"
+		"function": "bacap_rewards:animal/overpopulation"
 	},		
 	"criteria": {
 	"minecraft:horse": {

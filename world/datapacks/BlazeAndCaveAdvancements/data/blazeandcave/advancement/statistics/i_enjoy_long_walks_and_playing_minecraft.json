@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:statistics/who_needs_cars",
 	"rewards": {
-		"function": "bc_rewards:statistics/i_enjoy_long_walks_and_playing_minecraft"
+		"function": "bacap_rewards:statistics/i_enjoy_long_walks_and_playing_minecraft"
 	},		
 	"criteria": {
 		"trigger": {

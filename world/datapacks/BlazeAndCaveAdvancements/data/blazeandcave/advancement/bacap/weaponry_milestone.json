@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:bacap/monsters_milestone",
 	"rewards": {
-		"function": "bc_rewards:bacap/weaponry_milestone"
+		"function": "bacap_rewards:bacap/weaponry_milestone"
 	},		
 	"criteria": {
 		"a_snowballs_chance_in_hell": {

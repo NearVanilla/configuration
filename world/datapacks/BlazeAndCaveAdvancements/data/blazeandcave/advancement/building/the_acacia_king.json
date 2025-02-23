@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:building/professor_birch",
 	"rewards": {
-		"function": "bc_rewards:building/the_acacia_king"
+		"function": "bacap_rewards:building/the_acacia_king"
 	},		
 	"criteria": {
 		"acacia_planks": {

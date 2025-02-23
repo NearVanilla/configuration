@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:redstone/take_notes",
 	"rewards": {
-		"function": "bc_rewards:redstone/noteworthy"
+		"function": "bacap_rewards:redstone/noteworthy"
 	},
 	"criteria": {
 		"banjo": {

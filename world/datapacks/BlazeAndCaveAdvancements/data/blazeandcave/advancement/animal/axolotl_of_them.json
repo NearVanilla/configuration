@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/axolittle",
 	"rewards": {
-		"function": "bc_rewards:animal/axolotl_of_them"
+		"function": "bacap_rewards:animal/axolotl_of_them"
 	},		
 	"criteria": {
 		"leucistic": {

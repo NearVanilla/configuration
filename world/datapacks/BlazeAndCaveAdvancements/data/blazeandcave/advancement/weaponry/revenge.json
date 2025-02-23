@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:weaponry/bombs_away",
 	"rewards": {
-		"function": "bc_rewards:weaponry/revenge"
+		"function": "bacap_rewards:weaponry/revenge"
 	},		
 	"criteria": {
 		"creeper": {
@@ -19,6 +19,9 @@
 					"type": "creeper"
 				},
 				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
 					"tags": [
 						{
 							"id": "minecraft:is_explosion",

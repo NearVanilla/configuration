@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {
-		"function": "bc_rewards:animal/wooly"
+		"function": "bacap_rewards:animal/wooly"
 	},		
 	"criteria": {
 		"sheep": {

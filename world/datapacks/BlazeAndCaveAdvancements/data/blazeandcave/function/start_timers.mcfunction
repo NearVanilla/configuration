@@ -1,6 +1,16 @@
 # Function runs at the beginning of a load
 
-# # Adds/updates scoreboard objectives and settings
+#  Adjusts gamerules to work properly with everything related to BACAP
+execute in minecraft:overworld run gamerule maxCommandForkCount 20000000
+execute in minecraft:overworld run gamerule maxCommandChainLength 20000000
+
+execute in minecraft:the_nether run gamerule maxCommandForkCount 20000000
+execute in minecraft:the_nether run gamerule maxCommandChainLength 20000000
+
+execute in minecraft:the_end run gamerule maxCommandForkCount 20000000
+execute in minecraft:the_end run gamerule maxCommandChainLength 20000000
+
+# Adds/updates scoreboard objectives and settings
 scoreboard objectives add bac_advancements dummy {"text":"Advancements"}
 scoreboard objectives add bac_advfirst dummy {"text":"First Advancements"}
 scoreboard objectives add bac_obtained dummy
@@ -130,6 +140,9 @@ scoreboard objectives add bac_oar_current_x dummy
 scoreboard objectives add bac_oar_current_z dummy
 scoreboard objectives add bac_oar_eligible_x dummy
 scoreboard objectives add bac_oar_eligible_z dummy
+scoreboard objectives add bac_third_line_horse minecraft.custom:minecraft.horse_one_cm
+scoreboard objectives add bac_third_line_pig minecraft.custom:minecraft.pig_one_cm
+scoreboard objectives add bac_third_line_strider minecraft.custom:minecraft.strider_one_cm
 scoreboard objectives add bac_1000th_item minecraft.used:minecraft.warped_button
 scoreboard objectives add bac_inv_check dummy
 scoreboard objectives add bac_inv_artillery dummy
@@ -140,6 +153,7 @@ scoreboard objectives add bac_factorio_count dummy
 scoreboard objectives add bac_vault_hunter_count dummy
 scoreboard objectives add bac_whack_a_mole_count dummy
 scoreboard objectives add bac_divers_dozen_count dummy
+scoreboard objectives add bac_i_yearned_for_the_mines dummy
 
 
 # If a setting for advancement message visibility is not found, it is set to its default (which is all on)
@@ -175,6 +189,7 @@ scoreboard objectives add bac_timer dummy
 function blazeandcave:one_second_timer
 function blazeandcave:ten_second_timer
 function blazeandcave:five_minute_timer
+function #bacap_fanpacks:timers
 
 # # This function sets base scoreboards when loading a world for the first time
 scoreboard objectives add bac_created dummy

@@ -13,7 +13,7 @@
 	},
 	"parent": "blazeandcave:statistics/overlevelling",
 	"rewards": {
-		"function": "bc_rewards:statistics/xp_grinder"
+		"function": "bacap_rewards:statistics/xp_grinder"
 	},		
 	"criteria": {
 		"trigger": {

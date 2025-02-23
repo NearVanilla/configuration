@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:statistics/root",
 	"rewards": {
-		"function": "bc_rewards:statistics/minecart_rider"
+		"function": "bacap_rewards:statistics/minecart_rider"
 	},		
 	"criteria": {
 		"trigger": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:weaponry/my_eyes",
 	"rewards": {
-		"function": "bc_rewards:weaponry/who_ya_gonna_call"
+		"function": "bacap_rewards:weaponry/who_ya_gonna_call"
 	},		
 	"criteria": {
 		"ghast": {

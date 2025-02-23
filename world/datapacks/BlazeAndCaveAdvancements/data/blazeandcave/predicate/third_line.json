@@ -1,0 +1,48 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"vehicle": {
+					"type": [
+						"horse",
+						"donkey",
+						"mule",
+						"skeleton_horse",
+						"zombie_horse",
+						"llama",
+						"trader_llama",
+						"camel",
+						"pig",
+						"strider"
+					]
+				}
+			}
+		},
+		{
+			"condition": "minecraft:any_of",
+			"terms": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"vehicle": {
+							"nbt": "{CustomName:\'\"Dinnerbone\"\'}"
+						}
+					}
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"vehicle": {
+							"nbt": "{CustomName:\'\"Grumm\"\'}"
+						}
+					}
+				}
+			]
+		}
+	]
+}

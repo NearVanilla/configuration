@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:enchanting/like_a_cat",
 	"rewards": {
-		"function": "bc_rewards:enchanting/armor_for_the_masses"
+		"function": "bacap_rewards:enchanting/armor_for_the_masses"
 	},			
 	"criteria": {
 		"protection": {

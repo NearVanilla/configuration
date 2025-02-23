@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:weaponry/shovel_knight",
 	"rewards": {
-		"function": "bc_rewards:weaponry/multiclassed"
+		"function": "bacap_rewards:weaponry/multiclassed"
 	},		
 	"criteria": {
 		"axe": {

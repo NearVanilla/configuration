@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:biomes/ten_thousand_blocks",
 	"rewards": {
-		"function": "bc_rewards:biomes/voyage"
+		"function": "bacap_rewards:biomes/voyage"
 	},		
 	"criteria": {
 		"outer_pos_x": {

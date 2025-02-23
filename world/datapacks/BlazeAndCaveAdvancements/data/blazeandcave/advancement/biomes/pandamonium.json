@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:biomes/qinling",
 	"rewards": {
-		"function": "bc_rewards:biomes/pandamonium"
+		"function": "bacap_rewards:biomes/pandamonium"
 	},
 	"criteria": {
 		"normal": {

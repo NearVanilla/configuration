@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:nether/the_tribal_snouts",
 	"rewards": {
-		"function": "bc_rewards:nether/high_temperature_fluid_monster"
+		"function": "bacap_rewards:nether/high_temperature_fluid_monster"
 	},		
 	"criteria": {
 		"magma_cube": {

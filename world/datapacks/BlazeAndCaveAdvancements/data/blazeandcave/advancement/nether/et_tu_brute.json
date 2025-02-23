@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:nether/brute_force",
 	"rewards": {
-		"function": "bc_rewards:nether/et_tu_brute"
+		"function": "bacap_rewards:nether/et_tu_brute"
 	},		
 	"criteria": {
 		"piglin_brute": {

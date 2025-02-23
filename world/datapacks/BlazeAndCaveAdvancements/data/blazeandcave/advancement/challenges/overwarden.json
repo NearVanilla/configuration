@@ -11,7 +11,7 @@
 	},
 	"parent": "blazeandcave:challenges/the_world_is_ending",
 	"rewards": {
-		"function": "bc_rewards:challenges/overwarden"
+		"function": "bacap_rewards:challenges/overwarden"
 	},		
 	"criteria": {
 		"overwarden": {

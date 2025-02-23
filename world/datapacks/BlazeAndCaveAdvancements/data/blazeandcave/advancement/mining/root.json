@@ -10,7 +10,7 @@
 		"announce_to_chat": false
 	},
 	"rewards": {
-		"function": "bc_rewards:mining/root"
+		"function": "bacap_rewards:mining/root"
 	},
 	"criteria": {
 		"pickaxe": {

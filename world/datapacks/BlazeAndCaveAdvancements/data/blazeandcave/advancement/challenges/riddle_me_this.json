@@ -4,13 +4,13 @@
 			"id": "minecraft:map"
 		},
 		"title": {"translate":"Riddle Me This","extra":[{"italic":true,"text":"           "}]},
-		"description": {"color":"#FF2A2A","translate":"The first is to smith a compass that vanishes","extra":[{"text":"\n"},{"color":"#FF2A2A","translate":"The second is to slay a corpse that fishes"},{"text":"\n"},{"color":"#FF2A2A","translate":"The third is to travel on an upside-down mount"},{"text":"\n"},{"color":"#FF2A2A","translate":"The fourth is to take a temple tripwire into account"},{"text":"\n"},{"color":"#FF2A2A","translate":"The fifth is to be invisible yet be visible everywhere"},{"text":"\n"},{"color":"#FF2A2A","translate":"The sixth is to return the product of a fowl in mid-air"},{"text":"\n"},{"color":"#FF2A2A","translate":"The seventh is to allow a child to commit the act of stealing"},{"text":"\n"},{"color":"#FF2A2A","translate":"The eighth is to smite a Wither with splash healing"},{"text":"\n"},{"color":"#FF2A2A","translate":"The ninth is to be a pirate; parrot, spyglass, map, and boat"},{"text":"\n"},{"color":"#FF2A2A","translate":"The tenth, if you can achieve it, you will be the G.O.A.T."}]},
+		"description": {"color":"#FF2A2A","translate":"The first is to smith a compass that vanishes","extra":[{"text":"\n"},{"color":"#FF2A2A","translate":"The second is to slay a corpse that fishes"},{"text":"\n"},{"color":"#FF2A2A","translate":"The third is to ride an upside-down mount a lot"},{"text":"\n"},{"color":"#FF2A2A","translate":"The fourth is to put a pot in a pot and a pot on a pot"},{"text":"\n"},{"color":"#FF2A2A","translate":"The fifth is to be invisible yet be visible everywhere"},{"text":"\n"},{"color":"#FF2A2A","translate":"The sixth is to return the product of a fowl in mid-air"},{"text":"\n"},{"color":"#FF2A2A","translate":"The seventh is to allow a child to commit the act of stealing"},{"text":"\n"},{"color":"#FF2A2A","translate":"The eighth is to smite a Wither with splash healing"},{"text":"\n"},{"color":"#FF2A2A","translate":"The ninth is to be a pirate; parrot, spyglass, map, and boat"},{"text":"\n"},{"color":"#FF2A2A","translate":"The tenth, if you can achieve it, you will be the G.O.A.T."}]},
 		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"parent": "blazeandcave:challenges/the_perfect_run",
 	"rewards": {
-		"function": "bc_rewards:challenges/riddle_me_this"
+		"function": "bacap_rewards:challenges/riddle_me_this"
 	},		
 	"criteria": {
 		"first_line": {

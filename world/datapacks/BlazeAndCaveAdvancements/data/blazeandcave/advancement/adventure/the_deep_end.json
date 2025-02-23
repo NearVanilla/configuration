@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:adventure/laser_sharks",
 	"rewards": {
-		"function": "bc_rewards:adventure/the_deep_end"
+		"function": "bacap_rewards:adventure/the_deep_end"
 	},	
 	"criteria": {
 		"elder_guardian": {

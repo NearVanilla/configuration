@@ -15,19 +15,6 @@ scoreboard players enable @a bac_timers
 execute as @a if score @s bac_timers matches 1.. run function blazeandcave:timers_trigger
 
 
-# # Item and mob rename advancements
-execute as @e[type=rabbit,name=Toast] at @s run advancement grant @a[distance=..5] only blazeandcave:adventure/i_just_want_to_make_toast
-execute as @e[name=Dinnerbone] at @s run advancement grant @a[distance=..5] only blazeandcave:adventure/whats_up_doc
-execute as @e[name=Grumm] at @s run advancement grant @a[distance=..5] only blazeandcave:adventure/whats_up_doc
-execute as @e[type=sheep,name=jeb_] at @s run advancement grant @a[distance=..5] only blazeandcave:adventure/nyan_sheep
-execute as @e[type=piglin_brute,name=Technoblade] at @s run advancement grant @a[distance=..5] only blazeandcave:adventure/nerds_never_die
-execute as @a if items entity @s weapon.* diamond_sword[custom_name='"Diamond Edge"'] run advancement grant @s only blazeandcave:enchanting/this_name_sounds_cooler
-execute as @a if items entity @s weapon.* bow[custom_name='"Terminator"'] run advancement grant @s only blazeandcave:enchanting/ill_be_back
-execute as @a if items entity @s weapon.* trident[custom_name='"Mjolnir"',enchantments={levels:{"minecraft:loyalty":3,"minecraft:channeling":1}}] run advancement grant @s only blazeandcave:enchanting/god_of_thunder
-execute as @a if items entity @s weapon.* #minecraft:shulker_boxes[custom_name='"Blocks"'] run advancement grant @s only blazeandcave:end/organizational_wizard
-execute as @a if items entity @s weapon.* bundle[bundle_contents=[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle"}]}}]}}]}}]}}]}}]}}]}}]}}]}}]}}]}}]}}]}}]}}]}}]] run advancement grant @s only blazeandcave:animal/fractal
-
-
 # # Llama Festival (progress resets if the player has not completed the advancement and is not sitting on a llama)
 execute as @a at @s unless entity @s[predicate=blazeandcave:llama_sit] if entity @s[advancements={blazeandcave:animal/llama_festival=false}] run advancement revoke @s only blazeandcave:animal/llama_festival
 
@@ -53,7 +40,7 @@ execute as @a[advancements={blazeandcave:mining/chestful_of_cobblestone=false}] 
 #tag @e[type=#minecraft:raiders,scores={bac_part_of_raid=1..}] add part_of_raid
 
 # # Full Stomach
-advancement grant @a[nbt={foodLevel:20,foodSaturationLevel:20.0f}] only blazeandcave:farming/full_stomach
+advancement grant @a[nbt={foodLevel:20,foodSaturationLevel:20.0f},gamemode=!spectator] only blazeandcave:farming/full_stomach
 
 # # Castaway
 # If the player eats dried kelp their score begins to go up once per second
@@ -90,6 +77,16 @@ advancement grant @a[scores={bac_wiz_break=64..}] only blazeandcave:end/a_wizard
 execute as @a[advancements={blazeandcave:technical/a_wizards_breakfast_fail=true}] run function blazeandcave:a_wizards_breakfast_fail
 execute as @a[scores={bac_chorus_reset=0}] run function blazeandcave:a_wizards_breakfast_fail
 
+
+# # I yearned for the mines
+# If the player is below y-level 32 in the overworld, their score goes up once per second
+scoreboard players add @a[gamemode=!spectator,predicate=blazeandcave:i_yearned_for_the_mines] bac_i_yearned_for_the_mines 1
+
+# After five days (one hour and forty minutes) they obtain the advancement
+advancement grant @a[scores={bac_i_yearned_for_the_mines=6000..}] only blazeandcave:mining/i_yearned_for_the_mines
+
+# If the player is not below y-level 32 they lose their progress
+execute as @a unless entity @s[predicate=blazeandcave:i_yearned_for_the_mines] run scoreboard players set @s bac_i_yearned_for_the_mines 0
 
 # # Let Me Out!
 # If the player is in the Nether their score goes up once per second
@@ -238,6 +235,9 @@ execute as @a[advancements={blazeandcave:technical/spawn_perfect_one=true},score
 
 
 # # Riddle Me This
+# For the third line, if you are NOT riding an upside-down mount the scoreboards reset
+execute as @a unless predicate blazeandcave:third_line run function blazeandcave:riddle/third_line_reset
+
 # For the tenth line, it only starts counting once the player has completed the ninth line
 execute as @a if entity @s[advancements={blazeandcave:technical/riddle_ninth_line=false}] run scoreboard players set @s bac_1000th_item 0
 

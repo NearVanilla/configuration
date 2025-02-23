@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:animal/goat_out_of_here",
 	"rewards": {
-		"function": "bc_rewards:animal/billy_the_kid"
+		"function": "bacap_rewards:animal/billy_the_kid"
 	},		
 	"criteria": {
 		"goat": {

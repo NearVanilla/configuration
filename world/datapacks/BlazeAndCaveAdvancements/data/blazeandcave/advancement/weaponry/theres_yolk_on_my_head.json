@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:weaponry/egging_dude",
 	"rewards": {
-		"function": "bc_rewards:weaponry/theres_yolk_on_my_head"
+		"function": "bacap_rewards:weaponry/theres_yolk_on_my_head"
 	},		
 	"criteria": {
 		"egg": {

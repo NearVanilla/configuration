@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:bacap/time_to_farm",
 	"rewards": {
-		"function": "bc_rewards:bacap/mining_milestone"
+		"function": "bacap_rewards:bacap/mining_milestone"
 	},		
 	"criteria": {
 		"acquire_hardware": {
@@ -1425,6 +1425,19 @@
 						"type": "player",
 						"advancements": {
 							"blazeandcave:mining/grate_expectations": true
+						}
+					}
+				}
+			}
+		},
+		"i_yearned_for_the_mines": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/i_yearned_for_the_mines": true
 						}
 					}
 				}

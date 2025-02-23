@@ -10,7 +10,7 @@
 		"announce_to_chat": false
 	},
 	"rewards": {
-		"function": "bc_rewards:enchanting/root"
+		"function": "bacap_rewards:enchanting/root"
 	},			
 	"criteria": {
 		"enchanted_item": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/revaulting",
 	"rewards": {
-		"function": "bc_rewards:adventure/vault_hunter"
+		"function": "bacap_rewards:adventure/vault_hunter"
 	},		
 	"criteria": {
 		"vault_hunter": {

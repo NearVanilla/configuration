@@ -15,7 +15,7 @@
 	},
 	"parent": "blazeandcave:end/unending_hell",
 	"rewards": {
-		"function": "bc_rewards:end/dimension_penetration"
+		"function": "bacap_rewards:end/dimension_penetration"
 	},
 	"criteria": {
 		"dimension_penetration": {

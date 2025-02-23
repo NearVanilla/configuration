@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:mining/bling_bling_gone",
 	"rewards": {
-		"function": "bc_rewards:mining/weve_broken_our_last_shovel"
+		"function": "bacap_rewards:mining/weve_broken_our_last_shovel"
 	},		
 	"criteria": {
 		"wooden_shovel": {

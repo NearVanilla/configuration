@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/poison_dart",
 	"rewards": {
-		"function": "bc_rewards:monsters/the_undead_cavalry"
+		"function": "bacap_rewards:monsters/the_undead_cavalry"
 	},		
 	"criteria": {
 		"skeleton_horse": {

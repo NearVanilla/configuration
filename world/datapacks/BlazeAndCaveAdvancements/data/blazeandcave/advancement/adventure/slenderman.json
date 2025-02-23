@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:adventure/nyan_sheep",
 	"rewards": {
-		"function": "bc_rewards:adventure/slenderman"
+		"function": "bacap_rewards:adventure/slenderman"
 	},		
 	"criteria": {
 		"slenderman": {

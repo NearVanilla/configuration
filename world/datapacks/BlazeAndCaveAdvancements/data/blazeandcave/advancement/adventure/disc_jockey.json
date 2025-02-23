@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/play_jukebox_in_meadows",	
 	"rewards": {
-		"function": "bc_rewards:adventure/disc_jockey"
+		"function": "bacap_rewards:adventure/disc_jockey"
 	},		
 	"criteria": {
 		"music_disc_cat": {

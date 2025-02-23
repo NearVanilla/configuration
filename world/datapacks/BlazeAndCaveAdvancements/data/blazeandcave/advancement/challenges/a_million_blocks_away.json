@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:challenges/the_devils_distance",
 	"rewards": {
-		"function": "bc_rewards:challenges/a_million_blocks_away"
+		"function": "bacap_rewards:challenges/a_million_blocks_away"
 	},		
 	"criteria": {
 		"outer_pos_x": {

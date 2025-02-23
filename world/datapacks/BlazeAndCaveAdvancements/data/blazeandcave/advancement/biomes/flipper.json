@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:biomes/cargo_carrier",
 	"rewards": {
-		"function": "bc_rewards:biomes/flipper"
+		"function": "bacap_rewards:biomes/flipper"
 	},
 	"criteria": {
 		"flipper": {

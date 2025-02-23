@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:enchanting/root",
 	"rewards": {
-		"function": "bc_rewards:enchanting/like_a_cat"
+		"function": "bacap_rewards:enchanting/like_a_cat"
 	},			
 	"criteria": {
 		"feather_falling": {

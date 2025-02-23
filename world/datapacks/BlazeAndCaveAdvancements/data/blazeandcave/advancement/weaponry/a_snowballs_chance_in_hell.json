@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:weaponry/snowball_fight",
 	"rewards": {
-		"function": "bc_rewards:weaponry/a_snowballs_chance_in_hell"
+		"function": "bacap_rewards:weaponry/a_snowballs_chance_in_hell"
 	},		
 	"criteria": {
 		"snowball": {

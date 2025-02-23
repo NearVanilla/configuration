@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:monsters/dead_dont_die",
 	"rewards": {
-		"function": "bc_rewards:monsters/there_has_to_be_another_way"
+		"function": "bacap_rewards:monsters/there_has_to_be_another_way"
 	},		
 	"criteria": {
 		"zombie_villager": {

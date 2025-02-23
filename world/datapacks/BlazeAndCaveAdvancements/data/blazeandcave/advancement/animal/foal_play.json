@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:animal/cowboy",
 	"rewards": {
-		"function": "bc_rewards:animal/foal_play"
+		"function": "bacap_rewards:animal/foal_play"
 	},		
 	"criteria": {
 		"horse": {

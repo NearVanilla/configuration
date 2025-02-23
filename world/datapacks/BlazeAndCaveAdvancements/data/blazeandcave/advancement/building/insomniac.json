@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:building/rainbow_dreams",
 	"rewards": {
-		"function": "bc_rewards:building/insomniac"
+		"function": "bacap_rewards:building/insomniac"
 	},		
 	"criteria": {
 		"trigger": {

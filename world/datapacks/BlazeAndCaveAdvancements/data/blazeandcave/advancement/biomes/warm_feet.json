@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:biomes/one_with_the_forest",	
 	"rewards": {
-		"function": "bc_rewards:biomes/warm_feet"
+		"function": "bacap_rewards:biomes/warm_feet"
 	},	
 	"criteria": {
 		"desert": {

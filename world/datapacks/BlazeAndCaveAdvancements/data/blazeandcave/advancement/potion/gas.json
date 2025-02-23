@@ -15,7 +15,7 @@
 	},
 	"parent": "blazeandcave:potion/noxious_fumes",
 	"rewards": {
-		"function": "bc_rewards:potion/gas"
+		"function": "bacap_rewards:potion/gas"
 	},	
 	"criteria": {
 		"kill_magic": {

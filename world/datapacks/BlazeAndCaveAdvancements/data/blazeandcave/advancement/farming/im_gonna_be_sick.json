@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:farming/suspicious_looking_stew",
 	"rewards": {
-		"function": "bc_rewards:farming/im_gonna_be_sick"
+		"function": "bacap_rewards:farming/im_gonna_be_sick"
 	},		
 	"criteria": {
 		"oxeye_daisy_stew": {
@@ -23,7 +23,8 @@
 					"components": {
 						"minecraft:suspicious_stew_effects": [
 							{
-								"id": "minecraft:regeneration"
+								"id": "minecraft:regeneration",
+								"duration": 140
 							}
 						]
 					}
@@ -41,7 +42,7 @@
 						"minecraft:suspicious_stew_effects": [
 							{
 								"id": "minecraft:jump_boost",
-								"duration": 120
+								"duration": 100
 							}
 						]
 					}
@@ -59,7 +60,7 @@
 						"minecraft:suspicious_stew_effects": [
 							{
 								"id": "minecraft:poison",
-								"duration": 240
+								"duration": 220
 							}
 						]
 					}
@@ -76,7 +77,8 @@
 					"components": {
 						"minecraft:suspicious_stew_effects": [
 							{
-								"id": "minecraft:wither"
+								"id": "minecraft:wither",
+								"duration": 140
 							}
 						]
 					}
@@ -94,7 +96,7 @@
 						"minecraft:suspicious_stew_effects": [
 							{
 								"id": "minecraft:weakness",
-								"duration": 180
+								"duration": 140
 							}
 						]
 					}
@@ -111,7 +113,8 @@
 					"components": {
 						"minecraft:suspicious_stew_effects": [
 							{
-								"id": "minecraft:blindness"
+								"id": "minecraft:blindness",
+								"duration": 220
 							}
 						]
 					}
@@ -129,7 +132,7 @@
 						"minecraft:suspicious_stew_effects": [
 							{
 								"id": "minecraft:fire_resistance",
-								"duration": 80
+								"duration": 60
 							}
 						]
 					}
@@ -166,6 +169,24 @@
 							{
 								"id": "minecraft:night_vision",
 								"duration": 100
+							}
+						]
+					}
+				}
+			}
+		},
+		"closed_eyeblossom_stew": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:suspicious_stew"
+					],
+					"components": {
+						"minecraft:suspicious_stew_effects": [
+							{
+								"id": "minecraft:nausea",
+								"duration": 140
 							}
 						]
 					}

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:end/cow_jumped_over_the_moon",
 	"rewards": {
-		"function": "bc_rewards:end/the_void_frogs"
+		"function": "bacap_rewards:end/the_void_frogs"
 	},		
 	"criteria": {
 		"the_void_frogs": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:biomes/dolphin_dasher",	
 	"rewards": {
-		"function": "bc_rewards:biomes/the_great_blocky_reef"
+		"function": "bacap_rewards:biomes/the_great_blocky_reef"
 	},	
 	"criteria": {
 		"warm_ocean": {

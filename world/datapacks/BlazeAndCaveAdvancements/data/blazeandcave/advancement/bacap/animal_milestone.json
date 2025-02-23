@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:bacap/farming_milestone",
 	"rewards": {
-		"function": "bc_rewards:bacap/animal_milestone"
+		"function": "bacap_rewards:bacap/animal_milestone"
 	},		
 	"criteria": {
 		"a_horse_in_shining_armor": {
@@ -1750,6 +1750,45 @@
 						"type": "player",
 						"advancements": {
 							"blazeandcave:animal/paw_patrol": true
+						}
+					}
+				}
+			}
+		},
+		"humble_bundle": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/humble_bundle": true
+						}
+					}
+				}
+			}
+		},
+		"fractal": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/fractal": true
+						}
+					}
+				}
+			}
+		},
+		"flamboyant_range": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/flamboyant_range": true
 						}
 					}
 				}

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:redstone/target_acquired",
 	"rewards": {
-		"function": "bc_rewards:redstone/target_practise"
+		"function": "bacap_rewards:redstone/target_practise"
 	},	
 	"criteria": {
 		"arrow": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:adventure/ghostbuster",
 	"rewards": {
-		"function": "bc_rewards:adventure/wololo"
+		"function": "bacap_rewards:adventure/wololo"
 	},		
 	"criteria": {
 		"evoker": {

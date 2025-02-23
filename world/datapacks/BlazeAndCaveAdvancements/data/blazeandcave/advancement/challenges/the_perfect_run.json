@@ -17,7 +17,7 @@
 	},
 	"parent": "blazeandcave:challenges/dragon_vs_wither_the_pre_sequel",
 	"rewards": {
-		"function": "bc_rewards:challenges/the_perfect_run"
+		"function": "bacap_rewards:challenges/the_perfect_run"
 	},		
 	"criteria": {
 		"dragon": {

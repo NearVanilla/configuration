@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:bacap/mining_milestone",
 	"rewards": {
-		"function": "bc_rewards:bacap/building_milestone"
+		"function": "bacap_rewards:bacap/building_milestone"
 	},		
 	"criteria": {
 		"a_masterpiece": {
@@ -1438,6 +1438,19 @@
 						"type": "player",
 						"advancements": {
 							"minecraft:adventure/lighten_up": true
+						}
+					}
+				}
+			}
+		},
+		"pale_gardener": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:building/pale_gardener": true
 						}
 					}
 				}

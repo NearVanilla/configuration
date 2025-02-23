@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/zombie_slayer",
 	"rewards": {
-		"function": "bc_rewards:monsters/freezing"
+		"function": "bacap_rewards:monsters/freezing"
 	},	
 	"criteria": {
 		"snowy_plains": {

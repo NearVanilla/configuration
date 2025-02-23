@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:bacap/time_to_chop",
 	"rewards": {
-		"function": "bc_rewards:bacap/time_to_dig"
+		"function": "bacap_rewards:bacap/time_to_dig"
 	},		
 	"criteria": {
 		"wooden_shovel": {

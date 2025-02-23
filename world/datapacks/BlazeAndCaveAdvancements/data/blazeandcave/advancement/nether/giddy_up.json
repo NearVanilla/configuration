@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:nether/whole_hog",
 	"rewards": {
-		"function": "bc_rewards:nether/giddy_up"
+		"function": "bacap_rewards:nether/giddy_up"
 	},	
 	"criteria": {
 		"piglin_jockey": {

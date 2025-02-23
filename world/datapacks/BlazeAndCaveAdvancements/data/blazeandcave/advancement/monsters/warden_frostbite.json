@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/stealth_is_optional",
 	"rewards": {
-		"function": "bc_rewards:monsters/warden_frostbite"
+		"function": "bacap_rewards:monsters/warden_frostbite"
 	},		
 	"criteria": {
 		"snowy_plains": {

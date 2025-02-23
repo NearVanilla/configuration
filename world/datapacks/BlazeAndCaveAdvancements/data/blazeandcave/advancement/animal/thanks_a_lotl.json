@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:husbandry/kill_axolotl_target",
 	"rewards": {
-		"function": "bc_rewards:animal/thanks_a_lotl"
+		"function": "bacap_rewards:animal/thanks_a_lotl"
 	},		
 	"criteria": {
 		"kill_axolotl_target": {

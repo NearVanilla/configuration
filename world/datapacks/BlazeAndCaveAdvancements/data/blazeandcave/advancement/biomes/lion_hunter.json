@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:biomes/tarzan",
 	"rewards": {
-		"function": "bc_rewards:biomes/lion_hunter"
+		"function": "bacap_rewards:biomes/lion_hunter"
 	},		
 	"criteria": {
 		"ocelot": {

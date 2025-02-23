@@ -13,7 +13,7 @@
 	},
 	"parent": "minecraft:nether/netherite_armor",
 	"rewards": {
-		"function": "bc_rewards:nether/soul_runnings"
+		"function": "bacap_rewards:nether/soul_runnings"
 	},
 	"criteria": {
 		"soul_runnings": {

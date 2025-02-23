@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {
-		"function": "bc_rewards:adventure/do_you_want_to_trade"
+		"function": "bacap_rewards:adventure/do_you_want_to_trade"
 	},		
 	"criteria": {
 		"village": {

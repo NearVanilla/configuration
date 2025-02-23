@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:adventure/laser_sharks",
 	"rewards": {
-		"function": "bc_rewards:adventure/spear_fishing"
+		"function": "bacap_rewards:adventure/spear_fishing"
 	},	
 	"criteria": {
 		"guardian": {

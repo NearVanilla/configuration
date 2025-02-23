@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:adventure/florist",
 	"rewards": {
-		"function": "bc_rewards:adventure/rebuilding_the_oceans"
+		"function": "bacap_rewards:adventure/rebuilding_the_oceans"
 	},		
 	"criteria": {
 		"tube_coral_block": {

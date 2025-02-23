@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/overoverkill",
 	"rewards": {
-		"function": "bc_rewards:weaponry/warden_extinction"
+		"function": "bacap_rewards:weaponry/warden_extinction"
 	},
 	"criteria": {
 		"overoverkill": {
@@ -28,7 +28,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "minecraft:mace_smash",
 								"expected": true
 							}
 						]

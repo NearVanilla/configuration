@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:weaponry/a_snowballs_chance_in_hell",
 	"rewards": {
-		"function": "bc_rewards:weaponry/backfire"
+		"function": "bacap_rewards:weaponry/backfire"
 	},		
 	"criteria": {
 		"backfire": {

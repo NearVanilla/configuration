@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:redstone/dispense_with_this",
 	"rewards": {
-		"function": "bc_rewards:redstone/we_have_liftoff"
+		"function": "bacap_rewards:redstone/we_have_liftoff"
 	},
 	"criteria": {
 		"we_have_liftoff": {

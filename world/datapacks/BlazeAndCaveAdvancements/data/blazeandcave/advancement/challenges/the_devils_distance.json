@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:challenges/explorer_of_worlds",
 	"rewards": {
-		"function": "bc_rewards:challenges/the_devils_distance"
+		"function": "bacap_rewards:challenges/the_devils_distance"
 	},	
 	"criteria": {
 		"travelled": {

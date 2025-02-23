@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/spyglass_at_ghast",
 	"rewards": {
-		"function": "bc_rewards:nether/return_to_sender"
+		"function": "bacap_rewards:nether/return_to_sender"
 	},	
 	"criteria": {
 		"killed_ghast": {

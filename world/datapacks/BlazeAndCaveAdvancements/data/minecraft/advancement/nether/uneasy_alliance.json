@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:nether/ghast_slayer",
 	"rewards": {
-		"function": "bc_rewards:nether/uneasy_alliance"
+		"function": "bacap_rewards:nether/uneasy_alliance"
 	},	
 	"criteria": {
 		"killed_ghast": {

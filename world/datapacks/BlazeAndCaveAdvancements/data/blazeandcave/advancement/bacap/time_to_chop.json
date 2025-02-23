@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:bacap/time_to_strike",
 	"rewards": {
-		"function": "bc_rewards:bacap/time_to_chop"
+		"function": "bacap_rewards:bacap/time_to_chop"
 	},		
 	"criteria": {
 		"wooden_axe": {

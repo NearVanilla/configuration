@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/you_lead_ill_follow",
 	"rewards": {
-		"function": "bc_rewards:animal/follow_the_leader"
+		"function": "bacap_rewards:animal/follow_the_leader"
 	},		
 	"criteria": {
 		"bee": {

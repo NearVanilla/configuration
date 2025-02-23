@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:animal/puppies_yipe",
 	"rewards": {
-		"function": "bc_rewards:animal/what_does_the_fox_say"
+		"function": "bacap_rewards:animal/what_does_the_fox_say"
 	},		
 	"criteria": {
 		"fox": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:statistics/minecart_rider",
 	"rewards": {
-		"function": "bc_rewards:statistics/i_like_trains"
+		"function": "bacap_rewards:statistics/i_like_trains"
 	},		
 	"criteria": {
 		"trigger": {

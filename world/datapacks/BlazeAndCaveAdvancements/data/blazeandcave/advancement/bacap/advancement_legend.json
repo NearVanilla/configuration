@@ -11,7 +11,7 @@
 	},
 	"parent": "blazeandcave:bacap/challenges_milestone",
 	"rewards": {
-		"function": "bc_rewards:bacap/advancement_legend"
+		"function": "bacap_rewards:bacap/advancement_legend"
 	},		
 	"criteria": {
 		"a_complete_catalogue": {
@@ -7034,14 +7034,14 @@
 				}
 			}
 		},
-		"iskallium_collector": {
+		"oh_no_guys_im_oozing": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/iskallium_collector": true
+							"blazeandcave:monsters/oh_no_guys_im_oozing": true
 						}
 					}
 				}
@@ -14620,7 +14620,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:adventure/a_chiptune_relic": true
+							"blazeandcave:adventure/a_suspicious_advancement": true
 						}
 					}
 				}
@@ -14842,6 +14842,149 @@
 						"type": "player",
 						"advancements": {
 							"blazeandcave:challenges/overwarden": true
+						}
+					}
+				}
+			}
+		},
+		"humble_bundle": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/humble_bundle": true
+						}
+					}
+				}
+			}
+		},
+		"fractal": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/fractal": true
+						}
+					}
+				}
+			}
+		},
+		"eyeball_forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:biomes/eyeball_forest": true
+						}
+					}
+				}
+			}
+		},
+		"heart_breaker": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:biomes/heart_breaker": true
+						}
+					}
+				}
+			}
+		},
+		"pale_in_comparison": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:biomes/pale_in_comparison": true
+						}
+					}
+				}
+			}
+		},
+		"resinance": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:biomes/resinance": true
+						}
+					}
+				}
+			}
+		},
+		"fake_copper": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:biomes/fake_copper": true
+						}
+					}
+				}
+			}
+		},
+		"pale_gardener": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:building/pale_gardener": true
+						}
+					}
+				}
+			}
+		},
+		"flamboyant_range": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/flamboyant_range": true
+						}
+					}
+				}
+			}
+		},
+		"light_show": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:nether/light_show": true
+						}
+					}
+				}
+			}
+		},
+		"i_yearned_for_the_mines": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/i_yearned_for_the_mines": true
 						}
 					}
 				}

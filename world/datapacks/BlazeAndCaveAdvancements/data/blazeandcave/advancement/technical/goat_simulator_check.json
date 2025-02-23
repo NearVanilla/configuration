@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blazeandcave:goat_simulator_check"
+	},
+	"criteria": {
+		"goat": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "goat"
+					}
+				}
+			}
+		}
+	}
+}

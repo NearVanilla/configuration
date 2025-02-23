@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:challenges/highway_to_hell",
 	"rewards": {
-		"function": "bc_rewards:challenges/endergeddon"
+		"function": "bacap_rewards:challenges/endergeddon"
 	},	
 	"criteria": {
 		"bat": {

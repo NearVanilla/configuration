@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:end/enter_end_gateway",
 	"rewards": {
-		"function": "bc_rewards:end/the_city_at_the_end_of_the_game"
+		"function": "bacap_rewards:end/the_city_at_the_end_of_the_game"
 	},	
 	"criteria": {
 		"in_city": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/pig_slaughterer",
 	"rewards": {
-		"function": "bc_rewards:animal/swine_sailing"
+		"function": "bacap_rewards:animal/swine_sailing"
 	},		
 	"criteria": {
 		"swine_sailing": {
@@ -24,7 +24,7 @@
 							"vehicle": {
 								"type": "pig",
 								"vehicle": {
-									"type": "#minecraft:boats",
+									"type": "#blazeandcave:all_boats",
 									"vehicle": {
 										"type": "minecart"
 									}

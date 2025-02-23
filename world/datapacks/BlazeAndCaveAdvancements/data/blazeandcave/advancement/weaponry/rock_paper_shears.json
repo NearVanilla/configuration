@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:weaponry/inspector_gadget",
 	"rewards": {
-		"function": "bc_rewards:weaponry/rock_paper_shears"
+		"function": "bacap_rewards:weaponry/rock_paper_shears"
 	},		
 	"criteria": {
 		"paper_beats_rock": {

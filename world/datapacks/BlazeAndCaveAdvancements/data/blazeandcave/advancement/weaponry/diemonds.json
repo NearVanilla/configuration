@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:weaponry/slapfish",
 	"rewards": {
-		"function": "bc_rewards:weaponry/diemonds"
+		"function": "bacap_rewards:weaponry/diemonds"
 	},		
 	"criteria": {
 		"diamond": {

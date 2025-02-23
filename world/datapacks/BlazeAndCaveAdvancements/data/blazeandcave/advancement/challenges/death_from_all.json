@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:challenges/immortal",
 	"rewards": {
-		"function": "bc_rewards:challenges/death_from_all"
+		"function": "bacap_rewards:challenges/death_from_all"
 	},		
 	"criteria": {
 		"pufferfish": {
@@ -386,6 +386,14 @@
 			"conditions": {
 				"entity": {
 					"type": "bogged"
+				}
+			}
+		},
+		"creaking": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"entity": {
+					"type": "creaking"
 				}
 			}
 		}

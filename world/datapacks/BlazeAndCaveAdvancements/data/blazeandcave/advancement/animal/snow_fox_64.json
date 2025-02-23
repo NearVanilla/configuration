@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:animal/what_does_the_fox_say",
 	"rewards": {
-		"function": "bc_rewards:animal/snow_fox_64"
+		"function": "bacap_rewards:animal/snow_fox_64"
 	},		
 	"criteria": {
 		"fox": {

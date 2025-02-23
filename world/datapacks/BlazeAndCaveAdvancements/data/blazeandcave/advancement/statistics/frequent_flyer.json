@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:statistics/supersonic",
 	"rewards": {
-		"function": "bc_rewards:statistics/frequent_flyer"
+		"function": "bacap_rewards:statistics/frequent_flyer"
 	},		
 	"criteria": {
 		"trigger": {

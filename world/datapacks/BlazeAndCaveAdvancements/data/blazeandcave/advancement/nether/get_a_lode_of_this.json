@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:nether/diamonds_are_not_forever",
 	"rewards": {
-		"function": "bc_rewards:nether/get_a_lode_of_this"
+		"function": "bacap_rewards:nether/get_a_lode_of_this"
 	},	
 	"criteria": {
 		"lodestone": {

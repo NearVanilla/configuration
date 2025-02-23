@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {
-		"function": "bc_rewards:adventure/out_of_posts"
+		"function": "bacap_rewards:adventure/out_of_posts"
 	},		
 	"criteria": {
 		"pillager_outpost": {

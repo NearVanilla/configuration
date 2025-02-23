@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:challenges/telescopic",
 	"rewards": {
-		"function": "bc_rewards:challenges/highway_to_hell"
+		"function": "bacap_rewards:challenges/highway_to_hell"
 	},	
 	"criteria": {
 		"bat": {

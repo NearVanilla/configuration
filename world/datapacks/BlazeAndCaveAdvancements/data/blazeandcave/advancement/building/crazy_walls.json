@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:building/the_walls",
 	"rewards": {
-		"function": "bc_rewards:building/crazy_walls"
+		"function": "bacap_rewards:building/crazy_walls"
 	},		
 	"criteria": {
 		"cobblestone_wall": {
@@ -308,6 +308,18 @@
 					{
 						"items": [
 							"minecraft:tuff_brick_wall"
+						]
+					}
+				]
+			}
+		},
+		"resin_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:resin_brick_wall"
 						]
 					}
 				]

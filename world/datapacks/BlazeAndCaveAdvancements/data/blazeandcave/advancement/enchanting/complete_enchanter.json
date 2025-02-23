@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:enchanting/let_it_go",
 	"rewards": {
-		"function": "bc_rewards:enchanting/complete_enchanter"
+		"function": "bacap_rewards:enchanting/complete_enchanter"
 	},			
 	"criteria": {
 		"protection": {

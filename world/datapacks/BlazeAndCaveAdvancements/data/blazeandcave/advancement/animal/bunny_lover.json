@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/in_a_hole_there_lived_a_rabbit",
 	"rewards": {
-		"function": "bc_rewards:animal/bunny_lover"
+		"function": "bacap_rewards:animal/bunny_lover"
 	},		
 	"criteria": {
 		"brown": {

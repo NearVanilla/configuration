@@ -13,7 +13,7 @@
 	},
 	"parent": "blazeandcave:statistics/journeyman_enchanter",
 	"rewards": {
-		"function": "bc_rewards:statistics/elderly_enchanter"
+		"function": "bacap_rewards:statistics/elderly_enchanter"
 	},		
 	"criteria": {
 		"trigger": {

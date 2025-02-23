@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:adventure/im_not_lost_anymore",
 	"rewards": {
-		"function": "bc_rewards:adventure/map_room"
+		"function": "bacap_rewards:adventure/map_room"
 	},		
 	"criteria": {
 		"filled_map": {

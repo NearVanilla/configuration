@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:adventure/buy_low_sell_high",
 	"rewards": {
-		"function": "bc_rewards:adventure/undying_fandom"
+		"function": "bacap_rewards:adventure/undying_fandom"
 	},		
 	"criteria": {
 		"poppy": {

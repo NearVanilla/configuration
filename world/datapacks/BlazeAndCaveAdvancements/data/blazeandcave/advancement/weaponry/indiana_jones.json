@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:weaponry/pig_fishing_tournament",
 	"rewards": {
-		"function": "bc_rewards:weaponry/indiana_jones"
+		"function": "bacap_rewards:weaponry/indiana_jones"
 	},		
 	"criteria": {
 		"indiana_jones": {

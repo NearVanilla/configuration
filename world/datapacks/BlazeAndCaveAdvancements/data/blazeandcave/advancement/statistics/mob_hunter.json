@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:technical/you_are_a_big_cheater",
 	"rewards": {
-		"function": "bc_rewards:statistics/mob_hunter"
+		"function": "bacap_rewards:statistics/mob_hunter"
 	},		
 	"criteria": {
 		"trigger": {

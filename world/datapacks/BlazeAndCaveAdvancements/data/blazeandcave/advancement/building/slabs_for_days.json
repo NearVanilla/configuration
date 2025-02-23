@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:building/stairs_no",
 	"rewards": {
-		"function": "bc_rewards:building/slabs_for_days"
+		"function": "bacap_rewards:building/slabs_for_days"
 	},		
 	"criteria": {
 		"stone_slab": {
@@ -716,6 +716,30 @@
 					{
 						"items": [
 							"minecraft:tuff_brick_slab"
+						]
+					}
+				]
+			}
+		},
+		"pale_oak_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_slab"
+						]
+					}
+				]
+			}
+		},
+		"resin_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:resin_brick_slab"
 						]
 					}
 				]

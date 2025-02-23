@@ -15,7 +15,7 @@
 	},
 	"parent": "blazeandcave:challenges/potion_master",
 	"rewards": {
-		"function": "bc_rewards:challenges/biological_warfare"
+		"function": "bacap_rewards:challenges/biological_warfare"
 	},	
 	"criteria": {
 		"bat": {

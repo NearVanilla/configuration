@@ -15,7 +15,7 @@
 	},
 	"parent": "blazeandcave:weaponry/explosive_fire",
 	"rewards": {
-		"function": "bc_rewards:weaponry/my_eyes"
+		"function": "bacap_rewards:weaponry/my_eyes"
 	},		
 	"criteria": {
 		"firework_rocket_kill": {

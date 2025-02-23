@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:statistics/root",
 	"rewards": {
-		"function": "bc_rewards:statistics/natural_sprinter"
+		"function": "bacap_rewards:statistics/natural_sprinter"
 	},		
 	"criteria": {
 		"trigger": {

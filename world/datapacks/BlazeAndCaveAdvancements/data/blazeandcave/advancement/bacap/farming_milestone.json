@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:bacap/building_milestone",
 	"rewards": {
-		"function": "bc_rewards:bacap/farming_milestone"
+		"function": "bacap_rewards:bacap/farming_milestone"
 	},		
 	"criteria": {
 		"24_carrot_gold": {

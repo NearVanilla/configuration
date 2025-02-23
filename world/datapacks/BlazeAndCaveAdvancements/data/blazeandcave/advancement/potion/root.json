@@ -15,7 +15,7 @@
 		"announce_to_chat": false		
 	},
 	"rewards": {
-		"function": "bc_rewards:potion/root"
+		"function": "bacap_rewards:potion/root"
 	},	
 	"criteria": {
 		"potion": {

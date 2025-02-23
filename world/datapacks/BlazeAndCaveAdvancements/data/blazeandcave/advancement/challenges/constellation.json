@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:challenges/root",
 	"rewards": {
-		"function": "bc_rewards:challenges/constellation"
+		"function": "bacap_rewards:challenges/constellation"
 	},		
 	"criteria": {
 		"nether_star": {

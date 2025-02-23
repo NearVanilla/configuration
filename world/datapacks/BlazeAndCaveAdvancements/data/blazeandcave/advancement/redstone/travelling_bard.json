@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:redstone/noteworthy",
 	"rewards": {
-		"function": "bc_rewards:redstone/travelling_bard"
+		"function": "bacap_rewards:redstone/travelling_bard"
 	},
 	"criteria": {
 		"snowy_plains": {
@@ -1094,6 +1094,24 @@
 								]
 							},
 							"biomes": "cherry_grove"
+						}
+					}
+				]
+			}
+		},
+		"pale_garden": {
+			"trigger": "minecraft:default_block_use",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:note_block"
+								]
+							},
+							"biomes": "pale_garden"
 						}
 					}
 				]

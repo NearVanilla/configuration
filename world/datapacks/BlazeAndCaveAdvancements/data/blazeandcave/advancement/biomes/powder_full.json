@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:biomes/this_snow_is_snowier",
 	"rewards": {
-		"function": "bc_rewards:biomes/powder_full"
+		"function": "bacap_rewards:biomes/powder_full"
 	},		
 	"criteria": {
 		"powder_snow_bucket": {

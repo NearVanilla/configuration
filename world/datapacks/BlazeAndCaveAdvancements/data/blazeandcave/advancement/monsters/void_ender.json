@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/hell_hunter",
 	"rewards": {
-		"function": "bc_rewards:monsters/void_ender"
+		"function": "bacap_rewards:monsters/void_ender"
 	},	
 	"criteria": {
 		"enderman": {

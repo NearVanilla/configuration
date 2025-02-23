@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:challenges/root",
 	"rewards": {
-		"function": "bc_rewards:challenges/nuclear_fusion"
+		"function": "bacap_rewards:challenges/nuclear_fusion"
 	},
 	"criteria": {
 		"struck_villager": {

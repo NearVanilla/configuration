@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:adventure/its_so_beast_like",
 	"rewards": {
-		"function": "bc_rewards:adventure/feeling_ill"
+		"function": "bacap_rewards:adventure/feeling_ill"
 	},		
 	"criteria": {
 		"vindicator": {

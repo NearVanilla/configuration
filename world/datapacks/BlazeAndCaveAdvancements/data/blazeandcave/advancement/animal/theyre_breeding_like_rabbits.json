@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:animal/rabbit_season",
 	"rewards": {
-		"function": "bc_rewards:animal/theyre_breeding_like_rabbits"
+		"function": "bacap_rewards:animal/theyre_breeding_like_rabbits"
 	},		
 	"criteria": {
 		"rabbit": {

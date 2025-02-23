@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/mollusc_man",
 	"rewards": {
-		"function": "bc_rewards:monsters/captain_etho"
+		"function": "bacap_rewards:monsters/captain_etho"
 	},		
 	"criteria": {
 		"drowned": {

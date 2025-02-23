@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/direct_fishing",
 	"rewards": {
-		"function": "bc_rewards:animal/grinding_nemo"
+		"function": "bacap_rewards:animal/grinding_nemo"
 	},		
 	"criteria": {
 		"tropical_fish": {

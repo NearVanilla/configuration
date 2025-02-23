@@ -13,7 +13,7 @@
 	},
 	"parent": "blazeandcave:enchanting/unbreakable",
 	"rewards": {
-		"function": "bc_rewards:enchanting/master_fisher"
+		"function": "bacap_rewards:enchanting/master_fisher"
 	},		
 	"criteria": {
 		"perfect_rod": {

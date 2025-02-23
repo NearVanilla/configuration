@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:monsters/iron_belly",
 	"rewards": {
-		"function": "bc_rewards:monsters/a_watery_grave"
+		"function": "bacap_rewards:monsters/a_watery_grave"
 	},		
 	"criteria": {
 		"drowned": {

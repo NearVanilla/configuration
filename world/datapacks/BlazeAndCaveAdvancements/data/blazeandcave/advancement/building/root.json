@@ -10,7 +10,7 @@
 		"announce_to_chat": false
 	},
 	"rewards": {
-		"function": "bc_rewards:building/root"
+		"function": "bacap_rewards:building/root"
 	},		
 	"criteria": {
 		"crafting_table": {

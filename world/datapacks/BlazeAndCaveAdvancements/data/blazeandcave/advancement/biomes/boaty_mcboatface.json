@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:biomes/the_sea_calls_you",
 	"rewards": {
-		"function": "bc_rewards:biomes/boaty_mcboatface"
+		"function": "bacap_rewards:biomes/boaty_mcboatface"
 	},		
 	"criteria": {
 		"boat": {
@@ -20,7 +20,7 @@
 						"condition": "minecraft:entity_properties",
 						"predicate": {
 							"vehicle": {
-								"type": "#minecraft:boats"
+								"type": "#blazeandcave:all_boats"
 							}
 						},
 						"entity": "this"

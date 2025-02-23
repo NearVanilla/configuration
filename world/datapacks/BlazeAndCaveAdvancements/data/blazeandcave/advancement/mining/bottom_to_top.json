@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:mining/rock_bottom",
 	"rewards": {
-		"function": "bc_rewards:mining/bottom_to_top"
+		"function": "bacap_rewards:mining/bottom_to_top"
 	},		
 	"criteria": {
 		"stone": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/kill_a_mob",
 	"rewards": {
-		"function": "bc_rewards:monsters/gelatinous_cube"
+		"function": "bacap_rewards:monsters/gelatinous_cube"
 	},		
 	"criteria": {
 		"slime": {

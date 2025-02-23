@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:biomes/construction_worker",
 	"rewards": {
-		"function": "bc_rewards:biomes/zoologist"
+		"function": "bacap_rewards:biomes/zoologist"
 	},		
 	"criteria": {
 		"panda": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:weaponry/expelliarmus",
 	"rewards": {
-		"function": "bc_rewards:weaponry/slapfish"
+		"function": "bacap_rewards:weaponry/slapfish"
 	},		
 	"criteria": {
 		"slapfish": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {
-		"function": "bc_rewards:animal/lead_the_way"
+		"function": "bacap_rewards:animal/lead_the_way"
 	},
 	"criteria": {
 		"lead": {

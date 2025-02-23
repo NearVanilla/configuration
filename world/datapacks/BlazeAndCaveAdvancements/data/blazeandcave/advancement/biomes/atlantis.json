@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:biomes/pushed_around",
 	"rewards": {
-		"function": "bc_rewards:biomes/atlantis"
+		"function": "bacap_rewards:biomes/atlantis"
 	},		
 	"criteria": {
 		"ocean_ruin": {

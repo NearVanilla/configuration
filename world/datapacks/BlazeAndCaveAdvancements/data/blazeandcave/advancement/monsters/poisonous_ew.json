@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:monsters/ew_ew_ew",
 	"rewards": {
-		"function": "bc_rewards:monsters/poisonous_ew"
+		"function": "bacap_rewards:monsters/poisonous_ew"
 	},		
 	"criteria": {
 		"spider": {

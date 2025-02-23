@@ -15,7 +15,7 @@
 	},
 	"parent": "blazeandcave:adventure/travelling_merchant",
 	"rewards": {
-		"function": "bc_rewards:adventure/shady_deals"
+		"function": "bacap_rewards:adventure/shady_deals"
 	},		
 	"criteria": {
 		"trade": {

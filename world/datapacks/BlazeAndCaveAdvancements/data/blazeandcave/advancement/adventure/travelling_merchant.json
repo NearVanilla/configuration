@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/root",
 	"rewards": {
-		"function": "bc_rewards:adventure/travelling_merchant"
+		"function": "bacap_rewards:adventure/travelling_merchant"
 	},		
 	"criteria": {
 		"trade": {

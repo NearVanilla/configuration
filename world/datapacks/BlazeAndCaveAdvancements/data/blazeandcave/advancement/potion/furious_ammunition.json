@@ -15,7 +15,7 @@
 	},
 	"parent": "blazeandcave:potion/imbued_projectiles",
 	"rewards": {
-		"function": "bc_rewards:potion/furious_ammunition"
+		"function": "bacap_rewards:potion/furious_ammunition"
 	},	
 	"criteria": {
 		"water": {

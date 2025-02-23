@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:statistics/taking_it_in_stride",
 	"rewards": {
-		"function": "bc_rewards:statistics/who_needs_boats"
+		"function": "bacap_rewards:statistics/who_needs_boats"
 	},		
 	"criteria": {
 		"trigger": {

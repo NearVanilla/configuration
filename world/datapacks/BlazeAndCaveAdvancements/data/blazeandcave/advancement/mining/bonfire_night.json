@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:mining/flint_miner",
 	"rewards": {
-		"function": "bc_rewards:mining/bonfire_night"
+		"function": "bacap_rewards:mining/bonfire_night"
 	},		
 	"criteria": {
 		"oak_log": {
@@ -4443,7 +4443,8 @@
 						"predicate": {
 							"block": {
 								"blocks": [
-									"minecraft:big_dripleaf"
+									"minecraft:big_dripleaf",
+									"minecraft:big_dripleaf_stem"
 								]
 							}
 						}
@@ -4470,6 +4471,396 @@
 							"block": {
 								"blocks": [
 									"minecraft:spore_blossom"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flint_and_steel",
+								"minecraft:fire_charge"
+							]
+						}
+					}
+				]
+			}
+		},
+		"pale_oak_log": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:pale_oak_log"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flint_and_steel",
+								"minecraft:fire_charge"
+							]
+						}
+					}
+				]
+			}
+		},
+		"stripped_pale_oak_log": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:stripped_pale_oak_log"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flint_and_steel",
+								"minecraft:fire_charge"
+							]
+						}
+					}
+				]
+			}
+		},
+		"pale_oak_wood": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:pale_oak_wood"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flint_and_steel",
+								"minecraft:fire_charge"
+							]
+						}
+					}
+				]
+			}
+		},
+		"stripped_pale_oak_wood": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:stripped_pale_oak_wood"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flint_and_steel",
+								"minecraft:fire_charge"
+							]
+						}
+					}
+				]
+			}
+		},
+		"pale_oak_planks": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:pale_oak_planks"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flint_and_steel",
+								"minecraft:fire_charge"
+							]
+						}
+					}
+				]
+			}
+		},
+		"pale_oak_slab": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:pale_oak_slab"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flint_and_steel",
+								"minecraft:fire_charge"
+							]
+						}
+					}
+				]
+			}
+		},
+		"pale_oak_fence_gate": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:pale_oak_fence_gate"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flint_and_steel",
+								"minecraft:fire_charge"
+							]
+						}
+					}
+				]
+			}
+		},
+		"pale_oak_fence": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:pale_oak_fence"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flint_and_steel",
+								"minecraft:fire_charge"
+							]
+						}
+					}
+				]
+			}
+		},
+		"pale_oak_stairs": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:pale_oak_stairs"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flint_and_steel",
+								"minecraft:fire_charge"
+							]
+						}
+					}
+				]
+			}
+		},
+		"pale_oak_leaves": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:pale_oak_leaves"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flint_and_steel",
+								"minecraft:fire_charge"
+							]
+						}
+					}
+				]
+			}
+		},
+		"closed_eyeblossom": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:closed_eyeblossom"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flint_and_steel",
+								"minecraft:fire_charge"
+							]
+						}
+					}
+				]
+			}
+		},
+		"open_eyeblossom": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:open_eyeblossom"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flint_and_steel",
+								"minecraft:fire_charge"
+							]
+						}
+					}
+				]
+			}
+		},
+		"pale_hanging_moss": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:pale_hanging_moss"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flint_and_steel",
+								"minecraft:fire_charge"
+							]
+						}
+					}
+				]
+			}
+		},
+		"pale_moss_block": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:pale_moss_block"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flint_and_steel",
+								"minecraft:fire_charge"
+							]
+						}
+					}
+				]
+			}
+		},
+		"pale_moss_carpet": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:pale_moss_carpet"
 								]
 							}
 						}

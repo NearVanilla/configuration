@@ -7,9 +7,9 @@
 		"description": {"color":"green","translate":"Craft a chain using an iron ingot and iron nuggets"},
 		"announce_to_chat": true
 	},
-	"parent": "blazeandcave:building/greek_art_decor",
+	"parent": "blazeandcave:building/fake_fortress",
 	"rewards": {
-		"function": "bc_rewards:building/no_chain_no_gain"
+		"function": "bacap_rewards:building/no_chain_no_gain"
 	},		
 	"criteria": {
 		"chain": {

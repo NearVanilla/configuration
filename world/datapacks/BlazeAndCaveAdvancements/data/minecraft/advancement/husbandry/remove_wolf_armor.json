@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:husbandry/repair_wolf_armor",
 	"rewards": {
-		"function": "bc_rewards:animal/shear_brilliance"
+		"function": "bacap_rewards:animal/shear_brilliance"
 	},
 	"criteria": {
 		"remove_wolf_armor": {

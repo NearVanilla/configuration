@@ -12,7 +12,7 @@
 	},
 	"parent": "blazeandcave:statistics/root",
 	"rewards": {
-		"function": "bc_rewards:statistics/sneaky_snitch"
+		"function": "bacap_rewards:statistics/sneaky_snitch"
 	},		
 	"criteria": {
 		"trigger": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:bacap/statistics_milestone",
 	"rewards": {
-		"function": "bc_rewards:bacap/nether_milestone"
+		"function": "bacap_rewards:bacap/nether_milestone"
 	},		
 	"criteria": {
 		"a_terrible_fortress": {
@@ -1386,6 +1386,19 @@
 						"type": "player",
 						"advancements": {
 							"blazeandcave:nether/piglin_peril": true
+						}
+					}
+				}
+			}
+		},
+		"light_show": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:nether/light_show": true
 						}
 					}
 				}

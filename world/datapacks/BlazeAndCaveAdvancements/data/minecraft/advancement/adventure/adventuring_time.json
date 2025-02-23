@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:biomes/wet_feet",	
 	"rewards": {
-		"function": "bc_rewards:biomes/adventuring_time"
+		"function": "bacap_rewards:biomes/adventuring_time"
 	},	
 	"criteria": {
 		"snowy_plains": {
@@ -1054,6 +1054,35 @@
 						"predicate": {
 							"location": {
 								"biomes": "minecraft:cherry_grove"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"pale_garden": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"biomes": "minecraft:pale_garden"
 							}
 						}
 					},

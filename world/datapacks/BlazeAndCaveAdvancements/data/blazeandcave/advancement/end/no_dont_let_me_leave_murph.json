@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:end/im_coming_back_murph",
 	"rewards": {
-		"function": "bc_rewards:end/no_dont_let_me_leave_murph"
+		"function": "bacap_rewards:end/no_dont_let_me_leave_murph"
 	},		
 	"criteria": {
 		"outer_pos_x": {
