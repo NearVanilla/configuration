@@ -75,9 +75,9 @@ plugins:
 - checksum: f471bbcefbe5ef63f4a948b9c2a4d3abdee1e24a
   name: CarbonChat
   version: 3.0.0-beta.27
-- checksum: d068165bac01e9b2f2338d4495c645222e6a511d
+- checksum: bcb0fff5702f87c278a461878b955e77a2b57d83
   name: voicechat
-  version: 2.5.20
+  version: 2.5.26
 - checksum: d39d0b410497aea25c66b03409f3fce100c006bd
   name: FreedomChat
   version: 1.7.0
@@ -111,12 +111,12 @@ plugins:
 - checksum: 5fdedcba607180f15ec7085dfcecbe55d3cc7587
   name: MuteDeaths
   version: 1.0-SNAPSHOT
-- checksum: f75d86c2424def03938d39e76861b3df61a35928
+- checksum: 1daf51b8144081a405922871e35f54b7497d3174
   name: CustomDiscs
-  version: 2.0.2
-- checksum: 5ae6349bc9020c0242dda226bf1a115af4478a11
+  version: '4.1'
+- checksum: 0e33881cfdb22505fc0f4f451277dd3b68f9d57d
   name: ProtocolLib
-  version: 5.3.0-SNAPSHOT-726
+  version: 5.3.0
 version:
   build: 177
   name: 1.21.4
