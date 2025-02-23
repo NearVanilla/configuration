@@ -1,8 +1,8 @@
 platform: Velocity
 plugins:
-- checksum: a1b5a0e68db41786532355b8e1e1159316e1bf38
+- checksum: bcc6b4f4bb756987cd1420d57e54f0b53bd2668b
   name: LuckPerms
-  version: 5.4.153
+  version: 5.4.156
 - checksum: fee4836d44c43f157eb55e22bcbe1843b662d05d
   name: MiniMOTD
   version: 2.1.5
@@ -22,5 +22,5 @@ plugins:
   name: signedvelocity
   version: 1.2.2
 version:
-  build: 465
+  build: 474
   name: 3.4.0-SNAPSHOT
