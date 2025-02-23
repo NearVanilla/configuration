@@ -73,3 +73,7 @@ plugins:
   prefix: FastAsyncWorldEdit
   resource: IntellectualSites/FastAsyncWorldEdit
   type: github
+- name: Protocollib
+  prefix: Protocollib
+  resource: dmulloy2/ProtocolLib
+  type: github
