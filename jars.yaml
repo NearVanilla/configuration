@@ -1,35 +1,35 @@
 platform: Paper
 plugins:
-- checksum: cc628135106ef53b0995a87d4e198620dc8b7b00
+- checksum: 1c23a11fc53e00170f45dfff65896029bab14fee
   name: ArmorStandEditor
-  version: 1.21-47
+  version: 1.21.4-48.1
 - checksum: a57977a017d5d0026f9d55c8ba16d18961ef57dc
   name: DiscordSRV
   version: 1.29.0
-- checksum: 73f652b12f5b366f51ddb3136a5d34701ca9cad9
+- checksum: 48af7c27f627c214bc503132a47dbc9a357c33d0
   name: LuckPerms
-  version: 5.4.153
+  version: 5.4.156
 - checksum: f471bbcefbe5ef63f4a948b9c2a4d3abdee1e24a
   name: CarbonChat
   version: 3.0.0-beta.27
-- checksum: 57ab35783d7d8442a62c94928d82835b005082cc
+- checksum: bcb0fff5702f87c278a461878b955e77a2b57d83
   name: voicechat
-  version: 2.5.16
+  version: 2.5.26
 - checksum: d39d0b410497aea25c66b03409f3fce100c006bd
   name: FreedomChat
   version: 1.7.0
-- checksum: 815aec568fcea8c6f90e2f8737c25741bfecda13
+- checksum: 10006fbf7e84ebcd7e47f0150614921ee96c6102
   name: FastAsyncWorldEdit
-  version: 2.12.4-SNAPSHOT-1035;09473c5
+  version: 2.13.0;a1eba40
 - checksum: 33b6c2b5dad6f5b99235d4883d4ac1a3d200c3d4
   name: ChunkyBorder
   version: 1.2.13
-- checksum: c2e7de2a50ff3022fd388d4662de359f53a8b420
+- checksum: 2b7672f20ce884ecea5ccc772f758cdd89dbd6a7
   name: Chunky
-  version: 1.4.29
-- checksum: f687f57fe7ed45ceb77493211306f3fb12f13d0a
+  version: 1.4.30
+- checksum: 34a0b3b324a74658141eb6c378d674755b04a64a
   name: BlueMap
-  version: '5.3'
+  version: '5.6'
 - checksum: 8964a86b7e9c731703b2abab965b0c2a0c6d9860
   name: SignedVelocity
   version: 1.2.3
@@ -43,5 +43,5 @@ plugins:
   name: GFly
   version: 2.3.0.0
 version:
-  build: 134
+  build: 177
   name: 1.21.4
