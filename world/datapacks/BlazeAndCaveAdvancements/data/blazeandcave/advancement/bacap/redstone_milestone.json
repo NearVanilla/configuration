@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:bacap/adventure_milestone",
 	"rewards": {
-		"function": "bc_rewards:bacap/redstone_milestone"
+		"function": "bacap_rewards:bacap/redstone_milestone"
 	},		
 	"criteria": {
 		"bling_plate": {

@@ -10,7 +10,7 @@
 		"announce_to_chat": false
 	},
 	"rewards": {
-		"function": "bc_rewards:redstone/root"
+		"function": "bacap_rewards:redstone/root"
 	},
 	"criteria": {
 		"redstone": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:statistics/root",
 	"rewards": {
-		"function": "bc_rewards:statistics/taking_it_in_stride"
+		"function": "bacap_rewards:statistics/taking_it_in_stride"
 	},		
 	"criteria": {
 		"trigger": {

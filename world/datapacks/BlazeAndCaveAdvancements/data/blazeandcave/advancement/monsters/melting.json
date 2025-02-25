@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/the_undead_cavalry",
 	"rewards": {
-		"function": "bc_rewards:monsters/melting"
+		"function": "bacap_rewards:monsters/melting"
 	},	
 	"criteria": {
 		"desert": {

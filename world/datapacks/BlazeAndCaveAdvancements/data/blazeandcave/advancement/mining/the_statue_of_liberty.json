@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:husbandry/wax_off",
 	"rewards": {
-		"function": "bc_rewards:mining/the_statue_of_liberty"
+		"function": "bacap_rewards:mining/the_statue_of_liberty"
 	},		
 	"criteria": {
 		"oxidized_copper": {

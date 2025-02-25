@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:weaponry/diemonds",
 	"rewards": {
-		"function": "bc_rewards:weaponry/inspector_gadget"
+		"function": "bacap_rewards:weaponry/inspector_gadget"
 	},		
 	"criteria": {
 		"inspector_gadget": {

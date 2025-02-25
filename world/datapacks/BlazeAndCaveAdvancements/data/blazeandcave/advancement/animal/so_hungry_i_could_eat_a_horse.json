@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/a_horse_in_shining_armor",
 	"rewards": {
-		"function": "bc_rewards:animal/so_hungry_i_could_eat_a_horse"
+		"function": "bacap_rewards:animal/so_hungry_i_could_eat_a_horse"
 	},		
 	"criteria": {
 		"sugar": {
@@ -114,6 +114,25 @@
 				"item": {
 					"items": [
 						"minecraft:hay_block"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#blazeandcave:horses"
+						}
+					}
+				]
+			}
+		},
+		"enchanted_golden_apple": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:enchanted_golden_apple"
 					]
 				},
 				"entity": [

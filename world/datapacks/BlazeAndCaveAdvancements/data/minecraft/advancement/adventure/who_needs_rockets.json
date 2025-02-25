@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:adventure/break_wind",
 	"rewards": {
-		"function": "bc_rewards:adventure/who_needs_rockets"
+		"function": "bacap_rewards:adventure/who_needs_rockets"
 	},
 	"criteria": {
 		"who_needs_rockets": {

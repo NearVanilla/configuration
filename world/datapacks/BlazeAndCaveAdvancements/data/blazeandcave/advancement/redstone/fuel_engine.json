@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:redstone/all_aboard",
 	"rewards": {
-		"function": "bc_rewards:redstone/fuel_engine"
+		"function": "bacap_rewards:redstone/fuel_engine"
 	},			
 	"criteria": {
 		"furnace_minecart": {

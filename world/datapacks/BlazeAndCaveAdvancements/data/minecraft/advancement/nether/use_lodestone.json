@@ -12,7 +12,7 @@
 	},
 	"parent": "blazeandcave:nether/get_a_lode_of_this",
 	"rewards": {
-		"function": "bc_rewards:nether/country_lode_take_me_home"
+		"function": "bacap_rewards:nether/country_lode_take_me_home"
 	},	
 	"criteria": {
 		"use_lodestone": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:biomes/echolocation",
 	"rewards": {
-		"function": "bc_rewards:biomes/so_long_and_thanks_for_all_the_fish"
+		"function": "bacap_rewards:biomes/so_long_and_thanks_for_all_the_fish"
 	},		
 	"criteria": {
 		"dolphin": {

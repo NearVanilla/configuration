@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:statistics/the_haggler",
 	"rewards": {
-		"function": "bc_rewards:statistics/big_spender"
+		"function": "bacap_rewards:statistics/big_spender"
 	},		
 	"criteria": {
 		"trigger": {

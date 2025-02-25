@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:husbandry/wax_on",
 	"rewards": {
-		"function": "bc_rewards:mining/wax_off"
+		"function": "bacap_rewards:mining/wax_off"
 	},		
 	"criteria": {
 		"wax_off": {

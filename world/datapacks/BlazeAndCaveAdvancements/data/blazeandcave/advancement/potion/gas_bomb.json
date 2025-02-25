@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:potion/a_furious_test_subject",
 	"rewards": {
-		"function": "bc_rewards:potion/gas_bomb"
+		"function": "bacap_rewards:potion/gas_bomb"
 	},		
 	"criteria": {
 		"speed": {

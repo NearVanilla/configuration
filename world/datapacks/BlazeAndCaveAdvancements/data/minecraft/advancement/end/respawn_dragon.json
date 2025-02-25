@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:end/the_start_of_something",
 	"rewards": {
-		"function": "bc_rewards:end/the_end_again"
+		"function": "bacap_rewards:end/the_end_again"
 	},	
 	"criteria": {
 		"summoned_dragon": {

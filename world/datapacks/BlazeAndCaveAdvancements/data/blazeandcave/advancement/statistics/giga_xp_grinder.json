@@ -14,7 +14,7 @@
 	},
 	"parent": "blazeandcave:statistics/xp_grinder",
 	"rewards": {
-		"function": "bc_rewards:statistics/giga_xp_grinder"
+		"function": "bacap_rewards:statistics/giga_xp_grinder"
 	},		
 	"criteria": {
 		"trigger": {

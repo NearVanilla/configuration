@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:end/levitate",
 	"rewards": {
-		"function": "bc_rewards:end/anti_gravity_generator"
+		"function": "bacap_rewards:end/anti_gravity_generator"
 	},		
 	"criteria": {
 		"shulker_hurt_player": {

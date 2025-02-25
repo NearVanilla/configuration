@@ -5,15 +5,9 @@
     "CWB"
   ],
   "key": {
-    "C": {
-      "item": "minecraft:coal"
-    },
-    "W": {
-      "item": "minecraft:water_bucket"
-    },
-    "B": {
-      "item": "minecraft:bone_meal"
-    }
+    "C": "minecraft:coal",
+    "W": "minecraft:water_bucket",
+    "B": "minecraft:bone_meal"
   },
   "result": {
     "id": "minecraft:ink_sac",

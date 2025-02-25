@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:statistics/i_like_trains",
 	"rewards": {
-		"function": "bc_rewards:statistics/global_railway_network"
+		"function": "bacap_rewards:statistics/global_railway_network"
 	},		
 	"criteria": {
 		"trigger": {

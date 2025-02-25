@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/blind_stare",
 	"rewards": {
-		"function": "bc_rewards:monsters/stealth_is_optional"
+		"function": "bacap_rewards:monsters/stealth_is_optional"
 	},		
 	"criteria": {
 		"warden": {

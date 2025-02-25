@@ -7,15 +7,9 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:brick"
-    },
-    "A": {
-      "item": "minecraft:flow_pottery_sherd"
-    },
-    "B": {
-      "item": "minecraft:diamond"
-    }
+    "#": "minecraft:brick",
+    "A": "minecraft:flow_pottery_sherd",
+    "B": "minecraft:diamond"
   },
   "result": {
     "count": 2,

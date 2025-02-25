@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:adventure/crazy_cat_lady",
 	"rewards": {
-		"function": "bc_rewards:adventure/if_only_cats_grew_into_kittens"
+		"function": "bacap_rewards:adventure/if_only_cats_grew_into_kittens"
 	},		
 	"criteria": {
 		"cat": {

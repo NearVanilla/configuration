@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:statistics/who_needs_boats",
 	"rewards": {
-		"function": "bc_rewards:statistics/this_ride_is_lit_yo"
+		"function": "bacap_rewards:statistics/this_ride_is_lit_yo"
 	},		
 	"criteria": {
 		"trigger": {

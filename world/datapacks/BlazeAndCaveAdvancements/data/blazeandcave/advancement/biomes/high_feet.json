@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:biomes/overgrown",	
 	"rewards": {
-		"function": "bc_rewards:biomes/high_feet"
+		"function": "bacap_rewards:biomes/high_feet"
 	},	
 	"criteria": {
 		"stony_shore": {

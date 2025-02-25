@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:bacap/end_milestone",
 	"rewards": {
-		"function": "bc_rewards:bacap/challenges_milestone"
+		"function": "bacap_rewards:bacap/challenges_milestone"
 	},		
 	"criteria": {
 		"a_million_blocks_away": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:weaponry/shovel_knight",
 	"rewards": {
-		"function": "bc_rewards:weaponry/spleaf"
+		"function": "bacap_rewards:weaponry/spleaf"
 	},		
 	"criteria": {
 		"wooden_shovel": {

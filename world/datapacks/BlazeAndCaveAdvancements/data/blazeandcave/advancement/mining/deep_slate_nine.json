@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:mining/heart_of_darkness",
 	"rewards": {
-		"function": "bc_rewards:mining/deep_slate_nine"
+		"function": "bacap_rewards:mining/deep_slate_nine"
 	},		
 	"criteria": {
 		"deepslate_level": {

@@ -62,6 +62,7 @@ feature-seeds:
     minecraft:flower_default: -327608048589{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:flower_flower_forest: -280153501671{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:flower_meadow: 461872144011{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:flower_pale_garden: -276982959562{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:flower_plain: -665733690965{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:flower_swamp: -120739109570{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:forest_flowers: 135062694146{{ FEATURE_SEED_SUFFIX_END }}
@@ -135,6 +136,14 @@ feature-seeds:
     minecraft:ore_redstone: -392341989717{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:ore_soul_sand: 194609864556{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:ore_tuff: -884899158222{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:pale_forest_flowers: -579859264776{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:pale_garden_vegetation: -255996722545{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:pale_moss_patch: 157435870147{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:pale_moss_patch_bonemeal: -120464662521{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:pale_moss_vegetation: -577710770388{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:pale_oak: -119738744508{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:pale_oak_bonemeal: -88158035717{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:pale_oak_creaking: 24995856116{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:patch_berry_bush: 782305921389{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:patch_brown_mushroom: 725502157151{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:patch_cactus: -755910286934{{ FEATURE_SEED_SUFFIX_END }}
@@ -167,7 +176,6 @@ feature-seeds:
     minecraft:sea_pickle: -905704720864{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:seagrass_mid: -187933578515{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:seagrass_short: 904468998145{{ FEATURE_SEED_SUFFIX_END }}
-    minecraft:seagrass_simple: 876691309253{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:seagrass_slightly_less_short: -781877678335{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:seagrass_tall: -95926966056{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:single_piece_of_grass: 343358036851{{ FEATURE_SEED_SUFFIX_END }}

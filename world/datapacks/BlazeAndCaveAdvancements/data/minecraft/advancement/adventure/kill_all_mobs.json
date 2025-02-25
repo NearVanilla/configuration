@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/dungeon_crawler",
 	"rewards": {
-		"function": "bc_rewards:monsters/monsters_hunted"
+		"function": "bacap_rewards:monsters/monsters_hunted"
 	},	
 	"criteria": {
 	"minecraft:cave_spider": {
@@ -306,6 +306,14 @@
 	  "conditions": {
 		"entity": {
 		  "type": "minecraft:bogged"
+		}
+	  }
+	},
+	"minecraft:creaking": {
+	  "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+		  "type": "minecraft:creaking"
 		}
 	  }
 	}

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:adventure/sound_the_alarm",
 	"rewards": {
-		"function": "bc_rewards:adventure/its_so_beast_like"
+		"function": "bacap_rewards:adventure/its_so_beast_like"
 	},		
 	"criteria": {
 		"ravager": {

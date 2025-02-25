@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:end/dragon_shield",
 	"rewards": {
-		"function": "bc_rewards:end/is_it_a_plane"
+		"function": "bacap_rewards:end/is_it_a_plane"
 	},		
 	"criteria": {
 		"spyglass_at_dragon": {

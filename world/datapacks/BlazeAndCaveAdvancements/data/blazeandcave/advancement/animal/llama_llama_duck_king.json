@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/so_i_got_that_going_for_me",
 	"rewards": {
-		"function": "bc_rewards:animal/llama_llama_duck_king"
+		"function": "bacap_rewards:animal/llama_llama_duck_king"
 	},		
 	"criteria": {
 		"creamy": {

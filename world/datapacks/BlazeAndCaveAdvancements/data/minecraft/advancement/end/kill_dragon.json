@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:end/dragon_shield",
 	"rewards": {
-		"function": "bc_rewards:end/free_the_end"
+		"function": "bacap_rewards:end/free_the_end"
 	},	
 	"criteria": {
 		"killed_dragon": {

@@ -13,7 +13,7 @@
 	},
 	"parent": "blazeandcave:weaponry/flying_colors",
 	"rewards": {
-		"function": "bc_rewards:weaponry/master_shieldsman"
+		"function": "bacap_rewards:weaponry/master_shieldsman"
 	},
 	"criteria": {
 		"cave_spider": {
@@ -364,6 +364,17 @@
 					"blocked": true,
 					"source_entity": {
 						"type": "bogged"
+					}
+				}
+			}
+		},
+		"creaking": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"source_entity": {
+						"type": "creaking"
 					}
 				}
 			}

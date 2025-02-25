@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:statistics/natural_sprinter",
 	"rewards": {
-		"function": "bc_rewards:statistics/marathon"
+		"function": "bacap_rewards:statistics/marathon"
 	},		
 	"criteria": {
 		"trigger": {

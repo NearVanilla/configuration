@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:mining/grate_expectations",
 	"rewards": {
-		"function": "bc_rewards:mining/wax_on"
+		"function": "bacap_rewards:mining/wax_on"
 	},		
 	"criteria": {
 		"minecraft:waxed_copper_block_from_honeycomb": {

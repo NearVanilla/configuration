@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:animal/what_a_piece_of_junk",
 	"rewards": {
-		"function": "bc_rewards:animal/treasure_hunter"
+		"function": "bacap_rewards:animal/treasure_hunter"
 	},		
 	"criteria": {
 		"bow": {

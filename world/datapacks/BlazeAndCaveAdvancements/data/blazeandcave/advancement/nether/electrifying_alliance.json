@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:nether/uneasy_alliance",
 	"rewards": {
-		"function": "bc_rewards:nether/electrifying_alliance"
+		"function": "bacap_rewards:nether/electrifying_alliance"
 	},
 	"criteria": {
 		"struck_ghast": {

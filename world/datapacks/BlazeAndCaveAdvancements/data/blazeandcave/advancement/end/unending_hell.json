@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:end/void_walker",
 	"rewards": {
-		"function": "bc_rewards:end/unending_hell"
+		"function": "bacap_rewards:end/unending_hell"
 	},	
 	"criteria": {
 		"unending_hell": {
@@ -28,6 +28,18 @@
 								"type": "player",
 								"advancements": {
 									"blazeandcave:technical/unending_hell_end": true
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bac_unending_death": {
+									"min": 1
 								}
 							}
 						}

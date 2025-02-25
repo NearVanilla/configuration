@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:building/the_jungler",
 	"rewards": {
-		"function": "bc_rewards:building/bamboozled"
+		"function": "bacap_rewards:building/bamboozled"
 	},		
 	"criteria": {
 		"bamboo_planks": {

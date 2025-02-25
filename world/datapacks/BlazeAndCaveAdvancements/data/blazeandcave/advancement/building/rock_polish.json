@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:building/rock_collection",
 	"rewards": {
-		"function": "bc_rewards:building/rock_polish"
+		"function": "bacap_rewards:building/rock_polish"
 	},		
 	"criteria": {
 		"polished_granite": {

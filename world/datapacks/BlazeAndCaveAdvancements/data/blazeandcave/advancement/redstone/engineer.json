@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:redstone/sticky_parts",
 	"rewards": {
-		"function": "bc_rewards:redstone/engineer"
+		"function": "bacap_rewards:redstone/engineer"
 	},
 	"criteria": {
 		"redstone": {

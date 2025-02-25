@@ -12,7 +12,7 @@
 	},
 	"parent": "blazeandcave:weaponry/root",
 	"rewards": {
-		"function": "bc_rewards:weaponry/expelliarmus"
+		"function": "bacap_rewards:weaponry/expelliarmus"
 	},		
 	"criteria": {
 		"stick": {

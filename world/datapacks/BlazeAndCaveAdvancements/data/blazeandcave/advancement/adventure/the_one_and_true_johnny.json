@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:adventure/slenderman",
 	"rewards": {
-		"function": "bc_rewards:adventure/the_one_and_true_johnny"
+		"function": "bacap_rewards:adventure/the_one_and_true_johnny"
 	},		
 	"criteria": {
 		"johnny": {

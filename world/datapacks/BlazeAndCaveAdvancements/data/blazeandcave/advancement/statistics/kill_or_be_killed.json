@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:statistics/bloodthirsty",
 	"rewards": {
-		"function": "bc_rewards:statistics/kill_or_be_killed"
+		"function": "bacap_rewards:statistics/kill_or_be_killed"
 	},		
 	"criteria": {
 		"trigger": {

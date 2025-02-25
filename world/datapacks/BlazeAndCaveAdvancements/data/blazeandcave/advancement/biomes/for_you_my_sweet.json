@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:biomes/root",
 	"rewards": {
-		"function": "bc_rewards:biomes/for_you_my_sweet"
+		"function": "bacap_rewards:biomes/for_you_my_sweet"
 	},		
 	"criteria": {
 		"dandelion": {
@@ -239,6 +239,30 @@
 					}
 				]
 			}
+		},
+		"closed_eyeblossom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:closed_eyeblossom"
+						]
+					}
+				]
+			}
+		},
+		"open_eyeblossom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:open_eyeblossom"
+						]
+					}
+				]
+			}
 		}
 	},
 	"requirements": [
@@ -261,7 +285,9 @@
 		"lily_of_the_valley",
 		"wither_rose",
 		"torchflower",
-		"pitcher_plant"
+		"pitcher_plant",
+		"closed_eyeblossom",
+		"open_eyeblossom"
 		]
 	]
 }

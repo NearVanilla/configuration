@@ -11,7 +11,7 @@
 	},
 	"parent": "blazeandcave:challenges/a_million_blocks_away",
 	"rewards": {
-		"function": "bc_rewards:challenges/farlander"
+		"function": "bacap_rewards:challenges/farlander"
 	},		
 	"criteria": {
 		"outer_pos_x": {

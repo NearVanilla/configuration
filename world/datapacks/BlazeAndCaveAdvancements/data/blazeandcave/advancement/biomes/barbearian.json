@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:biomes/thin_ice",
 	"rewards": {
-		"function": "bc_rewards:biomes/barbearian"
+		"function": "bacap_rewards:biomes/barbearian"
 	},		
 	"criteria": {
 		"polar_bear": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/so_hungry_i_could_eat_a_horse",
 	"rewards": {
-		"function": "bc_rewards:animal/its_high_noon"
+		"function": "bacap_rewards:animal/its_high_noon"
 	},	
 	"criteria": {
 		"high_noon": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:nether/use_lodestone",
 	"rewards": {
-		"function": "bc_rewards:nether/lodes_of_applications"
+		"function": "bacap_rewards:nether/lodes_of_applications"
 	},	
 	"criteria": {
 		"overworld": {

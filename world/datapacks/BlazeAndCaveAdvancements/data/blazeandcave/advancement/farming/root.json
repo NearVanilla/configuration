@@ -10,7 +10,7 @@
 		"announce_to_chat": false
 	},
 	"rewards": {
-		"function": "bc_rewards:farming/root"
+		"function": "bacap_rewards:farming/root"
 	},		
 	"criteria": {
 		"hoe": {

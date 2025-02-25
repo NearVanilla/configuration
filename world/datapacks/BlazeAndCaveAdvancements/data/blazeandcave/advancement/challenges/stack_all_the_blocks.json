@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:challenges/all_the_items",
 	"rewards": {
-		"function": "bc_rewards:challenges/stack_all_the_blocks"
+		"function": "bacap_rewards:challenges/stack_all_the_blocks"
 	},		
 	"criteria": {
 		"acacia_button": {
@@ -11309,6 +11309,396 @@
 					{
 						"items": [
 							"minecraft:crafter"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"creaking_heart": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:creaking_heart"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"closed_eyeblossom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:closed_eyeblossom"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"open_eyeblossom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:open_eyeblossom"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pale_hanging_moss": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_hanging_moss"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pale_moss_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_moss_block"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pale_moss_carpet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_moss_carpet"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pale_oak_leaves": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_leaves"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pale_oak_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_log"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"stripped_pale_oak_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:stripped_pale_oak_log"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pale_oak_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_planks"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pale_oak_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pale_oak_pressure_plate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_pressure_plate"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pale_oak_fence": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_fence"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pale_oak_trapdoor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_trapdoor"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pale_oak_fence_gate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_fence_gate"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pale_oak_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pale_oak_button": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_button"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pale_oak_door": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_door"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pale_oak_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_sign"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"pale_oak_hanging_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_hanging_sign"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"pale_oak_sapling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_sapling"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pale_oak_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_wood"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"stripped_pale_oak_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:stripped_pale_oak_wood"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"resin_clump": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:resin_clump"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"resin_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:resin_block"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"resin_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:resin_bricks"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"resin_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:resin_brick_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"resin_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:resin_brick_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"resin_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:resin_brick_wall"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"chiseled_resin_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:chiseled_resin_bricks"
 						],
 						"count": 64
 					}

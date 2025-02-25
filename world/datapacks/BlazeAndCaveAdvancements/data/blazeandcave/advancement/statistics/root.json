@@ -10,7 +10,7 @@
 		"announce_to_chat": false
 	},
 	"rewards": {
-		"function": "bc_rewards:statistics/root"
+		"function": "bacap_rewards:statistics/root"
 	},		
 	"criteria": {
 		"the_first_night": {

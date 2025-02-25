@@ -13,7 +13,7 @@
 	},
 	"parent": "blazeandcave:statistics/sneaky_snitch",
 	"rewards": {
-		"function": "bc_rewards:statistics/black_belt_ninja"
+		"function": "bacap_rewards:statistics/black_belt_ninja"
 	},		
 	"criteria": {
 		"trigger": {

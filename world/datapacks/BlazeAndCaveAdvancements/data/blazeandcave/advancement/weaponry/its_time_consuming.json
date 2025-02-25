@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:weaponry/diemonds",
 	"rewards": {
-		"function": "bc_rewards:weaponry/its_time_consuming"
+		"function": "bacap_rewards:weaponry/its_time_consuming"
 	},		
 	"criteria": {
 		"clock": {

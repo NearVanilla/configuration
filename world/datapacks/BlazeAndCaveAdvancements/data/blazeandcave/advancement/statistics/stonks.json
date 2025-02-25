@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:statistics/big_spender",
 	"rewards": {
-		"function": "bc_rewards:statistics/stonks"
+		"function": "bacap_rewards:statistics/stonks"
 	},		
 	"criteria": {
 		"trigger": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/two_birds_one_arrow",
 	"rewards": {
-		"function": "bc_rewards:monsters/well_handle_this"
+		"function": "bacap_rewards:monsters/well_handle_this"
 	},	
 	"criteria": {
 		"nether": {

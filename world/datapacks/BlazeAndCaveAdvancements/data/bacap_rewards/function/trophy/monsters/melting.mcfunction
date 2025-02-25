@@ -1,0 +1,3 @@
+give @s magma_block[custom_name='{"translate":"Molten Ice Cream","color":"#F48522","bold":true,"italic":false}',lore=['{"translate":"Noo! My ice cream! T_T","color":"#F48522"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Melting","color":"light_purple","italic":false}'],custom_model_data={floats:[131]},custom_data={Trophy:1b},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Molten Ice Cream"}]

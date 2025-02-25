@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:weaponry/axeman",
 	"rewards": {
-		"function": "bc_rewards:weaponry/shovel_knight"
+		"function": "bacap_rewards:weaponry/shovel_knight"
 	},		
 	"criteria": {
 		"wooden_shovel": {

@@ -11,7 +11,7 @@
 	},
 	"parent": "blazeandcave:monsters/blast_shield",
 	"rewards": {
-		"function": "bc_rewards:monsters/aww_man"
+		"function": "bacap_rewards:monsters/aww_man"
 	},		
 	"criteria": {
 		"creeper": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:nether/hung_drawn_and_bartered",
 	"rewards": {
-		"function": "bc_rewards:nether/a_piglins_best_friend"
+		"function": "bacap_rewards:nether/a_piglins_best_friend"
 	},		
 	"criteria": {
 		"a_piglins_best_friend": {

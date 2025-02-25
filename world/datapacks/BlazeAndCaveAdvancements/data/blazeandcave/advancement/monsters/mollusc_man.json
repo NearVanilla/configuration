@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/a_watery_grave",
 	"rewards": {
-		"function": "bc_rewards:monsters/mollusc_man"
+		"function": "bacap_rewards:monsters/mollusc_man"
 	},		
 	"criteria": {
 		"drowned": {

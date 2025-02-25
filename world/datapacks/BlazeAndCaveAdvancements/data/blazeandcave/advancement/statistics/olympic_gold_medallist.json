@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:statistics/olympic_athlete",
 	"rewards": {
-		"function": "bc_rewards:statistics/olympic_gold_medallist"
+		"function": "bacap_rewards:statistics/olympic_gold_medallist"
 	},		
 	"criteria": {
 		"trigger": {

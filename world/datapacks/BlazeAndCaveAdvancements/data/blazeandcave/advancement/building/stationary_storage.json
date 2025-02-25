@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:building/your_door_was_locked",
 	"rewards": {
-		"function": "bc_rewards:building/stationary_storage"
+		"function": "bacap_rewards:building/stationary_storage"
 	},		
 	"criteria": {
 		"chest": {

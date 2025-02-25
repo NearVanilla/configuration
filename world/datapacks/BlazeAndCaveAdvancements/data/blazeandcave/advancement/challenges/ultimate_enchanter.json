@@ -13,7 +13,7 @@
 	},
 	"parent": "blazeandcave:challenges/root",
 	"rewards": {
-		"function": "bc_rewards:challenges/ultimate_enchanter"
+		"function": "bacap_rewards:challenges/ultimate_enchanter"
 	},			
 	"criteria": {
 		"protection1": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:adventure/if_only_cats_grew_into_kittens",
 	"rewards": {
-		"function": "bc_rewards:adventure/a_complete_catalogue"
+		"function": "bacap_rewards:adventure/a_complete_catalogue"
 	},	
   "criteria": {
     "minecraft:black": {

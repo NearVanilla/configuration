@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:adventure/evelyn_evergreen",
 	"rewards": {
-		"function": "bc_rewards:adventure/and_make_it_double"
+		"function": "bacap_rewards:adventure/and_make_it_double"
 	},		
 	"criteria": {
 		"duplication": {

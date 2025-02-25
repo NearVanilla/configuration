@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:monsters/the_ender_of_ender",
 	"rewards": {
-		"function": "bc_rewards:monsters/ender_worm"
+		"function": "bacap_rewards:monsters/ender_worm"
 	},		
 	"criteria": {
 		"endermite": {

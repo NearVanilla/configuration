@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:husbandry/remove_wolf_armor",
 	"rewards": {
-		"function": "bc_rewards:animal/the_whole_pack"
+		"function": "bacap_rewards:animal/the_whole_pack"
 	},
 	"criteria": {
 		"minecraft:ashen": {

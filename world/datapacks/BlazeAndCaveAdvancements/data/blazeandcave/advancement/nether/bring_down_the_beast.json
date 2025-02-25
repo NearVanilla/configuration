@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:nether/return_to_sender",
 	"rewards": {
-		"function": "bc_rewards:nether/bring_down_the_beast"
+		"function": "bacap_rewards:nether/bring_down_the_beast"
 	},		
 	"criteria": {
 		"ghast": {

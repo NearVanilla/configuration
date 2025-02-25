@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/snow_fox_64",
 	"rewards": {
-		"function": "bc_rewards:animal/blackberry_market"
+		"function": "bacap_rewards:animal/blackberry_market"
 	},
 	"criteria": {
 		"blackberry_market": {

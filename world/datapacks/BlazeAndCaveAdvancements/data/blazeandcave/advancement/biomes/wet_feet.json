@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:biomes/high_feet",	
 	"rewards": {
-		"function": "bc_rewards:biomes/wet_feet"
+		"function": "bacap_rewards:biomes/wet_feet"
 	},	
 	"criteria": {
 		"river": {

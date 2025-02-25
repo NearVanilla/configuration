@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:building/slabs_for_days",
 	"rewards": {
-		"function": "bc_rewards:building/ah_my_old_enemy"
+		"function": "bacap_rewards:building/ah_my_old_enemy"
 	},		
 	"criteria": {
 		"sandstone_stairs": {
@@ -680,6 +680,30 @@
 					{
 						"items": [
 							"minecraft:tuff_brick_stairs"
+						]
+					}
+				]
+			}
+		},
+		"pale_oak_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_stairs"
+						]
+					}
+				]
+			}
+		},
+		"resin_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:resin_brick_stairs"
 						]
 					}
 				]

@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:mining/this_is_mine_now",
 	"rewards": {
-		"function": "bc_rewards:mining/gold_mine"
+		"function": "bacap_rewards:mining/gold_mine"
 	},		
 	"criteria": {
 		"mineshaft_mesa": {

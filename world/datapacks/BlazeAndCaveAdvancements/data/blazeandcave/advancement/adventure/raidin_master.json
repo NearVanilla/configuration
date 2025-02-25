@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:adventure/secret_of_the_igloo",
 	"rewards": {
-		"function": "bc_rewards:adventure/raidin_master"
+		"function": "bacap_rewards:adventure/raidin_master"
 	},		
 	"criteria": {
 		"dungeon": {

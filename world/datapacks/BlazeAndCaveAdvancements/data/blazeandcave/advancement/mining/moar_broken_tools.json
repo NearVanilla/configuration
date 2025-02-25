@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:mining/weve_broken_our_last_shovel",
 	"rewards": {
-		"function": "bc_rewards:mining/moar_broken_tools"
+		"function": "bacap_rewards:mining/moar_broken_tools"
 	},		
 	"criteria": {
 		"wooden_shovel": {

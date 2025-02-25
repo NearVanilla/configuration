@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:animal/mary_had_a_little_lamb",
 	"rewards": {
-		"function": "bc_rewards:animal/have_a_shearful_day"
+		"function": "bacap_rewards:animal/have_a_shearful_day"
 	},		
 	"criteria": {
 		"shears": {

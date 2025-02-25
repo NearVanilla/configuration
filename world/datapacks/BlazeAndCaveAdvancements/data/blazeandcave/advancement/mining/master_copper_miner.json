@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:mining/copper_miner",
 	"rewards": {
-		"function": "bc_rewards:mining/master_copper_miner"
+		"function": "bacap_rewards:mining/master_copper_miner"
 	},		
 	"criteria": {
 		"copper_block": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/kill_a_mob",
 	"rewards": {
-		"function": "bc_rewards:monsters/night_runner"
+		"function": "bacap_rewards:monsters/night_runner"
 	},	
 	"criteria": {
 		"spider": {
@@ -120,6 +120,14 @@
 			"conditions": {
 				"entity": {
 					"type": "bogged"
+				}
+			}
+		},
+		"creaking": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "creaking"
 				}
 			}
 		}

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/hive_mind",
 	"rewards": {
-		"function": "bc_rewards:animal/not_the_bees"
+		"function": "bacap_rewards:animal/not_the_bees"
 	},		
 	"criteria": {
 		"iron_golem": {

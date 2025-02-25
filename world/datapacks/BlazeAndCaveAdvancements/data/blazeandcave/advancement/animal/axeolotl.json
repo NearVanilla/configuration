@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:animal/axolittle",
 	"rewards": {
-		"function": "bc_rewards:animal/axeolotl"
+		"function": "bacap_rewards:animal/axeolotl"
 	},		
 	"criteria": {
 		"axeolotl": {

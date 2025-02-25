@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:adventure/do_you_want_to_trade",
 	"rewards": {
-		"function": "bc_rewards:adventure/what_a_deal"
+		"function": "bacap_rewards:adventure/what_a_deal"
 	},		
 	"criteria": {
 		"trade": {

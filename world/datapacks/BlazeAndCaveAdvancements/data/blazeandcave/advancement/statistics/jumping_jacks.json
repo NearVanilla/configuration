@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:statistics/boing_boing",
 	"rewards": {
-		"function": "bc_rewards:statistics/jumping_jacks"
+		"function": "bacap_rewards:statistics/jumping_jacks"
 	},		
 	"criteria": {
 		"trigger": {

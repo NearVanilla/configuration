@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:bacap/time_to_dig",
 	"rewards": {
-		"function": "bc_rewards:bacap/time_to_farm"
+		"function": "bacap_rewards:bacap/time_to_farm"
 	},		
 	"criteria": {
 		"wooden_hoe": {

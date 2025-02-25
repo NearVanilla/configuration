@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:bacap/potion_milestone",
 	"rewards": {
-		"function": "bc_rewards:bacap/end_milestone"
+		"function": "bacap_rewards:bacap/end_milestone"
 	},		
 	"criteria": {
 		"anti_gravity_generator": {

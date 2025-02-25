@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/spider_skeleton",
 	"rewards": {
-		"function": "bc_rewards:monsters/the_ghastly_eyes"
+		"function": "bacap_rewards:monsters/the_ghastly_eyes"
 	},	
 	"criteria": {
 		"invisible_spider": {

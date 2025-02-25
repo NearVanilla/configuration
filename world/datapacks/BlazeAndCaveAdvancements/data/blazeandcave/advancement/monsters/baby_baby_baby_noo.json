@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/ooh_baby",
 	"rewards": {
-		"function": "bc_rewards:monsters/baby_baby_baby_noo"
+		"function": "bacap_rewards:monsters/baby_baby_baby_noo"
 	},		
 	"criteria": {
 		"zombie": {

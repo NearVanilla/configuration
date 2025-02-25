@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:farming/trimming_the_treetops",
 	"rewards": {
-		"function": "bc_rewards:farming/foliage"
+		"function": "bacap_rewards:farming/foliage"
 	},		
 	"criteria": {
 		"grass": {

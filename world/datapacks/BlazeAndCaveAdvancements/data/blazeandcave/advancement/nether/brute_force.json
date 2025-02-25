@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:nether/find_bastion",
 	"rewards": {
-		"function": "bc_rewards:nether/brute_force"
+		"function": "bacap_rewards:nether/brute_force"
 	},		
 	"criteria": {
 		"piglin_brute": {

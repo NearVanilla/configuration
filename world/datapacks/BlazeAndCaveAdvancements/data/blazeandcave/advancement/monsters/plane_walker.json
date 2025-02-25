@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/enderman_destroyer",
 	"rewards": {
-		"function": "bc_rewards:monsters/plane_walker"
+		"function": "bacap_rewards:monsters/plane_walker"
 	},	
 	"criteria": {
 		"overworld": {

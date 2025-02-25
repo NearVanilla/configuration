@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:statistics/root",
 	"rewards": {
-		"function": "bc_rewards:statistics/out_for_a_stroll"
+		"function": "bacap_rewards:statistics/out_for_a_stroll"
 	},		
 	"criteria": {
 		"trigger": {

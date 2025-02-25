@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:mining/the_statue_of_liberty",
 	"rewards": {
-		"function": "bc_rewards:mining/sly_copper_the_copper_heist"
+		"function": "bacap_rewards:mining/sly_copper_the_copper_heist"
 	},		
 	"criteria": {
 		"copper_block": {

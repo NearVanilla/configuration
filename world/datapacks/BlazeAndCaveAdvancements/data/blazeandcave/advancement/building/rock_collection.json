@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:building/root",
 	"rewards": {
-		"function": "bc_rewards:building/rock_collection"
+		"function": "bacap_rewards:building/rock_collection"
 	},		
 	"criteria": {
 		"cobblestone": {

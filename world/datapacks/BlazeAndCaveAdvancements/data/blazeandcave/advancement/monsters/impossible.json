@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/plane_walker",
 	"rewards": {
-		"function": "bc_rewards:monsters/impossible"
+		"function": "bacap_rewards:monsters/impossible"
 	},		
 	"criteria": {
 		"enderman_arrow": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:husbandry/tadpole_in_a_bucket",
 	"rewards": {
-		"function": "bc_rewards:animal/when_the_squad_hops_into_town"
+		"function": "bacap_rewards:animal/when_the_squad_hops_into_town"
 	},
 	"criteria": {
 		"minecraft:temperate": {

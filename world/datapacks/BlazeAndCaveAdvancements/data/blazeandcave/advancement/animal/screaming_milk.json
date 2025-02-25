@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:husbandry/ride_a_boat_with_a_goat",
 	"rewards": {
-		"function": "bc_rewards:animal/screaming_milk"
+		"function": "bacap_rewards:animal/screaming_milk"
 	},		
 	"criteria": {
 		"shears": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:bacap/redstone_milestone",
 	"rewards": {
-		"function": "bc_rewards:bacap/enchanting_milestone"
+		"function": "bacap_rewards:bacap/enchanting_milestone"
 	},		
 	"criteria": {
 		"arbalistic": {

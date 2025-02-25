@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:adventure/the_shielding",
 	"rewards": {
-		"function": "bc_rewards:adventure/ghostbuster"
+		"function": "bacap_rewards:adventure/ghostbuster"
 	},		
 	"criteria": {
 		"vex": {

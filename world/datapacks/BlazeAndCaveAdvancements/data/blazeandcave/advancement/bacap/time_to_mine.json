@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:story/root",
 	"rewards": {
-		"function": "bc_rewards:bacap/time_to_mine"
+		"function": "bacap_rewards:bacap/time_to_mine"
 	},		
 	"criteria": {
 		"wooden_pickaxe": {

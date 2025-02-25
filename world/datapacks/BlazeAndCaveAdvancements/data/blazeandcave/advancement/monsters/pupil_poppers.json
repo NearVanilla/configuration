@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/the_ghastly_eyes",
 	"rewards": {
-		"function": "bc_rewards:monsters/pupil_poppers"
+		"function": "bacap_rewards:monsters/pupil_poppers"
 	},		
 	"criteria": {
 		"pupil_poppers": {

@@ -13,7 +13,7 @@
 	},
 	"parent": "blazeandcave:biomes/zoologist",
 	"rewards": {
-		"function": "bc_rewards:biomes/kung_fu_panda"
+		"function": "bacap_rewards:biomes/kung_fu_panda"
 	},		
 	"criteria": {
 		"panda": {

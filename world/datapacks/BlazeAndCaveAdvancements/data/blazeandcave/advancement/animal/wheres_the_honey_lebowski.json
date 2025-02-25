@@ -13,7 +13,7 @@
 	},
 	"parent": "minecraft:adventure/honey_block_slide",
 	"rewards": {
-		"function": "bc_rewards:animal/wheres_the_honey_lebowski"
+		"function": "bacap_rewards:animal/wheres_the_honey_lebowski"
 	},		
 	"criteria": {
 		"ten_withers": {

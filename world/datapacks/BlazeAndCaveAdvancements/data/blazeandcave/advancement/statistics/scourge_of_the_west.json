@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:statistics/sheriff_firearm",
 	"rewards": {
-		"function": "bc_rewards:statistics/scourge_of_the_west"
+		"function": "bacap_rewards:statistics/scourge_of_the_west"
 	},		
 	"criteria": {
 		"trigger": {

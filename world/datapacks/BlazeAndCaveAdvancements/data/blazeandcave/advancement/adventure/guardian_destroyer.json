@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:adventure/spear_fishing",
 	"rewards": {
-		"function": "bc_rewards:adventure/guardian_destroyer"
+		"function": "bacap_rewards:adventure/guardian_destroyer"
 	},		
 	"criteria": {
 		"prismarine_shard": {

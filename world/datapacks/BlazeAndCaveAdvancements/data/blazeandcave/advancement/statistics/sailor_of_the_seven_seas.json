@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:statistics/pirate_captain",
 	"rewards": {
-		"function": "bc_rewards:statistics/sailor_of_the_seven_seas"
+		"function": "bacap_rewards:statistics/sailor_of_the_seven_seas"
 	},		
 	"criteria": {
 		"trigger": {

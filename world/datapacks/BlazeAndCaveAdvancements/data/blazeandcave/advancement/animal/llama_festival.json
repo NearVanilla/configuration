@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/llama_llama_duck_king",
 	"rewards": {
-		"function": "bc_rewards:animal/llama_festival"
+		"function": "bacap_rewards:animal/llama_festival"
 	},		
 	"criteria": {
 		"white_carpet": {

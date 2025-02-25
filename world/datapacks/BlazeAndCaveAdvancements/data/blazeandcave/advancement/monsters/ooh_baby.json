@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:monsters/dead_dont_die",
 	"rewards": {
-		"function": "bc_rewards:monsters/ooh_baby"
+		"function": "bacap_rewards:monsters/ooh_baby"
 	},		
 	"criteria": {
 		"zombie": {

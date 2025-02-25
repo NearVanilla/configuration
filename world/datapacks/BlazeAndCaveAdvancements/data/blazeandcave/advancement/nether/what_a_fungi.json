@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:nether/stem_research",
 	"rewards": {
-		"function": "bc_rewards:nether/what_a_fungi"
+		"function": "bacap_rewards:nether/what_a_fungi"
 	},	
 	"criteria": {
 		"nether_fungus": {

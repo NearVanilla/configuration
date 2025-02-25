@@ -11,7 +11,7 @@
 		"frame": "challenge"
 	},
 	"rewards": {
-		"function": "bc_rewards:challenges/root"
+		"function": "bacap_rewards:challenges/root"
 	},		
 	"criteria": {
 		"killed_dragon": {

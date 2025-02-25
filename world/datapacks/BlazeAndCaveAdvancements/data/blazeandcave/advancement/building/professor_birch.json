@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:building/spruce_lee",
 	"rewards": {
-		"function": "bc_rewards:building/professor_birch"
+		"function": "bacap_rewards:building/professor_birch"
 	},		
 	"criteria": {
 		"birch_planks": {

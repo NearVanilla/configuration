@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:statistics/the_parrots_and_the_bats",
 	"rewards": {
-		"function": "bc_rewards:statistics/cupid"
+		"function": "bacap_rewards:statistics/cupid"
 	},		
 	"criteria": {
 		"trigger": {

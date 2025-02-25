@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:nether/giddy_up",
 	"rewards": {
-		"function": "bc_rewards:nether/zork_chop"
+		"function": "bacap_rewards:nether/zork_chop"
 	},		
 	"criteria": {
 		"zoglin": {

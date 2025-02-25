@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:adventure/lilypad_hatter",
 	"rewards": {
-		"function": "bc_rewards:adventure/star_trader"
+		"function": "bacap_rewards:adventure/star_trader"
 	},		
 	"criteria": {
 		"trade_at_world_height": {

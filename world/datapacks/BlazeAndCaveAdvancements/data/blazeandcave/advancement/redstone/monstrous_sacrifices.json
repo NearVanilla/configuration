@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:redstone/cataclyst",
 	"rewards": {
-		"function": "bc_rewards:redstone/monstrous_sacrifices"
+		"function": "bacap_rewards:redstone/monstrous_sacrifices"
 	},	
 	"criteria": {
 	"minecraft:cave_spider": {

@@ -14,7 +14,7 @@
 	},
 	"parent": "blazeandcave:monsters/bogged_down",
 	"rewards": {
-		"function": "bc_rewards:monsters/poison_dart"
+		"function": "bacap_rewards:monsters/poison_dart"
 	},	
 	"criteria": {
 		"normal_poison": {

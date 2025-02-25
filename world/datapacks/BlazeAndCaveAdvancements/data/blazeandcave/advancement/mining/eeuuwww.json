@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:mining/gold_mine",
 	"rewards": {
-		"function": "bc_rewards:mining/eeuuwww"
+		"function": "bacap_rewards:mining/eeuuwww"
 	},
 	"criteria": {
 		"cobweb": {

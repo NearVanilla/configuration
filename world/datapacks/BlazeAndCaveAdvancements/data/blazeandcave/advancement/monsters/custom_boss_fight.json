@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/freezing",
 	"rewards": {
-		"function": "bc_rewards:monsters/custom_boss_fight"
+		"function": "bacap_rewards:monsters/custom_boss_fight"
 	},		
 	"criteria": {
 		"zombie": {

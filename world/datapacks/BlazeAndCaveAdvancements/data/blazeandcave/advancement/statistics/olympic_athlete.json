@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:statistics/laps_in_the_pool",
 	"rewards": {
-		"function": "bc_rewards:statistics/olympic_athlete"
+		"function": "bacap_rewards:statistics/olympic_athlete"
 	},		
 	"criteria": {
 		"trigger": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:monsters/iron_belly",
 	"rewards": {
-		"function": "bc_rewards:monsters/desert_nomad"
+		"function": "bacap_rewards:monsters/desert_nomad"
 	},		
 	"criteria": {
 		"husk": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:biomes/the_mighty_jungle",
 	"rewards": {
-		"function": "bc_rewards:biomes/tarzan"
+		"function": "bacap_rewards:biomes/tarzan"
 	},
 	"criteria": {
 		"enter_vine": {

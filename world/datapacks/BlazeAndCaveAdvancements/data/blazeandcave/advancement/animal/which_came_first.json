@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:animal/so_good",
 	"rewards": {
-		"function": "bc_rewards:animal/which_came_first"
+		"function": "bacap_rewards:animal/which_came_first"
 	},		
 	"criteria": {
 		"egg": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:mining/blind_as_a_bat",
 	"rewards": {
-		"function": "bc_rewards:mining/pixel_perfect"
+		"function": "bacap_rewards:mining/pixel_perfect"
 	},		
 	"criteria": {
 		"pixel_perfect": {

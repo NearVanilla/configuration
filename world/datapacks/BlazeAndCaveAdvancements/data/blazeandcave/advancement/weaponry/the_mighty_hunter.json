@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:adventure/sniper_duel",
 	"rewards": {
-		"function": "bc_rewards:weaponry/the_mighty_hunter"
+		"function": "bacap_rewards:weaponry/the_mighty_hunter"
 	},	
 	"criteria": {
 		"chicken": {

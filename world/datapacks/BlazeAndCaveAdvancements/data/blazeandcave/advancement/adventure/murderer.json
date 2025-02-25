@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:adventure/your_daily_fix",
 	"rewards": {
-		"function": "bc_rewards:adventure/murderer"
+		"function": "bacap_rewards:adventure/murderer"
 	},		
 	"criteria": {
 		"villager": {

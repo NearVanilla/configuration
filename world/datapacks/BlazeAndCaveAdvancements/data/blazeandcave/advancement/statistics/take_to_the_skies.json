@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:statistics/root",
 	"rewards": {
-		"function": "bc_rewards:statistics/take_to_the_skies"
+		"function": "bacap_rewards:statistics/take_to_the_skies"
 	},		
 	"criteria": {
 		"trigger": {

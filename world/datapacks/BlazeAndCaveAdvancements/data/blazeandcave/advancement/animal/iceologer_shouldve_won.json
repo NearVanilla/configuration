@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/flashy_items",
 	"rewards": {
-		"function": "bc_rewards:animal/iceologer_shouldve_won"
+		"function": "bacap_rewards:animal/iceologer_shouldve_won"
 	},		
 	"criteria": {
 		"kill_100_glow_squids": {

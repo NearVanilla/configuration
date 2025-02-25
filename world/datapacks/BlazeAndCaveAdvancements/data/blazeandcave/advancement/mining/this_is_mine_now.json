@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:mining/dungeons_and_spawners",
 	"rewards": {
-		"function": "bc_rewards:mining/this_is_mine_now"
+		"function": "bacap_rewards:mining/this_is_mine_now"
 	},		
 	"criteria": {
 		"mineshaft": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "minecraft:husbandry/balanced_diet",
 	"rewards": {
-		"function": "bc_rewards:farming/a_gluttonous_diet"
+		"function": "bacap_rewards:farming/a_gluttonous_diet"
 	},		
 	"criteria": {
 		"apple": {

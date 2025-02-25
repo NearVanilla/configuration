@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:nether/enders_chest",
 	"rewards": {
-		"function": "bc_rewards:nether/eye_spy"
+		"function": "bacap_rewards:nether/eye_spy"
 	},	
 	"criteria": {
 		"in_stronghold": {

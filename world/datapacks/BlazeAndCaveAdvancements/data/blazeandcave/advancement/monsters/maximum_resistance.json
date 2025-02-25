@@ -13,7 +13,7 @@
 	},
 	"parent": "blazeandcave:monsters/warden_frostbite",
 	"rewards": {
-		"function": "bc_rewards:monsters/maximum_resistance"
+		"function": "bacap_rewards:monsters/maximum_resistance"
 	},		
 	"criteria": {
 		"phantom": {

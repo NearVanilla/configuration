@@ -13,7 +13,7 @@
 	},
 	"parent": "blazeandcave:enchanting/complete_enchanter",
 	"rewards": {
-		"function": "bc_rewards:enchanting/master_enchanter"
+		"function": "bacap_rewards:enchanting/master_enchanter"
 	},			
 	"criteria": {
 		"protection": {

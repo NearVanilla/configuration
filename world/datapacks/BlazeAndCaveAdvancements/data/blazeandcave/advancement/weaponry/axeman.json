@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:weaponry/viking",
 	"rewards": {
-		"function": "bc_rewards:weaponry/axeman"
+		"function": "bacap_rewards:weaponry/axeman"
 	},		
 	"criteria": {
 		"wooden_axe": {

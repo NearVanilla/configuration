@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:mining/youll_never_take_me_alive_copper",
 	"rewards": {
-		"function": "bc_rewards:mining/copper_miner"
+		"function": "bacap_rewards:mining/copper_miner"
 	},		
 	"criteria": {
 		"raw_copper": {

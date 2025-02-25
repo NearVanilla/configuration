@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:redstone/the_block_of_eternal_screaming",
 	"rewards": {
-		"function": "bc_rewards:redstone/cataclyst"
+		"function": "bacap_rewards:redstone/cataclyst"
 	},
 	"criteria": {
 		"kill_mob_near_sculk_catalyst": {

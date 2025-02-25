@@ -42,7 +42,7 @@
 	},
 	"parent": "minecraft:end/root",
 	"rewards": {
-		"function": "bc_rewards:end/dragon_shield"
+		"function": "bacap_rewards:end/dragon_shield"
 	},
 	"criteria": {
 		"deflected_dragon": {

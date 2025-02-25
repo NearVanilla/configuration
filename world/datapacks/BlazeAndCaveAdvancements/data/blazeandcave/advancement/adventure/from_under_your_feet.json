@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:adventure/who_needs_rockets",
 	"rewards": {
-		"function": "bc_rewards:adventure/from_under_your_feet"
+		"function": "bacap_rewards:adventure/from_under_your_feet"
 	},		
 	"criteria": {
 		"from_under_your_feet": {

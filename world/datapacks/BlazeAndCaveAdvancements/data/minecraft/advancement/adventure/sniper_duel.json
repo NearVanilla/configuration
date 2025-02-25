@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:weaponry/bow_spammer",
 	"rewards": {
-		"function": "bc_rewards:weaponry/sniper_duel"
+		"function": "bacap_rewards:weaponry/sniper_duel"
 	},	
 	"criteria": {
 		"killed_skeleton": {
@@ -18,14 +18,24 @@
 			"conditions": {
 				"killing_blow": {
 					"tags": [
-							{
-								"id": "minecraft:is_projectile",
-								"expected": true
-							}
+						{
+							"id": "minecraft:is_projectile",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"type": [
+							"minecraft:arrow",
+							"minecraft:spectral_arrow"
 						]
+					}
 				},
 				"entity": {
-					"type": "skeleton",
+					"type": [
+						"skeleton",
+						"stray",
+						"bogged"
+					],
 					"distance": {
 						"horizontal": {
 							"min": 50
@@ -33,33 +43,6 @@
 					}
 				}
 			}
-		},
-		"killed_stray": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"tags": [
-							{
-								"id": "minecraft:is_projectile",
-								"expected": true
-							}
-						]
-				},
-				"entity": {
-					"type": "stray",
-					"distance": {
-						"horizontal": {
-							"min": 50
-						}
-					}
-				}
-			}
-		}	
-	},
-	"requirements": [
-		[
-		"killed_skeleton",
-		"killed_stray"
-		]
-	]
+		}
+	}
 }

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:biomes/boatception",
 	"rewards": {
-		"function": "bc_rewards:biomes/titanic"
+		"function": "bacap_rewards:biomes/titanic"
 	},		
 	"criteria": {
 		"iceberg_deep": {

@@ -11,7 +11,7 @@
 	},
 	"parent": "blazeandcave:statistics/i_enjoy_long_walks_and_playing_minecraft",
 	"rewards": {
-		"function": "bc_rewards:statistics/65_hours_of_walking"
+		"function": "bacap_rewards:statistics/65_hours_of_walking"
 	},		
 	"criteria": {
 		"trigger": {

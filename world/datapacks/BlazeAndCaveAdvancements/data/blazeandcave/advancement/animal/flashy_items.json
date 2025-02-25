@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:husbandry/make_a_sign_glow",
 	"rewards": {
-		"function": "bc_rewards:animal/flashy_items"
+		"function": "bacap_rewards:animal/flashy_items"
 	},		
 	"criteria": {
 		"glow_item_frame": {

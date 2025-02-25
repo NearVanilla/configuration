@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:enchanting/needle_sharp",
 	"rewards": {
-		"function": "bc_rewards:enchanting/overkill"
+		"function": "bacap_rewards:enchanting/overkill"
 	},		
 	"criteria": {
 		"overkill": {

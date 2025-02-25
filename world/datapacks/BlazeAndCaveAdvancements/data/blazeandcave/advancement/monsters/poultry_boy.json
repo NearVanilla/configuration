@@ -11,7 +11,7 @@
 	},
 	"parent": "blazeandcave:monsters/baby_baby_baby_noo",
 	"rewards": {
-		"function": "bc_rewards:monsters/poultry_boy"
+		"function": "bacap_rewards:monsters/poultry_boy"
 	},		
 	"criteria": {
 		"chicken": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:biomes/root",
 	"rewards": {
-		"function": "bc_rewards:biomes/smooth_operator"
+		"function": "bacap_rewards:biomes/smooth_operator"
 	},		
 	"criteria": {
 		"smooth_operator": {

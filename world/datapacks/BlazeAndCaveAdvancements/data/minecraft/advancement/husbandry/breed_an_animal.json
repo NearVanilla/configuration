@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:animal/high_steaks",
 	"rewards": {
-		"function": "bc_rewards:animal/repopulation"
+		"function": "bacap_rewards:animal/repopulation"
 	},		
 	"criteria": {
 		"cow": {

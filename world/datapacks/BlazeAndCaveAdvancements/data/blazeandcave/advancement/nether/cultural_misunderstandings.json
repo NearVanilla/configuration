@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:nether/distract_piglin",
 	"rewards": {
-		"function": "bc_rewards:nether/cultural_misunderstandings"
+		"function": "bacap_rewards:nether/cultural_misunderstandings"
 	},		
 	"criteria": {
 		"piglin": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:husbandry/root",
 	"rewards": {
-		"function": "bc_rewards:animal/leader_of_the_pack"
+		"function": "bacap_rewards:animal/leader_of_the_pack"
 	},		
 	"criteria": {
 		"tamed_animal": {

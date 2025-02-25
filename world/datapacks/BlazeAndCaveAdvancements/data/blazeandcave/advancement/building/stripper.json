@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:building/yay_i_got_my_wood",
 	"rewards": {
-		"function": "bc_rewards:building/stripper"
+		"function": "bacap_rewards:building/stripper"
 	},		
 	"criteria": {
 		"stripped_oak_log": {
@@ -253,6 +253,29 @@
 							"block": {
 								"blocks": [
 									"minecraft:stripped_warped_stem"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "#minecraft:axes"
+						}
+					}
+				]
+			}
+		},
+		"stripped_pale_oak_log": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:stripped_pale_oak_log"
 								]
 							}
 						}

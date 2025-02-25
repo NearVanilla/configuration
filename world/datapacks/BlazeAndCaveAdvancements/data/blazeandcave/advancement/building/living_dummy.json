@@ -14,7 +14,7 @@
 	},
 	"parent": "blazeandcave:building/mannequin",
 	"rewards": {
-		"function": "bc_rewards:building/living_dummy"
+		"function": "bacap_rewards:building/living_dummy"
 	},		
 	"criteria": {
 		"armor_stand": {

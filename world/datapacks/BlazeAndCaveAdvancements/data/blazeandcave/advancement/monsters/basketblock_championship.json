@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/impossible",
 	"rewards": {
-		"function": "bc_rewards:monsters/basketblock_championship"
+		"function": "bacap_rewards:monsters/basketblock_championship"
 	},	
 	"criteria": {
 		"dandelion": {
@@ -370,6 +370,33 @@
 				"entity": {
 					"type": "minecraft:enderman",
 					"nbt": "{carriedBlockState:{Name:\"minecraft:torchflower\"}}"
+				}
+			}
+		},
+		"pale_moss_block": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:enderman",
+					"nbt": "{carriedBlockState:{Name:\"minecraft:pale_moss_block\"}}"
+				}
+			}
+		},
+		"closed_eyeblossom": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:enderman",
+					"nbt": "{carriedBlockState:{Name:\"minecraft:closed_eyeblossom\"}}"
+				}
+			}
+		},
+		"open_eyeblossom": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:enderman",
+					"nbt": "{carriedBlockState:{Name:\"minecraft:open_eyeblossom\"}}"
 				}
 			}
 		}

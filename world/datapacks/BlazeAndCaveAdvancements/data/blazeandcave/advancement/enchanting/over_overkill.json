@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:enchanting/overkill",
 	"rewards": {
-		"function": "bc_rewards:enchanting/over_overkill"
+		"function": "bacap_rewards:enchanting/over_overkill"
 	},		
 	"criteria": {
 		"overkill": {

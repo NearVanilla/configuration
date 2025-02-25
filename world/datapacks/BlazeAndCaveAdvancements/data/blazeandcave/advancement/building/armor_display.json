@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:building/living_dummy",
 	"rewards": {
-		"function": "bc_rewards:building/armor_display"
+		"function": "bacap_rewards:building/armor_display"
 	},		
 	"criteria": {
 		"leather": {

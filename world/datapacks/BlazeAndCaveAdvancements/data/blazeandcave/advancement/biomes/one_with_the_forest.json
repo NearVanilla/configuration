@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:biomes/kilometre_walk",	
 	"rewards": {
-		"function": "bc_rewards:biomes/one_with_the_forest"
+		"function": "bacap_rewards:biomes/one_with_the_forest"
 	},	
 	"criteria": {
 		"forest": {

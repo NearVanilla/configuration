@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/artificial_selection",
 	"rewards": {
-		"function": "bc_rewards:animal/master_farrier"
+		"function": "bacap_rewards:animal/master_farrier"
 	},		
 	"criteria": {
 		"white_none": {

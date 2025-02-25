@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/phantom_slayer",
 	"rewards": {
-		"function": "bc_rewards:monsters/anti_air"
+		"function": "bacap_rewards:monsters/anti_air"
 	},	
 	"criteria": {
 		"killed_phantom": {

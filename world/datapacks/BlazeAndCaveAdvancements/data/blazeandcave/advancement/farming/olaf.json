@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:farming/the_pie",
 	"rewards": {
-		"function": "bc_rewards:farming/olaf"
+		"function": "bacap_rewards:farming/olaf"
 	},		
 	"criteria": {
 		"summoned": {

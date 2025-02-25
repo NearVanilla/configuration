@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:biomes/atlantis",
 	"rewards": {
-		"function": "bc_rewards:biomes/ahoy"
+		"function": "bacap_rewards:biomes/ahoy"
 	},		
 	"criteria": {
 		"shipwreck": {

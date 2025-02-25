@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:adventure/i_am_ravager_hear_me_roar",
 	"rewards": {
-		"function": "bc_rewards:adventure/picador"
+		"function": "bacap_rewards:adventure/picador"
 	},
 	"criteria": {
 		"shot_trident": {

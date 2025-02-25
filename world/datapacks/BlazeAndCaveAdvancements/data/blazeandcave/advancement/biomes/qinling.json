@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:biomes/zoologist",
 	"rewards": {
-		"function": "bc_rewards:biomes/qinling"
+		"function": "bacap_rewards:biomes/qinling"
 	},		
 	"criteria": {
 		"panda": {

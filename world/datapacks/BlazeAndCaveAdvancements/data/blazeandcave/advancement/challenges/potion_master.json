@@ -15,7 +15,7 @@
 	},
 	"parent": "blazeandcave:challenges/endergeddon",
 	"rewards": {
-		"function": "bc_rewards:challenges/potion_master"
+		"function": "bacap_rewards:challenges/potion_master"
 	},	
 	"criteria": {
 		"bat": {

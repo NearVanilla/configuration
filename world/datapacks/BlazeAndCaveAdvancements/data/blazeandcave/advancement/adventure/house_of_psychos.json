@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:adventure/treasure_map",
 	"rewards": {
-		"function": "bc_rewards:adventure/house_of_psychos"
+		"function": "bacap_rewards:adventure/house_of_psychos"
 	},		
 	"criteria": {
 		"mansion": {

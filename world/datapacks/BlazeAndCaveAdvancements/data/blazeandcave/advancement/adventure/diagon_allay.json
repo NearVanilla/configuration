@@ -11,7 +11,7 @@
 	},
 	"parent": "blazeandcave:adventure/budget_vex",
 	"rewards": {
-		"function": "bc_rewards:adventure/diagon_allay"
+		"function": "bacap_rewards:adventure/diagon_allay"
 	},		
 	"criteria": {
 		"diagon_allay": {

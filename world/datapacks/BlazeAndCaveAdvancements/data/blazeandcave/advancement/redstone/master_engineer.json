@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:redstone/engineer",
 	"rewards": {
-		"function": "bc_rewards:redstone/master_engineer"
+		"function": "bacap_rewards:redstone/master_engineer"
 	},
 	"criteria": {
 		"redstone": {

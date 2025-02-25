@@ -10,7 +10,7 @@
 		"announce_to_chat": false
 	},
 	"rewards": {
-		"function": "bc_rewards:adventure/root"
+		"function": "bacap_rewards:adventure/root"
 	},		
 	"criteria": {
 		"killed_something": {

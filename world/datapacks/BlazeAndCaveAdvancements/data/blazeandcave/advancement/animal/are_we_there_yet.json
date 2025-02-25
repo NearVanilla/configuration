@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:animal/cowboy",
 	"rewards": {
-		"function": "bc_rewards:animal/are_we_there_yet"
+		"function": "bacap_rewards:animal/are_we_there_yet"
 	},		
 	"criteria": {
 		"tamed_animal": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:biomes/tarzan",
 	"rewards": {
-		"function": "bc_rewards:biomes/bamboom"
+		"function": "bacap_rewards:biomes/bamboom"
 	},		
 	"criteria": {
 		"bamboo": {

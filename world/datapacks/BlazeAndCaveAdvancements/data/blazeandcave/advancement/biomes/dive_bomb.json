@@ -13,7 +13,7 @@
 	},
 	"parent": "blazeandcave:biomes/boaty_mcboatface",
 	"rewards": {
-		"function": "bc_rewards:biomes/dive_bomb"
+		"function": "bacap_rewards:biomes/dive_bomb"
 	},		
 	"criteria": {
 		"dive_bomb": {

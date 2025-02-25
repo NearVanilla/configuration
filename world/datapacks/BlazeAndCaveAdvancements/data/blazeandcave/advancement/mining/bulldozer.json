@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:mining/chestful_of_cobblestone",
 	"rewards": {
-		"function": "bc_rewards:mining/bulldozer"
+		"function": "bacap_rewards:mining/bulldozer"
 	},		
 	"criteria": {
 		"mine_nether_gold_ore": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:bacap/enchanting_milestone",
 	"rewards": {
-		"function": "bc_rewards:bacap/statistics_milestone"
+		"function": "bacap_rewards:bacap/statistics_milestone"
 	},		
 	"criteria": {
 		"ancient_kung_fu_master": {

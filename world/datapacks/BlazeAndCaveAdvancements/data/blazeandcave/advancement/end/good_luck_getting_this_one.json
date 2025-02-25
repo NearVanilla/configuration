@@ -11,11 +11,11 @@
 	},
 	"parent": "blazeandcave:end/anti_gravity_generator",
 	"rewards": {
-		"function": "bc_rewards:end/good_luck_getting_this_one"
+		"function": "bacap_rewards:end/good_luck_getting_this_one"
 	},		
 	"criteria": {
 		"good_luck_getting_this_one": {
-			"trigger": "minecraft:killed_by_crossbow",
+			"trigger": "minecraft:killed_by_arrow",
 			"conditions": {
 				"victims": [
 					{
@@ -51,7 +51,10 @@
 							"dimension": "the_end"
 						}
 					}
-				]
+				],
+				"fired_from_weapon": {
+					"items": "minecraft:crossbow"
+				}
 			}
 		}
 	}

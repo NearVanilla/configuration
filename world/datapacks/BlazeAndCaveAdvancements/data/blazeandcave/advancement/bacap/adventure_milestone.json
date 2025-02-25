@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:bacap/biomes_milestone",
 	"rewards": {
-		"function": "bc_rewards:bacap/adventure_milestone"
+		"function": "bacap_rewards:bacap/adventure_milestone"
 	},		
 	"criteria": {
 		"a_complete_catalogue": {
@@ -1710,7 +1710,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:adventure/a_chiptune_relic": true
+							"blazeandcave:adventure/a_suspicious_advancement": true
 						}
 					}
 				}

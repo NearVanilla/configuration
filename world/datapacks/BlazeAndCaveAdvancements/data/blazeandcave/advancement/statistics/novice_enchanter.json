@@ -12,7 +12,7 @@
 	},
 	"parent": "blazeandcave:technical/you_are_a_big_cheater",
 	"rewards": {
-		"function": "bc_rewards:statistics/novice_enchanter"
+		"function": "bacap_rewards:statistics/novice_enchanter"
 	},		
 	"criteria": {
 		"trigger": {

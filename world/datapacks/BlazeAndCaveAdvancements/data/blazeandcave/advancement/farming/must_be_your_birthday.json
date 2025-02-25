@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:farming/hay_there",
 	"rewards": {
-		"function": "bc_rewards:farming/must_be_your_birthday"
+		"function": "bacap_rewards:farming/must_be_your_birthday"
 	},		
 	"criteria": {
 		"trigger": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/aquarium",
 	"rewards": {
-		"function": "bc_rewards:animal/tropical_collection"
+		"function": "bacap_rewards:animal/tropical_collection"
 	},		
 	"criteria": {
 		"fish1": {

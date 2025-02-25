@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/chatterbox",
 	"rewards": {
-		"function": "bc_rewards:animal/birdkeeper"
+		"function": "bacap_rewards:animal/birdkeeper"
 	},		
 	"criteria": {
 		"red": {

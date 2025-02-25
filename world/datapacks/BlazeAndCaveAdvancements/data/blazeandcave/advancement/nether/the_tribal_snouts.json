@@ -9,7 +9,7 @@
 	},
 	"parent": "minecraft:nether/root",
 	"rewards": {
-		"function": "bc_rewards:nether/the_tribal_snouts"
+		"function": "bacap_rewards:nether/the_tribal_snouts"
 	},		
 	"criteria": {
 		"zombified_piglin": {

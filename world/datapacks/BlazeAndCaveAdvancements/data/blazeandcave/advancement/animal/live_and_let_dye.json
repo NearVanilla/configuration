@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:animal/sheariously",
 	"rewards": {
-		"function": "bc_rewards:animal/live_and_let_dye"
+		"function": "bacap_rewards:animal/live_and_let_dye"
 	},		
 	"criteria": {
 		"white_dye": {

@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:animal/farmadillo",
 	"rewards": {
-		"function": "bc_rewards:animal/armadoggo"
+		"function": "bacap_rewards:animal/armadoggo"
 	},
 	"criteria": {
 		"wolf_armor": {

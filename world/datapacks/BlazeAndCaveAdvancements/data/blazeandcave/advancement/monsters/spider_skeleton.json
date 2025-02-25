@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/spider_smasher",
 	"rewards": {
-		"function": "bc_rewards:monsters/spider_skeleton"
+		"function": "bacap_rewards:monsters/spider_skeleton"
 	},	
 	"criteria": {
 		"spider": {
@@ -19,7 +19,7 @@
 				"entity": {
 					"type": "spider",
 					"passenger": {
-						"tag": "minecraft:skeletons"
+						"type": "#minecraft:skeletons"
 					}
 				}
 			}
@@ -28,7 +28,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"tag": "minecraft:skeletons",
+					"type": "#minecraft:skeletons",
 					"vehicle": {
 						"type": "spider"
 					}

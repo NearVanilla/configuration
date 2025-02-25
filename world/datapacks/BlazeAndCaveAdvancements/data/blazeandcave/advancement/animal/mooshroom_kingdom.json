@@ -9,7 +9,7 @@
 	},
 	"parent": "blazeandcave:animal/true_cow_tipper",	
 	"rewards": {
-		"function": "bc_rewards:animal/mooshroom_kingdom"
+		"function": "bacap_rewards:animal/mooshroom_kingdom"
 	},	
 	"criteria": {
 		"mushroom_fields": {

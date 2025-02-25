@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:building/fluorescent",
 	"rewards": {
-		"function": "bc_rewards:building/let_there_be_light"
+		"function": "bacap_rewards:building/let_there_be_light"
 	},		
 	"criteria": {
 		"glowstone": {

@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:monsters/night_runner",
 	"rewards": {
-		"function": "bc_rewards:monsters/hell_hunter"
+		"function": "bacap_rewards:monsters/hell_hunter"
 	},	
 	"criteria": {
 		"zombified_piglin": {

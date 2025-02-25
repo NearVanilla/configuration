@@ -10,7 +10,7 @@
 	},
 	"parent": "blazeandcave:bacap/animal_milestone",
 	"rewards": {
-		"function": "bc_rewards:bacap/monsters_milestone"
+		"function": "bacap_rewards:bacap/monsters_milestone"
 	},		
 	"criteria": {
 		"a_watery_grave": {
@@ -312,14 +312,14 @@
 				}
 			}
 		},
-		"iskallium_collector": {
+		"oh_no_guys_im_oozing": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:monsters/iskallium_collector": true
+							"blazeandcave:monsters/oh_no_guys_im_oozing": true
 						}
 					}
 				}
