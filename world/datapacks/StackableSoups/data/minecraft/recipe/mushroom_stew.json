@@ -2,14 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "food",
   "ingredients": [
-    [
-      {
-        "item": "minecraft:brown_mushroom"
-      },
-      {
-        "item": "minecraft:red_mushroom"
-      }
-    ],
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
     "minecraft:bowl"
   ],
   "result": {
