@@ -119,7 +119,7 @@ plugins:
   version: 5.3.0
 - checksum: 894f851485cb565e375e60ae79acfb959f8da55a
   name: BabyAnimals
-  version: 1.0-SNAPSHOT
+  version: 1.1-SNAPSHOT
 version:
   build: 221
   name: 1.21.4
