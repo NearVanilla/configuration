@@ -117,9 +117,9 @@ plugins:
 - checksum: 0e33881cfdb22505fc0f4f451277dd3b68f9d57d
   name: ProtocolLib
   version: 5.3.0
-- checksum: 96aa84d4c56b89e27a45b19ce303e98429494fc1
+- checksum: 894f851485cb565e375e60ae79acfb959f8da55a
   name: BabyAnimals
-  version: 1.0-SNAPSHOT
+  version: 1.1-SNAPSHOT
 version:
   build: 221
   name: 1.21.4
