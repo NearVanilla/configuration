@@ -111,9 +111,9 @@ plugins:
 - checksum: 1f6637fb6ac63a22bd42d9d00b8d536a38a2ec46
   name: MuteDeaths
   version: 1.1-SNAPSHOT
-- checksum: 1daf51b8144081a405922871e35f54b7497d3174
+- checksum: 38fc3ca288493fa7d38e7cef2141aaf2defeed65
   name: CustomDiscs
-  version: '4.1'
+  version: '4.3'
 - checksum: 0e33881cfdb22505fc0f4f451277dd3b68f9d57d
   name: ProtocolLib
   version: 5.3.0
