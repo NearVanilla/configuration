@@ -96,6 +96,7 @@ EXCLUSIONS = [
     Square(x1=-550, z1=500, x2=550, z2=1550),  # Astral's End Base
     Square(x1=-372, z1=-1020, x2=-406, z2=-986),  # Dynant's Wither Rose Farm
     Square(x1=-1018, z1=1000000, x2=-1016, z2=1000002),  # Kera's 1mil area
+    Square(x1=-634, z1=850, x2=-794, z2=690) # w0ix's Farm
 ]
 
 
