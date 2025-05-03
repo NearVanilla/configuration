@@ -1,5 +1,7 @@
 # Recipes on how to do common stuff
 
+Unless specified otherwise - assumption is your terminal directory is set to the root configuration directory.
+
 ## Updating plugins and their configuration
 
 ```sh
@@ -19,3 +21,20 @@ $ # No command for that, sorry :/
 # Push all of the updates
 $ ./scripts/code/push_all.sh
 ```
+
+## Adding new plugin
+
+```sh
+# Add the plugin to the MAIN plugins directory
+cp ../MyPlugin/target/MyPlugin.jar ./plugins/MyPlugin.jar
+# Add the plugin to the server jars config
+./manage.py jars add-plugins ./server-config/survival/ ./plugins/MyPlugin.jar
+# Upload to B2 - can use the sync_plugins.sh instead
+./manage.py synchronize upload
+```
+
+After this is done, if you want to update the version of the plugin:
+
+- Replace the jar
+- Update the `jars.yaml` file by running `./manage.py jars update ./server-config/survival/`
+- Upload the plugin jar with `./manage.py synchronize upload`

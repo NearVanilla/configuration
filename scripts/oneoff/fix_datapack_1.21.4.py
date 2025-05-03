@@ -24,6 +24,13 @@ def process_json_file(file_path):
                 if isinstance(ingredient, dict) and "item" in ingredient:
                     new_ingredients.append(ingredient["item"])
                     modified = True
+                elif isinstance(ingredient, list):
+                    new_i2 = []
+                    for i2 in ingredient:
+                        if isinstance(i2, dict) and "item" in i2:
+                            new_i2.append(i2["item"])
+                            modified = True
+                    new_ingredients.append(new_i2)
                 else:
                     new_ingredients.append(ingredient)
             data["ingredients"] = new_ingredients
