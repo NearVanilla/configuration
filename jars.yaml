@@ -120,6 +120,9 @@ plugins:
 - checksum: 894f851485cb565e375e60ae79acfb959f8da55a
   name: BabyAnimals
   version: 1.1-SNAPSHOT
+- checksum: 6b33445f983d5145c9ae97176996609777a81d01
+  name: EggBattle
+  version: '1.1'
 version:
   build: 225
   name: 1.21.4
