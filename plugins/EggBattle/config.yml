@@ -1,0 +1,13 @@
+messages:
+  game_explanation: |-
+    <yellow>✦</yellow> <gold><bold>EGG BATTLE</bold></gold> <yellow>✦</yellow>
+    <aqua>➤</aqua> <green>Join the fun by typing</green> <yellow>/eggbattle join</yellow>
+    <aqua>➤</aqua> <light_purple>Hit other players with eggs to earn points!</light_purple>
+    <aqua>➤</aqua> <red>To leave the game, type</red> <yellow>/eggbattle leave</yellow>
+    <aqua>➤</aqua> <red>Leaving will not reset your score</red>
+  game_end: <yellow>✦</yellow> <gold><bold>EGG BATTLE</bold></gold> <green>has</green>
+    <light_purple><bold>ENDED</bold></light_purple> <yellow>✦</yellow>
+  player_join: <green>You have joined the Egg Battle!</green>
+  player_leave: <yellow>You have left the Egg Battle!</yellow>
+  already_joined: <red>You are already in the Egg Battle!</red>
+  not_joined: <red>You are not in the Egg Battle!</red>
