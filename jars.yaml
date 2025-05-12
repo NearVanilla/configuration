@@ -124,5 +124,5 @@ plugins:
   name: EggBattle
   version: '1.3'
 version:
-  build: 225
+  build: 230
   name: 1.21.4
