@@ -123,6 +123,9 @@ plugins:
 - checksum: 218b7283bbb81d330084b9b824f7364d1c8adbaf
   name: EggBattle
   version: '1.3'
+- checksum: 68fbeebd2d9c585301f0f693ee14078649dcef1c
+  name: PlayerSeen
+  version: '1.0'
 version:
   build: 230
   name: 1.21.4
