@@ -1,0 +1,5 @@
+messages:
+  not-found: "<gray>Player <red>could not be found</red>.</gray>"
+  online: "<gray>Player <white>{name}</white> <green>is currently online</green></gray>"
+  never-played: "<gray>Player <white>{name}</white> <red>has never played before</red></gray>"
+  last-seen: "<gray>Player <white>{name}</white> <gray>was last seen {time}</gray>"
