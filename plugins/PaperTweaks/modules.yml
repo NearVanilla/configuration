@@ -17,7 +17,7 @@ mobs:
   count-mob-deaths: false
   larger-phantoms: false
   mob-griefing: false
-  more-mob-heads: true
+  more-mob-heads: false
   silence-mobs: true
   villager-death-messages: false
 other:
