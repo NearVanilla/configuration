@@ -126,6 +126,9 @@ plugins:
 - checksum: 68fbeebd2d9c585301f0f693ee14078649dcef1c
   name: PlayerSeen
   version: '1.0'
+- checksum: ad3814b2d07f98a841e67afb7da3dd1c3998f19b
+  name: PhantomToggle
+  version: '1.0'
 version:
   build: 230
   name: 1.21.4
