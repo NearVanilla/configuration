@@ -129,6 +129,9 @@ plugins:
 - checksum: ad3814b2d07f98a841e67afb7da3dd1c3998f19b
   name: PhantomToggle
   version: '1.0'
+- checksum: e48403781f1013f6a4c20a2270b972cd25d952e2
+  name: WorldTour
+  version: 1.0-SNAPSHOT
 version:
   build: 230
   name: 1.21.4
