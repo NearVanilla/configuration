@@ -120,7 +120,7 @@ player-messages: false
 player-commands: false
 
 # Logs the logins and logouts of players.
-player-sessions: false
+player-sessions: true
 
 # Logs when a player changes their Minecraft username.
 username-changes: true
