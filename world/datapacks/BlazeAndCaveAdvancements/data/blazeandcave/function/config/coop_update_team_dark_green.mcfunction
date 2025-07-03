@@ -927,9 +927,9 @@ execute if score blazeandcave:nether/moar_upgraded_tools bac_obtained_dark_green
 execute if score minecraft:nether/netherite_armor bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only minecraft:nether/netherite_armor
 execute if score blazeandcave:nether/soul_runnings bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:nether/soul_runnings
 execute if score blazeandcave:nether/fool_me_twice bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:nether/fool_me_twice
-execute if score blazeandcave:nether/get_a_lode_of_this bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:nether/get_a_lode_of_this
-execute if score minecraft:nether/use_lodestone bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only minecraft:nether/use_lodestone
-execute if score blazeandcave:nether/lodes_of_applications bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:nether/lodes_of_applications
+execute if score blazeandcave:mining/get_a_lode_of_this bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:mining/get_a_lode_of_this
+execute if score minecraft:adventure/use_lodestone bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only minecraft:adventure/use_lodestone
+execute if score blazeandcave:mining/lodes_of_applications bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:mining/lodes_of_applications
 execute if score blazeandcave:nether/netherite_miner bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:nether/netherite_miner
 
 execute if score blazeandcave:potion/failed_concoctions bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:potion/failed_concoctions
@@ -1374,3 +1374,47 @@ execute if score blazeandcave:animal/flamboyant_range bac_obtained_dark_green ma
 execute if score blazeandcave:nether/light_show bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:nether/light_show
 
 execute if score blazeandcave:mining/i_yearned_for_the_mines bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:mining/i_yearned_for_the_mines
+
+
+execute if score blazeandcave:farming/booshes bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:farming/booshes
+execute if score blazeandcave:farming/you_cant_take_the_sky_from_me bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:farming/you_cant_take_the_sky_from_me
+execute if score blazeandcave:farming/certified_spud_chomper bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:farming/certified_spud_chomper
+
+execute if score blazeandcave:animal/piglets_big_advancement bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:animal/piglets_big_advancement
+execute if score blazeandcave:animal/the_three_little_pigs bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:animal/the_three_little_pigs
+execute if score blazeandcave:animal/beef_moover bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:animal/beef_moover
+execute if score blazeandcave:animal/omelette bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:animal/omelette
+execute if score blazeandcave:animal/chick_buffet bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:animal/chick_buffet
+
+execute if score minecraft:adventure/heart_transplanter bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only minecraft:adventure/heart_transplanter
+execute if score blazeandcave:biomes/le_creak_cest_chic bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:biomes/le_creak_cest_chic
+
+execute if score blazeandcave:adventure/all_around_the_world bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:adventure/all_around_the_world
+
+execute if score blazeandcave:monsters/look_out bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:monsters/look_out
+execute if score blazeandcave:monsters/absolute_cinema bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:monsters/absolute_cinema
+
+execute if score blazeandcave:redstone/splatfest bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:redstone/splatfest
+
+execute if score blazeandcave:enchanting/oh_baby_a_triple bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:enchanting/oh_baby_a_triple
+
+execute if score blazeandcave:statistics/test_flight bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:statistics/test_flight
+execute if score blazeandcave:statistics/who_needs_elytra bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:statistics/who_needs_elytra
+execute if score blazeandcave:statistics/big_blimp_enthusiast bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:statistics/big_blimp_enthusiast
+
+execute if score minecraft:husbandry/place_dried_ghast_in_water bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only minecraft:husbandry/place_dried_ghast_in_water
+execute if score blazeandcave:nether/snow_cone bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:nether/snow_cone
+execute if score blazeandcave:nether/hot_air_balloon bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:nether/hot_air_balloon
+execute if score blazeandcave:nether/midport_village bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:nether/midport_village
+execute if score blazeandcave:nether/lead_zeppelin bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:nether/lead_zeppelin
+execute if score blazeandcave:nether/pillow_fight bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:nether/pillow_fight
+execute if score blazeandcave:nether/collateral_damage bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:nether/collateral_damage
+
+execute if score blazeandcave:potion/string_shot bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:potion/string_shot
+
+execute if score blazeandcave:end/why_do_i_hear_boss_music bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:end/why_do_i_hear_boss_music
+execute if score blazeandcave:end/unstoppable_force_vs_immovable_object bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:end/unstoppable_force_vs_immovable_object
+execute if score blazeandcave:end/youre_doing_it_wrong bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:end/youre_doing_it_wrong
+
+execute if score blazeandcave:challenges/at_the_rim_of_the_sky bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:challenges/at_the_rim_of_the_sky
+execute if score blazeandcave:challenges/lets_take_it_up_a_notch bac_obtained_dark_green matches 1.. run advancement grant @a[team=bac_team_dark_green] only blazeandcave:challenges/lets_take_it_up_a_notch

@@ -33,7 +33,26 @@
 			"trigger": "minecraft:target_hit",
 			"conditions": {
 				"projectile": {
-					"type": "minecraft:egg"
+					"type": "minecraft:egg",
+					"nbt": "{Item:{id:\"minecraft:egg\"}}"
+				}
+			}
+		},
+		"brown_egg": {
+			"trigger": "minecraft:target_hit",
+			"conditions": {
+				"projectile": {
+					"type": "minecraft:egg",
+					"nbt": "{Item:{id:\"minecraft:brown_egg\"}}"
+				}
+			}
+		},
+		"blue_egg": {
+			"trigger": "minecraft:target_hit",
+			"conditions": {
+				"projectile": {
+					"type": "minecraft:egg",
+					"nbt": "{Item:{id:\"minecraft:blue_egg\"}}"
 				}
 			}
 		},
@@ -49,7 +68,7 @@
 			"trigger": "minecraft:target_hit",
 			"conditions": {
 				"projectile": {
-					"type": "minecraft:potion"
+					"type": "minecraft:splash_potion"
 				}
 			}
 		},

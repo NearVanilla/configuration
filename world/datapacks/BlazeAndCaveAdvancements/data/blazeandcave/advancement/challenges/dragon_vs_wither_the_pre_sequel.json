@@ -4,7 +4,7 @@
 			"id": "minecraft:player_head",
 			"components": {"profile":{"id":[652293181,-950186350,-1857676489,-1403293903],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWExNWQwNWQwYTg2ODk2OGM2NjhiNWQ4NmM0MDgzMDUzZWJlOWZkZWE5Y2U0YWExMzE1MDM1ZDNiYTg4NDNkIn19fQ=="}]}}
 		},
-		"title": {"translate":"Dragon vs Wither: Pre-Sequel"},
+		"title": {"translate":"Dragon vs Wither: The Pre-Sequel"},
 		"description": {"color":"#FF2A2A","translate":"Defeat the Wither while wearing a Dragon head... without touching the ground"},
 		"announce_to_chat": true,
 		"frame": "challenge"

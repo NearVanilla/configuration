@@ -34,7 +34,9 @@
 						"minecraft:cornflower",
 						"minecraft:lily_of_the_valley",
 						"minecraft:closed_eyeblossom",
-						"minecraft:open_eyeblossom"
+						"minecraft:open_eyeblossom",
+						"minecraft:wildflowers",
+						"minecraft:cactus_flower"
 					]
 				},
 				"villager": {

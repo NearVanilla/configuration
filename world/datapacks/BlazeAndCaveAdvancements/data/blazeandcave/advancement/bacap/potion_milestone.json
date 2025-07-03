@@ -389,6 +389,19 @@
 					}
 				}
 			}
+		},
+		"string_shot": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:potion/string_shot": true
+						}
+					}
+				}
+			}
 		}
 	}
 }

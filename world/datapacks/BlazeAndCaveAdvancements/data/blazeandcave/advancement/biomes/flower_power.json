@@ -264,6 +264,30 @@
 					}
 				]
 			}
+		},
+		"wildflowers": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wildflowers"
+						]
+					}
+				]
+			}
+		},
+		"cactus_flower": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cactus_flower"
+						]
+					}
+				]
+			}
 		}
 	}
 }

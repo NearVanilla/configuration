@@ -31,7 +31,8 @@ execute unless score previous bac_current_time matches ..13000 run advancement g
 execute as @e[type=strider,tag=!zp_ridden,tag=!not_zp_ridden] at @s run function blazeandcave:strider_check
 
 # Gives baby zombie variants the 'baby' tag if they are a baby (Used for the "Family Reunion" advancement)
-execute as @e[type=#minecraft:zombies,tag=!bac_baby] run tag @s[predicate=blazeandcave:is_baby] add bac_baby
+## THIS CODE HAS BEEN COMMENTED OUT AS THE TAG IS NO LONGER USED. INSTEAD THE PREDICATE IS USED DIRECTLY
+#execute as @e[type=#minecraft:zombies,tag=!bac_baby] run tag @s[predicate=blazeandcave:is_baby] add bac_baby
 
 # The World Is Ending (counts ten withers)
 execute as @a[gamemode=!spectator] at @s store result score @s bac_ten_withers run execute if entity @e[type=wither,distance=..128]

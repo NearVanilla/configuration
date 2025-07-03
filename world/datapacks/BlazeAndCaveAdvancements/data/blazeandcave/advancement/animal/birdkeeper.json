@@ -8,7 +8,7 @@
 		"announce_to_chat": true,
 		"frame": "goal"
 	},
-	"parent": "blazeandcave:animal/chatterbox",
+	"parent": "minecraft:adventure/spyglass_at_parrot",
 	"rewards": {
 		"function": "bacap_rewards:animal/birdkeeper"
 	},		
@@ -16,46 +16,81 @@
 		"red": {
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
-				"entity": {
-					"type": "minecraft:parrot",
-					"nbt": "{Variant:0}"
-				}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:parrot/variant": "red_blue"
+							}
+						}
+					}
+				]
 			}
 		},
 		"blue": {
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
-				"entity": {
-					"type": "minecraft:parrot",
-					"nbt": "{Variant:1}"
-				}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:parrot/variant": "blue"
+							}
+						}
+					}
+				]
 			}
 		},
 		"green": {
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
-				"entity": {
-					"type": "minecraft:parrot",
-					"nbt": "{Variant:2}"
-				}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:parrot/variant": "green"
+							}
+						}
+					}
+				]
 			}
 		},
 		"cyan": {
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
-				"entity": {
-					"type": "minecraft:parrot",
-					"nbt": "{Variant:3}"
-				}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:parrot/variant": "yellow_blue"
+							}
+						}
+					}
+				]
 			}
 		},
 		"gray": {
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
-				"entity": {
-					"type": "minecraft:parrot",
-					"nbt": "{Variant:4}"
-				}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:parrot/variant": "gray"
+							}
+						}
+					}
+				]
 			}
 		}
 	}

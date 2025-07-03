@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:creaking_heart"
+			"id": "minecraft:creaking_spawn_egg"
 		},
 		"title": {"translate":"Heart Breaker"},
 		"description": {"color":"green","translate":"Smash a Creaking Heart to destroy its Creaking"},

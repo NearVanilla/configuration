@@ -27,7 +27,7 @@
 				"killing_blow": {
 
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}

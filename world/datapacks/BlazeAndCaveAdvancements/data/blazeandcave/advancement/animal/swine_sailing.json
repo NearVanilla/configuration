@@ -8,7 +8,7 @@
 		"announce_to_chat": true,
 		"frame": "goal"
 	},
-	"parent": "blazeandcave:animal/pig_slaughterer",
+	"parent": "blazeandcave:animal/when_pigs_used_to_fly",
 	"rewards": {
 		"function": "bacap_rewards:animal/swine_sailing"
 	},		

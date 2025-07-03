@@ -1052,6 +1052,32 @@
 					}
 				}
 			}
+		},
+		"look_out": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:monsters/look_out": true
+						}
+					}
+				}
+			}
+		},
+		"absolute_cinema": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:monsters/absolute_cinema": true
+						}
+					}
+				}
+			}
 		}
 	}
 }

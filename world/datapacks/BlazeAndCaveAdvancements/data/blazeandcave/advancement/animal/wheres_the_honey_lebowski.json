@@ -17,23 +17,7 @@
 	},		
 	"criteria": {
 		"ten_withers": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"type_specific": {
-						"type": "player",
-						"stats": [
-							{
-								"type": "minecraft:used",
-								"stat": "minecraft:honey_bottle",
-								"value": {
-									"min": 200
-								}
-							}
-						]
-					}
-				}
-			}
+			"trigger": "minecraft:impossible"
 		}
 	}
 }

@@ -374,6 +374,25 @@
 					]
 				}
 			}
+		},
+		"dried_ghast": {
+			"trigger": "minecraft:thrown_item_picked_up_by_player",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:piglin"
+						}
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:dried_ghast"
+					]
+				}
+			}
 		}
 	}
 }

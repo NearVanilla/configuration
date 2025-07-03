@@ -26,7 +26,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -39,7 +39,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -52,7 +52,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -65,7 +65,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -78,7 +78,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -91,7 +91,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -104,7 +104,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -117,7 +117,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -130,7 +130,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -143,7 +143,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -156,7 +156,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -169,7 +169,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -182,7 +182,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -195,7 +195,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -208,7 +208,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -221,7 +221,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -234,7 +234,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -247,7 +247,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -260,7 +260,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -273,7 +273,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -286,7 +286,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -299,7 +299,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -312,7 +312,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -325,7 +325,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -338,7 +338,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -351,7 +351,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -364,7 +364,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -377,7 +377,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -390,7 +390,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -403,7 +403,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -416,7 +416,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -429,7 +429,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -442,7 +442,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -455,7 +455,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -468,7 +468,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -481,7 +481,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -494,7 +494,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -507,7 +507,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -520,7 +520,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -533,7 +533,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -546,7 +546,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -559,7 +559,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -572,7 +572,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -585,7 +585,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -598,7 +598,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -611,7 +611,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -624,7 +624,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -637,7 +637,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -650,7 +650,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -663,7 +663,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -676,7 +676,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -689,7 +689,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -702,7 +702,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -715,7 +715,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -728,7 +728,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -741,7 +741,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -754,7 +754,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -767,7 +767,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -780,7 +780,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -793,7 +793,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -806,7 +806,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -819,7 +819,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -832,7 +832,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -845,7 +845,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -858,7 +858,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -871,7 +871,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -884,7 +884,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -897,7 +897,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -910,7 +910,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -923,7 +923,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -936,7 +936,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -949,7 +949,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -962,7 +962,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -975,7 +975,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -988,7 +988,7 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}
@@ -1001,7 +1001,20 @@
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:potion"
+						"type": "minecraft:splash_potion"
+					}
+				}
+			}
+		},
+		"happy_ghast": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "happy_ghast"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}

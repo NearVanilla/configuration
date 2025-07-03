@@ -714,6 +714,19 @@
 					}
 				}
 			}
+		},
+		"oh_baby_a_triple": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:enchanting/oh_baby_a_triple": true
+						}
+					}
+				}
+			}
 		}
 	}
 }

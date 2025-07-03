@@ -14,14 +14,7 @@
 	"criteria": {
 		"slapfish": {
 			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"entity": {
-					"distance": {
-						"absolute": {
-							"max": 5
-						}
-					}
-				},			
+			"conditions": {		
 				"damage": {
 					"type": {
 						"source_entity": {
@@ -30,7 +23,13 @@
 									"items": "#minecraft:fishes"
 								}
 							}
-						}
+						},
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
 					}
 				}
 			}

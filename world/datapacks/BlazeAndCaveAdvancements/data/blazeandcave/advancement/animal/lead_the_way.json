@@ -27,7 +27,7 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"type": "#blazeandcave:dont_trigger_piwe"
+								"type": "#blazeandcave:dont_trigger_piwe_sans_boats"
 							}
 						}
 					}

@@ -519,6 +519,32 @@
 					}
 				}
 			}
+		},
+		"at_the_rim_of_the_sky": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:challenges/at_the_rim_of_the_sky": true
+						}
+					}
+				}
+			}
+		},
+		"lets_take_it_up_a_notch": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:challenges/lets_take_it_up_a_notch": true
+						}
+					}
+				}
+			}
 		}
 	}
 }

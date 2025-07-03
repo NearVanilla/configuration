@@ -150,6 +150,9 @@
 		},
 		"orb": {
 			"trigger": "minecraft:impossible"
+		},
+		"dennis": {
+			"trigger": "minecraft:impossible"
 		}
 	}
 }

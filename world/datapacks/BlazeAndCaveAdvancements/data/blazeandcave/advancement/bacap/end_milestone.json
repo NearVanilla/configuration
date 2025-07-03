@@ -597,6 +597,45 @@
 					}
 				}
 			}
+		},
+		"why_do_i_hear_boss_music": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:end/why_do_i_hear_boss_music": true
+						}
+					}
+				}
+			}
+		},
+		"unstoppable_force_vs_immovable_object": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:end/unstoppable_force_vs_immovable_object": true
+						}
+					}
+				}
+			}
+		},
+		"youre_doing_it_wrong": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:end/youre_doing_it_wrong": true
+						}
+					}
+				}
+			}
 		}
 	}
 }

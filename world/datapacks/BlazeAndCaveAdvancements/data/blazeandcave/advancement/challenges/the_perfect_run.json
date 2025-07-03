@@ -15,7 +15,7 @@
 		"announce_to_chat": true,
 		"frame": "challenge"
 	},
-	"parent": "blazeandcave:challenges/dragon_vs_wither_the_pre_sequel",
+	"parent": "blazeandcave:challenges/at_the_rim_of_the_sky",
 	"rewards": {
 		"function": "bacap_rewards:challenges/the_perfect_run"
 	},		

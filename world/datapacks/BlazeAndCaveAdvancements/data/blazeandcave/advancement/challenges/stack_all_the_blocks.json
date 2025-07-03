@@ -11704,6 +11704,110 @@
 					}
 				]
 			}
+		},
+		"bush": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bush"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cactus_flower": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cactus_flower"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"firefly_bush": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:firefly_bush"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"leaf_litter": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:leaf_litter"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"short_dry_grass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:short_dry_grass"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"tall_dry_grass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tall_dry_grass"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"wildflowers": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wildflowers"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"dried_ghast": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:dried_ghast"
+						],
+						"count": 64
+					}
+				]
+			}
 		}
 	}
 }

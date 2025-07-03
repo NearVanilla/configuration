@@ -792,6 +792,45 @@
 					}
 				}
 			}
+		},
+		"booshes": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/booshes": true
+						}
+					}
+				}
+			}
+		},
+		"you_cant_take_the_sky_from_me": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/you_cant_take_the_sky_from_me": true
+						}
+					}
+				}
+			}
+		},
+		"certified_spud_chomper": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/certified_spud_chomper": true
+						}
+					}
+				}
+			}
 		}
 	}
 }

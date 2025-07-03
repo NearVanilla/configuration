@@ -23,22 +23,15 @@
 								"minecraft:cobblestone"
 							]
 						}
-					},
-					"distance": {
-						"absolute": {
-							"max": 5
-						}
 					}
 				},
 				"killing_blow": {
-					"type": {
-						"tags": [
-							{
-								"id": "minecraft:player_attack",
-								"expected": true
-							}
-						]
-					}
+					"tags": [
+						{
+							"id": "minecraft:player_attack",
+							"expected": true
+						}
+					]
 				},
 				"player": {
 					"equipment": {
@@ -62,22 +55,15 @@
 								"minecraft:shears"
 							]
 						}
-					},
-					"distance": {
-						"absolute": {
-							"max": 5
-						}
 					}
 				},
 				"killing_blow": {
-					"type": {
-						"tags": [
-							{
-								"id": "minecraft:player_attack",
-								"expected": true
-							}
-						]
-					}
+					"tags": [
+						{
+							"id": "minecraft:player_attack",
+							"expected": true
+						}
+					]
 				},			
 				"player": {
 					"equipment": {
@@ -101,22 +87,15 @@
 								"minecraft:paper"
 							]
 						}
-					},
-					"distance": {
-						"absolute": {
-							"max": 5
-						}
 					}
 				},
 				"killing_blow": {
-					"type": {
-						"tags": [
-							{
-								"id": "minecraft:player_attack",
-								"expected": true
-							}
-						]
-					}
+					"tags": [
+						{
+							"id": "minecraft:player_attack",
+							"expected": true
+						}
+					]
 				},			
 				"player": {
 					"equipment": {

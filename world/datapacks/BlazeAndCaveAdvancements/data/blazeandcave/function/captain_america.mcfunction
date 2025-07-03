@@ -5,5 +5,8 @@ execute if block ~ ~ ~ minecraft:powder_snow if block ~ ~1 ~ minecraft:powder_sn
 execute unless block ~ ~ ~ minecraft:powder_snow run scoreboard players set @s bac_captain_america 0
 execute unless block ~ ~1 ~ minecraft:powder_snow run scoreboard players set @s bac_captain_america 0
 
+# It also resets if the player is wearing leather armor (or anything in the #minecraft:freeze_immune_wearables tag)
+execute if predicate blazeandcave:wear_freeze_immune_wearables run scoreboard players set @s bac_captain_america 0
+
 # Once they have done this all day, they get the advancement
 execute if score @s bac_captain_america matches 1200.. run advancement grant @s only blazeandcave:biomes/captain_america

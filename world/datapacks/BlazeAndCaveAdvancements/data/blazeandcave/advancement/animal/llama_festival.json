@@ -23,7 +23,13 @@
 						"predicate": {
 							"vehicle": {
 								"type": "#blazeandcave:llamas",
-								"nbt": "{body_armor_item:{id:\"minecraft:white_carpet\"}}"
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:white_carpet"
+										]
+									}
+								}
 							}
 						}
 					}
@@ -40,7 +46,13 @@
 						"predicate": {
 							"vehicle": {
 								"type": "#blazeandcave:llamas",
-								"nbt": "{body_armor_item:{id:\"minecraft:orange_carpet\"}}"
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:orange_carpet"
+										]
+									}
+								}
 							}
 						}
 					}
@@ -57,7 +69,13 @@
 						"predicate": {
 							"vehicle": {
 								"type": "#blazeandcave:llamas",
-								"nbt": "{body_armor_item:{id:\"minecraft:magenta_carpet\"}}"
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:magenta_carpet"
+										]
+									}
+								}
 							}
 						}
 					}
@@ -74,7 +92,13 @@
 						"predicate": {
 							"vehicle": {
 								"type": "#blazeandcave:llamas",
-								"nbt": "{body_armor_item:{id:\"minecraft:light_blue_carpet\"}}"
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:light_blue_carpet"
+										]
+									}
+								}
 							}
 						}
 					}
@@ -91,7 +115,13 @@
 						"predicate": {
 							"vehicle": {
 								"type": "#blazeandcave:llamas",
-								"nbt": "{body_armor_item:{id:\"minecraft:yellow_carpet\"}}"
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:yellow_carpet"
+										]
+									}
+								}
 							}
 						}
 					}
@@ -108,7 +138,13 @@
 						"predicate": {
 							"vehicle": {
 								"type": "#blazeandcave:llamas",
-								"nbt": "{body_armor_item:{id:\"minecraft:lime_carpet\"}}"
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:lime_carpet"
+										]
+									}
+								}
 							}
 						}
 					}
@@ -125,7 +161,13 @@
 						"predicate": {
 							"vehicle": {
 								"type": "#blazeandcave:llamas",
-								"nbt": "{body_armor_item:{id:\"minecraft:pink_carpet\"}}"
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:pink_carpet"
+										]
+									}
+								}
 							}
 						}
 					}
@@ -142,7 +184,13 @@
 						"predicate": {
 							"vehicle": {
 								"type": "#blazeandcave:llamas",
-								"nbt": "{body_armor_item:{id:\"minecraft:gray_carpet\"}}"
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:gray_carpet"
+										]
+									}
+								}
 							}
 						}
 					}
@@ -159,7 +207,13 @@
 						"predicate": {
 							"vehicle": {
 								"type": "#blazeandcave:llamas",
-								"nbt": "{body_armor_item:{id:\"minecraft:light_gray_carpet\"}}"
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:light_gray_carpet"
+										]
+									}
+								}
 							}
 						}
 					}
@@ -176,7 +230,13 @@
 						"predicate": {
 							"vehicle": {
 								"type": "#blazeandcave:llamas",
-								"nbt": "{body_armor_item:{id:\"minecraft:cyan_carpet\"}}"
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:cyan_carpet"
+										]
+									}
+								}
 							}
 						}
 					}
@@ -193,7 +253,13 @@
 						"predicate": {
 							"vehicle": {
 								"type": "#blazeandcave:llamas",
-								"nbt": "{body_armor_item:{id:\"minecraft:purple_carpet\"}}"
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:purple_carpet"
+										]
+									}
+								}
 							}
 						}
 					}
@@ -210,7 +276,13 @@
 						"predicate": {
 							"vehicle": {
 								"type": "#blazeandcave:llamas",
-								"nbt": "{body_armor_item:{id:\"minecraft:blue_carpet\"}}"
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:blue_carpet"
+										]
+									}
+								}
 							}
 						}
 					}
@@ -227,7 +299,13 @@
 						"predicate": {
 							"vehicle": {
 								"type": "#blazeandcave:llamas",
-								"nbt": "{body_armor_item:{id:\"minecraft:brown_carpet\"}}"
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:brown_carpet"
+										]
+									}
+								}
 							}
 						}
 					}
@@ -244,7 +322,13 @@
 						"predicate": {
 							"vehicle": {
 								"type": "#blazeandcave:llamas",
-								"nbt": "{body_armor_item:{id:\"minecraft:green_carpet\"}}"
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:green_carpet"
+										]
+									}
+								}
 							}
 						}
 					}
@@ -261,7 +345,13 @@
 						"predicate": {
 							"vehicle": {
 								"type": "#blazeandcave:llamas",
-								"nbt": "{body_armor_item:{id:\"minecraft:red_carpet\"}}"
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:red_carpet"
+										]
+									}
+								}
 							}
 						}
 					}
@@ -278,7 +368,13 @@
 						"predicate": {
 							"vehicle": {
 								"type": "#blazeandcave:llamas",
-								"nbt": "{body_armor_item:{id:\"minecraft:black_carpet\"}}"
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:black_carpet"
+										]
+									}
+								}
 							}
 						}
 					}

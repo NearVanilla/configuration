@@ -24,14 +24,7 @@
 								}
 							},
 							"vehicle": {
-								"type": "#blazeandcave:all_boats",
-								"stepping_on": {
-									"block": {
-										"blocks": [
-											"water"
-										]
-									}
-								}
+								"type": "#blazeandcave:all_boats"
 							},
 							"nbt": "{ShoulderEntityLeft:{id:\"minecraft:parrot\"}}",
 							"type_specific": {
@@ -67,14 +60,7 @@
 								}
 							},
 							"vehicle": {
-								"type": "#blazeandcave:all_boats",
-								"stepping_on": {
-									"block": {
-										"blocks": [
-											"water"
-										]
-									}
-								}
+								"type": "#blazeandcave:all_boats"
 							},
 							"nbt": "{ShoulderEntityRight:{id:\"minecraft:parrot\"}}",
 							"type_specific": {
@@ -110,14 +96,7 @@
 								}
 							},
 							"vehicle": {
-								"type": "#blazeandcave:all_boats",
-								"stepping_on": {
-									"block": {
-										"blocks": [
-											"water"
-										]
-									}
-								}
+								"type": "#blazeandcave:all_boats"
 							},
 							"nbt": "{ShoulderEntityLeft:{id:\"minecraft:parrot\"}}",
 							"type_specific": {
@@ -153,14 +132,7 @@
 								}
 							},
 							"vehicle": {
-								"type": "#blazeandcave:all_boats",
-								"stepping_on": {
-									"block": {
-										"blocks": [
-											"water"
-										]
-									}
-								}
+								"type": "#blazeandcave:all_boats"
 							},
 							"nbt": "{ShoulderEntityRight:{id:\"minecraft:parrot\"}}",
 							"type_specific": {

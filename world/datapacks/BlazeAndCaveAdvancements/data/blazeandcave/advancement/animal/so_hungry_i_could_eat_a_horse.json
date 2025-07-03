@@ -145,6 +145,25 @@
 					}
 				]
 			}
+		},
+		"carrot": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:carrot"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#blazeandcave:horses"
+						}
+					}
+				]
+			}
 		}
 	}
 }

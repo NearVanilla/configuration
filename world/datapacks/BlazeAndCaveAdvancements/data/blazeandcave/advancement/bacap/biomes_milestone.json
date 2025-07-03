@@ -857,6 +857,32 @@
 					}
 				}
 			}
+		},
+		"heart_transplanter": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:adventure/heart_transplanter": true
+						}
+					}
+				}
+			}
+		},
+		"le_creak_cest_chic": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:biomes/le_creak_cest_chic": true
+						}
+					}
+				}
+			}
 		}
 	}
 }

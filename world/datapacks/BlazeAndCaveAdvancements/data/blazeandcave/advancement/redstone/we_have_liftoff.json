@@ -8,7 +8,7 @@
 		"announce_to_chat": true,
 		"frame": "challenge"
 	},
-	"parent": "blazeandcave:redstone/dispense_with_this",
+	"parent": "blazeandcave:redstone/splatfest",
 	"rewards": {
 		"function": "bacap_rewards:redstone/we_have_liftoff"
 	},

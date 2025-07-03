@@ -16,12 +16,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "axolotl",
-					"distance": {
-						"absolute": {
-							"max": 5
-						}
-					}
+					"type": "axolotl"
 				},			
 				"player": {
 					"equipment": {
@@ -29,6 +24,14 @@
 							"items": "#blazeandcave:axes"
 						}
 					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "minecraft:player_attack",
+							"expected": true
+						}
+					]
 				}
 			}
 		}

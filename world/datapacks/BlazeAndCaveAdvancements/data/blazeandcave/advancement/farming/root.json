@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Farming"},
 		"description": {"color":"#CCCCCC","translate":"Hoe hoe hoe!"},
-		"background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
+		"background": "gui/advancements/backgrounds/husbandry",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

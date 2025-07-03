@@ -1715,6 +1715,19 @@
 					}
 				}
 			}
+		},
+		"all_around_the_world": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/all_around_the_world": true
+						}
+					}
+				}
+			}
 		}
 	}
 }

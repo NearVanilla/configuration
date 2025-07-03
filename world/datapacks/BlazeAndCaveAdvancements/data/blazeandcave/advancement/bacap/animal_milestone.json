@@ -1793,6 +1793,71 @@
 					}
 				}
 			}
+		},
+		"piglets_big_advancement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/piglets_big_advancement": true
+						}
+					}
+				}
+			}
+		},
+		"the_three_little_pigs": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/the_three_little_pigs": true
+						}
+					}
+				}
+			}
+		},
+		"beef_moover": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/beef_moover": true
+						}
+					}
+				}
+			}
+		},
+		"omelette": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/omelette": true
+						}
+					}
+				}
+			}
+		},
+		"chick_buffet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/chick_buffet": true
+						}
+					}
+				}
+			}
 		}
 	}
 }
