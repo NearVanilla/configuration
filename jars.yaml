@@ -133,5 +133,5 @@ plugins:
   name: WorldTour
   version: 1.0-SNAPSHOT
 version:
-  build: 230
-  name: 1.21.4
+  build: 16
+  name: 1.21.7
