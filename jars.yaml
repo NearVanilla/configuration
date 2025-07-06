@@ -83,7 +83,7 @@ plugins:
   version: 1.7.5
 - checksum: 10006fbf7e84ebcd7e47f0150614921ee96c6102
   name: FastAsyncWorldEdit
-  version: 2.13.0;a1eba40
+  version: 2.13.0
 - checksum: b0df0349eec56ad6a8ce1227c7d543036abec9b2
   name: ChunkyBorder
   version: 1.2.23
