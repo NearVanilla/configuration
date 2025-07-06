@@ -114,9 +114,9 @@ plugins:
 - checksum: aca26e4208a716cfd01961b09eb5d8ffda208d79
   name: CustomDiscs
   version: '4.5'
-- checksum: 0e33881cfdb22505fc0f4f451277dd3b68f9d57d
+- checksum: cd46778073fd1b8f7a2d48367a7d849d4c0d1d8f
   name: ProtocolLib
-  version: 5.3.0
+  version: 5.4.0-SNAPSHOT-753
 - checksum: 894f851485cb565e375e60ae79acfb959f8da55a
   name: BabyAnimals
   version: 1.1-SNAPSHOT
