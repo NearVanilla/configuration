@@ -3,7 +3,7 @@
 		"pack_format": 48,
 		"supported_formats": {
 			"min_inclusive": 48,
-			"max_inclusive": 71
+			"max_inclusive": 81
 		},
 		"description": [
 			{
@@ -38,6 +38,20 @@
 					"max_inclusive": 2147483647
 				},
 				"directory": "overlay_71"
+			},
+			{
+				"formats": {
+					"min_inclusive": 80,
+					"max_inclusive": 2147483647
+				},
+				"directory": "overlay_80"
+			},
+			{
+				"formats": {
+					"min_inclusive": 81,
+					"max_inclusive": 2147483647
+				},
+				"directory": "overlay_81"
 			}
 		]
 	}
