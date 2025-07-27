@@ -1,8 +1,8 @@
 platform: Paper
 plugins:
-- checksum: 4329f2f37252861d287cadfc67875fe8a6bb5a85
+- checksum: 7bf89bfa5e67eff6d3f3d7a302c0c7db723dd0ad
   name: ArmorStandEditor
-  version: 1.21.5-48.3
+  version: 1.21.7-49
 - checksum: fdad592323520c7c7100187e461964e11c3cec98
   name: Tebex
   version: 2.2.1
@@ -54,9 +54,9 @@ plugins:
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
-- checksum: 9ce9050e72e1a35205aa95f46d245b07358ae092
+- checksum: d0615f28f54289287fcd4006aa750d50724ccbb1
   name: dynmap
-  version: 3.7-SNAPSHOT-Dev
+  version: 3.7-SNAPSHOT-991
 - checksum: 94b31b0fa1ab60fa63bb02256774558c4f11e083
   name: PrometheusExporter
   version: 3.1.2
@@ -111,9 +111,9 @@ plugins:
 - checksum: 1f6637fb6ac63a22bd42d9d00b8d536a38a2ec46
   name: MuteDeaths
   version: 1.1-SNAPSHOT
-- checksum: aca26e4208a716cfd01961b09eb5d8ffda208d79
+- checksum: 8b0947f5633262e72b828b48528f9dc7f4764883
   name: CustomDiscs
-  version: '4.5'
+  version: '5.0'
 - checksum: cd46778073fd1b8f7a2d48367a7d849d4c0d1d8f
   name: ProtocolLib
   version: 5.4.0-SNAPSHOT-753
@@ -133,5 +133,5 @@ plugins:
   name: WorldTour
   version: 1.0-SNAPSHOT
 version:
-  build: 16
-  name: 1.21.7
+  build: 17
+  name: 1.21.8
