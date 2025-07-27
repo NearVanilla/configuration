@@ -21,7 +21,7 @@
 							"minecraft:diamond_sword"
 						],
 						"components": {
-							"minecraft:custom_name": "\"Diamond Edge\""
+							"minecraft:custom_name": "Diamond Edge"
 						}
 					}
 				]

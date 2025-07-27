@@ -7,6 +7,8 @@ execute if score @s bac_stat_food matches 0.. run tellraw @s {"color":"white","t
 execute if score @s bac_stat_loot_chest matches 0.. run tellraw @s {"color":"white","translate":"Loot chests opened:","extra":[{"text":" "},{"color":"gold","score":{"name":"@s","objective":"bac_stat_loot_chest"}}]}
 execute if score @s bac_pigling matches 0.. run tellraw @s {"color":"white","translate":"Gold Bartered to Piglins:","extra":[{"text":" "},{"color":"gold","score":{"name":"@s","objective":"bac_pigling"}}]}
 
+function #bacap_fanpacks:statistics_trigger
+
 tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
 
 scoreboard players set @s bac_statistics 0

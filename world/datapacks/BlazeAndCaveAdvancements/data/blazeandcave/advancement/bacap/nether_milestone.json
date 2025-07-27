@@ -1053,45 +1053,6 @@
 				}
 			}
 		},
-		"get_a_lode_of_this": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:nether/get_a_lode_of_this": true
-						}
-					}
-				}
-			}
-		},
-		"country_lode_take_me_home": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:nether/use_lodestone": true
-						}
-					}
-				}
-			}
-		},
-		"lodes_of_applications": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:nether/lodes_of_applications": true
-						}
-					}
-				}
-			}
-		},
 		"netherite_miner": {
 			"trigger": "minecraft:location",
 			"conditions": {
@@ -1399,6 +1360,97 @@
 						"type": "player",
 						"advancements": {
 							"blazeandcave:nether/light_show": true
+						}
+					}
+				}
+			}
+		},
+		"stay_hydrated": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:husbandry/place_dried_ghast_in_water": true
+						}
+					}
+				}
+			}
+		},
+		"snow_cone": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:nether/snow_cone": true
+						}
+					}
+				}
+			}
+		},
+		"hot_air_balloon": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:nether/hot_air_balloon": true
+						}
+					}
+				}
+			}
+		},
+		"midport_village": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:nether/midport_village": true
+						}
+					}
+				}
+			}
+		},
+		"lead_zeppelin": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:nether/lead_zeppelin": true
+						}
+					}
+				}
+			}
+		},
+		"pillow_fight": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:nether/pillow_fight": true
+						}
+					}
+				}
+			}
+		},
+		"collateral_damage": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:nether/collateral_damage": true
 						}
 					}
 				}

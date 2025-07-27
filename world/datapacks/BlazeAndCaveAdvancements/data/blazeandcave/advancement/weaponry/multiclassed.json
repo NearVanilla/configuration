@@ -16,13 +16,6 @@
 		"axe": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
-				"entity": {
-					"distance": {
-						"absolute": {
-							"max": 5
-						}
-					}
-				},			
 				"damage": {
 					"type": {
 						"source_entity": {
@@ -31,21 +24,20 @@
 									"items": "#minecraft:axes"
 								}
 							}
-						}
+						},
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
 					}
 				}
 			}
 		},
 		"shovel": {
 			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"entity": {
-					"distance": {
-						"absolute": {
-							"max": 5
-						}
-					}
-				},			
+			"conditions": {	
 				"damage": {
 					"type": {
 						"source_entity": {
@@ -54,21 +46,20 @@
 									"items": "#minecraft:shovels"
 								}
 							}
-						}
+						},
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
 					}
 				}
 			}
 		},
 		"pickaxe": {
 			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"entity": {
-					"distance": {
-						"absolute": {
-							"max": 5
-						}
-					}
-				},			
+			"conditions": {	
 				"damage": {
 					"type": {
 						"source_entity": {
@@ -77,21 +68,20 @@
 									"items": "#minecraft:pickaxes"
 								}
 							}
-						}
+						},
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
 					}
 				}
 			}
 		},
 		"hoe": {
 			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"entity": {
-					"distance": {
-						"absolute": {
-							"max": 5
-						}
-					}
-				},			
+			"conditions": {		
 				"damage": {
 					"type": {
 						"source_entity": {
@@ -100,21 +90,20 @@
 									"items": "#minecraft:hoes"
 								}
 							}
-						}
+						},
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
 					}
 				}
 			}
 		},
 		"sword": {
 			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"entity": {
-					"distance": {
-						"absolute": {
-							"max": 5
-						}
-					}
-				},			
+			"conditions": {		
 				"damage": {
 					"type": {
 						"source_entity": {
@@ -123,7 +112,13 @@
 									"items": "#minecraft:swords"
 								}
 							}
-						}
+						},
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
 					}
 				}
 			}
@@ -133,15 +128,6 @@
 			"conditions": {
 				"damage": {
 					"type": {
-						"source_entity": {
-							"equipment": {
-								"mainhand": {
-									"items": [
-										"minecraft:bow"
-									]
-								}
-							}
-						},
 						"tags": [
 							{
 								"id": "minecraft:is_projectile",
@@ -149,19 +135,29 @@
 							}
 						],
 						"direct_entity": {
-							"type": "minecraft:arrow"
+							"type": "minecraft:arrow",
+							"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 						}
 					}
 				}
 			}
 		},
 		"crossbow": {
-			"trigger": "minecraft:shot_crossbow",
+			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
-				"item": {
-					"items": [
-						"minecraft:crossbow"
-					]
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"type": "minecraft:arrow",
+							"nbt": "{weapon:{id:\"minecraft:crossbow\"}}"
+						}
+					}
 				}
 			}
 		},
@@ -180,13 +176,6 @@
 		"trident_melee": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
-				"entity": {
-					"distance": {
-						"absolute": {
-							"max": 5
-						}
-					}
-				},
 				"damage": {
 					"type": {
 						"source_entity": {
@@ -197,7 +186,13 @@
 									]
 								}
 							}
-						}
+						},
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
 					}
 				}
 			}
@@ -227,10 +222,13 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "minecraft:is_explosion",
 								"expected": true
 							}
-						]
+						],
+						"direct_entity": {
+							"type": "minecraft:tnt"
+						}
 					}
 				}
 			}
@@ -274,13 +272,18 @@
 		"fishing_rod": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"entity": {
-					"distance": {
-						"absolute": {
-							"min": 0
+				"entity": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type": "#blazeandcave:non_mob_entities"
+							}
 						}
 					}
-				}
+				]
 			}
 		},
 		"splash_potion": {
@@ -289,7 +292,7 @@
 				"damage": {
 					"type": {
 						"direct_entity": {
-							"type": "minecraft:potion"
+							"type": "minecraft:splash_potion"
 						}
 					}
 				}
@@ -301,7 +304,10 @@
 				"damage": {
 					"type": {
 						"direct_entity": {
-							"type": "minecraft:area_effect_cloud"
+							"type": [
+								"minecraft:area_effect_cloud",
+								"minecraft:lingering_potion"
+							]
 						}
 					}
 				}
@@ -309,14 +315,7 @@
 		},
 		"mace": {
 			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"entity": {
-					"distance": {
-						"absolute": {
-							"max": 5
-						}
-					}
-				},			
+			"conditions": {		
 				"damage": {
 					"type": {
 						"source_entity": {
@@ -325,7 +324,13 @@
 									"items": "minecraft:mace"
 								}
 							}
-						}
+						},
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
 					}
 				}
 			}

@@ -4356,6 +4356,246 @@
 					}
 				]
 			}
+		},
+		"blue_egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:blue_egg"
+						]
+					}
+				]
+			}
+		},
+		"brown_egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:brown_egg"
+						]
+					}
+				]
+			}
+		},
+		"white_harness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:white_harness"
+						]
+					}
+				]
+			}
+		},
+		"light_gray_harness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_gray_harness"
+						]
+					}
+				]
+			}
+		},
+		"gray_harness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:gray_harness"
+						]
+					}
+				]
+			}
+		},
+		"black_harness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:black_harness"
+						]
+					}
+				]
+			}
+		},
+		"brown_harness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:brown_harness"
+						]
+					}
+				]
+			}
+		},
+		"red_harness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:red_harness"
+						]
+					}
+				]
+			}
+		},
+		"orange_harness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:orange_harness"
+						]
+					}
+				]
+			}
+		},
+		"yellow_harness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:yellow_harness"
+						]
+					}
+				]
+			}
+		},
+		"lime_harness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:lime_harness"
+						]
+					}
+				]
+			}
+		},
+		"green_harness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:green_harness"
+						]
+					}
+				]
+			}
+		},
+		"cyan_harness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cyan_harness"
+						]
+					}
+				]
+			}
+		},
+		"light_blue_harness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_blue_harness"
+						]
+					}
+				]
+			}
+		},
+		"blue_harness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:blue_harness"
+						]
+					}
+				]
+			}
+		},
+		"purple_harness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:purple_harness"
+						]
+					}
+				]
+			}
+		},
+		"magenta_harness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:magenta_harness"
+						]
+					}
+				]
+			}
+		},
+		"pink_harness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pink_harness"
+						]
+					}
+				]
+			}
+		},
+		"music_disc_tears": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:music_disc_tears"
+						]
+					}
+				]
+			}
+		},
+		"music_disc_lava_chicken": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:music_disc_lava_chicken"
+						]
+					}
+				]
+			}
 		}
 	}
 }

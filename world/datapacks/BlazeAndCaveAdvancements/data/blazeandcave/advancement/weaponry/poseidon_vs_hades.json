@@ -224,6 +224,25 @@
 					"type": "piglin_brute"
 				}
 			}
+		},
+		"happy_ghast": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"type": "minecraft:trident"
+						}
+				},
+				"entity": {
+					"type": "happy_ghast"
+				}
+			}
 		}
 	}
 }

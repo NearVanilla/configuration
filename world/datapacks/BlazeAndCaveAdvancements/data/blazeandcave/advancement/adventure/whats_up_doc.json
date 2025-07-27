@@ -23,7 +23,19 @@
 					"components": {
 						"minecraft:custom_name": "Dinnerbone"
 					}
-				}
+				},
+				"entity": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type": "#blazeandcave:non_mob_entities"
+							}
+						}
+					}
+				]
 			}
 		},
 		"name_tag_grumm": {
@@ -37,7 +49,19 @@
 						"minecraft:custom_name": "Grumm"
 					}
 				}
-			}
+			},
+				"entity": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type": "#blazeandcave:non_mob_entities"
+							}
+						}
+					}
+				]
 		}
 	},
 	"requirements": [

@@ -30,6 +30,9 @@ messages:
     'false': 'off'
     'on': 'on'
     'off': 'off'
+    clear:
+      inventory: Cleared %target%'s inventory.
+      enderchest: Cleared %target%'s ender chest.
 container:
   player: '%player%''s Inventory'
   enderchest: '%player%''s Ender Chest'

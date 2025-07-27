@@ -1442,6 +1442,45 @@
 					}
 				}
 			}
+		},
+		"get_a_lode_of_this": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/get_a_lode_of_this": true
+						}
+					}
+				}
+			}
+		},
+		"country_lode_take_me_home": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:adventure/use_lodestone": true
+						}
+					}
+				}
+			}
+		},
+		"lodes_of_applications": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/lodes_of_applications": true
+						}
+					}
+				}
+			}
 		}
 	}
 }

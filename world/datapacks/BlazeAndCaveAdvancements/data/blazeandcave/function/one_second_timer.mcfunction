@@ -24,6 +24,10 @@ execute as @a[gamemode=!spectator] at @s run function blazeandcave:stay_underwat
 # # Captain America (stay in powder snow)
 execute as @a[gamemode=!spectator] at @s run function blazeandcave:captain_america
 
+# # If leashing a boat, bac_leashing_boat score is set to 1 (used for Lead Zeppelin)
+scoreboard players set @a bac_leashing_boat 0
+execute as @e[type=#blazeandcave:all_boats] on leasher run scoreboard players set @s[type=player] bac_leashing_boat 1
+
 
 # # On A Rail
 execute as @a at @s if score @s bac_oar_eligible_x matches 1 run function blazeandcave:on_a_rail_check
@@ -130,16 +134,24 @@ execute as @a[scores={bac_painting=1..}] at @s run function blazeandcave:check_p
 execute as @a[advancements={blazeandcave:technical/give_piglin_gold=true}] at @s run function blazeandcave:give_piglin_gold
 
 
-# # Family Reunion
-execute as @a[gamemode=!spectator] at @s if entity @e[type=husk,tag=!bac_baby,distance=..5] if entity @e[type=zombie_villager,tag=!bac_baby,distance=..5] if entity @e[type=drowned,tag=!bac_baby,distance=..5] if entity @e[type=zombified_piglin,tag=!bac_baby,distance=..5] if entity @e[type=zombie,tag=!bac_baby,distance=..5] if entity @e[type=husk,tag=bac_baby,distance=..5] if entity @e[type=zombie_villager,tag=bac_baby,distance=..5] if entity @e[type=drowned,tag=bac_baby,distance=..5] if entity @e[type=zombified_piglin,tag=bac_baby,distance=..5] if entity @e[type=zombie,tag=bac_baby,distance=..5] run advancement grant @s only blazeandcave:monsters/family_reunion
+# # Reunion advancements
+# The Three Little Pigs
+execute as @a[gamemode=!spectator] at @s if entity @e[type=pig,predicate=blazeandcave:pig_variant_cold,distance=..10] if entity @e[type=pig,predicate=blazeandcave:pig_variant_warm,distance=..10] if entity @e[type=pig,predicate=blazeandcave:pig_variant_temperate,distance=..10] run advancement grant @s only blazeandcave:animal/the_three_little_pigs
 
+# Beef Moover
+execute as @a[gamemode=!spectator] at @s if entity @e[type=cow,predicate=blazeandcave:cow_variant_cold,distance=..10] if entity @e[type=cow,predicate=blazeandcave:cow_variant_warm,distance=..10] if entity @e[type=cow,predicate=blazeandcave:cow_variant_temperate,distance=..10] run advancement grant @s only blazeandcave:animal/beef_moover
 
-# # Bone-to-Party
-execute as @a[gamemode=!spectator] at @s if entity @e[type=skeleton_horse,distance=..5] if entity @e[type=wither,distance=..5] if entity @e[type=stray,distance=..5] if entity @e[type=bogged,distance=..5] if entity @e[type=wither_skeleton,distance=..5] if entity @e[type=skeleton,distance=..5] run advancement grant @s only blazeandcave:monsters/bone_to_party
+# Chick Buffet
+execute as @a[gamemode=!spectator] at @s if entity @e[type=chicken,predicate=blazeandcave:chicken_variant_cold,distance=..10] if entity @e[type=chicken,predicate=blazeandcave:chicken_variant_warm,distance=..10] if entity @e[type=chicken,predicate=blazeandcave:chicken_variant_temperate,distance=..10] run advancement grant @s only blazeandcave:animal/chick_buffet
 
+# Family Reunion
+execute as @a[gamemode=!spectator] at @s if entity @e[type=husk,predicate=!blazeandcave:is_baby,distance=..10] if entity @e[type=zombie_villager,predicate=!blazeandcave:is_baby,distance=..10] if entity @e[type=drowned,predicate=!blazeandcave:is_baby,distance=..10] if entity @e[type=zombified_piglin,predicate=!blazeandcave:is_baby,distance=..10] if entity @e[type=zombie,predicate=!blazeandcave:is_baby,distance=..10] if entity @e[type=husk,predicate=blazeandcave:is_baby,distance=..10] if entity @e[type=zombie_villager,predicate=blazeandcave:is_baby,distance=..10] if entity @e[type=drowned,predicate=blazeandcave:is_baby,distance=..10] if entity @e[type=zombified_piglin,predicate=blazeandcave:is_baby,distance=..10] if entity @e[type=zombie,predicate=blazeandcave:is_baby,distance=..10] run advancement grant @s only blazeandcave:monsters/family_reunion
 
-# # Redemption Arc
-execute as @e[type=pillager,predicate=blazeandcave:no_crossbow] at @s run advancement grant @a[gamemode=!spectator,distance=..5] only blazeandcave:adventure/redemption_arc
+# Bone-to-Party
+execute as @a[gamemode=!spectator] at @s if entity @e[type=skeleton_horse,distance=..10] if entity @e[type=wither,distance=..10] if entity @e[type=stray,distance=..10] if entity @e[type=bogged,distance=..10] if entity @e[type=wither_skeleton,distance=..10] if entity @e[type=skeleton,distance=..10] run advancement grant @s only blazeandcave:monsters/bone_to_party
+
+# Animal Kingdom
+execute as @a[gamemode=!spectator] at @s if entity @e[type=mule,distance=..32] run function blazeandcave:animal_kingdom_check
 
 
 # # Not Afraid of Heights
@@ -147,11 +159,20 @@ execute as @e[type=warden,predicate=blazeandcave:at_world_height] at @s run adva
 
 
 # # House of Freaks & Overwarden
-execute as @a[gamemode=!spectator] at @s if entity @e[type=warden,distance=..16] run function blazeandcave:count_wardens
+execute as @a[gamemode=!spectator] at @s if entity @e[type=warden,distance=..100] run function blazeandcave:count_wardens
 
 
-# # Animal Kingdom
-execute as @a[gamemode=!spectator] at @s if entity @e[type=mule,distance=..32] run function blazeandcave:animal_kingdom_check
+# # Le creak, c'est chic
+execute as @a[gamemode=!spectator] at @s if entity @e[type=creaking,distance=..40] run function blazeandcave:count_creaking
+
+
+# # Splatfest
+execute as @e[type=egg,tag=!splatfest_tagged] run function blazeandcave:tag_eggs
+execute as @a[gamemode=!spectator] at @s if entity @e[type=egg,distance=..48] run function blazeandcave:count_eggs
+
+
+# # Redemption Arc
+execute as @e[type=pillager,predicate=blazeandcave:no_crossbow] at @s run advancement grant @a[gamemode=!spectator,distance=..5] only blazeandcave:adventure/redemption_arc
 
 
 # # Unending Hell
@@ -238,11 +259,12 @@ execute as @a[advancements={blazeandcave:technical/spawn_perfect_one=true},score
 # For the third line, if you are NOT riding an upside-down mount the scoreboards reset
 execute as @a unless predicate blazeandcave:third_line run function blazeandcave:riddle/third_line_reset
 
+## The following were commented out as this is now handled using the technical place_warped_button advancement
 # For the tenth line, it only starts counting once the player has completed the ninth line
-execute as @a if entity @s[advancements={blazeandcave:technical/riddle_ninth_line=false}] run scoreboard players set @s bac_1000th_item 0
+#execute as @a if entity @s[advancements={blazeandcave:technical/riddle_ninth_line=false}] run scoreboard players set @s bac_1000th_item 0
 
 # Once they have placed 1000 Warped Buttons, the tenth line is complete
-execute as @a if entity @s[advancements={blazeandcave:technical/riddle_ninth_line=true}] if score @s bac_1000th_item matches 1000.. run advancement grant @s only blazeandcave:technical/riddle_tenth_line
+#execute as @a if entity @s[advancements={blazeandcave:technical/riddle_ninth_line=true}] if score @s bac_1000th_item matches 1000.. run advancement grant @s only blazeandcave:technical/riddle_tenth_line
 
 
 # Runs the ten_second_timer every 10 times

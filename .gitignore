@@ -79,3 +79,5 @@ plugins/spark/tmp-client/
 plugins/ProtocolLib/lastupdate
 plugins/CustomDiscs/musicdata
 plugins/CustomDiscs/data.yml
+plugins/EggBattle/scores.yml
+plugins/ForgetfulTrialVault/locale

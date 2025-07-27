@@ -5,7 +5,7 @@
 		},
 		"title": {"translate":"Mining"},
 		"description": {"color":"#CCCCCC","translate":"Dig deep down, mine up ore"},
-		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+		"background": "gui/advancements/backgrounds/stone",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

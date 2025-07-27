@@ -1,6 +1,8 @@
 # This is a world configuration file for Paper.
 # This file may start empty but can be filled with settings to override ones in the config/paper-world-defaults.yml
 # 
+# For more information, see https://docs.papermc.io/paper/reference/configuration/#per-world-configuration
+# 
 # World: world_the_end (minecraft:the_end)
 
 _version: 31
@@ -21,8 +23,10 @@ feature-seeds:
     minecraft:basalt_pillar: 199882806681{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:birch: -138082578670{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:birch_bees_0002: 504241493957{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:birch_bees_0002_leaf_litter: 589962926632{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:birch_bees_002: -905971722225{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:birch_bees_005: -861435562787{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:birch_leaf_litter: 765994273379{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:birch_tall: -13326233823{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:blackstone_blobs: 14179897373{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:blue_ice: 722788578128{{ FEATURE_SEED_SUFFIX_END }}
@@ -40,6 +44,7 @@ feature-seeds:
     minecraft:crimson_fungus_planted: 831106181233{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:dark_forest_vegetation: -9041838586{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:dark_oak: -904194628706{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:dark_oak_leaf_litter: 809630363132{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:delta: 334600700805{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:desert_well: 297652718551{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:disk_clay: -267150903481{{ FEATURE_SEED_SUFFIX_END }}
@@ -53,11 +58,17 @@ feature-seeds:
     minecraft:end_island: 632050904159{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:end_platform: -274053524637{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:end_spike: 191875243881{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:fallen_birch_tree: 277650350907{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:fallen_jungle_tree: 986328466241{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:fallen_oak_tree: 824355491814{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:fallen_spruce_tree: 158502555014{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:fallen_super_birch_tree: 735962926376{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:fancy_oak: 752078509168{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:fancy_oak_bees: 316382458784{{ FEATURE_SEED_SUFFIX_END }}
-    minecraft:fancy_oak_bees_0002: 497874723657{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:fancy_oak_bees_0002_leaf_litter: 497874723657{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:fancy_oak_bees_002: 743844191463{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:fancy_oak_bees_005: 385796843193{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:fancy_oak_leaf_litter: 990509260639{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:flower_cherry: 636008067786{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:flower_default: -327608048589{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:flower_flower_forest: -280153501671{{ FEATURE_SEED_SUFFIX_END }}
@@ -101,9 +112,10 @@ feature-seeds:
     minecraft:nether_sprouts: -759942203155{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:nether_sprouts_bonemeal: 486918496784{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:oak: 154746553956{{ FEATURE_SEED_SUFFIX_END }}
-    minecraft:oak_bees_0002: -732091933702{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:oak_bees_0002_leaf_litter: -732091933702{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:oak_bees_002: -92884947937{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:oak_bees_005: 140585132712{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:oak_leaf_litter: 867051329675{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:ore_ancient_debris_large: 585756616464{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:ore_ancient_debris_small: -338995566458{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:ore_andesite: 785380146026{{ FEATURE_SEED_SUFFIX_END }}
@@ -146,13 +158,18 @@ feature-seeds:
     minecraft:pale_oak_creaking: 24995856116{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:patch_berry_bush: 782305921389{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:patch_brown_mushroom: 725502157151{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_bush: 365331593403{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:patch_cactus: -755910286934{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:patch_crimson_roots: 341927555148{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:patch_dead_bush: 705620497961{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_dry_grass: 194255902759{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:patch_fire: 721505916074{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_firefly_bush: 175239562870{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:patch_grass: 331291540276{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:patch_grass_jungle: -53949091296{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_grass_meadow: 177558143785{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:patch_large_fern: 297685229278{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:patch_leaf_litter: 523292923558{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:patch_melon: 30386301442{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:patch_pumpkin: -524707904055{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:patch_red_mushroom: 237888525281{{ FEATURE_SEED_SUFFIX_END }}
@@ -192,7 +209,9 @@ feature-seeds:
     minecraft:super_birch_bees_0002: 832132084475{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:swamp_oak: -368538102847{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:tall_mangrove: 535369780731{{ FEATURE_SEED_SUFFIX_END }}
-    minecraft:trees_birch_and_oak: 726939427303{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:trees_badlands: 321056955670{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:trees_birch: 180378723924{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:trees_birch_and_oak_leaf_litter: 726939427303{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:trees_flower_forest: -180851928574{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:trees_grove: 493755190280{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:trees_jungle: 850411421903{{ FEATURE_SEED_SUFFIX_END }}
@@ -200,6 +219,7 @@ feature-seeds:
     minecraft:trees_old_growth_spruce_taiga: 552607422464{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:trees_plains: 440680773429{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:trees_savanna: -666368344869{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:trees_snowy: 783391981257{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:trees_sparse_jungle: 891944418953{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:trees_taiga: 394891340439{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:trees_water: -131934406313{{ FEATURE_SEED_SUFFIX_END }}
@@ -215,3 +235,5 @@ feature-seeds:
     minecraft:warped_fungus: 884585291171{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:warped_fungus_planted: 815229705845{{ FEATURE_SEED_SUFFIX_END }}
     minecraft:weeping_vines: -665564014226{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:wildflowers_birch_forest: 629482350378{{ FEATURE_SEED_SUFFIX_END }}
+    minecraft:wildflowers_meadow: 365191267474{{ FEATURE_SEED_SUFFIX_END }}

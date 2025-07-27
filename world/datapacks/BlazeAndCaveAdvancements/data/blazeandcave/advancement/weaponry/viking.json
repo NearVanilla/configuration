@@ -15,13 +15,6 @@
 		"axe": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
-				"entity": {
-					"distance": {
-						"absolute": {
-							"max": 5
-						}
-					}
-				},
 				"damage": {
 					"type": {
 						"source_entity": {
@@ -30,7 +23,13 @@
 									"items": "#minecraft:axes"
 								}
 							}
-						}
+						},
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
 					}
 				}
 			}

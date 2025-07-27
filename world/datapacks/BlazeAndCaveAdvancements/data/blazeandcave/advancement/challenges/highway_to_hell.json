@@ -859,6 +859,17 @@
 					}
 				}
 			}
+		},
+		"happy_ghast": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "happy_ghast",
+					"location": {
+						"dimension": "the_nether"
+					}
+				}
+			}
 		}
 	}
 }

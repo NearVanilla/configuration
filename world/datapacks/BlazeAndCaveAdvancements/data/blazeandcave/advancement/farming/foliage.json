@@ -18,29 +18,14 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:short_grass"
-						]
-					}
-				]
-			}
-		},
-		"fern": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:fern"
+							"minecraft:short_grass",
+							"minecraft:fern",
+							"minecraft:short_dry_grass",
+							"minecraft:tall_dry_grass"
 						]
 					}
 				]
 			}
 		}
-	},
-	"requirements": [
-		[
-			"grass",
-			"fern"
-		]
-	]
+	}
 }

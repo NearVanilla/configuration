@@ -3,7 +3,10 @@
 	"entity": "this",
 	"predicate": {
 		"vehicle": {
-			"type": "llama"
+			"type": [
+				"trader_llama",
+				"llama"
+			]
 		}
 	}
 }

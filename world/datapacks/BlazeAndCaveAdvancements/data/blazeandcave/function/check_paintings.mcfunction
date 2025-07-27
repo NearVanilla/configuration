@@ -46,6 +46,7 @@ execute if entity @e[type=painting,distance=..8,nbt={variant:"minecraft:lowmist"
 execute if entity @e[type=painting,distance=..8,nbt={variant:"minecraft:passage"}] run advancement grant @s only blazeandcave:building/art_gallery passage
 execute if entity @e[type=painting,distance=..8,nbt={variant:"minecraft:unpacked"}] run advancement grant @s only blazeandcave:building/art_gallery unpacked
 execute if entity @e[type=painting,distance=..8,nbt={variant:"minecraft:orb"}] run advancement grant @s only blazeandcave:building/art_gallery orb
+execute if entity @e[type=painting,distance=..8,nbt={variant:"minecraft:dennis"}] run advancement grant @s only blazeandcave:building/art_gallery dennis
 
 advancement revoke @s only blazeandcave:technical/place_painting
 scoreboard players set @s bac_painting 0

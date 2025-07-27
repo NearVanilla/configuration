@@ -766,6 +766,45 @@
 					}
 				}
 			}
+		},
+		"test_flight": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/test_flight": true
+						}
+					}
+				}
+			}
+		},
+		"who_needs_elytra": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/who_needs_elytra": true
+						}
+					}
+				}
+			}
+		},
+		"big_blimp_enthusiast": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/big_blimp_enthusiast": true
+						}
+					}
+				}
+			}
 		}
 	}
 }

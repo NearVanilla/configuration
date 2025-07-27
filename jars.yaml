@@ -1,17 +1,17 @@
 platform: Paper
 plugins:
-- checksum: 1c23a11fc53e00170f45dfff65896029bab14fee
+- checksum: 7bf89bfa5e67eff6d3f3d7a302c0c7db723dd0ad
   name: ArmorStandEditor
-  version: 1.21.4-48.1
-- checksum: cfc5db2a2d119e407592559be318bc5c8d9e1c8a
+  version: 1.21.7-49
+- checksum: fdad592323520c7c7100187e461964e11c3cec98
   name: Tebex
-  version: 2.1.0
+  version: 2.2.1
 - checksum: e77b811d89234f7c56d2ae629dda97622f866c45
   name: CapAFK
   version: 1.4.1.10
-- checksum: 2b7672f20ce884ecea5ccc772f758cdd89dbd6a7
+- checksum: 7c196c5bebd6017880f3c2a38fc297b3b99f5f93
   name: Chunky
-  version: 1.4.30
+  version: 1.4.40
 - checksum: 8017016965d5312a3bbc2fb9563abcb1634b9249
   name: DeathLog
   version: 1.0.2
@@ -24,9 +24,9 @@ plugins:
 - checksum: 5cb2143f5cf229f3f3407d6c5a9ff321f1161f8c
   name: GFly
   version: 2.3.0.0
-- checksum: fe9cab77ca33d46d79f391e5623558a21cb3d169
+- checksum: b28ec057383138770122599289b6007c1c801118
   name: GSit
-  version: 2.2.0
+  version: 2.4.2
 - checksum: 1ffc1a060c77e071aa4f41a3fb482704c6afe2eb
   name: Hat
   version: 1.5.0
@@ -36,27 +36,27 @@ plugins:
 - checksum: c8c78165907a53a5f542673b49c5cdd74f8cbf76
   name: OnePlayerSleep
   version: 1.0.6-2-ga87aac8
-- checksum: ed5d86f748ef4b40dd58ba6919be0d221098fdcd
+- checksum: 15eed16901da9d6bc5b8e2af461e15e97cd58d2c
   name: OpenInv
-  version: 5.1.9
+  version: 5.1.12
 - checksum: 1425116618d1d7f626771cb5bb64fc74f15d485b
   name: WanderfulAdditions
   version: 0.1.3
-- checksum: feaf5b220cd84fec51423c527a36ffae60f43b94
+- checksum: 524173f3b79880b58e74a30bdca845740c661106
   name: WorldGuard
-  version: 7.0.13+82fdc65
-- checksum: 48af7c27f627c214bc503132a47dbc9a357c33d0
+  version: 7.0.14+2339-43997ec
+- checksum: 2de9d47710b85812eeb2c50bdf68d132c0285935
   name: LuckPerms
-  version: 5.4.156
-- checksum: 716913b0b231c752c2ae7bd21539e87c0a1de5ac
+  version: 5.5.9
+- checksum: f9e0f90e256162af3380c1ffc1fbeef4f165b529
   name: spark
-  version: 1.10.126
+  version: 1.10.140
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
-- checksum: 1a8c52452bb1ccfb41a1dbfb06f9c444699e53b6
+- checksum: d0615f28f54289287fcd4006aa750d50724ccbb1
   name: dynmap
-  version: 3.7-SNAPSHOT-968
+  version: 3.7-SNAPSHOT-991
 - checksum: 94b31b0fa1ab60fa63bb02256774558c4f11e083
   name: PrometheusExporter
   version: 3.1.2
@@ -72,36 +72,36 @@ plugins:
 - checksum: 55e89ae1c8e01117d89165cc933a217b76f55bb7
   name: SpectatorMode
   version: 2.2.0
-- checksum: f471bbcefbe5ef63f4a948b9c2a4d3abdee1e24a
+- checksum: 4b3119dbbbd8afe08d3865c3e2656b4556a02db4
   name: CarbonChat
-  version: 3.0.0-beta.27
-- checksum: bcb0fff5702f87c278a461878b955e77a2b57d83
+  version: 3.0.0-beta.32
+- checksum: cba74738144c85df0471f3596b314eb21895d6e3
   name: voicechat
-  version: 2.5.26
-- checksum: d39d0b410497aea25c66b03409f3fce100c006bd
+  version: 2.5.33
+- checksum: ae38a9618aabfcf4adca3f17d8e6f1ae0fcd0dc1
   name: FreedomChat
-  version: 1.7.0
-- checksum: 10006fbf7e84ebcd7e47f0150614921ee96c6102
+  version: 1.7.5
+- checksum: c022e28760193bcb9c0ded8f6560a7127eaf1092
   name: FastAsyncWorldEdit
-  version: 2.13.0;a1eba40
-- checksum: 33b6c2b5dad6f5b99235d4883d4ac1a3d200c3d4
+  version: 2.13.1-SNAPSHOT-1126
+- checksum: b0df0349eec56ad6a8ce1227c7d543036abec9b2
   name: ChunkyBorder
-  version: 1.2.13
-- checksum: 8ee6f330814f32e50e3c0ceab613082e2bb411b6
+  version: 1.2.23
+- checksum: 906ca01297d5a18a5d116c962e187cb183077c86
   name: SignedVelocity
-  version: 1.2.4
-- checksum: a9e1ac036f207d3ca8b3131042d6a080cfbfda97
+  version: 1.3.0
+- checksum: 5986fb288e55b43f7363f0fb3600fec6a534f2ea
   name: PaperTweaks
-  version: 0.5.0-beta.1
+  version: 0.5.0
 - checksum: a89b357af0a8fbabc07f7ad39e2c2edf28a47f04
   name: DeathDB
   version: '1.0'
 - checksum: d1cd4ef15eac3f5de887f960e41e6f4a18f307ed
   name: HuntTheAdmins
   version: 1.0-SNAPSHOT
-- checksum: ccbecc695087a258561df66a0648e59dd15f3589
+- checksum: 7766caad96fd5f0a8f1dd4974db1a99a93ac9353
   name: Rtag
-  version: 1.5.10
+  version: 1.5.11
 - checksum: be1633fc49fa8909fead2254bffb778dbeec5553
   name: ForgetfulTrialVault
   version: 1.0.15
@@ -111,12 +111,12 @@ plugins:
 - checksum: 1f6637fb6ac63a22bd42d9d00b8d536a38a2ec46
   name: MuteDeaths
   version: 1.1-SNAPSHOT
-- checksum: 38fc3ca288493fa7d38e7cef2141aaf2defeed65
+- checksum: 8b0947f5633262e72b828b48528f9dc7f4764883
   name: CustomDiscs
-  version: '4.3'
-- checksum: 0e33881cfdb22505fc0f4f451277dd3b68f9d57d
+  version: '5.0'
+- checksum: cd46778073fd1b8f7a2d48367a7d849d4c0d1d8f
   name: ProtocolLib
-  version: 5.3.0
+  version: 5.4.0-SNAPSHOT-753
 - checksum: 894f851485cb565e375e60ae79acfb959f8da55a
   name: BabyAnimals
   version: 1.1-SNAPSHOT
@@ -133,5 +133,5 @@ plugins:
   name: WorldTour
   version: 1.0-SNAPSHOT
 version:
-  build: 230
-  name: 1.21.4
+  build: 17
+  name: 1.21.8

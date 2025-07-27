@@ -8,7 +8,7 @@
 		"announce_to_chat": true,
 		"frame": "goal"
 	},
-	"parent": "blazeandcave:animal/when_pigs_used_to_fly",
+	"parent": "blazeandcave:animal/piglets_big_advancement",
 	"rewards": {
 		"function": "bacap_rewards:animal/pig_slaughterer"
 	},		

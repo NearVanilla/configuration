@@ -675,6 +675,19 @@
 					}
 				}
 			}
+		},
+		"splatfest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:redstone/splatfest": true
+						}
+					}
+				}
+			}
 		}
 	}
 }

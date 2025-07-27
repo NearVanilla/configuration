@@ -3,7 +3,7 @@
 		"icon": {
 			"id": "minecraft:dragon_head"
 		},
-		"title": {"translate":"Dragon vs Dragon II"},
+		"title": {"translate":"Dragon vs Dragon II: Electric Boogaloo"},
 		"description": {"color":"#FF2A2A","translate":"Defeat the Ender Dragon while wearing a dragon head... without touching the ground"},
 		"announce_to_chat": true,
 		"frame": "challenge"

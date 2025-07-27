@@ -33,6 +33,14 @@
 					"flags": {
 						"is_on_fire": true
 					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "minecraft:player_attack",
+							"expected": true
+						}
+					]
 				}
 			}
 		}

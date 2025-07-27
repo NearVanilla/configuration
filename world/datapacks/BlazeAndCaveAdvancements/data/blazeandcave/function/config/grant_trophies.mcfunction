@@ -108,7 +108,7 @@ execute as @s[advancements={blazeandcave:statistics/sailor_of_the_seven_seas=tru
 execute as @s[advancements={blazeandcave:statistics/frequent_flyer=true}] run function bacap_rewards:trophy/statistics/frequent_flyer
 execute as @s[advancements={blazeandcave:statistics/kill_or_be_killed=true}] run function bacap_rewards:trophy/statistics/kill_or_be_killed
 execute as @s[advancements={blazeandcave:statistics/scourge_of_the_west=true}] run function bacap_rewards:trophy/statistics/scourge_of_the_west
-execute as @s[advancements={blazeandcave:statistics/natural_sprinter=true}] run function bacap_rewards:trophy/statistics/natural_sprinter
+execute as @s[advancements={blazeandcave:statistics/your_legs_must_be_tired=true}] run function bacap_rewards:trophy/statistics/your_legs_must_be_tired
 execute as @s[advancements={blazeandcave:statistics/olympic_gold_medallist=true}] run function bacap_rewards:trophy/statistics/olympic_gold_medallist
 execute as @s[advancements={blazeandcave:statistics/happy_new_year=true}] run function bacap_rewards:trophy/statistics/happy_new_year
 execute as @s[advancements={blazeandcave:statistics/lightning_mcpig=true}] run function bacap_rewards:trophy/statistics/lightning_mcpig
@@ -192,9 +192,11 @@ execute as @s[advancements={blazeandcave:mining/bulldozer=true}] run function ba
 execute as @s[advancements={blazeandcave:mining/pixel_perfect=true}] run function bacap_rewards:trophy/mining/pixel_perfect
 execute as @s[advancements={blazeandcave:mining/amethyst_miner=true}] run function bacap_rewards:trophy/mining/amethyst_miner
 execute as @s[advancements={blazeandcave:mining/mr_bean=true}] run function bacap_rewards:trophy/mining/mr_bean
+execute as @s[advancements={blazeandcave:animal/birdkeeper=true}] run function bacap_rewards:trophy/animal/birdkeeper
 execute as @s[advancements={blazeandcave:animal/heavy_duty_caravan=true}] run function bacap_rewards:trophy/animal/heavy_duty_caravan
 execute as @s[advancements={blazeandcave:animal/fractal=true}] run function bacap_rewards:trophy/animal/fractal
 execute as @s[advancements={blazeandcave:adventure/hey_you_two_should_kiss=true}] run function bacap_rewards:trophy/adventure/hey_you_two_should_kiss
+execute as @s[advancements={blazeandcave:enchanting/over_overkill=true}] run function bacap_rewards:trophy/enchanting/over_overkill
 execute as @s[advancements={blazeandcave:nether/a_piglins_best_friend=true}] run function bacap_rewards:trophy/nether/a_piglins_best_friend
 execute as @s[advancements={blazeandcave:nether/netherite_mad_lad=true}] run function bacap_rewards:trophy/nether/netherite_mad_lad
 
@@ -270,6 +272,16 @@ execute as @s[advancements={blazeandcave:adventure/vault_hunter=true}] run funct
 execute as @s[advancements={blazeandcave:weaponry/warden_extinction=true}] run function bacap_rewards:trophy/weaponry/warden_extinction
 execute as @s[advancements={blazeandcave:adventure/sus=true}] run function bacap_rewards:trophy/adventure/sus
 
+# Trophies added in 1.19
+execute as @s[advancements={blazeandcave:farming/you_cant_take_the_sky_from_me=true}] run function bacap_rewards:trophy/farming/you_cant_take_the_sky_from_me
+execute as @s[advancements={blazeandcave:farming/certified_spud_chomper=true}] run function bacap_rewards:trophy/farming/certified_spud_chomper
+execute as @s[advancements={blazeandcave:monsters/absolute_cinema=true}] run function bacap_rewards:trophy/monsters/absolute_cinema
+execute as @s[advancements={blazeandcave:adventure/all_around_the_world=true}] run function bacap_rewards:trophy/adventure/all_around_the_world
+execute as @s[advancements={blazeandcave:adventure/core_keeper=true}] run function bacap_rewards:trophy/adventure/core_keeper
+execute as @s[advancements={blazeandcave:statistics/big_blimp_enthusiast=true}] run function bacap_rewards:trophy/statistics/big_blimp_enthusiast
+execute as @s[advancements={blazeandcave:nether/collateral_damage=true}] run function bacap_rewards:trophy/nether/collateral_damage
+execute as @s[advancements={blazeandcave:challenges/at_the_rim_of_the_sky=true}] run function bacap_rewards:trophy/challenges/at_the_rim_of_the_sky
+execute as @s[advancements={blazeandcave:challenges/lets_take_it_up_a_notch=true}] run function bacap_rewards:trophy/challenges/lets_take_it_up_a_notch
 
 
 

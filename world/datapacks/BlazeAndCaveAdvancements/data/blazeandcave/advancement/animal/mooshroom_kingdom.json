@@ -7,7 +7,7 @@
 		"description": {"color":"green","translate":"Find mooshrooms on a mushroom island"},
 		"announce_to_chat": true
 	},
-	"parent": "blazeandcave:animal/true_cow_tipper",	
+	"parent": "blazeandcave:animal/milk_does_your_body_good",	
 	"rewards": {
 		"function": "bacap_rewards:animal/mooshroom_kingdom"
 	},	

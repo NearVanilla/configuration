@@ -29,7 +29,7 @@
 					"entity": "this",
 					"predicate": {
 						"vehicle": {
-							"nbt": "{CustomName:\'\"Dinnerbone\"\'}"
+							"nbt": "{CustomName:\"Dinnerbone\"}"
 						}
 					}
 				},
@@ -38,7 +38,7 @@
 					"entity": "this",
 					"predicate": {
 						"vehicle": {
-							"nbt": "{CustomName:\'\"Grumm\"\'}"
+							"nbt": "{CustomName:\"Grumm\"}"
 						}
 					}
 				}

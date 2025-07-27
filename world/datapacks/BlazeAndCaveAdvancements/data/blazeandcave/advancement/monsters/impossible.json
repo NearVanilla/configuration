@@ -17,12 +17,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "enderman",
-					"distance": {
-						"absolute": {
-							"max": 5
-						}
-					}
+					"type": "enderman"
 				},
 				"killing_blow": {
 					"source_entity": {
@@ -35,7 +30,13 @@
 								]
 							}
 						}
-					}
+					},
+					"tags": [
+						{
+							"id": "minecraft:player_attack",
+							"expected": true
+						}
+					]
 				}
 			}
 		}	

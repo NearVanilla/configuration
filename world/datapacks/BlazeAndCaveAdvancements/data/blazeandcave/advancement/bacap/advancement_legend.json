@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",
-			"components": {"profile":{"id":[-1915600451,-335789442,-1161758725,291830941],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk5YzBkYjJhMjE2MjU1OGVmYThhYTU2MmM5YWU3YmFiZmU3MWQwODNkYzA5MmEwNTIzM2EzMWQ4YmRiM2JhYSJ9fX0="}]}}
+			"components": {"minecraft:enchantment_glint_override":true,"minecraft:profile":{"id":[-1915600451,-335789442,-1161758725,291830941],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk5YzBkYjJhMjE2MjU1OGVmYThhYTU2MmM5YWU3YmFiZmU3MWQwODNkYzA5MmEwNTIzM2EzMWQ4YmRiM2JhYSJ9fX0="}]}}
 		},
 		"title": {"translate":"Advancement Legend"},
 		"description": {"color":"gold","translate":"Complete every single advancement in BlazeandCave's Advancements Pack"},
@@ -8640,7 +8640,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/get_a_lode_of_this": true
+							"blazeandcave:mining/get_a_lode_of_this": true
 						}
 					}
 				}
@@ -8653,7 +8653,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"minecraft:nether/use_lodestone": true
+							"minecraft:adventure/use_lodestone": true
 						}
 					}
 				}
@@ -8666,7 +8666,7 @@
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"blazeandcave:nether/lodes_of_applications": true
+							"blazeandcave:mining/lodes_of_applications": true
 						}
 					}
 				}
@@ -14985,6 +14985,409 @@
 						"type": "player",
 						"advancements": {
 							"blazeandcave:mining/i_yearned_for_the_mines": true
+						}
+					}
+				}
+			}
+		},
+		"all_around_the_world": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:adventure/all_around_the_world": true
+						}
+					}
+				}
+			}
+		},
+		"piglets_big_advancement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/piglets_big_advancement": true
+						}
+					}
+				}
+			}
+		},
+		"the_three_little_pigs": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/the_three_little_pigs": true
+						}
+					}
+				}
+			}
+		},
+		"beef_moover": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/beef_moover": true
+						}
+					}
+				}
+			}
+		},
+		"omelette": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/omelette": true
+						}
+					}
+				}
+			}
+		},
+		"chick_buffet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:animal/chick_buffet": true
+						}
+					}
+				}
+			}
+		},
+		"heart_transplanter": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:adventure/heart_transplanter": true
+						}
+					}
+				}
+			}
+		},
+		"le_creak_cest_chic": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:biomes/le_creak_cest_chic": true
+						}
+					}
+				}
+			}
+		},
+		"at_the_rim_of_the_sky": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:challenges/at_the_rim_of_the_sky": true
+						}
+					}
+				}
+			}
+		},
+		"lets_take_it_up_a_notch": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:challenges/lets_take_it_up_a_notch": true
+						}
+					}
+				}
+			}
+		},
+		"oh_baby_a_triple": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:enchanting/oh_baby_a_triple": true
+						}
+					}
+				}
+			}
+		},
+		"why_do_i_hear_boss_music": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:end/why_do_i_hear_boss_music": true
+						}
+					}
+				}
+			}
+		},
+		"unstoppable_force_vs_immovable_object": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:end/unstoppable_force_vs_immovable_object": true
+						}
+					}
+				}
+			}
+		},
+		"youre_doing_it_wrong": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:end/youre_doing_it_wrong": true
+						}
+					}
+				}
+			}
+		},
+		"booshes": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/booshes": true
+						}
+					}
+				}
+			}
+		},
+		"you_cant_take_the_sky_from_me": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/you_cant_take_the_sky_from_me": true
+						}
+					}
+				}
+			}
+		},
+		"certified_spud_chomper": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/certified_spud_chomper": true
+						}
+					}
+				}
+			}
+		},
+		"look_out": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:monsters/look_out": true
+						}
+					}
+				}
+			}
+		},
+		"absolute_cinema": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:monsters/absolute_cinema": true
+						}
+					}
+				}
+			}
+		},
+		"stay_hydrated": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:husbandry/place_dried_ghast_in_water": true
+						}
+					}
+				}
+			}
+		},
+		"snow_cone": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:nether/snow_cone": true
+						}
+					}
+				}
+			}
+		},
+		"hot_air_balloon": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:nether/hot_air_balloon": true
+						}
+					}
+				}
+			}
+		},
+		"midport_village": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:nether/midport_village": true
+						}
+					}
+				}
+			}
+		},
+		"lead_zeppelin": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:nether/lead_zeppelin": true
+						}
+					}
+				}
+			}
+		},
+		"pillow_fight": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:nether/pillow_fight": true
+						}
+					}
+				}
+			}
+		},
+		"collateral_damage": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:nether/collateral_damage": true
+						}
+					}
+				}
+			}
+		},
+		"string_shot": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:potion/string_shot": true
+						}
+					}
+				}
+			}
+		},
+		"splatfest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:redstone/splatfest": true
+						}
+					}
+				}
+			}
+		},
+		"test_flight": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/test_flight": true
+						}
+					}
+				}
+			}
+		},
+		"who_needs_elytra": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/who_needs_elytra": true
+						}
+					}
+				}
+			}
+		},
+		"big_blimp_enthusiast": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:statistics/big_blimp_enthusiast": true
 						}
 					}
 				}

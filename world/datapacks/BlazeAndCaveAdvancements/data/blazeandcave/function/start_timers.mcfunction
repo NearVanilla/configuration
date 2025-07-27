@@ -99,6 +99,9 @@ scoreboard objectives add bac_underwater dummy
 scoreboard objectives add bac_painting minecraft.used:minecraft.painting
 scoreboard objectives add bac_stat_loot_chest dummy
 scoreboard objectives add bac_stat_food dummy
+scoreboard objectives add bac_consume_honey_bottle dummy
+scoreboard objectives add bac_consume_poisonous_potato dummy
+scoreboard objectives add bac_consume_spider_eye dummy
 
 # The following are used for other advancements
 scoreboard objectives add bac_castaway dummy
@@ -154,6 +157,13 @@ scoreboard objectives add bac_vault_hunter_count dummy
 scoreboard objectives add bac_whack_a_mole_count dummy
 scoreboard objectives add bac_divers_dozen_count dummy
 scoreboard objectives add bac_i_yearned_for_the_mines dummy
+scoreboard objectives add bac_leashing_boat dummy
+scoreboard objectives add bac_creaking_count dummy
+scoreboard objectives add bac_oh_baby_a_triple dummy
+scoreboard objectives add bac_splatfest_egg dummy
+scoreboard objectives add bac_egg_count dummy
+scoreboard objectives add bac_egg_brown_count dummy
+scoreboard objectives add bac_egg_blue_count dummy
 
 
 # If a setting for advancement message visibility is not found, it is set to its default (which is all on)
