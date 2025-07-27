@@ -2,7 +2,7 @@
 # Ensure you look through all these options
 # If you need help:
 # Discord - https://viaversion.com/discord
-# Docs - https://docs.viaversion.com/display/VIAVERSION/Configuration
+# Docs - https://docs.viaversion.com
 #
 #----------------------------------------------------------#
 #                     GLOBAL OPTIONS                       #
@@ -28,6 +28,8 @@ block-disconnect-msg: You are using an unsupported Minecraft version!
 reload-disconnect-msg: Server reload, please rejoin!
 # We warn when there's an error converting item/block or component/nbt data over versions, should we suppress these? (Only suggested if spamming)
 suppress-conversion-warnings: false
+# This can be disabled for debugging purposes if text in chat/entities/items shows an error tag.
+suppress-text-component-conversion-warnings: true
 #
 #----------------------------------------------------------#
 #                    VELOCITY OPTIONS                      #
@@ -50,8 +52,8 @@ velocity-ping-save: false
 # You can find protocol ids on https://minecraft.wiki/w/Protocol_version
 # It will fall back to the default option if none found.
 velocity-servers:
-  default: 767
-  survival: 767
+  default: 772
+  survival: 772
   creative: 767
 #
 #----------------------------------------------------------#
@@ -87,8 +89,6 @@ hologram-y: -0.96
 # Should we disable piston animation for 1.11/1.11.1 clients?
 # In some cases, when firing lots of pistons, it crashes them.
 piston-animation-patch: false
-# Should we fix nbt for 1.12 and above clients in chat messages (causes invalid item)
-chat-nbt-fix: true
 # Should we use prefix for team color on 1.13 and above clients?
 team-colour-fix: true
 # 1.13 introduced new auto complete which can trigger "Kicked for spamming" for servers older than 1.13, the following option will disable it completely.
