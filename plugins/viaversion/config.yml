@@ -54,7 +54,7 @@ velocity-ping-save: false
 velocity-servers:
   default: 772
   survival: 772
-  creative: 772
+  creative: 767
 #
 #----------------------------------------------------------#
 #                  GLOBAL PACKET LIMITER                   #
