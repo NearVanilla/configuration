@@ -15,9 +15,9 @@ plugins:
 - checksum: 8017016965d5312a3bbc2fb9563abcb1634b9249
   name: DeathLog
   version: 1.0.2
-- checksum: a57977a017d5d0026f9d55c8ba16d18961ef57dc
+- checksum: ad9d8d2d285c1aa3835198412f1b70f1aae4af1a
   name: DiscordSRV
-  version: 1.29.0
+  version: 1.30.0
 - checksum: 722793bc7977c7dae77b5d1774a753a2b6708beb
   name: FirstJoinMessage
   version: 1.0.2
@@ -81,9 +81,9 @@ plugins:
 - checksum: ae38a9618aabfcf4adca3f17d8e6f1ae0fcd0dc1
   name: FreedomChat
   version: 1.7.5
-- checksum: c022e28760193bcb9c0ded8f6560a7127eaf1092
+- checksum: e1002ce89640f20fe65368682d9a77210ff31743
   name: FastAsyncWorldEdit
-  version: 2.13.1-SNAPSHOT-1126
+  version: 2.13.1-SNAPSHOT-1137
 - checksum: b0df0349eec56ad6a8ce1227c7d543036abec9b2
   name: ChunkyBorder
   version: 1.2.23
