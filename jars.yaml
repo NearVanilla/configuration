@@ -36,9 +36,9 @@ plugins:
 - checksum: c8c78165907a53a5f542673b49c5cdd74f8cbf76
   name: OnePlayerSleep
   version: 1.0.6-2-ga87aac8
-- checksum: 15eed16901da9d6bc5b8e2af461e15e97cd58d2c
+- checksum: a5dd3c1f0b500b90c55a4b5ae098b3319165abfa
   name: OpenInv
-  version: 5.1.12
+  version: 5.1.13
 - checksum: 1425116618d1d7f626771cb5bb64fc74f15d485b
   name: WanderfulAdditions
   version: 0.1.3
