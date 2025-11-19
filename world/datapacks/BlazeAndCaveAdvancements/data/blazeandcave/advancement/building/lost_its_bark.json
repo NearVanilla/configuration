@@ -39,7 +39,7 @@
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"items": "#minecraft:axes"
+							"items": "#blazeandcave:axes"
 						}
 					}
 				]

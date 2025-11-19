@@ -28,7 +28,7 @@
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"items": "#minecraft:leather_armor"
+							"items": "#blazeandcave:leather_armor"
 						}
 					}
 				]

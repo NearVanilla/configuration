@@ -216,6 +216,18 @@
 					}
 				]
 			}
+		},
+		"pale_oak_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_shelf"
+						]
+					}
+				]
+			}
 		}
 	}
 }

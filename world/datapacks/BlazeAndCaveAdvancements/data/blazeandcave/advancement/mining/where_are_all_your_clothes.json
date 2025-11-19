@@ -65,6 +65,58 @@
 				}
 			}
 		},
+		"copper_helmet": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:copper_helmet"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
+		"copper_chestplate": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:copper_chestplate"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
+		"copper_leggings": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:copper_leggings"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
+		"copper_boots": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:copper_boots"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
 		"golden_helmet": {
 			"trigger": "minecraft:item_durability_changed",
 			"conditions": {

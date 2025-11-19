@@ -48,6 +48,15 @@
 										"min": 100000
 									}
 								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"bac_third_line_happy_ghast": {
+										"min": 100000
+									}
+								}
 							}
 						]
 					}

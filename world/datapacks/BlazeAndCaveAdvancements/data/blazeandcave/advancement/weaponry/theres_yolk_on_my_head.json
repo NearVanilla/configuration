@@ -17,7 +17,7 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "#minecraft:zombies"
+					"type": "#blazeandcave:zombies"
 				},
 				"damage": {
 					"type": {
@@ -39,7 +39,7 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "#minecraft:zombies"
+					"type": "#blazeandcave:zombies"
 				},
 				"damage": {
 					"type": {
@@ -61,7 +61,7 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "#minecraft:zombies"
+					"type": "#blazeandcave:zombies"
 				},
 				"damage": {
 					"type": {

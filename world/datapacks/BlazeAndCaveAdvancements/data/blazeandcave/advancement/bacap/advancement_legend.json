@@ -15392,6 +15392,253 @@
 					}
 				}
 			}
+		},
+		"copper_age": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/copper_age": true
+						}
+					}
+				}
+			}
+		},
+		"copper_golem_overlord": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/copper_golem_overlord": true
+						}
+					}
+				}
+			}
+		},
+		"beep_bop": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/beep_bop": true
+						}
+					}
+				}
+			}
+		},
+		"wax_treatment": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/wax_treatment": true
+						}
+					}
+				}
+			}
+		},
+		"total_copout": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/total_copout": true
+						}
+					}
+				}
+			}
+		},
+		"such_a_poser": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/such_a_poser": true
+						}
+					}
+				}
+			}
+		},
+		"statue_of_limitations": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/statue_of_limitations": true
+						}
+					}
+				}
+			}
+		},
+		"conductive_conglomerate": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/conductive_conglomerate": true
+						}
+					}
+				}
+			}
+		},
+		"d_b_copper": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/d_b_copper": true
+						}
+					}
+				}
+			}
+		},
+		"life_sentence": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/life_sentence": true
+						}
+					}
+				}
+			}
+		},
+		"chain_gang": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/chain_gang": true
+						}
+					}
+				}
+			}
+		},
+		"gratest_of_all_time": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/gratest_of_all_time": true
+						}
+					}
+				}
+			}
+		},
+		"green_lanterns": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/green_lanterns": true
+						}
+					}
+				}
+			}
+		},
+		"copper_computer": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/copper_computer": true
+						}
+					}
+				}
+			}
+		},
+		"school_of_hard_knocks": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:mining/school_of_hard_knocks": true
+						}
+					}
+				}
+			}
+		},
+		"chartreuse": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:building/chartreuse": true
+						}
+					}
+				}
+			}
+		},
+		"shelfception": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:building/shelfception": true
+						}
+					}
+				}
+			}
+		},
+		"locked_and_loaded": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:building/locked_and_loaded": true
+						}
+					}
+				}
+			}
+		},
+		"echidna": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:enchanting/echidna": true
+						}
+					}
+				}
+			}
 		}
 	}
 }

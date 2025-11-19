@@ -1317,6 +1317,29 @@ execute as @a[advancements={blazeandcave:challenges/at_the_rim_of_the_sky=true}]
 execute as @a[advancements={blazeandcave:challenges/lets_take_it_up_a_notch=true}] run scoreboard players add @s bac_advancements 1
 
 
+# The following advancements were added in version 1.20
+execute as @a[advancements={blazeandcave:mining/copper_age=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/copper_golem_overlord=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/beep_bop=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/wax_treatment=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/total_copout=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/such_a_poser=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/statue_of_limitations=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/conductive_conglomerate=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/d_b_copper=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/life_sentence=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/chain_gang=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/gratest_of_all_time=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/green_lanterns=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/copper_computer=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/school_of_hard_knocks=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:building/chartreuse=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:building/shelfception=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:building/locked_and_loaded=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:enchanting/echidna=true}] run scoreboard players add @s bac_advancements 1
+
 
 
 # Updates team scores
@@ -1324,7 +1347,7 @@ function bacap_rewards:team_score
 
 
 # Updates number format (colours)
-function blazeandcave:config/update_number_format
+execute as @a run function blazeandcave:config/update_number_format
 
 
 

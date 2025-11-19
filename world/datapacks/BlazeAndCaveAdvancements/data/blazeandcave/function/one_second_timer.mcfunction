@@ -134,6 +134,10 @@ execute as @a[scores={bac_painting=1..}] at @s run function blazeandcave:check_p
 execute as @a[advancements={blazeandcave:technical/give_piglin_gold=true}] at @s run function blazeandcave:give_piglin_gold
 
 
+# # Copper Golem Overlord
+execute as @a at @s if entity @e[type=copper_golem,distance=..10] run function blazeandcave:count_copper_golem
+
+
 # # Reunion advancements
 # The Three Little Pigs
 execute as @a[gamemode=!spectator] at @s if entity @e[type=pig,predicate=blazeandcave:pig_variant_cold,distance=..10] if entity @e[type=pig,predicate=blazeandcave:pig_variant_warm,distance=..10] if entity @e[type=pig,predicate=blazeandcave:pig_variant_temperate,distance=..10] run advancement grant @s only blazeandcave:animal/the_three_little_pigs

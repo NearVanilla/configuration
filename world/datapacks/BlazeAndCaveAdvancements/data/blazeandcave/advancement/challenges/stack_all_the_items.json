@@ -4,7 +4,7 @@
 			"id": "minecraft:popped_chorus_fruit"
 		},
 		"title": {"translate":"Stack All the Items!"},
-		"description": {"color":"#FF2A2A","translate":"Obtain a stack of all the items!","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"The following are not required:"},{"text":"\n"},{"color":"gray","translate":"item.minecraft.recovery_compass"},{"color":"gray","text":", "},{"color":"gray","translate":"Pottery Sherd"},{"color":"gray","text":". \n"},{"color":"gray","translate":"You only need a stack of one kind of Smithing Template"}]},
+		"description": {"color":"#FF2A2A","translate":"Obtain a stack of all the items!","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"The following are not required:"},{"text":"\n"},{"color":"gray","translate":"item.minecraft.recovery_compass"},{"color":"gray","text":", "},{"color":"gray","translate":"Pottery Sherd"},{"color":"gray","text":"\n"},{"color":"gray","translate":"You only need a stack of one kind of Smithing Template"}]},
 		"announce_to_chat": true,
 		"frame": "challenge"
 	},
@@ -4242,6 +4242,139 @@
 					{
 						"items": [
 							"minecraft:music_disc_lava_chicken"
+						]
+					}
+				]
+			}
+		},
+		"copper_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_helmet"
+						]
+					}
+				]
+			}
+		},
+		"copper_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_chestplate"
+						]
+					}
+				]
+			}
+		},
+		"copper_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_leggings"
+						]
+					}
+				]
+			}
+		},
+		"copper_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_boots"
+						]
+					}
+				]
+			}
+		},
+		"copper_horse_armor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_horse_armor"
+						]
+					}
+				]
+			}
+		},
+		"copper_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_nugget"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"copper_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_axe"
+						]
+					}
+				]
+			}
+		},
+		"copper_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_hoe"
+						]
+					}
+				]
+			}
+		},
+		"copper_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_pickaxe"
+						]
+					}
+				]
+			}
+		},
+		"copper_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_shovel"
+						]
+					}
+				]
+			}
+		},
+		"copper_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_sword"
 						]
 					}
 				]

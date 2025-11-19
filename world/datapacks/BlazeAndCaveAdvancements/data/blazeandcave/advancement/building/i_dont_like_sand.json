@@ -18,12 +18,29 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:sand",
+							"minecraft:sand"
+						]
+					}
+				]
+			}
+		},
+		"red_sand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
 							"minecraft:red_sand"
 						]
 					}
 				]
 			}
 		}
-	}
+	},
+	"requirements": [
+		[
+			"sand",
+			"red_sand"
+		]
+	]
 }

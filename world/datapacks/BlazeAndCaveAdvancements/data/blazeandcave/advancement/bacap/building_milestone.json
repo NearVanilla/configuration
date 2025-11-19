@@ -1455,6 +1455,45 @@
 					}
 				}
 			}
+		},
+		"chartreuse": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:building/chartreuse": true
+						}
+					}
+				}
+			}
+		},
+		"shelfception": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:building/shelfception": true
+						}
+					}
+				}
+			}
+		},
+		"locked_and_loaded": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:building/locked_and_loaded": true
+						}
+					}
+				}
+			}
 		}
 	}
 }

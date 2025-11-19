@@ -4596,6 +4596,138 @@
 					}
 				]
 			}
+		},
+		"copper_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_helmet"
+						]
+					}
+				]
+			}
+		},
+		"copper_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_chestplate"
+						]
+					}
+				]
+			}
+		},
+		"copper_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_leggings"
+						]
+					}
+				]
+			}
+		},
+		"copper_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_boots"
+						]
+					}
+				]
+			}
+		},
+		"copper_horse_armor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_horse_armor"
+						]
+					}
+				]
+			}
+		},
+		"copper_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_nugget"
+						]
+					}
+				]
+			}
+		},
+		"copper_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_axe"
+						]
+					}
+				]
+			}
+		},
+		"copper_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_hoe"
+						]
+					}
+				]
+			}
+		},
+		"copper_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_pickaxe"
+						]
+					}
+				]
+			}
+		},
+		"copper_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_shovel"
+						]
+					}
+				]
+			}
+		},
+		"copper_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_sword"
+						]
+					}
+				]
+			}
 		}
 	}
 }

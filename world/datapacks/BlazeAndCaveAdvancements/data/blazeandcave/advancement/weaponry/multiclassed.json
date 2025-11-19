@@ -21,13 +21,13 @@
 						"source_entity": {
 							"equipment": {
 								"mainhand": {
-									"items": "#minecraft:axes"
+									"items": "#blazeandcave:axes"
 								}
 							}
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -43,13 +43,13 @@
 						"source_entity": {
 							"equipment": {
 								"mainhand": {
-									"items": "#minecraft:shovels"
+									"items": "#blazeandcave:shovels"
 								}
 							}
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -65,13 +65,13 @@
 						"source_entity": {
 							"equipment": {
 								"mainhand": {
-									"items": "#minecraft:pickaxes"
+									"items": "#blazeandcave:pickaxes"
 								}
 							}
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -87,13 +87,13 @@
 						"source_entity": {
 							"equipment": {
 								"mainhand": {
-									"items": "#minecraft:hoes"
+									"items": "#blazeandcave:hoes"
 								}
 							}
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -109,13 +109,13 @@
 						"source_entity": {
 							"equipment": {
 								"mainhand": {
-									"items": "#minecraft:swords"
+									"items": "#blazeandcave:swords"
 								}
 							}
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -189,7 +189,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -327,7 +327,29 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"mace_smash": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {		
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:mace_smash",
 								"expected": true
 							}
 						]
@@ -402,7 +424,8 @@
 			"lingering_potion"
 		],
 		[
-			"mace"
+			"mace",
+			"mace_smash"
 		],
 		[
 			"wind_charge"

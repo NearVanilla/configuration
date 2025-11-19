@@ -24,7 +24,7 @@
 				"killing_blow": {
 					"direct_entity": {
 						"type": "minecraft:area_effect_cloud",
-						"nbt": "{Particle:{type:\"minecraft:entity_effect\"}}"
+						"nbt": "{Tags:[aec_player_created]}"
 					}
 				}
 			}

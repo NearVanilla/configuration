@@ -216,6 +216,18 @@
 					}
 				]
 			}
+		},
+		"acacia_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:acacia_shelf"
+						]
+					}
+				]
+			}
 		}
 	}
 }

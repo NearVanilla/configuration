@@ -3,7 +3,7 @@
 		"pack_format": 48,
 		"supported_formats": {
 			"min_inclusive": 48,
-			"max_inclusive": 81
+			"max_inclusive": 88
 		},
 		"description": [
 			{
@@ -14,7 +14,9 @@
 				"text": "\nvanillatweaks.net",
 				"color": "yellow"
 			}
-		]
+		],
+		"min_format": 48,
+		"max_format": 88
 	},
 	"overlays": {
 		"entries": [
@@ -23,35 +25,54 @@
 					"min_inclusive": 57,
 					"max_inclusive": 2147483647
 				},
-				"directory": "overlay_57"
+				"directory": "overlay_57",
+				"min_format": 57,
+				"max_format": 2147483647
 			},
 			{
 				"formats": {
 					"min_inclusive": 61,
 					"max_inclusive": 2147483647
 				},
-				"directory": "overlay_61"
+				"directory": "overlay_61",
+				"min_format": 61,
+				"max_format": 2147483647
 			},
 			{
 				"formats": {
 					"min_inclusive": 71,
 					"max_inclusive": 2147483647
 				},
-				"directory": "overlay_71"
+				"directory": "overlay_71",
+				"min_format": 71,
+				"max_format": 2147483647
 			},
 			{
 				"formats": {
 					"min_inclusive": 80,
 					"max_inclusive": 2147483647
 				},
-				"directory": "overlay_80"
+				"directory": "overlay_80",
+				"min_format": 80,
+				"max_format": 2147483647
 			},
 			{
 				"formats": {
 					"min_inclusive": 81,
 					"max_inclusive": 2147483647
 				},
-				"directory": "overlay_81"
+				"directory": "overlay_81",
+				"min_format": 81,
+				"max_format": 2147483647
+			},
+			{
+				"formats": {
+					"min_inclusive": 88,
+					"max_inclusive": 2147483647
+				},
+				"directory": "overlay_88_0",
+				"min_format": 88,
+				"max_format": 2147483647
 			}
 		]
 	}

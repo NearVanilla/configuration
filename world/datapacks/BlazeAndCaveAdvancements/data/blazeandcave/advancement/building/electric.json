@@ -7,7 +7,7 @@
 		"description": {"color":"green","translate":"Light up the area with some redstone lamps"},
 		"announce_to_chat": true
 	},
-	"parent": "blazeandcave:building/glowing",
+	"parent": "blazeandcave:building/chartreuse",
 	"rewards": {
 		"function": "bacap_rewards:building/electric"
 	},		
