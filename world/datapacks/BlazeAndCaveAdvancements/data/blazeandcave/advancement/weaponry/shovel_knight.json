@@ -4,7 +4,7 @@
 			"id": "minecraft:iron_shovel"
 		},
 		"title": {"translate":"Shovel Knight"},
-		"description": {"color":"#75E1FF","translate":"Hit a mob using all six types of shovels"},
+		"description": {"color":"#75E1FF","translate":"Hit mobs using every kind of shovel"},
 		"announce_to_chat": true,
 		"frame": "goal"
 	},
@@ -29,7 +29,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -53,7 +53,31 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"copper_shovel": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:copper_shovel"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -77,7 +101,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -101,7 +125,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -125,7 +149,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -149,7 +173,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]

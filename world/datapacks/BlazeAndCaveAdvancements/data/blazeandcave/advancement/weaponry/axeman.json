@@ -4,7 +4,7 @@
 			"id": "minecraft:diamond_axe"
 		},
 		"title": {"translate":"Axeman"},
-		"description": {"color":"#75E1FF","translate":"Attack a mob using all six types of axes"},
+		"description": {"color":"#75E1FF","translate":"Attack mobs using every kind of axe"},
 		"announce_to_chat": true,
 		"frame": "goal"
 	},
@@ -29,7 +29,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -53,7 +53,31 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"copper_axe": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:copper_axe"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -77,7 +101,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -101,7 +125,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -125,7 +149,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -149,7 +173,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]

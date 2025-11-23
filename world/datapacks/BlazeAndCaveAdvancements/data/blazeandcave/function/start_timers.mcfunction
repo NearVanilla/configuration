@@ -146,6 +146,7 @@ scoreboard objectives add bac_oar_eligible_z dummy
 scoreboard objectives add bac_third_line_horse minecraft.custom:minecraft.horse_one_cm
 scoreboard objectives add bac_third_line_pig minecraft.custom:minecraft.pig_one_cm
 scoreboard objectives add bac_third_line_strider minecraft.custom:minecraft.strider_one_cm
+scoreboard objectives add bac_third_line_happy_ghast minecraft.custom:minecraft.happy_ghast_one_cm
 scoreboard objectives add bac_1000th_item minecraft.used:minecraft.warped_button
 scoreboard objectives add bac_inv_check dummy
 scoreboard objectives add bac_inv_artillery dummy
@@ -164,6 +165,7 @@ scoreboard objectives add bac_splatfest_egg dummy
 scoreboard objectives add bac_egg_count dummy
 scoreboard objectives add bac_egg_brown_count dummy
 scoreboard objectives add bac_egg_blue_count dummy
+scoreboard objectives add bac_copper_golem_count dummy
 
 
 # If a setting for advancement message visibility is not found, it is set to its default (which is all on)

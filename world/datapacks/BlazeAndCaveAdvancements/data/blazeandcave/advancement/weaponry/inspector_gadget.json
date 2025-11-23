@@ -21,7 +21,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:player_attack",
+							"id": "minecraft:is_player_attack",
 							"expected": true
 						}
 					]

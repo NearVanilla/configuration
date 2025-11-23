@@ -7,7 +7,7 @@
 		"description": {"color":"green","translate":"Light up the area with glowstone"},
 		"announce_to_chat": true
 	},
-	"parent": "blazeandcave:building/festival_of_lights",
+	"parent": "blazeandcave:building/torched",
 	"rewards": {
 		"function": "bacap_rewards:building/glowing"
 	},		

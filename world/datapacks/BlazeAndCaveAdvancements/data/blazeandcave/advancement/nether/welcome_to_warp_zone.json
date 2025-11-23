@@ -192,6 +192,18 @@
 					}
 				]
 			}
+		},
+		"warped_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:warped_shelf"
+						]
+					}
+				]
+			}
 		}
 	}
 }

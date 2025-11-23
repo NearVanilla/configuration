@@ -1,12 +1,12 @@
 BlazeandCave's Advancements Pack
-Version 1.19.1
+Version 1.20
 
 By Cavinator1
 
 Thank you for downloading this datapack!
 If you liked or have any ideas for other advancements that could be added to this datapack (or found any issues) feel free to comment.
 
-For this version, please use Minecraft 1.21.7.
+For this version, please use Minecraft 1.21.9.
 The datapack may or may not continue to work properly in future versions. Please make a backup of your world before attempting to use in future versions in case of bugs.
 
 --- Installing ---
@@ -38,8 +38,9 @@ https://bit.ly/3u9BXTr
 
 
 --- List of advancements: ---
-I challenge you to get all 1184 advancements. :) Or at least as many as you can.
+I challenge you to get all 1203 advancements. :) Or at least as many as you can.
 
 View the list of advancements here:
-https://bit.ly/bacap_1_19_doc
+(Note: At the time of writing the documentation has not been updated for this build)
+https://bit.ly/bacap_1_20_doc
 

@@ -228,6 +228,18 @@
 					}
 				]
 			}
+		},
+		"bamboo_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_shelf"
+						]
+					}
+				]
+			}
 		}
 	}
 }

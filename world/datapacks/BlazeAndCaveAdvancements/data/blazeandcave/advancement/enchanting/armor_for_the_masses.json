@@ -8,7 +8,7 @@
 		"announce_to_chat": true,
 		"frame": "goal"
 	},
-	"parent": "blazeandcave:enchanting/like_a_cat",
+	"parent": "blazeandcave:enchanting/echidna",
 	"rewards": {
 		"function": "bacap_rewards:enchanting/armor_for_the_masses"
 	},			

@@ -12,6 +12,7 @@
 	"minecraft:strider",
 	"#minecraft:boat",
 	"#blazeandcave:chest_boats",
-	"minecraft:minecart"
+	"minecraft:minecart",
+	"minecraft:happy_ghast"
   ]
 }

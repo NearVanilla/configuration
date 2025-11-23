@@ -18,7 +18,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#minecraft:swords"
+						"items": "#blazeandcave:swords"
 					}
 				]
 			}

@@ -627,6 +627,75 @@
 					}
 				]
 			}
+		},
+		"copper_torch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_torch"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"copper_lantern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_lantern",
+							"minecraft:waxed_copper_lantern"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"exposed_copper_lantern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:exposed_copper_lantern",
+							"minecraft:waxed_exposed_copper_lantern"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"weathered_copper_lantern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:weathered_copper_lantern",
+							"minecraft:waxed_weathered_copper_lantern"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"oxidized_copper_lantern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oxidized_copper_lantern",
+							"minecraft:waxed_oxidized_copper_lantern"
+						],
+						"count": 64
+					}
+				]
+			}
 		}
 	}
 }

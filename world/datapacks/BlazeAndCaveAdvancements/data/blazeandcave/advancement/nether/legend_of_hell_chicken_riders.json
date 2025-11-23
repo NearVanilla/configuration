@@ -20,7 +20,7 @@
 				"entity": {
 					"type": "chicken",
 					"passenger": {
-						"tag": "blazeandcave:zombies",
+						"type": "#blazeandcave:zombies",
 						"flags": {
 							"is_baby": true
 						}
@@ -35,7 +35,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"tag": "blazeandcave:zombies",
+					"type": "#blazeandcave:zombies",
 					"flags": {
 						"is_baby": true
 					},

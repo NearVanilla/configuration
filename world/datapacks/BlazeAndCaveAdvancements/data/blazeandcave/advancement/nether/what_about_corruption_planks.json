@@ -192,6 +192,18 @@
 					}
 				]
 			}
+		},
+		"crimson_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:crimson_shelf"
+						]
+					}
+				]
+			}
 		}
 	}
 }

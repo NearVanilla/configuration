@@ -870,6 +870,17 @@
 					}
 				}
 			}
+		},
+		"copper_golem": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "copper_golem",
+					"location": {
+						"dimension": "the_nether"
+					}
+				}
+			}
 		}
 	}
 }

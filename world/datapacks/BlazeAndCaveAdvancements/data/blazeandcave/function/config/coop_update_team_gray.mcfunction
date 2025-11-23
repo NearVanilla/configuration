@@ -1418,3 +1418,26 @@ execute if score blazeandcave:end/youre_doing_it_wrong bac_obtained_gray matches
 
 execute if score blazeandcave:challenges/at_the_rim_of_the_sky bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:challenges/at_the_rim_of_the_sky
 execute if score blazeandcave:challenges/lets_take_it_up_a_notch bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:challenges/lets_take_it_up_a_notch
+
+
+execute if score blazeandcave:mining/copper_age bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:mining/copper_age
+execute if score blazeandcave:mining/copper_golem_overlord bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:mining/copper_golem_overlord
+execute if score blazeandcave:mining/beep_bop bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:mining/beep_bop
+execute if score blazeandcave:mining/wax_treatment bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:mining/wax_treatment
+execute if score blazeandcave:mining/total_copout bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:mining/total_copout
+execute if score blazeandcave:mining/such_a_poser bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:mining/such_a_poser
+execute if score blazeandcave:mining/statue_of_limitations bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:mining/statue_of_limitations
+execute if score blazeandcave:mining/conductive_conglomerate bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:mining/conductive_conglomerate
+execute if score blazeandcave:mining/d_b_copper bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:mining/d_b_copper
+execute if score blazeandcave:mining/life_sentence bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:mining/life_sentence
+execute if score blazeandcave:mining/chain_gang bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:mining/chain_gang
+execute if score blazeandcave:mining/gratest_of_all_time bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:mining/gratest_of_all_time
+execute if score blazeandcave:mining/green_lanterns bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:mining/green_lanterns
+execute if score blazeandcave:mining/copper_computer bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:mining/copper_computer
+execute if score blazeandcave:mining/school_of_hard_knocks bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:mining/school_of_hard_knocks
+
+execute if score blazeandcave:building/chartreuse bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:building/chartreuse
+execute if score blazeandcave:building/shelfception bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:building/shelfception
+execute if score blazeandcave:building/locked_and_loaded bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:building/locked_and_loaded
+
+execute if score blazeandcave:enchanting/echidna bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only blazeandcave:enchanting/echidna

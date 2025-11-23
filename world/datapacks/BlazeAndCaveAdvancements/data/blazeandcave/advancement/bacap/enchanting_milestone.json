@@ -727,6 +727,19 @@
 					}
 				}
 			}
+		},
+		"echidna": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:enchanting/echidna": true
+						}
+					}
+				}
+			}
 		}
 	}
 }

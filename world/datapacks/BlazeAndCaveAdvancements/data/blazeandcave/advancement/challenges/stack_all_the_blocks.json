@@ -8188,7 +8188,7 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:chain"
+							"minecraft:iron_chain"
 						],
 						"count": 64
 					}
@@ -11803,6 +11803,786 @@
 					{
 						"items": [
 							"minecraft:dried_ghast"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"copper_bars": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_bars"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"exposed_copper_bars": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:exposed_copper_bars"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"weathered_copper_bars": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:weathered_copper_bars"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"oxidized_copper_bars": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oxidized_copper_bars"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_copper_bars": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_copper_bars"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_exposed_copper_bars": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_exposed_copper_bars"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_weathered_copper_bars": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_weathered_copper_bars"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_oxidized_copper_bars": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_oxidized_copper_bars"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"copper_chain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_chain"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"exposed_copper_chain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:exposed_copper_chain"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"weathered_copper_chain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:weathered_copper_chain"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"oxidized_copper_chain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oxidized_copper_chain"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_copper_chain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_copper_chain"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_exposed_copper_chain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_exposed_copper_chain"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_weathered_copper_chain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_weathered_copper_chain"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_oxidized_copper_chain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_oxidized_copper_chain"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"copper_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_chest"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"exposed_copper_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:exposed_copper_chest"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"weathered_copper_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:weathered_copper_chest"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"oxidized_copper_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oxidized_copper_chest"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_copper_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_copper_chest"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_exposed_copper_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_exposed_copper_chest"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_weathered_copper_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_weathered_copper_chest"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_oxidized_copper_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_oxidized_copper_chest"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"copper_golem_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_golem_statue"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"exposed_copper_golem_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:exposed_copper_golem_statue"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"weathered_copper_golem_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:weathered_copper_golem_statue"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"oxidized_copper_golem_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oxidized_copper_golem_statue"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_copper_golem_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_copper_golem_statue"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_exposed_copper_golem_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_exposed_copper_golem_statue"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_weathered_copper_golem_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_weathered_copper_golem_statue"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_oxidized_copper_golem_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_oxidized_copper_golem_statue"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"copper_lantern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_lantern"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"exposed_copper_lantern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:exposed_copper_lantern"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"weathered_copper_lantern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:weathered_copper_lantern"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"oxidized_copper_lantern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oxidized_copper_lantern"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_copper_lantern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_copper_lantern"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_exposed_copper_lantern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_exposed_copper_lantern"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_weathered_copper_lantern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_weathered_copper_lantern"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_oxidized_copper_lantern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_oxidized_copper_lantern"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"exposed_lightning_rod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:exposed_lightning_rod"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"weathered_lightning_rod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:weathered_lightning_rod"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"oxidized_lightning_rod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oxidized_lightning_rod"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_lightning_rod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_lightning_rod"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_exposed_lightning_rod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_exposed_lightning_rod"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_weathered_lightning_rod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_weathered_lightning_rod"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_oxidized_lightning_rod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_oxidized_lightning_rod"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"copper_torch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_torch"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"oak_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oak_shelf"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"spruce_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:spruce_shelf"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"birch_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:birch_shelf"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"jungle_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:jungle_shelf"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"acacia_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:acacia_shelf"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"dark_oak_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:dark_oak_shelf"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"mangrove_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:mangrove_shelf"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"crimson_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:crimson_shelf"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"warped_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:warped_shelf"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"bamboo_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bamboo_shelf"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cherry_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cherry_shelf"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pale_oak_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_shelf"
 						],
 						"count": 64
 					}

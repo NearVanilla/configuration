@@ -39,6 +39,19 @@
 				}
 			}
 		},
+		"copper_shovel": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:copper_shovel"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
 		"gold_shovel": {
 			"trigger": "minecraft:item_durability_changed",
 			"conditions": {
@@ -110,6 +123,19 @@
 				"item": {
 					"items": [
 						"minecraft:stone_pickaxe"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
+		"copper_pickaxe": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:copper_pickaxe"
 					]
 				},
 				"durability": {
@@ -195,6 +221,19 @@
 				}
 			}
 		},
+		"copper_axe": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:copper_axe"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
 		"gold_axe": {
 			"trigger": "minecraft:item_durability_changed",
 			"conditions": {
@@ -273,6 +312,19 @@
 				}
 			}
 		},
+		"copper_hoe": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:copper_hoe"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
 		"gold_hoe": {
 			"trigger": "minecraft:item_durability_changed",
 			"conditions": {
@@ -344,6 +396,19 @@
 				"item": {
 					"items": [
 						"minecraft:stone_sword"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
+		"copper_sword": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:copper_sword"
 					]
 				},
 				"durability": {

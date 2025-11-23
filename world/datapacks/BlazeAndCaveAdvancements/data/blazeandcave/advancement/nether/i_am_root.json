@@ -17,7 +17,10 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#minecraft:nether_roots"
+						"items": [
+							"minecraft:crimson_roots",
+							"minecraft:warped_roots"
+						]
 					}
 				]
 			}

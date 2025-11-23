@@ -23,7 +23,7 @@
 						"predicate": {
 							"location": {
 								"block": {
-									"blocks": "#minecraft:non_underwater_blocks"
+									"blocks": "#blazeandcave:non_underwater_blocks"
 								},
 								"position": {
 									"y": {

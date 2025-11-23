@@ -216,6 +216,18 @@
 					}
 				]
 			}
+		},
+		"mangrove_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:mangrove_shelf"
+						]
+					}
+				]
+			}
 		}
 	}
 }

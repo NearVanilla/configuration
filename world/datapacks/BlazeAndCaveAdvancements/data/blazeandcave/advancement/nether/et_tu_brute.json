@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:chain"
+			"id": "minecraft:iron_chain"
 		},
 		"title": {"translate":"Et tu, Brute?"},
 		"description": {"color":"green","translate":"Get murdered by Piglin Brutes"},
