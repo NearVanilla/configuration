@@ -1,6 +1,8 @@
 # This is a world configuration file for Paper.
 # This file may start empty but can be filled with settings to override ones in the config/paper-world-defaults.yml
 # 
+# For more information, see https://docs.papermc.io/paper/reference/configuration/#per-world-configuration
+# 
 # World: world (minecraft:overworld)
 
 _version: 31
@@ -16,8 +18,10 @@ feature-seeds:
     minecraft:basalt_pillar: -246684220092628017
     minecraft:birch: -5595148882225468773
     minecraft:birch_bees_0002: 7030146478308833777
+    minecraft:birch_bees_0002_leaf_litter: -6596821510870168979
     minecraft:birch_bees_002: 798495199807109496
     minecraft:birch_bees_005: -3222443523839546513
+    minecraft:birch_leaf_litter: 5161292574426958396
     minecraft:birch_tall: 8108831326362189247
     minecraft:blackstone_blobs: -1088660767740963452
     minecraft:blue_ice: -1653386032126811209
@@ -35,6 +39,7 @@ feature-seeds:
     minecraft:crimson_fungus_planted: -8677536089277774250
     minecraft:dark_forest_vegetation: -8119872248942339892
     minecraft:dark_oak: 3750289713129661667
+    minecraft:dark_oak_leaf_litter: 1212782950560010509
     minecraft:delta: 1760140278961821619
     minecraft:desert_well: 4939955262983764593
     minecraft:disk_clay: -4243145125906697129
@@ -48,11 +53,17 @@ feature-seeds:
     minecraft:end_island: -4963785006047143845
     minecraft:end_platform: 9193754972965463127
     minecraft:end_spike: 996921712850406976
+    minecraft:fallen_birch_tree: -305255357035649799
+    minecraft:fallen_jungle_tree: 8264646929732228984
+    minecraft:fallen_oak_tree: -1631233742916385391
+    minecraft:fallen_spruce_tree: 6358764800092031624
+    minecraft:fallen_super_birch_tree: 1256765466404117753
     minecraft:fancy_oak: 4016918491314132864
     minecraft:fancy_oak_bees: 2934042264969427021
-    minecraft:fancy_oak_bees_0002: -2701695566603762272
+    minecraft:fancy_oak_bees_0002_leaf_litter: 6627224531993780348
     minecraft:fancy_oak_bees_002: 3555280023130421967
     minecraft:fancy_oak_bees_005: 4375060746354240454
+    minecraft:fancy_oak_leaf_litter: -2017457197194714484
     minecraft:flower_cherry: 5132866257480862883
     minecraft:flower_default: 8763780876705331708
     minecraft:flower_flower_forest: -162697994909184664
@@ -96,9 +107,10 @@ feature-seeds:
     minecraft:nether_sprouts: 4480105439502448353
     minecraft:nether_sprouts_bonemeal: 4273746928370895024
     minecraft:oak: -6948209145022809010
-    minecraft:oak_bees_0002: 5001956171898707899
+    minecraft:oak_bees_0002_leaf_litter: -4261963595350611833
     minecraft:oak_bees_002: 642984379460157747
     minecraft:oak_bees_005: 4894085037563881716
+    minecraft:oak_leaf_litter: 7445626882364262255
     minecraft:ore_ancient_debris_large: 8169607241787969797
     minecraft:ore_ancient_debris_small: 2100649878869153421
     minecraft:ore_andesite: 2319648845041598003
@@ -141,13 +153,18 @@ feature-seeds:
     minecraft:pale_oak_creaking: 3506613744750059445
     minecraft:patch_berry_bush: 7044279153600388627
     minecraft:patch_brown_mushroom: -5321210484926894011
+    minecraft:patch_bush: -6023572310156672659
     minecraft:patch_cactus: 398028008712107320
     minecraft:patch_crimson_roots: 2618200744717621666
     minecraft:patch_dead_bush: 9123194751386125448
+    minecraft:patch_dry_grass: 8159025198763994174
     minecraft:patch_fire: 2807021202849460586
+    minecraft:patch_firefly_bush: 904880090271720158
     minecraft:patch_grass: 4193164217629984664
     minecraft:patch_grass_jungle: 756372275206406333
+    minecraft:patch_grass_meadow: 4952027737671350579
     minecraft:patch_large_fern: -3088533854257541423
+    minecraft:patch_leaf_litter: 6421199726429537381
     minecraft:patch_melon: -3186479758085442796
     minecraft:patch_pumpkin: 8529999677327135094
     minecraft:patch_red_mushroom: 6228459616939581722
@@ -187,7 +204,9 @@ feature-seeds:
     minecraft:super_birch_bees_0002: -3622699372633370872
     minecraft:swamp_oak: -9068682508895285664
     minecraft:tall_mangrove: 5199301393900574300
-    minecraft:trees_birch_and_oak: 2983576674214374209
+    minecraft:trees_badlands: 1267596971369486828
+    minecraft:trees_birch: 6380565504261125899
+    minecraft:trees_birch_and_oak_leaf_litter: -6823797423177805542
     minecraft:trees_flower_forest: 6028237543173426934
     minecraft:trees_grove: 5958763313035924865
     minecraft:trees_jungle: -1294109970702176365
@@ -195,6 +214,7 @@ feature-seeds:
     minecraft:trees_old_growth_spruce_taiga: 3192764702166807114
     minecraft:trees_plains: 5225704959106327330
     minecraft:trees_savanna: 484493471454539170
+    minecraft:trees_snowy: 5725650987813003634
     minecraft:trees_sparse_jungle: -3819499636997245307
     minecraft:trees_taiga: 3083606243857929315
     minecraft:trees_water: 2420754958658421681
@@ -210,3 +230,5 @@ feature-seeds:
     minecraft:warped_fungus: -7532744087781571108
     minecraft:warped_fungus_planted: -310328649934538810
     minecraft:weeping_vines: -1959536046083140150
+    minecraft:wildflowers_birch_forest: 8710114762576812450
+    minecraft:wildflowers_meadow: 768598074841046816
