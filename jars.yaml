@@ -1,47 +1,47 @@
 platform: Paper
 plugins:
-- checksum: 1c23a11fc53e00170f45dfff65896029bab14fee
+- checksum: 1b464bf8c54e389c816881eb2f7f06156d8a918b
   name: ArmorStandEditor
-  version: 1.21.4-48.1
-- checksum: a57977a017d5d0026f9d55c8ba16d18961ef57dc
+  version: 1.21.8-49.1
+- checksum: 188fd2159cee3b537c4a5894dccc66f7ddb86618
   name: DiscordSRV
-  version: 1.29.0
-- checksum: 48af7c27f627c214bc503132a47dbc9a357c33d0
+  version: 1.30.2
+- checksum: 968f0f93c5b38b7cb9c190827ff6a2c65e9d3585
   name: LuckPerms
-  version: 5.4.156
-- checksum: f471bbcefbe5ef63f4a948b9c2a4d3abdee1e24a
+  version: 5.5.20
+- checksum: ff2cb3d3bbdd1fd3d8dbc19a7e5d58bbd7d345a9
   name: CarbonChat
-  version: 3.0.0-beta.27
-- checksum: bcb0fff5702f87c278a461878b955e77a2b57d83
+  version: 3.0.0-beta.36
+- checksum: 0ed3b277f16e2abf44b9be10c7de2c4a2b6b0b4d
   name: voicechat
-  version: 2.5.26
-- checksum: d39d0b410497aea25c66b03409f3fce100c006bd
+  version: 2.6.6
+- checksum: a4d8cd35448764fff58872feb6c83c619a36babe
   name: FreedomChat
-  version: 1.7.0
-- checksum: 10006fbf7e84ebcd7e47f0150614921ee96c6102
+  version: 1.7.6
+- checksum: f73255cb5c927cf84d8e4f76e3950f7db00509aa
   name: FastAsyncWorldEdit
-  version: 2.13.0;a1eba40
-- checksum: 33b6c2b5dad6f5b99235d4883d4ac1a3d200c3d4
+  version: 2.14.2+1c61d82
+- checksum: b0df0349eec56ad6a8ce1227c7d543036abec9b2
   name: ChunkyBorder
-  version: 1.2.13
-- checksum: 2b7672f20ce884ecea5ccc772f758cdd89dbd6a7
+  version: 1.2.23
+- checksum: 7c196c5bebd6017880f3c2a38fc297b3b99f5f93
   name: Chunky
-  version: 1.4.30
-- checksum: 34a0b3b324a74658141eb6c378d674755b04a64a
+  version: 1.4.40
+- checksum: 083be80d78376bd218f36f840348a0523ecce0e3
   name: BlueMap
-  version: '5.6'
-- checksum: 8964a86b7e9c731703b2abab965b0c2a0c6d9860
+  version: '5.13'
+- checksum: 7462f99ee6eb0af3edc361b047651d4ac97ee914
   name: SignedVelocity
-  version: 1.2.3
-- checksum: a9e1ac036f207d3ca8b3131042d6a080cfbfda97
+  version: 1.4.1
+- checksum: 5986fb288e55b43f7363f0fb3600fec6a534f2ea
   name: PaperTweaks
-  version: 0.5.0-beta.1
-- checksum: 53788389638a48a96b1618fcaf62c47f3036cea1
+  version: 0.5.0
+- checksum: f4106c727ca6804ed0fb77fb9a6268863bd582e7
   name: PlotSquared
-  version: 7.4.2-SNAPSHOT
+  version: 7.5.10
 - checksum: 5cb2143f5cf229f3f3407d6c5a9ff321f1161f8c
   name: GFly
   version: 2.3.0.0
 version:
-  build: 177
-  name: 1.21.4
+  build: 117
+  name: 1.21.10
