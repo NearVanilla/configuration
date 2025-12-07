@@ -1,13 +1,31 @@
+# Projectile type - Valid values: EGG, SNOWBALL, ENDER_PEARL, ARROW, TRIDENT, EXPERIENCE_BOTTLE, etc.
+# Only one projectile type can be active at a time
+projectile_type: SNOWBALL
+
+# Participant prefix - shown before player names
+participant_prefix: "<aqua>[❄]</aqua> "
+
+# Objective title - shown in scoreboard tab list
+objective_title: "<light_purple>NV:</light_purple> <aqua>Snow</aqua> <gold>Battle</gold>"
+
+# Effects settings - customize particle and sounds
+# For particles find them in "org.bukkit.Particle"
+# for sounds use minecraft sound names you can find in "org.bukkit.Sound"
+effects:
+  particle: SNOWFLAKE
+  thrower_sound: entity.snowball.throw
+  target_sound: block.powder_snow.break
+
 messages:
   game_explanation: |-
-    <yellow>✦</yellow> <gold><bold>EGG BATTLE</bold></gold> <yellow>✦</yellow>
+    <yellow>✦</yellow> <gold><bold>SNOW BATTLE</bold></gold> <yellow>✦</yellow>
     <aqua>➤</aqua> <green>Join the fun by typing</green> <yellow>/eggbattle join</yellow>
-    <aqua>➤</aqua> <light_purple>Hit other players with eggs to earn points!</light_purple>
+    <aqua>➤</aqua> <light_purple>Hit other players with snowballs to earn points!</light_purple>
     <aqua>➤</aqua> <red>To leave the game, type</red> <yellow>/eggbattle leave</yellow>
     <aqua>➤</aqua> <red>Leaving will not reset your score</red>
-  game_end: <yellow>✦</yellow> <gold><bold>EGG BATTLE</bold></gold> <green>has</green>
+  game_end: <yellow>✦</yellow> <gold><bold>SNOW BATTLE</bold></gold> <green>has</green>
     <light_purple><bold>ENDED</bold></light_purple> <yellow>✦</yellow>
-  player_join: <green>You have joined the Egg Battle!</green>
-  player_leave: <yellow>You have left the Egg Battle!</yellow>
-  already_joined: <red>You are already in the Egg Battle!</red>
-  not_joined: <red>You are not in the Egg Battle!</red>
+  player_join: <green>You have joined the Snow Battle!</green>
+  player_leave: <yellow>You have left the Snow Battle!</yellow>
+  already_joined: <red>You are already in the Snow Battle!</red>
+  not_joined: <red>You are not in the Snow Battle!</red>
