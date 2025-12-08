@@ -207,6 +207,6 @@ velocity-ping-save: false
 velocity-servers:
   default: 773
   survival: 773
-  creative: 767
+  creative: 773
 # Vines that are not connected to blocks will be mapped to air, else 1.13+ would still be able to climb up on them.
 vine-climb-fix: false
