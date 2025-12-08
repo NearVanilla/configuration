@@ -15,9 +15,9 @@ plugins:
 - checksum: 8017016965d5312a3bbc2fb9563abcb1634b9249
   name: DeathLog
   version: 1.0.2
-- checksum: 188fd2159cee3b537c4a5894dccc66f7ddb86618
+- checksum: 61092a3294690be0348f97f217336b10f8948ff3
   name: DiscordSRV
-  version: 1.30.2
+  version: 1.30.3
 - checksum: 722793bc7977c7dae77b5d1774a753a2b6708beb
   name: FirstJoinMessage
   version: 1.0.2
@@ -87,9 +87,9 @@ plugins:
 - checksum: b0df0349eec56ad6a8ce1227c7d543036abec9b2
   name: ChunkyBorder
   version: 1.2.23
-- checksum: 906ca01297d5a18a5d116c962e187cb183077c86
+- checksum: 7462f99ee6eb0af3edc361b047651d4ac97ee914
   name: SignedVelocity
-  version: 1.3.0
+  version: 1.4.1
 - checksum: 5986fb288e55b43f7363f0fb3600fec6a534f2ea
   name: PaperTweaks
   version: 0.5.0
@@ -120,9 +120,9 @@ plugins:
 - checksum: 894f851485cb565e375e60ae79acfb959f8da55a
   name: BabyAnimals
   version: 1.1-SNAPSHOT
-- checksum: 218b7283bbb81d330084b9b824f7364d1c8adbaf
+- checksum: 804250c9c0af2e23ea87eb60f812ec198fb3548c
   name: EggBattle
-  version: '1.3'
+  version: '1.4'
 - checksum: 68fbeebd2d9c585301f0f693ee14078649dcef1c
   name: PlayerSeen
   version: '1.0'
@@ -133,5 +133,5 @@ plugins:
   name: WorldTour
   version: 1.0-SNAPSHOT
 version:
-  build: 113
+  build: 117
   name: 1.21.10
