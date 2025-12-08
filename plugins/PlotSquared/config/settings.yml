@@ -165,6 +165,11 @@ done:
 paths:
   schematics: "schematics"
   templates: "templates"
+  # If schematics used for generation should be searched for in the path.schematics location
+  #  - This setting exists and is `false` by default for backwards compatibility.
+  #  - If false then generation schematics must be located in `schematics`
+  #  - Schematics must still always be under GEN_ROAD_SCHEMATIC/<world> etc.
+  use-schematics-path-for-gen-schematics: false
 
 # Schematic interface related settings
 web:
@@ -215,6 +220,8 @@ teleport:
   per-world-visit: false
   # Search merged plots for having multiple owners when using the visit command
   visit-merged-owners: true
+  # Allows to teleport based on block size instead to spawn on the highest block at the home command
+  sized-based: true
 
 # Chunk processor related settings
 # See https://intellectualsites.gitbook.io/plotsquared/optimization/chunk-processor for more information.
