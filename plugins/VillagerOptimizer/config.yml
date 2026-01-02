@@ -1,0 +1,264 @@
+config-version: 1.0
+
+#############
+#  General  #
+#############
+general:
+  # The default language that will be used if auto-language is false
+  # or no matching language file was found.
+  default-language: en_us
+  # If set to true, will display messages based on client language
+  auto-language: true
+  # The amount of time in seconds a villager will be kept in the plugin's cache.
+  cache-keep-time-seconds: 30
+  # Enable if you have previously used AntiVillagerLag
+  # (https://www.spigotmc.org/resources/antivillagerlag.102949/).
+  # Tries to read pre-existing info like optimization state so players
+  # don't need to reoptimize their villagers.
+  support-avl-villagers: false
+
+##################
+#  Optimization  #
+##################
+optimization-methods:
+  # If you want to disable commands, negate the following permissions:
+  # villageroptimizer.cmd.optimize
+  # villageroptimizer.cmd.unoptimize
+  commands:
+    unoptimizevillagers:
+      max-block-radius: 100
+    optimizevillagers:
+      max-block-radius: 100
+      # Cooldown in seconds until a villager can be optimized again using the command.
+      # Here for configuration freedom. Recommended to leave as is to not enable any exploitable behavior.
+      cooldown-seconds: 600
+  nametag-optimization:
+    # Enable optimization by naming villagers to one of the names configured below.
+    # Nametag optimized villagers will be unoptimized again when they are renamed to something else.
+    enable: true
+    # Names are case insensitive, capital letters won't matter.
+    names:
+    - Optimize
+    - DisableAI
+    # Enable or disable consumption of the used nametag item.
+    nametags-get-consumed: true
+    # Cooldown in seconds until a villager can be optimized again using a nametag.
+    # Here for configuration freedom. Recommended to leave as is to not enable any exploitable behavior.
+    optimize-cooldown-seconds: 600
+    # Sends players a message when they successfully optimized a villager.
+    notify-player: true
+    log: false
+  regional-activity:
+    # Enable optimization by naming villagers to one of the names configured below.
+    # Nametag optimized villagers will be unoptimized again when they are renamed to something else.
+    enable: false
+    # The radius in blocks in which activity will be grouped together and measured.
+    check-radius-blocks: 500.0
+    # The time in milliseconds before a region and its data will be expired
+    # if no activity has been detected.
+    # For proper functionality, needs to be at least as long as your pause time.
+    data-keep-time-millis: 10000
+    limits:
+      pathfind-event: 150
+      interact-event: 50
+    # Sends players a message to any player near an auto-optimized villager.
+    notify-players: true
+    log: false
+  workstation-optimization:
+    # When enabled, villagers that have a job and have been traded with at least once will become optimized,
+    # if near their workstation. If the workstation is broken, the villager will become unoptimized again.
+    enable: false
+    # After a workstation has been placed, the plugin will wait for the configured amount of time in ticks
+    # for a villager to claim that workstation. Not recommended to go below 100 ticks.
+    check-linger-duration-ticks: 100
+    # The radius in blocks a villager can be away from the player when he places a workstation.
+    # The closest unoptimized villager to the player will be optimized.
+    search-radius-in-blocks: 2.0
+    # Cooldown in seconds until a villager can be optimized again using a workstation.
+    # Here for configuration freedom. Recommended to leave as is to not enable any exploitable behavior.
+    optimize-cooldown-seconds: 600
+    # Only optimize/unoptimize by workstation when player is sneaking during place or break. Useful for villager rolling.
+    only-when-sneaking: true
+    # Sends players a message when they successfully optimized a villager.
+    notify-player: true
+    log: false
+  block-optimization:
+    # When enabled, the closest villager standing near a configured block being placed will be optimized.
+    # If a configured block is broken nearby, the closest villager will become unoptimized again.
+    enable: false
+    # Values here need to be valid bukkit Material enums for your server version.
+    materials:
+    - LAPIS_BLOCK
+    - GLOWSTONE
+    - IRON_BLOCK
+    # Cooldown in seconds until a villager can be optimized again by using specific blocks.
+    # Here for configuration freedom. Recommended to leave as is to not enable any exploitable behavior.
+    optimize-cooldown-seconds: 600
+    # The radius in blocks a villager can be away from the player when he places an optimize block.
+    # The closest unoptimized villager to the player will be optimized.
+    search-radius-in-blocks: 2.0
+    # Only optimize/unoptimize by block when player is sneaking during place or break.
+    only-when-sneaking: true
+    # Sends players a message when they successfully optimized or unoptimized a villager.
+    notify-player: true
+    log: false
+
+##########################
+#  Villager Chunk Limit  #
+##########################
+villager-chunk-limit:
+  # Checks chunks for too many villagers and removes excess villagers based on priority.
+  enable: false
+  # Check all loaded chunks every X ticks. 1 second = 20 ticks
+  # A shorter delay in between checks is more efficient but is also more resource intense.
+  # A larger delay is less resource intense but could become inefficient.
+  check-period-in-ticks: 600
+  # Does not check chunks that don't have their entities loaded.
+  skip-not-fully-loaded-chunks: true
+  # The delay in seconds a chunk will not be checked again after the first time.
+  # Reduces chances to lag the server due to overchecking.
+  chunk-check-cooldown-seconds: 5
+  log-removals: true
+  whitelist:
+    # Enable if you only want to manage villager counts for certain profession types.
+    enable: false
+    # Professions in this list will not be touched by the chunk limit.
+    professions:
+    - NONE
+    - NITWIT
+  unoptimized:
+    # The maximum amount of unoptimized villagers per chunk.
+    max-per-chunk: 20
+    # Professions that are in the top of the list are going to be scheduled for removal first.
+    # Use enums from https://jd.papermc.io/paper/1.20/org/bukkit/entity/Villager.Profession.html
+    removal-priority:
+    - NONE
+    - NITWIT
+    - SHEPHERD
+    - FISHERMAN
+    - BUTCHER
+    - CARTOGRAPHER
+    - LEATHERWORKER
+    - FLETCHER
+    - MASON
+    - FARMER
+    - ARMORER
+    - TOOLSMITH
+    - WEAPONSMITH
+    - CLERIC
+    - LIBRARIAN
+  optimized:
+    # The maximum amount of optimized villagers per chunk.
+    max-per-chunk: 60
+    removal-priority:
+    - NONE
+    - NITWIT
+    - SHEPHERD
+    - FISHERMAN
+    - BUTCHER
+    - CARTOGRAPHER
+    - LEATHERWORKER
+    - FLETCHER
+    - MASON
+    - FARMER
+    - ARMORER
+    - TOOLSMITH
+    - WEAPONSMITH
+    - CLERIC
+    - LIBRARIAN
+
+##############
+#  Gameplay  #
+##############
+gameplay:
+  prevent-trading-with-unoptimized:
+    # Will prevent players from selecting and using trades of unoptimized villagers.
+    # Use this if you have a lot of villagers and therefore want to force your players to optimize them.
+    # Inventories can still be opened so players can move villagers around.
+    enable: false
+    # Sends players a message when they try to trade with an unoptimized villager.
+    notify-player: true
+  # This is for automatic restocking of trades for optimized villagers. Optimized Villagers
+  # don't have enough AI to restock their trades naturally, so this is here as a workaround.
+  restock-optimized-trades:
+    # At which (tick-)times during the day villagers will restock.
+    # There are 24.000 ticks in a single minecraft day.
+    restock-times:
+    - 1000
+    - 13000
+    # Sends the player a message when the trades were restocked on a clicked villager.
+    notify-player: true
+    log: false
+  # This is needed to allow optimized villagers to level up.
+  # Temporarily enables the villagers AI to allow it to level up and then disables it again.
+  level-optimized-profession:
+    # Cooldown in seconds until the level of a villager will be checked and updated again.
+    # Recommended to leave as is.
+    level-check-cooldown-seconds: 5
+    # Tell players to wait when a villager is leveling up.
+    notify-player: true
+  unoptimize-on-job-loose:
+    # Villagers that get their jobs reset will become unoptimized again.
+    enable: true
+  villagers-can-be-leashed:
+    # Enable leashing of villagers, enabling players to easily move villagers to where they want them to be.
+    enable: false
+    # If set to true, only optimized villagers can be leashed.
+    only-optimized: false
+    log: false
+  villagers-spawn-as-adults:
+    # Spawned villagers will immediately be adults.
+    # This is to save some more resources as players don't have to keep unoptimized
+    # villagers loaded because they have to wait for them to turn into adults before they can
+    # optimize them.
+    enable: false
+  rename-optimized-villagers:
+    enable: false
+  prevent-entities-from-targeting-optimized:
+    # Prevents hostile entities from targeting optimized villagers.
+    enable: true
+  prevent-damage-to-optimized:
+    # Configure what kind of damage you want to cancel for optimized villagers here.
+    enable: true
+    # Prevents optimized villagers from getting knocked back by an attacking entity
+    prevent-knockback-from-entity: true
+    # These are all current entries in the game. Remove what you do not need blocked.
+    # If you want a description or need to add a previously removed type, refer to:
+    # https://jd.papermc.io/paper/1.20/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+    damage-causes-to-cancel:
+    - BLOCK_EXPLOSION
+    - CAMPFIRE
+    - CONTACT
+    - CRAMMING
+    - CUSTOM
+    - DRAGON_BREATH
+    - DROWNING
+    - DRYOUT
+    - ENTITY_ATTACK
+    - ENTITY_EXPLOSION
+    - ENTITY_SWEEP_ATTACK
+    - FALL
+    - FALLING_BLOCK
+    - FIRE
+    - FIRE_TICK
+    - FLY_INTO_WALL
+    - FREEZE
+    - HOT_FLOOR
+    - KILL
+    - LAVA
+    - LIGHTNING
+    - MAGIC
+    - MELTING
+    - POISON
+    - PROJECTILE
+    - SONIC_BOOM
+    - STARVATION
+    - SUFFOCATION
+    - SUICIDE
+    - THORNS
+    - VOID
+    - WITHER
+    - WORLD_BORDER
+  outline-optimized-villagers:
+    # Will make optimized villagers glow.
+    enable: false
