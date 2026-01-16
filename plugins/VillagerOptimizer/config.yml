@@ -216,10 +216,10 @@ gameplay:
     enable: false
   prevent-entities-from-targeting-optimized:
     # Prevents hostile entities from targeting optimized villagers.
-    enable: true
+    enable: false
   prevent-damage-to-optimized:
     # Configure what kind of damage you want to cancel for optimized villagers here.
-    enable: true
+    enable: false
     # Prevents optimized villagers from getting knocked back by an attacking entity
     prevent-knockback-from-entity: true
     # These are all current entries in the game. Remove what you do not need blocked.
