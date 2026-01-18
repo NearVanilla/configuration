@@ -9,7 +9,7 @@ from typing import Iterable, List, Dict, Any, Optional
 
 from .utils import response_to_file
 
-BASE_URL = "https://api.papermc.io/v2"
+BASE_URL = "https://fill.papermc.io/v3"
 SESSION = Session()
 SESSION.headers["User-Agent"] = "ServerJarManager"
 SESSION.headers["Accept"] = "application/json"
@@ -94,15 +94,24 @@ class BuildBase(VersionBase):
 class Build(BuildBase):
     time: str
     channel: str
-    promoted: bool
-    changes: List[Dict[str, str]]
     downloads: Dict[str, Dict[str, str]]
 
     @classmethod
     def get_build_from(cls, project_id: str, version: str, build: int) -> Build:
         response = SESSION.get(cls.get_build_request_url(project_id, version, build))
         response.raise_for_status()
-        return cls(**response.json())
+
+        data = response.json()
+        response_data = {
+            "build": build,
+            "project_id": project_id,
+            "project_name": project_id, # Use project id as project name
+            "version": version,
+            "time": data["time"],
+            "channel": data["channel"],
+            "downloads": data["downloads"],
+        }
+        return cls(**response_data)
 
     def get_download_url(self, file_name: str) -> str:
         return f"{self.build_base_url}/downloads/{file_name}"
