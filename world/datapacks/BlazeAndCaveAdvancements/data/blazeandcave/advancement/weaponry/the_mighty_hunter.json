@@ -572,6 +572,86 @@
 					"type": "armadillo"
 				}
 			}
+		},
+		"skeleton_horse": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "minecraft:is_projectile",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"type": "#blazeandcave:arrows",
+						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
+					}
+				},
+				"entity": {
+					"type": "skeleton_horse"
+				}
+			}
+		},
+		"zoglin": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "minecraft:is_projectile",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"type": "#blazeandcave:arrows",
+						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
+					}
+				},
+				"entity": {
+					"type": "zoglin"
+				}
+			}
+		},
+		"zombie_horse": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "minecraft:is_projectile",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"type": "#blazeandcave:arrows",
+						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
+					}
+				},
+				"entity": {
+					"type": "zombie_horse"
+				}
+			}
+		},
+		"camel_husk": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "minecraft:is_projectile",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"type": "#blazeandcave:arrows",
+						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
+					}
+				},
+				"entity": {
+					"type": "camel_husk"
+				}
+			}
 		}
 	}
 }

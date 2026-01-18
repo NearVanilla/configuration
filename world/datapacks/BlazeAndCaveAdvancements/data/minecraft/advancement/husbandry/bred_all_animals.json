@@ -220,6 +220,14 @@
 		  "type": "minecraft:armadillo"
 		}
 	  }
+	},
+	"minecraft:nautilus": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "type": "minecraft:nautilus"
+		}
+	  }
 	}
   }
 }

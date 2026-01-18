@@ -1441,3 +1441,6 @@ execute if score blazeandcave:building/shelfception bac_obtained_dark_aqua match
 execute if score blazeandcave:building/locked_and_loaded bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only blazeandcave:building/locked_and_loaded
 
 execute if score blazeandcave:enchanting/echidna bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only blazeandcave:enchanting/echidna
+
+
+execute if score minecraft:adventure/spear_many_mobs bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only minecraft:adventure/spear_many_mobs

@@ -316,6 +316,46 @@
 		  "type": "minecraft:creaking"
 		}
 	  }
+	},
+	"minecraft:skeleton_horse": {
+	  "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+		  "type": "minecraft:skeleton_horse"
+		}
+	  }
+	},
+	"minecraft:zombie_horse": {
+	  "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+		  "type": "minecraft:zombie_horse"
+		}
+	  }
+	},
+	"minecraft:zombie_nautilus": {
+	  "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+		  "type": "minecraft:zombie_nautilus"
+		}
+	  }
+	},
+	"minecraft:camel_husk": {
+	  "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+		  "type": "minecraft:camel_husk"
+		}
+	  }
+	},
+	"minecraft:parched": {
+	  "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+		  "type": "minecraft:parched"
+		}
+	  }
 	}
   }
 }

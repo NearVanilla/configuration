@@ -1442,3 +1442,6 @@ execute if score blazeandcave:building/locked_and_loaded bac_obtained matches 1.
 
 execute if score blazeandcave:enchanting/echidna bac_obtained matches 1.. run advancement grant @a only blazeandcave:enchanting/echidna
 
+
+execute if score minecraft:adventure/spear_many_mobs bac_obtained matches 1.. run advancement grant @a only minecraft:adventure/spear_many_mobs
+

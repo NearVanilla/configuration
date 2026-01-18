@@ -374,6 +374,50 @@
 					}
 				}
 			}
+		},
+		"spear_jab": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": "#minecraft:spears"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"spear_charge": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": "#minecraft:spears"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:spear",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
 		}
 	},
 	"requirements": [
@@ -429,6 +473,10 @@
 		],
 		[
 			"wind_charge"
+		],
+		[
+			"spear_jab",
+			"spear_charge"
 		]
 	]
 }

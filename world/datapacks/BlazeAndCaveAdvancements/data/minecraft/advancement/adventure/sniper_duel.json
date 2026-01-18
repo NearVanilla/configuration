@@ -31,11 +31,7 @@
 					}
 				},
 				"entity": {
-					"type": [
-						"skeleton",
-						"stray",
-						"bogged"
-					],
+					"type": "#blazeandcave:skeletons_with_bows",
 					"distance": {
 						"horizontal": {
 							"min": 50

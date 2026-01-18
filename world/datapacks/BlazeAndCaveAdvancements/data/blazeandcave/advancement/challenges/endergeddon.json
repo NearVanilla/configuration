@@ -892,6 +892,61 @@
 					}
 				}
 			}
+		},
+		"nautilus": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "nautilus",
+					"location": {
+						"dimension": "the_end"
+					}
+				}
+			}
+		},
+		"zombie_nautilus": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "zombie_nautilus",
+					"location": {
+						"dimension": "the_end"
+					}
+				}
+			}
+		},
+		"zombie_horse": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "zombie_horse",
+					"location": {
+						"dimension": "the_end"
+					}
+				}
+			}
+		},
+		"camel_husk": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "camel_husk",
+					"location": {
+						"dimension": "the_end"
+					}
+				}
+			}
+		},
+		"parched": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "parched",
+					"location": {
+						"dimension": "the_end"
+					}
+				}
+			}
 		}
 	}
 }

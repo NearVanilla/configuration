@@ -1,14 +1,14 @@
 # Function runs at the beginning of a load
 
 #  Adjusts gamerules to work properly with everything related to BACAP
-execute in minecraft:overworld run gamerule maxCommandForkCount 20000000
-execute in minecraft:overworld run gamerule maxCommandChainLength 20000000
+execute in minecraft:overworld run gamerule max_command_forks 20000000
+execute in minecraft:overworld run gamerule max_command_sequence_length 20000000
 
-execute in minecraft:the_nether run gamerule maxCommandForkCount 20000000
-execute in minecraft:the_nether run gamerule maxCommandChainLength 20000000
+execute in minecraft:the_nether run gamerule max_command_forks 20000000
+execute in minecraft:the_nether run gamerule max_command_sequence_length 20000000
 
-execute in minecraft:the_end run gamerule maxCommandForkCount 20000000
-execute in minecraft:the_end run gamerule maxCommandChainLength 20000000
+execute in minecraft:the_end run gamerule max_command_forks 20000000
+execute in minecraft:the_end run gamerule max_command_sequence_length 20000000
 
 # Adds/updates scoreboard objectives and settings
 scoreboard objectives add bac_advancements dummy {"text":"Advancements"}
@@ -147,6 +147,7 @@ scoreboard objectives add bac_third_line_horse minecraft.custom:minecraft.horse_
 scoreboard objectives add bac_third_line_pig minecraft.custom:minecraft.pig_one_cm
 scoreboard objectives add bac_third_line_strider minecraft.custom:minecraft.strider_one_cm
 scoreboard objectives add bac_third_line_happy_ghast minecraft.custom:minecraft.happy_ghast_one_cm
+scoreboard objectives add bac_third_line_nautilus minecraft.custom:minecraft.nautilus_one_cm
 scoreboard objectives add bac_1000th_item minecraft.used:minecraft.warped_button
 scoreboard objectives add bac_inv_check dummy
 scoreboard objectives add bac_inv_artillery dummy
@@ -176,23 +177,23 @@ execute unless score super_challenge bac_settings matches ..1000 run scoreboard 
 execute unless score milestone bac_settings matches ..1000 run scoreboard players set milestone bac_settings 1
 
 
-# If a setting is set to anything other than off, /gamerule announceAdvancements is set to false
+# If a setting is set to anything other than off, /gamerule show_advancement_messages is set to false
 # (This is done in all dimensions because on some kinds of servers this is required)
-execute unless score task bac_settings matches 0 run execute in the_end run gamerule announceAdvancements false
-execute unless score task bac_settings matches 0 run execute in overworld run gamerule announceAdvancements false 
-execute unless score task bac_settings matches 0 run execute in the_nether run gamerule announceAdvancements false
-execute unless score goal bac_settings matches 0 run execute in the_end run gamerule announceAdvancements false
-execute unless score goal bac_settings matches 0 run execute in overworld run gamerule announceAdvancements false 
-execute unless score goal bac_settings matches 0 run execute in the_nether run gamerule announceAdvancements false
-execute unless score challenge bac_settings matches 0 run execute in the_end run gamerule announceAdvancements false
-execute unless score challenge bac_settings matches 0 run execute in overworld run gamerule announceAdvancements false 
-execute unless score challenge bac_settings matches 0 run execute in the_nether run gamerule announceAdvancements false
-execute unless score super_challenge bac_settings matches 0 run execute in the_end run gamerule announceAdvancements false
-execute unless score super_challenge bac_settings matches 0 run execute in overworld run gamerule announceAdvancements false 
-execute unless score super_challenge bac_settings matches 0 run execute in the_nether run gamerule announceAdvancements false
-execute unless score milestone bac_settings matches 0 run execute in the_end run gamerule announceAdvancements false
-execute unless score milestone bac_settings matches 0 run execute in overworld run gamerule announceAdvancements false 
-execute unless score milestone bac_settings matches 0 run execute in the_nether run gamerule announceAdvancements false
+execute unless score task bac_settings matches 0 run execute in the_end run gamerule show_advancement_messages false
+execute unless score task bac_settings matches 0 run execute in overworld run gamerule show_advancement_messages false 
+execute unless score task bac_settings matches 0 run execute in the_nether run gamerule show_advancement_messages false
+execute unless score goal bac_settings matches 0 run execute in the_end run gamerule show_advancement_messages false
+execute unless score goal bac_settings matches 0 run execute in overworld run gamerule show_advancement_messages false 
+execute unless score goal bac_settings matches 0 run execute in the_nether run gamerule show_advancement_messages false
+execute unless score challenge bac_settings matches 0 run execute in the_end run gamerule show_advancement_messages false
+execute unless score challenge bac_settings matches 0 run execute in overworld run gamerule show_advancement_messages false 
+execute unless score challenge bac_settings matches 0 run execute in the_nether run gamerule show_advancement_messages false
+execute unless score super_challenge bac_settings matches 0 run execute in the_end run gamerule show_advancement_messages false
+execute unless score super_challenge bac_settings matches 0 run execute in overworld run gamerule show_advancement_messages false 
+execute unless score super_challenge bac_settings matches 0 run execute in the_nether run gamerule show_advancement_messages false
+execute unless score milestone bac_settings matches 0 run execute in the_end run gamerule show_advancement_messages false
+execute unless score milestone bac_settings matches 0 run execute in overworld run gamerule show_advancement_messages false 
+execute unless score milestone bac_settings matches 0 run execute in the_nether run gamerule show_advancement_messages false
 
 
 # # Starts timers

@@ -688,6 +688,19 @@
 					}
 				}
 			}
+		},
+		"mob_kabob": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:adventure/spear_many_mobs": true
+						}
+					}
+				}
+			}
 		}
 	}
 }

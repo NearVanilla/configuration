@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:iron_spear"
+		},
+		"title": {"translate":"advancements.adventure.spear_many_mobs.title"},
+		"description": {"color":"#75E1FF","translate":"advancements.adventure.spear_many_mobs.description"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:weaponry/root",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/mob_kabob"
+	},	
+	"criteria": {
+		"spear_many_mobs": {
+			"trigger": "minecraft:spear_mobs",
+			"conditions": {
+				"count": 5
+			}
+		}
+	}
+}

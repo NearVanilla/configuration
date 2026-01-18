@@ -814,6 +814,25 @@
 				]
 			}
 		},
+		"lunge": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:lunge",
+									"levels": {
+										"min": 3
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		},
 		"protection_book": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
@@ -1611,6 +1630,25 @@
 					}
 				]
 			}
+		},
+		"lunge_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "minecraft:lunge",
+									"levels": {
+										"min": 3
+									}
+								}
+							]
+						}
+					}
+				]
+			}
 		}
 	},	
 	"requirements": [
@@ -1781,6 +1819,10 @@
 		[
 			"breach",
 			"breach_book"
+		],
+		[
+			"lunge",
+			"lunge_book"
 		]
 	]
 }

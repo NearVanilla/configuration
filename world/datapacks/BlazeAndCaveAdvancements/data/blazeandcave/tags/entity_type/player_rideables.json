@@ -1,18 +1,9 @@
 {
   "replace": false,
   "values": [
-	"minecraft:pig",
-	"minecraft:horse",
-	"minecraft:donkey",
-	"minecraft:mule",
-	"minecraft:zombie_horse",
-	"minecraft:skeleton_horse",
-	"minecraft:llama",
-	"minecraft:trader_llama",
-	"minecraft:strider",
+	"#blazeandcave:player_rideable_mobs",
 	"#minecraft:boat",
 	"#blazeandcave:chest_boats",
-	"minecraft:minecart",
-	"minecraft:happy_ghast"
+	"minecraft:minecart"
   ]
 }

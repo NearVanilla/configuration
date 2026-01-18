@@ -15,18 +15,18 @@ plugins:
 - checksum: 8017016965d5312a3bbc2fb9563abcb1634b9249
   name: DeathLog
   version: 1.0.2
-- checksum: 61092a3294690be0348f97f217336b10f8948ff3
+- checksum: 5b97fbba7d8cd31b848345acc3a86da3e1a7c3a4
   name: DiscordSRV
-  version: 1.30.3
+  version: 1.30.4
 - checksum: 722793bc7977c7dae77b5d1774a753a2b6708beb
   name: FirstJoinMessage
   version: 1.0.2
 - checksum: 5cb2143f5cf229f3f3407d6c5a9ff321f1161f8c
   name: GFly
   version: 2.3.0.0
-- checksum: 83e0d4e545fd0fe347f75bed90b9d128cc7ab04b
+- checksum: 85c27dfac58baa907c549d94ba2e93635d1be908
   name: GSit
-  version: 3.0.1
+  version: 3.1.1
 - checksum: 1ffc1a060c77e071aa4f41a3fb482704c6afe2eb
   name: Hat
   version: 1.5.0
@@ -36,25 +36,25 @@ plugins:
 - checksum: c8c78165907a53a5f542673b49c5cdd74f8cbf76
   name: OnePlayerSleep
   version: 1.0.6-2-ga87aac8
-- checksum: 59cb0a7ded8defcc3465f067f0cdafbfa484fa38
+- checksum: ed826085a76a79b2fcf7b07afc35580feed903a4
   name: OpenInv
-  version: 5.1.15
+  version: 5.2.0
 - checksum: 1425116618d1d7f626771cb5bb64fc74f15d485b
   name: WanderfulAdditions
   version: 0.1.3
-- checksum: 85be1ffd9eced894b5b6d9c6e6ac0cb2bdaec573
+- checksum: 07075d7dc0882e24e5a2d7357dd8a8beda3323de
   name: WorldGuard
-  version: 7.0.15-beta-01+445a1d7
-- checksum: 968f0f93c5b38b7cb9c190827ff6a2c65e9d3585
+  version: 7.0.15+2347-5fafea6
+- checksum: 7745c6cd5868e65223231425f270f07764b8e91b
   name: LuckPerms
-  version: 5.5.20
-- checksum: 3d970381182783b35c89f5a89e1498c47885f849
+  version: 5.5.24
+- checksum: d786a7f4b0eafef864ed6d7bbf0d4df9a67f4958
   name: spark
-  version: 1.10.154
+  version: 1.10.165
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
-- checksum: 2d30a54159d8debf77e51b75439e1b233586ec57
+- checksum: 1495293f780fabc6151791b970550e56bfc586e5
   name: dynmap
   version: 3.7-beta-11-1.21.9-spigot-Dev
 - checksum: 94b31b0fa1ab60fa63bb02256774558c4f11e083
@@ -63,9 +63,9 @@ plugins:
 - checksum: 361064cb0c3cdf3d52aec3e89accd4e3dae3b88e
   name: WorldBorder
   version: '1.19'
-- checksum: 66be5914c877918c9d5078411ec5cdb9bdeddcbd
+- checksum: f7bb2e89c3fef04d673a74763ff67474298095f3
   name: CoreProtect
-  version: 23.3
+  version: 23.4
 - checksum: f63dbe5a478b3c9545368100a928f3d20317b568
   name: VanishNoPacket
   version: '3.22'
@@ -75,15 +75,15 @@ plugins:
 - checksum: ff2cb3d3bbdd1fd3d8dbc19a7e5d58bbd7d345a9
   name: CarbonChat
   version: 3.0.0-beta.36
-- checksum: 0ed3b277f16e2abf44b9be10c7de2c4a2b6b0b4d
+- checksum: 50a95d5470ac3ea755488f8bc50dee7ea2a86a75
   name: voicechat
-  version: 2.6.6
-- checksum: a4d8cd35448764fff58872feb6c83c619a36babe
+  version: 2.6.11
+- checksum: 59bad5a3f067a257db4b68856f98af40938e111b
   name: FreedomChat
-  version: 1.7.6
-- checksum: 43e71ed509ecd4e731f274ce91e137e76c24855d
+  version: 1.7.7
+- checksum: c266c8fcaf877dac05fe7f6692b21fee4e83bbfe
   name: FastAsyncWorldEdit
-  version: 2.14.1-SNAPSHOT-1217+10a6743
+  version: 2.15.0+59372c5
 - checksum: b0df0349eec56ad6a8ce1227c7d543036abec9b2
   name: ChunkyBorder
   version: 1.2.23
@@ -99,9 +99,9 @@ plugins:
 - checksum: d1cd4ef15eac3f5de887f960e41e6f4a18f307ed
   name: HuntTheAdmins
   version: 1.0-SNAPSHOT
-- checksum: 5f9b86646c1aac40a30d3b872e1b53d76d48c0b8
+- checksum: 091330fa0f4d839f351f624baa84d371998363da
   name: Rtag
-  version: 1.5.13
+  version: 1.5.14
 - checksum: be1633fc49fa8909fead2254bffb778dbeec5553
   name: ForgetfulTrialVault
   version: 1.0.15
@@ -111,9 +111,9 @@ plugins:
 - checksum: 1f6637fb6ac63a22bd42d9d00b8d536a38a2ec46
   name: MuteDeaths
   version: 1.1-SNAPSHOT
-- checksum: 56e37ce467662b0a1fb2da5fc7312541706f5bd8
+- checksum: eae33cf50cd28cef16b5a3b93875000ab32acfde
   name: CustomDiscs
-  version: 5.1.2
+  version: 5.1.4
 - checksum: cd46778073fd1b8f7a2d48367a7d849d4c0d1d8f
   name: ProtocolLib
   version: 5.4.0-SNAPSHOT-753
@@ -132,9 +132,9 @@ plugins:
 - checksum: e48403781f1013f6a4c20a2270b972cd25d952e2
   name: WorldTour
   version: 1.0-SNAPSHOT
-- checksum: 4ec111ce5f9cf73e42c15ddfbf793d5f43b345ea
+- checksum: f940ca61ba23dfade09c1d1bc1df6f239c1617be
   name: VillagerOptimizer
   version: 2.0.1
 version:
-  build: 129
-  name: 1.21.10
+  build: 97
+  name: 1.21.11

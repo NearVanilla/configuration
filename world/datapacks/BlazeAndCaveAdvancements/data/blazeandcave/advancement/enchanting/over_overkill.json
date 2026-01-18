@@ -30,6 +30,10 @@
 							{
 								"id": "minecraft:mace_smash",
 								"expected": false
+							},
+							{
+								"id": "blazeandcave:spear",
+								"expected": false
 							}
 						]
 					}

@@ -378,6 +378,28 @@
 					}
 				}
 			}
+		},
+		"zombie_nautilus": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"source_entity": {
+						"type": "zombie_nautilus"
+					}
+				}
+			}
+		},
+		"parched": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"source_entity": {
+						"type": "parched"
+					}
+				}
+			}
 		}
 	}
 }

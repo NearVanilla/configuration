@@ -57,6 +57,15 @@
 										"min": 100000
 									}
 								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"bac_third_line_nautilus": {
+										"min": 100000
+									}
+								}
 							}
 						]
 					}
