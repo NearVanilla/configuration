@@ -39,6 +39,9 @@ cancel-swing-in-inventory: true
 check-for-updates: true
 # Fix 1.9+ clients not rendering the far away chunks and improve chunk rendering when moving fast (Increases network usage and decreases client fps slightly)
 chunk-border-fix: false
+#
+# Used for auto updating config files. Do not touch.
+config-version: 1
 # 1.13 introduced new auto complete which can trigger "Kicked for spamming" for servers older than 1.13, the following option will disable it completely.
 disable-1_13-auto-complete: false
 #
@@ -82,16 +85,30 @@ hologram-y: -0.96
 # Ignores incoming plugin channel messages of 1.16+ clients with channel names longer than 32 characters.
 # CraftBukkit had this limit hardcoded until 1.16, so we have to assume any server/proxy might have this arbitrary check present.
 ignore-long-1_16-channel-names: true
+init-config-version: 1
 # Allows 1.9+ left-handedness (main hand) on 1.8 servers
 left-handed-handling: true
-# Whether to log more info about kicks due to blocked protocol versions to the console.
-log-blocked-joins: false
+# Settings for logging behavior. When debugging issues, we may ask you to change some of these.
+# Most of these are disabled by default to prevent log spam from bad user input.
+logging:
+  # Whether to log more info about kicks due to blocked protocol versions to the console.
+  log-blocked-joins: false
+  # Whether to log errors during entity data conversion.
+  log-entity-data-errors: true
+  # Whether to log errors during text component conversion.
+  log-text-component-conversion-errors: false
+  # Whether to warn for other issues when converting items, blocks, or other data between server and client.
+  log-other-conversion-warnings: false
+  # Maximum length of error messages in the console.
+  max-error-length: 1500
 #
 # Get the world names which should be returned for each vanilla dimension
 map-1_16-world-names:
   overworld: minecraft:overworld
   nether: minecraft:the_nether
   end: minecraft:the_end
+# Whether to update config values that were left on their default to newly changed defaults. Recommended to keep enabled.
+migrate-default-config-changes: true
 # If this setting is active, the main hand is used instead of the off-hand to trigger the blocking of the player.
 # With the main hand, the blocking starts way faster.
 # (Requires "show-shield-when-sword-in-hand" to be disabled)
@@ -113,11 +130,11 @@ packet-limiter:
   max-per-second-kick-message: You are sending too many packets!
   #
   # We can also kick them if they repeatedly send too many packets over a longer period of time.
-  # E.g. if a player sends over 150 packets per second for 4 out of 7 seconds, we kick them.
+  # E.g. if a player sends over 200 packets per second for 4 out of 7 seconds, we kick them.
   # The maximum packets per second a client can send over a longer period of time.
-  sustained-max-per-second: 120
+  sustained-max-per-second: 200
   # Period to track in seconds.
-  sustained-period-seconds: 6
+  sustained-period-seconds: 7
   # The number of seconds within the interval that the client can exceed the limit before being kicked.
   sustained-threshold: 4
   sustained-kick-message: You are sending too many packets, :(
@@ -153,6 +170,12 @@ replace-pistons: false
 replacement-piston-id: 0
 # The message to be displayed at the prompt when the 1.17+ client receives the server resource pack.
 resource-pack-1_17-prompt: ''
+# If enabled, ViaVersion will send the native player version to the server on connect via a plugin message.
+# See the wiki for more info: https://github.com/ViaVersion/ViaVersion/wiki/Server-and-Player-Details-Protocol
+send-player-details: true
+# If enabled, ViaVersion will send the native server version to a player on connect via a plugin message.
+# See the wiki above for more info.
+send-server-details: true
 # Send the supported versions with the Status (Ping) response packet
 send-supported-versions: false
 #
@@ -166,12 +189,6 @@ shield-blocking: true
 show-shield-when-sword-in-hand: false
 # Enable player tick simulation, this fixes eating, drinking, nether portals.
 simulate-pt: true
-# We warn when there's an error converting item/block or component/nbt data over versions, should we suppress these? (Only suggested if spamming)
-suppress-conversion-warnings: false
-# When enabled if certain entity data can't be read, we won't tell you about it
-suppress-metadata-errors: false
-# This can be disabled for debugging purposes if text in chat/entities/items shows an error tag.
-suppress-text-component-conversion-warnings: true
 # Should we use prefix for team color on 1.13 and above clients?
 team-colour-fix: true
 #
@@ -181,9 +198,10 @@ translate-ocelot-to-cat: false
 truncate-1_14-books: false
 # Should 1.15+ clients respawn instantly / without showing a death screen?
 use-1_15-instant-respawn: false
+# If enabled, 1.21.11+ clients on 1.8 servers will get wider entity hitboxes when attacking with items
+use-1_8-hitbox-margin: true
 # This will show the new effect indicator in the top-right corner for 1.9+ players.
 use-new-effect-indicator: true
-#
 #----------------------------------------------------------#
 #                    VELOCITY OPTIONS                      #
 #----------------------------------------------------------#
