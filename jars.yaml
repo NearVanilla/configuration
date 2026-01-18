@@ -132,7 +132,7 @@ plugins:
 - checksum: e48403781f1013f6a4c20a2270b972cd25d952e2
   name: WorldTour
   version: 1.0-SNAPSHOT
-- checksum: f940ca61ba23dfade09c1d1bc1df6f239c1617be
+- checksum: 4ec111ce5f9cf73e42c15ddfbf793d5f43b345ea
   name: VillagerOptimizer
   version: 2.0.1
 version:
