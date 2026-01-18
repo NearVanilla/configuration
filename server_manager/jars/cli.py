@@ -207,9 +207,9 @@ def download(path: Path, force: bool, disable_orphaned: bool):
         build=config.version_build,
     )
     if not jar_location.exists() or sha256(jar_location) != build.downloads.get(
-        "application", {}
-    ).get("sha256"):
-        build.download("application", destination=jar_location)
+        "server:default", {}
+    ).get("checksums", {}).get("sha256"):
+        build.download("server:default", destination=jar_location)
 
 
 @cli.command()
