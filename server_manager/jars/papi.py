@@ -126,9 +126,9 @@ class Build(BuildBase):
         prop_name = prop["name"]
         if destination.is_dir():
             destination = destination / prop_name
-        response = SESSION.get(self.get_download_url(prop_name))
+        response = SESSION.get(prop.get("url"))
         response.raise_for_status()
         response_to_file(response, destination)
         assert destination.exists()
         # TODO: Throw propper exception
-        assert sha256(destination) == prop["sha256"]
+        assert sha256(destination) == prop["checksums"]["sha256"]
