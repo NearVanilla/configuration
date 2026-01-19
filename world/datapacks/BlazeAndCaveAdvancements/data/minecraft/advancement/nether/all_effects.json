@@ -50,7 +50,8 @@
 					"minecraft:oozing": {},
 					"minecraft:weaving": {},
 					"minecraft:infested": {},
-					"minecraft:wind_charged": {}
+					"minecraft:wind_charged": {},
+					"minecraft:breath_of_the_nautilus": {}
 				}
 			}
 		}

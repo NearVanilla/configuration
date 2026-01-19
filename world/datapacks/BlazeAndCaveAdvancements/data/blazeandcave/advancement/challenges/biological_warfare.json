@@ -1031,6 +1031,84 @@
 					}
 				}
 			}
+		},
+		"nautilus": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "nautilus"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"zombie_nautilus": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "zombie_nautilus"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"zombie_horse": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "zombie_horse"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"camel_husk": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "camel_husk"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"parched": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "parched"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"enderman": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "enderman"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
 		}
 	}
 }

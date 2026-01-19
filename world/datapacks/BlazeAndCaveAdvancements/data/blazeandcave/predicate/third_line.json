@@ -6,18 +6,7 @@
 			"entity": "this",
 			"predicate": {
 				"vehicle": {
-					"type": [
-						"horse",
-						"donkey",
-						"mule",
-						"skeleton_horse",
-						"zombie_horse",
-						"llama",
-						"trader_llama",
-						"camel",
-						"pig",
-						"strider"
-					]
+					"type": "#blazeandcave:player_rideable_mobs"
 				}
 			}
 		},

@@ -610,6 +610,162 @@
 					"max": 0
 				}
 			}
+		},
+		"copper_pickaxe": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:copper_pickaxe"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
+		"copper_shovel": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:copper_shovel"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
+		"copper_axe": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:copper_axe"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
+		"copper_hoe": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:copper_hoe"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
+		"copper_sword": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:copper_sword"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
+		"wooden_spear": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:wooden_spear"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
+		"stone_spear": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:stone_spear"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
+		"copper_spear": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:copper_spear"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
+		"iron_spear": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:iron_spear"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
+		"golden_spear": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_spear"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
+		"diamond_spear": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:diamond_spear"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
+		},
+		"netherite_spear": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:netherite_spear"
+					]
+				},
+				"durability": {
+					"max": 0
+				}
+			}
 		}
 	}
 }

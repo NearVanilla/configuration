@@ -677,6 +677,101 @@
 					]
 				}
 			}
+		},
+		"skeleton_horse": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:skeleton_horse"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
+					"tags": [
+						{
+							"id": "minecraft:is_explosion",
+							"expected": true
+						}
+					]
+				}
+			}
+		},
+		"zombie_horse": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:zombie_horse"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
+					"tags": [
+						{
+							"id": "minecraft:is_explosion",
+							"expected": true
+						}
+					]
+				}
+			}
+		},
+		"zombie_nautilus": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:zombie_nautilus"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
+					"tags": [
+						{
+							"id": "minecraft:is_explosion",
+							"expected": true
+						}
+					]
+				}
+			}
+		},
+		"camel_husk": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:camel_husk"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
+					"tags": [
+						{
+							"id": "minecraft:is_explosion",
+							"expected": true
+						}
+					]
+				}
+			}
+		},
+		"parched": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:parched"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"type": "tnt"
+					},
+					"tags": [
+						{
+							"id": "minecraft:is_explosion",
+							"expected": true
+						}
+					]
+				}
+			}
 		}
 	}
 }

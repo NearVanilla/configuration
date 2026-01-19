@@ -396,6 +396,30 @@
 					"type": "creaking"
 				}
 			}
+		},
+		"nautilus": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"entity": {
+					"type": "nautilus"
+				}
+			}
+		},
+		"zombie_nautilus": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"entity": {
+					"type": "zombie_nautilus"
+				}
+			}
+		},
+		"parched": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"entity": {
+					"type": "parched"
+				}
+			}
 		}
 	}
 }

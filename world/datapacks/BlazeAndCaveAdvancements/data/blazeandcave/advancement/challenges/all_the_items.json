@@ -4728,6 +4728,162 @@
 					}
 				]
 			}
+		},
+		"copper_nautilus_armor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_nautilus_armor"
+						]
+					}
+				]
+			}
+		},
+		"iron_nautilus_armor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_nautilus_armor"
+						]
+					}
+				]
+			}
+		},
+		"golden_nautilus_armor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:golden_nautilus_armor"
+						]
+					}
+				]
+			}
+		},
+		"diamond_nautilus_armor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:diamond_nautilus_armor"
+						]
+					}
+				]
+			}
+		},
+		"netherite_nautilus_armor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_nautilus_armor"
+						]
+					}
+				]
+			}
+		},
+		"netherite_horse_armor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_horse_armor"
+						]
+					}
+				]
+			}
+		},
+		"wooden_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wooden_spear"
+						]
+					}
+				]
+			}
+		},
+		"stone_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:stone_spear"
+						]
+					}
+				]
+			}
+		},
+		"copper_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_spear"
+						]
+					}
+				]
+			}
+		},
+		"iron_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_spear"
+						]
+					}
+				]
+			}
+		},
+		"golden_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:golden_spear"
+						]
+					}
+				]
+			}
+		},
+		"diamond_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:diamond_spear"
+						]
+					}
+				]
+			}
+		},
+		"netherite_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_spear"
+						]
+					}
+				]
+			}
 		}
 	}
 }

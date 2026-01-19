@@ -1341,6 +1341,10 @@ execute as @a[advancements={blazeandcave:building/locked_and_loaded=true}] run s
 execute as @a[advancements={blazeandcave:enchanting/echidna=true}] run scoreboard players add @s bac_advancements 1
 
 
+# The following advancement was added in version 1.20.2
+execute as @a[advancements={minecraft:adventure/spear_many_mobs=true}] run scoreboard players add @s bac_advancements 1
+
+
 
 # Updates team scores
 function bacap_rewards:team_score

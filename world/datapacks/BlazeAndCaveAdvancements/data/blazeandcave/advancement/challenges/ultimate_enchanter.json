@@ -2153,6 +2153,57 @@
 				]
 			}
 		},
+		"lunge1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:lunge",
+									"levels": 1
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"lunge2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:lunge",
+									"levels": 2
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"lunge3": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:lunge",
+									"levels": 3
+								}
+							]
+						}
+					}
+				]
+			}
+		},
 		"protection1_book": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
@@ -4289,6 +4340,57 @@
 					}
 				]
 			}
+		},
+		"lunge1_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "minecraft:lunge",
+									"levels": 1
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"lunge2_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "minecraft:lunge",
+									"levels": 2
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"lunge3_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "minecraft:lunge",
+									"levels": 3
+								}
+							]
+						}
+					}
+				]
+			}
 		}
 	},	
 	"requirements": [
@@ -4791,6 +4893,18 @@
 		[
 			"breach4",
 			"breach4_book"
+		],
+		[
+			"lunge1",
+			"lunge1_book"
+		],
+		[
+			"lunge2",
+			"lunge2_book"
+		],
+		[
+			"lunge3",
+			"lunge3_book"
 		]
 	]
 }

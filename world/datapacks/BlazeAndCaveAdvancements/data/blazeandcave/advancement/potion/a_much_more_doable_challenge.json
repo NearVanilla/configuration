@@ -284,6 +284,14 @@
 					"minecraft:wind_charged": {}
 				}
 			}
+		},
+		"breath_of_the_nautilus": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:breath_of_the_nautilus": {}
+				}
+			}
 		}
 	}
 }

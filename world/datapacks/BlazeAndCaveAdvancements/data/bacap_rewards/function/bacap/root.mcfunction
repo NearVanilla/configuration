@@ -3,7 +3,7 @@ execute unless score introduced bac_settings matches 1 run function blazeandcave
 
 function blazeandcave:config/update_number_format
 
-gamerule commandBlockOutput false
+gamerule command_block_output false
 execute unless entity @s[gamemode=spectator] if score reward bac_settings matches 1 run function bacap_rewards:reward/bacap/root
 execute unless entity @s[gamemode=spectator] if score reward bac_settings matches -1 unless score blazeandcave:bacap/root bac_obtained matches 1.. run function bacap_rewards:reward/bacap/root
 execute unless entity @s[gamemode=spectator] if score reward bac_settings matches -2 if entity @s[team=bac_team_black] unless score blazeandcave:bacap/root bac_obtained_black matches 1.. run function bacap_rewards:reward/bacap/root
