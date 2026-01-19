@@ -24,6 +24,14 @@ GRANT ALL PRIVILEGES ON prism.* TO 'prism'@'%';
 PRISM
 
 
+printf 'Initializing CoreProtect database\n' >&2
+mysql <<PRISM
+CREATE DATABASE IF NOT EXISTS coreprotect COMMENT 'CoreProtect';
+CREATE USER IF NOT EXISTS 'coreprotect'@'%' IDENTIFIED BY '${MARIADB_COREPROTECT_PASSWORD?CoreProtect pass missing}';
+GRANT ALL PRIVILEGES ON coreprotect.* TO 'coreprotect'@'%';
+PRISM
+
+
 # Flush privileges
 mysql <<FLUSH
 FLUSH PRIVILEGES;

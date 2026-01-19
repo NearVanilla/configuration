@@ -65,8 +65,8 @@ check_server_running() {
 }
 
 handle_backup() {
-  local -r offset_days='7'
-  local -r check_back_days='3'
+  local -r offset_days='2'
+  local -r check_back_days='7'
   local -r date_args=(
     --utc
     --iso-8601
