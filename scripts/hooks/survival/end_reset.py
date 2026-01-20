@@ -97,7 +97,8 @@ EXCLUSIONS = [
     Square(x1=-372, z1=-1020, x2=-406, z2=-986),  # Dynant's Wither Rose Farm
     Square(x1=-1018, z1=1000000, x2=-1016, z2=1000002),  # Kera's 1mil area
     Square(x1=-634, z1=850, x2=-794, z2=690), # w0ix's Farm
-    Square(x1=1103, z1=-720, x2=1056, z2=-767) # Skinra and luv_cake's Shulker Farm
+    Square(x1=1103, z1=-720, x2=1056, z2=-767), # Skinra and luv_cake's Shulker Farm
+    Square(x1=242, z1=-1650, x2=-15, z2=-1423), # Internal_Limes17's and Muffinz's Private Mapart Platform
 ]
 
 
