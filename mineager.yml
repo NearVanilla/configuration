@@ -37,10 +37,6 @@ plugins:
   prefix: Vault
   resource: MilkBowl/Vault
   type: github
-- name: WorldBorder
-  prefix: WorldBorder
-  resource: Puremin0rez/WorldBorder
-  type: github
 - name: Prism
   prefix: Prism/target/Prism
   resource: https://jenkins.addstar.com.au/job/Prism-Bukkit
