@@ -60,9 +60,6 @@ plugins:
 - checksum: 94b31b0fa1ab60fa63bb02256774558c4f11e083
   name: PrometheusExporter
   version: 3.1.2
-- checksum: 361064cb0c3cdf3d52aec3e89accd4e3dae3b88e
-  name: WorldBorder
-  version: '1.19'
 - checksum: f7bb2e89c3fef04d673a74763ff67474298095f3
   name: CoreProtect
   version: 23.4
