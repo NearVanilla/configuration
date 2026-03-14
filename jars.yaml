@@ -42,6 +42,9 @@ plugins:
 - checksum: 5cb2143f5cf229f3f3407d6c5a9ff321f1161f8c
   name: GFly
   version: 2.3.0.0
+- checksum: d6b5c40ca361aee82be3c67ef0da8c3bb514ff16
+  name: AxiomPaper
+  version: 5.0.3+1.21.11
 version:
   build: 127
   name: 1.21.11
