@@ -1,5 +1,5 @@
 # Config version. Do not change this
-config-version = "2.7"
+config-version = "2.8"
 # What port should the proxy be bound to? By default, we'll bind to all addresses on port 25577.
 bind = "0.0.0.0:25565"
 # What should be the MOTD? This gets displayed when the player adds your server to
@@ -64,6 +64,7 @@ enable-player-address-logging = true
 	creative = "creative:25565"
 	# In what order we should try servers when a player logs in or is kicked from a server.
 	try = ["survival"]
+
 # Configure your forced hosts here.
 [forced-hosts]
 	"creative.{{ DOMAIN }}" = ["creative"]
@@ -107,6 +108,7 @@ enable-player-address-logging = true
 	haproxy-protocol = false
 	# Enables the logging of commands
 	log-command-executions = true
+
 [query]
 	# If query is enabled, on what port should the query protocol listen on?
 	port = 25565
@@ -116,3 +118,16 @@ enable-player-address-logging = true
 	map = "Velocity"
 	# Whether to enable responding to GameSpy 4 query responses or not.
 	enabled = false
+
+[packet-limiter]
+	#Size of the moving time window in seconds used to calculate average rates.
+	#A larger window tolerates short bursts while still enforcing the configured limits over time.
+	interval = 7
+	#Maximum average number of packets per second a client may send. -1 disables this check.
+	packets-per-second = -1
+	#Maximum average number of compressed (on-wire) bytes per second a client may send. -1 disables this check.
+	bytes-per-second = -1
+	#Maximum average number of decompressed bytes per second a client may send.
+	#Protects against compression bomb attacks where small packets expand to excessive sizes after decompression.
+	#-1 disables this check.
+	decompressed-bytes-per-second = 5242880
