@@ -1,35 +1,35 @@
 platform: Paper
 plugins:
-- checksum: 1b464bf8c54e389c816881eb2f7f06156d8a918b
+- checksum: 9b37b6cf90ee8058821efb84e987932fe79428cc
   name: ArmorStandEditor
-  version: 1.21.8-49.1
-- checksum: 5b97fbba7d8cd31b848345acc3a86da3e1a7c3a4
+  version: 26.1.2-51
+- checksum: cbe8f9803af8dba9728c5fa44f23ac993862211c
   name: DiscordSRV
-  version: 1.30.4
-- checksum: c3bdb8275c3e4b1a46903711d28c09c7fa0d98a7
+  version: 1.30.5
+- checksum: fd39e3c8bbbe773fc912bbf22f578f1d987f2d10
   name: LuckPerms
-  version: 5.5.36
-- checksum: ff2cb3d3bbdd1fd3d8dbc19a7e5d58bbd7d345a9
+  version: 5.5.55
+- checksum: 75d6da900153708784b95e08aac1a8583ca49e38
   name: CarbonChat
-  version: 3.0.0-beta.36
-- checksum: f1ae43dba611731c151f6e41c9be40ea53bacf51
+  version: 3.0.0-beta.37
+- checksum: bad2ac41988cfca1a2918e33b9fa9f67afda5504
   name: voicechat
-  version: 2.6.12
-- checksum: 59bad5a3f067a257db4b68856f98af40938e111b
+  version: 2.6.18
+- checksum: e7d20feb2458b44c7596b1a7bc34a051c18db6b9
   name: FreedomChat
-  version: 1.7.7
-- checksum: c266c8fcaf877dac05fe7f6692b21fee4e83bbfe
+  version: 1.7.8
+- checksum: baf214ceb1435d4ebf745de944ef06f9b8821865
   name: FastAsyncWorldEdit
-  version: 2.15.0+59372c5
+  version: 2.15.2+e9ed0d1
 - checksum: b0df0349eec56ad6a8ce1227c7d543036abec9b2
   name: ChunkyBorder
   version: 1.2.23
-- checksum: 7c196c5bebd6017880f3c2a38fc297b3b99f5f93
+- checksum: 7ff47ee3afec89a1725e6eef393f373c549eff3b
   name: Chunky
-  version: 1.4.40
-- checksum: 0be663c91ab5227fd729fb289844ea4f1b228957
+  version: 1.5.3
+- checksum: ca8b6c439806b4be0be1b8c42845b74cddd494aa
   name: BlueMap
-  version: '5.16'
+  version: '5.20'
 - checksum: 7462f99ee6eb0af3edc361b047651d4ac97ee914
   name: SignedVelocity
   version: 1.4.1
@@ -42,9 +42,9 @@ plugins:
 - checksum: 5cb2143f5cf229f3f3407d6c5a9ff321f1161f8c
   name: GFly
   version: 2.3.0.0
-- checksum: d6b5c40ca361aee82be3c67ef0da8c3bb514ff16
+- checksum: ec52120abb6b174e245536e6cdbc43da41883a15
   name: AxiomPaper
-  version: 5.0.3+1.21.11
+  version: 5.0.4+26.1
 version:
-  build: 127
-  name: 1.21.11
+  build: 72
+  name: 26.1.2
