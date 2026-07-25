@@ -70,7 +70,12 @@ whitelist.json
 world/advancements/
 world/datapacks/bukkit/pack.mcmeta
 world/generated/minecraft/structures
+world/players/
 world/stats/
+# 26.1+ dimension runtime dirs (paper-world.yml stays tracked)
+world/dimensions/**/region/
+world/dimensions/**/entities/
+world/dimensions/**/data/
 
 !server-icon.png
 !.subworktrees.json
