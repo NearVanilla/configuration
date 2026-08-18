@@ -18,7 +18,7 @@ blueprint-sharing: false
 allow-large-chunk-data-request: false
 
 # Raise the size limit for *all* packets to 2mb instead of 32kb. NOT RECOMMENDED FOR PUBLIC SERVERS
-allow-large-payload-for-all-packets: false
+allow-large-payload-for-all-packets: true
 
 # Action to take when a user with an incompatible Minecraft version or Axiom version joins
 # Valid actions are 'kick' and 'warn'
