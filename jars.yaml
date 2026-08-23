@@ -39,7 +39,7 @@ plugins:
 - checksum: 5cb2143f5cf229f3f3407d6c5a9ff321f1161f8c
   name: GFly
   version: 2.3.0.0
-- checksum: 39117dfad98c8ba114121d9b69dde0555d84062b
+- checksum: d9266ca8b29b90cb65668986c5cb878444404a5b
   name: AxiomPaperFork
   version: 5.0.4+26.2
 version:
