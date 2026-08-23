@@ -9,7 +9,7 @@ plugins:
 - checksum: 2e65051d17885cc8a7b0e6b3564b626d30725f44
   name: LuckPerms
   version: 5.5.77
-- checksum: 090f61a6f7c6c60065ff91de97c9be15b9495a01
+- checksum: d9440bda843310a760b95a6d25b84de53fe7363e
   name: CarbonChat
   version: 3.0.0-SNAPSHOT+ea74529
 - checksum: 9633e96b42eab266087ccfec8d1d1b29611dcb2b
@@ -33,9 +33,6 @@ plugins:
 - checksum: 7fae608746429118bc350e6e8562cf09707cf40a
   name: SignedVelocity
   version: 1.4.2-SNAPSHOT
-# - checksum: 758e9124a966683dbd0a10ee279abca021636e6c
-#   name: PaperTweaks
-#   version: 0.6.0-SNAPSHOT
 - checksum: dd4829601fe7febba22170d89aa047a4c7138f54
   name: PlotSquared
   version: 7.6.1-SNAPSHOT
