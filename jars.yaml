@@ -1,50 +1,50 @@
 platform: Paper
 plugins:
-- checksum: 9b37b6cf90ee8058821efb84e987932fe79428cc
+- checksum: 599a9b2e0289a551d8b7af30ce68620e2892beba
   name: ArmorStandEditor
-  version: 26.1.2-51
+  version: 26.1.2-51.1.Beta2
 - checksum: cbe8f9803af8dba9728c5fa44f23ac993862211c
   name: DiscordSRV
   version: 1.30.5
-- checksum: fd39e3c8bbbe773fc912bbf22f578f1d987f2d10
+- checksum: 2e65051d17885cc8a7b0e6b3564b626d30725f44
   name: LuckPerms
-  version: 5.5.55
-- checksum: 75d6da900153708784b95e08aac1a8583ca49e38
+  version: 5.5.77
+- checksum: 090f61a6f7c6c60065ff91de97c9be15b9495a01
   name: CarbonChat
-  version: 3.0.0-beta.37
-- checksum: bad2ac41988cfca1a2918e33b9fa9f67afda5504
+  version: 3.0.0-SNAPSHOT+ea74529
+- checksum: 9633e96b42eab266087ccfec8d1d1b29611dcb2b
   name: voicechat
-  version: 2.6.18
-- checksum: e7d20feb2458b44c7596b1a7bc34a051c18db6b9
+  version: 2.6.21
+- checksum: edefe60c8beeeaa1d6d4bfb374357760ac9fa50e
   name: FreedomChat
-  version: 1.7.8
-- checksum: baf214ceb1435d4ebf745de944ef06f9b8821865
+  version: 1.7.9
+- checksum: 8f2c8f462b51224e96f0555edb0694719186e5f6
   name: FastAsyncWorldEdit
-  version: 2.15.2+e9ed0d1
+  version: 2.15.4+d8666b3
 - checksum: b0df0349eec56ad6a8ce1227c7d543036abec9b2
   name: ChunkyBorder
   version: 1.2.23
 - checksum: 7ff47ee3afec89a1725e6eef393f373c549eff3b
   name: Chunky
   version: 1.5.3
-- checksum: ca8b6c439806b4be0be1b8c42845b74cddd494aa
+- checksum: 4ba051500ad41a5cf31358f0cd9f10cf3f4497bc
   name: BlueMap
-  version: '5.20'
-- checksum: 7462f99ee6eb0af3edc361b047651d4ac97ee914
+  version: '5.23'
+- checksum: 7fae608746429118bc350e6e8562cf09707cf40a
   name: SignedVelocity
-  version: 1.4.1
-- checksum: 5986fb288e55b43f7363f0fb3600fec6a534f2ea
+  version: 1.4.2-SNAPSHOT
+- checksum: 758e9124a966683dbd0a10ee279abca021636e6c
   name: PaperTweaks
-  version: 0.5.0
-- checksum: a5f022662b82ecdad30aedc5c839ee8f1f8c44b0
+  version: 0.6.0-SNAPSHOT
+- checksum: dd4829601fe7febba22170d89aa047a4c7138f54
   name: PlotSquared
-  version: 7.5.12
+  version: 7.6.1-SNAPSHOT
 - checksum: 5cb2143f5cf229f3f3407d6c5a9ff321f1161f8c
   name: GFly
   version: 2.3.0.0
-- checksum: c1e642da53357673a6bfcd1c0c6084eacdc20e8c
+- checksum: 39117dfad98c8ba114121d9b69dde0555d84062b
   name: AxiomPaperFork
-  version: 5.0.4+26.1
+  version: 5.0.4+26.2
 version:
-  build: 72
-  name: 26.1.2
+  build: 116
+  name: '26.2'
