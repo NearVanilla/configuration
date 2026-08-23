@@ -33,9 +33,9 @@ plugins:
 - checksum: 7fae608746429118bc350e6e8562cf09707cf40a
   name: SignedVelocity
   version: 1.4.2-SNAPSHOT
-- checksum: 758e9124a966683dbd0a10ee279abca021636e6c
-  name: PaperTweaks
-  version: 0.6.0-SNAPSHOT
+# - checksum: 758e9124a966683dbd0a10ee279abca021636e6c
+#   name: PaperTweaks
+#   version: 0.6.0-SNAPSHOT
 - checksum: dd4829601fe7febba22170d89aa047a4c7138f54
   name: PlotSquared
   version: 7.6.1-SNAPSHOT
