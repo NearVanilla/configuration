@@ -1,26 +1,26 @@
 platform: Velocity
 plugins:
-- checksum: 527bede6d89c96428fac0b538c370adf40b17de2
+- checksum: 0fd31c94c01ac8ba8b679acd7bbf283d11d4a3ec
   name: LuckPerms
-  version: 5.5.57
-- checksum: 88de4b6060d4d95a0eacb81dbe183fc449b86a9a
+  version: 5.5.77
+- checksum: de549c1ea623eb48f1cca821d2acb85bfa6ffda1
   name: MiniMOTD
-  version: 2.2.3
+  version: 2.2.4
 - checksum: 4b9ae7d4f4e7dea0044beac6a3d4d6a0302ddc72
   name: bat
   version: 1.1.5
 - checksum: 3c8c9a14a76520dbd9d2b41fd9d1138a26210fc6
   name: swap
   version: 1.0.0
-- checksum: 483ed0d7d78d46f174e9b800154186e4e4f0a347
+- checksum: 5c46a9b9a40e3b93849c3f4dec950d52816533a2
   name: ViaBackwards
-  version: 5.10.0
-- checksum: 5e3ce974e4c142f261f6c724a628445d9a2aa72b
+  version: 5.12.0-SNAPSHOT
+- checksum: 58e9b75ac6c31aadd6fefa5c3f50ef9cb367c2ef
   name: ViaVersion
-  version: 5.10.0
-- checksum: 7a216105078bd78825f86890963825922314f29e
+  version: 5.12.0-SNAPSHOT
+- checksum: b09ded4cbae68647887c43b08df94d17d8001689
   name: signedvelocity
-  version: 1.4.1
+  version: 1.4.2-SNAPSHOT
 version:
-  build: 605
-  name: 3.5.0-SNAPSHOT
+  build: 21
+  name: 4.1.0-SNAPSHOT
