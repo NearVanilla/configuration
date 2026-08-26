@@ -147,3 +147,9 @@ language: en
 
 # Logs the spread of sculk blocks from sculk catalysts.
 sculk-spread: true
+
+# Automatically sends errors to the plugin author.
+error-reporting: true
+
+# Logs when fire naturally extinguishes.
+fire-extinguish: false

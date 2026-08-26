@@ -1,86 +1,86 @@
 platform: Paper
 plugins:
-- checksum: 1b464bf8c54e389c816881eb2f7f06156d8a918b
+- checksum: 9b37b6cf90ee8058821efb84e987932fe79428cc
   name: ArmorStandEditor
-  version: 1.21.8-49.1
-- checksum: fdad592323520c7c7100187e461964e11c3cec98
+  version: 26.1.2-51
+- checksum: 8d5a063d7a5bda9ceb355e37801f3ee5cb4fbaba
   name: Tebex
-  version: 2.2.1
+  version: 2.4.2
 - checksum: e77b811d89234f7c56d2ae629dda97622f866c45
   name: CapAFK
   version: 1.4.1.10
-- checksum: 7c196c5bebd6017880f3c2a38fc297b3b99f5f93
+- checksum: 7ff47ee3afec89a1725e6eef393f373c549eff3b
   name: Chunky
-  version: 1.4.40
+  version: 1.5.3
 - checksum: 8017016965d5312a3bbc2fb9563abcb1634b9249
   name: DeathLog
   version: 1.0.2
-- checksum: 5b97fbba7d8cd31b848345acc3a86da3e1a7c3a4
+- checksum: cbe8f9803af8dba9728c5fa44f23ac993862211c
   name: DiscordSRV
-  version: 1.30.4
+  version: 1.30.5
 - checksum: 722793bc7977c7dae77b5d1774a753a2b6708beb
   name: FirstJoinMessage
   version: 1.0.2
 - checksum: 5cb2143f5cf229f3f3407d6c5a9ff321f1161f8c
   name: GFly
   version: 2.3.0.0
-- checksum: 85c27dfac58baa907c549d94ba2e93635d1be908
+- checksum: 17d2030ca45663490cdc8d878234bd7ec06d563c
   name: GSit
-  version: 3.1.1
+  version: 3.5.1
 - checksum: 1ffc1a060c77e071aa4f41a3fb482704c6afe2eb
   name: Hat
   version: 1.5.0
 - checksum: c8c78165907a53a5f542673b49c5cdd74f8cbf76
   name: OnePlayerSleep
   version: 1.0.6-2-ga87aac8
-- checksum: ed826085a76a79b2fcf7b07afc35580feed903a4
+- checksum: 90892cb1f5002129278bf82836f4606aa178b78b
   name: OpenInv
-  version: 5.2.0
-- checksum: 07075d7dc0882e24e5a2d7357dd8a8beda3323de
+  version: 5.3.3
+- checksum: 2fb02cb19397c3b44433c4199c1dbc14144eb99b
   name: WorldGuard
-  version: 7.0.15+2347-5fafea6
-- checksum: 7745c6cd5868e65223231425f270f07764b8e91b
+  version: 7.0.18+2392-fa605e6
+- checksum: fc8bb9919fa77c670b7ed5c284bcb66770ea71fc
   name: LuckPerms
-  version: 5.5.24
+  version: 5.5.71
 - checksum: d786a7f4b0eafef864ed6d7bbf0d4df9a67f4958
   name: spark
   version: 1.10.165
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
-- checksum: 1495293f780fabc6151791b970550e56bfc586e5
+- checksum: 4f5954768bbdd338a7542c007c40cd13ee23a8db
   name: dynmap
-  version: 3.7-beta-11-1.21.9-spigot-Dev
+  version: 3.9-SNAPSHOT-Dev
 - checksum: 94b31b0fa1ab60fa63bb02256774558c4f11e083
   name: PrometheusExporter
   version: 3.1.2
-- checksum: f7bb2e89c3fef04d673a74763ff67474298095f3
+- checksum: e8425e63e9f22999b090beafbc32bef46d91eb22
   name: CoreProtect
-  version: 23.4
-- checksum: ff2cb3d3bbdd1fd3d8dbc19a7e5d58bbd7d345a9
+  version: 24.0
+- checksum: 75d6da900153708784b95e08aac1a8583ca49e38
   name: CarbonChat
-  version: 3.0.0-beta.36
-- checksum: 50a95d5470ac3ea755488f8bc50dee7ea2a86a75
+  version: 3.0.0-beta.37
+- checksum: 9633e96b42eab266087ccfec8d1d1b29611dcb2b
   name: voicechat
-  version: 2.6.11
-- checksum: 59bad5a3f067a257db4b68856f98af40938e111b
+  version: 2.6.21
+- checksum: e7d20feb2458b44c7596b1a7bc34a051c18db6b9
   name: FreedomChat
-  version: 1.7.7
-- checksum: c266c8fcaf877dac05fe7f6692b21fee4e83bbfe
+  version: 1.7.8
+- checksum: 8f2c8f462b51224e96f0555edb0694719186e5f6
   name: FastAsyncWorldEdit
-  version: 2.15.0+59372c5
+  version: 2.15.4+d8666b3
 - checksum: b0df0349eec56ad6a8ce1227c7d543036abec9b2
   name: ChunkyBorder
   version: 1.2.23
-- checksum: 7462f99ee6eb0af3edc361b047651d4ac97ee914
+- checksum: f4b792cab714d277ba142e4c983a71b751817e21
   name: SignedVelocity
-  version: 1.4.1
-- checksum: 5986fb288e55b43f7363f0fb3600fec6a534f2ea
+  version: 1.4.2-SNAPSHOT
+- checksum: 758e9124a966683dbd0a10ee279abca021636e6c
   name: PaperTweaks
-  version: 0.5.0
-- checksum: a89b357af0a8fbabc07f7ad39e2c2edf28a47f04
-  name: DeathDB
-  version: '1.0'
+  version: 0.6.0-SNAPSHOT
+# - checksum: a89b357af0a8fbabc07f7ad39e2c2edf28a47f04
+#   name: DeathDB
+#   version: '1.0'
 - checksum: d1cd4ef15eac3f5de887f960e41e6f4a18f307ed
   name: HuntTheAdmins
   version: 1.0-SNAPSHOT
@@ -93,33 +93,27 @@ plugins:
 - checksum: 6523c3d687d245e7c8e39556a05c59aa48d55975
   name: LootChestManager
   version: 1.3-SNAPSHOT
-- checksum: eae33cf50cd28cef16b5a3b93875000ab32acfde
+- checksum: 62f978eb0be3c5d368b8c4ac79ed23122942fdd3
   name: CustomDiscs
-  version: 5.1.4
+  version: 6.0.3
 - checksum: cd46778073fd1b8f7a2d48367a7d849d4c0d1d8f
   name: ProtocolLib
   version: 5.4.0-SNAPSHOT-753
-- checksum: 894f851485cb565e375e60ae79acfb959f8da55a
-  name: BabyAnimals
-  version: 1.1-SNAPSHOT
-- checksum: 804250c9c0af2e23ea87eb60f812ec198fb3548c
-  name: EggBattle
-  version: '1.4'
-- checksum: 68fbeebd2d9c585301f0f693ee14078649dcef1c
-  name: PlayerSeen
-  version: '1.0'
-- checksum: ad3814b2d07f98a841e67afb7da3dd1c3998f19b
-  name: PhantomToggle
-  version: '1.0'
-- checksum: e48403781f1013f6a4c20a2270b972cd25d952e2
-  name: WorldTour
-  version: 1.0-SNAPSHOT
-- checksum: f940ca61ba23dfade09c1d1bc1df6f239c1617be
-  name: VillagerOptimizer
-  version: 2.0.1
-- checksum: b28a6794c6d6c72a9085c4ceb6d7072ebbcd14ae
+# - checksum: 894f851485cb565e375e60ae79acfb959f8da55a
+#   name: BabyAnimals
+#   version: 1.1-SNAPSHOT
+# - checksum: 804250c9c0af2e23ea87eb60f812ec198fb3548c
+#   name: EggBattle
+#   version: '1.4'
+# - checksum: f940ca61ba23dfade09c1d1bc1df6f239c1617be
+#   name: VillagerOptimizer
+#   version: 2.0.1
+- checksum: 649b41a5bb71975251403e83894c275aa56a0770
   name: IceCream
   version: 1.1-SNAPSHOT
+- checksum: d4f64e33fa6f35dd96724ffa36e3502550dc6ac3
+  name: packetevents
+  version: 2.13.0
 version:
-  build: 97
-  name: 1.21.11
+  build: 74
+  name: 26.1.2

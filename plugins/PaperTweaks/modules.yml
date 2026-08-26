@@ -25,6 +25,7 @@ other:
 survival:
   afk-display: false
   cauldron-concrete: false
+  cauldron-mud: false
   coordinates-hud: true
   custom-nether-portals: false
   durability-ping: false

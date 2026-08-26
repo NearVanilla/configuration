@@ -145,6 +145,7 @@ dynamics:
     disable-sculk-growth: false
     disable-copper-block-fade: false
     disable-soil-moisture-change: false
+    disable-lava-harden: false
 blacklist:
     use-as-whitelist: false
     logging:
