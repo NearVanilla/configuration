@@ -53,10 +53,10 @@ plugins/spark/tmp/
 plugins/tcpshield/ip-whitelist/tcpshield-ips.list
 plugins/WorldGuard/worlds/*/regions.yml
 whitelist.json
-world/advancements/
+world/players/advancements/
 world/datapacks/bukkit/pack.mcmeta
 world/generated/minecraft/structures
-world/stats/
+world/players/stats/
 world/*/*/*.mca.*.backup
 /server-config/
 libraries/

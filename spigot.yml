@@ -10,7 +10,7 @@
 # Discord: https://discord.gg/papermc
 # Website: https://papermc.io/
 
-config-version: 18
+config-version: 13
 settings:
   log-named-deaths: true
   log-villager-deaths: true

@@ -78,15 +78,15 @@ plugins:
 - checksum: 758e9124a966683dbd0a10ee279abca021636e6c
   name: PaperTweaks
   version: 0.6.0-SNAPSHOT
-# - checksum: a89b357af0a8fbabc07f7ad39e2c2edf28a47f04
-#   name: DeathDB
-#   version: '1.0'
+- checksum: 5ad00716b1c591168b39e2b9fb90a1d4d94edd58
+  name: DeathDB
+  version: '1.0'
 - checksum: d1cd4ef15eac3f5de887f960e41e6f4a18f307ed
   name: HuntTheAdmins
   version: 1.0-SNAPSHOT
-- checksum: 091330fa0f4d839f351f624baa84d371998363da
+- checksum: e6a9bee719ef86e3942f451e0273cf1e3a3335cb
   name: Rtag
-  version: 1.5.14
+  version: 1.5.17
 - checksum: be1633fc49fa8909fead2254bffb778dbeec5553
   name: ForgetfulTrialVault
   version: 1.0.15
@@ -99,15 +99,6 @@ plugins:
 - checksum: cd46778073fd1b8f7a2d48367a7d849d4c0d1d8f
   name: ProtocolLib
   version: 5.4.0-SNAPSHOT-753
-# - checksum: 894f851485cb565e375e60ae79acfb959f8da55a
-#   name: BabyAnimals
-#   version: 1.1-SNAPSHOT
-# - checksum: 804250c9c0af2e23ea87eb60f812ec198fb3548c
-#   name: EggBattle
-#   version: '1.4'
-# - checksum: f940ca61ba23dfade09c1d1bc1df6f239c1617be
-#   name: VillagerOptimizer
-#   version: 2.0.1
 - checksum: 649b41a5bb71975251403e83894c275aa56a0770
   name: IceCream
   version: 1.1-SNAPSHOT
