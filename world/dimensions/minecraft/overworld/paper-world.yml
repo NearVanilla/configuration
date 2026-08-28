@@ -176,6 +176,7 @@ feature-seeds:
     minecraft:pumpkin: 8036677440787540943
     minecraft:red_mushroom: 9128998676104593950
     minecraft:rooted_azalea_tree: 3609028988078294604
+    minecraft:rooted_sulfur_spring: -7663452869514213416
     minecraft:sculk_patch_ancient_city: -7790110877085016378
     minecraft:sculk_patch_deep_dark: -6813341368538189125
     minecraft:sculk_vein: -1480810654616210000
@@ -194,6 +195,10 @@ feature-seeds:
     minecraft:spring_water: -4477889368947600986
     minecraft:spruce: 2692143428135742159
     minecraft:sugar_cane: -6657354792500083922
+    minecraft:sulfur_pool: -230345167352144553
+    minecraft:sulfur_spike: 4606637699170364132
+    minecraft:sulfur_spike_cluster: 8293528568421469977
+    minecraft:sulfur_spring: 6951806498988345811
     minecraft:sunflower: -3977914601370378062
     minecraft:super_birch_bees: -1282972568102117434
     minecraft:super_birch_bees_0002: -3622699372633370872
