@@ -72,8 +72,8 @@ velocity-ping-save: false
 # You can find protocol ids on https://minecraft.wiki/w/Protocol_version
 # It will fall back to the default option if none found.
 velocity-servers:
-  default: 774
-  survival: 774
+  default: 775
+  survival: 775
   creative: 776
 #
 #----------------------------------------------------------#
