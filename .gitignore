@@ -56,7 +56,7 @@ whitelist.json
 world/players/advancements/
 world/datapacks/bukkit/pack.mcmeta
 world/generated/minecraft/structures
-world/players/stats
+world/players/stats/
 world/dimensions/**/region/
 world/dimensions/**/entities/
 world/dimensions/**/data/
