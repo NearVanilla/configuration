@@ -1,11 +1,22 @@
 modules:
   example:
-    enabled: false
+    enabled: true
+  firstjoinmessage:
+    enabled: true
+    announcement: '<yellow>Welcome our new player <gold><player></gold>!</yellow>'
+    welcome-message:
+      - '<#EDD9B0>Please read our <click:open_url:"https://discord.com/channels/476016120139350066/478674275885383681"><hover:show_text:"<gray>Open #rules in Discord"><#E0A458><underlined>#rules</underlined></#E0A458></hover></click> and <click:open_url:"https://discord.com/channels/476016120139350066/800053432421056549"><hover:show_text:"<gray>Open #faq in Discord"><#E0A458><underlined>#faq</underlined></#E0A458></hover></click> before you start.</#EDD9B0>'
+      - '<#EDD9B0>Join us on <click:open_url:"https://discord.gg/KHAuj5F"><hover:show_text:"<gray>discord.gg/KHAuj5F"><#E0A458><underlined>Discord</underlined></#E0A458></hover></click> or browse the <click:open_url:"http://map.nearvanilla.com/"><hover:show_text:"<gray>map.nearvanilla.com"><#E0A458><underlined>live map</underlined></#E0A458></hover></click>.</#EDD9B0>'
+      - '<#EDD9B0>You can kick people out of bed by clicking on the message in chat.</#EDD9B0>'
   lightning:
     enabled: true
     chance: 0.5
   mutedeaths:
     enabled: true
+  playerheaddrops:
+    enabled: true
+    drop-chance: 1.0
+    require-player-kill: true
   isslimechunk:
     enabled: true
   wanderingtrades:
@@ -14,21 +25,6 @@ modules:
     max-heads: 10
   staffmode:
     enabled: true
-  vanish:
-    enabled: false
-    bossbar:
-      text: '<red>You are currently vanished</red>'
-      color: RED
-    messages:
-      join: '<yellow><player> joined the game</yellow>'
-      leave: '<yellow><player> left the game</yellow>'
-      discord-join: '%player% joined the server'
-      discord-leave: '%player% left the server'
-    carbon-chat:
-      allowed-channels:
-        - staff
-        - staffchat
-        - sc
   spectator:
     enabled: true
     bossbar:
@@ -39,6 +35,13 @@ modules:
       leave: '<yellow><player> left the game</yellow>'
       discord-join: '%player% joined the server'
       discord-leave: '%player% left the server'
+    private-message:
+      blocked-commands:
+        - msg
+        - tell
+        - w
+        - whisper
+      offline-message: '<red>Player not found</red>'
     carbon-chat:
       allowed-channels:
         - staff
@@ -49,6 +52,9 @@ modules:
     spawn:
       zombie-to-husk-chance: 0.33
       skeleton-to-parched-chance: 0.33
+  readonlylectern:
+    enabled: true
+    max-distance: 5
   wanderful:
     enabled: true
     item_frame:
@@ -80,3 +86,22 @@ modules:
           D: DIAMOND
           A: ARMOR_STAND
           H: STICK
+  phantomtoggle:
+    enabled: true
+  playerseen:
+    enabled: true
+    date-format: 'yyyy-MM-dd HH:mm:ss'
+    messages:
+      not-found: '<gray>Player <red>could not be found</red>.</gray>'
+      online: '<gray>Player <white><player></white> <green>is currently online</green></gray>'
+      never-played: '<gray>Player <white><player></white> <red>has never played before</red></gray>'
+      last-seen: '<gray>Player <white><player></white> <gray>was last seen <time></gray>'
+  worldtour:
+    enabled: true
+    failsafe-timeout-minutes: 10
+    start-time-ticks: 1000
+    times:
+      day: 1000
+      noon: 6000
+      night: 13000
+      midnight: 18000
