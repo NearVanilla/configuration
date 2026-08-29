@@ -18,9 +18,6 @@ plugins:
 - checksum: cbe8f9803af8dba9728c5fa44f23ac993862211c
   name: DiscordSRV
   version: 1.30.5
-- checksum: 722793bc7977c7dae77b5d1774a753a2b6708beb
-  name: FirstJoinMessage
-  version: 1.0.2
 - checksum: 5cb2143f5cf229f3f3407d6c5a9ff321f1161f8c
   name: GFly
   version: 2.3.0.0
