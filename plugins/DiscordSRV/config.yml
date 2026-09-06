@@ -145,7 +145,7 @@ DiscordChatChannelBlockWebhooks: true
 DiscordChatChannelBlockedIds: []
 DiscordChatChannelBlockedRolesAsWhitelist: false
 DiscordChatChannelBlockedRolesIds: ["000000000000000000", "000000000000000000", "000000000000000000"]
-DiscordChatChannelRolesSelectionAsWhitelist: true
+DiscordChatChannelRolesSelectionAsWhitelist: false
 DiscordChatChannelRolesSelection: ["The Fab Five"]
 DiscordChatChannelRoleAliases: {"Developer": "Dev"}
 
