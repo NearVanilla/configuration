@@ -15,7 +15,7 @@ execute as @a[scores={bac_apple_days=30..}] at @s run advancement grant @s only 
 
 # Day count is increased by 1 at each sunrise
 scoreboard players operation previous bac_current_time = time bac_current_time
-execute store result score time bac_current_time run time query daytime
+execute store result score time bac_current_time run time query minecraft:day
 execute if score time bac_current_time matches 0..200 run function blazeandcave:increase_day
 
 # If it is just before a sunrise players gain "The First Night"

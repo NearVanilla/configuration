@@ -66,15 +66,34 @@
 					]
 				}
 			}
-		}	
+		},
+		"fishing_rod": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item":
+				{
+					"items": [
+						"minecraft:fishing_rod"
+					],					
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "#blazeandcave:fishing_rod"
+							}
+						]
+					}
+				}
+			}
+		}
 	},
 	"requirements": [
 		[
-		"bow",
-		"enchanted_book",
-		"name_tag",
-		"nautilus_shell",
-		"saddle"
+			"bow",
+			"enchanted_book",
+			"name_tag",
+			"nautilus_shell",
+			"saddle",
+			"fishing_rod"
 		]
 	]
 }

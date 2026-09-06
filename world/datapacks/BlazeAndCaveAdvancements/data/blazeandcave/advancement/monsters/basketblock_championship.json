@@ -408,6 +408,15 @@
 					"nbt": "{carriedBlockState:{Name:\"minecraft:cactus_flower\"}}"
 				}
 			}
+		},
+		"golden_dandelion": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:enderman",
+					"nbt": "{carriedBlockState:{Name:\"minecraft:golden_dandelion\"}}"
+				}
+			}
 		}
 	}
 }

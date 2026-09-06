@@ -12588,6 +12588,19 @@
 					}
 				]
 			}
+		},
+		"golden_dandelion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:golden_dandelion"
+						],
+						"count": 64
+					}
+				]
+			}
 		}
 	}
 }
