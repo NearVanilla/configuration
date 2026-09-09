@@ -2,7 +2,7 @@
 # Need help? Join our Discord, https://discordsrv.com/discord
 
 # Don't touch pls
-ConfigVersion: 1.30.4
+ConfigVersion: 1.30.5
 
 # Bot token; don't know what this is? Look at the video on the plugin page for instructions
 # You must restart your server after changing this option
@@ -145,7 +145,7 @@ DiscordChatChannelBlockWebhooks: true
 DiscordChatChannelBlockedIds: []
 DiscordChatChannelBlockedRolesAsWhitelist: false
 DiscordChatChannelBlockedRolesIds: ["000000000000000000", "000000000000000000", "000000000000000000"]
-DiscordChatChannelRolesSelectionAsWhitelist: true
+DiscordChatChannelRolesSelectionAsWhitelist: false
 DiscordChatChannelRolesSelection: ["The Fab Five"]
 DiscordChatChannelRoleAliases: {"Developer": "Dev"}
 

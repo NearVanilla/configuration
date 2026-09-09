@@ -10,7 +10,7 @@
 # Discord: https://discord.gg/papermc
 # Website: https://papermc.io/
 
-config-version: 12
+config-version: 13
 settings:
   log-named-deaths: true
   log-villager-deaths: true
@@ -68,13 +68,6 @@ advancements:
   disabled:
   - minecraft:story/disabled
 world-settings:
-  world_the_end:
-    seed-endcity: {{ SEED_SURVIVAL_ENDCITY }}
-    simulation-distance: 4
-    view-distance: 7
-  world_nether:
-    simulation-distance: 4
-    view-distance: 7
   default:
     unload-frozen-chunks: false
     seed-trialchambers: 94251327
@@ -202,5 +195,12 @@ world-settings:
     verbose: false
   faweregentempworld:
     verbose: false
+  minecraft:the_nether:
+    simulation-distance: 4
+    view-distance: 7
+  minecraft:the_end:
+    seed-endcity: {{ SEED_SURVIVAL_ENDCITY }}
+    simulation-distance: 4
+    view-distance: 7
 players:
   disable-saving: false

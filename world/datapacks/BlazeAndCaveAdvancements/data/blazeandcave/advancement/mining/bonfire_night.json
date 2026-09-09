@@ -5318,6 +5318,32 @@
 					}
 				]
 			}
+		},
+		"golden_dandelion": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:golden_dandelion"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flint_and_steel",
+								"minecraft:fire_charge"
+							]
+						}
+					}
+				]
+			}
 		}
 	}
 }

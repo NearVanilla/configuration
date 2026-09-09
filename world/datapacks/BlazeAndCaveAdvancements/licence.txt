@@ -25,7 +25,7 @@ You are PERMITTED to:
 -- Using many of the same names, ideas or tabs for advancements in your own datapack is not permitted. 
 -- Using specific advancement names or ideas inspired by or as a reference to this datapack for a non-survival setting (e.g. an adventure map) is permitted. Credit is recommended, but not required.
 
-- Create add-on or expansion datapacks that adds to the content of this datapack based on other datapacks or mods, or ensures compatibility with other datapacks.
+- Create add-on or expansion datapacks (aka 'fanpacks') that adds to the content of this datapack based on other datapacks or mods, or ensures compatibility with other datapacks.
 -- Add-on/expansion datapacks must solely contain only new content created by you and should not be usable as a standalone datapack. It CANNOT be a modified form of the entire datapack. It MUST be designed such that you are meant to download and install both your add-on datapack AND my main datapack.
 -- Add-on/expansion datapacks are allowed to overwrite SPECIFIC advancements, functions or other files from the main datapack that are required to be modified, but only with compability purposes.
 -- Some examples of this created by me (Cavinator1) include the Hardcore Version (which modifies some advancements to make the datapack possible to complete in Hardcore Mode) and the Terralith Version (which both adds advancements relating to new content added by Terralith and also modifies some advancements from the main datapack for compatibility purposes).

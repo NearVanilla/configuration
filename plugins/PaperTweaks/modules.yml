@@ -8,10 +8,10 @@ hermitcraft:
   tag: true
   thunder-shrine: false
   treasure-gems: false
-  wandering-trades: true
+  wandering-trades: false
 items:
   armored-elytra: false
-  player-head-drops: true
+  player-head-drops: false
   rotation-wrenches: false
 mobs:
   count-mob-deaths: false
@@ -25,6 +25,7 @@ other:
 survival:
   afk-display: false
   cauldron-concrete: false
+  cauldron-mud: false
   coordinates-hud: true
   custom-nether-portals: false
   durability-ping: false

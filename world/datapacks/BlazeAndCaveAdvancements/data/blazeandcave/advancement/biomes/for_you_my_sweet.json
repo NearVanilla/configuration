@@ -287,33 +287,46 @@
 					}
 				]
 			}
+		},
+		"golden_dandelion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:golden_dandelion"
+						]
+					}
+				]
+			}
 		}
 	},
 	"requirements": [
 		[
-		"dandelion",
-		"poppy",
-		"blue_orchid",
-		"allium",
-		"azure_bluet",
-		"red_tulip",
-		"orange_tulip",
-		"pink_tulip",
-		"white_tulip",
-		"oxeye_daisy",
-		"sunflower",
-		"lilac",
-		"rose_bush",
-		"peony",
-		"cornflower",
-		"lily_of_the_valley",
-		"wither_rose",
-		"torchflower",
-		"pitcher_plant",
-		"closed_eyeblossom",
-		"open_eyeblossom",
-		"wildflowers",
-		"cactus_flower"
+			"dandelion",
+			"poppy",
+			"blue_orchid",
+			"allium",
+			"azure_bluet",
+			"red_tulip",
+			"orange_tulip",
+			"pink_tulip",
+			"white_tulip",
+			"oxeye_daisy",
+			"sunflower",
+			"lilac",
+			"rose_bush",
+			"peony",
+			"cornflower",
+			"lily_of_the_valley",
+			"wither_rose",
+			"torchflower",
+			"pitcher_plant",
+			"closed_eyeblossom",
+			"open_eyeblossom",
+			"wildflowers",
+			"cactus_flower",
+			"golden_dandelion"
 		]
 	]
 }

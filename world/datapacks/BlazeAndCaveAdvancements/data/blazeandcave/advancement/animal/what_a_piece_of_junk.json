@@ -143,22 +143,22 @@
 					]
 				}
 			}
-		}	
+		}
 	},
 	"requirements": [
 		[
-		"bowl",
-		"leather",
-		"leather_boots",
-		"rotten_flesh",
-		"stick",
-		"string",
-		"potion",
-		"bone",
-		"ink_sac",		
-		"tripwire_hook",
-		"bamboo",
-		"lily_pad"
+			"bowl",
+			"leather",
+			"leather_boots",
+			"rotten_flesh",
+			"stick",
+			"string",
+			"potion",
+			"bone",
+			"ink_sac",		
+			"tripwire_hook",
+			"bamboo",
+			"lily_pad"
 		]
 	]
 }
