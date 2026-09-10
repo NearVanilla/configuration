@@ -84,8 +84,8 @@ for (path, worldName) in sources:
         handle_error('invalid path in server.sources: ' + str(path), True)
 
     worldDir = os.path.join(path, worldName)
-    statsDirs.append(os.path.join(worldDir, 'stats'))
-    advancementDirs.append(os.path.join(worldDir, 'advancements'))
+    statsDirs.append(os.path.join(worldDir, 'players', 'stats'))
+    advancementDirs.append(os.path.join(worldDir, 'players', 'advancements'))
 
 primaryServerPath = sources[0][0]
 
