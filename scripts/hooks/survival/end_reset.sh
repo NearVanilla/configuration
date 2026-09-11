@@ -2,8 +2,8 @@
 set -euo pipefail
 
 : "${end_reset_backup_dir:="${end_reset_backup_base_dir:-/backups}/end_reset_backup_$(date +%F)"}"
-: "${end_reset_dimension_dir:=world_the_end/DIM1/}"
-: "${mcaversion:=2.2.2}"
+: "${end_reset_dimension_dir:=world/dimensions/minecraft/the_end/}"
+: "${mcaversion:=2.7}"
 
 _script_dir="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
