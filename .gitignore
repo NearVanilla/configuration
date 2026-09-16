@@ -58,6 +58,7 @@ version_history.json
 __pycache__/
 
 !server-icon.png
+!plugins/minimotd-velocity/icons/*.png
 !.subworktrees.json
 .COMMIT_MSG
 .HARD_FAILED
