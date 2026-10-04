@@ -3,9 +3,9 @@
 !Caddyfile
 # Website
 !files/src/
-!files/public/
-!files/*.html
+!files/static/
+!files/bun.lock
+!files/.npmrc
 !files/*.json
 !files/*.js
-files/public/awards/data/
-files/public/highscores/highscores.json
+!files/*.ts
