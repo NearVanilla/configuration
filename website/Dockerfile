@@ -1,26 +1,13 @@
 ARG CADDY_VERSION=2.6.4
 
-FROM node:lts-alpine AS builder
+FROM oven/bun:1 AS builder
 WORKDIR /app
 
-# Install requirements for building extensions like gifsicle
-RUN apk add --no-cache \
-    autoconf \
-    automake \
-    build-base \
-    gcc \
-    libtool \
-    musl \
-    nasm \
-    pkgconf \
-    zlib \
-    zlib-dev
-
-COPY files/package*.json ./
-RUN npm ci
+COPY files/package.json files/bun.lock ./
+RUN bun install --frozen-lockfile
 
 COPY files/ .
-RUN npm run build
+RUN bunx svelte-kit sync && bun run build
 
 FROM caddy:${CADDY_VERSION}-builder AS caddy-builder
 RUN xcaddy build \
@@ -29,6 +16,6 @@ RUN xcaddy build \
 FROM caddy:${CADDY_VERSION}
 
 COPY --from=caddy-builder /usr/bin/caddy /usr/bin/caddy
-COPY --from=builder /app/dist /usr/share/caddy/
+COPY --from=builder /app/build /usr/share/caddy/
 
 COPY Caddyfile /etc/caddy/Caddyfile

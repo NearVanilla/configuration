@@ -1,6 +1,6 @@
 [submodule "website/files"]
 	path = website/files
-	url = git@github.com:NearVanilla/website.git
+	url = git@github.com:NearVanilla/SvelteSite.git
 [submodule "bats_tests/bats"]
 	path = bats_tests/bats
 	url = https://github.com/bats-core/bats-core.git
