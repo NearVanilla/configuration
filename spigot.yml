@@ -72,6 +72,7 @@ world-settings:
     simulation-distance: 4
     view-distance: 7
   default:
+    seed-abandonedcamp: 91231127
     unload-frozen-chunks: false
     seed-trialchambers: 94251327
     simulation-distance: 5

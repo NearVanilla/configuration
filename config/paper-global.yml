@@ -94,14 +94,12 @@ misc:
   client-interaction-leniency-distance: default
   compression-level: default
   enable-nether: false
-  fix-far-end-terrain-generation: true
   lag-compensate-block-breaking: true
   load-permissions-yml-before-plugins: true
   max-joins-per-tick: 3
   max-tracking-combat-entries: 10240
   prevent-negative-villager-demand: false
   region-file-cache-size: 256
-  send-full-pos-for-item-entities: false
   strict-advancement-dimension-check: false
   use-alternative-luck-formula: false
   use-dimension-type-for-custom-spawners: false
