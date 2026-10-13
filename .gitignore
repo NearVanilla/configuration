@@ -62,6 +62,7 @@ plugins/luckperms/contexts.json
 plugins/serverutils/.pluginCommandsCache.json
 plugins/spark/tmp/*
 plugins/spark/tmp-client/
+plugins/squaremap/data/
 plugins/squaremap/locale/
 plugins/squaremap/web/
 plugins/tcpshield/ip-whitelist/tcpshield-ips.list
