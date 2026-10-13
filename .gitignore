@@ -19,7 +19,6 @@ __pycache__/
 anvil/data/xodus/
 banned-ips.json
 banned-players.json
-bluemap/
 debug/
 libraries/
 logs/
@@ -63,6 +62,8 @@ plugins/luckperms/contexts.json
 plugins/serverutils/.pluginCommandsCache.json
 plugins/spark/tmp/*
 plugins/spark/tmp-client/
+plugins/squaremap/locale/
+plugins/squaremap/web/
 plugins/tcpshield/ip-whitelist/tcpshield-ips.list
 usercache.json
 version_history.json
