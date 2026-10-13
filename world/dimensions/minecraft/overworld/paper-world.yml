@@ -37,8 +37,13 @@ feature-seeds:
     minecraft:chorus_plant: -8512249025842583395
     minecraft:clay_pool_with_dripleaves: -5599505133936386780
     minecraft:clay_with_dripleaves: 6904287592011914912
+    minecraft:coral/block_decoration: 7633349247894140697
+    minecraft:coral/brain_block: 4934702343075842731
+    minecraft:coral/bubble_block: -4125647186081581803
+    minecraft:coral/fire_block: 2982171350983791297
+    minecraft:coral/horn_block: 5796174401108814062
+    minecraft:coral/tube_block: 914183541696225655
     minecraft:crimson_forest_vegetation: 2972619445604538276
-    minecraft:crimson_forest_vegetation_bonemeal: 1028450590199452037
     minecraft:crimson_fungus: 6000564617085590716
     minecraft:crimson_fungus_planted: -8677536089277774250
     minecraft:crimson_roots: -474898664626215793
@@ -59,10 +64,13 @@ feature-seeds:
     minecraft:end_gateway_return: -7476053401570376382
     minecraft:end_island: -4963785006047143845
     minecraft:end_platform: 9193754972965463127
+    minecraft:end_podium_active: -6162404015885963030
+    minecraft:end_podium_inactive: -2437968225426664286
     minecraft:end_spike: 996921712850406976
     minecraft:fallen_birch_tree: -305255357035649799
     minecraft:fallen_jungle_tree: 8264646929732228984
     minecraft:fallen_oak_tree: -1631233742916385391
+    minecraft:fallen_poplar_tree: 4490596599467535633
     minecraft:fallen_spruce_tree: 6358764800092031624
     minecraft:fallen_super_birch_tree: 1256765466404117753
     minecraft:fancy_oak: 4016918491314132864
@@ -118,12 +126,14 @@ feature-seeds:
     minecraft:moss_vegetation: 7022317368014780412
     minecraft:mushroom_island_vegetation: 4849037393050057346
     minecraft:nether_sprouts: 4480105439502448353
-    minecraft:nether_sprouts_bonemeal: 4273746928370895024
+    minecraft:nylium_bonemeal: -3679564247595724074
     minecraft:oak: -6948209145022809010
     minecraft:oak_bees_0002_leaf_litter: -4261963595350611833
     minecraft:oak_bees_002: 642984379460157747
     minecraft:oak_bees_005: 4894085037563881716
     minecraft:oak_leaf_litter: 7445626882364262255
+    minecraft:orange_poplar: 6212400898633364892
+    minecraft:orange_poplar_leaf_litter: -241765550845015501
     minecraft:ore_ancient_debris_large: 8169607241787969797
     minecraft:ore_ancient_debris_small: 2100649878869153421
     minecraft:ore_andesite: 2319648845041598003
@@ -175,6 +185,9 @@ feature-seeds:
     minecraft:pointed_dripstone: -64308821693784757
     minecraft:pumpkin: 8036677440787540943
     minecraft:red_mushroom: 9128998676104593950
+    minecraft:red_poplar: -3342479749090724149
+    minecraft:red_poplar_leaf_litter: -4607789379583561102
+    minecraft:red_shrub: -4924484134996731995
     minecraft:rooted_azalea_tree: 3609028988078294604
     minecraft:rooted_sulfur_spring: -7663452869514213416
     minecraft:sculk_patch_ancient_city: -7790110877085016378
@@ -209,6 +222,7 @@ feature-seeds:
     minecraft:trees_badlands: 1267596971369486828
     minecraft:trees_birch: 6380565504261125899
     minecraft:trees_birch_and_oak_leaf_litter: -6823797423177805542
+    minecraft:trees_dappled_forest: 1292518956375749486
     minecraft:trees_flower_forest: 6028237543173426934
     minecraft:trees_grove: 5958763313035924865
     minecraft:trees_jungle: -1294109970702176365
@@ -222,15 +236,15 @@ feature-seeds:
     minecraft:trees_water: 2420754958658421681
     minecraft:trees_windswept_hills: -3808230558969618127
     minecraft:twisting_vines: 1252771304865510664
-    minecraft:twisting_vines_bonemeal: -7187988126092697799
     minecraft:underwater_magma: -961593337667416495
     minecraft:vines: -3718111957943355111
     minecraft:void_start_platform: 4839067004124359836
     minecraft:warm_ocean_vegetation: 7838737341423046182
     minecraft:warped_forest_vegetation: -1717217957463503226
-    minecraft:warped_forest_vegetation_bonemeal: -9194395465112867301
     minecraft:warped_fungus: -7532744087781571108
     minecraft:warped_fungus_planted: -310328649934538810
     minecraft:waterlily: 2458741824692233302
     minecraft:weeping_vines: -1959536046083140150
     minecraft:wildflower: 6853334803470474339
+    minecraft:yellow_poplar: -955271064012877338
+    minecraft:yellow_poplar_leaf_litter: 1080414682757939288
