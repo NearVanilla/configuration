@@ -33,47 +33,9 @@ http://*.{$DOMAIN} {
 	#try_files {path} {path}.html /map_coming_soon.html
 }
 
-(bluemap) {
+(squaremap) {
 	root * {args.0}
-
-	@high_res {
-		path_regexp /maps/[^/]*/tiles/.*\.json$
-	}
-
-	@gzip_high_res {
-		path *.json
-		header Accept-Encoding *gzip*
-		file {
-			try_files {path}.gz
-		}
-	}
-
-	# https://caddy.community/t/how-to-serve-pre-compressed-files-with-caddy-v2/8760/11
-	handle @gzip_high_res {
-		header Content-Type application/json
-		header Content-Encoding gzip
-		rewrite {path}.gz
-	}
-
-	handle @high_res {
-		try_files {path} /assets/emptyTile.json
-	}
-
-	@low_res {
-		path_regexp /maps/[^/]*/tiles/.*\.png$
-	}
-
-	handle @low_res {
-		try_files {path} =204
-	}
-
-	@live_data path_regexp /maps/[^/]*/live/.*
-	#@live_data path_regexp /.*
-
-	reverse_proxy @live_data {args.1}
-
 	file_server
-	try_files {path} {path}.html {path}/index.html
 }
 
 map.{$DOMAIN},
@@ -119,6 +81,7 @@ www.{$DOMAIN},
 	}
 }
 
-bluemap.{$DOMAIN} {
-	import bluemap /usr/share/caddy/creative-bluemap creative:8100
+creative-map.{$DOMAIN} {
+	encode zstd gzip
+	import squaremap /usr/share/caddy/creative-squaremap
 }
