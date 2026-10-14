@@ -18,9 +18,9 @@ plugins:
 - checksum: 7029a2b1a0f8fd1a5c22c10a6019117ec89012e2
   name: ViaVersion
   version: 5.12.1
-- checksum: b09ded4cbae68647887c43b08df94d17d8001689
+- checksum: c6b7bff98d6462a23220b7a53e03b8e6cc0a561a
   name: signedvelocity
-  version: 1.4.2-SNAPSHOT
+  version: 1.5.0
 version:
   build: 30
   name: 4.2.0
