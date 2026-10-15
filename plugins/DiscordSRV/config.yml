@@ -170,7 +170,7 @@ DiscordChatChannelRoleAliases: {"Developer": "Dev"}
 DiscordConsoleChannelLogRefreshRateInSeconds: 5
 DiscordConsoleChannelUsageLog: "Console-%date%.log"
 DiscordConsoleChannelBlacklistActsAsWhitelist: true
-DiscordConsoleChannelBlacklistedCommands: ["paper", "timings", "tps"]
+DiscordConsoleChannelBlacklistedCommands: ["whitelist", "paper", "timings", "tps"]
 DiscordConsoleChannelFilters: {".*(?i)async chat thread.*": "", ".*There are \\d+ of a max of \\d+ players online.*": "", "\\[\\/[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+(?::[0-9]+)?\\]": "[IP HIDDEN]"}
 DiscordConsoleChannelLevels: [info, warn, error]
 DiscordConsoleChannelUseCodeBlocks: true
