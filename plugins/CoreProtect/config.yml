@@ -153,3 +153,33 @@ error-reporting: true
 
 # Logs when fire naturally extinguishes.
 fire-extinguish: false
+
+# Database engine used by CoreProtect. Valid values are duckdb, clickhouse, sqlite, and mysql.
+# Run /co reload or restart the server after changing the database engine or connection target.
+database-type: mysql
+
+# Connection settings for ClickHouse 26.1 or newer.
+# The configured database must already exist; CoreProtect creates its prefixed tables and views.
+# Multiple writers require database-lock disabled, the same version and prefix, separate data directories, and direct connections to one physical server.
+# Keep writer clocks synchronized; a shared prefix is one logical namespace for worlds and players.
+# Do not reassign usernames, and record UUID-bearing logins before UUID-less activity under a changed name.
+# Stop every writer before migration or purge; purge requires database-lock on the remaining server.
+# Replicated, distributed, and load-balanced independent ClickHouse nodes are unsupported.
+clickhouse-host: 127.0.0.1
+clickhouse-port: 8123
+clickhouse-database: default
+clickhouse-username: default
+clickhouse-password: 
+clickhouse-tls: false
+
+# Resource limits for the embedded DuckDB database.
+# The memory limit controls DuckDB's buffer manager; the temporary limit caps spill data and is not preallocated.
+duckdb-memory-limit: 512MB
+duckdb-threads: 3
+duckdb-max-temp-directory-size: 10GB
+
+# Logs block placement and removal events caused by dispensers.
+dispensers: true
+
+# Logs entities placed or spawned by players, such as boats and spawn-egg mobs.
+entity-spawns: true

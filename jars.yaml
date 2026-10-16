@@ -1,8 +1,8 @@
 platform: Paper
 plugins:
-- checksum: 9b37b6cf90ee8058821efb84e987932fe79428cc
+- checksum: 29d7dbd5c643338f92d78d44878de421c4e66127
   name: ArmorStandEditor
-  version: 26.1.2-51
+  version: 26.3-52
 - checksum: 8d5a063d7a5bda9ceb355e37801f3ee5cb4fbaba
   name: Tebex
   version: 2.4.2
@@ -51,9 +51,9 @@ plugins:
 - checksum: 94b31b0fa1ab60fa63bb02256774558c4f11e083
   name: PrometheusExporter
   version: 3.1.2
-- checksum: e8425e63e9f22999b090beafbc32bef46d91eb22
+- checksum: b99e7c7a2d33e06abcf8ee11bea2fff668e7cdb4
   name: CoreProtect
-  version: 24.0
+  version: 24.1
 - checksum: 75d6da900153708784b95e08aac1a8583ca49e38
   name: CarbonChat
   version: 3.0.0-beta.37
@@ -72,9 +72,9 @@ plugins:
 - checksum: f4b792cab714d277ba142e4c983a71b751817e21
   name: SignedVelocity
   version: 1.4.2-SNAPSHOT
-- checksum: 758e9124a966683dbd0a10ee279abca021636e6c
+- checksum: 0b08ea159803255e91e3b2b708608efc31845833
   name: PaperTweaks
-  version: 0.6.0-SNAPSHOT
+  version: 0.7.3
 - checksum: 5ad00716b1c591168b39e2b9fb90a1d4d94edd58
   name: DeathDB
   version: '1.0'
@@ -93,15 +93,15 @@ plugins:
 - checksum: 62f978eb0be3c5d368b8c4ac79ed23122942fdd3
   name: CustomDiscs
   version: 6.0.3
-- checksum: cd46778073fd1b8f7a2d48367a7d849d4c0d1d8f
+- checksum: e2107fdc2bda5ef1c495ce5e607f898eb5c4d9d3
   name: ProtocolLib
-  version: 5.4.0-SNAPSHOT-753
-- checksum: 7cb9de92e61b04263471c3fa45ba9c3f9cbeacd3
+  version: 5.5.0-SNAPSHOT
+- checksum: 2fb15a41b467748ce9845d594225fcc64f865bf2
   name: IceCream
   version: 1.1-SNAPSHOT
 - checksum: d4f64e33fa6f35dd96724ffa36e3502550dc6ac3
   name: packetevents
   version: 2.13.0
 version:
-  build: 74
-  name: 26.1.2
+  build: 200
+  name: '26.3'
