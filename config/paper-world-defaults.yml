@@ -173,6 +173,7 @@ entities:
       - HARD
     ender-dragons-death-always-places-dragon-egg: false
     experience-merge-max-value: -1
+    inactive-mob-goal-selector-throttle-rate: disabled
     mobs-can-always-pick-up-loot:
       skeletons: false
       zombies: false
