@@ -39,9 +39,9 @@ plugins:
 - checksum: 396a131d980b22a1d8ddec9e4008803ac136c4e2
   name: AxiomPaperFork
   version: 6.0.1+26.3
-- checksum: aa29651c28c600417c2502253412fdf3f91d7f40
+- checksum: fb15258b4b1ab4f00962b0cff24e0157bf117775
   name: squaremap
-  version: 1.4.2
+  version: 1.4.3
 version:
-  build: 181
+  build: 205
   name: '26.3'
