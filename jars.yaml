@@ -22,5 +22,5 @@ plugins:
   name: signedvelocity
   version: 1.5.0
 version:
-  build: 30
-  name: 4.2.0
+  build: 44
+  name: 4.3.0
