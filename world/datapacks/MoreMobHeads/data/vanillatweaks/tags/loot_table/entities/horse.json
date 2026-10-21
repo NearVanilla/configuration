@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/horse",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/horse",
+      "required": false
+    }
+  ]
+}

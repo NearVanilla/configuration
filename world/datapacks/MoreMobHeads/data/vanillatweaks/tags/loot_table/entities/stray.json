@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/stray",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/stray",
+      "required": false
+    }
+  ]
+}

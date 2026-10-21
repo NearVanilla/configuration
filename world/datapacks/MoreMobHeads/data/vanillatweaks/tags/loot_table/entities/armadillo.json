@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/armadillo",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/armadillo",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/parrot",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/parrot",
+      "required": false
+    }
+  ]
+}

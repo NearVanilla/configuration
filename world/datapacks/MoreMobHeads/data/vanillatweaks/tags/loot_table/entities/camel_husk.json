@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/camel_husk",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/camel_husk",
+      "required": false
+    }
+  ]
+}

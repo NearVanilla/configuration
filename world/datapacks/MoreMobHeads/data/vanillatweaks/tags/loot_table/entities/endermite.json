@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/endermite",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/endermite",
+      "required": false
+    }
+  ]
+}

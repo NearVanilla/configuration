@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/hoglin",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/hoglin",
+      "required": false
+    }
+  ]
+}

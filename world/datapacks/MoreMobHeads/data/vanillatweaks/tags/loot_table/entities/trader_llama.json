@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/trader_llama",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/trader_llama",
+      "required": false
+    }
+  ]
+}

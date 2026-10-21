@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/salmon",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/salmon",
+      "required": false
+    }
+  ]
+}

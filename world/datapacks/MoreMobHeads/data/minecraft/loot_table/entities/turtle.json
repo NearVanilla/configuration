@@ -6,16 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "vanilla:entities/turtle"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "more_mob_heads:entities/turtle"
+          "value": "#vanillatweaks:entities/turtle"
         }
       ]
     }
