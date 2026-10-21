@@ -21,29 +21,31 @@
 		"creeper": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"effects": {
-							"minecraft:wind_charged": {
-								"amplifier": {
-									"min": 0
-								}
-							},
-							"minecraft:weaving": {
-								"amplifier": {
-									"min": 0
-								}
-							},
-							"minecraft:oozing": {
-								"amplifier": {
-									"min": 0
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"effects": {
+								"minecraft:wind_charged": {
+									"amplifier": {
+										"min": 0
+									}
+								},
+								"minecraft:weaving": {
+									"amplifier": {
+										"min": 0
+									}
+								},
+								"minecraft:oozing": {
+									"amplifier": {
+										"min": 0
+									}
 								}
 							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

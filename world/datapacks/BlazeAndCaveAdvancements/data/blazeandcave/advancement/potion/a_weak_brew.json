@@ -15,17 +15,13 @@
 		"weakness": {
 			"trigger": "minecraft:brewed_potion",
 			"conditions": {
-				"potion": {
-					"potions": "minecraft:weakness"
-				}
+				"potion": "minecraft:weakness"
 			}
 		},
 		"long_weakness": {
 			"trigger": "minecraft:brewed_potion",
 			"conditions": {
-				"potion": {
-					"potions": "minecraft:long_weakness"
-				}
+				"potion": "minecraft:long_weakness"
 			}
 		}
 	},

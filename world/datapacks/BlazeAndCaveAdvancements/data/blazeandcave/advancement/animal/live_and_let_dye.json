@@ -21,13 +21,15 @@
 						"minecraft:white_dye"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:sheep"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sheep"
+						}
 					}
-				}
+				]
 			}
 		},
 		"orange_dye": {
@@ -38,13 +40,15 @@
 						"minecraft:orange_dye"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:sheep"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sheep"
+						}
 					}
-				}
+				]
 			}
 		},
 		"magenta_dye": {
@@ -55,13 +59,15 @@
 						"minecraft:magenta_dye"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:sheep"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sheep"
+						}
 					}
-				}
+				]
 			}
 		},
 		"light_blue_dye": {
@@ -72,13 +78,15 @@
 						"minecraft:light_blue_dye"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:sheep"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sheep"
+						}
 					}
-				}
+				]
 			}
 		},
 		"yellow_dye": {
@@ -89,13 +97,15 @@
 						"minecraft:yellow_dye"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:sheep"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sheep"
+						}
 					}
-				}
+				]
 			}
 		},
 		"lime_dye": {
@@ -106,13 +116,15 @@
 						"minecraft:lime_dye"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:sheep"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sheep"
+						}
 					}
-				}
+				]
 			}
 		},
 		"pink_dye": {
@@ -123,13 +135,15 @@
 						"minecraft:pink_dye"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:sheep"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sheep"
+						}
 					}
-				}
+				]
 			}
 		},
 		"gray_dye": {
@@ -140,13 +154,15 @@
 						"minecraft:gray_dye"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:sheep"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sheep"
+						}
 					}
-				}
+				]
 			}
 		},
 		"light_gray_dye": {
@@ -157,13 +173,15 @@
 						"minecraft:light_gray_dye"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:sheep"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sheep"
+						}
 					}
-				}
+				]
 			}
 		},
 		"cyan_dye": {
@@ -174,13 +192,15 @@
 						"minecraft:cyan_dye"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:sheep"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sheep"
+						}
 					}
-				}
+				]
 			}
 		},
 		"purple_dye": {
@@ -191,13 +211,15 @@
 						"minecraft:purple_dye"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:sheep"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sheep"
+						}
 					}
-				}
+				]
 			}
 		},
 		"blue_dye": {
@@ -208,13 +230,15 @@
 						"minecraft:blue_dye"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:sheep"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sheep"
+						}
 					}
-				}
+				]
 			}
 		},
 		"brown_dye": {
@@ -225,13 +249,15 @@
 						"minecraft:brown_dye"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:sheep"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sheep"
+						}
 					}
-				}
+				]
 			}
 		},
 		"green_dye": {
@@ -242,13 +268,15 @@
 						"minecraft:green_dye"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:sheep"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sheep"
+						}
 					}
-				}
+				]
 			}
 		},
 		"red_dye": {
@@ -259,13 +287,15 @@
 						"minecraft:red_dye"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:sheep"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sheep"
+						}
 					}
-				}
+				]
 			}
 		},
 		"black_dye": {
@@ -276,13 +306,15 @@
 						"minecraft:black_dye"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:sheep"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:sheep"
+						}
 					}
-				}
+				]
 			}
 		}
 	}

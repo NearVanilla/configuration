@@ -17,12 +17,8 @@
 			"trigger": "minecraft:voluntary_exile",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"location": {
-							"dimension": "the_end"
-						}
+					"location": {
+						"dimension": "the_end"
 					}
 				}
 			}
@@ -31,12 +27,8 @@
 			"trigger": "minecraft:hero_of_the_village",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"location": {
-							"dimension": "the_end"
-						}
+					"location": {
+						"dimension": "the_end"
 					}
 				}
 			}

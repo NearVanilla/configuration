@@ -19,12 +19,12 @@
 					"type": {
 						"tags": [
 							{
-								"id": "#minecraft:is_projectile",
+								"id": "minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"entity_type": "minecraft:arrow",
+							"type": "minecraft:arrow",
 							"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 						}
 					}
@@ -38,12 +38,12 @@
 					"type": {
 						"tags": [
 							{
-								"id": "#minecraft:is_projectile",
+								"id": "minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"entity_type": "minecraft:spectral_arrow",
+							"type": "minecraft:spectral_arrow",
 							"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 						}
 					}

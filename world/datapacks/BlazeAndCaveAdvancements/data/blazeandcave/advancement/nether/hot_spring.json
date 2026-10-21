@@ -13,34 +13,20 @@
 	},
 	"criteria": {
 		"enter_water_cauldron": {
-			"trigger": "minecraft:location",
+			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"player": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:location_check",
-							"predicate": {
-								"block": {
-									"blocks": "minecraft:water_cauldron"
-								},
+				"block": "minecraft:water_cauldron",
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
 								"dimension": "the_nether"
 							}
-						},
-						{
-							"type": "minecraft:inverted",
-							"term": {
-								"type": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"minecraft:type_specific/player": {
-										"gamemode": ["spectator"]
-									}
-								}
-							}
 						}
-					]
-				}
+					}
+				]
 			}
 		}
 	}

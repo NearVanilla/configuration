@@ -16,32 +16,29 @@
 		"music_disc": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:location_check",
-							"predicate": {
-								"block": {
-									"blocks": [
-										"minecraft:jukebox"
-									],
-									"state": {
-										"has_record": "true"
-									}
-								}
-							}
-						},
-						{
-							"type": "minecraft:match_tool",
-							"predicate": {
-								"predicates": {
-									"minecraft:jukebox_playable": {}
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:jukebox"
+								],
+								"state": {
+									"has_record": "true"
 								}
 							}
 						}
-					]
-				}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"predicates": {
+								"minecraft:jukebox_playable": {}
+							}
+						}
+					}
+				]
 			}
 		}
 	}

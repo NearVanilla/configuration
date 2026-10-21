@@ -18,110 +18,36 @@
 			"conditions": {
 				"killing_blow": {
 					"tags": [
-						{
-							"id": "#minecraft:is_projectile",
-							"expected": true
-						}
-					],
-					"direct_entity": {
-						"entity_type": "minecraft:trident"
-					}
-				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:zombified_piglin"
-					}
-				}
-			}
-		},
-		"zombified_piglin_melee": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "#blazeandcave:is_player_hit",
-							"expected": true
-						}
-					]
-				},
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:trident"
-								]
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
 							}
+						],
+						"direct_entity": {
+							"type": "minecraft:trident"
 						}
-					}
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:zombified_piglin"
-					}
+					"type": "zombified_piglin"
 				}
 			}
-		},
+		},	
 		"ghast": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"killing_blow": {
 					"tags": [
-						{
-							"id": "#minecraft:is_projectile",
-							"expected": true
-						}
-					],
-					"direct_entity": {
-						"entity_type": "minecraft:trident"
-					}
-				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:ghast"
-					}
-				}
-			}
-		},
-		"ghast_melee": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "#blazeandcave:is_player_hit",
-							"expected": true
-						}
-					]
-				},
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:trident"
-								]
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
 							}
+						],
+						"direct_entity": {
+							"type": "minecraft:trident"
 						}
-					}
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:ghast"
-					}
+					"type": "ghast"
 				}
 			}
 		},
@@ -130,54 +56,17 @@
 			"conditions": {
 				"killing_blow": {
 					"tags": [
-						{
-							"id": "#minecraft:is_projectile",
-							"expected": true
-						}
-					],
-					"direct_entity": {
-						"entity_type": "minecraft:trident"
-					}
-				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:magma_cube"
-					}
-				}
-			}
-		},
-		"magma_cube_melee": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "#blazeandcave:is_player_hit",
-							"expected": true
-						}
-					]
-				},
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:trident"
-								]
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
 							}
+						],
+						"direct_entity": {
+							"type": "minecraft:trident"
 						}
-					}
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:magma_cube"
-					}
+					"type": "magma_cube"
 				}
 			}
 		},
@@ -186,59 +75,19 @@
 			"conditions": {
 				"killing_blow": {
 					"tags": [
-						{
-							"id": "#minecraft:is_projectile",
-							"expected": true
-						}
-					],
-					"direct_entity": {
-						"entity_type": "minecraft:trident"
-					}
-				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:skeleton",
-						"location": {
-							"dimension": "the_nether"
-						}
-					}
-				}
-			}
-		},
-		"skeleton_melee": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "#blazeandcave:is_player_hit",
-							"expected": true
-						}
-					]
-				},
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:trident"
-								]
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
 							}
+						],
+						"direct_entity": {
+							"type": "minecraft:trident"
 						}
-					}
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:skeleton",
-						"location": {
-							"dimension": "the_nether"
-						}
+					"type": "skeleton",
+					"location": {
+						"dimension": "the_nether"
 					}
 				}
 			}
@@ -248,54 +97,17 @@
 			"conditions": {
 				"killing_blow": {
 					"tags": [
-						{
-							"id": "#minecraft:is_projectile",
-							"expected": true
-						}
-					],
-					"direct_entity": {
-						"entity_type": "minecraft:trident"
-					}
-				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:wither_skeleton"
-					}
-				}
-			}
-		},
-		"wither_skeleton_melee": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "#blazeandcave:is_player_hit",
-							"expected": true
-						}
-					]
-				},
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:trident"
-								]
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
 							}
+						],
+						"direct_entity": {
+							"type": "minecraft:trident"
 						}
-					}
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:wither_skeleton"
-					}
+					"type": "wither_skeleton"
 				}
 			}
 		},
@@ -304,54 +116,17 @@
 			"conditions": {
 				"killing_blow": {
 					"tags": [
-						{
-							"id": "#minecraft:is_projectile",
-							"expected": true
-						}
-					],
-					"direct_entity": {
-						"entity_type": "minecraft:trident"
-					}
-				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:blaze"
-					}
-				}
-			}
-		},
-		"blaze_melee": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "#blazeandcave:is_player_hit",
-							"expected": true
-						}
-					]
-				},
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:trident"
-								]
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
 							}
+						],
+						"direct_entity": {
+							"type": "minecraft:trident"
 						}
-					}
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:blaze"
-					}
+					"type": "blaze"
 				}
 			}
 		},
@@ -360,54 +135,17 @@
 			"conditions": {
 				"killing_blow": {
 					"tags": [
-						{
-							"id": "#minecraft:is_projectile",
-							"expected": true
-						}
-					],
-					"direct_entity": {
-						"entity_type": "minecraft:trident"
-					}
-				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:piglin"
-					}
-				}
-			}
-		},
-		"piglin_melee": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "#blazeandcave:is_player_hit",
-							"expected": true
-						}
-					]
-				},
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:trident"
-								]
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
 							}
+						],
+						"direct_entity": {
+							"type": "minecraft:trident"
 						}
-					}
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:piglin"
-					}
+					"type": "piglin"
 				}
 			}
 		},
@@ -416,54 +154,17 @@
 			"conditions": {
 				"killing_blow": {
 					"tags": [
-						{
-							"id": "#minecraft:is_projectile",
-							"expected": true
-						}
-					],
-					"direct_entity": {
-						"entity_type": "minecraft:trident"
-					}
-				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:hoglin"
-					}
-				}
-			}
-		},
-		"hoglin_melee": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "#blazeandcave:is_player_hit",
-							"expected": true
-						}
-					]
-				},
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:trident"
-								]
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
 							}
+						],
+						"direct_entity": {
+							"type": "minecraft:trident"
 						}
-					}
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:hoglin"
-					}
+					"type": "hoglin"
 				}
 			}
 		},
@@ -472,54 +173,17 @@
 			"conditions": {
 				"killing_blow": {
 					"tags": [
-						{
-							"id": "#minecraft:is_projectile",
-							"expected": true
-						}
-					],
-					"direct_entity": {
-						"entity_type": "minecraft:trident"
-					}
-				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:strider"
-					}
-				}
-			}
-		},
-		"strider_melee": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "#blazeandcave:is_player_hit",
-							"expected": true
-						}
-					]
-				},
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:trident"
-								]
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
 							}
+						],
+						"direct_entity": {
+							"type": "minecraft:trident"
 						}
-					}
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:strider"
-					}
+					"type": "strider"
 				}
 			}
 		},
@@ -528,54 +192,17 @@
 			"conditions": {
 				"killing_blow": {
 					"tags": [
-						{
-							"id": "#minecraft:is_projectile",
-							"expected": true
-						}
-					],
-					"direct_entity": {
-						"entity_type": "minecraft:trident"
-					}
-				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:zoglin"
-					}
-				}
-			}
-		},
-		"zoglin_melee": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "#blazeandcave:is_player_hit",
-							"expected": true
-						}
-					]
-				},
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:trident"
-								]
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
 							}
+						],
+						"direct_entity": {
+							"type": "minecraft:trident"
 						}
-					}
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:zoglin"
-					}
+					"type": "zoglin"
 				}
 			}
 		},
@@ -584,54 +211,17 @@
 			"conditions": {
 				"killing_blow": {
 					"tags": [
-						{
-							"id": "#minecraft:is_projectile",
-							"expected": true
-						}
-					],
-					"direct_entity": {
-						"entity_type": "minecraft:trident"
-					}
-				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:piglin_brute"
-					}
-				}
-			}
-		},
-		"piglin_brute_melee": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "#blazeandcave:is_player_hit",
-							"expected": true
-						}
-					]
-				},
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:trident"
-								]
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
 							}
+						],
+						"direct_entity": {
+							"type": "minecraft:trident"
 						}
-					}
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:piglin_brute"
-					}
+					"type": "piglin_brute"
 				}
 			}
 		},
@@ -640,172 +230,19 @@
 			"conditions": {
 				"killing_blow": {
 					"tags": [
-						{
-							"id": "#minecraft:is_projectile",
-							"expected": true
-						}
-					],
-					"direct_entity": {
-						"entity_type": "minecraft:trident"
-					}
-				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:happy_ghast"
-					}
-				}
-			}
-		},
-		"happy_ghast_melee": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "#blazeandcave:is_player_hit",
-							"expected": true
-						}
-					]
-				},
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:trident"
-								]
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
 							}
+						],
+						"direct_entity": {
+							"type": "minecraft:trident"
 						}
-					}
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:happy_ghast"
-					}
-				}
-			}
-		},
-		"enderman": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "#minecraft:is_projectile",
-							"expected": true
-						}
-					],
-					"direct_entity": {
-						"entity_type": "minecraft:trident"
-					}
-				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:enderman",
-						"location": {
-							"dimension": "the_nether"
-						}
-					}
-				}
-			}
-		},
-		"enderman_melee": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "#blazeandcave:is_player_hit",
-							"expected": true
-						}
-					]
-				},
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:trident"
-								]
-							}
-						}
-					}
-				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:enderman",
-						"location": {
-							"dimension": "the_nether"
-						}
-					}
+					"type": "happy_ghast"
 				}
 			}
 		}
-	},
-	"requirements": [
-		[
-			"zombified_piglin",
-			"zombified_piglin_melee"
-		],
-		[
-			"ghast",
-			"ghast_melee"
-		],
-		[
-			"magma_cube",
-			"magma_cube_melee"
-		],
-		[
-			"skeleton",
-			"skeleton_melee"
-		],
-		[
-			"wither_skeleton",
-			"wither_skeleton_melee"
-		],
-		[
-			"blaze",
-			"blaze_melee"
-		],
-		[
-			"piglin",
-			"piglin_melee"
-		],
-		[
-			"hoglin",
-			"hoglin_melee"
-		],
-		[
-			"strider",
-			"strider_melee"
-		],
-		[
-			"zoglin",
-			"zoglin_melee"
-		],
-		[
-			"piglin_brute",
-			"piglin_brute_melee"
-		],
-		[
-			"happy_ghast",
-			"happy_ghast_melee"
-		],
-		[
-			"enderman",
-			"enderman_melee"
-		]
-	]
+	}
 }

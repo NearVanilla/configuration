@@ -19,23 +19,19 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "#minecraft:is_projectile",
+							"id": "minecraft:is_projectile",
 							"expected": true
 						}
 					],
 					"direct_entity": {
-						"entity_type": "#blazeandcave:arrows"
+						"type": "#blazeandcave:arrows"
 					}
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:phantom",
-						"distance": {
-							"absolute": {
-								"min": 30
-							}
+					"type": "phantom",
+					"distance": {
+						"absolute": {
+							"min": 30
 						}
 					}
 				}

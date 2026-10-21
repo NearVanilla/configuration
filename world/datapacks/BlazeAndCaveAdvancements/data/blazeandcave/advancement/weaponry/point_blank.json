@@ -19,23 +19,19 @@
 					"type": {
 						"tags": [
 							{
-								"id": "#minecraft:is_projectile",
+								"id": "minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"entity_type": "#blazeandcave:arrows"
+							"type": "minecraft:arrow"
 						}
 					}
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"distance": {
-							"absolute": {
-								"max": 2.0
-							}
+					"distance": {
+						"absolute": {
+							"max": 2.0
 						}
 					}
 				}

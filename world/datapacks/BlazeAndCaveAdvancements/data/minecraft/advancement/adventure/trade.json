@@ -16,11 +16,7 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "villager"
-					}
+					"type": "villager"
 				}
 			}
 		}

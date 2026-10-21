@@ -15,17 +15,19 @@
 		"potato": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": {
-					"type": "minecraft:location_check",
-					"predicate": {
-						"block": {
-							"blocks": [
-								"minecraft:potatoes"
-							]
-						},
-						"dimension": "the_end"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:potatoes"
+								]
+							},
+							"dimension": "the_end"
+						}
 					}
-				}
+				]
 			}
 		}
 	}

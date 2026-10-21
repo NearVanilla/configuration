@@ -15,15 +15,17 @@
 		"minecart": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"predicate": {
-						"vehicle": {
-							"entity_type": "minecraft:minecart"
-						}
-					},
-					"entity": "this"
-				}
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"vehicle": {
+								"type": "minecraft:minecart"
+							}
+						},
+						"entity": "this"
+					}
+				]
 			}
 		}
 	}

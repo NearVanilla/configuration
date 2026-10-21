@@ -9,7 +9,7 @@
           "name": "minecraft:sculk_catalyst"
         }
       ],
-      "rolls": 1
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:entities/warden"

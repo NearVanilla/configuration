@@ -1,22 +1,52 @@
 {
-    "pack": {
-        "description": [
-            {
-                "text": "Armor Statues",
-                "color": "gold"
-            },
-            {
-                "text": "\nvanillatweaks.net",
-                "color": "yellow"
-            }
-        ],
-        "min_format": [
-            121,
-            0
-        ],
-        "max_format": [
-            121,
-            0
-        ]
-    }
+	"pack": {
+		"pack_format": 48,
+		"supported_formats": {
+			"min_inclusive": 48,
+			"max_inclusive": 94
+		},
+		"description": [
+			{
+				"text": "Armor Statues",
+				"color": "gold"
+			},
+			{
+				"text": "\nvanillatweaks.net",
+				"color": "yellow"
+			}
+		],
+		"min_format": 48,
+		"max_format": 94
+	},
+	"overlays": {
+		"entries": [
+			{
+				"formats": {
+					"min_inclusive": 57,
+					"max_inclusive": 2147483647
+				},
+				"directory": "overlay_57",
+				"min_format": 57,
+				"max_format": 2147483647
+			},
+			{
+				"formats": {
+					"min_inclusive": 71,
+					"max_inclusive": 2147483647
+				},
+				"directory": "overlay_71",
+				"min_format": 71,
+				"max_format": 2147483647
+			},
+			{
+				"formats": {
+					"min_inclusive": 80,
+					"max_inclusive": 2147483647
+				},
+				"directory": "overlay_80",
+				"min_format": 80,
+				"max_format": 2147483647
+			}
+		]
+	}
 }

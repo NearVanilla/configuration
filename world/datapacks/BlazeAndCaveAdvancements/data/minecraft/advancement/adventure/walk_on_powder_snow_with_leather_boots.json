@@ -18,43 +18,41 @@
 		"walk_on_powder_snow_with_leather_boots": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:entity_properties",
-							"predicate": {
-								"stepping_on": {
-									"block": {
-										"blocks": [
-											"minecraft:powder_snow"
-										]
-									}
-								},
-								"equipment": {
-									"feet": {
-										"items": [
-											"minecraft:leather_boots"
-										]
-									}
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"stepping_on": {
+								"block": {
+									"blocks": [
+										"minecraft:powder_snow"
+									]
 								}
 							},
-							"entity": "this"
+							"equipment": {
+								"feet": {
+									"items": [
+										"minecraft:leather_boots"
+									]
+								}
+							}
 						},
-						{
-							"type": "minecraft:inverted",
-							"term": {
-								"type": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"minecraft:type_specific/player": {
-										"gamemode": ["spectator"]
-									}
+						"entity": "this"
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
 								}
 							}
 						}
-					]
-				}
+					}
+				]
 			}
 		}
 	}

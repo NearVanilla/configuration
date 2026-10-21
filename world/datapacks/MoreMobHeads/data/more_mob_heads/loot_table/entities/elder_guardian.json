@@ -8,9 +8,9 @@
 					"type": "item",
 					"name": "minecraft:player_head",
 					"weight": 1,
-					"modifier": [
+					"functions": [
 						{
-							"type": "set_components",
+							"function": "set_components",
 							"components": {
 								"minecraft:note_block_sound": "minecraft:entity.elder_guardian.ambient",
 								"minecraft:profile": {
@@ -21,20 +21,17 @@
 										}
 									]
 								},
-								"minecraft:item_name": "Elder Guardian Head"
+								"minecraft:item_name": "\"Elder Guardian Head\""
 							}
 						}
 					]
 				}
 			],
-			"condition": {
-				"type": "minecraft:all_of",
-				"terms": [
-					{
-						"type": "killed_by_player"
-					}
-				]
-			}
+			"conditions": [
+				{
+					"condition": "killed_by_player"
+				}
+			]
 		}
 	]
 }

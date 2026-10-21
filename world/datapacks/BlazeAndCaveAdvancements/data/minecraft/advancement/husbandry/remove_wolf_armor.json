@@ -15,13 +15,15 @@
 		"remove_wolf_armor": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:wolf"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:wolf"
+						}
 					}
-				},
+				],
 				"item": {
 					"items": "minecraft:shears"
 				}

@@ -6,6 +6,7 @@
 		"title": {"translate":"This will be a breeze!"},
 		"description": {"color":"green","translate":"Famous last words. Get killed by a Breeze"},
 		"announce_to_chat": true
+
 	},
 	"parent": "minecraft:adventure/minecraft_trials_edition",
 	"rewards": {
@@ -16,11 +17,7 @@
 			"trigger": "minecraft:entity_killed_player",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:breeze"
-					}
+					"type": "breeze"
 				}
 			}
 		}

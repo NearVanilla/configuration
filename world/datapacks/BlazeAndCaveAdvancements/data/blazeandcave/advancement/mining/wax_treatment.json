@@ -20,13 +20,15 @@
 						"minecraft:honeycomb"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:copper_golem"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:copper_golem"
+						}
 					}
-				}
+				]
 			}
 		}
 	}

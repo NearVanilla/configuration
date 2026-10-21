@@ -9,30 +9,27 @@
           "name": "minecraft:totem_of_undying"
         }
       ],
-      "rolls": 1
+      "rolls": 1.0
     },
     {
       "bonus_rolls": 0.0,
-      "condition": {
-        "type": "minecraft:all_of",
-        "terms": [
-          {
-            "type": "minecraft:killed_by_player"
-          }
-        ]
-      },
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "modifier": [
+          "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1,
-                "min": 0
+                "max": 1.0,
+                "min": 0.0
               },
-              "type": "minecraft:set_count"
+              "function": "minecraft:set_count"
             },
             {
               "count": {
@@ -41,13 +38,13 @@
                 "min": 0.0
               },
               "enchantment": "minecraft:looting",
-              "type": "minecraft:enchanted_count_increase"
+              "function": "minecraft:enchanted_count_increase"
             }
           ],
           "name": "minecraft:emerald"
         }
       ],
-      "rolls": 1
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:entities/evoker"

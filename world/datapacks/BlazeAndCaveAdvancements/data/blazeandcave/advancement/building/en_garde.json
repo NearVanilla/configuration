@@ -15,12 +15,14 @@
 		"fence": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": {
-					"type": "minecraft:match_tool",
-					"predicate": {
-						"items": "#minecraft:fences"
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "#minecraft:fences"
+						}
 					}
-				}
+				]
 			}
 		}
 	}	

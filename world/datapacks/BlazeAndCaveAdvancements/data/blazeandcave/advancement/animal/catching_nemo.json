@@ -16,7 +16,8 @@
 		"tropical_fish": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item": {
+				"item":
+				{
 					"items": [
 						"minecraft:tropical_fish"
 					]

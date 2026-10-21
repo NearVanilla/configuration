@@ -16,73 +16,64 @@
 		"clean_leather_armor": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:location_check",
-							"predicate": {
-								"block": {
-									"blocks": "#minecraft:cauldrons"
-								}
-							}
-						},
-						{
-							"type": "minecraft:match_tool",
-							"predicate": {
-								"items": "#blazeandcave:leather_armor"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "#minecraft:cauldrons"
 							}
 						}
-					]
-				}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "#blazeandcave:leather_armor"
+						}
+					}
+				]
 			}
 		},
 		"clean_banner": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:location_check",
-							"predicate": {
-								"block": {
-									"blocks": "#minecraft:cauldrons"
-								}
-							}
-						},
-						{
-							"type": "minecraft:match_tool",
-							"predicate": {
-								"items": "#minecraft:banners"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "#minecraft:cauldrons"
 							}
 						}
-					]
-				}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "#minecraft:banners"
+						}
+					}
+				]
 			}
 		},
 		"clean_shulker_box": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:location_check",
-							"predicate": {
-								"block": {
-									"blocks": "#minecraft:cauldrons"
-								}
-							}
-						},
-						{
-							"type": "minecraft:match_tool",
-							"predicate": {
-								"items": "#minecraft:shulker_boxes"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "#minecraft:cauldrons"
 							}
 						}
-					]
-				}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "#minecraft:shulker_boxes"
+						}
+					}
+				]
 			}
 		}
 	}

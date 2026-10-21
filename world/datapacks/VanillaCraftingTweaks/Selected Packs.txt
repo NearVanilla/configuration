@@ -1,5 +1,5 @@
 Vanilla Tweaks Crafting Tweaks
-Version: 26.3
+Version: 1.21
 Packs:
 	craftable coral blocks 2x2
 	universal dyeing

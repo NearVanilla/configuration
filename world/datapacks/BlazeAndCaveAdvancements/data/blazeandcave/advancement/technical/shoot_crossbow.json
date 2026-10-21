@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:advancement/shoot_crossbow"
+		"function": "blazeandcave:shoot_crossbow"
 	},
 	"criteria": {
 		"shot_crossbow": {

@@ -15,15 +15,17 @@
 		"boat": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"predicate": {
-						"vehicle": {
-							"entity_type": "#blazeandcave:chest_boats"
-						}
-					},
-					"entity": "this"
-				}
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"vehicle": {
+								"type": "#blazeandcave:chest_boats"
+							}
+						},
+						"entity": "this"
+					}
+				]
 			}
 		}
 	}		

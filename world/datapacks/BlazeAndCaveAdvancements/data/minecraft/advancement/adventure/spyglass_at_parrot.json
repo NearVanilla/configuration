@@ -7,25 +7,28 @@
 		"description": {"color":"green","translate":"Look at a Parrot through a Spyglass"},
 		"announce_to_chat": true
 	},
-	"parent": "blazeandcave:biomes/chatterbox",
+	"parent": "blazeandcave:animal/chatterbox",
 	"rewards": {
-		"function": "bacap_rewards:biomes/is_it_a_bird"
+		"function": "bacap_rewards:animal/is_it_a_bird"
 	},		
 	"criteria": {
 		"spyglass_at_parrot": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"looking_at": {
-								"entity_type": "minecraft:parrot"
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type_specific": {
+								"type": "player",
+								"looking_at": {
+									"type": "minecraft:parrot"
+								}
 							}
-						}
-					},
-					"entity": "this"
-				},
+						},
+						"entity": "this"
+					}
+				],
 				"item": {
 					"items": [
 						"minecraft:spyglass"

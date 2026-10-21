@@ -17,21 +17,19 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:ghast"
-					}
+					"type": "ghast"
 				},
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"vehicle": {
-							"entity_type": "happy_ghast"
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"type": "happy_ghast"
+							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

@@ -18,15 +18,11 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"head": {
-								"items": [
-									"minecraft:jack_o_lantern"
-								]
-							}
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:jack_o_lantern"
+							]
 						}
 					}
 				}

@@ -15,25 +15,22 @@
 		"shelfception": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:location_check",
-							"predicate": {
-								"block": {
-									"blocks": "#minecraft:wooden_shelves"
-								}
-							}
-						},
-						{
-							"type": "minecraft:match_tool",
-							"predicate": {
-								"items": "#minecraft:wooden_shelves"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "#minecraft:wooden_shelves"
 							}
 						}
-					]
-				}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "#minecraft:wooden_shelves"
+						}
+					}
+				]
 			}
 		}
 	}	

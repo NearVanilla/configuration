@@ -8,9 +8,9 @@
 					"type": "item",
 					"name": "minecraft:player_head",
 					"weight": 1,
-					"modifier": [
+					"functions": [
 						{
-							"type": "set_components",
+							"function": "set_components",
 							"components": {
 								"minecraft:note_block_sound": "minecraft:entity.sheep.ambient",
 								"minecraft:profile": {
@@ -21,27 +21,58 @@
 										}
 									]
 								},
-								"minecraft:item_name": "White Sheep Head"
+								"minecraft:item_name": "\"White Sheep Head\""
 							}
 						}
 					]
 				}
 			],
-			"condition": {
-				"type": "minecraft:all_of",
-				"terms": [
-					{
-						"type": "random_chance_with_enchanted_bonus",
-						"enchantment": "minecraft:looting",
-						"unenchanted_chance": 0.0175,
-						"enchanted_chance": {
-							"type": "minecraft:linear",
-							"base": 0.02,
-							"per_level_above_first": 0.0025
-						}
+			"conditions": [
+				{
+					"condition": "killed_by_player"
+				},
+				{
+					"condition": "inverted",
+					"term": {
+						"condition": "any_of",
+						"terms": [
+							{
+								"condition": "entity_properties",
+								"predicate": {
+									"nbt": "{CustomName:\"{\\\"text\\\":\\\"jeb_\\\"}\"}"
+								},
+								"entity": "this"
+							},
+							{
+								"condition": "entity_properties",
+								"predicate": {
+									"nbt": "{CustomName:\"\\\"jeb_\\\"\"}"
+								},
+								"entity": "this"
+							}
+						]
 					}
-				]
-			}
+				},
+				{
+					"condition": "random_chance_with_enchanted_bonus",
+					"enchantment": "minecraft:looting",
+					"unenchanted_chance": 0.0175,
+					"enchanted_chance": {
+						"type": "minecraft:linear",
+						"base": 0.02,
+						"per_level_above_first": 0.0025
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "more_mob_heads:entities/sheep/jeb_sheep"
+				}
+			]
 		}
 	]
 }

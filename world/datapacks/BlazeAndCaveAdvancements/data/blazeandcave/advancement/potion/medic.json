@@ -15,17 +15,13 @@
 		"healing": {
 			"trigger": "minecraft:brewed_potion",
 			"conditions": {
-				"potion": {
-					"potions": "minecraft:healing"
-				}
+				"potion": "minecraft:healing"
 			}
 		},
 		"strong_healing": {
 			"trigger": "minecraft:brewed_potion",
 			"conditions": {
-				"potion": {
-					"potions": "minecraft:strong_healing"
-				}
+				"potion": "minecraft:strong_healing"
 			}
 		}
 	},

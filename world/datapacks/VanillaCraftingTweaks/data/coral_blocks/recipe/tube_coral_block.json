@@ -9,7 +9,9 @@
 		"##"
 	],
 	"key": {
-		"#": "#coral_blocks:tube_coral"
+		"#": {
+			"tag": "coral_blocks:tube_coral"
+		}
 	},
 	"group": "coral_blocks"
 }

@@ -18,13 +18,15 @@
 				"item": {
 					"items": "#minecraft:creeper_igniters"
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper"
+						}
 					}
-				}
+				]
 			}
 		}
 	}

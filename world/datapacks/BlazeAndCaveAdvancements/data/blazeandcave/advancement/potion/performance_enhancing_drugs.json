@@ -15,25 +15,19 @@
 		"swiftness": {
 			"trigger": "minecraft:brewed_potion",
 			"conditions": {
-				"potion": {
-					"potions": "minecraft:swiftness"
-				}
+				"potion": "minecraft:swiftness"
 			}
 		},
 		"long_swiftness": {
 			"trigger": "minecraft:brewed_potion",
 			"conditions": {
-				"potion": {
-					"potions": "minecraft:long_swiftness"
-				}
+				"potion": "minecraft:long_swiftness"
 			}
 		},
 		"strong_swiftness": {
 			"trigger": "minecraft:brewed_potion",
 			"conditions": {
-				"potion": {
-					"potions": "minecraft:strong_swiftness"
-				}
+				"potion": "minecraft:strong_swiftness"
 			}
 		}
 	},

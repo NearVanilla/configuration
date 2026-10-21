@@ -22,15 +22,17 @@
 						]
 					}
 				],
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"location": {
-							"dimension": "minecraft:the_nether"
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"dimension": "minecraft:the_nether"
+							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

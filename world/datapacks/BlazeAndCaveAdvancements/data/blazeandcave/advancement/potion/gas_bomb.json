@@ -18,22 +18,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:speed": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:speed": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"slowness": {
@@ -41,22 +40,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:slowness": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:slowness": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"strength": {
@@ -64,22 +62,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:strength": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:strength": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"weakness": {
@@ -87,22 +84,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:weakness": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:weakness": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"jump_boost": {
@@ -110,22 +106,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:jump_boost": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:jump_boost": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"regeneration": {
@@ -133,22 +128,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:regeneration": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:regeneration": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"resistance": {
@@ -156,22 +150,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:resistance": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:resistance": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"fire_resistance": {
@@ -179,22 +172,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:fire_resistance": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:fire_resistance": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"water_breathing": {
@@ -202,22 +194,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:water_breathing": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:water_breathing": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"invisibility": {
@@ -225,22 +216,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:invisibility": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:invisibility": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"night_vision": {
@@ -248,22 +238,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:night_vision": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:night_vision": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"poison": {
@@ -271,22 +260,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:poison": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:poison": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"wither": {
@@ -294,22 +282,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:wither": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:wither": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"glowing": {
@@ -317,22 +304,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:glowing": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:glowing": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"levitation": {
@@ -340,22 +326,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:levitation": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:levitation": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"slow_falling": {
@@ -363,22 +348,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:slow_falling": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:slow_falling": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"oozing": {
@@ -386,22 +370,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:oozing": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:oozing": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"weaving": {
@@ -409,22 +392,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:weaving": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:weaving": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"infested": {
@@ -432,22 +414,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:infested": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:infested": {}
+							}
 						}
 					}
-
-				}
+				]
 			}
 		},
 		"wind_charged": {
@@ -455,45 +436,21 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
+						"minecraft:flint_and_steel"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:wind_charged": {}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:creeper",
+							"effects": {
+								"minecraft:wind_charged": {}
+							}
 						}
 					}
-
-				}
-			}
-		},
-		"nausea": {
-			"trigger": "minecraft:player_interacted_with_entity",
-			"conditions": {
-				"item": {
-					"items": [
-						"minecraft:flint_and_steel",
-						"minecraft:fire_charge"
-					]
-				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper",
-						"effects": {
-							"minecraft:nausea": {}
-						}
-					}
-
-				}
+				]
 			}
 		}
 	}

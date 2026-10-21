@@ -16,30 +16,22 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:zombie"
-					}
+					"type": "zombie"
 				},
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "#blazeandcave:is_player_hit",
+							"id": "minecraft:is_player_attack",
 							"expected": true
 						}
 					]
 				},			
 				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:spyglass"
-								]
-							}
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:spyglass"
+							]
 						}
 					}
 				}

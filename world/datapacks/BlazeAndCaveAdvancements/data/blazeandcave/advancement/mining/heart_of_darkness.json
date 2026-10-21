@@ -15,45 +15,43 @@
 		"enter_cave": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"location": {
-									"light": {
-										"light": {
-											"max": 0
-										}
-									}
-								}
-							}
-						},
-						{
-							"type": "minecraft:location_check",
-							"offsetY": 1,
-							"predicate": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
 								"light": {
-									"light": 0
-								}
-							}
-						},
-						{
-							"type": "minecraft:inverted",
-							"term": {
-								"type": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"minecraft:type_specific/player": {
-										"gamemode": ["spectator"]
+									"light": {
+										"max": 0
 									}
 								}
 							}
 						}
-					]
-				}
+					},
+					{
+						"condition": "minecraft:location_check",
+						"offsetY": 1,
+						"predicate": {
+							"light": {
+								"light": 0
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
 			}
 		}
 	}

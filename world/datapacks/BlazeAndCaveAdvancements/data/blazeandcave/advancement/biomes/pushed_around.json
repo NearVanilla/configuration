@@ -7,7 +7,7 @@
 		"description": {"color":"green","translate":"Enter a bubble column"},
 		"announce_to_chat": true
 	},
-	"parent": "blazeandcave:biomes/the_sea_calls_you",
+	"parent": "blazeandcave:biomes/echolocation",
 	"rewards": {
 		"function": "bacap_rewards:biomes/pushed_around"
 	},
@@ -15,7 +15,7 @@
 		"enter_water": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"blocks": "minecraft:bubble_column"
+				"block": "minecraft:bubble_column"
 			}
 		}
 	}

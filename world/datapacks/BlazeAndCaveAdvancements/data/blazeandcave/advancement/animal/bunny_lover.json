@@ -17,12 +17,8 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"child": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:rabbit",
-						"nbt": "{RabbitType:0}"
-					}
+					"type": "minecraft:rabbit",
+					"nbt": "{RabbitType:0}"
 				}
 			}
 		},
@@ -30,12 +26,8 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"child": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:rabbit",
-						"nbt": "{RabbitType:1}"
-					}
+					"type": "minecraft:rabbit",
+					"nbt": "{RabbitType:1}"
 				}
 			}
 		},
@@ -43,12 +35,8 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"child": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:rabbit",
-						"nbt": "{RabbitType:2}"
-					}
+					"type": "minecraft:rabbit",
+					"nbt": "{RabbitType:2}"
 				}
 			}
 		},
@@ -56,12 +44,8 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"child": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:rabbit",
-						"nbt": "{RabbitType:3}"
-					}
+					"type": "minecraft:rabbit",
+					"nbt": "{RabbitType:3}"
 				}
 			}
 		},
@@ -69,12 +53,8 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"child": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:rabbit",
-						"nbt": "{RabbitType:4}"
-					}
+					"type": "minecraft:rabbit",
+					"nbt": "{RabbitType:4}"
 				}
 			}
 		},
@@ -82,12 +62,8 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"child": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:rabbit",
-						"nbt": "{RabbitType:5}"
-					}
+					"type": "minecraft:rabbit",
+					"nbt": "{RabbitType:5}"
 				}
 			}
 		}

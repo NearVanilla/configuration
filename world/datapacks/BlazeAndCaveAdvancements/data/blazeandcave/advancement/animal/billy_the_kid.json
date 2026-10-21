@@ -16,18 +16,10 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:goat"
-					}
+					"type": "minecraft:goat"
 				},
 				"partner": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:goat"
-					}
+					"type": "minecraft:goat"
 				}
 			}
 		}

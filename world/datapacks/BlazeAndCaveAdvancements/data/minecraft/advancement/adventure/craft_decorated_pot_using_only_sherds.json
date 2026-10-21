@@ -3,14 +3,12 @@
 		"icon": {
 			"id": "minecraft:decorated_pot",
 			"components": {
-				"minecraft:pot_decorations": {
-					"front": {
-						"id": "minecraft:explorer_pottery_sherd"
-					},
-					"left": {
-						"id": "minecraft:heart_pottery_sherd"
-					}
-				}
+				"minecraft:pot_decorations": [
+					"minecraft:brick",
+					"minecraft:heart_pottery_sherd",
+					"minecraft:brick",
+					"minecraft:explorer_pottery_sherd"
+				]
 			}
 		},
 		"title": {"translate":"Careful Restoration"},
@@ -26,7 +24,7 @@
 		"pot_crafted_using_only_sherds": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipes": "minecraft:decorated_pot",
+				"recipe_id": "minecraft:decorated_pot",
 				"ingredients": [
 					{
 						"items": "#minecraft:decorated_pot_sherds"

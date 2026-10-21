@@ -21,13 +21,15 @@
 						"minecraft:sugar"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:horses"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#blazeandcave:horses"
+						}
 					}
-				}
+				]
 			}
 		},
 		"wheat": {
@@ -38,13 +40,15 @@
 						"minecraft:wheat"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:horses"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#blazeandcave:horses"
+						}
 					}
-				}
+				]
 			}
 		},
 		"apple": {
@@ -55,13 +59,15 @@
 						"minecraft:apple"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:horses"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#blazeandcave:horses"
+						}
 					}
-				}
+				]
 			}
 		},
 		"golden_apple": {
@@ -72,13 +78,15 @@
 						"minecraft:golden_apple"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:horses"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#blazeandcave:horses"
+						}
 					}
-				}
+				]
 			}
 		},
 		"golden_carrot": {
@@ -89,13 +97,15 @@
 						"minecraft:golden_carrot"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:horses"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#blazeandcave:horses"
+						}
 					}
-				}
+				]
 			}
 		},
 		"hay_block": {
@@ -106,13 +116,15 @@
 						"minecraft:hay_block"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:horses"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#blazeandcave:horses"
+						}
 					}
-				}
+				]
 			}
 		},
 		"enchanted_golden_apple": {
@@ -123,13 +135,15 @@
 						"minecraft:enchanted_golden_apple"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:horses"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#blazeandcave:horses"
+						}
 					}
-				}
+				]
 			}
 		},
 		"carrot": {
@@ -140,13 +154,15 @@
 						"minecraft:carrot"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:horses"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#blazeandcave:horses"
+						}
 					}
-				}
+				]
 			}
 		}
 	}

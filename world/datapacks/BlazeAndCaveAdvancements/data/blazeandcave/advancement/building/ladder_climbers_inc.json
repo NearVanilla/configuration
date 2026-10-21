@@ -13,33 +13,9 @@
 	},
 	"criteria": {
 		"enter_ladder": {
-			"trigger": "minecraft:location",
+			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"player": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:location_check",
-							"predicate": {
-								"block": {
-									"blocks": "minecraft:ladder"
-								}
-							}
-						},
-						{
-							"type": "minecraft:inverted",
-							"term": {
-								"type": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"minecraft:type_specific/player": {
-										"gamemode": ["spectator"]
-									}
-								}
-							}
-						}
-					]
-				}
+				"block": "minecraft:ladder"
 			}
 		}
 	}

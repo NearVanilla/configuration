@@ -2,15 +2,22 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:pink_wool"
+          "type": "minecraft:loot_table",
+          "value": "vanilla:entities/sheep/pink"
         }
-      ],
-      "rolls": 1
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "more_mob_heads:entities/sheep/pink"
+        }
+      ]
     }
-  ],
-  "random_sequence": "minecraft:entities/sheep/pink"
+  ]
 }

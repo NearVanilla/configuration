@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:advancement/riddle/first_line"
+		"function": "blazeandcave:riddle/first_line"
 	},
 	"criteria": {
 		"first_line": {
@@ -20,14 +20,12 @@
 						}
 					}
 				],
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:challenges/root": true
-							}
+				"type_specific": {
+					"type": "player",
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:challenges/root": true
 						}
 					}
 				}

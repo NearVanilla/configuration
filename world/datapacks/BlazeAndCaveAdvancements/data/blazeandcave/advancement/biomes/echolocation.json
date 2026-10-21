@@ -18,13 +18,15 @@
 				"item": {
 					"items": "#blazeandcave:dolphin_feedable"
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:dolphin"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:dolphin"
+						}
 					}
-				}
+				]
 			}
 		}
 	}

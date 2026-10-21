@@ -16,24 +16,26 @@
 		"jenga": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"vehicle": {
-							"entity_type": "strider",
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
 							"vehicle": {
-								"entity_type": "strider",
+								"type": "strider",
 								"vehicle": {
-									"entity_type": "#blazeandcave:all_boats",
+									"type": "strider",
 									"vehicle": {
-										"entity_type": "minecart"
+										"type": "#blazeandcave:all_boats",
+										"vehicle": {
+											"type": "minecart"
+										}
 									}
 								}
 							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

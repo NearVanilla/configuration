@@ -3,32 +3,44 @@
 		"ride": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"vehicle": {
-							"entity_type": "#blazeandcave:player_rideables"
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"type": "#blazeandcave:player_rideables"
+							}
 						}
 					}
-				}
+				]
 			}
 		},
-		"enter_hazard": {
+		"enter_water": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"blocks": [
-					"minecraft:water",
-					"minecraft:lava",
-					"minecraft:bubble_column"
-				]
+				"block": "minecraft:water"
+			}
+		},
+		"enter_lava": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:lava"
+			}
+		},
+		"enter_bubble_column": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:bubble_column"
 			}
 		}
 	},
 	"requirements": [
 		[
 			"ride",
-			"enter_hazard"
+			"enter_water",
+			"enter_lava",
+			"enter_bubble_column"
 		]
 	]
 }

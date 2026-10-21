@@ -21,16 +21,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:65536}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:65536}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish2": {
@@ -41,16 +41,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:917504}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:917504}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish3": {
@@ -61,16 +61,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:918273}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:918273}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish4": {
@@ -81,16 +81,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:918529}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:918529}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish5": {
@@ -101,16 +101,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:16778497}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:16778497}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish6": {
@@ -121,16 +121,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:50660352}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:50660352}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish7": {
@@ -141,16 +141,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:50726144}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:50726144}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish8": {
@@ -161,16 +161,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:67108865}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:67108865}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish9": {
@@ -181,16 +181,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:67110144}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:67110144}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish10": {
@@ -201,16 +201,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:67371009}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:67371009}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish11": {
@@ -221,16 +221,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:67764993}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:67764993}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish12": {
@@ -241,16 +241,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:101253888}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:101253888}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish13": {
@@ -261,16 +261,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:117441025}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:117441025}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish14": {
@@ -281,16 +281,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:67699456}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:67699456}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish15": {
@@ -301,16 +301,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:117441793}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:117441793}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish16": {
@@ -321,16 +321,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:117506305}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:117506305}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish17": {
@@ -341,16 +341,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:117899265}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:117899265}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish18": {
@@ -361,16 +361,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:118161664}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:118161664}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish19": {
@@ -381,16 +381,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:459008}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:459008}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish20": {
@@ -401,16 +401,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:185008129}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:185008129}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish21": {
@@ -421,16 +421,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:234882305}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:234882305}"
+						}
 					}
-
-				}
+				]
 			}
 		},
 		"fish22": {
@@ -441,16 +441,16 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": {
-
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tropical_fish",
-						"nbt": "{Variant:235340288}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:235340288}"
+						}
 					}
-
-				}
+				]
 			}
 		}
 	}

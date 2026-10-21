@@ -6,31 +6,28 @@
 			"entries": [
 				{
 					"type": "minecraft:alternatives",
-					"condition": {
-						"type": "minecraft:all_of",
-						"terms": [
-							{
-								"type": "killed_by_player"
-							},
-							{
-								"type": "random_chance_with_enchanted_bonus",
-								"enchantment": "minecraft:looting",
-								"unenchanted_chance": 0.24,
-								"enchanted_chance": {
-									"type": "minecraft:linear",
-									"base": 0.31,
-									"per_level_above_first": 0.07
-								}
+					"conditions": [
+						{
+							"condition": "killed_by_player"
+						},
+						{
+							"condition": "random_chance_with_enchanted_bonus",
+							"enchantment": "minecraft:looting",
+							"unenchanted_chance": 0.24,
+							"enchanted_chance": {
+								"type": "minecraft:linear",
+								"base": 0.31,
+								"per_level_above_first": 0.07
 							}
-						]
-					},
+						}
+					],
 					"children": [
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.llama.ambient",
 										"minecraft:profile": {
@@ -41,29 +38,26 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Creamy Trader Llama Head"
+										"minecraft:item_name": "\"Creamy Trader Llama Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"nbt": "{Variant:0}"
-										},
-										"entity": "this"
-									}
-								]
-							}
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{Variant:0}"
+									},
+									"entity": "this"
+								}
+							]
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.llama.ambient",
 										"minecraft:profile": {
@@ -74,29 +68,26 @@
 												}
 											]
 										},
-										"minecraft:item_name": "White Trader Llama Head"
+										"minecraft:item_name": "\"White Trader Llama Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"nbt": "{Variant:1}"
-										},
-										"entity": "this"
-									}
-								]
-							}
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{Variant:1}"
+									},
+									"entity": "this"
+								}
+							]
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.llama.ambient",
 										"minecraft:profile": {
@@ -107,29 +98,26 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Brown Trader Llama Head"
+										"minecraft:item_name": "\"Brown Trader Llama Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"nbt": "{Variant:2}"
-										},
-										"entity": "this"
-									}
-								]
-							}
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{Variant:2}"
+									},
+									"entity": "this"
+								}
+							]
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.llama.ambient",
 										"minecraft:profile": {
@@ -140,22 +128,19 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Gray Trader Llama Head"
+										"minecraft:item_name": "\"Gray Trader Llama Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"nbt": "{Variant:3}"
-										},
-										"entity": "this"
-									}
-								]
-							}
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{Variant:3}"
+									},
+									"entity": "this"
+								}
+							]
 						}
 					]
 				}

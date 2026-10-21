@@ -17,21 +17,17 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:blaze"
-					}
+					"type": "blaze"
 				},
 				"killing_blow": {
 					"tags": [
 							{
-								"id": "#minecraft:is_projectile",
+								"id": "minecraft:is_projectile",
 								"expected": true
 							}
 						],
 					"direct_entity": {
-						"entity_type": "minecraft:snowball"
+						"type": "minecraft:snowball"
 					}
 				}
 			}

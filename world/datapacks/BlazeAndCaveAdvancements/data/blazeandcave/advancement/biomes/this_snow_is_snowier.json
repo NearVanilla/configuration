@@ -12,34 +12,10 @@
 		"function": "bacap_rewards:biomes/this_snow_is_snowier"
 	},
 	"criteria": {
-		"enter_powder_snow": {
-			"trigger": "minecraft:location",
+		"enter_water": {
+			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"player": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:location_check",
-							"predicate": {
-								"block": {
-									"blocks": "minecraft:powder_snow"
-								}
-							}
-						},
-						{
-							"type": "minecraft:inverted",
-							"term": {
-								"type": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"minecraft:type_specific/player": {
-										"gamemode": ["spectator"]
-									}
-								}
-							}
-						}
-					]
-				}
+				"block": "minecraft:powder_snow"
 			}
 		}
 	}

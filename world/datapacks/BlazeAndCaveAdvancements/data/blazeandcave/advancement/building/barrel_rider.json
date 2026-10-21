@@ -15,16 +15,18 @@
 		"barrel": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": {
-					"type": "minecraft:location_check",
-					"predicate": {
-						"block": {
-							"blocks": [
-								"minecraft:barrel"
-							]
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:barrel"
+								]
+							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

@@ -119,30 +119,6 @@
 					}
 				]
 			}
-		},
-		"sulfur": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:sulfur"
-						]
-					}
-				]
-			}
-		},
-		"cinnabar": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:cinnabar"
-						]
-					}
-				]
-			}
 		}
 	}		
 }

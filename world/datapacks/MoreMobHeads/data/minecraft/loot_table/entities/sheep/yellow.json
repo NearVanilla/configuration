@@ -2,15 +2,22 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:yellow_wool"
+          "type": "minecraft:loot_table",
+          "value": "vanilla:entities/sheep/yellow"
         }
-      ],
-      "rolls": 1
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "more_mob_heads:entities/sheep/yellow"
+        }
+      ]
     }
-  ],
-  "random_sequence": "minecraft:entities/sheep/yellow"
+  ]
 }

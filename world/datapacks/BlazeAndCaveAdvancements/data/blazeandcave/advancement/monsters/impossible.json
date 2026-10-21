@@ -17,11 +17,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:enderman"
-					}
+					"type": "enderman"
 				},
 				"killing_blow": {
 					"source_entity": {
@@ -37,41 +33,12 @@
 					},
 					"tags": [
 						{
-							"id": "#blazeandcave:is_player_hit",
+							"id": "minecraft:is_player_attack",
 							"expected": true
 						}
 					]
 				}
 			}
-		},
-		"enderman_shot_arrow": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "#minecraft:is_projectile",
-							"expected": true
-						}
-					],
-					"direct_entity": {
-						"entity_type": "#blazeandcave:arrows"
-					}
-				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:enderman"
-					}
-				}
-			}
-		}
-	},
-	"requirements": [
-		[
-			"enderman_arrow",
-			"enderman_shot_arrow"
-		]
-	]
+		}	
+	}
 }

@@ -15,7 +15,7 @@
 		"soul_fire": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"blocks": "minecraft:soul_fire"
+				"block": "minecraft:soul_fire"
 			}
 		}
 	}

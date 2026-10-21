@@ -8,9 +8,9 @@
 					"type": "item",
 					"name": "minecraft:player_head",
 					"weight": 1,
-					"modifier": [
+					"functions": [
 						{
-							"type": "set_components",
+							"function": "set_components",
 							"components": {
 								"minecraft:note_block_sound": "minecraft:entity.bogged.ambient",
 								"minecraft:profile": {
@@ -21,30 +21,27 @@
 										}
 									]
 								},
-								"minecraft:item_name": "Bogged Head"
+								"minecraft:item_name": "\"Bogged Head\""
 							}
 						}
 					]
 				}
 			],
-			"condition": {
-				"type": "minecraft:all_of",
-				"terms": [
-					{
-						"type": "killed_by_player"
-					},
-					{
-						"type": "random_chance_with_enchanted_bonus",
-						"enchantment": "minecraft:looting",
-						"unenchanted_chance": 0.06,
-						"enchanted_chance": {
-							"type": "minecraft:linear",
-							"base": 0.11,
-							"per_level_above_first": 0.05
-						}
+			"conditions": [
+				{
+					"condition": "killed_by_player"
+				},
+				{
+					"condition": "random_chance_with_enchanted_bonus",
+					"enchantment": "minecraft:looting",
+					"unenchanted_chance": 0.06,
+					"enchanted_chance": {
+						"type": "minecraft:linear",
+						"base": 0.11,
+						"per_level_above_first": 0.05
 					}
-				]
-			}
+				}
+			]
 		}
 	]
 }

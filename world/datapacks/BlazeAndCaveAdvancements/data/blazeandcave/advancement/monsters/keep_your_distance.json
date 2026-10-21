@@ -17,23 +17,19 @@
 			"conditions": {
 				"killing_blow": {
 					"tags": [
-						{
-							"id": "#minecraft:is_projectile",
-							"expected": true
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"type": "#blazeandcave:arrows"
 						}
-					],
-					"direct_entity": {
-						"entity_type": "#blazeandcave:arrows"
-					}
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper"
-					}
+					"type": "creeper"
 				}
 			}
-		}
+		}	
 	}
 }

@@ -17,16 +17,12 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:stray",
-						"location": {
-							"biomes": "desert",
-							"position": {
-								"y": {
-									"min": 56
-								}
+					"type": "minecraft:stray",
+					"location": {
+						"biomes": "desert",
+						"position": {
+							"y": {
+								"min": 56
 							}
 						}
 					}

@@ -51,7 +51,7 @@
 				"damage": {
 					"blocked": true,
 					"source_entity": {
-						"entity_type": "shulker"
+						"type": "shulker"
 					}
 				}
 			}

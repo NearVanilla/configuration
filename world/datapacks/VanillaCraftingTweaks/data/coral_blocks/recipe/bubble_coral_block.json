@@ -9,7 +9,9 @@
 		"##"
 	],
 	"key": {
-		"#": "#coral_blocks:bubble_coral"
+		"#": {
+			"tag": "coral_blocks:bubble_coral"
+		}
 	},
 	"group": "coral_blocks"
 }

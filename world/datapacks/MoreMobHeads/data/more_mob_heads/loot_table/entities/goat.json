@@ -6,21 +6,18 @@
 			"entries": [
 				{
 					"type": "minecraft:alternatives",
-					"condition": {
-						"type": "minecraft:all_of",
-						"terms": [
-							{
-								"type": "killed_by_player"
-							}
-						]
-					},
+					"conditions": [
+						{
+							"condition": "killed_by_player"
+						}
+					],
 					"children": [
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.goat.ambient",
 										"minecraft:profile": {
@@ -31,39 +28,36 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Goat Head"
+										"minecraft:item_name": "\"Goat Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"nbt": "{IsScreamingGoat:0b}"
-										},
-										"entity": "this"
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{IsScreamingGoat:0b}"
 									},
-									{
-										"type": "random_chance_with_enchanted_bonus",
-										"enchantment": "minecraft:looting",
-										"unenchanted_chance": 0.01,
-										"enchanted_chance": {
-											"type": "minecraft:linear",
-											"base": 0.011,
-											"per_level_above_first": 0.001
-										}
+									"entity": "this"
+								},
+								{
+									"condition": "random_chance_with_enchanted_bonus",
+									"enchantment": "minecraft:looting",
+									"unenchanted_chance": 0.01,
+									"enchanted_chance": {
+										"type": "minecraft:linear",
+										"base": 0.011,
+										"per_level_above_first": 0.001
 									}
-								]
-							}
+								}
+							]
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.goat.screaming.prepare_ram",
 										"minecraft:profile": {
@@ -74,32 +68,29 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Screaming Goat Head"
+										"minecraft:item_name": "\"Screaming Goat Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"nbt": "{IsScreamingGoat:1b}"
-										},
-										"entity": "this"
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{IsScreamingGoat:1b}"
 									},
-									{
-										"type": "random_chance_with_enchanted_bonus",
-										"enchantment": "minecraft:looting",
-										"unenchanted_chance": 1,
-										"enchanted_chance": {
-											"type": "minecraft:linear",
-											"base": 1,
-											"per_level_above_first": 0
-										}
+									"entity": "this"
+								},
+								{
+									"condition": "random_chance_with_enchanted_bonus",
+									"enchantment": "minecraft:looting",
+									"unenchanted_chance": 1,
+									"enchanted_chance": {
+										"type": "minecraft:linear",
+										"base": 1,
+										"per_level_above_first": 0
 									}
-								]
-							}
+								}
+							]
 						}
 					]
 				}
