@@ -6,28 +6,31 @@
 			"entries": [
 				{
 					"type": "minecraft:alternatives",
-					"conditions": [
-						{
-							"condition": "killed_by_player"
-						},
-						{
-							"condition": "random_chance_with_enchanted_bonus",
-							"enchantment": "minecraft:looting",
-							"unenchanted_chance": 0.27,
-							"enchanted_chance": {
-								"type": "minecraft:linear",
-								"base": 0.28,
-								"per_level_above_first": 0.01
+					"condition": {
+						"type": "minecraft:all_of",
+						"terms": [
+							{
+								"type": "killed_by_player"
+							},
+							{
+								"type": "random_chance_with_enchanted_bonus",
+								"enchantment": "minecraft:looting",
+								"unenchanted_chance": 0.27,
+								"enchanted_chance": {
+									"type": "minecraft:linear",
+									"base": 0.28,
+									"per_level_above_first": 0.01
+								}
 							}
-						}
-					],
+						]
+					},
 					"children": [
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.horse.ambient",
 										"minecraft:profile": {
@@ -38,59 +41,31 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"White Horse Head\""
+										"minecraft:item_name": "White Horse Head"
 									}
 								}
 							],
-							"conditions": [
-								{
-									"condition": "any_of",
-									"terms": [
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:0}"
-											},
-											"entity": "this"
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "entity_properties",
+										"predicate": {
+											"components": {
+												"minecraft:horse/variant": "white"
+											}
 										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:256}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:512}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:768}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:1024}"
-											},
-											"entity": "this"
-										}
-									]
-								}
-							]
+										"entity": "this"
+									}
+								]
+							}
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.horse.ambient",
 										"minecraft:profile": {
@@ -101,59 +76,31 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Creamy Horse Head\""
+										"minecraft:item_name": "Creamy Horse Head"
 									}
 								}
 							],
-							"conditions": [
-								{
-									"condition": "any_of",
-									"terms": [
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:1}"
-											},
-											"entity": "this"
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "entity_properties",
+										"predicate": {
+											"components": {
+												"minecraft:horse/variant": "creamy"
+											}
 										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:257}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:513}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:769}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:1025}"
-											},
-											"entity": "this"
-										}
-									]
-								}
-							]
+										"entity": "this"
+									}
+								]
+							}
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.horse.ambient",
 										"minecraft:profile": {
@@ -164,59 +111,31 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Chestnut Horse Head\""
+										"minecraft:item_name": "Chestnut Horse Head"
 									}
 								}
 							],
-							"conditions": [
-								{
-									"condition": "any_of",
-									"terms": [
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:2}"
-											},
-											"entity": "this"
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "entity_properties",
+										"predicate": {
+											"components": {
+												"minecraft:horse/variant": "chestnut"
+											}
 										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:258}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:514}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:770}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:1026}"
-											},
-											"entity": "this"
-										}
-									]
-								}
-							]
+										"entity": "this"
+									}
+								]
+							}
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.horse.ambient",
 										"minecraft:profile": {
@@ -227,59 +146,31 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Brown Horse Head\""
+										"minecraft:item_name": "Brown Horse Head"
 									}
 								}
 							],
-							"conditions": [
-								{
-									"condition": "any_of",
-									"terms": [
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:3}"
-											},
-											"entity": "this"
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "entity_properties",
+										"predicate": {
+											"components": {
+												"minecraft:horse/variant": "brown"
+											}
 										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:259}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:515}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:771}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:1027}"
-											},
-											"entity": "this"
-										}
-									]
-								}
-							]
+										"entity": "this"
+									}
+								]
+							}
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.horse.ambient",
 										"minecraft:profile": {
@@ -290,59 +181,31 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Black Horse Head\""
+										"minecraft:item_name": "Black Horse Head"
 									}
 								}
 							],
-							"conditions": [
-								{
-									"condition": "any_of",
-									"terms": [
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:4}"
-											},
-											"entity": "this"
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "entity_properties",
+										"predicate": {
+											"components": {
+												"minecraft:horse/variant": "black"
+											}
 										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:260}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:516}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:772}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:1028}"
-											},
-											"entity": "this"
-										}
-									]
-								}
-							]
+										"entity": "this"
+									}
+								]
+							}
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.horse.ambient",
 										"minecraft:profile": {
@@ -353,59 +216,31 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Gray Horse Head\""
+										"minecraft:item_name": "Gray Horse Head"
 									}
 								}
 							],
-							"conditions": [
-								{
-									"condition": "any_of",
-									"terms": [
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:5}"
-											},
-											"entity": "this"
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "entity_properties",
+										"predicate": {
+											"components": {
+												"minecraft:horse/variant": "gray"
+											}
 										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:261}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:517}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:773}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:1029}"
-											},
-											"entity": "this"
-										}
-									]
-								}
-							]
+										"entity": "this"
+									}
+								]
+							}
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.horse.ambient",
 										"minecraft:profile": {
@@ -416,52 +251,24 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Dark Brown Horse Head\""
+										"minecraft:item_name": "Dark Brown Horse Head"
 									}
 								}
 							],
-							"conditions": [
-								{
-									"condition": "any_of",
-									"terms": [
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:6}"
-											},
-											"entity": "this"
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "entity_properties",
+										"predicate": {
+											"components": {
+												"minecraft:horse/variant": "dark_brown"
+											}
 										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:262}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:518}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:774}"
-											},
-											"entity": "this"
-										},
-										{
-											"condition": "entity_properties",
-											"predicate": {
-												"nbt": "{Variant:1030}"
-											},
-											"entity": "this"
-										}
-									]
-								}
-							]
+										"entity": "this"
+									}
+								]
+							}
 						}
 					]
 				}

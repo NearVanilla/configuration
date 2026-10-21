@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/ocelot",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/ocelot",
+      "required": false
+    }
+  ]
+}

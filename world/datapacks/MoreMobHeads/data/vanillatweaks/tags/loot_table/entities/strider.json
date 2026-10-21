@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/strider",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/strider",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/dolphin",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/dolphin",
+      "required": false
+    }
+  ]
+}

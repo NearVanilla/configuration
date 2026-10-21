@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/silverfish",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/silverfish",
+      "required": false
+    }
+  ]
+}

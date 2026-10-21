@@ -6,28 +6,31 @@
 			"entries": [
 				{
 					"type": "minecraft:alternatives",
-					"conditions": [
-						{
-							"condition": "killed_by_player"
-						},
-						{
-							"condition": "random_chance_with_enchanted_bonus",
-							"enchantment": "minecraft:looting",
-							"unenchanted_chance": 0.2,
-							"enchanted_chance": {
-								"type": "minecraft:linear",
-								"base": 0.22,
-								"per_level_above_first": 0.02
+					"condition": {
+						"type": "minecraft:all_of",
+						"terms": [
+							{
+								"type": "killed_by_player"
+							},
+							{
+								"type": "random_chance_with_enchanted_bonus",
+								"enchantment": "minecraft:looting",
+								"unenchanted_chance": 0.2,
+								"enchanted_chance": {
+									"type": "minecraft:linear",
+									"base": 0.22,
+									"per_level_above_first": 0.02
+								}
 							}
-						}
-					],
+						]
+					},
 					"children": [
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.bee.loop",
 										"minecraft:profile": {
@@ -38,26 +41,29 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Bee Head\""
+										"minecraft:item_name": "Bee Head"
 									}
 								}
 							],
-							"conditions": [
-								{
-									"condition": "entity_properties",
-									"predicate": {
-										"nbt": "{AngerTime:0,HasNectar:0b}"
-									},
-									"entity": "this"
-								}
-							]
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "entity_properties",
+										"predicate": {
+											"nbt": "{anger_end_time:-1L,HasNectar:0b}"
+										},
+										"entity": "this"
+									}
+								]
+							}
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.bee.pollinate",
 										"minecraft:profile": {
@@ -68,26 +74,29 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Pollinated Bee Head\""
+										"minecraft:item_name": "Pollinated Bee Head"
 									}
 								}
 							],
-							"conditions": [
-								{
-									"condition": "entity_properties",
-									"predicate": {
-										"nbt": "{AngerTime:0,HasNectar:1b}"
-									},
-									"entity": "this"
-								}
-							]
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "entity_properties",
+										"predicate": {
+											"nbt": "{anger_end_time:-1L,HasNectar:1b}"
+										},
+										"entity": "this"
+									}
+								]
+							}
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.bee.loop_aggressive",
 										"minecraft:profile": {
@@ -98,26 +107,29 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Angry Bee Head\""
+										"minecraft:item_name": "Angry Bee Head"
 									}
 								}
 							],
-							"conditions": [
-								{
-									"condition": "entity_properties",
-									"predicate": {
-										"nbt": "{HasNectar:0b}"
-									},
-									"entity": "this"
-								}
-							]
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "entity_properties",
+										"predicate": {
+											"nbt": "{HasNectar:0b}"
+										},
+										"entity": "this"
+									}
+								]
+							}
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.bee.loop_aggressive",
 										"minecraft:profile": {
@@ -128,19 +140,22 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Angry Pollinated Bee Head\""
+										"minecraft:item_name": "Angry Pollinated Bee Head"
 									}
 								}
 							],
-							"conditions": [
-								{
-									"condition": "entity_properties",
-									"predicate": {
-										"nbt": "{HasNectar:1b}"
-									},
-									"entity": "this"
-								}
-							]
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "entity_properties",
+										"predicate": {
+											"nbt": "{HasNectar:1b}"
+										},
+										"entity": "this"
+									}
+								]
+							}
 						}
 					]
 				}

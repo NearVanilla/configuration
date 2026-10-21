@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/zoglin",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/zoglin",
+      "required": false
+    }
+  ]
+}

@@ -8,9 +8,9 @@
 					"type": "item",
 					"name": "minecraft:player_head",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "set_components",
+							"type": "set_components",
 							"components": {
 								"minecraft:note_block_sound": "minecraft:entity.warden.ambient",
 								"minecraft:profile": {
@@ -21,17 +21,20 @@
 										}
 									]
 								},
-								"minecraft:item_name": "\"Warden Head\""
+								"minecraft:item_name": "Warden Head"
 							}
 						}
 					]
 				}
 			],
-			"conditions": [
-				{
-					"condition": "killed_by_player"
-				}
-			]
+			"condition": {
+				"type": "minecraft:all_of",
+				"terms": [
+					{
+						"type": "killed_by_player"
+					}
+				]
+			}
 		}
 	]
 }

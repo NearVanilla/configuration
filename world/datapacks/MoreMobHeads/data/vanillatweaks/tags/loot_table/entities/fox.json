@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/fox",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/fox",
+      "required": false
+    }
+  ]
+}

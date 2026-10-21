@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/slime",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/slime",
+      "required": false
+    }
+  ]
+}

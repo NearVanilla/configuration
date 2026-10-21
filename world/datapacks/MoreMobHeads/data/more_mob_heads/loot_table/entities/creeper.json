@@ -8,9 +8,9 @@
 					"type": "item",
 					"name": "minecraft:player_head",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "set_components",
+							"type": "set_components",
 							"components": {
 								"minecraft:note_block_sound": "minecraft:entity.generic.explode",
 								"minecraft:profile": {
@@ -21,24 +21,27 @@
 										}
 									]
 								},
-								"minecraft:item_name": "\"Charged Creeper Head\""
+								"minecraft:item_name": "Charged Creeper Head"
 							}
 						}
 					]
 				}
 			],
-			"conditions": [
-				{
-					"condition": "killed_by_player"
-				},
-				{
-					"condition": "entity_properties",
-					"predicate": {
-						"nbt": "{powered:1b}"
+			"condition": {
+				"type": "minecraft:all_of",
+				"terms": [
+					{
+						"type": "killed_by_player"
 					},
-					"entity": "this"
-				}
-			]
+					{
+						"type": "entity_properties",
+						"predicate": {
+							"nbt": "{powered:1b}"
+						},
+						"entity": "this"
+					}
+				]
+			}
 		}
 	]
 }

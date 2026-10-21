@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/parched",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/parched",
+      "required": false
+    }
+  ]
+}

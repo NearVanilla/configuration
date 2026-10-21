@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/husk",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/husk",
+      "required": false
+    }
+  ]
+}

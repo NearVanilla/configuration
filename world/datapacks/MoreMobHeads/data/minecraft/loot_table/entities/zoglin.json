@@ -6,16 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "vanilla:entities/zoglin"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "more_mob_heads:entities/zoglin"
+          "value": "#vanillatweaks:entities/zoglin"
         }
       ]
     }

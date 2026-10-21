@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/iron_golem",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/iron_golem",
+      "required": false
+    }
+  ]
+}
