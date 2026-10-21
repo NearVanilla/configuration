@@ -57,9 +57,6 @@ plugins:
 - checksum: 0b08ea159803255e91e3b2b708608efc31845833
   name: PaperTweaks
   version: 0.7.3
-- checksum: 5ad00716b1c591168b39e2b9fb90a1d4d94edd58
-  name: DeathDB
-  version: '1.0'
 - checksum: d1cd4ef15eac3f5de887f960e41e6f4a18f307ed
   name: HuntTheAdmins
   version: 1.0-SNAPSHOT
