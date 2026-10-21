@@ -2,8 +2,6 @@
   "replace": false,
   "values": [
 	"#blazeandcave:player_rideable_mobs",
-	"#minecraft:boat",
-	"#blazeandcave:chest_boats",
-	"minecraft:minecart"
+	"#blazeandcave:all_boats_and_minecarts"
   ]
 }

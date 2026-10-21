@@ -27,7 +27,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#blazeandcave:is_player_hit",
 								"expected": true
 							}
 						]
@@ -49,7 +49,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#blazeandcave:is_player_hit",
 								"expected": true
 							}
 						]
@@ -71,7 +71,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#blazeandcave:is_player_hit",
 								"expected": true
 							}
 						]
@@ -93,7 +93,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#blazeandcave:is_player_hit",
 								"expected": true
 							}
 						]
@@ -115,7 +115,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#blazeandcave:is_player_hit",
 								"expected": true
 							}
 						]
@@ -130,12 +130,12 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"type": "minecraft:arrow",
+							"entity_type": "minecraft:arrow",
 							"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 						}
 					}
@@ -149,12 +149,12 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"type": "minecraft:arrow",
+							"entity_type": "minecraft:arrow",
 							"nbt": "{weapon:{id:\"minecraft:crossbow\"}}"
 						}
 					}
@@ -167,7 +167,7 @@
 				"damage": {
 					"type": {
 						"direct_entity": {
-							"type": "minecraft:firework_rocket"
+							"entity_type": "minecraft:firework_rocket"
 						}
 					}
 				}
@@ -189,7 +189,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#blazeandcave:is_player_hit",
 								"expected": true
 							}
 						]
@@ -204,12 +204,12 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"type": "minecraft:trident"
+							"entity_type": "minecraft:trident"
 						}
 					}
 				}
@@ -222,12 +222,12 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_explosion",
+								"id": "#minecraft:is_explosion",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"type": "minecraft:tnt"
+							"entity_type": "minecraft:tnt"
 						}
 					}
 				}
@@ -240,12 +240,12 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"type": "minecraft:snowball"
+							"entity_type": "minecraft:snowball"
 						}
 					}
 				}
@@ -258,12 +258,12 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"type": "minecraft:egg"
+							"entity_type": "minecraft:egg"
 						}
 					}
 				}
@@ -272,18 +272,16 @@
 		"fishing_rod": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"type": "#blazeandcave:non_mob_entities"
-							}
+				"entity": {
+					"type": "minecraft:inverted",
+					"term": {
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "#blazeandcave:non_mob_entities"
 						}
 					}
-				]
+				}
 			}
 		},
 		"splash_potion": {
@@ -292,7 +290,7 @@
 				"damage": {
 					"type": {
 						"direct_entity": {
-							"type": "minecraft:splash_potion"
+							"entity_type": "minecraft:splash_potion"
 						}
 					}
 				}
@@ -304,7 +302,7 @@
 				"damage": {
 					"type": {
 						"direct_entity": {
-							"type": [
+							"entity_type": [
 								"minecraft:area_effect_cloud",
 								"minecraft:lingering_potion"
 							]
@@ -327,8 +325,12 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#minecraft:is_player_attack",
 								"expected": true
+							},
+							{
+								"id": "#blazeandcave:spear",
+								"expected": false
 							}
 						]
 					}
@@ -364,12 +366,12 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"type": "minecraft:wind_charge"
+							"entity_type": "minecraft:wind_charge"
 						}
 					}
 				}
@@ -389,7 +391,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -411,7 +413,29 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:spear",
+								"id": "#blazeandcave:spear",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"spear_charge_offhand": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"offhand": {
+									"items": "#minecraft:spears"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "#blazeandcave:spear",
 								"expected": true
 							}
 						]
@@ -476,7 +500,8 @@
 		],
 		[
 			"spear_jab",
-			"spear_charge"
+			"spear_charge",
+			"spear_charge_offhand"
 		]
 	]
 }

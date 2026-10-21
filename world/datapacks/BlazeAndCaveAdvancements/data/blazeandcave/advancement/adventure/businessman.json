@@ -17,7 +17,11 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"nbt": "{VillagerData:{profession:\"minecraft:farmer\"}}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{VillagerData:{profession:\"minecraft:farmer\"}}"
+					}
 				}
 			}
 		},
@@ -25,7 +29,11 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"nbt": "{VillagerData:{profession:\"minecraft:fisherman\"}}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{VillagerData:{profession:\"minecraft:fisherman\"}}"
+					}
 				}
 			}
 		},
@@ -33,7 +41,11 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"nbt": "{VillagerData:{profession:\"minecraft:shepherd\"}}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{VillagerData:{profession:\"minecraft:shepherd\"}}"
+					}
 				}
 			}
 		},
@@ -41,7 +53,11 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"nbt": "{VillagerData:{profession:\"minecraft:fletcher\"}}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{VillagerData:{profession:\"minecraft:fletcher\"}}"
+					}
 				}
 			}
 		},
@@ -49,7 +65,11 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"nbt": "{VillagerData:{profession:\"minecraft:librarian\"}}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{VillagerData:{profession:\"minecraft:librarian\"}}"
+					}
 				}
 			}
 		},
@@ -57,7 +77,11 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"nbt": "{VillagerData:{profession:\"minecraft:cartographer\"}}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{VillagerData:{profession:\"minecraft:cartographer\"}}"
+					}
 				}
 			}
 		},
@@ -65,7 +89,11 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"nbt": "{VillagerData:{profession:\"minecraft:cleric\"}}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{VillagerData:{profession:\"minecraft:cleric\"}}"
+					}
 				}
 			}
 		},
@@ -73,7 +101,11 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+					}
 				}
 			}
 		},
@@ -81,7 +113,11 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
+					}
 				}
 			}
 		},
@@ -89,7 +125,11 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+					}
 				}
 			}
 		},
@@ -97,7 +137,11 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"nbt": "{VillagerData:{profession:\"minecraft:butcher\"}}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{VillagerData:{profession:\"minecraft:butcher\"}}"
+					}
 				}
 			}
 		},
@@ -105,7 +149,11 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\"}}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\"}}"
+					}
 				}
 			}
 		},
@@ -113,7 +161,11 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"nbt": "{VillagerData:{profession:\"minecraft:mason\"}}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{VillagerData:{profession:\"minecraft:mason\"}}"
+					}
 				}
 			}
 		}		

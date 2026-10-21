@@ -17,73 +17,65 @@
 		"standing": {
 			"trigger": "minecraft:any_block_use",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": "#minecraft:copper_golem_statues",
-								"state": {
-									"copper_golem_pose": "standing"
-								}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": "#minecraft:copper_golem_statues",
+							"state": {
+								"copper_golem_pose": "standing"
 							}
 						}
 					}
-				]
+				}
 			}
 		},
 		"sitting": {
 			"trigger": "minecraft:any_block_use",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": "#minecraft:copper_golem_statues",
-								"state": {
-									"copper_golem_pose": "sitting"
-								}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": "#minecraft:copper_golem_statues",
+							"state": {
+								"copper_golem_pose": "sitting"
 							}
 						}
 					}
-				]
+				}
 			}
 		},
 		"running": {
 			"trigger": "minecraft:any_block_use",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": "#minecraft:copper_golem_statues",
-								"state": {
-									"copper_golem_pose": "running"
-								}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": "#minecraft:copper_golem_statues",
+							"state": {
+								"copper_golem_pose": "running"
 							}
 						}
 					}
-				]
+				}
 			}
 		},
 		"star": {
 			"trigger": "minecraft:any_block_use",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": "#minecraft:copper_golem_statues",
-								"state": {
-									"copper_golem_pose": "star"
-								}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": "#minecraft:copper_golem_statues",
+							"state": {
+								"copper_golem_pose": "star"
 							}
 						}
 					}
-				]
+				}
 			}
 		}
 	}		

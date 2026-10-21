@@ -16,49 +16,42 @@
 		"called_shot": {
 			"trigger": "minecraft:lightning_strike",
 			"conditions": {
-				"lightning": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"distance": {
-								"absolute": {
-									"max": 2
-								}
-							},
-							"entity_struck": [
-								{
-									"condition": "minecraft:entity_properties",
-									"predicate": {
-										"type": "minecraft:player"
-									}
-								}
-							]
-						},
-						"entity": "this"
-					}
-				],
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"stepping_on": {
-								"block": {
-									"blocks": [
-										"minecraft:lightning_rod",
-										"exposed_lightning_rod",
-										"weathered_lightning_rod",
-										"oxidized_lightning_rod",
-										"waxed_lightning_rod",
-										"waxed_exposed_lightning_rod",
-										"waxed_weathered_lightning_rod",
-										"waxed_oxidized_lightning_rod"
-									]
-								}
+				"lightning": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"distance": {
+							"absolute": {
+								"max": 2.0
 							}
 						},
-						"entity": "this"
+						"minecraft:type_specific/lightning": {
+							"entity_struck": {
+								"entity_type": "minecraft:player"
+							}
+						}
+					},
+					"entity": "this"
+				},
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"stepping_on": {
+							"block": {
+								"blocks": [
+									"minecraft:lightning_rod",
+									"exposed_lightning_rod",
+									"weathered_lightning_rod",
+									"oxidized_lightning_rod",
+									"waxed_lightning_rod",
+									"waxed_exposed_lightning_rod",
+									"waxed_weathered_lightning_rod",
+									"waxed_oxidized_lightning_rod"
+								]
+							}
+						}
 					}
-				]
+				}
 			}
 		}
 	}

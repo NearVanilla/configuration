@@ -7,15 +7,39 @@
 		"description": {"color":"green","translate":"Swing (or climb) on some vines"},
 		"announce_to_chat": true
 	},
-	"parent": "blazeandcave:biomes/the_mighty_jungle",
+	"parent": "blazeandcave:biomes/for_you_my_sweet",
 	"rewards": {
 		"function": "bacap_rewards:biomes/tarzan"
 	},
 	"criteria": {
 		"enter_vine": {
-			"trigger": "minecraft:enter_block",
+			"trigger": "minecraft:location",
 			"conditions": {
-				"block": "minecraft:vine"
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": "minecraft:vine"
+								}
+							}
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:type_specific/player": {
+										"gamemode": ["spectator"]
+									}
+								}
+							}
+						}
+					]
+				}
 			}
 		}
 	}

@@ -12,23 +12,38 @@
 		"function": "bacap_rewards:nether/dont_blink"
 	},
 	"criteria": {
-		"weeping_vines_plant": {
-			"trigger": "minecraft:enter_block",
-			"conditions": {
-				"block": "minecraft:weeping_vines_plant"
-			}
-		},
 		"weeping_vines": {
-			"trigger": "minecraft:enter_block",
+			"trigger": "minecraft:location",
 			"conditions": {
-				"block": "minecraft:weeping_vines"
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": [
+										"minecraft:weeping_vines_plant",
+										"minecraft:weeping_vines"
+									]
+								}
+							}
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:type_specific/player": {
+										"gamemode": ["spectator"]
+									}
+								}
+							}
+						}
+					]
+				}
 			}
 		}
-	},
-	"requirements": [
-		[
-			"weeping_vines_plant",
-			"weeping_vines"
-		]
-	]
+	}
 }

@@ -15,22 +15,25 @@
 		"candle": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": "#blazeandcave:candles_and_cakes"
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": "#blazeandcave:candles_and_cakes"
+								}
+							}
+						},
+						{
+							"type": "minecraft:match_tool",
+							"predicate": {
+								"items": "#blazeandcave:candle_lightables"
 							}
 						}
-					},
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"items": "#blazeandcave:candle_lightables"
-						}
-					}
-				]
+					]
+				}
 			}
 		}
 	}

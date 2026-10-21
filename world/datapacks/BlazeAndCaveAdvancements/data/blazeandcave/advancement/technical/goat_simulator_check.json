@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:goat_simulator_check"
+		"function": "blazeandcave:advancement/check/goat_simulator"
 	},
 	"criteria": {
 		"goat": {
@@ -8,7 +8,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "goat"
+						"entity_type": "goat"
 					}
 				}
 			}

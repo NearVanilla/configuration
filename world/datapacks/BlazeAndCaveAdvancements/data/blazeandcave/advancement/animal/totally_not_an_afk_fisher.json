@@ -19,8 +19,7 @@
 		"cod": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:cod"
 					]
@@ -30,8 +29,7 @@
 		"salmon": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:salmon"
 					]
@@ -41,8 +39,7 @@
 		"pufferfish": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:pufferfish"
 					]
@@ -52,8 +49,7 @@
 		"tropical_fish": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:tropical_fish"
 					]
@@ -63,8 +59,7 @@
 		"bowl": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:bowl"
 					]
@@ -74,8 +69,7 @@
 		"leather": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:leather"
 					]
@@ -85,8 +79,7 @@
 		"leather_boots": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:leather_boots"
 					]
@@ -96,8 +89,7 @@
 		"rotten_flesh": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:rotten_flesh"
 					]
@@ -107,8 +99,7 @@
 		"stick": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:stick"
 					]
@@ -118,8 +109,7 @@
 		"string": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:string"
 					]
@@ -129,8 +119,7 @@
 		"potion": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:potion"
 					]
@@ -140,8 +129,7 @@
 		"bone": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:bone"
 					]
@@ -151,8 +139,7 @@
 		"ink_sac": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:ink_sac"
 					]
@@ -162,8 +149,7 @@
 		"tripwire_hook": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:tripwire_hook"
 					]
@@ -173,8 +159,7 @@
 		"bamboo": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:bamboo"
 					]
@@ -184,8 +169,7 @@
 		"bow": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:bow"
 					]
@@ -195,8 +179,7 @@
 		"enchanted_book": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:enchanted_book"
 					]
@@ -206,8 +189,7 @@
 		"name_tag": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:name_tag"
 					]
@@ -217,8 +199,7 @@
 		"nautilus_shell": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:nautilus_shell"
 					]
@@ -228,8 +209,7 @@
 		"saddle": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:saddle"
 					]
@@ -239,8 +219,7 @@
 		"lily_pad": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:lily_pad"
 					]
@@ -250,8 +229,7 @@
 		"fishing_rod": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:fishing_rod"
 					]

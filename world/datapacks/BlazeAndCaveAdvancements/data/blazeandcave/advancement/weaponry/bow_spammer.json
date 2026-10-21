@@ -22,12 +22,12 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"type": "minecraft:arrow"
+							"entity_type": "#blazeandcave:arrows"
 						}
 					}
 				}

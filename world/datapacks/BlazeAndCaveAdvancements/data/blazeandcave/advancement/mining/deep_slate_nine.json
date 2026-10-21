@@ -15,35 +15,37 @@
 		"deepslate_level": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:type_specific/player": {
+										"gamemode": ["spectator"]
+									}
+								}
+							}
+						},
+						{
+							"type": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"type_specific": {
-									"type": "player",
-									"gamemode": ["spectator"]
+								"location": {
+									"position": {
+										"y": {
+											"max": 4.5
+										}
+									},
+									"dimension": "minecraft:overworld"
 								}
 							}
 						}
-					},
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"location": {
-								"position": {
-									"y": {
-										"max": 4.5
-									}
-								},
-								"dimension": "minecraft:overworld"
-							}
-						}
-					}
-				]
+					]
+				}
 			}
 		}
 	}

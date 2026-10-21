@@ -2,7 +2,11 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:potion",
-			"nbt": "{CustomPotionColor:8453375}"
+			"components": {
+				"minecraft:potion_contents": {
+					"custom_color": 8453375
+				}
+			}
 		},
 		"title": {"translate":"Diagon Allay"},
 		"description": {"color":"#75E1FF","translate":"Have an Allay deliver a potion to you in the Deep Dark"},
@@ -17,15 +21,13 @@
 		"diagon_allay": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:allay"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:allay"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:potion",
@@ -33,31 +35,29 @@
 						"minecraft:lingering_potion"
 					]
 				},
-				"player": [
-					{
-						"condition": "minecraft:any_of",
-						"terms": [
-							{
-								"condition": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"location": {
-										"biomes": "minecraft:deep_dark"
-									}
-								}
-							},
-							{
-								"condition": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"location": {
-										"structures": "minecraft:ancient_city"
-									}
+				"player": {
+					"type": "minecraft:any_of",
+					"terms": [
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"location": {
+									"biomes": "minecraft:deep_dark"
 								}
 							}
-						]
-					}
-				]
+						},
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"location": {
+									"structures": "minecraft:ancient_city"
+								}
+							}
+						}
+					]
+				}
 			}
 		}
 	}

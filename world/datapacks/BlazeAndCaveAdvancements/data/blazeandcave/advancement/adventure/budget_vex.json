@@ -15,15 +15,13 @@
 		"iron_sword": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"type": "minecraft:allay"
-						},
-						"entity": "this"
-					}
-				],
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:allay"
+					},
+					"entity": "this"
+				},
 				"item": {
 					"items": [
 						"minecraft:iron_sword"

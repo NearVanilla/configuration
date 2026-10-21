@@ -18,10 +18,14 @@
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:pig",
-					"distance": {
-						"absolute": {
-							"min": 25
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:pig",
+						"distance": {
+							"absolute": {
+								"min": 25
+							}
 						}
 					}
 				}

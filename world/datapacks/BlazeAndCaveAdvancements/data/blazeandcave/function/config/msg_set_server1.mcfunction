@@ -3,6 +3,7 @@ scoreboard players set goal bac_settings 1
 scoreboard players set challenge bac_settings 1
 scoreboard players set super_challenge bac_settings 1
 scoreboard players set milestone bac_settings 1
+scoreboard players set hidden bac_settings 1
 
 execute in the_end run gamerule show_advancement_messages false
 execute in overworld run gamerule show_advancement_messages false 

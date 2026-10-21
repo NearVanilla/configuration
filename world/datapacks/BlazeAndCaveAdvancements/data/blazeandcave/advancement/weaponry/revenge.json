@@ -16,15 +16,19 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "creeper"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper"
+					}
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "tnt"
+						"entity_type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "minecraft:is_explosion",
+							"id": "#minecraft:is_explosion",
 							"expected": true
 						}
 					]

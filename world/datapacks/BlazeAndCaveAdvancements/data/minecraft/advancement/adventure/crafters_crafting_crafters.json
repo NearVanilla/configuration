@@ -16,7 +16,7 @@
 		"crafter_crafted_crafter": {
 			"trigger": "minecraft:crafter_recipe_crafted",
 			"conditions": {
-				"recipe_id": "minecraft:crafter"
+				"recipes": "minecraft:crafter"
 			}
 		}
 	}

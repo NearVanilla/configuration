@@ -16,22 +16,20 @@
 		"blowback": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:breeze"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:breeze"
 					}
-				],
+				},
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:breeze_wind_charge"
+						"entity_type": "minecraft:breeze_wind_charge"
 					},
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					]

@@ -187,6 +187,22 @@
 					}
 				]
 			}
+		},
+		"poplar_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:poplar_log",
+							"minecraft:stripped_poplar_log",
+							"minecraft:poplar_wood",
+							"minecraft:stripped_poplar_wood"
+						],
+						"count": 64
+					}
+				]
+			}
 		}
 	},
 	"requirements": [
@@ -201,7 +217,8 @@
 		"warped_stem",
 		"mangrove_log",
 		"cherry_log",
-		"pale_oak_log"
+		"pale_oak_log",
+		"poplar_log"
 		]
 	]
 }

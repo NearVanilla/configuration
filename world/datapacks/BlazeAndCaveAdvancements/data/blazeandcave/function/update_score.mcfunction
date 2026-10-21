@@ -1,1 +1,1 @@
-function bacap_rewards:update_score
+function blazeandcave:config/update_score

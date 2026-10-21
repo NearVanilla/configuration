@@ -16,7 +16,7 @@
 		"entered_nether_portal": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"block": "minecraft:nether_portal"
+				"blocks": "minecraft:nether_portal"
 			}
 		}
 	}

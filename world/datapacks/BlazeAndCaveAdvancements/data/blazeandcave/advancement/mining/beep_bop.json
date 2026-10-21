@@ -17,7 +17,11 @@
 			"trigger": "minecraft:summoned_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:copper_golem"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:copper_golem"
+					}
 				}
 			}
 		}

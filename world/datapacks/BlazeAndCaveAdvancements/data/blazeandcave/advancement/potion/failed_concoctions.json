@@ -20,13 +20,17 @@
 		"thick_potion": {
 			"trigger": "minecraft:brewed_potion",
 			"conditions": {
-				"potion": "minecraft:thick"
+				"potion": {
+					"potions": "minecraft:thick"
+				}
 			}
 		},
 		"mundane_potion": {
 			"trigger": "minecraft:brewed_potion",
 			"conditions": {
-				"potion": "minecraft:mundane"
+				"potion": {
+					"potions": "minecraft:mundane"
+				}
 			}
 		}
 	}

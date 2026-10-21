@@ -15,16 +15,19 @@
 	"parent": "blazeandcave:statistics/xp_grinder",
 	"rewards": {
 		"function": "bacap_rewards:statistics/giga_xp_grinder"
-	},		
+	},
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"level": {
-							"min": 1000
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"level": {
+								"min": 1000
+							}
 						}
 					}
 				}

@@ -1,13 +1,17 @@
 {
 	"rewards": {
-		"function": "blazeandcave:whack_a_mole_count"
+		"function": "blazeandcave:advancement/count/whack_a_mole"
 	},
 	"criteria": {
 		"whack_a_mole": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "armadillo"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:armadillo"
+					}
 				},
 				"damage": {
 					"type": {
@@ -19,26 +23,24 @@
 						]
 					}
 				},
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"mainhand": {
-									"items": "minecraft:mace",
-									"predicates": {
-										"minecraft:enchantments": [
-											{
-												"enchantments": "minecraft:wind_burst"
-											}
-										]
-									}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:mace",
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "minecraft:wind_burst"
+										}
+									]
 								}
 							}
 						}
 					}
-				]
+				}
 			}
 		}
 	}

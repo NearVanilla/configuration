@@ -17,7 +17,11 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "creeper"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper"
+					}
 				},
 				"killing_blow": {
 					"source_entity": {
@@ -36,7 +40,11 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "zombie"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:zombie"
+					}
 				},
 				"killing_blow": {
 					"source_entity": {
@@ -55,7 +63,11 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "skeleton"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:skeleton"
+					}
 				},
 				"killing_blow": {
 					"source_entity": {
@@ -74,7 +86,11 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "wither_skeleton"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:wither_skeleton"
+					}
 				},
 				"killing_blow": {
 					"source_entity": {
@@ -93,7 +109,11 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "piglin"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
+					}
 				},
 				"killing_blow": {
 					"source_entity": {
