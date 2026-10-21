@@ -1,33 +1,29 @@
 {
-  "type": "minecraft:any_of",
+  "condition": "minecraft:any_of",
   "terms": [
     {
-      "type": "minecraft:entity_properties",
+      "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "equipment": {
           "mainhand": {
             "items": "#armor_statues:potions",
             "predicates": {
-              "minecraft:potion_contents": {
-                "potions": "minecraft:invisibility"
-              }
+              "minecraft:potion_contents": "minecraft:invisibility"
             }
           }
         }
       }
     },
     {
-      "type": "minecraft:entity_properties",
+      "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "equipment": {
           "mainhand": {
             "items": "#armor_statues:potions",
             "predicates": {
-              "minecraft:potion_contents": {
-                "potions": "minecraft:long_invisibility"
-              }
+              "minecraft:potion_contents": "minecraft:long_invisibility"
             }
           }
         }

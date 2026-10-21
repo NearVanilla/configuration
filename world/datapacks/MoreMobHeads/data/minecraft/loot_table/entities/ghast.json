@@ -6,7 +6,16 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "#vanillatweaks:entities/ghast"
+          "value": "vanilla:entities/ghast"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "more_mob_heads:entities/ghast"
         }
       ]
     }

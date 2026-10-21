@@ -6,7 +6,16 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "#vanillatweaks:entities/creeper"
+          "value": "vanilla:entities/creeper"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "more_mob_heads:entities/creeper"
         }
       ]
     }

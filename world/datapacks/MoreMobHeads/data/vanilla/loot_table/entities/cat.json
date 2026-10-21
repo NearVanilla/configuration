@@ -6,21 +6,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "modifier": [
+          "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2,
-                "min": 0
+                "max": 2.0,
+                "min": 0.0
               },
-              "type": "minecraft:set_count"
+              "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:string"
         }
       ],
-      "rolls": 1
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:entities/cat"

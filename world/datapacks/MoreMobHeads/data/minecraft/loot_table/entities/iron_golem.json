@@ -6,7 +6,16 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "#vanillatweaks:entities/iron_golem"
+          "value": "vanilla:entities/iron_golem"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "more_mob_heads:entities/iron_golem"
         }
       ]
     }

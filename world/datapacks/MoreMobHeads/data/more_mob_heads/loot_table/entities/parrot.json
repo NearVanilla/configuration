@@ -6,31 +6,28 @@
 			"entries": [
 				{
 					"type": "minecraft:alternatives",
-					"condition": {
-						"type": "minecraft:all_of",
-						"terms": [
-							{
-								"type": "killed_by_player"
-							},
-							{
-								"type": "random_chance_with_enchanted_bonus",
-								"enchantment": "minecraft:looting",
-								"unenchanted_chance": 0.25,
-								"enchanted_chance": {
-									"type": "minecraft:linear",
-									"base": 0.27,
-									"per_level_above_first": 0.02
-								}
+					"conditions": [
+						{
+							"condition": "killed_by_player"
+						},
+						{
+							"condition": "random_chance_with_enchanted_bonus",
+							"enchantment": "minecraft:looting",
+							"unenchanted_chance": 0.25,
+							"enchanted_chance": {
+								"type": "minecraft:linear",
+								"base": 0.27,
+								"per_level_above_first": 0.02
 							}
-						]
-					},
+						}
+					],
 					"children": [
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.parrot.ambient",
 										"minecraft:profile": {
@@ -41,31 +38,26 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Red Parrot Head"
+										"minecraft:item_name": "\"Red Parrot Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"components": {
-												"minecraft:parrot/variant": "red_blue"
-											}
-										},
-										"entity": "this"
-									}
-								]
-							}
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{Variant:0}"
+									},
+									"entity": "this"
+								}
+							]
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.parrot.ambient",
 										"minecraft:profile": {
@@ -76,31 +68,26 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Blue Parrot Head"
+										"minecraft:item_name": "\"Blue Parrot Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"components": {
-												"minecraft:parrot/variant": "blue"
-											}
-										},
-										"entity": "this"
-									}
-								]
-							}
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{Variant:1}"
+									},
+									"entity": "this"
+								}
+							]
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.parrot.ambient",
 										"minecraft:profile": {
@@ -111,31 +98,26 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Green Parrot Head"
+										"minecraft:item_name": "\"Green Parrot Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"components": {
-												"minecraft:parrot/variant": "green"
-											}
-										},
-										"entity": "this"
-									}
-								]
-							}
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{Variant:2}"
+									},
+									"entity": "this"
+								}
+							]
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.parrot.ambient",
 										"minecraft:profile": {
@@ -146,31 +128,26 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Light Blue Parrot Head"
+										"minecraft:item_name": "\"Light Blue Parrot Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"components": {
-												"minecraft:parrot/variant": "yellow_blue"
-											}
-										},
-										"entity": "this"
-									}
-								]
-							}
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{Variant:3}"
+									},
+									"entity": "this"
+								}
+							]
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.parrot.ambient",
 										"minecraft:profile": {
@@ -181,24 +158,19 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Gray Parrot Head"
+										"minecraft:item_name": "\"Gray Parrot Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"components": {
-												"minecraft:parrot/variant": "gray"
-											}
-										},
-										"entity": "this"
-									}
-								]
-							}
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{Variant:4}"
+									},
+									"entity": "this"
+								}
+							]
 						}
 					]
 				}

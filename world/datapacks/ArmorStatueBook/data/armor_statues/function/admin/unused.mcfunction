@@ -7,11 +7,11 @@
 #
 # Store number of affected stands for reporting
 #
-execute store result score @s as_pose run execute if entity @e[type=armor_stand,nbt={Invisible:1b},nbt=!{equipment:{}},nbt=!{DisabledSlots:4079166},nbt=!{Invulnerable:1b},nbt=!{Marker:1b}]
+execute store result score @s as_pose run execute if entity @e[type=armor_stand,nbt={Invisible:1b},nbt=!{HandItems:[{count:1}]},nbt=!{ArmorItems:[{count:1}]},nbt=!{DisabledSlots:4079166},nbt=!{Invulnerable:1b},nbt=!{Marker:1b}]
 #
 # Kill affected stands
 #
-execute as @e[type=armor_stand,nbt={Invisible:1b},nbt=!{equipment:{}},nbt=!{DisabledSlots:4079166},nbt=!{Invulnerable:1b},nbt=!{Marker:1b}] run kill @s
+execute as @e[type=armor_stand,nbt={Invisible:1b},nbt=!{HandItems:[{count:1}]},nbt=!{ArmorItems:[{count:1}]},nbt=!{DisabledSlots:4079166},nbt=!{Invulnerable:1b},nbt=!{Marker:1b}] run kill @s
 #
 # Report number affected
 #

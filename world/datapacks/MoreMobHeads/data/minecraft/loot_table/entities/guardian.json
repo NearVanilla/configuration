@@ -6,7 +6,16 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "#vanillatweaks:entities/guardian"
+          "value": "vanilla:entities/guardian"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "more_mob_heads:entities/guardian"
         }
       ]
     }

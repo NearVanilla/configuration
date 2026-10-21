@@ -6,7 +6,16 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "#vanillatweaks:entities/bee"
+          "value": "vanilla:entities/bee"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "more_mob_heads:entities/bee"
         }
       ]
     }

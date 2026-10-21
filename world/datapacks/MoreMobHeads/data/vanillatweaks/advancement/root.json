@@ -26,7 +26,7 @@
 				"color": "yellow"
 			}
 		],
-		"background": "minecraft:block/black_concrete",
+		"background": "minecraft:textures/block/black_concrete.png",
 		"show_toast": false,
 		"announce_to_chat": false
 	},

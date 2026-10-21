@@ -6,21 +6,18 @@
 			"entries": [
 				{
 					"type": "minecraft:alternatives",
-					"condition": {
-						"type": "minecraft:all_of",
-						"terms": [
-							{
-								"type": "killed_by_player"
-							}
-						]
-					},
+					"conditions": [
+						{
+							"condition": "killed_by_player"
+						}
+					],
 					"children": [
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.axolotl.idle_air",
 										"minecraft:profile": {
@@ -31,41 +28,36 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Lucy Axolotl Head"
+										"minecraft:item_name": "\"Lucy Axolotl Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"components": {
-												"minecraft:axolotl/variant": "lucy"
-											}
-										},
-										"entity": "this"
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{Variant:0}"
 									},
-									{
-										"type": "random_chance_with_enchanted_bonus",
-										"enchantment": "minecraft:looting",
-										"unenchanted_chance": 0.2,
-										"enchanted_chance": {
-											"type": "minecraft:linear",
-											"base": 0.21,
-											"per_level_above_first": 0.01
-										}
+									"entity": "this"
+								},
+								{
+									"condition": "random_chance_with_enchanted_bonus",
+									"enchantment": "minecraft:looting",
+									"unenchanted_chance": 0.2,
+									"enchanted_chance": {
+										"type": "minecraft:linear",
+										"base": 0.21,
+										"per_level_above_first": 0.01
 									}
-								]
-							}
+								}
+							]
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.axolotl.idle_air",
 										"minecraft:profile": {
@@ -76,41 +68,36 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Wild Axolotl Head"
+										"minecraft:item_name": "\"Wild Axolotl Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"components": {
-												"minecraft:axolotl/variant": "wild"
-											}
-										},
-										"entity": "this"
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{Variant:1}"
 									},
-									{
-										"type": "random_chance_with_enchanted_bonus",
-										"enchantment": "minecraft:looting",
-										"unenchanted_chance": 0.2,
-										"enchanted_chance": {
-											"type": "minecraft:linear",
-											"base": 0.21,
-											"per_level_above_first": 0.01
-										}
+									"entity": "this"
+								},
+								{
+									"condition": "random_chance_with_enchanted_bonus",
+									"enchantment": "minecraft:looting",
+									"unenchanted_chance": 0.2,
+									"enchanted_chance": {
+										"type": "minecraft:linear",
+										"base": 0.21,
+										"per_level_above_first": 0.01
 									}
-								]
-							}
+								}
+							]
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.axolotl.idle_air",
 										"minecraft:profile": {
@@ -121,41 +108,36 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Gold Axolotl Head"
+										"minecraft:item_name": "\"Gold Axolotl Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"components": {
-												"minecraft:axolotl/variant": "gold"
-											}
-										},
-										"entity": "this"
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{Variant:2}"
 									},
-									{
-										"type": "random_chance_with_enchanted_bonus",
-										"enchantment": "minecraft:looting",
-										"unenchanted_chance": 0.2,
-										"enchanted_chance": {
-											"type": "minecraft:linear",
-											"base": 0.21,
-											"per_level_above_first": 0.01
-										}
+									"entity": "this"
+								},
+								{
+									"condition": "random_chance_with_enchanted_bonus",
+									"enchantment": "minecraft:looting",
+									"unenchanted_chance": 0.2,
+									"enchanted_chance": {
+										"type": "minecraft:linear",
+										"base": 0.21,
+										"per_level_above_first": 0.01
 									}
-								]
-							}
+								}
+							]
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.axolotl.idle_air",
 										"minecraft:profile": {
@@ -166,41 +148,36 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Cyan Axolotl Head"
+										"minecraft:item_name": "\"Cyan Axolotl Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"components": {
-												"minecraft:axolotl/variant": "cyan"
-											}
-										},
-										"entity": "this"
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{Variant:3}"
 									},
-									{
-										"type": "random_chance_with_enchanted_bonus",
-										"enchantment": "minecraft:looting",
-										"unenchanted_chance": 0.2,
-										"enchanted_chance": {
-											"type": "minecraft:linear",
-											"base": 0.21,
-											"per_level_above_first": 0.01
-										}
+									"entity": "this"
+								},
+								{
+									"condition": "random_chance_with_enchanted_bonus",
+									"enchantment": "minecraft:looting",
+									"unenchanted_chance": 0.2,
+									"enchanted_chance": {
+										"type": "minecraft:linear",
+										"base": 0.21,
+										"per_level_above_first": 0.01
 									}
-								]
-							}
+								}
+							]
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.axolotl.idle_air",
 										"minecraft:profile": {
@@ -211,34 +188,29 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Blue Axolotl Head"
+										"minecraft:item_name": "\"Blue Axolotl Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"components": {
-												"minecraft:axolotl/variant": "blue"
-											}
-										},
-										"entity": "this"
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{Variant:4}"
 									},
-									{
-										"type": "random_chance_with_enchanted_bonus",
-										"enchantment": "minecraft:looting",
-										"unenchanted_chance": 1,
-										"enchanted_chance": {
-											"type": "minecraft:linear",
-											"base": 1,
-											"per_level_above_first": 0
-										}
+									"entity": "this"
+								},
+								{
+									"condition": "random_chance_with_enchanted_bonus",
+									"enchantment": "minecraft:looting",
+									"unenchanted_chance": 1,
+									"enchanted_chance": {
+										"type": "minecraft:linear",
+										"base": 1,
+										"per_level_above_first": 0
 									}
-								]
-							}
+								}
+							]
 						}
 					]
 				}

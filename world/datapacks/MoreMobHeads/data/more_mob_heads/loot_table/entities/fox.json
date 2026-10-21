@@ -6,21 +6,18 @@
 			"entries": [
 				{
 					"type": "minecraft:alternatives",
-					"condition": {
-						"type": "minecraft:all_of",
-						"terms": [
-							{
-								"type": "killed_by_player"
-							}
-						]
-					},
+					"conditions": [
+						{
+							"condition": "killed_by_player"
+						}
+					],
 					"children": [
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.fox.ambient",
 										"minecraft:profile": {
@@ -31,41 +28,36 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Fox Head"
+										"minecraft:item_name": "\"Fox Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"components": {
-												"minecraft:fox/variant": "red"
-											}
-										},
-										"entity": "this"
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{Type:\"red\"}"
 									},
-									{
-										"type": "random_chance_with_enchanted_bonus",
-										"enchantment": "minecraft:looting",
-										"unenchanted_chance": 0.1,
-										"enchanted_chance": {
-											"type": "minecraft:linear",
-											"base": 0.104,
-											"per_level_above_first": 0.004
-										}
+									"entity": "this"
+								},
+								{
+									"condition": "random_chance_with_enchanted_bonus",
+									"enchantment": "minecraft:looting",
+									"unenchanted_chance": 0.1,
+									"enchanted_chance": {
+										"type": "minecraft:linear",
+										"base": 0.104,
+										"per_level_above_first": 0.004
 									}
-								]
-							}
+								}
+							]
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"modifier": [
+							"functions": [
 								{
-									"type": "set_components",
+									"function": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.fox.ambient",
 										"minecraft:profile": {
@@ -76,34 +68,29 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Snow Fox Head"
+										"minecraft:item_name": "\"Snow Fox Head\""
 									}
 								}
 							],
-							"condition": {
-								"type": "minecraft:all_of",
-								"terms": [
-									{
-										"type": "entity_properties",
-										"predicate": {
-											"components": {
-												"minecraft:fox/variant": "snow"
-											}
-										},
-										"entity": "this"
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"predicate": {
+										"nbt": "{Type:\"snow\"}"
 									},
-									{
-										"type": "random_chance_with_enchanted_bonus",
-										"enchantment": "minecraft:looting",
-										"unenchanted_chance": 0.2,
-										"enchanted_chance": {
-											"type": "minecraft:linear",
-											"base": 0.204,
-											"per_level_above_first": 0.004
-										}
+									"entity": "this"
+								},
+								{
+									"condition": "random_chance_with_enchanted_bonus",
+									"enchantment": "minecraft:looting",
+									"unenchanted_chance": 0.2,
+									"enchanted_chance": {
+										"type": "minecraft:linear",
+										"base": 0.204,
+										"per_level_above_first": 0.004
 									}
-								]
-							}
+								}
+							]
 						}
 					]
 				}

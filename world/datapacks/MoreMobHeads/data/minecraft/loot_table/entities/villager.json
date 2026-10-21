@@ -1,12 +1,32 @@
 {
-  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "value": "#vanillatweaks:entities/villager"
+          "type": "loot_table",
+          "value": "vanilla:entities/villager",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "more_mob_heads:entities/villager",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "villager_death:entities/villager",
+          "weight": 1
         }
       ]
     }
