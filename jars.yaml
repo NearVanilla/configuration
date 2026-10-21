@@ -1,8 +1,8 @@
 platform: Paper
 plugins:
-- checksum: 29d7dbd5c643338f92d78d44878de421c4e66127
+- checksum: b352b197889c5cb2179778923bb80045429ccd7c
   name: ArmorStandEditor
-  version: 26.3-52
+  version: 26.3-52.1
 - checksum: 8d5a063d7a5bda9ceb355e37801f3ee5cb4fbaba
   name: Tebex
   version: 2.4.2
