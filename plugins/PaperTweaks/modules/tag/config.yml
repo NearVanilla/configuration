@@ -2,3 +2,5 @@
 show-messages: true
 # Cooldown (in seconds) between tags
 tag-cooldown-in-seconds: 60
+# Prevents players from using the tag on mobs or dropping it
+prevent-tag-destruction: true

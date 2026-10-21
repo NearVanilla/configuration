@@ -87,20 +87,19 @@ messages:
     Please contact the server administrators if you believe that this is in error.
   use-display-name-in-quit-message: false
 misc:
+  catchup-ticks: default
   chat-threads:
     chat-executor-core-size: -1
     chat-executor-max-size: -1
   client-interaction-leniency-distance: default
   compression-level: default
   enable-nether: true
-  fix-far-end-terrain-generation: true
   lag-compensate-block-breaking: true
   load-permissions-yml-before-plugins: true
   max-joins-per-tick: 3
   max-tracking-combat-entries: 10240
   prevent-negative-villager-demand: false
   region-file-cache-size: 256
-  send-full-pos-for-item-entities: false
   strict-advancement-dimension-check: false
   use-alternative-luck-formula: false
   use-dimension-type-for-custom-spawners: false

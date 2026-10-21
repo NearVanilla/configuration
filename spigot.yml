@@ -69,6 +69,7 @@ advancements:
   - minecraft:story/disabled
 world-settings:
   default:
+    seed-abandonedcamp: 91231127
     unload-frozen-chunks: false
     seed-trialchambers: 94251327
     seed-trailruins: 83469867

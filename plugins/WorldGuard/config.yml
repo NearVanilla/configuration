@@ -21,6 +21,7 @@ regions:
     max-region-count-per-player:
         default: 7
     set-parent-on-claim: ''
+    use-pre-creature-spawn-event: false
 auto-invincible: false
 auto-invincible-group: false
 auto-no-drowning-group: false
