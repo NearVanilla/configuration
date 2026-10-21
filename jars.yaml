@@ -6,7 +6,7 @@ plugins:
 - checksum: de549c1ea623eb48f1cca821d2acb85bfa6ffda1
   name: MiniMOTD
   version: 2.2.4
-- checksum: 4b9ae7d4f4e7dea0044beac6a3d4d6a0302ddc72
+- checksum: 177b43cb15b10004b98d913a2eb2a40913d3fc57
   name: bat
   version: 1.1.5
 - checksum: 3c8c9a14a76520dbd9d2b41fd9d1138a26210fc6
