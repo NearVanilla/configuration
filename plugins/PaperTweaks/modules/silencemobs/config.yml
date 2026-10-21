@@ -1,0 +1,6 @@
+# Names for name tags that trigger silencing a mob. Case-insensitive.
+trigger-names:
+  - "silence me"
+  - "silence_me"
+# The custom name given to the mob when silenced. If left empty, the mob keeps its existing name.
+silenced-name: "silenced"
