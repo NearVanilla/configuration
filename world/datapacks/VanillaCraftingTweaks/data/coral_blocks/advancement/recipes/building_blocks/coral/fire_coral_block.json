@@ -24,7 +24,7 @@
 		"has_the_recipe": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "coral_blocks:coral/fire_coral"
+				"recipes": "coral_blocks:fire_coral_block"
 			}
 		}
 	},
