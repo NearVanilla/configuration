@@ -9,9 +9,7 @@
 		"##"
 	],
 	"key": {
-		"#": {
-			"tag": "coral_blocks:fire_coral"
-		}
+		"#": "#coral_blocks:fire_coral"
 	},
 	"group": "coral_blocks"
 }
