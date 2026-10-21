@@ -7,7 +7,7 @@
 			}
 		},
 		"title": {"translate":"WHERE'S THE HONEY LEBOWSKI"},
-		"description": {"color":"dark_purple","translate":"Drink 100 bottles of honey"},
+		"description": {"color":"dark_purple","translate":"Drink 100 bottles of honey","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_progress"}]},
 		"announce_to_chat": true,
 		"frame": "challenge"
 	},

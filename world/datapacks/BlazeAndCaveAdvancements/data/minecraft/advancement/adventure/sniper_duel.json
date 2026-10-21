@@ -19,22 +19,26 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
 					"direct_entity": {
-						"type": [
+						"entity_type": [
 							"minecraft:arrow",
 							"minecraft:spectral_arrow"
 						]
 					}
 				},
 				"entity": {
-					"type": "#blazeandcave:skeletons_with_bows",
-					"distance": {
-						"horizontal": {
-							"min": 50
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "#blazeandcave:skeletons_with_bows",
+						"distance": {
+							"horizontal": {
+								"min": 50
+							}
 						}
 					}
 				}

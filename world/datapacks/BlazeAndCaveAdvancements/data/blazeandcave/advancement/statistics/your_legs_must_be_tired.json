@@ -17,17 +17,20 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"stats": [
-							{
-								"type": "minecraft:custom",
-								"stat": "minecraft:sprint_one_cm",
-								"value": {
-									"min": 25000000
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"stats": [
+								{
+									"type": "minecraft:custom",
+									"stat": "minecraft:sprint_one_cm",
+									"value": {
+										"min": 25000000
+									}
 								}
-							}
-						]
+							]
+						}
 					}
 				}
 			}

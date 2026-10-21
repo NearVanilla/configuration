@@ -15,7 +15,7 @@
 		"cake": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "minecraft:cake"
+				"recipes": "minecraft:cake"
 			}
 		}
 	}

@@ -16,25 +16,23 @@
 		"dropstone_caves": {
 			"trigger": "minecraft:fall_from_height",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"stepping_on": {
-								"block": {
-									"blocks": [
-										"minecraft:pointed_dripstone"
-									],
-									"state": {
-										"thickness": "tip",
-										"waterlogged": "false"
-									}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"stepping_on": {
+							"block": {
+								"blocks": [
+									"minecraft:pointed_dripstone"
+								],
+								"state": {
+									"thickness": "tip",
+									"waterlogged": "false"
 								}
 							}
-						},
-						"entity": "this"
-					}
-				],
+						}
+					},
+					"entity": "this"
+				},
 				"distance": {
 					"y": {
 						"min": 10.0

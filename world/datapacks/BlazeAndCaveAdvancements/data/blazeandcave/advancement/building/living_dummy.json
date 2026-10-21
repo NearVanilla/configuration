@@ -10,7 +10,6 @@
 		"description": {"color":"#75E1FF","translate":"Get killed from hitting an Armor Stand"},
 		"announce_to_chat": true,
 		"frame": "goal"
-
 	},
 	"parent": "blazeandcave:building/mannequin",
 	"rewards": {
@@ -21,7 +20,11 @@
 			"trigger": "minecraft:entity_killed_player",
 			"conditions": {
 				"entity": {
-					"type": "armor_stand"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "armor_stand"
+					}
 				}
 			}
 		}

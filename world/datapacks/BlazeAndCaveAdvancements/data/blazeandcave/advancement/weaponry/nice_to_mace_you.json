@@ -26,19 +26,17 @@
 						]
 					}
 				},
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"mainhand": {
-									"items": "minecraft:mace"
-								}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:mace"
 							}
 						}
 					}
-				]
+				}
 			}
 		}
 	}

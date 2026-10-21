@@ -8,7 +8,7 @@
 		"announce_to_chat": true,
 		"frame": "challenge"
 	},
-	"parent": "blazeandcave:enchanting/heavy_metal",
+	"parent": "blazeandcave:enchanting/classic_cartoon_comedy",
 	"rewards": {
 		"function": "bacap_rewards:enchanting/baron_of_blacksmiths"
 	},

@@ -16,26 +16,23 @@
 		"how_romantic": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"type_specific": {
-								"type": "player",
-								"looking_at": {
-									"type": "#minecraft:boat",
-									"nbt": "{Passengers:[{id:\"minecraft:villager\"},{id:\"minecraft:villager\"}]}",
-									"distance": {
-										"absolute": {
-											"min": 50
-										}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"looking_at": {
+								"entity_type": "#minecraft:boat",
+								"nbt": "{Passengers:[{id:\"minecraft:villager\"},{id:\"minecraft:villager\"}]}",
+								"distance": {
+									"absolute": {
+										"min": 50
 									}
 								}
 							}
-						},
-						"entity": "this"
-					}
-				],
+						}
+					},
+					"entity": "this"
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"

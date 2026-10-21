@@ -15,43 +15,39 @@
 		"copper_torch": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:copper_torch",
-									"minecraft:copper_wall_torch"
-								]
-							}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:copper_torch",
+								"minecraft:copper_wall_torch"
+							]
 						}
 					}
-				]
+				}
 			}
 		},
 		"copper_lantern": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:copper_lantern",
-									"minecraft:exposed_copper_lantern",
-									"minecraft:weathered_copper_lantern",
-									"minecraft:oxidized_copper_lantern",
-									"minecraft:waxed_copper_lantern",
-									"minecraft:waxed_exposed_copper_lantern",
-									"minecraft:waxed_weathered_copper_lantern",
-									"minecraft:waxed_oxidized_copper_lantern"
-								]
-							}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:copper_lantern",
+								"minecraft:exposed_copper_lantern",
+								"minecraft:weathered_copper_lantern",
+								"minecraft:oxidized_copper_lantern",
+								"minecraft:waxed_copper_lantern",
+								"minecraft:waxed_exposed_copper_lantern",
+								"minecraft:waxed_weathered_copper_lantern",
+								"minecraft:waxed_oxidized_copper_lantern"
+							]
 						}
 					}
-				]
+				}
 			}
 		}
 	}

@@ -16,31 +16,27 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": [
-						"minecraft:filled_map"
-					]
+					"items": "#blazeandcave:maps"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:any_of",
-						"terms": [
-							{
-								"condition": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"type": "minecraft:item_frame"
-								}
-							},
-							{
-								"condition": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"type": "minecraft:glow_item_frame"
-								}
+				"entity": {
+					"type": "minecraft:any_of",
+					"terms": [
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"entity_type": "minecraft:item_frame"
 							}
-						]
-					}
-				]
+						},
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"entity_type": "minecraft:glow_item_frame"
+							}
+						}
+					]
+				}
 			}
 		}
 	}

@@ -15,7 +15,7 @@
 		"enter_water": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"block": "minecraft:water"
+				"blocks": "minecraft:water"
 			}
 		}
 	}

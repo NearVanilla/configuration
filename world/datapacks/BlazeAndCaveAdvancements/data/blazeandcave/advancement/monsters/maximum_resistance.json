@@ -22,86 +22,84 @@
 				"damage": {
 					"blocked": false,
 					"source_entity": {
-						"type": "warden"
+						"entity_type": "warden"
 					}
 				},
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"head": {
-									"items": [
-										"minecraft:netherite_helmet"
-									],
-									"predicates": {
-										"enchantments": [
-											{
-												"enchantments": "minecraft:protection",
-												"levels": {
-													"min": 4
-												}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"head": {
+								"items": [
+									"minecraft:netherite_helmet"
+								],
+								"predicates": {
+									"enchantments": [
+										{
+											"enchantments": "minecraft:protection",
+											"levels": {
+												"min": 4
 											}
-										]
-									}
-								},
-								"chest": {
-									"items": [
-										"minecraft:netherite_chestplate"
-									],
-									"predicates": {
-										"enchantments": [
-											{
-												"enchantments": "minecraft:protection",
-												"levels": {
-													"min": 4
-												}
-											}
-										]
-									}
-								},
-								"legs": {
-									"items": [
-										"minecraft:netherite_leggings"
-									],
-									"predicates": {
-										"enchantments": [
-											{
-												"enchantments": "minecraft:protection",
-												"levels": {
-													"min": 4
-												}
-											}
-										]
-									}
-								},
-								"feet": {
-									"items": [
-										"minecraft:netherite_boots"
-									],
-									"predicates": {
-										"enchantments": [
-											{
-												"enchantments": "minecraft:protection",
-												"levels": {
-													"min": 4
-												}
-											}
-										]
-									}
+										}
+									]
 								}
 							},
-							"effects": {
-								"minecraft:resistance": {
-									"amplifier": {
-										"min": 3
-									}
+							"chest": {
+								"items": [
+									"minecraft:netherite_chestplate"
+								],
+								"predicates": {
+									"enchantments": [
+										{
+											"enchantments": "minecraft:protection",
+											"levels": {
+												"min": 4
+											}
+										}
+									]
+								}
+							},
+							"legs": {
+								"items": [
+									"minecraft:netherite_leggings"
+								],
+								"predicates": {
+									"enchantments": [
+										{
+											"enchantments": "minecraft:protection",
+											"levels": {
+												"min": 4
+											}
+										}
+									]
+								}
+							},
+							"feet": {
+								"items": [
+									"minecraft:netherite_boots"
+								],
+								"predicates": {
+									"enchantments": [
+										{
+											"enchantments": "minecraft:protection",
+											"levels": {
+												"min": 4
+											}
+										}
+									]
+								}
+							}
+						},
+						"effects": {
+							"minecraft:resistance": {
+								"amplifier": {
+									"min": 3
 								}
 							}
 						}
 					}
-				]
+				}
 			}
 		}
 	}

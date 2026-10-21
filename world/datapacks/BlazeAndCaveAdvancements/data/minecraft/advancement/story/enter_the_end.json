@@ -16,7 +16,7 @@
 		"entered_end_portal": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"block": "minecraft:end_portal"
+				"blocks": "minecraft:end_portal"
 			}
 		}
 	}

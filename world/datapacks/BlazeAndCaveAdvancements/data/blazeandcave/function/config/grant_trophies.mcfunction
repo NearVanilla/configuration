@@ -9,7 +9,7 @@ function #bacap_fanpacks:config/grant_trophies
 
 # Vanilla Stuff
 execute as @s[advancements={minecraft:husbandry/break_diamond_hoe=true}] run function bacap_rewards:trophy/farming/serious_dedication
-execute as @s[advancements={minecraft:husbandry/bred_all_animals=true}] run function bacap_rewards:trophy/animal/overpopulation
+execute as @s[advancements={minecraft:husbandry/bred_all_animals=true}] run function bacap_rewards:trophy/animal/two_by_two
 execute as @s[advancements={minecraft:adventure/kill_all_mobs=true}] run function bacap_rewards:trophy/combat/monsters_hunted
 execute as @s[advancements={minecraft:husbandry/complete_catalogue=true}] run function bacap_rewards:trophy/adventure/a_complete_catalogue
 execute as @s[advancements={minecraft:adventure/bullseye=true}] run function bacap_rewards:trophy/redstone/bullseye
@@ -102,7 +102,7 @@ execute as @s[advancements={blazeandcave:statistics/this_ride_is_lit_yo=true}] r
 execute as @s[advancements={blazeandcave:statistics/elderly_enchanter=true}] run function bacap_rewards:trophy/statistics/elderly_enchanter
 execute as @s[advancements={blazeandcave:statistics/i_enjoy_long_walks_and_playing_minecraft=true}] run function bacap_rewards:trophy/statistics/i_enjoy_long_walks_and_playing_minecraft
 execute as @s[advancements={blazeandcave:statistics/jumping_jacks=true}] run function bacap_rewards:trophy/statistics/jumping_jacks
-execute as @s[advancements={blazeandcave:statistics/two_by_two=true}] run function bacap_rewards:trophy/statistics/two_by_two
+execute as @s[advancements={blazeandcave:statistics/overpopulation=true}] run function bacap_rewards:trophy/statistics/overpopulation
 execute as @s[advancements={blazeandcave:statistics/xp_grinder=true}] run function bacap_rewards:trophy/statistics/xp_grinder
 execute as @s[advancements={blazeandcave:statistics/sailor_of_the_seven_seas=true}] run function bacap_rewards:trophy/statistics/sailor_of_the_seven_seas
 execute as @s[advancements={blazeandcave:statistics/frequent_flyer=true}] run function bacap_rewards:trophy/statistics/frequent_flyer
@@ -192,7 +192,7 @@ execute as @s[advancements={blazeandcave:mining/bulldozer=true}] run function ba
 execute as @s[advancements={blazeandcave:mining/pixel_perfect=true}] run function bacap_rewards:trophy/mining/pixel_perfect
 execute as @s[advancements={blazeandcave:mining/amethyst_miner=true}] run function bacap_rewards:trophy/mining/amethyst_miner
 execute as @s[advancements={blazeandcave:mining/mr_bean=true}] run function bacap_rewards:trophy/mining/mr_bean
-execute as @s[advancements={blazeandcave:animal/birdkeeper=true}] run function bacap_rewards:trophy/animal/birdkeeper
+execute as @s[advancements={blazeandcave:biomes/birdkeeper=true}] run function bacap_rewards:trophy/biomes/birdkeeper
 execute as @s[advancements={blazeandcave:animal/heavy_duty_caravan=true}] run function bacap_rewards:trophy/animal/heavy_duty_caravan
 execute as @s[advancements={blazeandcave:animal/fractal=true}] run function bacap_rewards:trophy/animal/fractal
 execute as @s[advancements={blazeandcave:adventure/hey_you_two_should_kiss=true}] run function bacap_rewards:trophy/adventure/hey_you_two_should_kiss
@@ -282,6 +282,17 @@ execute as @s[advancements={blazeandcave:statistics/big_blimp_enthusiast=true}] 
 execute as @s[advancements={blazeandcave:nether/collateral_damage=true}] run function bacap_rewards:trophy/nether/collateral_damage
 execute as @s[advancements={blazeandcave:challenges/at_the_rim_of_the_sky=true}] run function bacap_rewards:trophy/challenges/at_the_rim_of_the_sky
 execute as @s[advancements={blazeandcave:challenges/lets_take_it_up_a_notch=true}] run function bacap_rewards:trophy/challenges/lets_take_it_up_a_notch
+
+# Trophies added in 1.21
+execute as @s[advancements={blazeandcave:mining/all_the_balls=true}] run function bacap_rewards:trophy/mining/all_the_balls
+execute as @s[advancements={blazeandcave:building/cinnabar_island=true}] run function bacap_rewards:trophy/building/cinnabar_island
+execute as @s[advancements={blazeandcave:monsters/the_undead_cavalry=true}] run function bacap_rewards:trophy/monsters/the_undead_cavalry
+execute as @s[advancements={blazeandcave:monsters/jockey_jamboree=true}] run function bacap_rewards:trophy/monsters/jockey_jamboree
+execute as @s[advancements={blazeandcave:monsters/the_wicked_witch_of_the_west=true}] run function bacap_rewards:trophy/monsters/the_wicked_witch_of_the_west
+execute as @s[advancements={blazeandcave:weaponry/toasted_marshmallow=true}] run function bacap_rewards:trophy/weaponry/toasted_marshmallow
+execute as @s[advancements={blazeandcave:statistics/lord_helix=true}] run function bacap_rewards:trophy/statistics/lord_helix
+execute as @s[advancements={blazeandcave:end/taking_the_scenic_route=true}] run function bacap_rewards:trophy/end/taking_the_scenic_route
+
 
 
 

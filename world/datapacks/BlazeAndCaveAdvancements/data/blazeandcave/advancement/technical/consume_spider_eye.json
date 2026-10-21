@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:statistics/consume_spider_eye"
+		"function": "blazeandcave:advancement/statistics/consume_spider_eye"
 	},
 	"criteria": {
 		"consume_spider_eye": {

@@ -16,28 +16,30 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "creeper",
-					"distance": {
-						"absolute": {
-							"max": 5.0
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"distance": {
+							"absolute": {
+								"max": 5.0
+							}
 						}
 					}
 				},
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"effects": {
-								"minecraft:invisibility": {
-									"amplifier": {
-										"min": 0
-									}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"effects": {
+							"minecraft:invisibility": {
+								"amplifier": {
+									"min": 0
 								}
 							}
 						}
 					}
-				]
+				}
 			}
 		}
 	}

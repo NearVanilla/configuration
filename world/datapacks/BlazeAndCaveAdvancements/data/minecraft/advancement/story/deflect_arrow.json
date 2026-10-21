@@ -43,14 +43,14 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						]
 					},
 					"blocked": true,
 					"source_entity": {
-						"type": "#minecraft:skeletons"
+						"entity_type": "#minecraft:skeletons"
 					}
 				}
 			}

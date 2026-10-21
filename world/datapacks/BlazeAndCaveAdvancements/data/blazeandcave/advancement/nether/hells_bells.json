@@ -15,19 +15,17 @@
 		"bell": {
 			"trigger": "minecraft:default_block_use",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:bell"
-								]
-							},
-							"dimension": "the_nether"
-						}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:bell"
+							]
+						},
+						"dimension": "the_nether"
 					}
-				]
+				}
 			}
 		}
 	}

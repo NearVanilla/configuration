@@ -15,25 +15,28 @@
 		"safely_harvest_honey": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"smokey": true,
-							"block": {
-								"blocks": "#minecraft:beehives"
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"smokey": true,
+								"block": {
+									"blocks": "#minecraft:beehives"
+								}
+							}
+						},
+						{
+							"type": "minecraft:match_tool",
+							"predicate": {
+								"items": [
+									"minecraft:glass_bottle"
+								]
 							}
 						}
-					},
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"items": [
-								"minecraft:glass_bottle"
-							]
-						}
-					}
-				]
+					]
+				}
 			}
 		}
 	}

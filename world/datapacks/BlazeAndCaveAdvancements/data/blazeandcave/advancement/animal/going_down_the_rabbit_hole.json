@@ -17,11 +17,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "rabbit",
-					"location": {
-						"position": {
-							"y": {
-								"max": -59.5
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:rabbit",
+						"location": {
+							"position": {
+								"y": {
+									"max": -59.5
+								}
 							}
 						}
 					}

@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:statistics/consume_poisonous_potato"
+		"function": "blazeandcave:advancement/statistics/consume_poisonous_potato"
 	},
 	"criteria": {
 		"consume_poisonous_potato": {

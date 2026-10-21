@@ -15,15 +15,13 @@
 		"allay_deliver_item_to_player": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:allay"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:allay"
 					}
-				]
+				}
 			}
 		}
 	}

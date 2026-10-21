@@ -16,29 +16,37 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "zombie",
-					"equipment": {
-						"mainhand": {
-							"items": [
-								"minecraft:cobblestone"
-							]
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:zombie",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:cobblestone"
+								]
+							}
 						}
 					}
 				},
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_player_attack",
+							"id": "#blazeandcave:is_player_hit",
 							"expected": true
 						}
 					]
 				},
 				"player": {
-					"equipment": {
-						"mainhand": {
-							"items": [
-								"minecraft:paper"
-							]
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:paper"
+								]
+							}
 						}
 					}
 				}
@@ -48,29 +56,37 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "zombie",
-					"equipment": {
-						"mainhand": {
-							"items": [
-								"minecraft:shears"
-							]
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:zombie",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:shears"
+								]
+							}
 						}
 					}
 				},
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_player_attack",
+							"id": "#blazeandcave:is_player_hit",
 							"expected": true
 						}
 					]
 				},			
 				"player": {
-					"equipment": {
-						"mainhand": {
-							"items": [
-								"minecraft:cobblestone"
-							]
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:cobblestone"
+								]
+							}
 						}
 					}
 				}
@@ -80,29 +96,37 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "zombie",
-					"equipment": {
-						"mainhand": {
-							"items": [
-								"minecraft:paper"
-							]
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:zombie",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:paper"
+								]
+							}
 						}
 					}
 				},
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_player_attack",
+							"id": "#blazeandcave:is_player_hit",
 							"expected": true
 						}
 					]
 				},			
 				"player": {
-					"equipment": {
-						"mainhand": {
-							"items": [
-								"minecraft:shears"
-							]
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:shears"
+								]
+							}
 						}
 					}
 				}
