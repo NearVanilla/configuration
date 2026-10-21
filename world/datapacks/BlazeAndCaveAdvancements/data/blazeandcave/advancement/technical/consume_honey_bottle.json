@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:statistics/consume_honey_bottle"
+		"function": "blazeandcave:advancement/statistics/consume_honey_bottle"
 	},
 	"criteria": {
 		"consume_honey_bottle": {

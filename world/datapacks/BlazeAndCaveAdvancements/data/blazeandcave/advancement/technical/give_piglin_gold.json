@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:give_piglin_gold"
+		"function": "blazeandcave:advancement/count/give_piglin_gold"
 	},
 	"criteria": {
 		"distract_piglin": {
@@ -11,15 +11,13 @@
 						"minecraft:gold_ingot"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"type": "minecraft:piglin"
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"distract_piglin_directly": {
@@ -30,15 +28,13 @@
 						"minecraft:gold_ingot"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"type": "minecraft:piglin"
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
+					},
+					"entity": "this"
+				}
 			}
 		}
 	},

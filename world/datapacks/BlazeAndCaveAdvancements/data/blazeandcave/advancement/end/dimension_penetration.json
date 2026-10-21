@@ -25,16 +25,22 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"type": [
+							"entity_type": [
 								"arrow",
 								"spectral_arrow"
 							],
-							"nbt": "{Tags:[dimpen_overworld,dimpen_nether,dimpen_end]}"
+							"entity_tags": {
+								"all_of": [
+									"dimpen_overworld",
+									"dimpen_nether",
+									"dimpen_end"
+								]
+							}
 						}
 					},
 					"blocked": false

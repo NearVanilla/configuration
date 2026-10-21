@@ -16,10 +16,18 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:cow"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:cow"
+					}
 				},
 				"partner": {
-					"type": "minecraft:cow"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:cow"
+					}
 				}
 			}
 		}

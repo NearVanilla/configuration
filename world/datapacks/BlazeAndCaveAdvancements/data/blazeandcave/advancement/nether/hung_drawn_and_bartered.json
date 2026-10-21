@@ -21,15 +21,13 @@
 		"enchanted_book": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:enchanted_book"
@@ -40,15 +38,13 @@
 		"iron_boots": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:iron_boots"
@@ -59,15 +55,13 @@
 		"splash_potion_fire_resistance": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:splash_potion"
@@ -83,15 +77,13 @@
 		"potion_fire_resistance": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:potion"
@@ -107,15 +99,13 @@
 		"water_bottle": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:potion"
@@ -131,15 +121,13 @@
 		"iron_nugget": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:iron_nugget"
@@ -150,15 +138,13 @@
 		"ender_pearl": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:ender_pearl"
@@ -169,15 +155,13 @@
 		"string": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:string"
@@ -188,15 +172,13 @@
 		"quartz": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:quartz"
@@ -207,15 +189,13 @@
 		"obsidian": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:obsidian"
@@ -226,15 +206,13 @@
 		"crying_obsidian": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:crying_obsidian"
@@ -245,15 +223,13 @@
 		"fire_charge": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:fire_charge"
@@ -264,15 +240,13 @@
 		"leather": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:leather"
@@ -283,15 +257,13 @@
 		"soul_sand": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:soul_sand"
@@ -302,15 +274,13 @@
 		"nether_brick": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:nether_brick"
@@ -321,15 +291,13 @@
 		"spectral_arrow": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spectral_arrow"
@@ -340,15 +308,13 @@
 		"gravel": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:gravel"
@@ -359,15 +325,13 @@
 		"blackstone": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:blackstone"
@@ -378,15 +342,13 @@
 		"dried_ghast": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:piglin"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin"
 					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:dried_ghast"

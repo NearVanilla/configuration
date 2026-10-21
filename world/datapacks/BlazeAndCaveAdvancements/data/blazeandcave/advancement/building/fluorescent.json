@@ -15,18 +15,16 @@
 		"end_rod": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:end_rod"
-								]
-							}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:end_rod"
+							]
 						}
 					}
-				]
+				}
 			}
 		}
 	}

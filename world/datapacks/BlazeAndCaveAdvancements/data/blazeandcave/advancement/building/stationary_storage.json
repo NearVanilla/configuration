@@ -15,12 +15,31 @@
 		"chest": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": [
+										"minecraft:chest",
+										"minecraft:copper_chest",
+										"minecraft:exposed_copper_chest",
+										"minecraft:weathered_copper_chest",
+										"minecraft:oxidized_copper_chest",
+										"minecraft:waxed_copper_chest",
+										"minecraft:waxed_exposed_copper_chest",
+										"minecraft:waxed_weathered_copper_chest",
+										"minecraft:waxed_oxidized_copper_chest"
+									]
+								}
+							}
+						},
+						{
+							"type": "minecraft:match_tool",
+							"predicate": {
+								"items": [
 									"minecraft:chest",
 									"minecraft:copper_chest",
 									"minecraft:exposed_copper_chest",
@@ -33,24 +52,8 @@
 								]
 							}
 						}
-					},
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"items": [
-								"minecraft:chest",
-								"minecraft:copper_chest",
-								"minecraft:exposed_copper_chest",
-								"minecraft:weathered_copper_chest",
-								"minecraft:oxidized_copper_chest",
-								"minecraft:waxed_copper_chest",
-								"minecraft:waxed_exposed_copper_chest",
-								"minecraft:waxed_weathered_copper_chest",
-								"minecraft:waxed_oxidized_copper_chest"
-							]
-						}
-					}
-				]
+					]
+				}
 			}
 		}
 	}

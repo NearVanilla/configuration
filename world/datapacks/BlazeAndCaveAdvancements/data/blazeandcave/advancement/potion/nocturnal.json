@@ -20,7 +20,9 @@
 						"minecraft:potion"
 					],
 					"predicates": {
-						"potion_contents": "minecraft:night_vision"
+						"potion_contents": {
+							"potions": "minecraft:night_vision"
+						}
 					}
 				}
 			}
@@ -33,7 +35,9 @@
 						"minecraft:potion"
 					],
 					"predicates": {
-						"potion_contents": "minecraft:long_night_vision"
+						"potion_contents": {
+							"potions": "minecraft:long_night_vision"
+						}
 					}
 				}
 			}

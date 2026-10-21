@@ -16,10 +16,18 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:strider"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:strider"
+					}
 				},
 				"partner": {
-					"type": "minecraft:strider"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:strider"
+					}
 				}
 			}
 		}

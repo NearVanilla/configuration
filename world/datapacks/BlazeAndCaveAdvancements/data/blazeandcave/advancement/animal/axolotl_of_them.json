@@ -21,16 +21,14 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:axolotl",
-							"nbt": "{Variant:0}"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:axolotl",
+						"nbt": "{Variant:0}"
 					}
-				]
+				}
 			}
 		},
 		"wild": {
@@ -41,16 +39,14 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:axolotl",
-							"nbt": "{Variant:1}"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:axolotl",
+						"nbt": "{Variant:1}"
 					}
-				]
+				}
 			}
 		},
 		"gold": {
@@ -61,16 +57,14 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:axolotl",
-							"nbt": "{Variant:2}"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:axolotl",
+						"nbt": "{Variant:2}"
 					}
-				]
+				}
 			}
 		},
 		"cyan": {
@@ -81,16 +75,14 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:axolotl",
-							"nbt": "{Variant:3}"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:axolotl",
+						"nbt": "{Variant:3}"
 					}
-				]
+				}
 			}
 		},
 		"blue": {
@@ -101,16 +93,14 @@
 						"minecraft:water_bucket"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:axolotl",
-							"nbt": "{Variant:4}"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:axolotl",
+						"nbt": "{Variant:4}"
 					}
-				]
+				}
 			}
 		}
 	}	

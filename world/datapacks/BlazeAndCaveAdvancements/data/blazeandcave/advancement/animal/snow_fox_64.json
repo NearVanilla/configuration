@@ -16,12 +16,20 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:fox",
-					"nbt": "{Type:snow}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:fox",
+						"nbt": "{Type:snow}"
+					}
 				},
 				"partner": {
-					"type": "minecraft:fox",
-					"nbt": "{Type:snow}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:fox",
+						"nbt": "{Type:snow}"
+					}
 				}
 			}
 		}

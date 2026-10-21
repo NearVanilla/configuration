@@ -15,19 +15,17 @@
 		"pitcher_pod": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:pitcher_crop",
-									"minecraft:torchflower_crop"
-								]
-							}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:pitcher_crop",
+								"minecraft:torchflower_crop"
+							]
 						}
 					}
-				]
+				}
 			}
 		}
 	}

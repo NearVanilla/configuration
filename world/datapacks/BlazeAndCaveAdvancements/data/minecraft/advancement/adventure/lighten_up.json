@@ -15,32 +15,35 @@
 		"lighten_up": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:oxidized_copper_bulb",
-									"minecraft:weathered_copper_bulb",
-									"minecraft:exposed_copper_bulb",
-									"minecraft:waxed_oxidized_copper_bulb",
-									"minecraft:waxed_weathered_copper_bulb",
-									"minecraft:waxed_exposed_copper_bulb"
-								],
-								"state": {
-									"lit": "true"
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": [
+										"minecraft:oxidized_copper_bulb",
+										"minecraft:weathered_copper_bulb",
+										"minecraft:exposed_copper_bulb",
+										"minecraft:waxed_oxidized_copper_bulb",
+										"minecraft:waxed_weathered_copper_bulb",
+										"minecraft:waxed_exposed_copper_bulb"
+									],
+									"state": {
+										"lit": "true"
+									}
 								}
 							}
+						},
+						{
+							"type": "minecraft:match_tool",
+							"predicate": {
+								"items": "#blazeandcave:axes"
+							}
 						}
-					},
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"items": "#blazeandcave:axes"
-						}
-					}
-				]
+					]
+				}
 			}
 		}
 	}

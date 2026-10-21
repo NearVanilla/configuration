@@ -16,19 +16,27 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "axolotl"
-				},			
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:axolotl"
+					}
+				},
 				"player": {
-					"equipment": {
-						"mainhand": {
-							"items": "#blazeandcave:axes"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": "#blazeandcave:axes"
+							}
 						}
 					}
 				},
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_player_attack",
+							"id": "#blazeandcave:is_player_hit",
 							"expected": true
 						}
 					]

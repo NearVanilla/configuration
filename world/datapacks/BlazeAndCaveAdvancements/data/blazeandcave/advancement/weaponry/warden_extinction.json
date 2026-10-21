@@ -19,7 +19,7 @@
 				"damage": {
 					"type": {
 						"direct_entity": {
-							"type": "minecraft:player",
+							"entity_type": "minecraft:player",
 							"equipment": {
 								"mainhand": {
 									"items": "minecraft:mace"
@@ -38,7 +38,11 @@
 					}
 				},
 				"entity": {
-					"type": "minecraft:warden"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:warden"
+					}
 				}
 			}
 		}

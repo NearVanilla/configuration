@@ -8,7 +8,7 @@
 		"announce_to_chat": true,
 		"frame": "goal"
 	},
-	"parent": "blazeandcave:adventure/spear_fishing",
+	"parent": "blazeandcave:adventure/seafood_skewer",
 	"rewards": {
 		"function": "bacap_rewards:adventure/guardian_destroyer"
 	},		

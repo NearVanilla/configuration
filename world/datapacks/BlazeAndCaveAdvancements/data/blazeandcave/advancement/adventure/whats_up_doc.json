@@ -24,18 +24,16 @@
 						"minecraft:custom_name": "Dinnerbone"
 					}
 				},
-				"entity": [
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"type": "#blazeandcave:non_mob_entities"
-							}
+				"entity": {
+					"type": "minecraft:inverted",
+					"term": {
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "#blazeandcave:non_mob_entities"
 						}
 					}
-				]
+				}
 			}
 		},
 		"name_tag_grumm": {
@@ -50,18 +48,16 @@
 					}
 				}
 			},
-				"entity": [
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"type": "#blazeandcave:non_mob_entities"
-							}
-						}
+			"entity": {
+				"type": "minecraft:inverted",
+				"term": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "#blazeandcave:non_mob_entities"
 					}
-				]
+				}
+			}
 		}
 	},
 	"requirements": [

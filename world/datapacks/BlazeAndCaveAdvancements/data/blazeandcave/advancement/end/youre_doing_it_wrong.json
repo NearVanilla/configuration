@@ -33,8 +33,12 @@
 					},
 					"tags": [
 						{
-							"id": "minecraft:is_player_attack",
+							"id": "#minecraft:is_player_attack",
 							"expected": true
+						},
+						{
+							"id": "#blazeandcave:spear",
+							"expected": false
 						}
 					]
 				}

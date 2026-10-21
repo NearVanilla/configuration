@@ -7,7 +7,7 @@
 		"description": {"color":"green","translate":"Give a Dolphin something to play with"},
 		"announce_to_chat": true
 	},
-	"parent": "blazeandcave:biomes/cargo_carrier",
+	"parent": "blazeandcave:biomes/the_sea_calls_you",
 	"rewards": {
 		"function": "bacap_rewards:biomes/flipper"
 	},
@@ -16,7 +16,11 @@
 			"trigger": "minecraft:thrown_item_picked_up_by_entity",
 			"conditions": {
 				"entity": {
-					"type": "dolphin"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "dolphin"
+					}
 				}
 			}
 		}

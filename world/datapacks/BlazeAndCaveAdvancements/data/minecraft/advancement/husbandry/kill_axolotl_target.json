@@ -15,15 +15,13 @@
 		"kill_axolotl_target": {
 			"trigger": "minecraft:effects_changed",
 			"conditions": {
-				"source": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"type": "minecraft:axolotl"
-						},
-						"entity": "this"
-					}
-				]
+				"source": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:axolotl"
+					},
+					"entity": "this"
+				}
 			}
 		}
 	}

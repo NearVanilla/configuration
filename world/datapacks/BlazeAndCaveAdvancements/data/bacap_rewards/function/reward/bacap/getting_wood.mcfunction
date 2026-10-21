@@ -24,3 +24,6 @@ tellraw @s[advancements={blazeandcave:bacap/getting_wood={cherry_log=true,oak_lo
 
 give @s[advancements={blazeandcave:bacap/getting_wood={pale_oak_log=true,oak_log=false}}] minecraft:pale_oak_log 2
 tellraw @s[advancements={blazeandcave:bacap/getting_wood={pale_oak_log=true,oak_log=false}}] {"color":"green","text":" +2 ","extra":[{"translate":"block.minecraft.pale_oak_log"}]}
+
+give @s[advancements={blazeandcave:bacap/getting_wood={poplar_log=true,oak_log=false}}] minecraft:poplar_log 2
+tellraw @s[advancements={blazeandcave:bacap/getting_wood={poplar_log=true,oak_log=false}}] {"color":"green","text":" +2 ","extra":[{"translate":"block.minecraft.poplar_log"}]}

@@ -17,18 +17,22 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:happy_ghast"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:happy_ghast"
+					}
 				},
 				"damage": {
 					"type": {
 						"tags": [
 								{
-									"id": "minecraft:is_projectile",
+									"id": "#minecraft:is_projectile",
 									"expected": true
 								}
 							],
 						"direct_entity": {
-							"type": "minecraft:fireball"
+							"entity_type": "minecraft:fireball"
 						}
 					}
 				}

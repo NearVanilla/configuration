@@ -14,21 +14,18 @@
 	},		
 	"criteria": {
 		"nether_freeze": {
-			"trigger": "minecraft:enter_block",
+			"trigger": "minecraft:location",
 			"conditions": {
-				"block": "minecraft:powder_snow",
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"location": {
-								"dimension": "the_nether"
-							},
-							"nbt": "{TicksFrozen:140}"
-						}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"dimension": "the_nether"
+						},
+						"nbt": "{TicksFrozen:140}"
 					}
-				]
+				}
 			}
 		}
 	}
