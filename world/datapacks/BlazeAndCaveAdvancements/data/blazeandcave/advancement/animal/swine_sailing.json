@@ -16,21 +16,23 @@
 		"swine_sailing": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"vehicle": {
-							"entity_type": "pig",
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
 							"vehicle": {
-								"entity_type": "#blazeandcave:all_boats",
+								"type": "pig",
 								"vehicle": {
-									"entity_type": "minecart"
+									"type": "#blazeandcave:all_boats",
+									"vehicle": {
+										"type": "minecart"
+									}
 								}
 							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

@@ -3,12 +3,12 @@
 		"icon": {
 			"id": "minecraft:iron_spear"
 		},
-		"title": {"translate":"Mob Kabob"},
-		"description": {"color":"#75E1FF","translate":"Hit five mobs in the same charge attack using a Spear"},
+		"title": {"translate":"advancements.adventure.spear_many_mobs.title"},
+		"description": {"color":"#75E1FF","translate":"advancements.adventure.spear_many_mobs.description"},
 		"announce_to_chat": true,
 		"frame": "goal"
 	},
-	"parent": "blazeandcave:weaponry/toasted_marshmallow",
+	"parent": "blazeandcave:weaponry/root",
 	"rewards": {
 		"function": "bacap_rewards:weaponry/mob_kabob"
 	},	

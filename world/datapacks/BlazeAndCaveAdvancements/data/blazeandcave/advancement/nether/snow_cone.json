@@ -18,16 +18,18 @@
 				"item": {
 					"items": "minecraft:snowball"
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:happy_ghast",
-						"flags": {
-							"is_baby": true
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:happy_ghast",
+							"flags": {
+								"is_baby": true
+							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

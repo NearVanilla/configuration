@@ -15,16 +15,18 @@
 		"lever": {
 			"trigger": "minecraft:default_block_use",
 			"conditions": {
-				"location": {
-					"type": "minecraft:location_check",
-					"predicate": {
-						"block": {
-							"blocks": [
-								"minecraft:lever"
-							]
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:lever"
+								]
+							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

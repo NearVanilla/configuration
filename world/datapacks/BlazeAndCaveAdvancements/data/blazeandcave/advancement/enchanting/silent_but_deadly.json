@@ -19,61 +19,59 @@
 		"silent_but_deadly": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:entity_properties",
-							"predicate": {
-								"stepping_on": {
-									"block": {
-										"blocks": [
-											"minecraft:sculk"
-										]
-									}
-								},
-								"equipment": {
-									"legs": {
-										"predicates": {
-											"enchantments": [
-												{
-													"enchantments": "minecraft:swift_sneak",
-													"levels": {
-														"min": 3
-													}
-												}
-											]
-										}
-									}
-								},
-								"effects": {
-									"minecraft:speed": {
-										"amplifier": {
-											"min": 1
-										}
-									}
-								},
-								"flags": {
-									"is_sneaking": true,
-									"is_sprinting": true
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"stepping_on": {
+								"block": {
+									"blocks": [
+										"minecraft:sculk"
+									]
 								}
 							},
-							"entity": "this"
-						},
-						{
-							"type": "minecraft:inverted",
-							"term": {
-								"type": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"minecraft:type_specific/player": {
-										"gamemode": ["spectator"]
+							"equipment": {
+								"legs": {
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantments": "minecraft:swift_sneak",
+												"levels": {
+													"min": 3
+												}
+											}
+										]
 									}
+								}
+							},
+							"effects": {
+								"minecraft:speed": {
+									"amplifier": {
+										"min": 1
+									}
+								}
+							},
+							"flags": {
+								"is_sneaking": true,
+								"is_sprinting": true
+							}
+						},
+						"entity": "this"
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
 								}
 							}
 						}
-					]
-				}
+					}
+				]
 			}
 		}
 	}

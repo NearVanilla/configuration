@@ -20,20 +20,17 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"stats": [
-								{
-									"type": "minecraft:custom",
-									"stat": "minecraft:enchant_item",
-									"value": {
-										"min": 250
-									}
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:enchant_item",
+								"value": {
+									"min": 250
 								}
-							]
-						}
+							}
+						]
 					}
 				}
 			}

@@ -19,26 +19,28 @@
 		"binding_pumpkin": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"head": {
-								"items": [
-									"minecraft:carved_pumpkin"
-								],
-								"predicates": {
-									"enchantments": [
-										{
-											"enchantments": "minecraft:binding_curse"
-										}
-									]
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"items": [
+										"minecraft:carved_pumpkin"
+									],
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantments": "minecraft:binding_curse"
+											}	
+										]
+									}
 								}
-							}
+							}	
 						}
 					}
-				}
+				]
 			}
 		}
 	}

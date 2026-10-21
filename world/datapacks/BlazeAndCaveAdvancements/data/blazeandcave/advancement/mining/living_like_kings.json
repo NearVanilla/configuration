@@ -15,73 +15,81 @@
 		"golden_helmet": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"head": {
-								"items": [
-									"minecraft:golden_helmet"
-								]
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"items": [
+										"minecraft:golden_helmet"
+									]
+								}
 							}
 						}
 					}
-				}
+				]
 			}
 		},
 		"golden_chestplate": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"chest": {
-								"items": [
-									"minecraft:golden_chestplate"
-								]
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"chest": {
+									"items": [
+										"minecraft:golden_chestplate"
+									]
+								}
 							}
 						}
 					}
-				}
+				]
 			}
 		},
 		"golden_leggings": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"legs": {
-								"items": [
-									"minecraft:golden_leggings"
-								]
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"legs": {
+									"items": [
+										"minecraft:golden_leggings"
+									]
+								}
 							}
 						}
 					}
-				}
+				]
 			}
 		},
 		"golden_boots": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"feet": {
-								"items": [
-									"minecraft:golden_boots"
-								]
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"feet": {
+									"items": [
+										"minecraft:golden_boots"
+									]
+								}
 							}
 						}
 					}
-				}
+				]
 			}
 		}
 	},

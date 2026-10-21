@@ -17,13 +17,9 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:spider",
-						"passenger": {
-							"entity_type": "#minecraft:skeletons"
-						}
+					"type": "spider",
+					"passenger": {
+						"type": "#minecraft:skeletons"
 					}
 				}
 			}
@@ -32,13 +28,9 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#minecraft:skeletons",
-						"vehicle": {
-							"entity_type": "minecraft:spider"
-						}
+					"type": "#minecraft:skeletons",
+					"vehicle": {
+						"type": "spider"
 					}
 				}
 			}

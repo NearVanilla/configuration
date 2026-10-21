@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:advancement/check/inventory_changed"
+		"function": "blazeandcave:inventory_changed"
 	},
 	"criteria": {
 		"inventory_changed": {

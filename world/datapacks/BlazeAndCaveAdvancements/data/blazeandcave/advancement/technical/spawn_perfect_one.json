@@ -4,11 +4,7 @@
 			"trigger": "minecraft:summoned_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:ender_dragon"
-					}
+					"type": "ender_dragon"
 				}
 			}
 		},
@@ -16,11 +12,7 @@
 			"trigger": "minecraft:summoned_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:wither"
-					}
+					"type": "wither"
 				}
 			}
 		},

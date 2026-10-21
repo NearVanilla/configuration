@@ -21,14 +21,16 @@
 						"minecraft:bucket"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:goat",
-						"nbt": "{IsScreamingGoat:1b}"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:goat",
+							"nbt": "{IsScreamingGoat:1b}"
+						}
 					}
-				}
+				]
 			}
 		}
 	}

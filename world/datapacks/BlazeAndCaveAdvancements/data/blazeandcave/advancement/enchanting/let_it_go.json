@@ -16,59 +16,57 @@
 		"frost_walker": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:entity_properties",
-							"predicate": {
-								"stepping_on": {
-									"block": {
-										"blocks": [
-											"minecraft:frosted_ice"
-										]
-									}
-								},
-								"equipment": {
-									"feet": {
-										"items": [
-											"minecraft:leather_boots",
-											"minecraft:copper_boots",
-											"minecraft:chainmail_boots",
-											"minecraft:golden_boots",
-											"minecraft:iron_boots",
-											"minecraft:diamond_boots",
-											"minecraft:netherite_boots"
-										],
-										"predicates": {
-											"enchantments": [
-												{
-													"enchantments": "minecraft:frost_walker"
-												}
-											]
-										}
-									}
-								},
-								"location": {
-									"biomes": "#minecraft:is_deep_ocean"
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"stepping_on": {
+								"block": {
+									"blocks": [
+										"minecraft:frosted_ice"
+									]
 								}
 							},
-							"entity": "this"
-						},
-						{
-							"type": "minecraft:inverted",
-							"term": {
-								"type": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"minecraft:type_specific/player": {
-										"gamemode": ["spectator"]
+							"equipment": {
+								"feet": {
+									"items": [
+										"minecraft:leather_boots",
+										"minecraft:copper_boots",
+										"minecraft:chainmail_boots",
+										"minecraft:golden_boots",
+										"minecraft:iron_boots",
+										"minecraft:diamond_boots",
+										"minecraft:netherite_boots"
+									],					
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantments": "minecraft:frost_walker"
+											}
+										]
 									}
+								}
+							},
+							"location": {
+								"biomes": "#minecraft:is_deep_ocean"
+							}
+						},
+						"entity": "this"
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
 								}
 							}
 						}
-					]
-				}
+					}
+				]
 			}
 		}
 	}

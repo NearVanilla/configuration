@@ -15,17 +15,19 @@
 		"redstone_torch": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": {
-					"type": "minecraft:location_check",
-					"predicate": {
-						"block": {
-							"blocks": [
-								"minecraft:redstone_torch",
-								"minecraft:redstone_wall_torch"
-							]
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:redstone_torch",
+									"minecraft:redstone_wall_torch"
+								]
+							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

@@ -17,16 +17,12 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:warden",
-						"location": {
-							"biomes": "snowy_plains",
-							"position": {
-								"y": {
-									"min": 64
-								}
+					"type": "warden",
+					"location": {
+						"biomes": "snowy_plains",
+						"position": {
+							"y": {
+								"min": 64
 							}
 						}
 					}
@@ -37,16 +33,12 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:warden",
-						"location": {
-							"biomes": "ice_spikes",
-							"position": {
-								"y": {
-									"min": 64
-								}
+					"type": "warden",
+					"location": {
+						"biomes": "ice_spikes",
+						"position": {
+							"y": {
+								"min": 64
 							}
 						}
 					}

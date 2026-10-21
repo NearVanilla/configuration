@@ -16,17 +16,19 @@
 		"mangrove_propagule": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": {
-					"type": "minecraft:location_check",
-					"predicate": {
-						"block": {
-							"blocks": [
-								"minecraft:mangrove_propagule"
-							]
-						},
-						"biomes": "minecraft:grove"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:mangrove_propagule"
+								]
+							},
+							"biomes": "minecraft:grove"
+						}
 					}
-				}
+				]
 			}
 		}
 	}

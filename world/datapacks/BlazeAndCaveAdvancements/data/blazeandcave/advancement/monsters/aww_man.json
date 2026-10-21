@@ -7,6 +7,7 @@
 		"title": {"translate":"Aww man!"},
 		"description": {"color":"green","translate":"That was a nice life you had. Shame it had to end at this time time time"},
 		"announce_to_chat": true
+
 	},
 	"parent": "blazeandcave:monsters/blast_shield",
 	"rewards": {
@@ -17,11 +18,7 @@
 			"trigger": "minecraft:entity_killed_player",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper"
-					}
+					"type": "creeper"
 				}
 			}
 		}

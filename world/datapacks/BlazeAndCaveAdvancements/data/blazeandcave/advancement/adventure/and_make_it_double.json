@@ -16,14 +16,16 @@
 		"duplication": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"predicate": {
-						"entity_type": "minecraft:allay",
-						"nbt": "{DuplicationCooldown:6000L}"
-					},
-					"entity": "this"
-				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type": "minecraft:allay",
+							"nbt": "{DuplicationCooldown:6000L}"
+						},
+						"entity": "this"
+					}
+				],
 				"item": {
 					"items": [
 						"minecraft:amethyst_shard"

@@ -17,19 +17,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:cave_spider"
-					}
+					"type": "cave_spider"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -40,19 +36,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:spider"
-					}
+					"type": "minecraft:spider"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -63,19 +55,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:zombified_piglin"
-					}
+					"type": "minecraft:zombified_piglin"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -86,19 +74,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:enderman"
-					}
+					"type": "minecraft:enderman"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -109,19 +93,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:blaze"
-					}
+					"type": "minecraft:blaze"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -132,19 +112,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creeper"
-					}
+					"type": "minecraft:creeper"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -155,19 +131,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:ghast"
-					}
+					"type": "minecraft:ghast"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -178,19 +150,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:guardian"
-					}
+					"type": "minecraft:guardian"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -201,19 +169,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:husk"
-					}
+					"type": "minecraft:husk"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -224,19 +188,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:magma_cube"
-					}
+					"type": "minecraft:magma_cube"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -247,19 +207,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:shulker"
-					}
+					"type": "minecraft:shulker"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -270,19 +226,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:silverfish"
-					}
+					"type": "minecraft:silverfish"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -293,19 +245,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:skeleton"
-					}
+					"type": "minecraft:skeleton"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -316,19 +264,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:slime"
-					}
+					"type": "minecraft:slime"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -339,19 +283,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:stray"
-					}
+					"type": "minecraft:stray"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -362,19 +302,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:vindicator"
-					}
+					"type": "minecraft:vindicator"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -385,19 +321,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:witch"
-					}
+					"type": "minecraft:witch"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -408,19 +340,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:wither_skeleton"
-					}
+					"type": "minecraft:wither_skeleton"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -431,19 +359,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:zombie"
-					}
+					"type": "minecraft:zombie"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -454,19 +378,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:zombie_villager"
-					}
+					"type": "minecraft:zombie_villager"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -477,19 +397,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:phantom"
-					}
+					"type": "minecraft:phantom"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -500,19 +416,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:drowned"
-					}
+					"type": "minecraft:drowned"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -523,19 +435,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:endermite"
-					}
+					"type": "minecraft:endermite"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -546,19 +454,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:pillager"
-					}
+					"type": "minecraft:pillager"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -569,19 +473,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:ravager"
-					}
+					"type": "minecraft:ravager"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -592,19 +492,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:evoker"
-					}
+					"type": "minecraft:evoker"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -615,19 +511,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:vex"
-					}
+					"type": "minecraft:vex"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -638,19 +530,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:piglin"
-					}
+					"type": "minecraft:piglin"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -661,19 +549,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:hoglin"
-					}
+					"type": "minecraft:hoglin"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -684,19 +568,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:zoglin"
-					}
+					"type": "minecraft:zoglin"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -707,19 +587,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:piglin_brute"
-					}
+					"type": "minecraft:piglin_brute"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -730,19 +606,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:warden"
-					}
+					"type": "minecraft:warden"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -753,19 +625,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:breeze"
-					}
+					"type": "minecraft:breeze"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -776,19 +644,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:bogged"
-					}
+					"type": "minecraft:bogged"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -799,19 +663,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:creaking"
-					}
+					"type": "minecraft:creaking"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -822,19 +682,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:skeleton_horse"
-					}
+					"type": "minecraft:skeleton_horse"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -845,19 +701,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:zombie_horse"
-					}
+					"type": "minecraft:zombie_horse"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -868,19 +720,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:zombie_nautilus"
-					}
+					"type": "minecraft:zombie_nautilus"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -891,19 +739,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:camel_husk"
-					}
+					"type": "minecraft:camel_husk"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]
@@ -914,19 +758,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:parched"
-					}
+					"type": "minecraft:parched"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "tnt"
+						"type": "tnt"
 					},
 					"tags": [
 						{
-							"id": "#minecraft:is_explosion",
+							"id": "minecraft:is_explosion",
 							"expected": true
 						}
 					]

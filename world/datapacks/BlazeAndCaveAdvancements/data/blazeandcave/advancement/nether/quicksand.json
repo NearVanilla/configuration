@@ -13,35 +13,9 @@
 	},		
 	"criteria": {
 		"soul_sand": {
-			"trigger": "minecraft:location",
+			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"player": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:location_check",
-							"predicate": {
-								"block": {
-									"blocks": [
-										"minecraft:soul_sand"
-									]
-								}
-							}
-						},
-						{
-							"type": "minecraft:inverted",
-							"term": {
-								"type": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"minecraft:type_specific/player": {
-										"gamemode": ["spectator"]
-									}
-								}
-							}
-						}
-					]
-				}
+				"block": "minecraft:soul_sand"
 			}
 		}
 	}

@@ -16,13 +16,9 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"stepping_on": {
-							"block": {
-								"blocks": "#minecraft:trapdoors"
-							}
+					"stepping_on": {
+						"block": {
+							"blocks": "#minecraft:trapdoors"
 						}
 					}
 				},
@@ -30,12 +26,12 @@
 					"type": {
 						"tags": [
 							{
-								"id": "#minecraft:is_projectile",
+								"id": "minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"entity_type": "minecraft:wind_charge"
+							"type": "minecraft:wind_charge"
 						}
 					}
 				}

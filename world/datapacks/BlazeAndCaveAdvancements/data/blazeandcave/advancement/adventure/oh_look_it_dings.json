@@ -15,17 +15,19 @@
 		"bell": {
 			"trigger": "minecraft:any_block_use",
 			"conditions": {
-				"location": {
-					"type": "minecraft:location_check",
-					"predicate": {
-						"block": {
-							"blocks": [
-								"minecraft:bell"
-							]
-						},
-						"structures": "#blazeandcave:village"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:bell"
+								]
+							},
+							"structures": "#blazeandcave:village"
+						}
 					}
-				}
+				]
 			}
 		}
 	}

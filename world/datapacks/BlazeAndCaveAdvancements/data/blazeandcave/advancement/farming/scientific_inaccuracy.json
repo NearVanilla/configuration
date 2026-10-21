@@ -15,7 +15,7 @@
 		"melon_block": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipes": "minecraft:melon"
+				"recipe_id": "minecraft:melon"
 			}
 		}
 	}

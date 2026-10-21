@@ -1,25 +1,27 @@
 {
 	"rewards": {
-		"function": "blazeandcave:advancement/count/divers_dozen"
+		"function": "blazeandcave:divers_dozen_count"
 	},
 	"criteria": {
 		"divers_dozen": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"chest": {
-								"items": "minecraft:elytra"
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"chest": {
+									"items": "minecraft:elytra"
+								}
+							},
+							"flags": {
+								"is_flying": true
 							}
-						},
-						"flags": {
-							"is_flying": true
 						}
 					}
-				}
+				]
 			}
 		}
 	}

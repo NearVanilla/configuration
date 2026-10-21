@@ -15,38 +15,43 @@
 	"criteria": {
 		"place_creaking_heart_awake": {
 		  "conditions": {
-			"location": {
-				"type": "minecraft:match_block",
-				"blocks": "minecraft:creaking_heart",
+			"location": [
+			  {
+				"block": "minecraft:creaking_heart",
+				"condition": "minecraft:block_state_property",
 				"properties": {
 				  "creaking_heart_state": "awake"
 				}
 			  }
+			]
 		  },
 		  "trigger": "minecraft:placed_block"
 		},
 		"place_creaking_heart_dormant": {
 		  "conditions": {
-			"location": {
-				"type": "minecraft:match_block",
-				"blocks": "minecraft:creaking_heart",
+			"location": [
+			  {
+				"block": "minecraft:creaking_heart",
+				"condition": "minecraft:block_state_property",
 				"properties": {
 				  "creaking_heart_state": "dormant"
 				}
 			  }
+			]
 		  },
 		  "trigger": "minecraft:placed_block"
 		},
 		"place_pale_oak_log": {
 		  "conditions": {
-			"location": {
-				"type": "minecraft:any_of",
+			"location": [
+			  {
+				"condition": "minecraft:any_of",
 				"terms": [
 				  {
-					"type": "minecraft:all_of",
+					"condition": "minecraft:all_of",
 					"terms": [
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"predicate": {
 						  "block": {
 							"blocks": "#minecraft:pale_oak_logs",
@@ -57,7 +62,7 @@
 						}
 					  },
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"offsetY": -1,
 						"predicate": {
 						  "block": {
@@ -69,7 +74,7 @@
 						}
 					  },
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"offsetY": -2,
 						"predicate": {
 						  "block": {
@@ -83,10 +88,10 @@
 					]
 				  },
 				  {
-					"type": "minecraft:all_of",
+					"condition": "minecraft:all_of",
 					"terms": [
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"predicate": {
 						  "block": {
 							"blocks": "#minecraft:pale_oak_logs",
@@ -97,7 +102,7 @@
 						}
 					  },
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"offsetY": 1,
 						"predicate": {
 						  "block": {
@@ -109,7 +114,7 @@
 						}
 					  },
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"offsetY": 2,
 						"predicate": {
 						  "block": {
@@ -123,10 +128,10 @@
 					]
 				  },
 				  {
-					"type": "minecraft:all_of",
+					"condition": "minecraft:all_of",
 					"terms": [
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"predicate": {
 						  "block": {
 							"blocks": "#minecraft:pale_oak_logs",
@@ -137,7 +142,7 @@
 						}
 					  },
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"offsetZ": -1,
 						"predicate": {
 						  "block": {
@@ -149,7 +154,7 @@
 						}
 					  },
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"offsetZ": -2,
 						"predicate": {
 						  "block": {
@@ -163,10 +168,10 @@
 					]
 				  },
 				  {
-					"type": "minecraft:all_of",
+					"condition": "minecraft:all_of",
 					"terms": [
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"predicate": {
 						  "block": {
 							"blocks": "#minecraft:pale_oak_logs",
@@ -177,7 +182,7 @@
 						}
 					  },
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"offsetZ": 1,
 						"predicate": {
 						  "block": {
@@ -189,7 +194,7 @@
 						}
 					  },
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"offsetZ": 2,
 						"predicate": {
 						  "block": {
@@ -203,10 +208,10 @@
 					]
 				  },
 				  {
-					"type": "minecraft:all_of",
+					"condition": "minecraft:all_of",
 					"terms": [
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"predicate": {
 						  "block": {
 							"blocks": "#minecraft:pale_oak_logs",
@@ -217,7 +222,7 @@
 						}
 					  },
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"offsetX": -1,
 						"predicate": {
 						  "block": {
@@ -229,7 +234,7 @@
 						}
 					  },
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"offsetX": -2,
 						"predicate": {
 						  "block": {
@@ -243,10 +248,10 @@
 					]
 				  },
 				  {
-					"type": "minecraft:all_of",
+					"condition": "minecraft:all_of",
 					"terms": [
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"predicate": {
 						  "block": {
 							"blocks": "#minecraft:pale_oak_logs",
@@ -257,7 +262,7 @@
 						}
 					  },
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"offsetX": 1,
 						"predicate": {
 						  "block": {
@@ -269,7 +274,7 @@
 						}
 					  },
 					  {
-						"type": "minecraft:location_check",
+						"condition": "minecraft:location_check",
 						"offsetX": 2,
 						"predicate": {
 						  "block": {
@@ -284,6 +289,7 @@
 				  }
 				]
 			  }
+			]
 		  },
 		  "trigger": "minecraft:placed_block"
 		}

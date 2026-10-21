@@ -20,13 +20,15 @@
 						"minecraft:lead"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:llamas"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#blazeandcave:llamas"
+						}
 					}
-				}
+				]
 			}
 		}
 	}

@@ -19,51 +19,49 @@
 		"soul_runnings": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:entity_properties",
-							"predicate": {
-								"stepping_on": {
-									"block": {
-										"blocks": "#minecraft:soul_speed_blocks"
-									}
-								},
-								"equipment": {
-									"feet": {
-										"items": [
-											"minecraft:netherite_boots"
-										],
-										"predicates": {
-											"enchantments": [
-												{
-													"enchantments": "minecraft:soul_speed",
-													"levels": {
-														"min": 3
-													}
-												}
-											]
-										}
-									}
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"stepping_on": {
+								"block": {
+									"blocks": "#minecraft:soul_speed_blocks"
 								}
 							},
-							"entity": "this"
-						},
-						{
-							"type": "minecraft:inverted",
-							"term": {
-								"type": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"minecraft:type_specific/player": {
-										"gamemode": ["spectator"]
+							"equipment": {
+								"feet": {
+									"items": [
+										"minecraft:netherite_boots"
+									],
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantments": "minecraft:soul_speed",
+												"levels": {
+													"min": 3
+												}
+											}
+										]
 									}
 								}
 							}
+						},
+						"entity": "this"
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
+								}
+							}
 						}
-					]
-				}
+					}
+				]
 			}
 		}
 	}

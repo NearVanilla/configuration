@@ -7,7 +7,7 @@
 		"description": {"color":"green","translate":"Craft or collect all forms of prismarine blocks"},
 		"announce_to_chat": true
 	},
-	"parent": "blazeandcave:building/cinnabar_island",
+	"parent": "blazeandcave:building/deepslate_conspiracy",
 	"rewards": {
 		"function": "bacap_rewards:building/fake_monument"
 	},		

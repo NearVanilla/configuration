@@ -17,11 +17,7 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{type:\"minecraft:jungle\"}}"
-					}
+					"nbt": "{VillagerData:{type:\"minecraft:jungle\"}}"
 				}
 			}
 		}

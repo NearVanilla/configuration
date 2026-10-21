@@ -25,13 +25,15 @@
 						"minecraft:custom_name": "Technoblade"
 					}
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"predicate": {
-						"entity_type": "minecraft:piglin_brute"
-					},
-					"entity": "this"
-				}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type": "minecraft:piglin_brute"
+						},
+						"entity": "this"
+					}
+				]
 			}
 		}
 	}

@@ -20,16 +20,18 @@
 						"minecraft:lead"
 					]
 				},
-				"entity": {
-					"type": "minecraft:inverted",
-					"term": {
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "#blazeandcave:dont_trigger_piwe_sans_boats"
+				"entity": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type": "#blazeandcave:dont_trigger_piwe_sans_boats"
+							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

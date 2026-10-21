@@ -4,7 +4,7 @@
 			"id": "minecraft:camel_spawn_egg"
 		},
 		"title": {"translate":"Desert Rider"},
-		"description": {"color":"green","translate":"Find a Camel in a Desert and ride it"},
+		"description": {"color":"green","translate":"Find a Camel in a desert village and ride it"},
 		"announce_to_chat": true
 	},
 	"parent": "blazeandcave:animal/cowboy",
@@ -15,15 +15,17 @@
 		"camel": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"predicate": {
-						"vehicle": {
-							"entity_type": "minecraft:camel"
-						}
-					},
-					"entity": "this"
-				}
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"vehicle": {
+								"type": "minecraft:camel"
+							}
+						},
+						"entity": "this"
+					}
+				]
 			}
 		}
 	}

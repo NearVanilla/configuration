@@ -6,6 +6,7 @@
 		"title": {"translate":"So Long & Thanks For The Fish"},
 		"description": {"color":"green","translate":"Get murdered by dolphins"},
 		"announce_to_chat": true
+
 	},
 	"parent": "blazeandcave:biomes/echolocation",
 	"rewards": {
@@ -16,11 +17,7 @@
 			"trigger": "minecraft:entity_killed_player",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:dolphin"
-					}
+					"type": "dolphin"
 				}
 			}
 		}

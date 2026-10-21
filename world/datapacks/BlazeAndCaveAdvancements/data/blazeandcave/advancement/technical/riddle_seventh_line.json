@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:advancement/riddle/seventh_line"
+		"function": "blazeandcave:riddle/seventh_line"
 	},
 	"criteria": {
 		"seventh_line": {
@@ -9,24 +9,23 @@
 				"item": {
 					"items": "#minecraft:piglin_loved"
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"predicate": {
-						"entity_type": "minecraft:piglin",
-						"flags": {
-							"is_baby": true
-						}
-					},
-					"entity": "this"
-				},
-				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:technical/riddle_sixth_line": true
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type": "minecraft:piglin",
+							"flags": {
+								"is_baby": true
 							}
+						},
+						"entity": "this"
+					}
+				],
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:technical/riddle_sixth_line": true
 						}
 					}
 				}
@@ -38,24 +37,23 @@
 				"item": {
 					"items": "#minecraft:piglin_loved"
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"predicate": {
-						"entity_type": "minecraft:piglin",
-						"flags": {
-							"is_baby": true
-						}
-					},
-					"entity": "this"
-				},
-				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:technical/riddle_sixth_line": true
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type": "minecraft:piglin",
+							"flags": {
+								"is_baby": true
 							}
+						},
+						"entity": "this"
+					}
+				],
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:technical/riddle_sixth_line": true
 						}
 					}
 				}

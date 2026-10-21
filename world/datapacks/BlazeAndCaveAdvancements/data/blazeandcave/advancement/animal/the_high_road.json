@@ -17,27 +17,19 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:hostile_monsters"
-					}
+					"type": "#blazeandcave:hostile_monsters"
 				},
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "#minecraft:is_player_attack",
+							"id": "minecraft:is_player_attack",
 							"expected": true
 						}
 					]
 				},
 				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"vehicle": {
-							"entity_type": "camel"
-						}
+					"vehicle": {
+						"type": "camel"
 					}
 				}
 			}

@@ -16,22 +16,24 @@
 		"grass_block": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": {
-					"type": "minecraft:location_check",
-					"predicate": {
-						"block": {
-							"blocks": [
-								"minecraft:grass_block"
-							]
-						},
-						"position": {
-							"y": {
-								"min": 280
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:grass_block"
+								]
 							},
-							"dimension": "minecraft:overworld"
+							"position": {
+								"y": {
+									"min": 280
+								},
+								"dimension": "minecraft:overworld"
+							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

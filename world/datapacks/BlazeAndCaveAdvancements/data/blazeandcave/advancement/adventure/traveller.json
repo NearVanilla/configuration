@@ -17,11 +17,7 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{type:\"minecraft:plains\"}}"
-					}
+					"nbt": "{VillagerData:{type:\"minecraft:plains\"}}"
 				}
 			}
 		},
@@ -29,11 +25,7 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
-					}
+					"nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
 				}
 			}
 		},
@@ -41,11 +33,7 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{type:\"minecraft:savanna\"}}"
-					}
+					"nbt": "{VillagerData:{type:\"minecraft:savanna\"}}"
 				}
 			}
 		},
@@ -53,11 +41,7 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{type:\"minecraft:taiga\"}}"
-					}
+					"nbt": "{VillagerData:{type:\"minecraft:taiga\"}}"
 				}
 			}
 		},
@@ -65,11 +49,7 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{type:\"minecraft:snow\"}}"
-					}
+					"nbt": "{VillagerData:{type:\"minecraft:snow\"}}"
 				}
 			}
 		}		

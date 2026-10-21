@@ -22,15 +22,12 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:witch"
-					}
+					"type": "witch"
 				},
 				"killing_blow": {
+
 					"direct_entity": {
-						"entity_type": "minecraft:splash_potion"
+						"type": "minecraft:splash_potion"
 					}
 				}
 			}

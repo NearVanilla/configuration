@@ -15,69 +15,65 @@
 		"player": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:entity_properties",
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"structures": "#blazeandcave:village"
+							},
+							"vehicle": {
+								"type": "happy_ghast"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"location": {
-									"structures": "#blazeandcave:village"
-								},
-								"vehicle": {
-									"entity_type": "happy_ghast"
-								}
-							}
-						},
-						{
-							"type": "minecraft:inverted",
-							"term": {
-								"type": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"minecraft:type_specific/player": {
-										"gamemode": ["spectator"]
-									}
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
 								}
 							}
 						}
-					]
-				}
+					}
+				]
 			}
 		},
 		"happy_ghast": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"vehicle": {
-									"entity_type": "happy_ghast",
-									"location": {
-										"structures": "#blazeandcave:village"
-									}
-								}
-							}
-						},
-						{
-							"type": "minecraft:inverted",
-							"term": {
-								"type": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"minecraft:type_specific/player": {
-										"gamemode": ["spectator"]
-									}
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"type": "happy_ghast",
+								"location": {
+									"structures": "#blazeandcave:village"
 								}
 							}
 						}
-					]
-				}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
 			}
 		}
 	},

@@ -23,13 +23,15 @@
 						"minecraft:custom_name": "Toast"
 					}
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"predicate": {
-						"entity_type": "minecraft:rabbit"
-					},
-					"entity": "this"
-				}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type": "minecraft:rabbit"
+						},
+						"entity": "this"
+					}
+				]
 			}
 		}
 	}

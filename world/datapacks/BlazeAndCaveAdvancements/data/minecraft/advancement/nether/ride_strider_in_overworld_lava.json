@@ -16,18 +16,20 @@
 	"ride_entity_distance": {
 		"trigger": "minecraft:ride_entity_in_lava",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"predicate": {
-						"location": {
-							"dimension": "minecraft:overworld"
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"location": {
+								"dimension": "minecraft:overworld"
+							},
+							"vehicle": {
+								"type": "minecraft:strider"
+							}
 						},
-						"vehicle": {
-							"entity_type": "minecraft:strider"
-						}
-					},
-					"entity": "this"
-				},
+						"entity": "this"
+					}
+				],
 				"distance": {
 					"horizontal": {
 						"min": 50.0

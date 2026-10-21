@@ -16,27 +16,29 @@
 		"campfire": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": {
-					"type": "minecraft:location_check",
-					"predicate": {
-						"block": {
-							"blocks": [
-								"minecraft:campfire",
-								"minecraft:soul_campfire"
-							]
-						},
-						"position": {
-							"x": {
-								"max": 10,
-								"min": -10
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:campfire",
+									"minecraft:soul_campfire"
+								]
 							},
-							"z": {
-								"max": 10,
-								"min": -10
+							"position": {
+								"x": {
+									"max": 10,
+									"min": -10
+								},
+								"z": {
+									"max": 10,
+									"min": -10
+								}
 							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

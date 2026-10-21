@@ -15,19 +15,21 @@
 		"leather_chestplate": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"chest": {
-								"items": [
-									"minecraft:leather_chestplate"
-								]
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"chest": {
+									"items": [
+										"minecraft:leather_chestplate"
+									]
+								}
 							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

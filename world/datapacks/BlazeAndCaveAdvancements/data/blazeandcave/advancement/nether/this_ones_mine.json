@@ -17,13 +17,9 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:zombified_piglin",
-						"vehicle": {
-							"entity_type": "strider"
-						}
+					"type": "zombified_piglin",
+					"vehicle": {
+						"type": "strider"
 					}
 				}
 			}
@@ -31,20 +27,18 @@
 		"on_a_strider": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"vehicle": {
-							"entity_type": "strider",
-							"entity_tags": {
-								"all_of": [
-									"zp_ridden"
-								]
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"type": "strider",
+								"nbt": "{Tags:[zp_ridden]}"
 							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

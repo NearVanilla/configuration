@@ -23,39 +23,19 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:pillager"
-						}
+						"type": "minecraft:pillager"
 					},
 					{
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:vindicator"
-						}
+						"type": "minecraft:vindicator"
 					},
 					{
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:evoker"
-						}
+						"type": "minecraft:evoker"
 					},
 					{
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:ravager"
-						}
+						"type": "minecraft:ravager"
 					},
 					{
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:witch"
-						}
+						"type": "minecraft:witch"
 					}
 				],
 				"fired_from_weapon": {

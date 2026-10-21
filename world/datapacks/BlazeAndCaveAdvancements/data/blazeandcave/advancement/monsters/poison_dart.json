@@ -24,12 +24,12 @@
 					"type": {
 						"tags": [
 							{
-								"id": "#minecraft:is_projectile",
+								"id": "minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"entity_type": "minecraft:arrow",
+							"type": "minecraft:arrow",
 							"nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:poison\"}}}}"
 						}
 					}
@@ -43,12 +43,12 @@
 					"type": {
 						"tags": [
 							{
-								"id": "#minecraft:is_projectile",
+								"id": "minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"entity_type": "minecraft:arrow",
+							"type": "minecraft:arrow",
 							"nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_poison\"}}}}"
 						}
 					}
@@ -62,12 +62,12 @@
 					"type": {
 						"tags": [
 							{
-								"id": "#minecraft:is_projectile",
+								"id": "minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"entity_type": "minecraft:arrow",
+							"type": "minecraft:arrow",
 							"nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_poison\"}}}}"
 						}
 					}

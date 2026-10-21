@@ -5,19 +5,18 @@ execute if score coop bac_settings matches 1 if entity @p[scores={bac_quit=1..}]
 execute if score coop bac_settings matches 2 as @a[scores={bac_quit=1..}] run function blazeandcave:config/coop_update_team
 scoreboard players set @a bac_quit 0
 
-# For "An Apple a Day" if an apple is eaten it sets bac_apple_today to 1 and increases bac_apple_days by 1
-#execute as @a[advancements={blazeandcave:technical/consume_apple=true}] run scoreboard players set @s bac_apple_today 1
-#execute as @a[scores={bac_apple_today=1..}] run scoreboard players add @s bac_apple_days 1
-#execute as @a[scores={bac_apple_eaten=1..}] run scoreboard players set @s bac_apple_eaten 100
+# For "An Apple a Day" if an apple is eaten it increases the score. bac_apple_eaten is then set to 100
+execute as @a[scores={bac_apple_eaten=1..99}] run scoreboard players add @s bac_apple_days 1
+execute as @a[scores={bac_apple_eaten=1..}] run scoreboard players set @s bac_apple_eaten 100
 
 # Once reaching 30 consecutive days "An Apple a Day" is awarded
-#execute as @a[scores={bac_apple_days=30..}] at @s run advancement grant @s only blazeandcave:farming/an_apple_a_day
+execute as @a[scores={bac_apple_days=30..}] at @s run advancement grant @s only blazeandcave:farming/an_apple_a_day
 
 
 # Day count is increased by 1 at each sunrise
 scoreboard players operation previous bac_current_time = time bac_current_time
 execute store result score time bac_current_time run time query minecraft:day
-execute if score time bac_current_time matches 0..199 run function blazeandcave:increase_day
+execute if score time bac_current_time matches 0..200 run function blazeandcave:increase_day
 
 # If it is just before a sunrise players gain "The First Night"
 execute if score time bac_current_time matches 23000..23200 run advancement grant @a[gamemode=!spectator] only blazeandcave:statistics/the_first_night
@@ -29,7 +28,7 @@ execute unless score previous bac_current_time matches ..13000 run advancement g
 
 
 # Gives Striders ridden by a Zombified Piglin a unique tag for the "This One's Mine!" advancement. Those that don't have one are given a different tag so they aren't checked anymore
-execute as @e[type=strider,tag=!zp_ridden,tag=!not_zp_ridden] at @s run function blazeandcave:advancement/check/strider
+execute as @e[type=strider,tag=!zp_ridden,tag=!not_zp_ridden] at @s run function blazeandcave:strider_check
 
 # Gives baby zombie variants the 'baby' tag if they are a baby (Used for the "Family Reunion" advancement)
 ## THIS CODE HAS BEEN COMMENTED OUT AS THE TAG IS NO LONGER USED. INSTEAD THE PREDICATE IS USED DIRECTLY

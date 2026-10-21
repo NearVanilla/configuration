@@ -19,7 +19,7 @@
 				"damage": {
 					"blocked": false,
 					"source_entity": {
-						"entity_type": "minecraft:shulker",
+						"type": "minecraft:shulker",
 						"location": {
 							"dimension": "overworld"
 						}

@@ -11,7 +11,7 @@
 		"announce_to_chat": true,
 		"frame": "goal"
 	},
-	"parent": "blazeandcave:biomes/cargo_carrier",
+	"parent": "blazeandcave:biomes/boaty_mcboatface",
 	"rewards": {
 		"function": "bacap_rewards:biomes/dive_bomb"
 	},		
@@ -19,16 +19,12 @@
 		"dive_bomb": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"blocks": "minecraft:water",
+				"block": "minecraft:water",
 				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"entity_type": "minecraft:player",
-							"advancements": {
-								"blazeandcave:technical/dive_bomb_check": true
-							}
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"blazeandcave:technical/dive_bomb_check": true
 						}
 					}
 				}

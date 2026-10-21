@@ -42,6 +42,7 @@
 		"title": {"translate":"I've got a bad feeling about this"},
 		"description": {"color":"green","translate":"Kill a raid captain. I’d warn against drinking that bottle they dropped…"},
 		"announce_to_chat": true
+
 	},
 	"parent": "blazeandcave:adventure/riot_shield",
 	"rewards": {
@@ -51,16 +52,19 @@
 		"bad_omen": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#minecraft:raiders",
-						"minecraft:type_specific/raider": {
-							"is_captain": true
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#minecraft:raiders",
+							"type_specific": {
+								"type": "raider",
+								"is_captain": true
+							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

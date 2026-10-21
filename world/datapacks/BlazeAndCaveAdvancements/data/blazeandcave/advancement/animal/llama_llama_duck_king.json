@@ -17,12 +17,8 @@
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:llamas",
-						"nbt": "{Variant:0}"
-					}
+					"type": "#blazeandcave:llamas",
+					"nbt": "{Variant:0}"
 				}
 			}
 		},
@@ -30,12 +26,8 @@
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:llamas",
-						"nbt": "{Variant:1}"
-					}
+					"type": "#blazeandcave:llamas",
+					"nbt": "{Variant:1}"
 				}
 			}
 		},
@@ -43,12 +35,8 @@
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:llamas",
-						"nbt": "{Variant:2}"
-					}
+					"type": "#blazeandcave:llamas",
+					"nbt": "{Variant:2}"
 				}
 			}
 		},
@@ -56,12 +44,8 @@
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:llamas",
-						"nbt": "{Variant:3}"
-					}
+					"type": "#blazeandcave:llamas",
+					"nbt": "{Variant:3}"
 				}
 			}
 		}

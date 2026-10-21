@@ -15,50 +15,48 @@
 		"fire_resistance": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"effects": {
-									"minecraft:fire_resistance": {
-										"amplifier": {
-											"min": 0
-										}
-									}
-								}
-							}
-						},
-						{
-							"type": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"location": {
-									"fluid": {
-										"fluids": [
-											"minecraft:lava",
-											"minecraft:flowing_lava"
-										]
-									}
-								}
-							}
-						},
-						{
-							"type": "minecraft:inverted",
-							"term": {
-								"type": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"minecraft:type_specific/player": {
-										"gamemode": ["spectator"]
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"effects": {
+								"minecraft:fire_resistance": {
+									"amplifier": {
+										"min": 0
 									}
 								}
 							}
 						}
-					]
-				}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"fluid": {
+									"fluids": [
+										"minecraft:lava",
+										"minecraft:flowing_lava"
+									]
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
 			}
 		}
 	}

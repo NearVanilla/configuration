@@ -20,9 +20,7 @@
 						"minecraft:potion"
 					],
 					"predicates": {
-						"potion_contents": {
-							"potions": "minecraft:slow_falling"
-						}
+						"potion_contents": "minecraft:slow_falling"
 					}
 				}
 			}
@@ -35,9 +33,7 @@
 						"minecraft:potion"
 					],
 					"predicates": {
-						"potion_contents": {
-							"potions": "minecraft:long_slow_falling"
-						}
+						"potion_contents": "minecraft:long_slow_falling"
 					}
 				}
 			}

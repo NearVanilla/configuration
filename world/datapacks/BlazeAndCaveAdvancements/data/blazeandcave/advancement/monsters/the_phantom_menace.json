@@ -17,7 +17,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"entity_type": "phantom"
+						"type": "phantom"
 					}
 				}
 			}

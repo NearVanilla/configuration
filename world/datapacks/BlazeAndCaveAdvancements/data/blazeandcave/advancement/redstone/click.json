@@ -15,14 +15,16 @@
 		"oak_button": {
 			"trigger": "minecraft:default_block_use",
 			"conditions": {
-				"location": {
-					"type": "minecraft:location_check",
-					"predicate": {
-						"block": {
-							"blocks": "#minecraft:buttons"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "#minecraft:buttons"
+							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

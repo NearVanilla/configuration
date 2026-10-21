@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:advancement/check/lucky_break"
+		"function": "blazeandcave:lucky_break_check"
 	},		
 	"criteria": {
 		"lucky_break_check": {

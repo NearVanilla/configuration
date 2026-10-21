@@ -17,13 +17,15 @@
 		"spruce_sapling": {
 			"trigger": "minecraft:thrown_item_picked_up_by_player",
 			"conditions": {
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:allay"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:allay"
+						}
 					}
-				},
+				],
 				"item": {
 					"predicates": {
 						"custom_data": {

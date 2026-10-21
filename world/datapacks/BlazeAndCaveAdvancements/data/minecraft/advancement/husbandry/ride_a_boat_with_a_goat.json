@@ -15,18 +15,20 @@
 		"ride_a_boat_with_a_goat": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"predicate": {
-						"vehicle": {
-							"entity_type": "#minecraft:boat",
-							"passenger": {
-								"entity_type": "minecraft:goat"
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"vehicle": {
+								"type": "#minecraft:boat",
+								"passenger": {
+									"type": "minecraft:goat"
+								}
 							}
-						}
-					},
-					"entity": "this"
-				}
+						},
+						"entity": "this"
+					}
+				]
 			}
 		}
 	}

@@ -6,6 +6,7 @@
 		"title": {"translate":"NOT THE BEES!"},
 		"description": {"color":"green","translate":"Get stung to death by bees"},
 		"announce_to_chat": true
+
 	},
 	"parent": "blazeandcave:animal/hive_mind",
 	"rewards": {
@@ -16,11 +17,7 @@
 			"trigger": "minecraft:entity_killed_player",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:bee"
-					}
+					"type": "bee"
 				}
 			}
 		}

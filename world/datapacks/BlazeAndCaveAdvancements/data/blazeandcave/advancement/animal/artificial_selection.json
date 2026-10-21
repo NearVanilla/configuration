@@ -16,25 +16,13 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:horse"
-					}
+					"type": "minecraft:horse"
 				},
 				"partner": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:donkey"
-					}
+					"type": "minecraft:donkey"
 				},
 				"child": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:mule"
-					}
+					"type": "minecraft:mule"
 				}
 			}
 		}

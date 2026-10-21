@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:skeleton_horse_spawn_egg"
+			"id": "minecraft:bone"
 		},
 		"title": {"translate":"The Undead Cavalry"},
 		"description": {"color":"#75E1FF","translate":"Ride a Skeleton Horse"},
@@ -16,15 +16,17 @@
 		"skeleton_horse": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"predicate": {
-						"vehicle": {
-							"entity_type": "minecraft:skeleton_horse"
-						}
-					},
-					"entity": "this"
-				}
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"vehicle": {
+								"type": "minecraft:skeleton_horse"
+							}
+						},
+						"entity": "this"
+					}
+				]
 			}
 		}
 	}

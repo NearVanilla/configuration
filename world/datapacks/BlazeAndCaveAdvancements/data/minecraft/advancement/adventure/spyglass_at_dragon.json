@@ -15,17 +15,20 @@
 		"spyglass_at_dragon": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"looking_at": {
-								"entity_type": "minecraft:ender_dragon"
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type_specific": {
+								"type": "player",
+								"looking_at": {
+									"type": "minecraft:ender_dragon"
+								}
 							}
-						}
-					},
-					"entity": "this"
-				},
+						},
+						"entity": "this"
+					}
+				],
 				"item": {
 					"items": [
 						"minecraft:spyglass"

@@ -17,15 +17,11 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:ghast"
-					}
+					"type": "ghast"
 				},
 				"killing_blow": {
 					"direct_entity": {
-						"entity_type": "minecraft:firework_rocket"
+						"type": "minecraft:firework_rocket"
 					}
 				}
 			}

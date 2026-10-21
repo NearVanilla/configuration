@@ -15,12 +15,14 @@
 		"banner": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": {
-					"type": "minecraft:match_tool",
-					"predicate": {
-						"items": "#minecraft:banners"
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "#minecraft:banners"
+						}
 					}
-				}
+				]
 			}
 		}
 	}

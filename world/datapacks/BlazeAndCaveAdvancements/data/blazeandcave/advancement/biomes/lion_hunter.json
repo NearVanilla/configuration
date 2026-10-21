@@ -7,7 +7,7 @@
 		"description": {"color":"green","translate":"Feed an Ocelot fish to try and gain its trust"},
 		"announce_to_chat": true
 	},
-	"parent": "blazeandcave:biomes/the_mighty_jungle",
+	"parent": "blazeandcave:biomes/tarzan",
 	"rewards": {
 		"function": "bacap_rewards:biomes/lion_hunter"
 	},		
@@ -18,13 +18,15 @@
 				"item": {
 					"items": "#blazeandcave:ocelot_feedable"
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:ocelot"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:ocelot"
+						}
 					}
-				}
+				]
 			}
 		}
 	}

@@ -21,13 +21,15 @@
 						"minecraft:totem_of_undying"
 					]
 				},
-				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:zombie"
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:zombie"
+						}
 					}
-				}
+				]
 			}
 		}
 	}

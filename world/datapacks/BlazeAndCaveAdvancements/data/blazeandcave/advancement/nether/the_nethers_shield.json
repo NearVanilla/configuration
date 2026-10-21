@@ -43,10 +43,10 @@
 				"damage": {
 					"blocked": true,
 					"direct_entity": {
-						"entity_type": "small_fireball"
+						"type": "small_fireball"
 					},
 					"source_entity": {
-						"entity_type": "blaze",
+						"type": "blaze",
 						"distance": {
 							"absolute": {
 								"min": 3.0

@@ -17,13 +17,9 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:enderman",
-						"location": {
-							"dimension": "the_end"
-						}
+					"type": "enderman",
+					"location": {
+						"dimension": "the_end"
 					}
 				}
 			}
@@ -32,11 +28,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:endermite"
-					}
+					"type": "endermite"
 				}
 			}
 		},
@@ -44,11 +36,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:shulker"
-					}
+					"type": "shulker"
 				}
 			}
 		},
@@ -56,11 +44,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:ender_dragon"
-					}
+					"type": "ender_dragon"
 				}
 			}
 		}

@@ -17,13 +17,9 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:enderman",
-						"location": {
-							"dimension": "overworld"
-						}
+					"type": "minecraft:enderman",
+					"location": {
+						"dimension": "overworld"
 					}
 				}
 			}
@@ -32,13 +28,9 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:enderman",
-						"location": {
-							"dimension": "the_nether"
-						}
+					"type": "minecraft:enderman",
+					"location": {
+						"dimension": "the_nether"
 					}
 				}
 			}
@@ -47,13 +39,9 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:enderman",
-						"location": {
-							"dimension": "the_end"
-						}
+					"type": "minecraft:enderman",
+					"location": {
+						"dimension": "the_end"
 					}
 				}
 			}

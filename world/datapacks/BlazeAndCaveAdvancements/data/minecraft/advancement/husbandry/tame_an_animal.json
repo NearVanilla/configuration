@@ -16,11 +16,7 @@
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:wolf"
-					}
+					"type": "minecraft:wolf"
 				}
 			}
 		}

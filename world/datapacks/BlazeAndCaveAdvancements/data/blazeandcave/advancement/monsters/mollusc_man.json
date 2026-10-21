@@ -17,16 +17,12 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:drowned",
-						"equipment": {
-							"offhand": {
-								"items": [
-									"minecraft:nautilus_shell"
-								]
-							}
+					"type": "drowned",
+					"equipment": {
+						"offhand": {
+							"items": [
+								"minecraft:nautilus_shell"
+							]
 						}
 					}
 				}
@@ -36,16 +32,12 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:drowned",
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:nautilus_shell"
-								]
-							}
+					"type": "drowned",
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:nautilus_shell"
+							]
 						}
 					}
 				}

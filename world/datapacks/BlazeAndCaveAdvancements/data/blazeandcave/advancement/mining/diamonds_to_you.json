@@ -21,13 +21,9 @@
 					]
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"distance": {
-							"absolute": {
-								"min": 1
-							}
+					"distance": {
+						"absolute": {
+							"min": 1
 						}
 					}
 				}

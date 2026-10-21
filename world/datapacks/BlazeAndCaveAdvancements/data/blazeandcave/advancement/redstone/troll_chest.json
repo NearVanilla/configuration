@@ -15,16 +15,18 @@
 		"trapped_chest": {
 			"trigger": "minecraft:default_block_use",
 			"conditions": {
-				"location": {
-					"type": "minecraft:location_check",
-					"predicate": {
-						"block": {
-							"blocks": [
-								"minecraft:trapped_chest"
-							]
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:trapped_chest"
+								]
+							}
 						}
 					}
-				}
+				]
 			}
 		}
 	}

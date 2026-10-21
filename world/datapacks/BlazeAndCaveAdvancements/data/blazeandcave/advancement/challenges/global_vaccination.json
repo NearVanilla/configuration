@@ -17,11 +17,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:plains\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:plains\"}}"
 				}
 			}
 		},
@@ -29,11 +25,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:plains\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:plains\"}}"
 				}
 			}
 		},
@@ -41,11 +33,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:plains\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:plains\"}}"
 				}
 			}
 		},
@@ -53,11 +41,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:plains\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:plains\"}}"
 				}
 			}
 		},
@@ -65,11 +49,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:plains\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:plains\"}}"
 				}
 			}
 		},
@@ -77,11 +57,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:plains\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:plains\"}}"
 				}
 			}
 		},
@@ -89,11 +65,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:plains\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:plains\"}}"
 				}
 			}
 		},
@@ -101,11 +73,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:plains\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:plains\"}}"
 				}
 			}
 		},
@@ -113,11 +81,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:plains\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:plains\"}}"
 				}
 			}
 		},
@@ -125,11 +89,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:plains\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:plains\"}}"
 				}
 			}
 		},
@@ -137,11 +97,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:plains\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:plains\"}}"
 				}
 			}
 		},
@@ -149,11 +105,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:plains\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:plains\"}}"
 				}
 			}
 		},
@@ -161,11 +113,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:plains\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:plains\"}}"
 				}
 			}
 		},
@@ -173,11 +121,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:plains\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:plains\"}}"
 				}
 			}
 		},
@@ -185,11 +129,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:plains\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:plains\"}}"
 				}
 			}
 		},
@@ -197,11 +137,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:taiga\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:taiga\"}}"
 				}
 			}
 		},
@@ -209,11 +145,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:taiga\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:taiga\"}}"
 				}
 			}
 		},
@@ -221,11 +153,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:taiga\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:taiga\"}}"
 				}
 			}
 		},
@@ -233,11 +161,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:taiga\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:taiga\"}}"
 				}
 			}
 		},
@@ -245,11 +169,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:taiga\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:taiga\"}}"
 				}
 			}
 		},
@@ -257,11 +177,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:taiga\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:taiga\"}}"
 				}
 			}
 		},
@@ -269,11 +185,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:taiga\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:taiga\"}}"
 				}
 			}
 		},
@@ -281,11 +193,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:taiga\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:taiga\"}}"
 				}
 			}
 		},
@@ -293,11 +201,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:taiga\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:taiga\"}}"
 				}
 			}
 		},
@@ -305,11 +209,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:taiga\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:taiga\"}}"
 				}
 			}
 		},
@@ -317,11 +217,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:taiga\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:taiga\"}}"
 				}
 			}
 		},
@@ -329,11 +225,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:taiga\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:taiga\"}}"
 				}
 			}
 		},
@@ -341,11 +233,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:taiga\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:taiga\"}}"
 				}
 			}
 		},
@@ -353,11 +241,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:taiga\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:taiga\"}}"
 				}
 			}
 		},
@@ -365,11 +249,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:taiga\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:taiga\"}}"
 				}
 			}
 		},
@@ -377,11 +257,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:desert\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:desert\"}}"
 				}
 			}
 		},
@@ -389,11 +265,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:desert\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:desert\"}}"
 				}
 			}
 		},
@@ -401,11 +273,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:desert\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:desert\"}}"
 				}
 			}
 		},
@@ -413,11 +281,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:desert\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:desert\"}}"
 				}
 			}
 		},
@@ -425,11 +289,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:desert\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:desert\"}}"
 				}
 			}
 		},
@@ -437,11 +297,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:desert\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:desert\"}}"
 				}
 			}
 		},
@@ -449,11 +305,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:desert\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:desert\"}}"
 				}
 			}
 		},
@@ -461,11 +313,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:desert\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:desert\"}}"
 				}
 			}
 		},
@@ -473,11 +321,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:desert\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:desert\"}}"
 				}
 			}
 		},
@@ -485,11 +329,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:desert\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:desert\"}}"
 				}
 			}
 		},
@@ -497,11 +337,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:desert\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:desert\"}}"
 				}
 			}
 		},
@@ -509,11 +345,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:desert\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:desert\"}}"
 				}
 			}
 		},
@@ -521,11 +353,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:desert\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:desert\"}}"
 				}
 			}
 		},
@@ -533,11 +361,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:desert\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:desert\"}}"
 				}
 			}
 		},
@@ -545,11 +369,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:desert\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:desert\"}}"
 				}
 			}
 		},
@@ -557,11 +377,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:savanna\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:savanna\"}}"
 				}
 			}
 		},
@@ -569,11 +385,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:savanna\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:savanna\"}}"
 				}
 			}
 		},
@@ -581,11 +393,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:savanna\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:savanna\"}}"
 				}
 			}
 		},
@@ -593,11 +401,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:savanna\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:savanna\"}}"
 				}
 			}
 		},
@@ -605,11 +409,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:savanna\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:savanna\"}}"
 				}
 			}
 		},
@@ -617,11 +417,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:savanna\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:savanna\"}}"
 				}
 			}
 		},
@@ -629,11 +425,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:savanna\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:savanna\"}}"
 				}
 			}
 		},
@@ -641,11 +433,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:savanna\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:savanna\"}}"
 				}
 			}
 		},
@@ -653,11 +441,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:savanna\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:savanna\"}}"
 				}
 			}
 		},
@@ -665,11 +449,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:savanna\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:savanna\"}}"
 				}
 			}
 		},
@@ -677,11 +457,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:savanna\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:savanna\"}}"
 				}
 			}
 		},
@@ -689,11 +465,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:savanna\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:savanna\"}}"
 				}
 			}
 		},
@@ -701,11 +473,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:savanna\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:savanna\"}}"
 				}
 			}
 		},
@@ -713,11 +481,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:savanna\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:savanna\"}}"
 				}
 			}
 		},
@@ -725,11 +489,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:savanna\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:savanna\"}}"
 				}
 			}
 		},
@@ -737,11 +497,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:snow\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:snow\"}}"
 				}
 			}
 		},
@@ -749,11 +505,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:snow\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:snow\"}}"
 				}
 			}
 		},
@@ -761,11 +513,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:snow\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:snow\"}}"
 				}
 			}
 		},
@@ -773,11 +521,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:snow\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:snow\"}}"
 				}
 			}
 		},
@@ -785,11 +529,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:snow\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:snow\"}}"
 				}
 			}
 		},
@@ -797,11 +537,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:snow\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:snow\"}}"
 				}
 			}
 		},
@@ -809,11 +545,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:snow\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:snow\"}}"
 				}
 			}
 		},
@@ -821,11 +553,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:snow\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:snow\"}}"
 				}
 			}
 		},
@@ -833,11 +561,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:snow\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:snow\"}}"
 				}
 			}
 		},
@@ -845,11 +569,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:snow\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:snow\"}}"
 				}
 			}
 		},
@@ -857,11 +577,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:snow\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:snow\"}}"
 				}
 			}
 		},
@@ -869,11 +585,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:snow\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:snow\"}}"
 				}
 			}
 		},
@@ -881,11 +593,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:snow\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:snow\"}}"
 				}
 			}
 		},
@@ -893,11 +601,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:snow\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:snow\"}}"
 				}
 			}
 		},
@@ -905,11 +609,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:snow\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:snow\"}}"
 				}
 			}
 		},
@@ -917,11 +617,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:jungle\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:jungle\"}}"
 				}
 			}
 		},
@@ -929,11 +625,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:jungle\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:jungle\"}}"
 				}
 			}
 		},
@@ -941,11 +633,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:jungle\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:jungle\"}}"
 				}
 			}
 		},
@@ -953,11 +641,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:jungle\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:jungle\"}}"
 				}
 			}
 		},
@@ -965,11 +649,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:jungle\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:jungle\"}}"
 				}
 			}
 		},
@@ -977,11 +657,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:jungle\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:jungle\"}}"
 				}
 			}
 		},
@@ -989,11 +665,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:jungle\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:jungle\"}}"
 				}
 			}
 		},
@@ -1001,11 +673,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:jungle\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:jungle\"}}"
 				}
 			}
 		},
@@ -1013,11 +681,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:jungle\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:jungle\"}}"
 				}
 			}
 		},
@@ -1025,11 +689,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:jungle\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:jungle\"}}"
 				}
 			}
 		},
@@ -1037,11 +697,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:jungle\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:jungle\"}}"
 				}
 			}
 		},
@@ -1049,11 +705,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:jungle\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:jungle\"}}"
 				}
 			}
 		},
@@ -1061,11 +713,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:jungle\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:jungle\"}}"
 				}
 			}
 		},
@@ -1073,11 +721,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:jungle\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:jungle\"}}"
 				}
 			}
 		},
@@ -1085,11 +729,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:jungle\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:jungle\"}}"
 				}
 			}
 		},
@@ -1097,11 +737,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:swamp\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:swamp\"}}"
 				}
 			}
 		},
@@ -1109,11 +745,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:swamp\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:swamp\"}}"
 				}
 			}
 		},
@@ -1121,11 +753,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:swamp\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:swamp\"}}"
 				}
 			}
 		},
@@ -1133,11 +761,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:swamp\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:swamp\"}}"
 				}
 			}
 		},
@@ -1145,11 +769,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:swamp\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:swamp\"}}"
 				}
 			}
 		},
@@ -1157,11 +777,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:swamp\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:swamp\"}}"
 				}
 			}
 		},
@@ -1169,11 +785,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:swamp\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:swamp\"}}"
 				}
 			}
 		},
@@ -1181,11 +793,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:swamp\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:swamp\"}}"
 				}
 			}
 		},
@@ -1193,11 +801,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:swamp\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:swamp\"}}"
 				}
 			}
 		},
@@ -1205,11 +809,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:swamp\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:swamp\"}}"
 				}
 			}
 		},
@@ -1217,11 +817,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:swamp\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:swamp\"}}"
 				}
 			}
 		},
@@ -1229,11 +825,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:swamp\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:swamp\"}}"
 				}
 			}
 		},
@@ -1241,11 +833,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:swamp\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:swamp\"}}"
 				}
 			}
 		},
@@ -1253,11 +841,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:swamp\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:swamp\"}}"
 				}
 			}
 		},
@@ -1265,11 +849,7 @@
 			"trigger": "minecraft:cured_zombie_villager",
 			"conditions": {
 				"villager": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:swamp\"}}"
-					}
+					"nbt": "{VillagerData:{profession:\"minecraft:none\",type:\"minecraft:swamp\"}}"
 				}
 			}
 		}

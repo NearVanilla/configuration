@@ -18,11 +18,7 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:pillager"
-						}
+						"type": "minecraft:pillager"
 					}
 				],
 				"fired_from_weapon": {

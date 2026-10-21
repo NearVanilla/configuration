@@ -6,6 +6,7 @@
 		"title": {"translate":"We’re Going on a Bear Hunt"},
 		"description": {"color":"green","translate":"Get hunted by a Polar Bear"},
 		"announce_to_chat": true
+
 	},
 	"parent": "blazeandcave:biomes/barbearian",
 	"rewards": {
@@ -16,11 +17,7 @@
 			"trigger": "minecraft:entity_killed_player",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "polar_bear"
-					}
+					"type": "polar_bear"
 				}
 			}
 		}

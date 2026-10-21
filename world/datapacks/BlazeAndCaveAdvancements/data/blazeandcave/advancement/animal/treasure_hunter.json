@@ -15,7 +15,8 @@
 		"bow": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item": {
+				"item":
+				{
 					"items": [
 						"minecraft:bow"
 					]
@@ -25,7 +26,8 @@
 		"enchanted_book": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item": {
+				"item":
+				{
 					"items": [
 						"minecraft:enchanted_book"
 					]
@@ -35,7 +37,8 @@
 		"name_tag": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item": {
+				"item":
+				{
 					"items": [
 						"minecraft:name_tag"
 					]
@@ -45,7 +48,8 @@
 		"nautilus_shell": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item": {
+				"item":
+				{
 					"items": [
 						"minecraft:nautilus_shell"
 					]
@@ -55,7 +59,8 @@
 		"saddle": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item": {
+				"item":
+				{
 					"items": [
 						"minecraft:saddle"
 					]
@@ -65,7 +70,8 @@
 		"fishing_rod": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item": {
+				"item":
+				{
 					"items": [
 						"minecraft:fishing_rod"
 					],					

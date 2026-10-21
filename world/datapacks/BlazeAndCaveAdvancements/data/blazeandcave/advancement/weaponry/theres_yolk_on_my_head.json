@@ -17,22 +17,18 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:zombies"
-					}
+					"type": "#blazeandcave:zombies"
 				},
 				"damage": {
 					"type": {
 						"tags": [
 							{
-								"id": "#minecraft:is_projectile",
+								"id": "minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"entity_type": "minecraft:egg",
+							"type": "minecraft:egg",
 							"nbt": "{Item:{id:\"minecraft:egg\"}}"
 						}
 					}
@@ -43,22 +39,18 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:zombies"
-					}
+					"type": "#blazeandcave:zombies"
 				},
 				"damage": {
 					"type": {
 						"tags": [
 							{
-								"id": "#minecraft:is_projectile",
+								"id": "minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"entity_type": "minecraft:egg",
+							"type": "minecraft:egg",
 							"nbt": "{Item:{id:\"minecraft:blue_egg\"}}"
 						}
 					}
@@ -69,22 +61,18 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:zombies"
-					}
+					"type": "#blazeandcave:zombies"
 				},
 				"damage": {
 					"type": {
 						"tags": [
 							{
-								"id": "#minecraft:is_projectile",
+								"id": "minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"entity_type": "minecraft:egg",
+							"type": "minecraft:egg",
 							"nbt": "{Item:{id:\"minecraft:brown_egg\"}}"
 						}
 					}

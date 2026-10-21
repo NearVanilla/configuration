@@ -18,15 +18,11 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:chicken",
-						"passenger": {
-							"entity_type": "#blazeandcave:overworld_zombies",
-							"flags": {
-								"is_baby": true
-							}
+					"type": "chicken",
+					"passenger": {
+						"type": "#blazeandcave:overworld_zombies",
+						"flags": {
+							"is_baby": true
 						}
 					}
 				}
@@ -36,16 +32,12 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#blazeandcave:overworld_zombies",
-						"flags": {
-							"is_baby": true
-						},
-						"vehicle": {
-							"entity_type": "minecraft:chicken"
-						}
+					"type": "#blazeandcave:overworld_zombies",
+					"flags": {
+						"is_baby": true
+					},
+					"vehicle": {
+						"type": "chicken"
 					}
 				}
 			}

@@ -6,6 +6,7 @@
 		"title": {"translate":"Spikey!"},
 		"description": {"color":"green","translate":"Run into a cactus"},
 		"announce_to_chat": true
+
 	},
 	"parent": "blazeandcave:farming/its_a_cactus",
 	"rewards": {
@@ -15,7 +16,7 @@
 		"cactus": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"blocks": "minecraft:cactus"
+				"block": "minecraft:cactus"
 			}
 		}
 	}

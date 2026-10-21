@@ -17,19 +17,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:chicken",
-						"passenger": {
-							"entity_type": "minecraft:zombie",
-							"flags": {
-								"is_baby": true
-							}
-						},
-						"location": {
-							"structures": "minecraft:mansion"
+					"type": "chicken",
+					"passenger": {
+						"type": "minecraft:zombie",
+						"flags": {
+							"is_baby": true
 						}
+					},
+					"location": {
+						"structures": "minecraft:mansion"
 					}
 				}
 			}
@@ -38,19 +34,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:zombie",
-						"passenger": {
-							"entity_type": "minecraft:chicken",
-							"flags": {
-								"is_baby": true
-							}
-						},
-						"location": {
-							"structures": "minecraft:mansion"
-						}
+					"type": "minecraft:zombie",
+					"flags": {
+						"is_baby": true
+					},
+					"vehicle": {
+						"type": "chicken"
+					},
+					"location": {
+						"structures": "minecraft:mansion"
 					}
 				}
 			}

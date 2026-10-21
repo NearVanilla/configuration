@@ -20,9 +20,7 @@
 						"minecraft:potion"
 					],
 					"predicates": {
-						"potion_contents": {
-							"potions": "minecraft:invisibility"
-						}
+						"potion_contents": "minecraft:invisibility"
 					}
 				}
 			}
@@ -35,9 +33,7 @@
 						"minecraft:potion"
 					],
 					"predicates": {
-						"potion_contents": {
-							"potions": "minecraft:long_invisibility"
-						}
+						"potion_contents": "minecraft:long_invisibility"
 					}
 				}
 			}

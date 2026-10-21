@@ -109,7 +109,20 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#minecraft:wooden_buttons",
+						"items": [
+							"minecraft:oak_button",
+							"minecraft:spruce_button",
+							"minecraft:birch_button",
+							"minecraft:jungle_button",
+							"minecraft:acacia_button",
+							"minecraft:dark_oak_button",
+							"minecraft:mangrove_button",
+							"minecraft:cherry_button",
+							"minecraft:pale_oak_button",
+							"minecraft:bamboo_button",
+							"minecraft:crimson_button",
+							"minecraft:warped_button"
+						],
 						"count": 64
 					}
 				]
@@ -120,7 +133,10 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#minecraft:stone_buttons",
+						"items": [
+							"minecraft:stone_button",
+							"minecraft:polished_blackstone_button"
+						],
 						"count": 64
 					}
 				]
@@ -131,7 +147,20 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#minecraft:wooden_pressure_plates",
+						"items": [
+							"minecraft:oak_pressure_plate",
+							"minecraft:spruce_pressure_plate",
+							"minecraft:birch_pressure_plate",
+							"minecraft:jungle_pressure_plate",
+							"minecraft:acacia_pressure_plate",
+							"minecraft:dark_oak_pressure_plate",
+							"minecraft:mangrove_pressure_plate",
+							"minecraft:cherry_pressure_plate",
+							"minecraft:pale_oak_pressure_plate",
+							"minecraft:bamboo_pressure_plate",
+							"minecraft:crimson_pressure_plate",
+							"minecraft:warped_pressure_plate"
+						],
 						"count": 64
 					}
 				]
@@ -661,8 +690,7 @@
 							"minecraft:dark_oak_chest_boat",
 							"minecraft:mangrove_chest_boat",
 							"minecraft:cherry_chest_boat",
-							"minecraft:pale_oak_chest_boat",
-							"minecraft:poplar_chest_boat"
+							"minecraft:pale_oak_chest_boat"
 						]
 					}
 				]
@@ -697,16 +725,7 @@
 							"minecraft:pale_oak_door",
 							"minecraft:bamboo_door",
 							"minecraft:crimson_door",
-							"minecraft:warped_door",
-							"minecraft:poplar_door",
-							"minecraft:copper_door",
-							"minecraft:exposed_copper_door",
-							"minecraft:weathered_copper_door",
-							"minecraft:oxidized_copper_door",
-							"minecraft:waxed_copper_door",
-							"minecraft:waxed_exposed_copper_door",
-							"minecraft:waxed_weathered_copper_door",
-							"minecraft:waxed_oxidized_copper_door"
+							"minecraft:warped_door"
 						],
 						"count": 64
 					}
@@ -731,7 +750,20 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#minecraft:fence_gates",
+						"items": [
+							"minecraft:oak_fence_gate",
+							"minecraft:spruce_fence_gate",
+							"minecraft:birch_fence_gate",
+							"minecraft:jungle_fence_gate",
+							"minecraft:acacia_fence_gate",
+							"minecraft:dark_oak_fence_gate",
+							"minecraft:mangrove_fence_gate",
+							"minecraft:cherry_fence_gate",
+							"minecraft:pale_oak_fence_gate",
+							"minecraft:bamboo_fence_gate",
+							"minecraft:crimson_fence_gate",
+							"minecraft:warped_fence_gate"
+						],
 						"count": 64
 					}
 				]
@@ -754,16 +786,7 @@
 							"minecraft:pale_oak_trapdoor",
 							"minecraft:bamboo_trapdoor",
 							"minecraft:crimson_trapdoor",
-							"minecraft:warped_trapdoor",
-							"minecraft:poplar_trapdoor",
-							"minecraft:copper_trapdoor",
-							"minecraft:exposed_copper_trapdoor",
-							"minecraft:weathered_copper_trapdoor",
-							"minecraft:oxidized_copper_trapdoor",
-							"minecraft:waxed_copper_trapdoor",
-							"minecraft:waxed_exposed_copper_trapdoor",
-							"minecraft:waxed_weathered_copper_trapdoor",
-							"minecraft:waxed_oxidized_copper_trapdoor"
+							"minecraft:warped_trapdoor"
 						],
 						"count": 64
 					}
@@ -949,7 +972,20 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "#minecraft:wooden_shelves",
+						"items": [
+							"minecraft:oak_shelf",
+							"minecraft:spruce_shelf",
+							"minecraft:birch_shelf",
+							"minecraft:jungle_shelf",
+							"minecraft:acacia_shelf",
+							"minecraft:dark_oak_shelf",
+							"minecraft:mangrove_shelf",
+							"minecraft:cherry_shelf",
+							"minecraft:pale_oak_shelf",
+							"minecraft:bamboo_shelf",
+							"minecraft:crimson_shelf",
+							"minecraft:warped_shelf"
+						],
 						"count": 64
 					}
 				]

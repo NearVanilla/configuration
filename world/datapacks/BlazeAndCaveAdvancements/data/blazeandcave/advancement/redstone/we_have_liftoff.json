@@ -16,13 +16,15 @@
 		"we_have_liftoff": {
 			"trigger": "minecraft:fall_after_explosion",
 			"conditions": {
-				"cause": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:tnt"
+				"cause": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tnt"
+						}
 					}
-				},
+				],
 				"distance": {
 					"y": {
 						"min": 100.0

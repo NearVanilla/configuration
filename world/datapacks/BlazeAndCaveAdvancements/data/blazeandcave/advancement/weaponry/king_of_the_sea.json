@@ -19,23 +19,19 @@
 				"killing_blow": {
 					"tags": [
 							{
-								"id": "#minecraft:is_projectile",
+								"id": "minecraft:is_projectile",
 								"expected": true
 							}
 						],
 					"direct_entity": {
-						"entity_type": "minecraft:trident"
+						"type": "minecraft:trident"
 					}
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:drowned",
-						"distance": {
-							"horizontal": {
-								"min": 30
-							}
+					"type": "minecraft:drowned",
+					"distance": {
+						"horizontal": {
+							"min": 30
 						}
 					}
 				}

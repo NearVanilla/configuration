@@ -17,13 +17,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/24_carrot_gold": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/24_carrot_gold": true
 						}
 					}
 				}
@@ -33,13 +30,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"minecraft:husbandry/balanced_diet": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:husbandry/balanced_diet": true
 						}
 					}
 				}
@@ -49,13 +43,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"minecraft:husbandry/plant_seed": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:husbandry/plant_seed": true
 						}
 					}
 				}
@@ -65,13 +56,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/an_amazing_story": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/an_amazing_story": true
 						}
 					}
 				}
@@ -81,13 +69,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/aquatic_biofuel": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/aquatic_biofuel": true
 						}
 					}
 				}
@@ -97,13 +82,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/bake_bread": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/bake_bread": true
 						}
 					}
 				}
@@ -113,13 +95,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/bapple": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/bapple": true
 						}
 					}
 				}
@@ -129,13 +108,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/berry_nice": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/berry_nice": true
 						}
 					}
 				}
@@ -145,13 +121,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/scientific_inaccuracy": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/scientific_inaccuracy": true
 						}
 					}
 				}
@@ -161,13 +134,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/care_for_the_environment": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/care_for_the_environment": true
 						}
 					}
 				}
@@ -177,13 +147,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/castaway": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/castaway": true
 						}
 					}
 				}
@@ -193,13 +160,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/die_potato": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/die_potato": true
 						}
 					}
 				}
@@ -209,13 +173,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/disen_berry_berry_bad": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/disen_berry_berry_bad": true
 						}
 					}
 				}
@@ -225,13 +186,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/olaf": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/olaf": true
 						}
 					}
 				}
@@ -241,13 +199,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/ecologist": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/ecologist": true
 						}
 					}
 				}
@@ -257,13 +212,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/full_stomach": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/full_stomach": true
 						}
 					}
 				}
@@ -273,13 +225,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/hay_there": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/hay_there": true
 						}
 					}
 				}
@@ -289,13 +238,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/im_gonna_be_sick": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/im_gonna_be_sick": true
 						}
 					}
 				}
@@ -305,13 +251,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/its_a_cactus": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/its_a_cactus": true
 						}
 					}
 				}
@@ -321,13 +264,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/its_full_of_ink": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/its_full_of_ink": true
 						}
 					}
 				}
@@ -337,13 +277,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/its_where_nutella_comes_from": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/its_where_nutella_comes_from": true
 						}
 					}
 				}
@@ -353,13 +290,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/kelp_me": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/kelp_me": true
 						}
 					}
 				}
@@ -369,13 +303,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/me_love_cookie": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/me_love_cookie": true
 						}
 					}
 				}
@@ -385,13 +316,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/meat_lovers": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/meat_lovers": true
 						}
 					}
 				}
@@ -401,13 +329,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/mega_mushroom": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/mega_mushroom": true
 						}
 					}
 				}
@@ -417,13 +342,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/mushroom_mushroom": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/mushroom_mushroom": true
 						}
 					}
 				}
@@ -433,13 +355,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/must_be_your_birthday": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/must_be_your_birthday": true
 						}
 					}
 				}
@@ -449,13 +368,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/naturally_carved": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/naturally_carved": true
 						}
 					}
 				}
@@ -465,13 +381,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/not_today": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/not_today": true
 						}
 					}
 				}
@@ -481,13 +394,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/pumpa_kungen": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/pumpa_kungen": true
 						}
 					}
 				}
@@ -497,13 +407,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/root": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/root": true
 						}
 					}
 				}
@@ -513,13 +420,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"minecraft:husbandry/break_diamond_hoe": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"minecraft:husbandry/break_diamond_hoe": true
 						}
 					}
 				}
@@ -529,13 +433,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/shrooms": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/shrooms": true
 						}
 					}
 				}
@@ -545,13 +446,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/souperman": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/souperman": true
 						}
 					}
 				}
@@ -561,13 +459,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/spikey": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/spikey": true
 						}
 					}
 				}
@@ -577,13 +472,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/sugar_sugar": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/sugar_sugar": true
 						}
 					}
 				}
@@ -593,13 +485,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/suspicious_looking_stew": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/suspicious_looking_stew": true
 						}
 					}
 				}
@@ -609,13 +498,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/the_garbage_will_do": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/the_garbage_will_do": true
 						}
 					}
 				}
@@ -625,13 +511,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/the_lie": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/the_lie": true
 						}
 					}
 				}
@@ -641,13 +524,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/the_melon_the_melon_the_melon": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/the_melon_the_melon_the_melon": true
 						}
 					}
 				}
@@ -657,13 +537,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/the_meloncholy_dane": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/the_meloncholy_dane": true
 						}
 					}
 				}
@@ -673,13 +550,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/the_pie": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/the_pie": true
 						}
 					}
 				}
@@ -689,13 +563,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/ultra_hardcore": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/ultra_hardcore": true
 						}
 					}
 				}
@@ -705,13 +576,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/undersea_gardener": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/undersea_gardener": true
 						}
 					}
 				}
@@ -721,13 +589,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/vegetarian": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/vegetarian": true
 						}
 					}
 				}
@@ -737,13 +602,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/write_your_thoughts": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/write_your_thoughts": true
 						}
 					}
 				}
@@ -753,13 +615,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/a_gluttonous_diet": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/a_gluttonous_diet": true
 						}
 					}
 				}
@@ -769,13 +628,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/natural_fertiliser": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/natural_fertiliser": true
 						}
 					}
 				}
@@ -785,13 +641,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/combine_harvester": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/combine_harvester": true
 						}
 					}
 				}
@@ -801,13 +654,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/whats_new_with_composting": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/whats_new_with_composting": true
 						}
 					}
 				}
@@ -817,13 +667,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/unmasked": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/unmasked": true
 						}
 					}
 				}
@@ -833,13 +680,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/trimming_the_treetops": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/trimming_the_treetops": true
 						}
 					}
 				}
@@ -849,13 +693,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/foliage": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/foliage": true
 						}
 					}
 				}
@@ -865,13 +706,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/yay_deadbush": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/yay_deadbush": true
 						}
 					}
 				}
@@ -881,13 +719,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/one_course_meal": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/one_course_meal": true
 						}
 					}
 				}
@@ -897,13 +732,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/an_apple_a_day": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/an_apple_a_day": true
 						}
 					}
 				}
@@ -913,13 +745,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/come_to_the_countryside": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/come_to_the_countryside": true
 						}
 					}
 				}
@@ -929,13 +758,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/squid_game": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/squid_game": true
 						}
 					}
 				}
@@ -945,13 +771,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/a_mangrove_grove": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/a_mangrove_grove": true
 						}
 					}
 				}
@@ -961,13 +784,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/hot_chocolate": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/hot_chocolate": true
 						}
 					}
 				}
@@ -977,13 +797,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/booshes": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/booshes": true
 						}
 					}
 				}
@@ -993,13 +810,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/you_cant_take_the_sky_from_me": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/you_cant_take_the_sky_from_me": true
 						}
 					}
 				}
@@ -1009,13 +823,10 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"blazeandcave:farming/certified_spud_chomper": true
-							}
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:farming/certified_spud_chomper": true
 						}
 					}
 				}

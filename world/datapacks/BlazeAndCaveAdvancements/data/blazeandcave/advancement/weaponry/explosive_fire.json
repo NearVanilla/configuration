@@ -23,13 +23,15 @@
 		"crossbow": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{Inventory:[{id:\"minecraft:crossbow\",components:{\"minecraft:charged_projectiles\":[{id:\"minecraft:firework_rocket\"}]}}]}"
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Inventory:[{id:\"minecraft:crossbow\",components:{\"minecraft:charged_projectiles\":[{id:\"minecraft:firework_rocket\"}]}}]}"
+						}
 					}
-				}
+				]
 			}
 		}
 	}

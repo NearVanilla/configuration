@@ -17,35 +17,27 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "minecraft:blaze",
-						"flags": {
-							"is_on_fire": true
-						}
+					"type": "blaze",
+					"flags": {
+						"is_on_fire": true
 					}
 				},
 				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:blaze_rod"
-								]
-							}
-						},
-						"flags": {
-							"is_on_fire": true
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:blaze_rod"
+							]
 						}
+					},
+					"flags": {
+						"is_on_fire": true
 					}
 				},
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "#blazeandcave:is_player_hit",
+							"id": "minecraft:is_player_attack",
 							"expected": true
 						}
 					]

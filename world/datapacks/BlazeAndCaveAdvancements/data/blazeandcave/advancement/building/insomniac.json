@@ -16,40 +16,39 @@
 		"trigger": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:entity_properties",
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type_specific": {
+								"type": "player",
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:time_since_rest",
+										"value": {
+											"min": 720000
+										}
+									}
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"minecraft:type_specific/player": {
-									"stats": [
-										{
-											"type": "minecraft:custom",
-											"stat": "minecraft:time_since_rest",
-											"value": {
-												"min": 720000
-											}
-										}
-									]
-								}
-							}
-						},
-						{
-							"type": "minecraft:inverted",
-							"term": {
-								"type": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"minecraft:type_specific/player": {
-										"gamemode": ["spectator"]
-									}
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
 								}
 							}
 						}
-					]
-				}
+					}
+				]
 			}
 		}
 	}
