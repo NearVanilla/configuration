@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/magma_cube",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/magma_cube",
+      "required": false
+    }
+  ]
+}

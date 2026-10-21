@@ -8,9 +8,9 @@
 					"type": "item",
 					"name": "minecraft:player_head",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "set_components",
+							"type": "set_components",
 							"components": {
 								"minecraft:note_block_sound": "minecraft:entity.sheep.shear",
 								"minecraft:profile": {
@@ -27,40 +27,43 @@
 					]
 				}
 			],
-			"conditions": [
-				{
-					"condition": "killed_by_player"
-				},
-				{
-					"condition": "any_of",
-					"terms": [
-						{
-							"condition": "entity_properties",
-							"predicate": {
-								"nbt": "{CustomName:\"{\\\"text\\\":\\\"jeb_\\\"}\"}"
+			"condition": {
+				"type": "minecraft:all_of",
+				"terms": [
+					{
+						"type": "killed_by_player"
+					},
+					{
+						"type": "any_of",
+						"terms": [
+							{
+								"type": "entity_properties",
+								"predicate": {
+									"nbt": "{CustomName:\"{\\\"text\\\":\\\"jeb_\\\"}\"}"
+								},
+								"entity": "this"
 							},
-							"entity": "this"
-						},
-						{
-							"condition": "entity_properties",
-							"predicate": {
-								"nbt": "{CustomName:\"\\\"jeb_\\\"\"}"
-							},
-							"entity": "this"
+							{
+								"type": "entity_properties",
+								"predicate": {
+									"nbt": "{CustomName:\"\\\"jeb_\\\"\"}"
+								},
+								"entity": "this"
+							}
+						]
+					},
+					{
+						"type": "random_chance_with_enchanted_bonus",
+						"enchantment": "minecraft:looting",
+						"unenchanted_chance": 0.1,
+						"enchanted_chance": {
+							"type": "minecraft:linear",
+							"base": 0.15,
+							"per_level_above_first": 0.05
 						}
-					]
-				},
-				{
-					"condition": "random_chance_with_enchanted_bonus",
-					"enchantment": "minecraft:looting",
-					"unenchanted_chance": 0.1,
-					"enchanted_chance": {
-						"type": "minecraft:linear",
-						"base": 0.15,
-						"per_level_above_first": 0.05
 					}
-				}
-			]
+				]
+			}
 		}
 	]
 }

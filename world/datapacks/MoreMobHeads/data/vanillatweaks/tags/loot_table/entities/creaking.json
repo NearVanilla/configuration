@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/creaking",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/creaking",
+      "required": false
+    }
+  ]
+}

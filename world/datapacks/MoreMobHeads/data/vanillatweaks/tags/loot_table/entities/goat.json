@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/goat",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/goat",
+      "required": false
+    }
+  ]
+}

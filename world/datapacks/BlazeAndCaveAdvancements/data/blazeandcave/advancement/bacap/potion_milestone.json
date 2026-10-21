@@ -22,10 +22,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:nether/all_potions": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:nether/all_potions": true
+							}
 						}
 					}
 				}
@@ -35,10 +38,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/a_furious_test_subject": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/a_furious_test_subject": true
+							}
 						}
 					}
 				}
@@ -48,10 +54,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/a_much_more_doable_challenge": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/a_much_more_doable_challenge": true
+							}
 						}
 					}
 				}
@@ -61,10 +70,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/a_weak_brew": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/a_weak_brew": true
+							}
 						}
 					}
 				}
@@ -74,10 +86,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/death_by_magic": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/death_by_magic": true
+							}
 						}
 					}
 				}
@@ -87,10 +102,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/furious_ammunition": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/furious_ammunition": true
+							}
 						}
 					}
 				}
@@ -100,10 +118,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/gas": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/gas": true
+							}
 						}
 					}
 				}
@@ -113,10 +134,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/hopping_mad": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/hopping_mad": true
+							}
 						}
 					}
 				}
@@ -126,10 +150,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/hyper_healing": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/hyper_healing": true
+							}
 						}
 					}
 				}
@@ -139,10 +166,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/medic": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/medic": true
+							}
 						}
 					}
 				}
@@ -152,10 +182,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/mad_scientist": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/mad_scientist": true
+							}
 						}
 					}
 				}
@@ -165,10 +198,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/marine_marauder": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/marine_marauder": true
+							}
 						}
 					}
 				}
@@ -178,10 +214,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/nocturnal": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/nocturnal": true
+							}
 						}
 					}
 				}
@@ -191,10 +230,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/noxious_fumes": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/noxious_fumes": true
+							}
 						}
 					}
 				}
@@ -204,10 +246,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/performance_enhancing_drugs": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/performance_enhancing_drugs": true
+							}
 						}
 					}
 				}
@@ -217,10 +262,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/root": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/root": true
+							}
 						}
 					}
 				}
@@ -230,10 +278,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/stayin_frosty": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/stayin_frosty": true
+							}
 						}
 					}
 				}
@@ -243,10 +294,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/super_strength": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/super_strength": true
+							}
 						}
 					}
 				}
@@ -256,10 +310,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/tank": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/tank": true
+							}
 						}
 					}
 				}
@@ -269,10 +326,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/the_invisible_player": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/the_invisible_player": true
+							}
 						}
 					}
 				}
@@ -282,10 +342,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/true_feather_falling": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/true_feather_falling": true
+							}
 						}
 					}
 				}
@@ -295,10 +358,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:end/dragon_breath": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:end/dragon_breath": true
+							}
 						}
 					}
 				}
@@ -308,10 +374,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:story/cure_zombie_villager": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:story/cure_zombie_villager": true
+							}
 						}
 					}
 				}
@@ -321,10 +390,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/failed_concoctions": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/failed_concoctions": true
+							}
 						}
 					}
 				}
@@ -334,10 +406,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/gas_bomb": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/gas_bomb": true
+							}
 						}
 					}
 				}
@@ -347,10 +422,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/stealth_takedown": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/stealth_takedown": true
+							}
 						}
 					}
 				}
@@ -360,10 +438,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/imbued_projectiles": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/imbued_projectiles": true
+							}
 						}
 					}
 				}
@@ -373,10 +454,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/secret_of_the_ooze": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/secret_of_the_ooze": true
+							}
 						}
 					}
 				}
@@ -386,10 +470,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/final_shout": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/final_shout": true
+							}
 						}
 					}
 				}
@@ -399,10 +486,29 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:potion/string_shot": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/string_shot": true
+							}
+						}
+					}
+				}
+			}
+		},
+		"water_balloon": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:potion/water_balloon": true
+							}
 						}
 					}
 				}

@@ -6,7 +6,6 @@
 		"title": {"translate":"Particle Fan"},
 		"description": {"color":"green","translate":"Obtain a Spore Blossom"},
 		"announce_to_chat": true
-
 	},
 	"parent": "blazeandcave:mining/a_shiny_treat",
 	"rewards": {

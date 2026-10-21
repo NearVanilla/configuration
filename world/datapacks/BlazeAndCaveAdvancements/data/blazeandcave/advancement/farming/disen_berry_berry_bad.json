@@ -6,7 +6,6 @@
 		"title": {"translate":"Disen Berry Berry Bad!"},
 		"description": {"color":"green","translate":"Get stuck in a sweet berry bush. Oh, icky yucky goo!"},
 		"announce_to_chat": true
-
 	},
 	"parent": "blazeandcave:farming/berry_nice",
 	"rewards": {
@@ -16,7 +15,7 @@
 		"age1": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"block": "minecraft:sweet_berry_bush",
+				"blocks": "minecraft:sweet_berry_bush",
 				"state": {
 					"age": "1"
 				}
@@ -25,7 +24,7 @@
 		"age2": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"block": "minecraft:sweet_berry_bush",
+				"blocks": "minecraft:sweet_berry_bush",
 				"state": {
 					"age": "2"
 				}
@@ -34,7 +33,7 @@
 		"age3": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"block": "minecraft:sweet_berry_bush",
+				"blocks": "minecraft:sweet_berry_bush",
 				"state": {
 					"age": "3"
 				}
@@ -43,9 +42,9 @@
 	},
 	"requirements": [
 		[
-		"age1",
-		"age2",
-		"age3"
+			"age1",
+			"age2",
+			"age3"
 		]
 	]
 }

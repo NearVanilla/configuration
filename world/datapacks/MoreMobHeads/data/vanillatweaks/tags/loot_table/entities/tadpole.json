@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/tadpole",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/tadpole",
+      "required": false
+    }
+  ]
+}

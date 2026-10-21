@@ -15,8 +15,7 @@
 		"bowl": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:bowl"
 					]
@@ -26,8 +25,7 @@
 		"leather": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:leather"
 					]
@@ -37,8 +35,7 @@
 		"leather_boots": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:leather_boots"
 					]
@@ -48,8 +45,7 @@
 		"rotten_flesh": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:rotten_flesh"
 					]
@@ -59,8 +55,7 @@
 		"stick": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:stick"
 					]
@@ -70,8 +65,7 @@
 		"string": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:string"
 					]
@@ -81,8 +75,7 @@
 		"potion": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:potion"
 					]
@@ -92,8 +85,7 @@
 		"bone": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:bone"
 					]
@@ -103,8 +95,7 @@
 		"ink_sac": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:ink_sac"
 					]
@@ -114,8 +105,7 @@
 		"tripwire_hook": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:tripwire_hook"
 					]
@@ -125,8 +115,7 @@
 		"bamboo": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:bamboo"
 					]
@@ -136,8 +125,7 @@
 		"lily_pad": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:lily_pad"
 					]

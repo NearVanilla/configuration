@@ -16,7 +16,7 @@
 		"ancient_city_ice_box": {
 			"trigger": "minecraft:player_generates_container_loot",
 			"conditions": {
-				"loot_table": "minecraft:chests/ancient_city_ice_box"
+				"loot_tables": "minecraft:chests/ancient_city_ice_box"
 			}
 		}
 	}		

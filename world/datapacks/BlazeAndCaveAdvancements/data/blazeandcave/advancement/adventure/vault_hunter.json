@@ -4,7 +4,7 @@
 			"id": "minecraft:vault"
 		},
 		"title": {"translate":"Vault Hunter"},
-		"description": {"color":"#75E1FF","translate":"Unlock 25 Vaults across Trial Chambers"},
+		"description": {"color":"#75E1FF","translate":"Unlock 25 Vaults across Trial Chambers","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_progress"}]},
 		"announce_to_chat": true,
 		"frame": "goal"
 	},

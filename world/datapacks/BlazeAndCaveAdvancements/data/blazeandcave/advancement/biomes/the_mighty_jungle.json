@@ -7,7 +7,7 @@
 		"description": {"color":"green","translate":"Go for a safari in the jungle"},
 		"announce_to_chat": true
 	},
-	"parent": "blazeandcave:biomes/for_you_my_sweet",	
+	"parent": "blazeandcave:biomes/tarzan",
 	"rewards": {
 		"function": "bacap_rewards:biomes/the_mighty_jungle"
 	},	
@@ -15,34 +15,36 @@
 		"jungle": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"location": {
-								"biomes": [
-									"minecraft:jungle",
-									"minecraft:sparse_jungle",
-									"minecraft:bamboo_jungle"
-								]
-							}
-						}
-					},
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"type_specific": {
-									"type": "player",
-									"gamemode": ["spectator"]
+								"location": {
+									"biomes": [
+										"minecraft:jungle",
+										"minecraft:sparse_jungle",
+										"minecraft:bamboo_jungle"
+									]
+								}
+							}
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:type_specific/player": {
+										"gamemode": ["spectator"]
+									}
 								}
 							}
 						}
-					}
-				]
+					]
+				}
 			}
 		}
 	}

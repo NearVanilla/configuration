@@ -1,22 +1,20 @@
 {
 	"rewards": {
-		"function": "blazeandcave:on_a_rail_start"
+		"function": "blazeandcave:advancement/check/on_a_rail_start"
 	},
 	"criteria": {
 		"enter_minecart": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"vehicle": {
-								"type": "minecraft:minecart"
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"player": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"vehicle": {
+							"entity_type": "minecraft:minecart"
+						}
+					},
+					"entity": "this"
+				}
 			}
 		}
 	}

@@ -15,18 +15,16 @@
 		"soul_campfire": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:soul_campfire"
-								]
-							}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:soul_campfire"
+							]
 						}
 					}
-				]
+				}
 			}
 		}
 	}

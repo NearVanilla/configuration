@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/ghast",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/ghast",
+      "required": false
+    }
+  ]
+}

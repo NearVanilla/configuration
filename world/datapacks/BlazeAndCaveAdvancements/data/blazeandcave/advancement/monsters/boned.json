@@ -15,13 +15,13 @@
 		"bone_meal": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "minecraft:bone_meal"
+				"recipes": "minecraft:bone_meal"
 			}
 		},
 		"bone_meal_from_bone_block": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "minecraft:bone_meal_from_bone_block"
+				"recipes": "minecraft:bone_meal_from_bone_block"
 			}
 		}
 	},

@@ -16,19 +16,17 @@
 		"cocoa": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:cocoa"
-								]
-							},
-							"dimension": "minecraft:the_nether"
-						}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:cocoa"
+							]
+						},
+						"dimension": "minecraft:the_nether"
 					}
-				]
+				}
 			}
 		}
 	}

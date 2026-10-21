@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/polar_bear",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/polar_bear",
+      "required": false
+    }
+  ]
+}

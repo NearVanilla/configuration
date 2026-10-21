@@ -7,7 +7,7 @@
 		"description": {"color":"green","translate":"Find a mineshaft on the surface of a mesa biome"},
 		"announce_to_chat": true
 	},
-	"parent": "blazeandcave:mining/this_is_mine_now",
+	"parent": "blazeandcave:mining/steals_on_wheels",
 	"rewards": {
 		"function": "bacap_rewards:mining/gold_mine"
 	},		
@@ -15,30 +15,32 @@
 		"mineshaft_mesa": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"location": {
-								"structures": "mineshaft_mesa"
-							}
-						}
-					},
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"type_specific": {
-									"type": "player",
-									"gamemode": ["spectator"]
+								"location": {
+									"structures": "mineshaft_mesa"
+								}
+							}
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:type_specific/player": {
+										"gamemode": ["spectator"]
+									}
 								}
 							}
 						}
-					}
-				]
+					]
+				}
 			}
 		}
 	}	

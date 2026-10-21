@@ -15,15 +15,13 @@
 		"brush_armadillo": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:armadillo"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:armadillo"
 					}
-				],
+				},
 				"item": {
 					"items": "minecraft:brush"
 				}

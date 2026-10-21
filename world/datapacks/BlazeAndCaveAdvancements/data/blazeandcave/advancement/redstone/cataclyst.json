@@ -17,7 +17,11 @@
 			"trigger": "minecraft:kill_mob_near_sculk_catalyst",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:wither"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:wither"
+					}
 				}
 			}
 		}

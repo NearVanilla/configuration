@@ -17,14 +17,18 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"type": "villager",
-					"location": {
-						"position": {
-							"y": {
-								"min": 319
-							}
-						},
-						"dimension": "minecraft:overworld"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "villager",
+						"location": {
+							"position": {
+								"y": {
+									"min": 319
+								}
+							},
+							"dimension": "minecraft:overworld"
+						}
 					}
 				}
 			}
@@ -33,14 +37,18 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"type": "villager",
-					"location": {
-						"position": {
-							"y": {
-								"min": 255
-							}
-						},
-						"dimension": "minecraft:the_nether"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "villager",
+						"location": {
+							"position": {
+								"y": {
+									"min": 255
+								}
+							},
+							"dimension": "minecraft:the_nether"
+						}
 					}
 				}
 			}
@@ -49,14 +57,18 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"type": "villager",
-					"location": {
-						"position": {
-							"y": {
-								"min": 255
-							}
-						},
-						"dimension": "minecraft:the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "villager",
+						"location": {
+							"position": {
+								"y": {
+									"min": 255
+								}
+							},
+							"dimension": "minecraft:the_end"
+						}
 					}
 				}
 			}

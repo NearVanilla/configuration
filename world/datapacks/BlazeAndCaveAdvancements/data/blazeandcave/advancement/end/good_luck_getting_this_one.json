@@ -19,36 +19,56 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:turtle",
-						"flags": {
-							"is_baby": true
-						},
-						"location": {
-							"dimension": "the_end"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:turtle",
+							"flags": {
+								"is_baby": true
+							},
+							"location": {
+								"dimension": "the_end"
+							}
 						}
 					},
 					{
-						"type": "minecraft:witch",
-						"location": {
-							"dimension": "the_end"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:witch",
+							"location": {
+								"dimension": "the_end"
+							}
 						}
 					},
 					{
-						"type": "minecraft:phantom",
-						"location": {
-							"dimension": "the_end"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:phantom",
+							"location": {
+								"dimension": "the_end"
+							}
 						}
 					},
 					{
-						"type": "minecraft:elder_guardian",
-						"location": {
-							"dimension": "the_end"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:elder_guardian",
+							"location": {
+								"dimension": "the_end"
+							}
 						}
 					},
 					{
-						"type": "minecraft:piglin_brute",
-						"location": {
-							"dimension": "the_end"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:piglin_brute",
+							"location": {
+								"dimension": "the_end"
+							}
 						}
 					}
 				],

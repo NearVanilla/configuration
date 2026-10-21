@@ -15,15 +15,13 @@
 		"place_dried_ghast_in_water": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"block": "minecraft:dried_ghast",
-						"condition": "minecraft:block_state_property",
-						"properties": {
-							"waterlogged": "true"
-						}
+				"location": {
+					"type": "minecraft:match_block",
+					"blocks": "minecraft:dried_ghast",
+					"state": {
+						"waterlogged": "true"
 					}
-				]
+				}
 			}
 		}
 	}

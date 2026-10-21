@@ -31,7 +31,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#blazeandcave:is_player_hit",
 								"expected": true
 							}
 						]

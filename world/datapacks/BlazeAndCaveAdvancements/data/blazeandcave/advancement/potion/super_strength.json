@@ -15,19 +15,25 @@
 		"strength": {
 			"trigger": "minecraft:brewed_potion",
 			"conditions": {
-				"potion": "minecraft:strength"
+				"potion": {
+					"potions": "minecraft:strength"
+				}
 			}
 		},
 		"long_strength": {
 			"trigger": "minecraft:brewed_potion",
 			"conditions": {
-				"potion": "minecraft:long_strength"
+				"potion": {
+					"potions": "minecraft:long_strength"
+				}
 			}
 		},
 		"strong_strength": {
 			"trigger": "minecraft:brewed_potion",
 			"conditions": {
-				"potion": "minecraft:strong_strength"
+				"potion": {
+					"potions": "minecraft:strong_strength"
+				}
 			}
 		}
 	},

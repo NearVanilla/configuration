@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/squid",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/squid",
+      "required": false
+    }
+  ]
+}

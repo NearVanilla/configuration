@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/shulker",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/shulker",
+      "required": false
+    }
+  ]
+}

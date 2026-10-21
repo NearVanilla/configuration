@@ -23,7 +23,7 @@
 			"conditions": {
 				"killing_blow": {
 					"direct_entity": {
-						"type": "minecraft:firework_rocket"
+						"entity_type": "minecraft:firework_rocket"
 					}
 				}
 			}

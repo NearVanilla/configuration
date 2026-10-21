@@ -19,15 +19,13 @@
 		"blue": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:wolf"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:wolf"
 					}
-				],
+				},
 				"item": {
 					"items": "minecraft:wolf_armor",
 					"components": {
@@ -39,15 +37,13 @@
 		"red": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:wolf"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:wolf"
 					}
-				],
+				},
 				"item": {
 					"items": "minecraft:wolf_armor",
 					"components": {
@@ -59,15 +55,13 @@
 		"yellow": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:wolf"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:wolf"
 					}
-				],
+				},
 				"item": {
 					"items": "minecraft:wolf_armor",
 					"components": {
@@ -79,15 +73,13 @@
 		"lime": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:wolf"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:wolf"
 					}
-				],
+				},
 				"item": {
 					"items": "minecraft:wolf_armor",
 					"components": {
@@ -99,15 +91,13 @@
 		"pink": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:wolf"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:wolf"
 					}
-				],
+				},
 				"item": {
 					"items": "minecraft:wolf_armor",
 					"components": {
@@ -119,15 +109,13 @@
 		"orange": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:wolf"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:wolf"
 					}
-				],
+				},
 				"item": {
 					"items": "minecraft:wolf_armor",
 					"components": {

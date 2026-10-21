@@ -2,22 +2,15 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1,
+      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "value": "vanilla:entities/sheep/orange"
+          "type": "minecraft:item",
+          "name": "minecraft:orange_wool"
         }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "more_mob_heads:entities/sheep/orange"
-        }
-      ]
+      ],
+      "rolls": 1
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/sheep/orange"
 }

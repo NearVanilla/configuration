@@ -29,7 +29,7 @@
 				"damage": {
 					"blocked": true,
 					"source_entity": {
-						"type": "ghast"
+						"entity_type": "ghast"
 					}
 				}
 			}

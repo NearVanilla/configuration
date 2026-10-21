@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/vindicator",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/vindicator",
+      "required": false
+    }
+  ]
+}

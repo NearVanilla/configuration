@@ -1,4 +1,5 @@
 scoreboard players set milestone bac_settings 1
+scoreboard players set advancement_legend bac_settings 1
 
 execute in the_end run gamerule show_advancement_messages false
 execute in overworld run gamerule show_advancement_messages false 

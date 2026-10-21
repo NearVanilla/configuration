@@ -6,28 +6,31 @@
 			"entries": [
 				{
 					"type": "minecraft:alternatives",
-					"conditions": [
-						{
-							"condition": "killed_by_player"
-						},
-						{
-							"condition": "random_chance_with_enchanted_bonus",
-							"enchantment": "minecraft:looting",
-							"unenchanted_chance": 0.27,
-							"enchanted_chance": {
-								"type": "minecraft:linear",
-								"base": 0.274,
-								"per_level_above_first": 0.004
+					"condition": {
+						"type": "minecraft:all_of",
+						"terms": [
+							{
+								"type": "killed_by_player"
+							},
+							{
+								"type": "random_chance_with_enchanted_bonus",
+								"enchantment": "minecraft:looting",
+								"unenchanted_chance": 0.27,
+								"enchanted_chance": {
+									"type": "minecraft:linear",
+									"base": 0.274,
+									"per_level_above_first": 0.004
+								}
 							}
-						}
-					],
+						]
+					},
 					"children": [
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.panda.aggressive_ambient",
 										"minecraft:profile": {
@@ -38,26 +41,29 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Aggressive Panda Head\""
+										"minecraft:item_name": "Aggressive Panda Head"
 									}
 								}
 							],
-							"conditions": [
-								{
-									"condition": "entity_properties",
-									"predicate": {
-										"nbt": "{MainGene:\"aggressive\"}"
-									},
-									"entity": "this"
-								}
-							]
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "entity_properties",
+										"predicate": {
+											"nbt": "{MainGene:\"aggressive\"}"
+										},
+										"entity": "this"
+									}
+								]
+							}
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.panda.ambient",
 										"minecraft:profile": {
@@ -68,26 +74,29 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Lazy Panda Head\""
+										"minecraft:item_name": "Lazy Panda Head"
 									}
 								}
 							],
-							"conditions": [
-								{
-									"condition": "entity_properties",
-									"predicate": {
-										"nbt": "{MainGene:\"lazy\"}"
-									},
-									"entity": "this"
-								}
-							]
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "entity_properties",
+										"predicate": {
+											"nbt": "{MainGene:\"lazy\"}"
+										},
+										"entity": "this"
+									}
+								]
+							}
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.panda.ambient",
 										"minecraft:profile": {
@@ -98,26 +107,29 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Playful Panda Head\""
+										"minecraft:item_name": "Playful Panda Head"
 									}
 								}
 							],
-							"conditions": [
-								{
-									"condition": "entity_properties",
-									"predicate": {
-										"nbt": "{MainGene:\"playful\"}"
-									},
-									"entity": "this"
-								}
-							]
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "entity_properties",
+										"predicate": {
+											"nbt": "{MainGene:\"playful\"}"
+										},
+										"entity": "this"
+									}
+								]
+							}
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.panda.worried_ambient",
 										"minecraft:profile": {
@@ -128,26 +140,29 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Worried Panda Head\""
+										"minecraft:item_name": "Worried Panda Head"
 									}
 								}
 							],
-							"conditions": [
-								{
-									"condition": "entity_properties",
-									"predicate": {
-										"nbt": "{MainGene:\"worried\"}"
-									},
-									"entity": "this"
-								}
-							]
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "entity_properties",
+										"predicate": {
+											"nbt": "{MainGene:\"worried\"}"
+										},
+										"entity": "this"
+									}
+								]
+							}
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.panda.ambient",
 										"minecraft:profile": {
@@ -158,26 +173,29 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Brown Panda Head\""
+										"minecraft:item_name": "Brown Panda Head"
 									}
 								}
 							],
-							"conditions": [
-								{
-									"condition": "entity_properties",
-									"predicate": {
-										"nbt": "{MainGene:\"brown\",HiddenGene:\"brown\"}"
-									},
-									"entity": "this"
-								}
-							]
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "entity_properties",
+										"predicate": {
+											"nbt": "{MainGene:\"brown\",HiddenGene:\"brown\"}"
+										},
+										"entity": "this"
+									}
+								]
+							}
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.panda.sneeze",
 										"minecraft:profile": {
@@ -188,26 +206,29 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Weak Panda Head\""
+										"minecraft:item_name": "Weak Panda Head"
 									}
 								}
 							],
-							"conditions": [
-								{
-									"condition": "entity_properties",
-									"predicate": {
-										"nbt": "{MainGene:\"weak\",HiddenGene:\"weak\"}"
-									},
-									"entity": "this"
-								}
-							]
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "entity_properties",
+										"predicate": {
+											"nbt": "{MainGene:\"weak\",HiddenGene:\"weak\"}"
+										},
+										"entity": "this"
+									}
+								]
+							}
 						},
 						{
 							"type": "item",
 							"name": "minecraft:player_head",
-							"functions": [
+							"modifier": [
 								{
-									"function": "set_components",
+									"type": "set_components",
 									"components": {
 										"minecraft:note_block_sound": "minecraft:entity.panda.ambient",
 										"minecraft:profile": {
@@ -218,7 +239,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Panda Head\""
+										"minecraft:item_name": "Panda Head"
 									}
 								}
 							]

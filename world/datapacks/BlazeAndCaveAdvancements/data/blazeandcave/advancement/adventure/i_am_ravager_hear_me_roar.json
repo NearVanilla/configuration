@@ -55,7 +55,7 @@
 				"damage": {
 					"blocked": true,
 					"source_entity": {
-						"type": "ravager"
+						"entity_type": "ravager"
 					}
 				}
 			}
