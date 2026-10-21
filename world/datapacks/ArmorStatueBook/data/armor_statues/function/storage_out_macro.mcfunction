@@ -4,5 +4,5 @@
 #   hand: "mainhand"    # offhand or mainhand
 # }
 
-$item modify entity @s weapon.$(hand) {"function": "set_components", "components": $(components)}
-$item modify entity @s weapon.$(hand) {"function": "set_count", "count": $(count)}
+$item modify entity @s weapon.$(hand) {type:"set_components",components:$(components)}
+$item modify entity @s weapon.$(hand) {type:"set_count",count:$(count)}
