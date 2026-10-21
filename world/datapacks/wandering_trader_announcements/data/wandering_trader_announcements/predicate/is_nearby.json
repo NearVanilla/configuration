@@ -1,1 +1,1 @@
-{"condition":"minecraft:entity_properties","entity":"this","predicate":{"distance":{"horizontal":{"max":64}}}}
+{"type":"minecraft:entity_properties","entity":"this","predicate":{"distance":{"horizontal":{"max":64}}}}
