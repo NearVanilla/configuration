@@ -16,7 +16,7 @@ feature-seeds:
     minecraft:bamboo_vegetation: -184379057385{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:basalt_blobs: -12490747509{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:basalt_pillar: 47799208617{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:berry_bush: -4204581576727286085
+    minecraft:berry_bush: -420458157672{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:birch: -507833929394{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:birch_bees_0002: 321137863589{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:birch_bees_0002_leaf_litter: 169269958884{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
@@ -27,9 +27,9 @@ feature-seeds:
     minecraft:blackstone_blobs: 482262152028{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:blue_ice: -370552958885{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:bonus_chest: 602035297474{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:brown_mushroom: -4717838033926954843
-    minecraft:bush: -2917359108729200485
-    minecraft:cactus: -1979631933930995419
+    minecraft:brown_mushroom: -471783803392{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:bush: -291735910872{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:cactus: -197963193393{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:cave_vine: 310838415921{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:cave_vine_in_moss: -302709517389{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:cherry: -397341298651{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
@@ -37,20 +37,20 @@ feature-seeds:
     minecraft:chorus_plant: 394385348229{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:clay_pool_with_dripleaves: -776278432442{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:clay_with_dripleaves: -822751668228{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:coral/block_decoration: -2650632633804053618
-    minecraft:coral/brain_block: 2249794931288283625
-    minecraft:coral/bubble_block: -4308618292561528122
-    minecraft:coral/fire_block: -202771294401425223
-    minecraft:coral/horn_block: 2986893598857666897
-    minecraft:coral/tube_block: 5702035670458354050
+    minecraft:coral/block_decoration: -265063263380{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:coral/brain_block: 224979493128{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:coral/bubble_block: -430861829256{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:coral/fire_block: -20277129440{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:coral/horn_block: 298689359885{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:coral/tube_block: 570203567045{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:crimson_forest_vegetation: -883292641298{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:crimson_fungus: 474224476165{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:crimson_fungus_planted: 909831575203{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:crimson_roots: -6477231215416275773
+    minecraft:crimson_roots: -647723121541{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:dark_forest_vegetation: -61517524719{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:dark_oak: -811828397580{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:dark_oak_leaf_litter: 413357740115{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:dead_bush: 3693972790185524411
+    minecraft:dead_bush: 369397279018{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:delta: 845925657574{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:desert_well: -11367925074{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:disk_clay: 476375488420{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
@@ -59,18 +59,18 @@ feature-seeds:
     minecraft:disk_sand: 217326916385{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:dripleaf: -620636439084{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:dripstone_cluster: 916255551860{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:dry_grass: 3654889124001667043
+    minecraft:dry_grass: 365488912400{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:end_gateway_delayed: 393150785232{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:end_gateway_return: 45876187705{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:end_island: -268854090414{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:end_platform: 180626357188{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:end_podium_active: 1303460664020401823
-    minecraft:end_podium_inactive: -3976915738971152587
+    minecraft:end_podium_active: 130346066402{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:end_podium_inactive: -397691573897{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:end_spike: 915672881098{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:fallen_birch_tree: 609915111552{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:fallen_jungle_tree: 257182568048{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:fallen_oak_tree: 799060816072{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:fallen_poplar_tree: 6934773002714397251
+    minecraft:fallen_poplar_tree: 693477300271{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:fallen_spruce_tree: 820599143856{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:fallen_super_birch_tree: 560818897976{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:fancy_oak: 456072034171{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
@@ -79,7 +79,7 @@ feature-seeds:
     minecraft:fancy_oak_bees_002: 142038452180{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:fancy_oak_bees_005: -522843228691{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:fancy_oak_leaf_litter: 942245807059{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:firefly_bush: 560743649834350515
+    minecraft:firefly_bush: 56074364983{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:flower_cherry: -845077101333{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:flower_default: 293688705576{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:flower_flower_forest: 562469033859{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
@@ -94,8 +94,8 @@ feature-seeds:
     minecraft:freeze_top_layer: -63716322909{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:glow_lichen: 727272551276{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:glowstone_extra: -25008020920{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:grass: -7605136708695113219
-    minecraft:grass_jungle: 8388920860175551077
+    minecraft:grass: -760513670869{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:grass_jungle: 838892086017{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:huge_brown_mushroom: -608376225080{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:huge_red_mushroom: 509626048291{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:ice_patch: -163303085628{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
@@ -109,8 +109,8 @@ feature-seeds:
     minecraft:lake_lava: -520741396055{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:large_basalt_columns: 224051366271{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:large_dripstone: -235221847006{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:large_fern: -3749386195841219493
-    minecraft:leaf_litter: 4352482993095407427
+    minecraft:large_fern: -374938619584{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:leaf_litter: 435248299309{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:lush_caves_clay: 695454944483{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:mangrove: -772759612002{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:mangrove_vegetation: 443855299769{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
@@ -118,7 +118,7 @@ feature-seeds:
     minecraft:mega_jungle_tree: -353603383770{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:mega_pine: -787112156799{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:mega_spruce: 816371449001{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:melon: 2747376475047148107
+    minecraft:melon: 274737647504{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:monster_room: 512248326334{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:moss_patch: -96129679242{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:moss_patch_bonemeal: -819600398030{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
@@ -126,14 +126,14 @@ feature-seeds:
     minecraft:moss_vegetation: -883138708835{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:mushroom_island_vegetation: -565597488149{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:nether_sprouts: 440501896812{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:nylium_bonemeal: 8466693838800720190
+    minecraft:nylium_bonemeal: 846669383880{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:oak: 139396849178{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:oak_bees_0002_leaf_litter: -462463547021{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:oak_bees_002: -277554656264{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:oak_bees_005: -547458210914{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:oak_leaf_litter: 662452856943{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:orange_poplar: -4098838063412189970
-    minecraft:orange_poplar_leaf_litter: 6133659132930785572
+    minecraft:orange_poplar: -409883806341{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:orange_poplar_leaf_litter: 613365913293{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:ore_ancient_debris_large: -277812249574{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:ore_ancient_debris_small: 91175095541{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:ore_andesite: 840476724871{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
@@ -166,7 +166,7 @@ feature-seeds:
     minecraft:ore_redstone: 685952190894{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:ore_soul_sand: 797157726292{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:ore_tuff: 804847555202{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:pale_forest_flower: -5797678154949024669
+    minecraft:pale_forest_flower: -579767815494{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:pale_garden_vegetation: 821255868130{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:pale_moss_patch: -39132967668{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:pale_moss_patch_bonemeal: -362671014438{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
@@ -183,13 +183,13 @@ feature-seeds:
     minecraft:pile_snow: -438724135426{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:pine: 774787936476{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:pointed_dripstone: 229178758717{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:pumpkin: 6417833272181451323
-    minecraft:red_mushroom: -1825920234788056893
-    minecraft:red_poplar: -6745709127977295844
-    minecraft:red_poplar_leaf_litter: 6438678377493127276
-    minecraft:red_shrub: -711861881116383797
+    minecraft:pumpkin: 641783327218{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:red_mushroom: -182592023478{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:red_poplar: -674570912797{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:red_poplar_leaf_litter: 643867837749{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:red_shrub: -71186188111{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:rooted_azalea_tree: -644089371731{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:rooted_sulfur_spring: 4092813048946494408
+    minecraft:rooted_sulfur_spring: 409281304894{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:sculk_patch_ancient_city: 57215080366{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:sculk_patch_deep_dark: -749866490715{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:sculk_vein: -440063633544{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
@@ -207,22 +207,22 @@ feature-seeds:
     minecraft:spring_nether_open: -791972725375{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:spring_water: 725874627265{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:spruce: 814389025783{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:sugar_cane: 5814050243531385829
-    minecraft:sulfur_pool: 7117007997661351518
-    minecraft:sulfur_spike: 5180787393161752848
-    minecraft:sulfur_spike_cluster: 4287875097521567723
-    minecraft:sulfur_spring: 3537236998035019773
-    minecraft:sunflower: 5133093956455778389
+    minecraft:sugar_cane: 581405024353{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:sulfur_pool: 711700799766{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:sulfur_spike: 518078739316{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:sulfur_spike_cluster: 428787509752{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:sulfur_spring: 353723699803{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:sunflower: 513309395645{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:super_birch_bees: -793774610009{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:super_birch_bees_0002: -524073990792{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:swamp_oak: 231561542552{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:taiga_grass: 8817321015147706789
-    minecraft:tall_grass: -2003244440694199965
+    minecraft:taiga_grass: 881732101514{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:tall_grass: -200324444069{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:tall_mangrove: 157455583185{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:trees_badlands: 819383238833{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:trees_birch: 425259831649{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:trees_birch_and_oak_leaf_litter: -25019868324{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:trees_dappled_forest: 7291330514887391796
+    minecraft:trees_dappled_forest: 729133051488{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:trees_flower_forest: -638815455468{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:trees_grove: 265388743447{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:trees_jungle: -523109597649{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
@@ -243,10 +243,10 @@ feature-seeds:
     minecraft:warped_forest_vegetation: -812415269136{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:warped_fungus: -259418788019{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:warped_fungus_planted: -288688201687{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:waterlily: 5895581341547807213
+    minecraft:waterlily: 589558134154{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
     minecraft:weeping_vines: -35394548006{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
-    minecraft:wildflower: -1178183395530407517
-    minecraft:yellow_poplar: -1631675580089574511
-    minecraft:yellow_poplar_leaf_litter: 820142925997878635
+    minecraft:wildflower: -117818339553{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:yellow_poplar: -163167558008{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
+    minecraft:yellow_poplar_leaf_litter: 82014292599{{ FEATURE_SEED_SUFFIX_OVERWORLD }}
 lootables:
   auto-replenish: true
