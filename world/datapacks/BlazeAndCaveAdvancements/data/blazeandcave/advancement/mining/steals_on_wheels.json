@@ -15,7 +15,7 @@
 		"heart_of_the_sea": {
 			"trigger": "minecraft:player_generates_container_loot",
 			"conditions": {
-				"loot_table": "minecraft:chests/abandoned_mineshaft"
+				"loot_tables": "minecraft:chests/abandoned_mineshaft"
 			}
 		}
 	}		

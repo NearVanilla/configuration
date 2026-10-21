@@ -19,12 +19,12 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"type": "minecraft:spectral_arrow"
+							"entity_type": "minecraft:spectral_arrow"
 						}
 					}
 				}

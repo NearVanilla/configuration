@@ -15,7 +15,7 @@
 		"tripwire_hook": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"block": "minecraft:tripwire",
+				"blocks": "minecraft:tripwire",
 				"state": {
 					"attached": "true",
 					"powered": "true"

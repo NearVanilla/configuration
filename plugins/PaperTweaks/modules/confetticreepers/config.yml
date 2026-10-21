@@ -1,2 +1,6 @@
 # Value between 0 (inclusive) and 1.0 (inclusive) for the chance a creeper will be a confetti creeper
 chance: 1.0
+# Whether confetti fireworks should deal damage to nearby entities
+firework-damage: false
+# Allows charged creepers to explode normally, restoring the ability to obtain mob heads
+allow-charged-creepers: false

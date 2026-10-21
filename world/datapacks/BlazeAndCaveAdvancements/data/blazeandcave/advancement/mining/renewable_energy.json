@@ -15,7 +15,7 @@
 		"charcoal": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "minecraft:charcoal"
+				"recipes": "minecraft:charcoal"
 			}
 		}
 	}

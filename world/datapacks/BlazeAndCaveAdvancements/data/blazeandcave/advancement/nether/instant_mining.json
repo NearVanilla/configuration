@@ -19,36 +19,34 @@
 		"instant_mining": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"effects": {
-								"minecraft:haste": {
-									"amplifier": {
-										"min": 1
-									}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"effects": {
+							"minecraft:haste": {
+								"amplifier": {
+									"min": 1
 								}
-							},
-							"equipment": {
-								"mainhand": {
-									"items": "#blazeandcave:master_pickaxes",
-									"predicates": {
-										"enchantments": [
-											{
-												"enchantments": "minecraft:efficiency",
-												"levels": {
-													"min": 5
-												}
+							}
+						},
+						"equipment": {
+							"mainhand": {
+								"items": "#blazeandcave:master_pickaxes",
+								"predicates": {
+									"enchantments": [
+										{
+											"enchantments": "minecraft:efficiency",
+											"levels": {
+												"min": 5
 											}
-										]
-									}
+										}
+									]
 								}
 							}
 						}
 					}
-				]
+				}
 			}
 		}
 	}

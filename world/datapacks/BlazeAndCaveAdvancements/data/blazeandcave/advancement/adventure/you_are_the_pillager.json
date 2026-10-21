@@ -19,8 +19,12 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:villager",
-						"nbt": "{VillagerData:{profession:\"minecraft:farmer\"}}"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:villager",
+							"nbt": "{VillagerData:{profession:\"minecraft:farmer\"}}"
+						}
 					}
 				],
 				"fired_from_weapon": {
@@ -33,8 +37,12 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:villager",
-						"nbt": "{VillagerData:{profession:\"minecraft:fisherman\"}}"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:villager",
+							"nbt": "{VillagerData:{profession:\"minecraft:fisherman\"}}"
+						}
 					}
 				],
 				"fired_from_weapon": {
@@ -47,8 +55,12 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:villager",
-						"nbt": "{VillagerData:{profession:\"minecraft:shepherd\"}}"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:villager",
+							"nbt": "{VillagerData:{profession:\"minecraft:shepherd\"}}"
+						}
 					}
 				],
 				"fired_from_weapon": {
@@ -61,8 +73,12 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:villager",
-						"nbt": "{VillagerData:{profession:\"minecraft:fletcher\"}}"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:villager",
+							"nbt": "{VillagerData:{profession:\"minecraft:fletcher\"}}"
+						}
 					}
 				],
 				"fired_from_weapon": {
@@ -75,8 +91,12 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:villager",
-						"nbt": "{VillagerData:{profession:\"minecraft:librarian\"}}"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:villager",
+							"nbt": "{VillagerData:{profession:\"minecraft:librarian\"}}"
+						}
 					}
 				],
 				"fired_from_weapon": {
@@ -89,8 +109,12 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:villager",
-						"nbt": "{VillagerData:{profession:\"minecraft:cartographer\"}}"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:villager",
+							"nbt": "{VillagerData:{profession:\"minecraft:cartographer\"}}"
+						}
 					}
 				],
 				"fired_from_weapon": {
@@ -103,8 +127,12 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:villager",
-						"nbt": "{VillagerData:{profession:\"minecraft:cleric\"}}"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:villager",
+							"nbt": "{VillagerData:{profession:\"minecraft:cleric\"}}"
+						}
 					}
 				],
 				"fired_from_weapon": {
@@ -117,8 +145,12 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:villager",
-						"nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:villager",
+							"nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+						}
 					}
 				],
 				"fired_from_weapon": {
@@ -131,8 +163,12 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:villager",
-						"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:villager",
+							"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
+						}
 					}
 				],
 				"fired_from_weapon": {
@@ -145,8 +181,12 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:villager",
-						"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:villager",
+							"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+						}
 					}
 				],
 				"fired_from_weapon": {
@@ -159,8 +199,12 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:villager",
-						"nbt": "{VillagerData:{profession:\"minecraft:butcher\"}}"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:villager",
+							"nbt": "{VillagerData:{profession:\"minecraft:butcher\"}}"
+						}
 					}
 				],
 				"fired_from_weapon": {
@@ -173,8 +217,12 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:villager",
-						"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\"}}"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:villager",
+							"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\"}}"
+						}
 					}
 				],
 				"fired_from_weapon": {
@@ -187,8 +235,12 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:villager",
-						"nbt": "{VillagerData:{profession:\"minecraft:mason\"}}"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:villager",
+							"nbt": "{VillagerData:{profession:\"minecraft:mason\"}}"
+						}
 					}
 				],
 				"fired_from_weapon": {
@@ -201,8 +253,12 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:villager",
-						"nbt": "{VillagerData:{profession:\"minecraft:nitwit\"}}"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:villager",
+							"nbt": "{VillagerData:{profession:\"minecraft:nitwit\"}}"
+						}
 					}
 				],
 				"fired_from_weapon": {
@@ -215,8 +271,12 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:villager",
-						"nbt": "{VillagerData:{profession:\"minecraft:none\"}}"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:villager",
+							"nbt": "{VillagerData:{profession:\"minecraft:none\"}}"
+						}
 					}
 				],
 				"fired_from_weapon": {

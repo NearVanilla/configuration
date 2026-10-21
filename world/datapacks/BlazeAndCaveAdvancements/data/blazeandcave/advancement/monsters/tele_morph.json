@@ -19,12 +19,12 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"type": "minecraft:ender_pearl"
+							"entity_type": "minecraft:ender_pearl"
 						}
 					}
 				}

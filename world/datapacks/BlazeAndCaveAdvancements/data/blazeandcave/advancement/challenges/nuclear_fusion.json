@@ -18,17 +18,33 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:villager"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:villager"
+						}
 					},
 					{
-						"type": "minecraft:pig"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:pig"
+						}
 					},
 					{
-						"type": "minecraft:creeper"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:creeper"
+						}
 					},
 					{
-						"type": "minecraft:mooshroom"
-					}					
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
 				]
 			}
 		}

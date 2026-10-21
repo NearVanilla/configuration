@@ -17,8 +17,12 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "enderman",
-					"nbt": "{CustomName:\"Slenderman\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:enderman",
+						"nbt": "{CustomName:\"Slenderman\"}"
+					}
 				}
 			}
 		}

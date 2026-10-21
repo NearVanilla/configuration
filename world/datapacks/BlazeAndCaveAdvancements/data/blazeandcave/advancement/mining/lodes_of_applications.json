@@ -16,67 +16,76 @@
 		"overworld": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": "minecraft:lodestone"
-							},
-							"dimension": "minecraft:overworld"
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": "minecraft:lodestone"
+								},
+								"dimension": "minecraft:overworld"
+							}
+						},
+						{
+							"type": "minecraft:match_tool",
+							"predicate": {
+								"items": "minecraft:compass"
+							}
 						}
-					},
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"items": "minecraft:compass"
-						}
-					}
-				]
+					]
+				}
 			}
 		},
 		"the_nether": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": "minecraft:lodestone"
-							},
-							"dimension": "minecraft:the_nether"
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": "minecraft:lodestone"
+								},
+								"dimension": "minecraft:the_nether"
+							}
+						},
+						{
+							"type": "minecraft:match_tool",
+							"predicate": {
+								"items": "minecraft:compass"
+							}
 						}
-					},
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"items": "minecraft:compass"
-						}
-					}
-				]
+					]
+				}
 			}
 		},
 		"the_end": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": "minecraft:lodestone"
-							},
-							"dimension": "minecraft:the_end"
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": "minecraft:lodestone"
+								},
+								"dimension": "minecraft:the_end"
+							}
+						},
+						{
+							"type": "minecraft:match_tool",
+							"predicate": {
+								"items": "minecraft:compass"
+							}
 						}
-					},
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"items": "minecraft:compass"
-						}
-					}
-				]
+					]
+				}
 			}
 		}
 	}

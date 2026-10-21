@@ -16,10 +16,18 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:turtle"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:turtle"
+					}
 				},
 				"partner": {
-					"type": "minecraft:turtle"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:turtle"
+					}
 				}
 			}
 		}

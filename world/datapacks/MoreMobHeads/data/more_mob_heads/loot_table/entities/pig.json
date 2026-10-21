@@ -8,9 +8,9 @@
 					"type": "item",
 					"name": "minecraft:player_head",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "set_components",
+							"type": "set_components",
 							"components": {
 								"minecraft:note_block_sound": "minecraft:entity.pig.ambient",
 								"minecraft:profile": {
@@ -21,27 +21,88 @@
 										}
 									]
 								},
-								"minecraft:item_name": "\"Pig Head\""
+								"minecraft:item_name": "Temperate Pig Head"
+							}
+						},
+						{
+							"type": "set_components",
+							"components": {
+								"minecraft:note_block_sound": "minecraft:entity.pig.ambient",
+								"minecraft:profile": {
+									"properties": [
+										{
+											"name": "textures",
+											"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmExOGQ0MDQzY2Q2YzkwMzg2Njc4ODkxNGZkNTM0MzE1MjgxYWY5ZjI1OWUzNDgzN2UzZTE3NWU1NDVjMmVkZSJ9fX0="
+										}
+									]
+								},
+								"minecraft:item_name": "Cold Pig Head"
+							},
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"components": {
+												"minecraft:pig/variant": "minecraft:cold"
+											}
+										}
+									}
+								]
+							}
+						},
+						{
+							"type": "set_components",
+							"components": {
+								"minecraft:note_block_sound": "minecraft:entity.pig.ambient",
+								"minecraft:profile": {
+									"properties": [
+										{
+											"name": "textures",
+											"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JlYmExYTJkNTZlODRmOGU1MWZlZDY2NTlmMmNiN2MxNGZlZDQzODU5YWY1ODQ3Mzc4OTdiZjcwYzAzOTQ3NSJ9fX0="
+										}
+									]
+								},
+								"minecraft:item_name": "Warm Pig Head"
+							},
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"components": {
+												"minecraft:pig/variant": "minecraft:warm"
+											}
+										}
+									}
+								]
 							}
 						}
 					]
 				}
 			],
-			"conditions": [
-				{
-					"condition": "killed_by_player"
-				},
-				{
-					"condition": "random_chance_with_enchanted_bonus",
-					"enchantment": "minecraft:looting",
-					"unenchanted_chance": 0.01,
-					"enchanted_chance": {
-						"type": "minecraft:linear",
-						"base": 0.011,
-						"per_level_above_first": 0.001
+			"condition": {
+				"type": "minecraft:all_of",
+				"terms": [
+					{
+						"type": "killed_by_player"
+					},
+					{
+						"type": "random_chance_with_enchanted_bonus",
+						"enchantment": "minecraft:looting",
+						"unenchanted_chance": 0.01,
+						"enchanted_chance": {
+							"type": "minecraft:linear",
+							"base": 0.011,
+							"per_level_above_first": 0.001
+						}
 					}
-				}
-			]
+				]
+			}
 		}
 	]
 }

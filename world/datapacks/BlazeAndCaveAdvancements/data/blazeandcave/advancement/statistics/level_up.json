@@ -19,10 +19,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"level": {
-							"min": 30
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"level": {
+								"min": 30
+							}
 						}
 					}
 				}

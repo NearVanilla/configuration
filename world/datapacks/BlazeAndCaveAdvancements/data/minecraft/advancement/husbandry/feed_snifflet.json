@@ -18,18 +18,16 @@
 				"item": {
 					"items": "#minecraft:sniffer_food"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:sniffer",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:sniffer",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+				}
 			}
 		}
 	}

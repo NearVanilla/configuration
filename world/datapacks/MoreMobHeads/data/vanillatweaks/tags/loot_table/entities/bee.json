@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/bee",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/bee",
+      "required": false
+    }
+  ]
+}

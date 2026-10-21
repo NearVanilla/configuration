@@ -2,20 +2,23 @@
 	"type": "minecraft:entity",
 	"pools": [
 		{
-			"conditions": [
-				{
-					"condition": "killed_by_player"
-				}
-			],
+			"condition": {
+				"type": "minecraft:all_of",
+				"terms": [
+					{
+						"type": "killed_by_player"
+					}
+				]
+			},
 			"rolls": 1,
 			"entries": [
 				{
 					"type": "item",
 					"name": "minecraft:player_head",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "set_components",
+							"type": "set_components",
 							"components": {
 								"minecraft:note_block_sound": "minecraft:entity.wither.ambient",
 								"minecraft:profile": {
@@ -26,7 +29,7 @@
 										}
 									]
 								},
-								"minecraft:item_name": "\"Wither Head\""
+								"minecraft:item_name": "Wither Head"
 							}
 						}
 					]
@@ -34,24 +37,27 @@
 			]
 		},
 		{
-			"conditions": [
-				{
-					"condition": "killed_by_player"
-				},
-				{
-					"condition": "random_chance",
-					"chance": 0.5
-				}
-			],
+			"condition": {
+				"type": "minecraft:all_of",
+				"terms": [
+					{
+						"type": "killed_by_player"
+					},
+					{
+						"type": "random_chance",
+						"chance": 0.5
+					}
+				]
+			},
 			"rolls": 1,
 			"entries": [
 				{
 					"type": "item",
 					"name": "minecraft:player_head",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "set_components",
+							"type": "set_components",
 							"components": {
 								"minecraft:note_block_sound": "minecraft:entity.wither.shoot",
 								"minecraft:profile": {
@@ -62,7 +68,7 @@
 										}
 									]
 								},
-								"minecraft:item_name": "\"Wither Projectile Head\""
+								"minecraft:item_name": "Wither Projectile Head"
 							}
 						}
 					]
@@ -71,9 +77,9 @@
 					"type": "item",
 					"name": "minecraft:player_head",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "set_components",
+							"type": "set_components",
 							"components": {
 								"minecraft:note_block_sound": "minecraft:entity.wither.shoot",
 								"minecraft:profile": {
@@ -84,7 +90,7 @@
 										}
 									]
 								},
-								"minecraft:item_name": "\"Blue Wither Projectile Head\""
+								"minecraft:item_name": "Blue Wither Projectile Head"
 							}
 						}
 					]

@@ -18,23 +18,31 @@
 			"conditions": {
 				"killing_blow": {
 					"tags": [
-							{
-								"id": "minecraft:is_projectile",
-								"expected": true
-							}
-						]
+						{
+							"id": "#minecraft:is_projectile",
+							"expected": true
+						}
+					]
 				},
 				"entity": {
-					"type": "husk",
-					"distance": {
-						"horizontal": {
-							"min": 50
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:husk",
+						"distance": {
+							"horizontal": {
+								"min": 50
+							}
 						}
 					}
 				},
 				"player": {
-					"vehicle": {
-						"type": "horse"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"vehicle": {
+							"entity_type": "horse"
+						}
 					}
 				}
 			}

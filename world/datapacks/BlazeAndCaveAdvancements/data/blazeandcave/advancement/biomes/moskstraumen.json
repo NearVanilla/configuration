@@ -19,21 +19,18 @@
 				"effects": {
 					"minecraft:conduit_power": {}
 				},
-				"player": [
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"type_specific": {
-									"type": "player",
-									"gamemode": ["spectator"]
-								}
+				"player": {
+					"type": "minecraft:inverted",
+					"term": {
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:type_specific/player": {
+								"gamemode": ["spectator"]
 							}
 						}
 					}
-				]
+				}
 			}
 		}
 	}

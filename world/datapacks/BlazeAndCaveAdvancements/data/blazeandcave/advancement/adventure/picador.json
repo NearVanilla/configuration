@@ -17,18 +17,22 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "ravager"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:ravager"
+					}
 				},
 				"damage": {
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
 						"direct_entity": {
-							"type": "minecraft:trident"
+							"entity_type": "minecraft:trident"
 						}
 					}
 				}

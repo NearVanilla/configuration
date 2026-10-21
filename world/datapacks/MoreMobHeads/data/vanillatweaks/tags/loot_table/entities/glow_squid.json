@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/glow_squid",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/glow_squid",
+      "required": false
+    }
+  ]
+}

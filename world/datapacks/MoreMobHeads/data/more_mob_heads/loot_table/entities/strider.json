@@ -8,9 +8,9 @@
 					"type": "item",
 					"name": "minecraft:player_head",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "set_components",
+							"type": "set_components",
 							"components": {
 								"minecraft:note_block_sound": "minecraft:entity.strider.happy",
 								"minecraft:profile": {
@@ -21,7 +21,7 @@
 										}
 									]
 								},
-								"minecraft:item_name": "\"Strider Head\""
+								"minecraft:item_name": "Strider Head"
 							}
 						}
 					]
@@ -30,9 +30,9 @@
 					"type": "item",
 					"name": "minecraft:player_head",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "set_components",
+							"type": "set_components",
 							"components": {
 								"minecraft:note_block_sound": "minecraft:entity.strider.ambient",
 								"minecraft:profile": {
@@ -43,27 +43,30 @@
 										}
 									]
 								},
-								"minecraft:item_name": "\"Cold Strider Head\""
+								"minecraft:item_name": "Cold Strider Head"
 							}
 						}
 					]
 				}
 			],
-			"conditions": [
-				{
-					"condition": "killed_by_player"
-				},
-				{
-					"condition": "random_chance_with_enchanted_bonus",
-					"enchantment": "minecraft:looting",
-					"unenchanted_chance": 0.1,
-					"enchanted_chance": {
-						"type": "minecraft:linear",
-						"base": 0.15,
-						"per_level_above_first": 0.05
+			"condition": {
+				"type": "minecraft:all_of",
+				"terms": [
+					{
+						"type": "killed_by_player"
+					},
+					{
+						"type": "random_chance_with_enchanted_bonus",
+						"enchantment": "minecraft:looting",
+						"unenchanted_chance": 0.1,
+						"enchanted_chance": {
+							"type": "minecraft:linear",
+							"base": 0.15,
+							"per_level_above_first": 0.05
+						}
 					}
-				}
-			]
+				]
+			}
 		}
 	]
 }

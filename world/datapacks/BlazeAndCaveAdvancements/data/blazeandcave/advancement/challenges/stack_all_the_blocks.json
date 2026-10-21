@@ -12601,6 +12601,1501 @@
 					}
 				]
 			}
+		},
+		"cinnabar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cinnabar"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cinnabar_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cinnabar_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cinnabar_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cinnabar_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cinnabar_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cinnabar_wall"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"polished_cinnabar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_cinnabar"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"polished_cinnabar_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_cinnabar_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"polished_cinnabar_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_cinnabar_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"polished_cinnabar_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_cinnabar_wall"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cinnabar_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cinnabar_bricks"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cinnabar_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cinnabar_brick_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cinnabar_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cinnabar_brick_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cinnabar_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cinnabar_brick_wall"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"chiseled_cinnabar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:chiseled_cinnabar"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"sulfur": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"sulfur_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"sulfur_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"sulfur_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur_wall"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"polished_sulfur": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_sulfur"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"polished_sulfur_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_sulfur_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"polished_sulfur_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_sulfur_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"polished_sulfur_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_sulfur_wall"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"sulfur_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur_bricks"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"sulfur_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur_brick_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"sulfur_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur_brick_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"sulfur_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur_brick_wall"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"chiseled_sulfur": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:chiseled_sulfur"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"potent_sulfur": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:potent_sulfur"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"sulfur_spike": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur_spike"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"red_poplar_leaves": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:red_poplar_leaves"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"orange_poplar_leaves": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:orange_poplar_leaves"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"yellow_poplar_leaves": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:yellow_poplar_leaves"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"poplar_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:poplar_log"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"stripped_poplar_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:stripped_poplar_log"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"poplar_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:poplar_planks"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"poplar_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:poplar_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"poplar_pressure_plate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:poplar_pressure_plate"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"poplar_fence": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:poplar_fence"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"poplar_trapdoor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:poplar_trapdoor"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"poplar_fence_gate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:poplar_fence_gate"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"poplar_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:poplar_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"poplar_button": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:poplar_button"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"poplar_door": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:poplar_door"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"poplar_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:poplar_sign"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"poplar_hanging_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:poplar_hanging_sign"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"poplar_sapling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:poplar_sapling"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"poplar_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:poplar_wood"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"stripped_poplar_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:stripped_poplar_wood"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"poplar_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:poplar_shelf"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"red_shrub": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:red_shrub"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"shelf_mushroom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shelf_mushroom"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"straw_bed": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:straw_bed"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"white_wool_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:white_wool_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"orange_wool_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:orange_wool_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"magenta_wool_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:magenta_wool_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"light_blue_wool_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_blue_wool_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"yellow_wool_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:yellow_wool_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"lime_wool_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:lime_wool_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pink_wool_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pink_wool_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"gray_wool_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:gray_wool_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"light_gray_wool_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_gray_wool_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cyan_wool_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cyan_wool_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"purple_wool_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:purple_wool_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"blue_wool_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:blue_wool_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"brown_wool_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:brown_wool_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"green_wool_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:green_wool_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"red_wool_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:red_wool_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"black_wool_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:black_wool_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"white_concrete_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:white_concrete_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"orange_concrete_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:orange_concrete_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"magenta_concrete_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:magenta_concrete_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"light_blue_concrete_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_blue_concrete_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"yellow_concrete_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:yellow_concrete_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"lime_concrete_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:lime_concrete_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pink_concrete_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pink_concrete_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"gray_concrete_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:gray_concrete_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"light_gray_concrete_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_gray_concrete_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cyan_concrete_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cyan_concrete_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"purple_concrete_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:purple_concrete_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"blue_concrete_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:blue_concrete_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"brown_concrete_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:brown_concrete_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"green_concrete_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:green_concrete_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"red_concrete_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:red_concrete_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"black_concrete_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:black_concrete_slab"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"white_wool_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:white_wool_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"orange_wool_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:orange_wool_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"magenta_wool_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:magenta_wool_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"light_blue_wool_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_blue_wool_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"yellow_wool_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:yellow_wool_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"lime_wool_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:lime_wool_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pink_wool_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pink_wool_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"gray_wool_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:gray_wool_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"light_gray_wool_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_gray_wool_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cyan_wool_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cyan_wool_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"purple_wool_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:purple_wool_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"blue_wool_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:blue_wool_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"brown_wool_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:brown_wool_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"green_wool_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:green_wool_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"red_wool_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:red_wool_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"black_wool_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:black_wool_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"white_concrete_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:white_concrete_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"orange_concrete_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:orange_concrete_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"magenta_concrete_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:magenta_concrete_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"light_blue_concrete_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_blue_concrete_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"yellow_concrete_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:yellow_concrete_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"lime_concrete_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:lime_concrete_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"pink_concrete_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pink_concrete_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"gray_concrete_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:gray_concrete_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"light_gray_concrete_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_gray_concrete_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"cyan_concrete_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cyan_concrete_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"purple_concrete_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:purple_concrete_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"blue_concrete_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:blue_concrete_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"brown_concrete_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:brown_concrete_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"green_concrete_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:green_concrete_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"red_concrete_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:red_concrete_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"black_concrete_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:black_concrete_stairs"
+						],
+						"count": 64
+					}
+				]
+			}
 		}
 	}
 }

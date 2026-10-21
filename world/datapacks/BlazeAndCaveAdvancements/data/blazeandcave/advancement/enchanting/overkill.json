@@ -4,7 +4,7 @@
 			"id": "minecraft:diamond_sword"
 		},
 		"title": {"translate":"Overkill"},
-		"description": {"color":"#75E1FF","translate":"Deal eight hearts of damage in a single melee blow without using a Mace"},
+		"description": {"color":"#75E1FF","translate":"Deal eight hearts of damage in a single melee blow without using a Mace or a Spear's charge attack"},
 		"announce_to_chat": true,
 		"frame": "goal"
 	},
@@ -24,16 +24,8 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#blazeandcave:is_player_hit",
 								"expected": true
-							},
-							{
-								"id": "minecraft:mace_smash",
-								"expected": false
-							},
-							{
-								"id": "blazeandcave:spear",
-								"expected": false
 							}
 						]
 					}

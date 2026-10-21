@@ -7,186 +7,204 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:stone_button",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_attributes",
+							"type": "minecraft:set_attributes",
 							"modifiers": [
 								{
 									"id": "armor_statues:head_x",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"
 								},
 								{
 									"id": "armor_statues:head_y",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"
 								},
 								{
 									"id": "armor_statues:head_z",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"
 								},
 								{
 									"id": "armor_statues:body_x",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"
 								},
 								{
 									"id": "armor_statues:body_y",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"
 								},
 								{
 									"id": "armor_statues:body_z",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"
 								},
 								{
 									"id": "armor_statues:left_arm_x",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"
 								},
 								{
 									"id": "armor_statues:left_arm_y",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"
 								},
 								{
 									"id": "armor_statues:left_arm_z",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"
 								},
 								{
 									"id": "armor_statues:right_arm_x",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"
 								},
 								{
 									"id": "armor_statues:right_arm_y",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"
 								},
 								{
 									"id": "armor_statues:right_arm_z",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"
 								},
 								{
 									"id": "armor_statues:left_leg_x",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"
 								},
 								{
 									"id": "armor_statues:left_leg_y",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"
 								},
 								{
 									"id": "armor_statues:left_leg_z",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"
 								},
 								{
 									"id": "armor_statues:right_leg_x",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"
 								},
 								{
 									"id": "armor_statues:right_leg_y",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"
 								},
 								{
 									"id": "armor_statues:right_leg_z",
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"amount": {
 										"min": -180,
-										"max": 180
+										"max": 180,
+										"type": "minecraft:uniform"
 									},
 									"slot": "mainhand",
 									"operation": "add_value"

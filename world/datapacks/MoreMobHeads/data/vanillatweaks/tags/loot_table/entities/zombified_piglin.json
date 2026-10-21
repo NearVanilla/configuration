@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/zombified_piglin",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/zombified_piglin",
+      "required": false
+    }
+  ]
+}

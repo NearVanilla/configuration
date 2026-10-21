@@ -22,8 +22,12 @@
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
 				"entity": {
-					"type": "#blazeandcave:llamas",
-					"nbt": "{Strength:5}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "#blazeandcave:llamas",
+						"nbt": "{Strength:5}"
+					}
 				}
 			}
 		}

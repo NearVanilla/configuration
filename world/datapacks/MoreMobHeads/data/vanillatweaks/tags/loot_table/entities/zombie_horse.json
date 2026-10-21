@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/zombie_horse",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/zombie_horse",
+      "required": false
+    }
+  ]
+}

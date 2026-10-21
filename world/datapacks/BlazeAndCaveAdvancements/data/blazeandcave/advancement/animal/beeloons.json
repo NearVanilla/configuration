@@ -20,15 +20,13 @@
 						"minecraft:lead"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:bee"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:bee"
 					}
-				]
+				}
 			}
 		}
 	}

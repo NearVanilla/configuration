@@ -22,8 +22,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"normal\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"normal\"}"
+					}
 				}
 			}
 		},
@@ -36,8 +40,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"weak\",HiddenGene:\"normal\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"weak\",HiddenGene:\"normal\"}"
+					}
 				}
 			}
 		},
@@ -50,8 +58,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"weak\",HiddenGene:\"aggressive\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"weak\",HiddenGene:\"aggressive\"}"
+					}
 				}
 			}
 		},
@@ -64,8 +76,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"weak\",HiddenGene:\"lazy\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"weak\",HiddenGene:\"lazy\"}"
+					}
 				}
 			}
 		},
@@ -78,8 +94,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"weak\",HiddenGene:\"worried\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"weak\",HiddenGene:\"worried\"}"
+					}
 				}
 			}
 		},
@@ -92,8 +112,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"weak\",HiddenGene:\"playful\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"weak\",HiddenGene:\"playful\"}"
+					}
 				}
 			}
 		},
@@ -106,8 +130,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"weak\",HiddenGene:\"brown\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"weak\",HiddenGene:\"brown\"}"
+					}
 				}
 			}
 		},
@@ -120,8 +148,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"brown\",HiddenGene:\"normal\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"brown\",HiddenGene:\"normal\"}"
+					}
 				}
 			}
 		},
@@ -134,8 +166,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"brown\",HiddenGene:\"aggressive\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"brown\",HiddenGene:\"aggressive\"}"
+					}
 				}
 			}
 		},
@@ -148,8 +184,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"brown\",HiddenGene:\"lazy\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"brown\",HiddenGene:\"lazy\"}"
+					}
 				}
 			}
 		},
@@ -162,8 +202,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"brown\",HiddenGene:\"worried\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"brown\",HiddenGene:\"worried\"}"
+					}
 				}
 			}
 		},
@@ -176,8 +220,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"brown\",HiddenGene:\"playful\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"brown\",HiddenGene:\"playful\"}"
+					}
 				}
 			}
 		},
@@ -190,8 +238,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"brown\",HiddenGene:\"weak\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"brown\",HiddenGene:\"weak\"}"
+					}
 				}
 			}
 		},
@@ -204,8 +256,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"aggressive\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"aggressive\"}"
+					}
 				}
 			}
 		},
@@ -218,8 +274,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"lazy\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"lazy\"}"
+					}
 				}
 			}
 		},
@@ -232,8 +292,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"worried\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"worried\"}"
+					}
 				}
 			}
 		},
@@ -246,8 +310,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"playful\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"playful\"}"
+					}
 				}
 			}
 		},
@@ -260,8 +328,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"weak\",HiddenGene:\"weak\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"weak\",HiddenGene:\"weak\"}"
+					}
 				}
 			}
 		},
@@ -274,8 +346,12 @@
 					]
 				},
 				"entity": {
-					"type": "panda",
-					"nbt": "{MainGene:\"brown\",HiddenGene:\"brown\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "panda",
+						"nbt": "{MainGene:\"brown\",HiddenGene:\"brown\"}"
+					}
 				}
 			}
 		}

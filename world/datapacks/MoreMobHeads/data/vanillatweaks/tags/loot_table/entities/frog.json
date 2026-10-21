@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/frog",
+      "required": false
+    },
+    {
+      "id": "#more_mob_heads:entities/frog",
+      "required": false
+    }
+  ]
+}

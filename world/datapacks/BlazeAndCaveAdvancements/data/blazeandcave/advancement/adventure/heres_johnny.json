@@ -16,9 +16,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "vindicator",
-					"location": {
-						"structures": "mansion"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:vindicator",
+						"location": {
+							"structures": "mansion"
+						}
 					}
 				}
 			}

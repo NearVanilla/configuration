@@ -6,16 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "vanilla:entities/glow_squid"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "more_mob_heads:entities/glow_squid"
+          "value": "#vanillatweaks:entities/glow_squid"
         }
       ]
     }

@@ -15,165 +15,171 @@
 		"pale_moss_block": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"block": "minecraft:pale_moss_block",
-						"condition": "minecraft:block_state_property"
-					},
-					{
-						"condition": "minecraft:any_of",
-						"terms": [
-							{
-								"condition": "minecraft:location_check",
-								"offsetZ": 1,
-								"predicate": {
-									"block": {
-										"blocks": [
-											"minecraft:moss_block"
-										]
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:match_block",
+							"blocks": "minecraft:pale_moss_block"
+						},
+						{
+							"type": "minecraft:any_of",
+							"terms": [
+								{
+									"type": "minecraft:location_check",
+									"offsetZ": 1,
+									"predicate": {
+										"block": {
+											"blocks": [
+												"minecraft:moss_block"
+											]
+										}
+									}
+								},
+								{
+									"type": "minecraft:location_check",
+									"offsetZ": -1,
+									"predicate": {
+										"block": {
+											"blocks": [
+												"minecraft:moss_block"
+											]
+										}
+									}
+								},
+								{
+									"type": "minecraft:location_check",
+									"offsetX": 1,
+									"predicate": {
+										"block": {
+											"blocks": [
+												"minecraft:moss_block"
+											]
+										}
+									}
+								},
+								{
+									"type": "minecraft:location_check",
+									"offsetX": -1,
+									"predicate": {
+										"block": {
+											"blocks": [
+												"minecraft:moss_block"
+											]
+										}
+									}
+								},
+								{
+									"type": "minecraft:location_check",
+									"offsetY": 1,
+									"predicate": {
+										"block": {
+											"blocks": [
+												"minecraft:moss_block"
+											]
+										}
+									}
+								},
+								{
+									"type": "minecraft:location_check",
+									"offsetY": -1,
+									"predicate": {
+										"block": {
+											"blocks": [
+												"minecraft:moss_block"
+											]
+										}
 									}
 								}
-							},
-							{
-								"condition": "minecraft:location_check",
-								"offsetZ": -1,
-								"predicate": {
-									"block": {
-										"blocks": [
-											"minecraft:moss_block"
-										]
-									}
-								}
-							},
-							{
-								"condition": "minecraft:location_check",
-								"offsetX": 1,
-								"predicate": {
-									"block": {
-										"blocks": [
-											"minecraft:moss_block"
-										]
-									}
-								}
-							},
-							{
-								"condition": "minecraft:location_check",
-								"offsetX": -1,
-								"predicate": {
-									"block": {
-										"blocks": [
-											"minecraft:moss_block"
-										]
-									}
-								}
-							},
-							{
-								"condition": "minecraft:location_check",
-								"offsetY": 1,
-								"predicate": {
-									"block": {
-										"blocks": [
-											"minecraft:moss_block"
-										]
-									}
-								}
-							},
-							{
-								"condition": "minecraft:location_check",
-								"offsetY": -1,
-								"predicate": {
-									"block": {
-										"blocks": [
-											"minecraft:moss_block"
-										]
-									}
-								}
-							}
-						]
-					}
-				]
+							]
+						}
+					]
+				}
 			}
 		},
 		"moss_block": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"block": "minecraft:moss_block",
-						"condition": "minecraft:block_state_property"
-					},
-					{
-						"condition": "minecraft:any_of",
-						"terms": [
-							{
-								"condition": "minecraft:location_check",
-								"offsetZ": 1,
-								"predicate": {
-									"block": {
-										"blocks": [
-											"minecraft:pale_moss_block"
-										]
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:match_block",
+							"blocks": "minecraft:moss_block"
+						},
+						{
+							"type": "minecraft:any_of",
+							"terms": [
+								{
+									"type": "minecraft:location_check",
+									"offsetZ": 1,
+									"predicate": {
+										"block": {
+											"blocks": [
+												"minecraft:pale_moss_block"
+											]
+										}
+									}
+								},
+								{
+									"type": "minecraft:location_check",
+									"offsetZ": -1,
+									"predicate": {
+										"block": {
+											"blocks": [
+												"minecraft:pale_moss_block"
+											]
+										}
+									}
+								},
+								{
+									"type": "minecraft:location_check",
+									"offsetX": 1,
+									"predicate": {
+										"block": {
+											"blocks": [
+												"minecraft:pale_moss_block"
+											]
+										}
+									}
+								},
+								{
+									"type": "minecraft:location_check",
+									"offsetX": -1,
+									"predicate": {
+										"block": {
+											"blocks": [
+												"minecraft:pale_moss_block"
+											]
+										}
+									}
+								},
+								{
+									"type": "minecraft:location_check",
+									"offsetY": 1,
+									"predicate": {
+										"block": {
+											"blocks": [
+												"minecraft:pale_moss_block"
+											]
+										}
+									}
+								},
+								{
+									"type": "minecraft:location_check",
+									"offsetY": -1,
+									"predicate": {
+										"block": {
+											"blocks": [
+												"minecraft:pale_moss_block"
+											]
+										}
 									}
 								}
-							},
-							{
-								"condition": "minecraft:location_check",
-								"offsetZ": -1,
-								"predicate": {
-									"block": {
-										"blocks": [
-											"minecraft:pale_moss_block"
-										]
-									}
-								}
-							},
-							{
-								"condition": "minecraft:location_check",
-								"offsetX": 1,
-								"predicate": {
-									"block": {
-										"blocks": [
-											"minecraft:pale_moss_block"
-										]
-									}
-								}
-							},
-							{
-								"condition": "minecraft:location_check",
-								"offsetX": -1,
-								"predicate": {
-									"block": {
-										"blocks": [
-											"minecraft:pale_moss_block"
-										]
-									}
-								}
-							},
-							{
-								"condition": "minecraft:location_check",
-								"offsetY": 1,
-								"predicate": {
-									"block": {
-										"blocks": [
-											"minecraft:pale_moss_block"
-										]
-									}
-								}
-							},
-							{
-								"condition": "minecraft:location_check",
-								"offsetY": -1,
-								"predicate": {
-									"block": {
-										"blocks": [
-											"minecraft:pale_moss_block"
-										]
-									}
-								}
-							}
-						]
-					}
-				]
+							]
+						}
+					]
+				}
 			}
 		}
 	},

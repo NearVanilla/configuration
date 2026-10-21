@@ -15,23 +15,21 @@
 		"repair_wolf_armor": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:wolf",
-							"equipment": {
-								"body": {
-									"items": "minecraft:wolf_armor",
-									"components": {
-										"minecraft:damage": 0
-									}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:wolf",
+						"equipment": {
+							"body": {
+								"items": "minecraft:wolf_armor",
+								"components": {
+									"minecraft:damage": 0
 								}
 							}
 						}
 					}
-				],
+				},
 				"item": {
 					"items": "minecraft:armadillo_scute"
 				}

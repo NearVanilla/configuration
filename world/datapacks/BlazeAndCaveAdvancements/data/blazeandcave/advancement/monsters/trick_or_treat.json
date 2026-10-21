@@ -17,11 +17,15 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"equipment": {
-						"head": {
-							"items": [
-								"minecraft:carved_pumpkin"
-							]
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"head": {
+								"items": [
+									"minecraft:carved_pumpkin"
+								]
+							}
 						}
 					}
 				}

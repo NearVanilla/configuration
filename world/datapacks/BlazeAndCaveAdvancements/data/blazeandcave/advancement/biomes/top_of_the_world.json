@@ -16,54 +16,57 @@
 		"scaffolding": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"items": [
-								"minecraft:scaffolding"
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:match_tool",
+							"predicate": {
+								"items": [
+									"minecraft:scaffolding"
+								]
+							}
+						},
+						{
+							"type": "minecraft:any_of",
+							"terms": [
+								{
+									"type": "minecraft:location_check",
+									"predicate": {
+										"position": {
+											"y": {
+												"min": 319
+											}
+										},
+										"dimension": "minecraft:overworld"
+									}
+								},
+								{
+									"type": "minecraft:location_check",
+									"predicate": {
+										"position": {
+											"y": {
+												"min": 255
+											}
+										},
+										"dimension": "minecraft:the_nether"
+									}
+								},
+								{
+									"type": "minecraft:location_check",
+									"predicate": {
+										"position": {
+											"y": {
+												"min": 255
+											}
+										},
+										"dimension": "minecraft:the_end"
+									}
+								}
 							]
 						}
-					},
-					{
-						"condition": "minecraft:any_of",
-						"terms": [
-							{
-								"condition": "minecraft:location_check",
-								"predicate": {
-									"position": {
-										"y": {
-											"min": 319
-										}
-									},
-									"dimension": "minecraft:overworld"
-								}
-							},
-							{
-								"condition": "minecraft:location_check",
-								"predicate": {
-									"position": {
-										"y": {
-											"min": 255
-										}
-									},
-									"dimension": "minecraft:the_nether"
-								}
-							},
-							{
-								"condition": "minecraft:location_check",
-								"predicate": {
-									"position": {
-										"y": {
-											"min": 255
-										}
-									},
-									"dimension": "minecraft:the_end"
-								}
-							}
-						]
-					}
-				]
+					]
+				}
 			}
 		}
 	}

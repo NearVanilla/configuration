@@ -16,14 +16,12 @@
 		"bat": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:bat",
+									"entity_type": "minecraft:bat",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -33,8 +31,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -45,14 +42,12 @@
 		"chicken": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:chicken",
+									"entity_type": "minecraft:chicken",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -62,8 +57,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -74,14 +68,12 @@
 		"cod": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:cod",
+									"entity_type": "minecraft:cod",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -91,8 +83,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -103,14 +94,12 @@
 		"cow": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:cow",
+									"entity_type": "minecraft:cow",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -120,8 +109,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -132,14 +120,12 @@
 		"mooshroom": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:mooshroom",
+									"entity_type": "minecraft:mooshroom",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -149,8 +135,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -161,14 +146,12 @@
 		"pig": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:pig",
+									"entity_type": "minecraft:pig",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -178,8 +161,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -190,14 +172,12 @@
 		"rabbit": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:rabbit",
+									"entity_type": "minecraft:rabbit",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -207,8 +187,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -219,14 +198,12 @@
 		"salmon": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:salmon",
+									"entity_type": "minecraft:salmon",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -236,8 +213,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -248,14 +224,12 @@
 		"sheep": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:sheep",
+									"entity_type": "minecraft:sheep",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -265,8 +239,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -277,14 +250,12 @@
 		"squid": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:squid",
+									"entity_type": "minecraft:squid",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -294,8 +265,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -306,14 +276,12 @@
 		"tropical_fish": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:tropical_fish",
+									"entity_type": "minecraft:tropical_fish",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -323,8 +291,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -335,14 +302,12 @@
 		"turtle": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:turtle",
+									"entity_type": "minecraft:turtle",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -352,8 +317,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -364,14 +328,12 @@
 		"villager": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:villager",
+									"entity_type": "minecraft:villager",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -381,8 +343,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -393,14 +354,12 @@
 		"wandering_trader": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:wandering_trader",
+									"entity_type": "minecraft:wandering_trader",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -410,8 +369,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -422,14 +380,12 @@
 		"pufferfish": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:pufferfish",
+									"entity_type": "minecraft:pufferfish",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -439,8 +395,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -451,14 +406,12 @@
 		"cave_spider": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:cave_spider",
+									"entity_type": "minecraft:cave_spider",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -468,8 +421,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -480,14 +432,12 @@
 		"enderman": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:enderman",
+									"entity_type": "minecraft:enderman",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -497,8 +447,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -509,14 +458,12 @@
 		"panda": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:panda",
+									"entity_type": "minecraft:panda",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -526,8 +473,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -538,14 +484,12 @@
 		"polar_bear": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:polar_bear",
+									"entity_type": "minecraft:polar_bear",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -555,8 +499,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -567,14 +510,12 @@
 		"spider": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:spider",
+									"entity_type": "minecraft:spider",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -584,8 +525,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -596,14 +536,12 @@
 		"zombified_piglin": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:zombified_piglin",
+									"entity_type": "minecraft:zombified_piglin",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -613,8 +551,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -625,14 +562,12 @@
 		"blaze": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:blaze",
+									"entity_type": "minecraft:blaze",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -642,8 +577,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -654,14 +588,12 @@
 		"creeper": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:creeper",
+									"entity_type": "minecraft:creeper",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -671,8 +603,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -683,14 +614,12 @@
 		"drowned": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:drowned",
+									"entity_type": "minecraft:drowned",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -700,8 +629,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -712,14 +640,12 @@
 		"endermite": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:endermite",
+									"entity_type": "minecraft:endermite",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -729,8 +655,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -741,14 +666,12 @@
 		"evoker": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:evoker",
+									"entity_type": "minecraft:evoker",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -758,8 +681,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -770,14 +692,12 @@
 		"ghast": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:ghast",
+									"entity_type": "minecraft:ghast",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -787,8 +707,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -799,14 +718,12 @@
 		"guardian": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:guardian",
+									"entity_type": "minecraft:guardian",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -816,8 +733,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -828,14 +744,12 @@
 		"husk": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:husk",
+									"entity_type": "minecraft:husk",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -845,8 +759,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -857,14 +770,12 @@
 		"magma_cube": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:magma_cube",
+									"entity_type": "minecraft:magma_cube",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -874,8 +785,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -886,14 +796,12 @@
 		"phantom": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:phantom",
+									"entity_type": "minecraft:phantom",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -903,8 +811,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -915,14 +822,12 @@
 		"pillager": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:pillager",
+									"entity_type": "minecraft:pillager",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -932,8 +837,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -944,14 +848,12 @@
 		"ravager": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:ravager",
+									"entity_type": "minecraft:ravager",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -961,8 +863,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -973,14 +874,12 @@
 		"shulker": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:shulker",
+									"entity_type": "minecraft:shulker",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -990,8 +889,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1002,14 +900,12 @@
 		"silverfish": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:silverfish",
+									"entity_type": "minecraft:silverfish",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1019,8 +915,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1031,14 +926,12 @@
 		"skeleton": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:skeleton",
+									"entity_type": "minecraft:skeleton",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1048,8 +941,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1060,14 +952,12 @@
 		"slime": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:slime",
+									"entity_type": "minecraft:slime",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1077,8 +967,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1089,14 +978,12 @@
 		"stray": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:stray",
+									"entity_type": "minecraft:stray",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1106,8 +993,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1118,14 +1004,12 @@
 		"vex": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:vex",
+									"entity_type": "minecraft:vex",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1135,8 +1019,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1147,14 +1030,12 @@
 		"vindicator": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:vindicator",
+									"entity_type": "minecraft:vindicator",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1164,8 +1045,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1176,14 +1056,12 @@
 		"witch": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:witch",
+									"entity_type": "minecraft:witch",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1193,8 +1071,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1205,14 +1082,12 @@
 		"wither_skeleton": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:wither_skeleton",
+									"entity_type": "minecraft:wither_skeleton",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1222,8 +1097,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1234,14 +1108,12 @@
 		"zombie_villager": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:zombie_villager",
+									"entity_type": "minecraft:zombie_villager",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1251,8 +1123,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1263,14 +1134,12 @@
 		"zombie": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:zombie",
+									"entity_type": "minecraft:zombie",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1280,8 +1149,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1292,14 +1160,12 @@
 		"cat": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:cat",
+									"entity_type": "minecraft:cat",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1309,8 +1175,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1321,14 +1186,12 @@
 		"donkey": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:donkey",
+									"entity_type": "minecraft:donkey",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1338,8 +1201,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1350,14 +1212,12 @@
 		"horse": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:horse",
+									"entity_type": "minecraft:horse",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1367,8 +1227,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1379,14 +1238,12 @@
 		"llama": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:llama",
+									"entity_type": "minecraft:llama",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1396,8 +1253,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1408,14 +1264,12 @@
 		"mule": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:mule",
+									"entity_type": "minecraft:mule",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1425,8 +1279,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1437,14 +1290,12 @@
 		"parrot": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:parrot",
+									"entity_type": "minecraft:parrot",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1454,8 +1305,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1466,14 +1316,12 @@
 		"skeleton_horse": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:skeleton_horse",
+									"entity_type": "minecraft:skeleton_horse",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1483,8 +1331,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1495,14 +1342,12 @@
 		"trader_llama": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:trader_llama",
+									"entity_type": "minecraft:trader_llama",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1512,8 +1357,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1524,14 +1368,12 @@
 		"wolf": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:wolf",
+									"entity_type": "minecraft:wolf",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1541,8 +1383,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1553,14 +1394,12 @@
 		"dolphin": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:dolphin",
+									"entity_type": "minecraft:dolphin",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1570,8 +1409,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1582,14 +1420,12 @@
 		"fox": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:fox",
+									"entity_type": "minecraft:fox",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1599,8 +1435,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1611,14 +1446,12 @@
 		"ocelot": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:ocelot",
+									"entity_type": "minecraft:ocelot",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1628,8 +1461,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1640,14 +1472,12 @@
 		"iron_golem": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:iron_golem",
+									"entity_type": "minecraft:iron_golem",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1657,8 +1487,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1669,14 +1498,12 @@
 		"snow_golem": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:snow_golem",
+									"entity_type": "minecraft:snow_golem",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1686,8 +1513,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1698,14 +1524,12 @@
 		"wither": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:wither",
+									"entity_type": "minecraft:wither",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1715,8 +1539,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1727,14 +1550,12 @@
 		"bee": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:bee",
+									"entity_type": "minecraft:bee",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1744,8 +1565,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1756,14 +1576,12 @@
 		"piglin": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:piglin",
+									"entity_type": "minecraft:piglin",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1773,8 +1591,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1785,14 +1602,12 @@
 		"hoglin": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:hoglin",
+									"entity_type": "minecraft:hoglin",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1802,8 +1617,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1814,14 +1628,12 @@
 		"strider": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:strider",
+									"entity_type": "minecraft:strider",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1831,8 +1643,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1843,14 +1654,12 @@
 		"zoglin": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:zoglin",
+									"entity_type": "minecraft:zoglin",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1860,8 +1669,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1872,14 +1680,12 @@
 		"piglin_brute": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:piglin_brute",
+									"entity_type": "minecraft:piglin_brute",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1889,8 +1695,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1901,14 +1706,12 @@
 		"axolotl": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:axolotl",
+									"entity_type": "minecraft:axolotl",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1918,8 +1721,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1930,14 +1732,12 @@
 		"glow_squid": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:glow_squid",
+									"entity_type": "minecraft:glow_squid",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1947,8 +1747,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1959,14 +1758,12 @@
 		"goat": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:goat",
+									"entity_type": "minecraft:goat",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -1976,8 +1773,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -1988,14 +1784,12 @@
 		"ender_dragon": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:ender_dragon",
+									"entity_type": "minecraft:ender_dragon",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2005,8 +1799,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2017,14 +1810,12 @@
 		"elder_guardian": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:elder_guardian",
+									"entity_type": "minecraft:elder_guardian",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2034,8 +1825,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2046,14 +1836,12 @@
 		"frog": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:frog",
+									"entity_type": "minecraft:frog",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2063,8 +1851,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2075,14 +1862,12 @@
 		"tadpole": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:tadpole",
+									"entity_type": "minecraft:tadpole",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2092,8 +1877,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2104,14 +1888,12 @@
 		"allay": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:allay",
+									"entity_type": "minecraft:allay",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2121,8 +1903,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2133,14 +1914,12 @@
 		"warden": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:warden",
+									"entity_type": "minecraft:warden",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2150,8 +1929,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2162,14 +1940,12 @@
 		"camel": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:camel",
+									"entity_type": "minecraft:camel",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2179,8 +1955,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2191,14 +1966,12 @@
 		"sniffer": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:sniffer",
+									"entity_type": "minecraft:sniffer",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2208,8 +1981,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2220,14 +1992,12 @@
 		"armadillo": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:armadillo",
+									"entity_type": "minecraft:armadillo",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2237,8 +2007,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2249,14 +2018,12 @@
 		"breeze": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:breeze",
+									"entity_type": "minecraft:breeze",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2266,8 +2033,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2278,14 +2044,12 @@
 		"bogged": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:bogged",
+									"entity_type": "minecraft:bogged",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2295,8 +2059,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2307,14 +2070,12 @@
 		"creaking": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:creaking",
+									"entity_type": "minecraft:creaking",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2324,8 +2085,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2336,14 +2096,12 @@
 		"happy_ghast": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:happy_ghast",
+									"entity_type": "minecraft:happy_ghast",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2353,8 +2111,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2365,14 +2122,12 @@
 		"copper_golem": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:copper_golem",
+									"entity_type": "minecraft:copper_golem",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2382,8 +2137,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2394,14 +2148,12 @@
 		"nautilus": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:nautilus",
+									"entity_type": "minecraft:nautilus",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2411,8 +2163,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2423,14 +2174,12 @@
 		"zombie_nautilus": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:zombie_nautilus",
+									"entity_type": "minecraft:zombie_nautilus",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2440,8 +2189,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2452,14 +2200,12 @@
 		"zombie_horse": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:zombie_horse",
+									"entity_type": "minecraft:zombie_horse",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2469,8 +2215,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2481,14 +2226,12 @@
 		"camel_husk": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:camel_husk",
+									"entity_type": "minecraft:camel_husk",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2498,8 +2241,7 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
@@ -2510,14 +2252,12 @@
 		"parched": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
+				"player": {
+						"type": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "minecraft:parched",
+									"entity_type": "minecraft:parched",
 									"distance": {
 										"absolute": {
 											"min": 25
@@ -2527,8 +2267,33 @@
 							}
 						},
 						"entity": "this"
-					}
-				],
+				},
+				"item": {
+					"items": [
+						"minecraft:spyglass"
+					]
+				}
+			}
+		},
+		"sulfur_cube": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": {
+						"type": "minecraft:entity_properties",
+						"predicate": {
+							"minecraft:type_specific/player": {
+								"looking_at": {
+									"entity_type": "minecraft:sulfur_cube",
+									"distance": {
+										"absolute": {
+											"min": 25
+										}
+									}
+								}
+							}
+						},
+						"entity": "this"
+				},
 				"item": {
 					"items": [
 						"minecraft:spyglass"
