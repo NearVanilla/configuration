@@ -12,9 +12,6 @@ plugins:
 - checksum: 7ff47ee3afec89a1725e6eef393f373c549eff3b
   name: Chunky
   version: 1.5.3
-- checksum: cbe8f9803af8dba9728c5fa44f23ac993862211c
-  name: DiscordSRV
-  version: 1.30.5
 - checksum: 55c5f0fa6e98f33a9c951244bbc56551ef95ff3e
   name: GSit
   version: 3.7.0
@@ -33,9 +30,6 @@ plugins:
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
-- checksum: 4f5954768bbdd338a7542c007c40cd13ee23a8db
-  name: dynmap
-  version: 3.9-SNAPSHOT-Dev
 - checksum: 94b31b0fa1ab60fa63bb02256774558c4f11e083
   name: PrometheusExporter
   version: 3.1.2
