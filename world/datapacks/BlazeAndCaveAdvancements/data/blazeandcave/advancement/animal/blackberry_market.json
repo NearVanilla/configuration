@@ -21,22 +21,20 @@
 						"minecraft:sweet_berries"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:fox",
-							"equipment": {
-								"mainhand": {
-									"items": [
-										"minecraft:emerald"
-									]
-								}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:fox",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:emerald"
+								]
 							}
 						}
 					}
-				]
+				}
 			}
 		}
 	}

@@ -41,7 +41,11 @@
 					]
 				},
 				"villager": {
-					"type": "wandering_trader"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "wandering_trader"
+					}
 				}
 			}
 		}

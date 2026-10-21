@@ -15,18 +15,16 @@
 		"shroomlight": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:shroomlight"
-								]
-							}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:shroomlight"
+							]
 						}
 					}
-				]
+				}
 			}
 		}
 	}

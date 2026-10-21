@@ -15,14 +15,12 @@
 		"hanging_sign": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"items": "#minecraft:hanging_signs"
-						}
+				"location": {
+					"type": "minecraft:match_tool",
+					"predicate": {
+						"items": "#minecraft:hanging_signs"
 					}
-				]
+				}
 			}
 		}
 	}

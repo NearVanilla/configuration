@@ -16,121 +16,109 @@
 		"zombie": {
 			"trigger": "minecraft:default_block_use",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:note_block"
-								],
-								"state": {
-									"instrument": "zombie"
-								}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:note_block"
+							],
+							"state": {
+								"instrument": "zombie"
 							}
 						}
 					}
-				]
+				}
 			}
 		},
 		"skeleton": {
 			"trigger": "minecraft:default_block_use",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:note_block"
-								],
-								"state": {
-									"instrument": "skeleton"
-								}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:note_block"
+							],
+							"state": {
+								"instrument": "skeleton"
 							}
 						}
 					}
-				]
+				}
 			}
 		},
 		"wither_skeleton": {
 			"trigger": "minecraft:default_block_use",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:note_block"
-								],
-								"state": {
-									"instrument": "wither_skeleton"
-								}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:note_block"
+							],
+							"state": {
+								"instrument": "wither_skeleton"
 							}
 						}
 					}
-				]
+				}
 			}
 		},
 		"creeper": {
 			"trigger": "minecraft:default_block_use",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:note_block"
-								],
-								"state": {
-									"instrument": "creeper"
-								}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:note_block"
+							],
+							"state": {
+								"instrument": "creeper"
 							}
 						}
 					}
-				]
+				}
 			}
 		},
 		"piglin": {
 			"trigger": "minecraft:default_block_use",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:note_block"
-								],
-								"state": {
-									"instrument": "piglin"
-								}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:note_block"
+							],
+							"state": {
+								"instrument": "piglin"
 							}
 						}
 					}
-				]
+				}
 			}
 		},
 		"dragon": {
 			"trigger": "minecraft:default_block_use",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:note_block"
-								],
-								"state": {
-									"instrument": "dragon"
-								}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:note_block"
+							],
+							"state": {
+								"instrument": "dragon"
 							}
 						}
 					}
-				]
+				}
 			}
 		}
 	}

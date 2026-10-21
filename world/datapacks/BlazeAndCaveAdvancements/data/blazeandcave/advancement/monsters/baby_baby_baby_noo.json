@@ -17,9 +17,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "zombie",
-					"flags": {
-						"is_baby": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:zombie",
+						"flags": {
+							"is_baby": true
+						}
 					}
 				}
 			}
@@ -28,9 +32,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "zombie_villager",
-					"flags": {
-						"is_baby": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:zombie_villager",
+						"flags": {
+							"is_baby": true
+						}
 					}
 				}
 			}
@@ -39,9 +47,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "husk",
-					"flags": {
-						"is_baby": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:husk",
+						"flags": {
+							"is_baby": true
+						}
 					}
 				}
 			}
@@ -50,9 +62,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "zombified_piglin",
-					"flags": {
-						"is_baby": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:zombified_piglin",
+						"flags": {
+							"is_baby": true
+						}
 					}
 				}
 			}
@@ -61,9 +77,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "drowned",
-					"flags": {
-						"is_baby": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:drowned",
+						"flags": {
+							"is_baby": true
+						}
 					}
 				}
 			}

@@ -17,19 +17,18 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"distance": {
-						"absolute": {
-							"max": 5
-						}
-					},
-					"stepping_on": {
-						"block": {
-							"blocks": [
-								"minecraft:big_dripleaf"
-							]
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"stepping_on": {
+							"block": {
+								"blocks": [
+									"minecraft:big_dripleaf"
+								]
+							}
 						}
 					}
-				},			
+				},
 				"killing_blow": {
 					"source_entity": {
 						"equipment": {
@@ -47,7 +46,7 @@
 					},
 					"tags": [
 						{
-							"id": "minecraft:is_player_attack",
+							"id": "#blazeandcave:is_player_hit",
 							"expected": true
 						}
 					]

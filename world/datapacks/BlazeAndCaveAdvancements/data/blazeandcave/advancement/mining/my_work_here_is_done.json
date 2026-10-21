@@ -6,7 +6,6 @@
 		"title": {"translate":"My work here is done"},
 		"description": {"color":"green","translate":"Get caught in a cave-in of gravel"},
 		"announce_to_chat": true
-
 	},
 	"parent": "blazeandcave:mining/heart_of_darkness",
 	"rewards": {
@@ -16,7 +15,19 @@
 		"enter_gravel": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"block": "minecraft:gravel"
+				"blocks": "minecraft:gravel",
+				"player": {
+					"type": "minecraft:inverted",
+					"term": {
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#blazeandcave:all_boats_and_minecarts"
+							}
+						}
+					}
+				}
 			}
 		}
 	}

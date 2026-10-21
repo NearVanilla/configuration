@@ -17,8 +17,12 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"child": {
-					"type": "minecraft:panda",
-					"nbt": "{MainGene:\"brown\",HiddenGene:\"brown\"}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:panda",
+						"nbt": "{MainGene:\"brown\",HiddenGene:\"brown\"}"
+					}
 				}
 			}
 		}

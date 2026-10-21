@@ -12,23 +12,38 @@
 		"function": "bacap_rewards:nether/twisted"
 	},
 	"criteria": {
-		"twisting_vines_plant": {
-			"trigger": "minecraft:enter_block",
-			"conditions": {
-				"block": "minecraft:twisting_vines_plant"
-			}
-		},
 		"twisting_vines": {
-			"trigger": "minecraft:enter_block",
+			"trigger": "minecraft:location",
 			"conditions": {
-				"block": "minecraft:twisting_vines"
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": [
+										"minecraft:twisting_vines_plant",
+										"minecraft:twisting_vines"
+									]
+								}
+							}
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:type_specific/player": {
+										"gamemode": ["spectator"]
+									}
+								}
+							}
+						}
+					]
+				}
 			}
 		}
-	},
-	"requirements": [
-		[
-			"twisting_vines_plant",
-			"twisting_vines"
-		]
-	]
+	}
 }

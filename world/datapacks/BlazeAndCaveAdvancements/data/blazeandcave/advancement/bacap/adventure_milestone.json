@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:map"
+			"id": "minecraft:filled_map"
 		},
 		"title": {"translate":"Adventure Milestone"},
 		"description": {"color":"yellow","translate":"Complete every advancement in the Adventure tab"},
@@ -17,10 +17,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:husbandry/complete_catalogue": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:husbandry/complete_catalogue": true
+							}
 						}
 					}
 				}
@@ -30,10 +33,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/all_chained_up": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/all_chained_up": true
+							}
 						}
 					}
 				}
@@ -43,10 +49,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:adventure/summon_iron_golem": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:adventure/summon_iron_golem": true
+							}
 						}
 					}
 				}
@@ -56,10 +65,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/businessman": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/businessman": true
+							}
 						}
 					}
 				}
@@ -69,10 +81,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/crazy_cat_lady": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/crazy_cat_lady": true
+							}
 						}
 					}
 				}
@@ -82,10 +97,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/deals_off": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/deals_off": true
+							}
 						}
 					}
 				}
@@ -95,10 +113,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/disc_jockey": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/disc_jockey": true
+							}
 						}
 					}
 				}
@@ -108,10 +129,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/do_you_want_to_trade": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/do_you_want_to_trade": true
+							}
 						}
 					}
 				}
@@ -121,10 +145,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/dry_spell": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/dry_spell": true
+							}
 						}
 					}
 				}
@@ -134,10 +161,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/feeling_ill": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/feeling_ill": true
+							}
 						}
 					}
 				}
@@ -147,10 +177,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/filthy_rich": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/filthy_rich": true
+							}
 						}
 					}
 				}
@@ -160,10 +193,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/filthy_stinkin_rich": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/filthy_stinkin_rich": true
+							}
 						}
 					}
 				}
@@ -173,10 +209,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/florist": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/florist": true
+							}
 						}
 					}
 				}
@@ -186,10 +225,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/ghostbuster": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/ghostbuster": true
+							}
 						}
 					}
 				}
@@ -199,10 +241,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/grave_robber": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/grave_robber": true
+							}
 						}
 					}
 				}
@@ -212,10 +257,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/guardian_destroyer": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/guardian_destroyer": true
+							}
 						}
 					}
 				}
@@ -225,10 +273,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/heres_johnny": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/heres_johnny": true
+							}
 						}
 					}
 				}
@@ -238,10 +289,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:adventure/hero_of_the_village": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:adventure/hero_of_the_village": true
+							}
 						}
 					}
 				}
@@ -251,10 +305,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/house_of_psychos": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/house_of_psychos": true
+							}
 						}
 					}
 				}
@@ -264,10 +321,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/i_am_ravager_hear_me_roar": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/i_am_ravager_hear_me_roar": true
+							}
 						}
 					}
 				}
@@ -277,10 +337,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/i_hereby_dub_thee": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/i_hereby_dub_thee": true
+							}
 						}
 					}
 				}
@@ -290,10 +353,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/if_only_cats_grew_into_kittens": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/if_only_cats_grew_into_kittens": true
+							}
 						}
 					}
 				}
@@ -303,10 +369,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/its_so_beast_like": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/its_so_beast_like": true
+							}
 						}
 					}
 				}
@@ -316,10 +385,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:adventure/voluntary_exile": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:adventure/voluntary_exile": true
+							}
 						}
 					}
 				}
@@ -329,10 +401,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/laser_sharks": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/laser_sharks": true
+							}
 						}
 					}
 				}
@@ -342,10 +417,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/lilypad_hatter": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/lilypad_hatter": true
+							}
 						}
 					}
 				}
@@ -355,10 +433,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/knowledge_is_power": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/knowledge_is_power": true
+							}
 						}
 					}
 				}
@@ -368,10 +449,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/mapmaker": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/mapmaker": true
+							}
 						}
 					}
 				}
@@ -381,10 +465,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/mapmakers_table": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/mapmakers_table": true
+							}
 						}
 					}
 				}
@@ -394,10 +481,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/master_trader": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/master_trader": true
+							}
 						}
 					}
 				}
@@ -407,10 +497,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/monumental": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/monumental": true
+							}
 						}
 					}
 				}
@@ -420,10 +513,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/murderer": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/murderer": true
+							}
 						}
 					}
 				}
@@ -433,10 +529,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/music_to_my_ears": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/music_to_my_ears": true
+							}
 						}
 					}
 				}
@@ -446,10 +545,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/oh_look_it_dings": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/oh_look_it_dings": true
+							}
 						}
 					}
 				}
@@ -459,10 +561,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/out_of_posts": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/out_of_posts": true
+							}
 						}
 					}
 				}
@@ -472,10 +577,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/overpowered": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/overpowered": true
+							}
 						}
 					}
 				}
@@ -485,10 +593,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/picador": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/picador": true
+							}
 						}
 					}
 				}
@@ -498,10 +609,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:adventure/totem_of_undying": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:adventure/totem_of_undying": true
+							}
 						}
 					}
 				}
@@ -511,10 +625,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/raidin_master": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/raidin_master": true
+							}
 						}
 					}
 				}
@@ -524,10 +641,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/rebuilding_the_oceans": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/rebuilding_the_oceans": true
+							}
 						}
 					}
 				}
@@ -537,10 +657,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/rekt": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/rekt": true
+							}
 						}
 					}
 				}
@@ -550,10 +673,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/retro_future_knight": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/retro_future_knight": true
+							}
 						}
 					}
 				}
@@ -563,10 +689,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/riot_shield": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/riot_shield": true
+							}
 						}
 					}
 				}
@@ -576,10 +705,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:adventure/root": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:adventure/root": true
+							}
 						}
 					}
 				}
@@ -589,10 +721,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/secret_of_the_igloo": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/secret_of_the_igloo": true
+							}
 						}
 					}
 				}
@@ -602,23 +737,29 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/shady_deals": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/shady_deals": true
+							}
 						}
 					}
 				}
 			}
 		},
-		"spear_fishing": {
+		"seafood_skewer": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/spear_fishing": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/seafood_skewer": true
+							}
 						}
 					}
 				}
@@ -628,10 +769,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/sponge_miner": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/sponge_miner": true
+							}
 						}
 					}
 				}
@@ -641,10 +785,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/superhero_of_the_village": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/superhero_of_the_village": true
+							}
 						}
 					}
 				}
@@ -654,10 +801,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/the_deep_end": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/the_deep_end": true
+							}
 						}
 					}
 				}
@@ -667,10 +817,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/professional": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/professional": true
+							}
 						}
 					}
 				}
@@ -680,10 +833,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/the_shielding": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/the_shielding": true
+							}
 						}
 					}
 				}
@@ -693,10 +849,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/the_tribal_villagers": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/the_tribal_villagers": true
+							}
 						}
 					}
 				}
@@ -706,10 +865,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/tomb_raider": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/tomb_raider": true
+							}
 						}
 					}
 				}
@@ -719,10 +881,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/town_planner": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/town_planner": true
+							}
 						}
 					}
 				}
@@ -732,10 +897,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/traveller": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/traveller": true
+							}
 						}
 					}
 				}
@@ -745,10 +913,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/travelling_merchant": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/travelling_merchant": true
+							}
 						}
 					}
 				}
@@ -758,10 +929,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/treasure_map": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/treasure_map": true
+							}
 						}
 					}
 				}
@@ -771,10 +945,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/veteran_of_the_village": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/veteran_of_the_village": true
+							}
 						}
 					}
 				}
@@ -784,10 +961,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/village_settler": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/village_settler": true
+							}
 						}
 					}
 				}
@@ -797,10 +977,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/war_is_coming": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/war_is_coming": true
+							}
 						}
 					}
 				}
@@ -810,10 +993,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/were_being_attacked": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/were_being_attacked": true
+							}
 						}
 					}
 				}
@@ -823,10 +1009,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:adventure/trade": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:adventure/trade": true
+							}
 						}
 					}
 				}
@@ -836,10 +1025,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/witchcraft": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/witchcraft": true
+							}
 						}
 					}
 				}
@@ -849,10 +1041,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/wololo": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/wololo": true
+							}
 						}
 					}
 				}
@@ -862,10 +1057,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/you_are_the_pillager": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/you_are_the_pillager": true
+							}
 						}
 					}
 				}
@@ -875,10 +1073,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/now_youre_thinking_with_portals": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/now_youre_thinking_with_portals": true
+							}
 						}
 					}
 				}
@@ -888,10 +1089,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/i_just_want_to_make_toast": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/i_just_want_to_make_toast": true
+							}
 						}
 					}
 				}
@@ -901,10 +1105,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/whats_up_doc": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/whats_up_doc": true
+							}
 						}
 					}
 				}
@@ -914,10 +1121,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/nyan_sheep": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/nyan_sheep": true
+							}
 						}
 					}
 				}
@@ -927,10 +1137,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/slenderman": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/slenderman": true
+							}
 						}
 					}
 				}
@@ -940,10 +1153,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/the_one_and_true_johnny": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/the_one_and_true_johnny": true
+							}
 						}
 					}
 				}
@@ -953,10 +1169,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/prime_specimen": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/prime_specimen": true
+							}
 						}
 					}
 				}
@@ -966,10 +1185,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:adventure/trade_at_world_height": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:adventure/trade_at_world_height": true
+							}
 						}
 					}
 				}
@@ -979,10 +1201,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/redemption_arc": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/redemption_arc": true
+							}
 						}
 					}
 				}
@@ -992,10 +1217,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/workaholic": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/workaholic": true
+							}
 						}
 					}
 				}
@@ -1005,10 +1233,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/your_daily_fix": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/your_daily_fix": true
+							}
 						}
 					}
 				}
@@ -1018,10 +1249,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/im_not_lost_anymore": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/im_not_lost_anymore": true
+							}
 						}
 					}
 				}
@@ -1031,10 +1265,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/beethoven": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/beethoven": true
+							}
 						}
 					}
 				}
@@ -1044,10 +1281,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/buy_low_sell_high": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/buy_low_sell_high": true
+							}
 						}
 					}
 				}
@@ -1057,10 +1297,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/justice": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/justice": true
+							}
 						}
 					}
 				}
@@ -1070,10 +1313,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/rare_candy_shop": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/rare_candy_shop": true
+							}
 						}
 					}
 				}
@@ -1083,10 +1329,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/hey_you_two_should_kiss": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/hey_you_two_should_kiss": true
+							}
 						}
 					}
 				}
@@ -1096,10 +1345,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/map_room": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/map_room": true
+							}
 						}
 					}
 				}
@@ -1109,10 +1361,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/sound_the_alarm": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/sound_the_alarm": true
+							}
 						}
 					}
 				}
@@ -1122,10 +1377,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:adventure/play_jukebox_in_meadows": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:adventure/play_jukebox_in_meadows": true
+							}
 						}
 					}
 				}
@@ -1135,10 +1393,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/undying_fandom": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/undying_fandom": true
+							}
 						}
 					}
 				}
@@ -1148,10 +1409,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/allayance": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/allayance": true
+							}
 						}
 					}
 				}
@@ -1161,10 +1425,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:husbandry/allay_deliver_item_to_player": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:husbandry/allay_deliver_item_to_player": true
+							}
 						}
 					}
 				}
@@ -1174,10 +1441,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/evelyn_evergreen": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/evelyn_evergreen": true
+							}
 						}
 					}
 				}
@@ -1187,10 +1457,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/budget_vex": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/budget_vex": true
+							}
 						}
 					}
 				}
@@ -1200,10 +1473,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/diagon_allay": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/diagon_allay": true
+							}
 						}
 					}
 				}
@@ -1213,10 +1489,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:husbandry/allay_deliver_cake_to_note_block": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:husbandry/allay_deliver_cake_to_note_block": true
+							}
 						}
 					}
 				}
@@ -1226,10 +1505,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/nerds_never_die": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/nerds_never_die": true
+							}
 						}
 					}
 				}
@@ -1239,10 +1521,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/and_make_it_double": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/and_make_it_double": true
+							}
 						}
 					}
 				}
@@ -1252,10 +1537,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/brushed_away": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/brushed_away": true
+							}
 						}
 					}
 				}
@@ -1265,10 +1553,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:adventure/salvage_sherd": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:adventure/salvage_sherd": true
+							}
 						}
 					}
 				}
@@ -1278,10 +1569,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:adventure/craft_decorated_pot_using_only_sherds": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:adventure/craft_decorated_pot_using_only_sherds": true
+							}
 						}
 					}
 				}
@@ -1291,10 +1585,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/pottery_exhibition": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/pottery_exhibition": true
+							}
 						}
 					}
 				}
@@ -1304,10 +1601,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:husbandry/obtain_sniffer_egg": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:husbandry/obtain_sniffer_egg": true
+							}
 						}
 					}
 				}
@@ -1317,10 +1617,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/truffle_worm": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/truffle_worm": true
+							}
 						}
 					}
 				}
@@ -1330,10 +1633,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/jurassic_sniff": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/jurassic_sniff": true
+							}
 						}
 					}
 				}
@@ -1343,10 +1649,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/happy_trails": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/happy_trails": true
+							}
 						}
 					}
 				}
@@ -1356,10 +1665,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/raiders_of_the_lost_trim": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/raiders_of_the_lost_trim": true
+							}
 						}
 					}
 				}
@@ -1369,10 +1681,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/good_lookin_treasure": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/good_lookin_treasure": true
+							}
 						}
 					}
 				}
@@ -1382,10 +1697,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:adventure/trim_with_any_armor_pattern": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:adventure/trim_with_any_armor_pattern": true
+							}
 						}
 					}
 				}
@@ -1395,10 +1713,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/mold_maker": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/mold_maker": true
+							}
 						}
 					}
 				}
@@ -1408,10 +1729,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/coordinated_flair": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/coordinated_flair": true
+							}
 						}
 					}
 				}
@@ -1421,10 +1745,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/chromatic_armory": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/chromatic_armory": true
+							}
 						}
 					}
 				}
@@ -1434,10 +1761,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/genesis_of_the_end": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/genesis_of_the_end": true
+							}
 						}
 					}
 				}
@@ -1447,10 +1777,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/vexingly_hard_to_find": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/vexingly_hard_to_find": true
+							}
 						}
 					}
 				}
@@ -1460,10 +1793,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/the_sound_of_silence": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/the_sound_of_silence": true
+							}
 						}
 					}
 				}
@@ -1473,10 +1809,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:adventure/trim_with_all_exclusive_armor_patterns": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:adventure/trim_with_all_exclusive_armor_patterns": true
+							}
 						}
 					}
 				}
@@ -1486,10 +1825,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/a_chiptune_relic": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/a_chiptune_relic": true
+							}
 						}
 					}
 				}
@@ -1499,10 +1841,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:husbandry/feed_snifflet": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:husbandry/feed_snifflet": true
+							}
 						}
 					}
 				}
@@ -1512,10 +1857,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:husbandry/plant_any_sniffer_seed": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:husbandry/plant_any_sniffer_seed": true
+							}
 						}
 					}
 				}
@@ -1525,10 +1873,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:adventure/minecraft_trials_edition": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:adventure/minecraft_trials_edition": true
+							}
 						}
 					}
 				}
@@ -1538,10 +1889,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/this_will_be_a_breeze": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/this_will_be_a_breeze": true
+							}
 						}
 					}
 				}
@@ -1551,10 +1905,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/break_wind": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/break_wind": true
+							}
 						}
 					}
 				}
@@ -1564,10 +1921,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:adventure/who_needs_rockets": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:adventure/who_needs_rockets": true
+							}
 						}
 					}
 				}
@@ -1577,10 +1937,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/breeze_suppressor": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/breeze_suppressor": true
+							}
 						}
 					}
 				}
@@ -1590,10 +1953,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/from_under_your_feet": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/from_under_your_feet": true
+							}
 						}
 					}
 				}
@@ -1603,10 +1969,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:adventure/blowback": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:adventure/blowback": true
+							}
 						}
 					}
 				}
@@ -1616,10 +1985,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:adventure/under_lock_and_key": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:adventure/under_lock_and_key": true
+							}
 						}
 					}
 				}
@@ -1629,10 +2001,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/hard_mode_activated": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/hard_mode_activated": true
+							}
 						}
 					}
 				}
@@ -1642,10 +2017,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"minecraft:adventure/revaulting": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"minecraft:adventure/revaulting": true
+							}
 						}
 					}
 				}
@@ -1655,10 +2033,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/vault_hunter": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/vault_hunter": true
+							}
 						}
 					}
 				}
@@ -1668,10 +2049,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/keys_to_success": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/keys_to_success": true
+							}
 						}
 					}
 				}
@@ -1681,10 +2065,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/tricky_treasures": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/tricky_treasures": true
+							}
 						}
 					}
 				}
@@ -1694,10 +2081,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/omniscient": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/omniscient": true
+							}
 						}
 					}
 				}
@@ -1707,10 +2097,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/a_suspicious_advancement": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/a_suspicious_advancement": true
+							}
 						}
 					}
 				}
@@ -1720,10 +2113,13 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:adventure/all_around_the_world": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:adventure/all_around_the_world": true
+							}
 						}
 					}
 				}

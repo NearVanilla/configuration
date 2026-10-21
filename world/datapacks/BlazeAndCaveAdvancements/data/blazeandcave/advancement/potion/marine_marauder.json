@@ -15,48 +15,50 @@
 		"water_breathing": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"effects": {
-								"minecraft:water_breathing": {
-									"amplifier": {
-										"min": 0
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"effects": {
+									"minecraft:water_breathing": {
+										"amplifier": {
+											"min": 0
+										}
+									}
+								}
+							}
+						},
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"location": {
+									"fluid": {
+										"fluids": [
+											"minecraft:water",
+											"minecraft:flowing_water"
+										]
+									}
+								}
+							}
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:type_specific/player": {
+										"gamemode": ["spectator"]
 									}
 								}
 							}
 						}
-					},
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"location": {
-								"fluid": {
-									"fluids": [
-										"minecraft:water",
-										"minecraft:flowing_water"
-									]
-								}
-							}
-						}
-					},
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"type_specific": {
-									"type": "player",
-									"gamemode": ["spectator"]
-								}
-							}
-						}
-					}
-				]
+					]
+				}
 			}
 		}
 	}

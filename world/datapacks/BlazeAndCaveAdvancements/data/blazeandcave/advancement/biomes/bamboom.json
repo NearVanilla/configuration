@@ -7,7 +7,7 @@
 		"description": {"color":"green","translate":"Break down some bamboo"},
 		"announce_to_chat": true
 	},
-	"parent": "blazeandcave:biomes/tarzan",
+	"parent": "blazeandcave:biomes/the_mighty_jungle",
 	"rewards": {
 		"function": "bacap_rewards:biomes/bamboom"
 	},		

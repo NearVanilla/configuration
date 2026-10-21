@@ -17,7 +17,11 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"nbt": "{VillagerData:{type:\"minecraft:swamp\"}}"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{VillagerData:{type:\"minecraft:swamp\"}}"
+					}
 				}
 			}
 		}	

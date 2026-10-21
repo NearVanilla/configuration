@@ -15,34 +15,38 @@
 		"stripped_wood": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"stripped_oak_wood",
-									"stripped_spruce_wood",
-									"stripped_birch_wood",
-									"stripped_jungle_wood",
-									"stripped_acacia_wood",
-									"stripped_dark_oak_wood",
-									"stripped_mangrove_wood",
-									"stripped_cherry_wood",
-									"stripped_crimson_hyphae",
-									"stripped_warped_hyphae",
-									"stripped_pale_oak_wood"
-								]
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": [
+										"stripped_oak_wood",
+										"stripped_spruce_wood",
+										"stripped_birch_wood",
+										"stripped_jungle_wood",
+										"stripped_acacia_wood",
+										"stripped_dark_oak_wood",
+										"stripped_mangrove_wood",
+										"stripped_cherry_wood",
+										"stripped_crimson_hyphae",
+										"stripped_warped_hyphae",
+										"stripped_pale_oak_wood",
+										"stripped_poplar_wood"
+									]
+								}
+							}
+						},
+						{
+							"type": "minecraft:match_tool",
+							"predicate": {
+								"items": "#blazeandcave:axes"
 							}
 						}
-					},
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"items": "#blazeandcave:axes"
-						}
-					}
-				]
+					]
+				}
 			}
 		}
 	}

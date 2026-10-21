@@ -21,9 +21,8 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"killing_blow": {
-
 					"direct_entity": {
-						"type": "minecraft:splash_potion"
+						"entity_type": "minecraft:splash_potion"
 					}
 				}
 			}

@@ -30,3 +30,6 @@ tellraw @s[advancements={blazeandcave:building/a_good_start={cherry_log=true,oak
 
 give @s[advancements={blazeandcave:building/a_good_start={pale_oak_log=true,oak_log=false}}] minecraft:pale_oak_log 8
 tellraw @s[advancements={blazeandcave:building/a_good_start={pale_oak_log=true,oak_log=false}}] {"color":"green","text":" +8 ","extra":[{"translate":"block.minecraft.pale_oak_log"}]}
+
+give @s[advancements={blazeandcave:building/a_good_start={poplar_log=true,oak_log=false}}] minecraft:poplar_log 8
+tellraw @s[advancements={blazeandcave:building/a_good_start={poplar_log=true,oak_log=false}}] {"color":"green","text":" +8 ","extra":[{"translate":"block.minecraft.poplar_log"}]}

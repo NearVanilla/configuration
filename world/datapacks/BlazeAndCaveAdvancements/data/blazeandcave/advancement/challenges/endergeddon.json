@@ -17,9 +17,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "bat",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:bat",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -28,9 +32,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "chicken",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:chicken",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -39,9 +47,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "cod",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:cod",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -50,9 +62,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "cow",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:cow",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -61,9 +77,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "mooshroom",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:mooshroom",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -72,9 +92,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "pig",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:pig",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -83,9 +107,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "rabbit",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:rabbit",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -94,9 +122,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "salmon",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:salmon",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -105,9 +137,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "sheep",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:sheep",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -116,9 +152,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "squid",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:squid",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -127,9 +167,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "tropical_fish",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:tropical_fish",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -138,9 +182,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "turtle",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:turtle",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -149,9 +197,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "villager",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:villager",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -160,9 +212,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "wandering_trader",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:wandering_trader",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -171,9 +227,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "pufferfish",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:pufferfish",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -182,9 +242,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "cave_spider",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:cave_spider",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -193,9 +257,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "enderman",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:enderman",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -204,9 +272,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "panda",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:panda",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -215,9 +287,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "polar_bear",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:polar_bear",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -226,9 +302,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "spider",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:spider",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -237,9 +317,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "zombified_piglin",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:zombified_piglin",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -248,9 +332,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "blaze",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:blaze",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -259,9 +347,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "creeper",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -270,9 +362,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "drowned",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:drowned",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -281,9 +377,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "endermite",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:endermite",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -292,9 +392,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "evoker",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:evoker",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -303,9 +407,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "ghast",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:ghast",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -314,9 +422,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "guardian",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:guardian",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -325,9 +437,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "husk",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:husk",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -336,9 +452,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "magma_cube",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:magma_cube",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -347,9 +467,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "phantom",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:phantom",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -358,9 +482,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "pillager",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:pillager",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -369,9 +497,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "ravager",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:ravager",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -380,9 +512,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "shulker",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:shulker",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -391,9 +527,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "silverfish",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:silverfish",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -402,9 +542,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "skeleton",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:skeleton",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -413,9 +557,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "slime",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:slime",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -424,9 +572,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "stray",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:stray",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -435,9 +587,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "vex",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:vex",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -446,9 +602,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "vindicator",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:vindicator",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -457,9 +617,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "witch",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:witch",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -468,9 +632,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "wither_skeleton",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:wither_skeleton",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -479,9 +647,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "zombie_villager",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:zombie_villager",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -490,9 +662,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "zombie",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:zombie",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -501,9 +677,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "cat",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:cat",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -512,9 +692,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "donkey",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:donkey",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -523,9 +707,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "horse",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:horse",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -534,9 +722,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "llama",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:llama",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -545,9 +737,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "mule",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:mule",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -556,9 +752,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "parrot",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:parrot",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -567,9 +767,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "skeleton_horse",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:skeleton_horse",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -578,9 +782,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "trader_llama",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:trader_llama",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -589,9 +797,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "wolf",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:wolf",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -600,9 +812,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "dolphin",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:dolphin",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -611,9 +827,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "fox",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:fox",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -622,9 +842,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "ocelot",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:ocelot",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -633,9 +857,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "iron_golem",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:iron_golem",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -644,9 +872,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "snow_golem",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:snow_golem",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -655,9 +887,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "wither",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:wither",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -666,9 +902,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "ender_dragon",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:ender_dragon",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -677,9 +917,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "bee",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:bee",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -688,9 +932,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "piglin",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -699,9 +947,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "hoglin",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:hoglin",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -710,9 +962,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "strider",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:strider",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -721,9 +977,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "zoglin",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:zoglin",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -732,9 +992,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "piglin_brute",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:piglin_brute",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -743,9 +1007,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "axolotl",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:axolotl",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -754,9 +1022,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "glow_squid",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:glow_squid",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -765,9 +1037,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "goat",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:goat",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -776,9 +1052,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "frog",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:frog",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -787,9 +1067,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "tadpole",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:tadpole",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -798,9 +1082,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "allay",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:allay",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -809,9 +1097,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "warden",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:warden",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -820,9 +1112,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "camel",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:camel",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -831,9 +1127,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "sniffer",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:sniffer",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -842,9 +1142,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "armadillo",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:armadillo",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -853,9 +1157,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "breeze",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:breeze",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -864,9 +1172,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "bogged",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:bogged",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -875,9 +1187,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "happy_ghast",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:happy_ghast",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -886,9 +1202,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "copper_golem",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:copper_golem",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -897,9 +1217,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "nautilus",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:nautilus",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -908,9 +1232,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "zombie_nautilus",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:zombie_nautilus",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -919,9 +1247,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "zombie_horse",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:zombie_horse",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -930,9 +1262,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "camel_husk",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:camel_husk",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}
@@ -941,9 +1277,28 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "parched",
-					"location": {
-						"dimension": "the_end"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:parched",
+						"location": {
+							"dimension": "the_end"
+						}
+					}
+				}
+			}
+		},
+		"sulfur_cube": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"location": {
+							"dimension": "the_end"
+						}
 					}
 				}
 			}

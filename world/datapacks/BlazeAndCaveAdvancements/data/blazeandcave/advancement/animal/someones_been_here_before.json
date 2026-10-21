@@ -16,8 +16,7 @@
 		"leather_boots": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"item":
-				{
+				"item": {
 					"items": [
 						"minecraft:leather_boots"
 					]

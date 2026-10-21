@@ -23,15 +23,13 @@
 						"minecraft:custom_name": "jeb_"
 					}
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"type": "minecraft:sheep"
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sheep"
+					},
+					"entity": "this"
+				}
 			}
 		}
 	}

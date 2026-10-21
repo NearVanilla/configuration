@@ -95,6 +95,30 @@
 					}
 				]
 			}
+		},
+		"polished_sulfur": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_sulfur"
+						]
+					}
+				]
+			}
+		},
+		"polished_cinnabar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_cinnabar"
+						]
+					}
+				]
+			}
 		}
 	}		
 }

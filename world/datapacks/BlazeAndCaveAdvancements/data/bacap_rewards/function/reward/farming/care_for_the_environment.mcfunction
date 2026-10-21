@@ -27,3 +27,6 @@ tellraw @s[advancements={blazeandcave:farming/care_for_the_environment={cherry_s
 
 give @s[advancements={blazeandcave:farming/care_for_the_environment={pale_oak_sapling=true,oak_sapling=false}}] minecraft:pale_oak_sapling 2
 tellraw @s[advancements={blazeandcave:farming/care_for_the_environment={pale_oak_sapling=true,oak_sapling=false}}] {"color":"green","text":" +2 ","extra":[{"translate":"block.minecraft.pale_oak_sapling"}]}
+
+give @s[advancements={blazeandcave:farming/care_for_the_environment={poplar_sapling=true,oak_sapling=false}}] minecraft:poplar_sapling 2
+tellraw @s[advancements={blazeandcave:farming/care_for_the_environment={poplar_sapling=true,oak_sapling=false}}] {"color":"green","text":" +2 ","extra":[{"translate":"block.minecraft.poplar_sapling"}]}

@@ -16,21 +16,19 @@
 		"fall_from_world_height": {
 			"trigger": "minecraft:fall_from_height",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"location": {
-								"position": {
-									"y": {
-										"max": -59.0
-									}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"location": {
+							"position": {
+								"y": {
+									"max": -59.0
 								}
 							}
-						},
-						"entity": "this"
-					}
-				],
+						}
+					},
+					"entity": "this"
+				},
 				"start_position": {
 					"position": {
 						"y": {

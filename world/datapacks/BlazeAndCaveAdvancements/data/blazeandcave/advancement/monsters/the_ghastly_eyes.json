@@ -17,9 +17,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "#blazeandcave:spiders",
-					"effects": {
-						"minecraft:invisibility": {}
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "#blazeandcave:spiders",
+						"effects": {
+							"minecraft:invisibility": {}
+						}
 					}
 				}
 			}

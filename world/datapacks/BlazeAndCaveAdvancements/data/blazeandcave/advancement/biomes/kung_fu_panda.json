@@ -9,7 +9,6 @@
 		"title": {"translate":"Kung Fu Panda!"},
 		"description": {"color":"green","translate":"Get beaten up by an angry panda"},
 		"announce_to_chat": true
-
 	},
 	"parent": "blazeandcave:biomes/zoologist",
 	"rewards": {
@@ -20,7 +19,11 @@
 			"trigger": "minecraft:entity_killed_player",
 			"conditions": {
 				"entity": {
-					"type": "panda"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:panda"
+					}
 				}
 			}
 		}

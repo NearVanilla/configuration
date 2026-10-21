@@ -15,21 +15,19 @@
 		"fill_composter": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:composter"
-								],
-								"state": {
-									"level": "7"
-								}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:composter"
+							],
+							"state": {
+								"level": "7"
 							}
 						}
 					}
-				]
+				}
 			}
 		}
 	}

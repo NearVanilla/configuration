@@ -15,15 +15,13 @@
 		"who_needs_rockets": {
 			"trigger": "minecraft:fall_after_explosion",
 			"conditions": {
-				"cause": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:wind_charge"
-						}
+				"cause": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:wind_charge"
 					}
-				],
+				},
 				"distance": {
 					"y": {
 						"min": 8.0

@@ -20,7 +20,7 @@
 		"tipped_arrow": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "minecraft:tipped_arrow"
+				"recipes": "minecraft:tipped_arrow"
 			}
 		}
 	}
