@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/diamond_digger",reward_id:"statistics/diamond_digger",tier:"challenge"}

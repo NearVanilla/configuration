@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/din_don",reward_id:"adventure/din_don",tier:"challenge"}

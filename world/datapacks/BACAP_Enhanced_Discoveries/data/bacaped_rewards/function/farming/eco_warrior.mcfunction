@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:farming/eco_warrior",reward_id:"farming/eco_warrior",tier:"goal"}

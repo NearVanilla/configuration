@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:redstone/night_shift",reward_id:"redstone/night_shift",tier:"task"}

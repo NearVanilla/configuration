@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/flint_and_steal",reward_id:"mining/flint_and_steal",tier:"task"}

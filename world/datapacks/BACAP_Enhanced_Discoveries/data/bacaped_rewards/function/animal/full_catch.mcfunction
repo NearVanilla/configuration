@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/full_catch",reward_id:"animal/full_catch",tier:"goal"}

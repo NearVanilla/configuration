@@ -1,0 +1,310 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:yellow_wool"
+    },
+    "title": {
+      "translate": "An Ewe for Every Hue"
+    },
+    "description": {
+      "translate": "Have every color of a Sheep on a lead",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/have_a_shearful_day",
+  "criteria": {
+    "white": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "white"
+            }
+          }
+        }
+      }
+    },
+    "orange": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "orange"
+            }
+          }
+        }
+      }
+    },
+    "magenta": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "magenta"
+            }
+          }
+        }
+      }
+    },
+    "light_blue": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "light_blue"
+            }
+          }
+        }
+      }
+    },
+    "yellow": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "yellow"
+            }
+          }
+        }
+      }
+    },
+    "lime": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "lime"
+            }
+          }
+        }
+      }
+    },
+    "rose": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "pink"
+            }
+          }
+        }
+      }
+    },
+    "gray": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "gray"
+            }
+          }
+        }
+      }
+    },
+    "light_gray": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "light_gray"
+            }
+          }
+        }
+      }
+    },
+    "cyan": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "cyan"
+            }
+          }
+        }
+      }
+    },
+    "purple": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "purple"
+            }
+          }
+        }
+      }
+    },
+    "blue": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "blue"
+            }
+          }
+        }
+      }
+    },
+    "brown": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "brown"
+            }
+          }
+        }
+      }
+    },
+    "green": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "green"
+            }
+          }
+        }
+      }
+    },
+    "red": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "red"
+            }
+          }
+        }
+      }
+    },
+    "black": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "black"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:animal/a_ewe_for_every_hue"
+  }
+}

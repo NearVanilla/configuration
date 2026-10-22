@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:potion/youre_not_the_zillager",reward_id:"potion/youre_not_the_zillager",tier:"goal"}

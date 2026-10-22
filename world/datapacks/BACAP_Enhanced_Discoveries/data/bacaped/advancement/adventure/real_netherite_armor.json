@@ -1,0 +1,1354 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:netherite",
+          "pattern": "minecraft:silence"
+        }
+      }
+    },
+    "title": {
+      "translate": "Real Netherite Armor"
+    },
+    "description": {
+      "translate": "Wear a full set of netherite armor with any netherite trims",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:adventure/fake_netherite_armor",
+  "criteria": {
+    "netherite_armor_with_netherite_trims": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:bolt"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:coast"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:dune"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:eye"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:flow"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:host"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:raiser"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:rib"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:sentry"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:shaper"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:snout"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:spire"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:tide"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:vex"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:ward"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:wayfinder"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "minecraft:netherite_helmet",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:wild"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:bolt"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:coast"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:dune"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:eye"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:flow"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:host"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:raiser"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:rib"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:sentry"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:shaper"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:snout"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:spire"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:tide"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:vex"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:ward"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:wayfinder"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:netherite_chestplate",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:wild"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:bolt"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:coast"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:dune"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:eye"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:flow"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:host"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:raiser"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:rib"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:sentry"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:shaper"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:snout"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:spire"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:tide"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:vex"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:ward"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:wayfinder"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:netherite_leggings",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:wild"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:bolt"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:coast"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:dune"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:eye"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:flow"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:host"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:raiser"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:rib"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:sentry"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:shaper"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:snout"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:spire"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:tide"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:vex"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:ward"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:wayfinder"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:netherite_boots",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:wild"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/real_netherite_armor"
+  }
+}

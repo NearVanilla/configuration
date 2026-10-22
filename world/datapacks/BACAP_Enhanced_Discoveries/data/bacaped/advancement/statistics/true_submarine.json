@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_nautilus_armor"
+    },
+    "title": {
+      "translate": "True Submarine"
+    },
+    "description": {
+      "translate": "Ride 125km on a Nautilus",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "blazeandcave:statistics/lord_helix",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "minecraft:nautilus_one_cm",
+                  "value": {
+                    "min": 12500000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:statistics/true_submarine"
+  }
+}

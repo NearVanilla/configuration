@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/one_minute_wardens_hugs",reward_id:"monsters/one_minute_wardens_hugs",tier:"challenge"}

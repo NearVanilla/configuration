@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:enchanting/thin_line",reward_id:"enchanting/thin_line",tier:"challenge"}

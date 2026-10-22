@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/raid_resister",reward_id:"statistics/raid_resister",tier:"task"}

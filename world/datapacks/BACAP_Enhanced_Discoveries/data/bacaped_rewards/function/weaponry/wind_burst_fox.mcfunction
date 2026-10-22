@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/wind_burst_fox",reward_id:"weaponry/wind_burst_fox",tier:"challenge"}

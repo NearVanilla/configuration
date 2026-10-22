@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/speed_master",reward_id:"statistics/speed_master",tier:"challenge"}

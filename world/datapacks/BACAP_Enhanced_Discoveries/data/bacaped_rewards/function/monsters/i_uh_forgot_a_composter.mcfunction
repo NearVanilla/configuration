@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/i_uh_forgot_a_composter",reward_id:"monsters/i_uh_forgot_a_composter",tier:"challenge"}

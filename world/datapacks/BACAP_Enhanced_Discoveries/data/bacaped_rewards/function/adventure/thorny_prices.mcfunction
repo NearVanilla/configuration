@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/thorny_prices",reward_id:"adventure/thorny_prices",tier:"goal"}

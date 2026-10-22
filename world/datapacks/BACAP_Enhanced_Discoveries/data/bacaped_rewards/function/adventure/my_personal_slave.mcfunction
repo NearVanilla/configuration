@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/my_personal_slave",reward_id:"adventure/my_personal_slave",tier:"challenge"}

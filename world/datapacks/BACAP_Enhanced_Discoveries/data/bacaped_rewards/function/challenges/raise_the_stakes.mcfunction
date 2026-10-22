@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/raise_the_stakes",reward_id:"challenges/raise_the_stakes",tier:"super_challenge"}

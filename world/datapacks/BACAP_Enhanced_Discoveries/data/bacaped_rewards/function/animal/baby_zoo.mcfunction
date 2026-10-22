@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/baby_zoo",reward_id:"animal/baby_zoo",tier:"challenge"}

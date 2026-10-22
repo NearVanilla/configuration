@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/time_killer",reward_id:"mining/time_killer",tier:"challenge"}

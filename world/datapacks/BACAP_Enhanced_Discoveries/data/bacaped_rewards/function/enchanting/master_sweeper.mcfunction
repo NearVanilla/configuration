@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:enchanting/master_sweeper",reward_id:"enchanting/master_sweeper",tier:"challenge"}

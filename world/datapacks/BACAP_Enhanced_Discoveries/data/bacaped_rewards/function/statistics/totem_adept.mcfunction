@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/totem_adept",reward_id:"statistics/totem_adept",tier:"goal"}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/restoring_population",reward_id:"adventure/restoring_population",tier:"challenge"}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/experienced_angler",reward_id:"statistics/experienced_angler",tier:"challenge"}

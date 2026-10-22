@@ -1,0 +1,77 @@
+{
+  "criteria": {
+    "on_spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_seven": true
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:stray",
+            "minecraft:vehicle": {
+              "minecraft:entity_type": "minecraft:spider"
+            },
+            "targeted_entity": {
+              "minecraft:entity_type": "minecraft:stray",
+              "minecraft:vehicle": {
+                "minecraft:entity_type": "minecraft:skeleton_horse"
+              }
+            }
+          }
+        }
+      }
+    },
+    "on_skeleton_horse": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_seven": true
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:stray",
+            "minecraft:vehicle": {
+              "minecraft:entity_type": "minecraft:skeleton_horse"
+            },
+            "targeted_entity": {
+              "minecraft:entity_type": "minecraft:stray",
+              "minecraft:vehicle": {
+                "minecraft:entity_type": "minecraft:spider"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped:riddle/eighth_line"
+  },
+  "requirements": [
+    [
+      "on_skeleton_horse",
+      "on_spider"
+    ]
+  ]
+}

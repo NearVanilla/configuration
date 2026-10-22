@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:building/pot_on_a_pot",reward_id:"building/pot_on_a_pot",tier:"task"}

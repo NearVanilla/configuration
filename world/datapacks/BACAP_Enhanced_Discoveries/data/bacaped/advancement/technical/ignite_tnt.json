@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "minecraft:entity_type": "minecraft:tnt",
+                "minecraft:nbt": "{fuse: 80s}"
+              }
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:flint_and_steel",
+              "minecraft:fire_charge"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped:scores/ignite_tnt"
+  }
+}

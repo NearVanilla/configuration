@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/youre_bald",reward_id:"animal/youre_bald",tier:"goal"}

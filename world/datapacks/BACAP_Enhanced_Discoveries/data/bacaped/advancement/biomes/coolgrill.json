@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:campfire"
+    },
+    "title": {
+      "translate": "CoolGrill"
+    },
+    "description": {
+      "translate": "Cook some meat on a campfire while being on an iceberg",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/thick_ice",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:frozen_ocean"
+                ],
+                "block": {
+                  "blocks": "#minecraft:campfires"
+                }
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "#bacaped:raw_meat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:biomes/coolgrill"
+  }
+}

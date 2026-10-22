@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/a_long_journey",reward_id:"nether/a_long_journey",tier:"challenge"}

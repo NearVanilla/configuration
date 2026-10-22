@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/celestial_protocol",reward_id:"challenges/celestial_protocol",tier:"super_challenge"}

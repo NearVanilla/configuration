@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/explosive_fisherman",reward_id:"weaponry/explosive_fisherman",tier:"goal"}

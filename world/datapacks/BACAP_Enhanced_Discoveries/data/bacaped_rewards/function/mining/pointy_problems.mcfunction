@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/pointy_problems",reward_id:"mining/pointy_problems",tier:"goal"}

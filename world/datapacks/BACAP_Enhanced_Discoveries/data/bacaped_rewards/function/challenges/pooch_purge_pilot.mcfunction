@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/pooch_purge_pilot",reward_id:"challenges/pooch_purge_pilot",tier:"super_challenge"}

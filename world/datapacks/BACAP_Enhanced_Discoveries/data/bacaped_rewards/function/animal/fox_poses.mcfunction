@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/fox_poses",reward_id:"animal/fox_poses",tier:"goal"}

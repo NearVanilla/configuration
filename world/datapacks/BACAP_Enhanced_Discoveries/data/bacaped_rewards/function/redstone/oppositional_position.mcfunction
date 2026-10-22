@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:redstone/oppositional_position",reward_id:"redstone/oppositional_position",tier:"task"}

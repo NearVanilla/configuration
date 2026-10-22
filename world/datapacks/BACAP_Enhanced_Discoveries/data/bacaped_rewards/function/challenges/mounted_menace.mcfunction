@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/mounted_menace",reward_id:"challenges/mounted_menace",tier:"hidden"}

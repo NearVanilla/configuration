@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/surface_to_air_missle",reward_id:"weaponry/surface_to_air_missle",tier:"challenge"}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pufferfish_bucket"
+    },
+    "title": {
+      "translate": "Poisoned Ball"
+    },
+    "description": {
+      "translate": "Get poisoned by a Pufferfish's thorns",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/salmonella_poisoning",
+  "criteria": {
+    "get_damage_from_pufferfish": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:pufferfish"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:animal/poisoned_ball"
+  }
+}

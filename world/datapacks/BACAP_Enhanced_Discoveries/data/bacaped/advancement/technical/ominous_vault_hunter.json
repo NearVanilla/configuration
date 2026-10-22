@@ -1,0 +1,34 @@
+{
+  "rewards": {
+    "function": "bacaped:scores/ominous_vault_hunter"
+  },
+  "criteria": {
+    "ominous_vault": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:vault",
+                  "state": {
+                    "ominous": "true"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:ominous_trial_key"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

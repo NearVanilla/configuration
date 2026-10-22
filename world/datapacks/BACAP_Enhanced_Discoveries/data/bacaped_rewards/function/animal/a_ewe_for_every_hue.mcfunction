@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/a_ewe_for_every_hue",reward_id:"animal/a_ewe_for_every_hue",tier:"goal"}

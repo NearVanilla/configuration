@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/sniffer-sniff-event",reward_id:"animal/sniffer-sniff-event",tier:"challenge"}

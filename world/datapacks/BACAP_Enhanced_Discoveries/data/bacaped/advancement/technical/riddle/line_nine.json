@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped:riddle/ninth_line"
+  }
+}

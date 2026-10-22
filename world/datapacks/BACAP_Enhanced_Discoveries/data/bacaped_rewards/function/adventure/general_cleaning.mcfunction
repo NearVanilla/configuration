@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/general_cleaning",reward_id:"adventure/general_cleaning",tier:"challenge"}

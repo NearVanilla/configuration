@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/swift_herder",reward_id:"statistics/swift_herder",tier:"goal"}

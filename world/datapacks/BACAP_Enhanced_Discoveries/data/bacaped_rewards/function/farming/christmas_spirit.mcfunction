@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:farming/christmas_spirit",reward_id:"farming/christmas_spirit",tier:"challenge"}

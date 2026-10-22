@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fire_charge",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Command Work"
+    },
+    "description": {
+      "translate": "Kill the Ender Dragon with a Ghast's fireball without any items in your inventory and under nausea effect",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:challenges/piggish_poison_tango",
+  "criteria": {
+    "killed_dragon_with_fireball": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:player",
+            "minecraft:nbt": "{Inventory:[]}",
+            "effects": {
+              "minecraft:nausea": {}
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:ender_dragon"
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "#minecraft:is_explosion",
+              "expected": true
+            }
+          ],
+          "direct_entity": {
+            "entity_type": "minecraft:fireball"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:challenges/command_work"
+  }
+}

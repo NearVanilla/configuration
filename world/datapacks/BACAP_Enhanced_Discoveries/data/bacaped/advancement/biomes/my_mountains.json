@@ -1,0 +1,136 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:goat_horn",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "My Mountains"
+    },
+    "description": {
+      "translate": "Drink milk at the top of the mountain while looking at a Goat",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:biomes/high_feet",
+  "criteria": {
+    "my_mountains": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "looking_at": {
+                    "entity_type": "minecraft:goat"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:frozen_peaks"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:grove"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:jagged_peaks"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:meadow"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:snowy_slopes"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:stony_peaks"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:windswept_forest"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:windswept_gravelly_hills"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:windswept_hills"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "item": {
+          "items": "minecraft:milk_bucket"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:biomes/my_mountains"
+  }
+}

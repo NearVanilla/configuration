@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick"
+    },
+    "title": {
+      "translate": "Heavy Catch"
+    },
+    "description": {
+      "translate": "Catch an Anvil on a fishing rod",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/classic_cartoon_comedy",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "entity_type": "minecraft:falling_block",
+                "nbt": "{BlockState:{Name:\"minecraft:anvil\"}}"
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "entity_type": "minecraft:falling_block",
+                "nbt": "{BlockState:{Name:\"minecraft:chipped_anvil\"}}"
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "entity_type": "minecraft:falling_block",
+                "nbt": "{BlockState:{Name:\"minecraft:damaged_anvil\"}}"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:enchanting/heavy_catch"
+  }
+}

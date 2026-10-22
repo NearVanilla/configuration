@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:farming/plant_enthusiast",reward_id:"farming/plant_enthusiast",tier:"goal"}

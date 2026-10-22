@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/born_to_spawn",reward_id:"monsters/born_to_spawn",tier:"challenge"}

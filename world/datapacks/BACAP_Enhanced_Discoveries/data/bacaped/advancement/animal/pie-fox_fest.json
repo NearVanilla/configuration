@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pumpkin_pie"
+    },
+    "title": {
+      "translate": "Pie-Fox Fest"
+    },
+    "description": {
+      "translate": "Feed a Fox a pumpkin pie",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/what_does_the_fox_say",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:fox"
+          }
+        },
+        "item": {
+          "items": "minecraft:pumpkin_pie"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:animal/pie-fox_fest"
+  }
+}

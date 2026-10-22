@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/more_shields",reward_id:"weaponry/more_shields",tier:"goal"}

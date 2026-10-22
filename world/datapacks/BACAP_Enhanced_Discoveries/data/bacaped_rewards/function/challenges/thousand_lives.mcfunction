@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/thousand_lives",reward_id:"challenges/thousand_lives",tier:"super_challenge"}

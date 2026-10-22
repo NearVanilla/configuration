@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/unite_storm",reward_id:"biomes/unite_storm",tier:"challenge"}

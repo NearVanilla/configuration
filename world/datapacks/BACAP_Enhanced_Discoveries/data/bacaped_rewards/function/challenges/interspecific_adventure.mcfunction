@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/interspecific_adventure",reward_id:"challenges/interspecific_adventure",tier:"super_challenge"}

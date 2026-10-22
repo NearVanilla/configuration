@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/intermediate_fisher",reward_id:"statistics/intermediate_fisher",tier:"goal"}

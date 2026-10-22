@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/emerald_armor",reward_id:"adventure/emerald_armor",tier:"goal"}

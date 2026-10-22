@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:potion/jump_for_joy",reward_id:"potion/jump_for_joy",tier:"challenge"}

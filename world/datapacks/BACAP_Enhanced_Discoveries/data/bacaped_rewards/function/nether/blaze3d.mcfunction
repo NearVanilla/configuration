@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/blaze3d",reward_id:"nether/blaze3d",tier:"challenge"}

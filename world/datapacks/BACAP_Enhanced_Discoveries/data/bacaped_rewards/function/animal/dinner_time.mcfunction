@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/dinner_time",reward_id:"animal/dinner_time",tier:"task"}

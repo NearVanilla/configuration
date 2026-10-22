@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/blind_friend",reward_id:"animal/blind_friend",tier:"goal"}

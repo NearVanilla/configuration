@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/uncontrolled_reproduction",reward_id:"adventure/uncontrolled_reproduction",tier:"goal"}

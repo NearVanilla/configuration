@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/so_bright",reward_id:"challenges/so_bright",tier:"super_challenge"}

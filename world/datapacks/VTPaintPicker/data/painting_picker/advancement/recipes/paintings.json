@@ -1,0 +1,71 @@
+{
+  "parent": "painting_picker:recipes/root",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:painting"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "painting_picker:painting",
+      "painting_picker:painting_variant/alban",
+      "painting_picker:painting_variant/aztec",
+      "painting_picker:painting_variant/aztec2",
+      "painting_picker:painting_variant/backyard",
+      "painting_picker:painting_variant/baroque",
+      "painting_picker:painting_variant/bomb",
+      "painting_picker:painting_variant/bouquet",
+      "painting_picker:painting_variant/burning_skull",
+      "painting_picker:painting_variant/bust",
+      "painting_picker:painting_variant/cavebird",
+      "painting_picker:painting_variant/changing",
+      "painting_picker:painting_variant/cotan",
+      "painting_picker:painting_variant/courbet",
+      "painting_picker:painting_variant/creebet",
+      "painting_picker:painting_variant/donkey_kong",
+      "painting_picker:painting_variant/endboss",
+      "painting_picker:painting_variant/fern",
+      "painting_picker:painting_variant/fighters",
+      "painting_picker:painting_variant/finding",
+      "painting_picker:painting_variant/graham",
+      "painting_picker:painting_variant/humble",
+      "painting_picker:painting_variant/kebab",
+      "painting_picker:painting_variant/lowmist",
+      "painting_picker:painting_variant/match",
+      "painting_picker:painting_variant/meditative",
+      "painting_picker:painting_variant/orb",
+      "painting_picker:painting_variant/owlemons",
+      "painting_picker:painting_variant/passage",
+      "painting_picker:painting_variant/pigscene",
+      "painting_picker:painting_variant/plant",
+      "painting_picker:painting_variant/pointer",
+      "painting_picker:painting_variant/pond",
+      "painting_picker:painting_variant/pool",
+      "painting_picker:painting_variant/prairie_ride",
+      "painting_picker:painting_variant/sea",
+      "painting_picker:painting_variant/skeleton",
+      "painting_picker:painting_variant/skull_and_roses",
+      "painting_picker:painting_variant/stage",
+      "painting_picker:painting_variant/sunflowers",
+      "painting_picker:painting_variant/sunset",
+      "painting_picker:painting_variant/tides",
+      "painting_picker:painting_variant/unpacked",
+      "painting_picker:painting_variant/void",
+      "painting_picker:painting_variant/wanderer",
+      "painting_picker:painting_variant/wasteland",
+      "painting_picker:painting_variant/wither"
+    ]
+  }
+}

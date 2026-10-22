@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/meet_the_snipe",reward_id:"weaponry/meet_the_snipe",tier:"task"}

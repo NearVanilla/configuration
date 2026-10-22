@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/shopaholic",reward_id:"challenges/shopaholic",tier:"super_challenge"}

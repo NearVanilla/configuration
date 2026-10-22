@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/the_last_deal",reward_id:"nether/the_last_deal",tier:"challenge"}

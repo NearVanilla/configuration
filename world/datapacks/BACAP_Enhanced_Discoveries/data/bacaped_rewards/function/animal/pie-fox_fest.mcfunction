@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/pie-fox_fest",reward_id:"animal/pie-fox_fest",tier:"task"}

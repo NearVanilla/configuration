@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:building/statue",reward_id:"building/statue",tier:"goal"}

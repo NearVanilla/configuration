@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/horse_health_hunter",reward_id:"animal/horse_health_hunter",tier:"goal"}

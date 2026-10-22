@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:weakness"
+        }
+      }
+    },
+    "title": {
+      "translate": "You're Not the Zillager"
+    },
+    "description": {
+      "translate": "Try to cure yourself from Zombification",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/cure_zombie_villager",
+  "criteria": {
+    "cure_yourself": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:player",
+            "effects": {
+              "minecraft:weakness": {},
+              "minecraft:absorption": {},
+              "minecraft:regeneration": {
+                "amplifier": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:potion/youre_not_the_zillager"
+  }
+}

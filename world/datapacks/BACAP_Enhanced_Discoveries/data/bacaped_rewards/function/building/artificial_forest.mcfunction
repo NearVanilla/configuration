@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:building/artificial_forest",reward_id:"building/artificial_forest",tier:"challenge"}

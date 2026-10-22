@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/resilient_centenarian",reward_id:"statistics/resilient_centenarian",tier:"goal"}

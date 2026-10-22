@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:farming/not_fireflies",reward_id:"farming/not_fireflies",tier:"task"}

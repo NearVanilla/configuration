@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/snow_fights",reward_id:"weaponry/snow_fights",tier:"goal"}

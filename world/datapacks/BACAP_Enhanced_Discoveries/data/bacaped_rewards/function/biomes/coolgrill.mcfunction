@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/coolgrill",reward_id:"biomes/coolgrill",tier:"task"}

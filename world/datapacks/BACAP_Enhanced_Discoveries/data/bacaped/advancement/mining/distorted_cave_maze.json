@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_gold_ore",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Distorted Cave Maze"
+    },
+    "description": {
+      "translate": "Stay in a deep cave without sunlight and moonlight for 3 days",
+      "color": "#75E1FF",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "To view progress, run:",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "/trigger bac_timers",
+          "color": "gray"
+        }
+      ]
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:mining/light_at_the_end_of_the_tunnel",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:mining/distorted_cave_maze"
+  }
+}

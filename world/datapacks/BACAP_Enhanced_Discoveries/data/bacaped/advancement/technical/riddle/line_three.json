@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_two": true
+              }
+            }
+          }
+        },
+        "recipes": "minecraft:decorated_pot",
+        "ingredients": [
+          {
+            "items": "minecraft:burn_pottery_sherd"
+          },
+          {
+            "items": "minecraft:flow_pottery_sherd"
+          },
+          {
+            "items": "minecraft:angler_pottery_sherd"
+          },
+          {
+            "items": "minecraft:miner_pottery_sherd"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped:riddle/third_line"
+  }
+}

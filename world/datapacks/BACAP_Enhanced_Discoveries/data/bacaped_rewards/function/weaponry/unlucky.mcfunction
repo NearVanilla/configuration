@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/unlucky",reward_id:"weaponry/unlucky",tier:"goal"}

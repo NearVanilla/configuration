@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/what_are_you_doing_in_my_swamp",reward_id:"animal/what_are_you_doing_in_my_swamp",tier:"challenge"}

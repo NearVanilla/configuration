@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/climb_expert",reward_id:"statistics/climb_expert",tier:"goal"}

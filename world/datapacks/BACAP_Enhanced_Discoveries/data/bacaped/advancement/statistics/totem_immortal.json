@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_crystal"
+    },
+    "title": {
+      "translate": "Totem Immortal"
+    },
+    "description": {
+      "translate": "Spend 1000 totems of undying",
+      "color": "light_purple",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "To view progress, run:",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "text": "/trigger bac_statistics",
+          "color": "gray"
+        }
+      ]
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "bacaped:statistics/totem_expert",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:statistics/totem_immortal"
+  }
+}

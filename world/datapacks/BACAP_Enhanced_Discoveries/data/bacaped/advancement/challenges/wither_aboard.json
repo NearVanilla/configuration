@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skull_banner_pattern",
+      "components": {}
+    },
+    "title": {
+      "translate": "Wither Aboard!"
+    },
+    "description": {
+      "translate": "Defeat the Wither in the shipwreck with a Parrot sitting on your shoulder",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:challenges/dead_carnaval",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": "#minecraft:shipwreck"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wither",
+            "location": {
+              "structures": "#minecraft:shipwreck"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:challenges/wither_aboard"
+  }
+}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/good_dreams",reward_id:"biomes/good_dreams",tier:"challenge"}

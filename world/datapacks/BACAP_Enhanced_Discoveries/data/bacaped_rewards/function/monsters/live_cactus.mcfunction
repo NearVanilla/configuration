@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/live_cactus",reward_id:"monsters/live_cactus",tier:"challenge"}

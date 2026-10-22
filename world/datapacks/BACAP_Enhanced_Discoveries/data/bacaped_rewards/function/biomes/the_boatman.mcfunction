@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/the_boatman",reward_id:"biomes/the_boatman",tier:"goal"}

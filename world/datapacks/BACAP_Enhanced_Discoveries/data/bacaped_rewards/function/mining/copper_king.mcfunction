@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/copper_king",reward_id:"mining/copper_king",tier:"challenge"}

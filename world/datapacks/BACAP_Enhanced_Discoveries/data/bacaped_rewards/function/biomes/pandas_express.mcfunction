@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/pandas_express",reward_id:"biomes/pandas_express",tier:"goal"}

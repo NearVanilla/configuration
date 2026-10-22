@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:entity_type": "minecraft:dolphin",
+    "minecraft:nbt": "{GotFish:1b}"
+  }
+}

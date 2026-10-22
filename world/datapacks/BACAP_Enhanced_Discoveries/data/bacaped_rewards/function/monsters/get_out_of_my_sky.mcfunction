@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/get_out_of_my_sky",reward_id:"monsters/get_out_of_my_sky",tier:"challenge"}

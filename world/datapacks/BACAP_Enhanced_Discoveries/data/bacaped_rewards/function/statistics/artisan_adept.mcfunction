@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/artisan_adept",reward_id:"statistics/artisan_adept",tier:"goal"}

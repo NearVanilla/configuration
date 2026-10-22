@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/more_colorful_wool",reward_id:"animal/more_colorful_wool",tier:"challenge"}

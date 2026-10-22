@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:enchanting/small_targets",reward_id:"enchanting/small_targets",tier:"challenge"}

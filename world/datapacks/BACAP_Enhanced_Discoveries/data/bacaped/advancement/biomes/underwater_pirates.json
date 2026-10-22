@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_boat"
+    },
+    "title": {
+      "translate": "Underwater Pirates"
+    },
+    "description": {
+      "translate": "Travel on a sunken boat"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/boaty_mcboatface",
+  "criteria": {
+    "sit_in_boat_under_water": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:vehicle": {
+                  "entity_type": "#blazeandcave:all_boats"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": 1,
+              "offsetZ": 0,
+              "predicate": {
+                "fluid": {
+                  "fluids": "minecraft:water"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:biomes/underwater_pirates"
+  }
+}

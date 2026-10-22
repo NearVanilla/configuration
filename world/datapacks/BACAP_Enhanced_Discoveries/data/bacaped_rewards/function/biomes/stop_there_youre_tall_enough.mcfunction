@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/stop_there_youre_tall_enough",reward_id:"biomes/stop_there_youre_tall_enough",tier:"goal"}

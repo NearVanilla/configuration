@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/live_salmon",reward_id:"animal/live_salmon",tier:"goal"}

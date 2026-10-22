@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/nobody_needs_rockets",reward_id:"adventure/nobody_needs_rockets",tier:"goal"}

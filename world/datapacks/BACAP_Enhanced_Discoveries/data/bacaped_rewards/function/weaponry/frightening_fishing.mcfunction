@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/frightening_fishing",reward_id:"weaponry/frightening_fishing",tier:"goal"}

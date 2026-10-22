@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/withering_depths",reward_id:"nether/withering_depths",tier:"challenge"}

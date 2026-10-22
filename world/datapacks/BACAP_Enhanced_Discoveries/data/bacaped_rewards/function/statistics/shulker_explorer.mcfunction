@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/shulker_explorer",reward_id:"statistics/shulker_explorer",tier:"goal"}

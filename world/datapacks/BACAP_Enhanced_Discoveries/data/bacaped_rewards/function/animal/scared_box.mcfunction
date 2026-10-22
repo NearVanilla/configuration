@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/scared_box",reward_id:"animal/scared_box",tier:"task"}

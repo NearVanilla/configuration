@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/rainbow",reward_id:"nether/rainbow",tier:"goal"}

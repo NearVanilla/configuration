@@ -1,0 +1,277 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_carpet"
+    },
+    "title": {
+      "translate": "Pooch Purge Pilot"
+    },
+    "description": {
+      "translate": "Kill every type of Wolf in their biomes without dismounting a Llama",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:challenges/big_pig_adventure",
+  "criteria": {
+    "ashen_snowy_taiga": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": "minecraft:snowy_taiga"
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:ashen"
+            }
+          }
+        }
+      }
+    },
+    "black_old_growth_pine_taiga": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": "minecraft:old_growth_pine_taiga"
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:black"
+            }
+          }
+        }
+      }
+    },
+    "chestnut_old_growth_spruce_taiga": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": "minecraft:old_growth_spruce_taiga"
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:chestnut"
+            }
+          }
+        }
+      }
+    },
+    "pale_taiga": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": "minecraft:taiga"
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:pale"
+            }
+          }
+        }
+      }
+    },
+    "rusty_sparse_jungle": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": [
+                "minecraft:sparse_jungle",
+                "minecraft:jungle",
+                "minecraft:bamboo_jungle"
+              ]
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:rusty"
+            }
+          }
+        }
+      }
+    },
+    "snowy_grove": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": "minecraft:grove"
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:snowy"
+            }
+          }
+        }
+      }
+    },
+    "spotted_savanna": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": [
+                "minecraft:savanna_plateau",
+                "minecraft:savanna",
+                "minecraft:windswept_savanna"
+              ]
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:spotted"
+            }
+          }
+        }
+      }
+    },
+    "striped_badlands": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": [
+                "minecraft:wooded_badlands",
+                "minecraft:badlands",
+                "minecraft:eroded_badlands"
+              ]
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:striped"
+            }
+          }
+        }
+      }
+    },
+    "woods_forest": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": "minecraft:forest"
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:woods"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:challenges/pooch_purge_pilot"
+  }
+}

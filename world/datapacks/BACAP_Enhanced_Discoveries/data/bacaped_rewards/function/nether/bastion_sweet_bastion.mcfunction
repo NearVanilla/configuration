@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/bastion_sweet_bastion",reward_id:"nether/bastion_sweet_bastion",tier:"goal"}

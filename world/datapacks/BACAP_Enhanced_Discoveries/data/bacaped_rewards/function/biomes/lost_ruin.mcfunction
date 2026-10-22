@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/lost_ruin",reward_id:"biomes/lost_ruin",tier:"goal"}

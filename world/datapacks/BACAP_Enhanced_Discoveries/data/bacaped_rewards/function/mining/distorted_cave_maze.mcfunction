@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/distorted_cave_maze",reward_id:"mining/distorted_cave_maze",tier:"goal"}

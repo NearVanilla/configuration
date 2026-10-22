@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/not_that_impossible",reward_id:"monsters/not_that_impossible",tier:"goal"}

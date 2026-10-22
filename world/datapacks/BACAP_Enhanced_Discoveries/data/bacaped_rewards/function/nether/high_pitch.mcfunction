@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/high_pitch",reward_id:"nether/high_pitch",tier:"challenge"}

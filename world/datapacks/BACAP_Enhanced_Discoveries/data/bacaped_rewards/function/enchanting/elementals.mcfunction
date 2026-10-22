@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:enchanting/elementals",reward_id:"enchanting/elementals",tier:"challenge"}

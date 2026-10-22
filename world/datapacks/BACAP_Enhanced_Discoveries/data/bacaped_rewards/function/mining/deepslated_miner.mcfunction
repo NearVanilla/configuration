@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/deepslated_miner",reward_id:"mining/deepslated_miner",tier:"challenge"}

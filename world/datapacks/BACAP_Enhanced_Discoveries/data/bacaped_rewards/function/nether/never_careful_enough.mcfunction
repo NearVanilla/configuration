@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/never_careful_enough",reward_id:"nether/never_careful_enough",tier:"goal"}

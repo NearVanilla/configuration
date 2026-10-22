@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/do_you_see_this",reward_id:"adventure/do_you_see_this",tier:"challenge"}

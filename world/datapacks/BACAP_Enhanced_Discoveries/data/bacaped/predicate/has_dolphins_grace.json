@@ -1,0 +1,9 @@
+{
+  "entity": "this",
+  "predicate": {
+    "effects": {
+      "minecraft:dolphins_grace": {}
+    }
+  },
+  "type": "minecraft:entity_properties"
+}

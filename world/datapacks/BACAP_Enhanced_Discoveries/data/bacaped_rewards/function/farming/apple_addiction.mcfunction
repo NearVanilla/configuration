@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:farming/apple_addiction",reward_id:"farming/apple_addiction",tier:"goal"}

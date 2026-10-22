@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/skill_issue",reward_id:"animal/skill_issue",tier:"goal"}

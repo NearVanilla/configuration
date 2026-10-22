@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/batman",reward_id:"mining/batman",tier:"goal"}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:redstone/crafting_lockdown",reward_id:"redstone/crafting_lockdown",tier:"task"}

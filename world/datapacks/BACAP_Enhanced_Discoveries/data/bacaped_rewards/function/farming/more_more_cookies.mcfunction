@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:farming/more_more_cookies",reward_id:"farming/more_more_cookies",tier:"challenge"}

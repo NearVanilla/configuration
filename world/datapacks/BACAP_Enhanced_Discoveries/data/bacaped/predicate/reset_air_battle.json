@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "movement_affected_by": {
+          "block": {
+            "blocks": [
+              "minecraft:cobweb",
+              "minecraft:ladder",
+              "minecraft:vine",
+              "minecraft:twisting_vines",
+              "minecraft:weeping_vines",
+              "minecraft:scaffolding"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "stepping_on": {
+          "fluid": {
+            "fluids": "#minecraft:water"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags": {
+          "is_flying": true
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags": {
+          "is_on_ground": true
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags": {
+          "is_swimming": true
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "stepping_on": {
+          "fluid": {
+            "fluids": "#minecraft:lava"
+          }
+        }
+      }
+    }
+  ]
+}
