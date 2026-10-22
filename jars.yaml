@@ -63,9 +63,6 @@ plugins:
 - checksum: 32104140b6b07c219c8338102d79e4b8139b7a3a
   name: Rtag
   version: 1.5.18
-- checksum: be1633fc49fa8909fead2254bffb778dbeec5553
-  name: ForgetfulTrialVault
-  version: 1.0.15
 - checksum: 96a512fba05801c1a8157886da4a5a8a8de33b53
   name: CustomDiscs
   version: 6.0.4
