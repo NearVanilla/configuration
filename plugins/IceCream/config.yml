@@ -1,6 +1,10 @@
 modules:
+  deathlocation:
+    enabled: true
   example:
     enabled: false
+  bonemealablesporeblossoms:
+    enabled: true
   firstjoinmessage:
     enabled: true
     announcement: '<yellow>Welcome our new player <gold><player></gold>!</yellow>'
@@ -8,11 +12,27 @@ modules:
       - '<#EDD9B0>Please read our <click:open_url:"https://discord.com/channels/476016120139350066/478674275885383681"><hover:show_text:"<gray>Open #rules in Discord"><#E0A458><underlined>#rules</underlined></#E0A458></hover></click> and <click:open_url:"https://discord.com/channels/476016120139350066/800053432421056549"><hover:show_text:"<gray>Open #faq in Discord"><#E0A458><underlined>#faq</underlined></#E0A458></hover></click> before you start.</#EDD9B0>'
       - '<#EDD9B0>Join us on <click:open_url:"https://discord.gg/KHAuj5F"><hover:show_text:"<gray>discord.gg/KHAuj5F"><#E0A458><underlined>Discord</underlined></#E0A458></hover></click> or browse the <click:open_url:"http://map.nearvanilla.com/"><hover:show_text:"<gray>map.nearvanilla.com"><#E0A458><underlined>live map</underlined></#E0A458></hover></click>.</#EDD9B0>'
       - '<#EDD9B0>You can kick people out of bed by clicking on the message in chat.</#EDD9B0>'
+  flight:
+    enabled: true
+  hat:
+    enabled: true
   lightning:
     enabled: true
     chance: 0.5
+  locatorbar:
+    enabled: true
+    # https://mcsrc.dev/2/26.2/net/minecraft/server/waypoints/ServerWaypointManager#L94
+    # Allowed range: 0.1 to 60000000.
+    # Using 0 triggers a vanilla bug? that also removes the player from other players' locator bars.
+    # This effectively disables reception; at 0.1, waypoints appear only when another
+    # transmitter is nearly overlapping the player.
+    disabled-receive-range: 0.1
   mutedeaths:
     enabled: true
+  oneplayersleep:
+    enabled: false
+    # Total night speed while sleeping; fractions are supported, minimum 1.0.
+    multiplier: 10.0
   playerheaddrops:
     enabled: true
     drop-chance: 1.0
@@ -55,6 +75,8 @@ modules:
   readonlylectern:
     enabled: true
     max-distance: 5
+  lootcontainerprotection:
+    enabled: true
   wanderful:
     enabled: true
     item_frame:
@@ -88,6 +110,11 @@ modules:
           H: STICK
   phantomtoggle:
     enabled: true
+  vinegrowth:
+    enabled: true
+    messages:
+      stopped: '<gray>Vine growth <red>stopped</red></gray>'
+      growing: '<gray>Vine growth <green>resumed</green></gray>'
   playerseen:
     enabled: true
     date-format: 'yyyy-MM-dd HH:mm:ss'
@@ -105,3 +132,4 @@ modules:
       noon: 6000
       night: 13000
       midnight: 18000
+
