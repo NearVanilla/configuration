@@ -1,0 +1,135 @@
+modules:
+  deathlocation:
+    enabled: true
+  example:
+    enabled: false
+  bonemealablesporeblossoms:
+    enabled: true
+  firstjoinmessage:
+    enabled: true
+    announcement: '<yellow>Welcome our new player <gold><player></gold>!</yellow>'
+    welcome-message:
+      - '<#EDD9B0>Please read our <click:open_url:"https://discord.com/channels/476016120139350066/478674275885383681"><hover:show_text:"<gray>Open #rules in Discord"><#E0A458><underlined>#rules</underlined></#E0A458></hover></click> and <click:open_url:"https://discord.com/channels/476016120139350066/800053432421056549"><hover:show_text:"<gray>Open #faq in Discord"><#E0A458><underlined>#faq</underlined></#E0A458></hover></click> before you start.</#EDD9B0>'
+      - '<#EDD9B0>Join us on <click:open_url:"https://discord.gg/KHAuj5F"><hover:show_text:"<gray>discord.gg/KHAuj5F"><#E0A458><underlined>Discord</underlined></#E0A458></hover></click> or browse the <click:open_url:"http://map.nearvanilla.com/"><hover:show_text:"<gray>map.nearvanilla.com"><#E0A458><underlined>live map</underlined></#E0A458></hover></click>.</#EDD9B0>'
+      - '<#EDD9B0>You can kick people out of bed by clicking on the message in chat.</#EDD9B0>'
+  flight:
+    enabled: true
+  hat:
+    enabled: true
+  lightning:
+    enabled: true
+    chance: 0.5
+  locatorbar:
+    enabled: true
+    # https://mcsrc.dev/2/26.2/net/minecraft/server/waypoints/ServerWaypointManager#L94
+    # Allowed range: 0.1 to 60000000.
+    # Using 0 triggers a vanilla bug? that also removes the player from other players' locator bars.
+    # This effectively disables reception; at 0.1, waypoints appear only when another
+    # transmitter is nearly overlapping the player.
+    disabled-receive-range: 0.1
+  mutedeaths:
+    enabled: true
+  oneplayersleep:
+    enabled: false
+    # Total night speed while sleeping; fractions are supported, minimum 1.0.
+    multiplier: 10.0
+  playerheaddrops:
+    enabled: true
+    drop-chance: 1.0
+    require-player-kill: true
+  isslimechunk:
+    enabled: true
+  wanderingtrades:
+    enabled: true
+    min-heads: 5
+    max-heads: 10
+  staffmode:
+    enabled: true
+  spectator:
+    enabled: true
+    bossbar:
+      text: '<aqua>You are currently in spectator mode</aqua>'
+      color: BLUE
+    messages:
+      join: '<yellow><player> joined the game</yellow>'
+      leave: '<yellow><player> left the game</yellow>'
+      discord-join: '%player% joined the server'
+      discord-leave: '%player% left the server'
+    private-message:
+      blocked-commands:
+        - msg
+        - tell
+        - w
+        - whisper
+      offline-message: '<red>Player not found</red>'
+    carbon-chat:
+      allowed-channels:
+        - staff
+        - staffchat
+        - sc
+  desertmobs:
+    enabled: true
+    spawn:
+      zombie-to-husk-chance: 0.33
+      skeleton-to-parched-chance: 0.33
+  readonlylectern:
+    enabled: true
+    max-distance: 5
+  lootcontainerprotection:
+    enabled: true
+  wanderful:
+    enabled: true
+    item_frame:
+      type: WOODEN_SWORD
+      name: '<gold>Item Frame Wand</gold>'
+      lore:
+        - '<dark_green>Now you see me,</dark_green>'
+        - '<dark_red>now you don''t</dark_red>'
+      crafting:
+        shape:
+          - D
+          - I
+          - S
+        ingredients:
+          D: DIAMOND
+          I: ITEM_FRAME
+          S: STICK
+    armor_stand:
+      type: WOODEN_HOE
+      name: '<gold>Armor Stand Wand</gold>'
+      lore:
+        - Controlling the moves!
+      crafting:
+        shape:
+          - D
+          - A
+          - H
+        ingredients:
+          D: DIAMOND
+          A: ARMOR_STAND
+          H: STICK
+  phantomtoggle:
+    enabled: true
+  vinegrowth:
+    enabled: true
+    messages:
+      stopped: '<gray>Vine growth <red>stopped</red></gray>'
+      growing: '<gray>Vine growth <green>resumed</green></gray>'
+  playerseen:
+    enabled: true
+    date-format: 'yyyy-MM-dd HH:mm:ss'
+    messages:
+      not-found: '<gray>Player <red>could not be found</red>.</gray>'
+      online: '<gray>Player <white><player></white> <green>is currently online</green></gray>'
+      never-played: '<gray>Player <white><player></white> <red>has never played before</red></gray>'
+      last-seen: '<gray>Player <white><player></white> <gray>was last seen <time></gray>'
+  worldtour:
+    enabled: true
+    failsafe-timeout-minutes: 10
+    start-time-ticks: 1000
+    times:
+      day: 1000
+      noon: 6000
+      night: 13000
+      midnight: 18000
+
