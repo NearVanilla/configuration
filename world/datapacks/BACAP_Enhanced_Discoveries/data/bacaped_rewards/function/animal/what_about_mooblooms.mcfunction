@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/what_about_mooblooms",reward_id:"animal/what_about_mooblooms",tier:"challenge"}

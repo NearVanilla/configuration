@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/ravager_repeller",reward_id:"statistics/ravager_repeller",tier:"hidden"}

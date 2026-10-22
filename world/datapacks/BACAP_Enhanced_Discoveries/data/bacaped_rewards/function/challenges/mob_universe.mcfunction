@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/mob_universe",reward_id:"challenges/mob_universe",tier:"super_challenge"}

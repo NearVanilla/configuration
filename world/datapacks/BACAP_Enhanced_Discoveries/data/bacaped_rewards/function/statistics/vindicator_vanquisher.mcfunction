@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/vindicator_vanquisher",reward_id:"statistics/vindicator_vanquisher",tier:"challenge"}

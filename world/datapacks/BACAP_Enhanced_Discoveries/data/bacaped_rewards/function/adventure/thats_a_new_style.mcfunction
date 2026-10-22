@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/thats_a_new_style",reward_id:"adventure/thats_a_new_style",tier:"task"}

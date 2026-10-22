@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/one_more_frog",reward_id:"animal/one_more_frog",tier:"hidden"}

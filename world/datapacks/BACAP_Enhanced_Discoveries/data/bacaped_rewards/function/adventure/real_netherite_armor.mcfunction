@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/real_netherite_armor",reward_id:"adventure/real_netherite_armor",tier:"challenge"}

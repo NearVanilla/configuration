@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/legend_of_the_races",reward_id:"statistics/legend_of_the_races",tier:"hidden"}

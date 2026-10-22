@@ -1,0 +1,740 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            -200712274,
+            1623278547,
+            -1196804118,
+            -1973453694
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzM1NzdkYWM0M2Y0YmQ4YmY0MGJlODczNDJlMmYxNTc2YmViYmRiZjg2ZDdjYmYzYzZiZTY1ZDQ5MjcwOTVjNSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Rainbow!"
+    },
+    "description": {
+      "translate": "Place all kinds of colored glass directly above a beacon",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/light_show",
+  "criteria": {
+    "black_stained_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ],
+                    "nbt": "{Levels:0}"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:black_stained_glass"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beacon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "white_stained_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ],
+                    "nbt": "{Levels:0}"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:white_stained_glass"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beacon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "light_gray_stained_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ],
+                    "nbt": "{Levels:0}"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:light_gray_stained_glass"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beacon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "gray_stained_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ],
+                    "nbt": "{Levels:0}"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:gray_stained_glass"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beacon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "blue_stained_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ],
+                    "nbt": "{Levels:0}"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:blue_stained_glass"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beacon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "red_stained_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ],
+                    "nbt": "{Levels:0}"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:red_stained_glass"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beacon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "green_stained_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ],
+                    "nbt": "{Levels:0}"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:green_stained_glass"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beacon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "lime_stained_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ],
+                    "nbt": "{Levels:0}"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:lime_stained_glass"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beacon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "brown_stained_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ],
+                    "nbt": "{Levels:0}"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:brown_stained_glass"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beacon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "orange_stained_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ],
+                    "nbt": "{Levels:0}"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:orange_stained_glass"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beacon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "yellow_stained_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ],
+                    "nbt": "{Levels:0}"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:yellow_stained_glass"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beacon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "cyan_stained_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ],
+                    "nbt": "{Levels:0}"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:cyan_stained_glass"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beacon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "light_blue_stained_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ],
+                    "nbt": "{Levels:0}"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:light_blue_stained_glass"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beacon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "purple_stained_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ],
+                    "nbt": "{Levels:0}"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:purple_stained_glass"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beacon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "magenta_stained_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ],
+                    "nbt": "{Levels:0}"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:magenta_stained_glass"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beacon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "pink_stained_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ],
+                    "nbt": "{Levels:0}"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:pink_stained_glass"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beacon"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:nether/rainbow"
+  }
+}

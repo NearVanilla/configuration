@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:building/bee_design",reward_id:"building/bee_design",tier:"goal"}

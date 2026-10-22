@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/the_apocalyptic_decalogy",reward_id:"challenges/the_apocalyptic_decalogy",tier:"super_challenge"}

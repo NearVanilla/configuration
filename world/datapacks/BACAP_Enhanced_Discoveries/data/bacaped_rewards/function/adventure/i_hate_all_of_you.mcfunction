@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/i_hate_all_of_you",reward_id:"adventure/i_hate_all_of_you",tier:"challenge"}

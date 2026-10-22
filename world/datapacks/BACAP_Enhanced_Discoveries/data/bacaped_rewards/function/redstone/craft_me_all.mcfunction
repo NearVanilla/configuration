@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:redstone/craft_me_all",reward_id:"redstone/craft_me_all",tier:"challenge"}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/magic_kingdom",reward_id:"challenges/magic_kingdom",tier:"super_challenge"}

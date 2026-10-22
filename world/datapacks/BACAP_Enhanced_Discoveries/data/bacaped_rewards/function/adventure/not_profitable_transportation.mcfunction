@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/not_profitable_transportation",reward_id:"adventure/not_profitable_transportation",tier:"goal"}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:building/smoke_signal",reward_id:"building/smoke_signal",tier:"task"}

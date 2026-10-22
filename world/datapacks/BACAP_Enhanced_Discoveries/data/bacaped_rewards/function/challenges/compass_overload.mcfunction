@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/compass_overload",reward_id:"challenges/compass_overload",tier:"super_challenge"}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/my_chest",reward_id:"statistics/my_chest",tier:"task"}

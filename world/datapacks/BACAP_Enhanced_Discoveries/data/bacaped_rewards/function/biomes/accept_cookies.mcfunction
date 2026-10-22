@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/accept_cookies",reward_id:"biomes/accept_cookies",tier:"task"}

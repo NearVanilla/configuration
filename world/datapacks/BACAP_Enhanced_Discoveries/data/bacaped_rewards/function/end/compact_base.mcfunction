@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/compact_base",reward_id:"end/compact_base",tier:"goal"}

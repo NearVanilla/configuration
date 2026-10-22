@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/dead-eye",reward_id:"weaponry/dead-eye",tier:"challenge"}

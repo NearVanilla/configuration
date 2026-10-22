@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/definitely_not_raid_farming",reward_id:"challenges/definitely_not_raid_farming",tier:"super_challenge"}

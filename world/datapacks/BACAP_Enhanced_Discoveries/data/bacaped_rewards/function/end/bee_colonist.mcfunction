@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/bee_colonist",reward_id:"end/bee_colonist",tier:"goal"}

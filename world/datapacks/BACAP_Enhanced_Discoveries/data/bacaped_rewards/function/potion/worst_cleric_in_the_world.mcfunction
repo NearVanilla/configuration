@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:potion/worst_cleric_in_the_world",reward_id:"potion/worst_cleric_in_the_world",tier:"goal"}

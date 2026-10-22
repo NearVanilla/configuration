@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/inside_out",reward_id:"nether/inside_out",tier:"goal"}

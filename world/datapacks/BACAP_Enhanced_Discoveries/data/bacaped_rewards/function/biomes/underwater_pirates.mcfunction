@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/underwater_pirates",reward_id:"biomes/underwater_pirates",tier:"task"}

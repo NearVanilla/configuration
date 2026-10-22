@@ -1,0 +1,786 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brush",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "General Cleaning"
+    },
+    "description": {
+      "translate": "Clean up each type of structure and spawner in the dungeon",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/raidin_master",
+  "criteria": {
+    "dungeon": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:spawner"
+                }
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": [
+                  "minecraft:brush"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "igloo": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:igloo"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "abandoned_camp": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "#minecraft:abandoned_camp"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "desert_pyramid": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:desert_pyramid"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "jungle_pyramid": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:jungle_pyramid"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "swamp_hut": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:swamp_hut"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "village_desert": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:village_desert"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "village_plains": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:village_plains"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "village_savanna": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:village_savanna"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "village_snowy": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:village_snowy"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "village_taiga": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:village_taiga"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "mineshaft": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:mineshaft"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "mineshaft_mesa": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:mineshaft_mesa"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "stronghold": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:stronghold"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "fortress": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:fortress"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "end_city": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:end_city"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "monument": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:monument"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "mansion": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:mansion"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "ocean_ruin_cold": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:ocean_ruin_cold"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "ocean_ruin_warm": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:ocean_ruin_warm"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "shipwreck": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "minecraft:shipwreck"
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "minecraft:shipwreck_beached"
+                }
+              }
+            }
+          ]
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
+    "buried_treasure": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": [
+                  "minecraft:brush"
+                ]
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "structures": "minecraft:buried_treasure"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "pillager_outpost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "minecraft:pillager_outpost"
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "gamemode": [
+                      "spectator"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ruined_portal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "structures": "minecraft:ruined_portal"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "structures": "minecraft:ruined_portal_desert"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "structures": "minecraft:ruined_portal_jungle"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "structures": "minecraft:ruined_portal_mountain"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "structures": "minecraft:ruined_portal_nether"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "structures": "minecraft:ruined_portal_ocean"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "structures": "minecraft:ruined_portal_swamp"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "gamemode": [
+                      "spectator"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "bastion_remnant": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "minecraft:bastion_remnant"
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "gamemode": [
+                      "spectator"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ancient_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "minecraft:ancient_city"
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "gamemode": [
+                      "spectator"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "trial_chamber": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "minecraft:trial_chambers"
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "gamemode": [
+                      "spectator"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "trail_ruins": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "minecraft:trail_ruins"
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "gamemode": [
+                      "spectator"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/general_cleaning"
+  }
+}

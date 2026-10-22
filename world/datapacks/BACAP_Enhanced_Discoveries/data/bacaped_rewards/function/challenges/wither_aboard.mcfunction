@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/wither_aboard",reward_id:"challenges/wither_aboard",tier:"super_challenge"}

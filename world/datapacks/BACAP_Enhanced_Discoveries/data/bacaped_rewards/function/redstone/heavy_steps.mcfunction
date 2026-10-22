@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:redstone/heavy_steps",reward_id:"redstone/heavy_steps",tier:"challenge"}

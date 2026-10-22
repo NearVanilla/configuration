@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/chief_spide",reward_id:"mining/chief_spide",tier:"challenge"}

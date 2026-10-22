@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/frozen_heart",reward_id:"monsters/frozen_heart",tier:"challenge"}

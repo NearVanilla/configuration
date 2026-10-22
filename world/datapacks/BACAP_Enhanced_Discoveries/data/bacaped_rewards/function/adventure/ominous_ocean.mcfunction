@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/ominous_ocean",reward_id:"adventure/ominous_ocean",tier:"challenge"}

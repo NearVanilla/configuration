@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/true_submarine",reward_id:"statistics/true_submarine",tier:"hidden"}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creaking_heart"
+    },
+    "title": {
+      "translate": "We Are Fine, Really"
+    },
+    "description": {
+      "translate": "Find a Woodland Mansion in the Pale Garden",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/house_of_psychos",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:pale_garden",
+              "structures": "minecraft:mansion"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/we_are_fine_really"
+  }
+}

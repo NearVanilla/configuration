@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:enchanting/heavy_catch",reward_id:"enchanting/heavy_catch",tier:"goal"}

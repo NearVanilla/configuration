@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/crab_should_win",reward_id:"animal/crab_should_win",tier:"challenge"}

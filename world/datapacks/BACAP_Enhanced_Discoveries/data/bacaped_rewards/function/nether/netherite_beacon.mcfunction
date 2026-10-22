@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/netherite_beacon",reward_id:"nether/netherite_beacon",tier:"hidden"}

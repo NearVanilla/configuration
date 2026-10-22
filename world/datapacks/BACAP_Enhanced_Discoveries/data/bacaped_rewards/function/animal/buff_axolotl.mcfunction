@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/buff_axolotl",reward_id:"animal/buff_axolotl",tier:"goal"}

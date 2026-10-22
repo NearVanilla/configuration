@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/more_impossible",reward_id:"monsters/more_impossible",tier:"challenge"}

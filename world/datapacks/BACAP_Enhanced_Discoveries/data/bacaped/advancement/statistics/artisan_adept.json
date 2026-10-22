@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_planks"
+    },
+    "title": {
+      "translate": "Artisan Adept"
+    },
+    "description": {
+      "translate": "Open a crafting table 100 times",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bacaped:statistics/craftsman_novice",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "minecraft:interact_with_crafting_table",
+                  "value": {
+                    "min": 100
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:crafting_table"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:statistics/artisan_adept"
+  }
+}

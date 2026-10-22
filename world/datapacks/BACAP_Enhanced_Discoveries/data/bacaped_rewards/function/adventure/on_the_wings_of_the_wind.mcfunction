@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/on_the_wings_of_the_wind",reward_id:"adventure/on_the_wings_of_the_wind",tier:"challenge"}

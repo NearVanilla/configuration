@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/endergardener",reward_id:"end/endergardener",tier:"goal"}

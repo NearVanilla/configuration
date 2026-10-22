@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/hot_combat",reward_id:"nether/hot_combat",tier:"goal"}

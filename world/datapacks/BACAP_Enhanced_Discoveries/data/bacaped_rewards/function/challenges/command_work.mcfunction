@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/command_work",reward_id:"challenges/command_work",tier:"super_challenge"}

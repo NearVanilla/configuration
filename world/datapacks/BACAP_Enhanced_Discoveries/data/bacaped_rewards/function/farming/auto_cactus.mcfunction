@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:farming/auto_cactus",reward_id:"farming/auto_cactus",tier:"goal"}

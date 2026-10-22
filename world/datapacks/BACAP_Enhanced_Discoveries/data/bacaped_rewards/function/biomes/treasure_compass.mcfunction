@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/treasure_compass",reward_id:"biomes/treasure_compass",tier:"challenge"}

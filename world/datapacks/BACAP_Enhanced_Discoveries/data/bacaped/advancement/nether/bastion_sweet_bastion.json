@@ -1,0 +1,94 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piglin_head"
+    },
+    "title": {
+      "translate": "Bastion Sweet Bastion"
+    },
+    "description": {
+      "translate": "Barter with a Piglin in a bastion with a golden axe in the main hand while wearing the Piglin's head and a piece of the golden armor",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:nether/bastion_robber",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "feet": {
+                        "items": "minecraft:golden_boots"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "chest": {
+                        "items": "minecraft:golden_chestplate"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "legs": {
+                        "items": "minecraft:golden_leggings"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "minecraft:bastion_remnant"
+                },
+                "equipment": {
+                  "head": {
+                    "items": "minecraft:piglin_head"
+                  },
+                  "mainhand": {
+                    "items": "minecraft:golden_axe"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:nether/bastion_sweet_bastion"
+  }
+}

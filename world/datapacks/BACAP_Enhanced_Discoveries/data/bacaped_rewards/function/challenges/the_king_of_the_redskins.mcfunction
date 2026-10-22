@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/the_king_of_the_redskins",reward_id:"challenges/the_king_of_the_redskins",tier:"super_challenge"}

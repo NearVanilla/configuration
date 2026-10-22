@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/bastion_robber",reward_id:"nether/bastion_robber",tier:"goal"}

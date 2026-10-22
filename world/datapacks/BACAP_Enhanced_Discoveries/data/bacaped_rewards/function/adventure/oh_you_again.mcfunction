@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/oh_you_again",reward_id:"adventure/oh_you_again",tier:"goal"}

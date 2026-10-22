@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "biomes": [
+            "minecraft:deep_dark",
+            "minecraft:dripstone_caves",
+            "minecraft:lush_caves"
+          ],
+          "can_see_sky": false
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "position": {
+            "y": {
+              "max": 20
+            }
+          },
+          "can_see_sky": false
+        }
+      }
+    }
+  ]
+}

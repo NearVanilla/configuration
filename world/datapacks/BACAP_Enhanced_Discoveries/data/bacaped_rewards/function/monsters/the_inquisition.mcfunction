@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/the_inquisition",reward_id:"monsters/the_inquisition",tier:"challenge"}

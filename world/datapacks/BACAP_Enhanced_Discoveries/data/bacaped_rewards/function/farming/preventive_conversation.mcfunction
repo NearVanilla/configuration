@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:farming/preventive_conversation",reward_id:"farming/preventive_conversation",tier:"goal"}

@@ -1,0 +1,201 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beehive"
+    },
+    "title": {
+      "translate": "Say NO to Campfires"
+    },
+    "description": {
+      "translate": "Place a dispenser next to a beehive to automate your buzzing buddies\u2019 work",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:redstone/dispense_with_this",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:dispenser",
+                      "state": {
+                        "facing": "west"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": [
+                        "minecraft:bee_nest",
+                        "minecraft:beehive"
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:dispenser",
+                      "state": {
+                        "facing": "east"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": [
+                        "minecraft:bee_nest",
+                        "minecraft:beehive"
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:dispenser",
+                      "state": {
+                        "facing": "south"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetZ": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": [
+                        "minecraft:bee_nest",
+                        "minecraft:beehive"
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:dispenser",
+                      "state": {
+                        "facing": "north"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetZ": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": [
+                        "minecraft:bee_nest",
+                        "minecraft:beehive"
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:dispenser",
+                      "state": {
+                        "facing": "up"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": [
+                        "minecraft:bee_nest",
+                        "minecraft:beehive"
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:dispenser",
+                      "state": {
+                        "facing": "down"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": [
+                        "minecraft:bee_nest",
+                        "minecraft:beehive"
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:redstone/say_no_to_campfires"
+  }
+}

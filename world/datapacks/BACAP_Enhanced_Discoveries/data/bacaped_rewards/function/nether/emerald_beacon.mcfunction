@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/emerald_beacon",reward_id:"nether/emerald_beacon",tier:"challenge"}

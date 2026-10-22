@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:redstone/more_optimisations",reward_id:"redstone/more_optimisations",tier:"task"}

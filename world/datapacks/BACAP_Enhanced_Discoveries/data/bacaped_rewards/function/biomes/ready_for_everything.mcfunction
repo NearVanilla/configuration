@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/ready_for_everything",reward_id:"biomes/ready_for_everything",tier:"goal"}

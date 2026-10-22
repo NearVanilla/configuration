@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/jurassic_park",reward_id:"adventure/jurassic_park",tier:"challenge"}

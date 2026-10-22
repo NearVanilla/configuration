@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/the_beginning_of_the_day",reward_id:"adventure/the_beginning_of_the_day",tier:"goal"}

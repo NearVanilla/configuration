@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/suspicious_miner",reward_id:"adventure/suspicious_miner",tier:"challenge"}

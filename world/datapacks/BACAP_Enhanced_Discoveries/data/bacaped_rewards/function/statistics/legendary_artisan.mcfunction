@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/legendary_artisan",reward_id:"statistics/legendary_artisan",tier:"hidden"}

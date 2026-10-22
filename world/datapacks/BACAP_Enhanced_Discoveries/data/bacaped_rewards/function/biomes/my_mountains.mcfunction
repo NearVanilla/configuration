@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/my_mountains",reward_id:"biomes/my_mountains",tier:"goal"}

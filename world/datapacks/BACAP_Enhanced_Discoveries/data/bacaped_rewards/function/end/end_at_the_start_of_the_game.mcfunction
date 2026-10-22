@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/end_at_the_start_of_the_game",reward_id:"end/end_at_the_start_of_the_game",tier:"challenge"}

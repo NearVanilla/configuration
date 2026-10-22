@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/dragon_vs_wither_iv",reward_id:"challenges/dragon_vs_wither_iv",tier:"super_challenge"}

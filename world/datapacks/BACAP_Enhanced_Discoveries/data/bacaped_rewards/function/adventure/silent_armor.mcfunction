@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/silent_armor",reward_id:"adventure/silent_armor",tier:"challenge"}

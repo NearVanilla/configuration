@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/metal_miner",reward_id:"statistics/metal_miner",tier:"goal"}

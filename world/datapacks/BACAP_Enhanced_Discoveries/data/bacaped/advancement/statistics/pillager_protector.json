@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_axe"
+    },
+    "title": {
+      "translate": "Pillager Protector"
+    },
+    "description": {
+      "translate": "Win 20 Raids",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:statistics/raid_resister",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "minecraft:raid_win",
+                  "value": {
+                    "min": 20
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:statistics/pillager_protector"
+  }
+}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/hydrodynamic",reward_id:"biomes/hydrodynamic",tier:"goal"}

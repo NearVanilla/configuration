@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/baron_munchausen",reward_id:"challenges/baron_munchausen",tier:"super_challenge"}

@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dandelion",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "What About Mooblooms?"
+    },
+    "description": {
+      "translate": "Kill a Glow Squid in a flower forest while holding a dandelion"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:animal/iceologer_shouldve_won",
+  "criteria": {
+    "kill_glowsquid": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:equipment": {
+                  "offhand": {
+                    "items": "minecraft:dandelion"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:equipment": {
+                  "mainhand": {
+                    "items": "minecraft:dandelion"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:glow_squid",
+            "location": {
+              "biomes": "minecraft:flower_forest"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:animal/what_about_mooblooms"
+  }
+}

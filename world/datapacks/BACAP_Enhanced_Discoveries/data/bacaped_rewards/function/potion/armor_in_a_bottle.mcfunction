@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:potion/armor_in_a_bottle",reward_id:"potion/armor_in_a_bottle",tier:"goal"}

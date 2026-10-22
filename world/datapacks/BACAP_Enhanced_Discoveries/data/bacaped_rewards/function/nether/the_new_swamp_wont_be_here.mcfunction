@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/the_new_swamp_wont_be_here",reward_id:"nether/the_new_swamp_wont_be_here",tier:"challenge"}

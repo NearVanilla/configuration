@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/beyond_the_rings",reward_id:"nether/beyond_the_rings",tier:"challenge"}

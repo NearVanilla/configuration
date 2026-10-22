@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/dragon_blitz",reward_id:"end/dragon_blitz",tier:"challenge"}

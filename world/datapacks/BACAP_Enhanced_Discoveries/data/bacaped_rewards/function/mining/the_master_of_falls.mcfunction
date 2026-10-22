@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/the_master_of_falls",reward_id:"mining/the_master_of_falls",tier:"challenge"}

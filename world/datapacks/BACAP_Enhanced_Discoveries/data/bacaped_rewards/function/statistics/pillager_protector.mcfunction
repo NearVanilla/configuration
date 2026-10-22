@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/pillager_protector",reward_id:"statistics/pillager_protector",tier:"goal"}

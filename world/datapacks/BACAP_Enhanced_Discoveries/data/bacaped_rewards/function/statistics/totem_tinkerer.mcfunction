@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/totem_tinkerer",reward_id:"statistics/totem_tinkerer",tier:"task"}

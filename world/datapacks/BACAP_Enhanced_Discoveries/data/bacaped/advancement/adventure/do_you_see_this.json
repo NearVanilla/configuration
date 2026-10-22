@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate",
+      "components": {
+        "minecraft:enchantment_glint_override": false
+      }
+    },
+    "title": {
+      "translate": "Do You See This?"
+    },
+    "description": {
+      "translate": "Equip a Villager with a full set of netherite armor"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/workaholic",
+  "criteria": {
+    "villager": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "gamemode": [
+                "survival",
+                "creative",
+                "adventure"
+              ],
+              "looking_at": {
+                "entity_type": "minecraft:villager",
+                "slots": {
+                  "armor.legs": {
+                    "items": "minecraft:netherite_leggings"
+                  },
+                  "armor.feet": {
+                    "items": "minecraft:netherite_boots"
+                  },
+                  "armor.head": {
+                    "items": "minecraft:netherite_helmet"
+                  },
+                  "armor.chest": {
+                    "items": "minecraft:netherite_chestplate"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/do_you_see_this"
+  }
+}

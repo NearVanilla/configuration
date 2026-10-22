@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:redstone/say_no_to_campfires",reward_id:"redstone/say_no_to_campfires",tier:"goal"}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:enchanting/pyromaniac",reward_id:"enchanting/pyromaniac",tier:"challenge"}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/happy_ghast_silencer",reward_id:"nether/happy_ghast_silencer",tier:"challenge"}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/the_invisible_turtle",reward_id:"animal/the_invisible_turtle",tier:"goal"}

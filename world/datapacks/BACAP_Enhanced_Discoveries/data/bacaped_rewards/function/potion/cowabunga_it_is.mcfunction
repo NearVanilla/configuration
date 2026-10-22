@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:potion/cowabunga_it_is",reward_id:"potion/cowabunga_it_is",tier:"goal"}

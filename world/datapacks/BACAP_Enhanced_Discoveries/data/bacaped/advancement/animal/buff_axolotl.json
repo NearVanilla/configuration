@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:axolotl_bucket"
+    },
+    "title": {
+      "translate": "Buff Axolotl"
+    },
+    "description": {
+      "translate": "Give your pet Axolotl resistance, regeneration and strength effects and win a fight",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/kill_axolotl_target",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "source": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:axolotl",
+            "effects": {
+              "minecraft:strength": {},
+              "minecraft:resistance": {},
+              "minecraft:regeneration": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:animal/buff_axolotl"
+  }
+}

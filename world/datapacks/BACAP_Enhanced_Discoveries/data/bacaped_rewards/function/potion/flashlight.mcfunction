@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:potion/flashlight",reward_id:"potion/flashlight",tier:"goal"}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/riddle_me_that",reward_id:"challenges/riddle_me_that",tier:"super_challenge"}

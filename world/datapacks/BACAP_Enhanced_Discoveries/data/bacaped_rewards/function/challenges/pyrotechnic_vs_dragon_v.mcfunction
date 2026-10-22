@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/pyrotechnic_vs_dragon_v",reward_id:"challenges/pyrotechnic_vs_dragon_v",tier:"super_challenge"}

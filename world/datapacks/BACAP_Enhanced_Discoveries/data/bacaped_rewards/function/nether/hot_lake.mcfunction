@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/hot_lake",reward_id:"nether/hot_lake",tier:"goal"}

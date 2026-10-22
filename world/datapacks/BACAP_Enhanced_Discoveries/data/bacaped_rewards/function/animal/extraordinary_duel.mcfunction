@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/extraordinary_duel",reward_id:"animal/extraordinary_duel",tier:"challenge"}

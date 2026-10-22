@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/firefox",reward_id:"nether/firefox",tier:"goal"}

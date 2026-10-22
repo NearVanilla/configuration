@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            83801695,
+            -439074246,
+            -2078819339,
+            1011729717
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzFkNDlhNjBmNWQyOTNhMGViNzRmODA4MjU3MzQ2NDU2MjY0MGU3NDdlY2Y0Y2U4ZDc5YzQwMTg3OTljOTAyYyJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "The Beginning of the Day"
+    },
+    "description": {
+      "translate": "Ring the bell at 6:00 at the top of the world",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/oh_look_it_dings",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:time_check",
+              "clock": "minecraft:overworld",
+              "value": {
+                "min": 0,
+                "max": 500
+              },
+              "period": 24000
+            },
+            "blazeandcave:at_world_height"
+          ]
+        },
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "minecraft:bell"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/the_beginning_of_the_day"
+  }
+}

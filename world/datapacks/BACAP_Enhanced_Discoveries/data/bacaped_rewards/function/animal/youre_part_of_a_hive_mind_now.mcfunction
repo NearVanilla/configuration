@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/youre_part_of_a_hive_mind_now",reward_id:"animal/youre_part_of_a_hive_mind_now",tier:"challenge"}

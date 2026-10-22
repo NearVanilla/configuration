@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/turtle_bowl",reward_id:"animal/turtle_bowl",tier:"challenge"}

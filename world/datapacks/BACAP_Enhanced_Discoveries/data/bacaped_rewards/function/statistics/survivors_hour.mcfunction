@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/survivors_hour",reward_id:"statistics/survivors_hour",tier:"task"}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:farming/high_risk",reward_id:"farming/high_risk",tier:"goal"}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/my_little_pig",reward_id:"challenges/my_little_pig",tier:"super_challenge"}

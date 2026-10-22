@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/driven_to_death",reward_id:"animal/driven_to_death",tier:"goal"}

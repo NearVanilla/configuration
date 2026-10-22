@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/monstrous_rocket",reward_id:"challenges/monstrous_rocket",tier:"super_challenge"}

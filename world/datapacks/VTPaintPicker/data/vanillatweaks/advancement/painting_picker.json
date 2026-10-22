@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:painting"
+		},
+		"title": "Painting Picker",
+		"description": [
+			"",
+			{
+				"text": "Use a stonecutter to choose a painting's variant.",
+				"color": "gold"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

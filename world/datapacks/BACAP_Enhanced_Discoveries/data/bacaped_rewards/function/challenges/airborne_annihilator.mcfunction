@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/airborne_annihilator",reward_id:"challenges/airborne_annihilator",tier:"super_challenge"}

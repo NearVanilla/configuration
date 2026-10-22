@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/dragon_vs_warden_vi",reward_id:"challenges/dragon_vs_warden_vi",tier:"super_challenge"}

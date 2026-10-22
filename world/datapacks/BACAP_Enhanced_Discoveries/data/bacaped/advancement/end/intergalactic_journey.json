@@ -1,0 +1,72 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_boat"
+    },
+    "title": {
+      "translate": "Intergalactic Journey"
+    },
+    "description": {
+      "translate": "Sail through all dimensions in one boat without getting out"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:end/interdimensional_travel",
+  "criteria": {
+    "overworld": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "dimension": "minecraft:overworld"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:all_boats"
+            }
+          }
+        }
+      }
+    },
+    "the_nether": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "dimension": "minecraft:the_nether"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:all_boats"
+            }
+          }
+        }
+      }
+    },
+    "the_end": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "dimension": "minecraft:the_end"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:all_boats"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:end/intergalactic_journey"
+  }
+}

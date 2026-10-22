@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/craftsman_novice",reward_id:"statistics/craftsman_novice",tier:"task"}

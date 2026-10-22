@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/camel_adventure",reward_id:"animal/camel_adventure",tier:"challenge"}

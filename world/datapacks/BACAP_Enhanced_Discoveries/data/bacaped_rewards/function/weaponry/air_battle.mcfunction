@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/air_battle",reward_id:"weaponry/air_battle",tier:"challenge"}

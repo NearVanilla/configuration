@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pointed_dripstone",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "What a Stupid Purchase"
+    },
+    "description": {
+      "translate": "Buy pointed dripstone or sulfur spike from a Wandering Trader in its native caves",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "blazeandcave:challenges/root",
+  "criteria": {
+    "buy_pointed_dripstone": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:dripstone_caves"
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:pointed_dripstone"
+        }
+      }
+    },
+    "buy_sulfur_spike": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:sulfur_caves"
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:sulfur_spike"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "buy_pointed_dripstone",
+      "buy_sulfur_spike"
+    ]
+  ],
+  "rewards": {
+    "function": "bacaped_rewards:challenges/what_a_stupid_purchase"
+  }
+}

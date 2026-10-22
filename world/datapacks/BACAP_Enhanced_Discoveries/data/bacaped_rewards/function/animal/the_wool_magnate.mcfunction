@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/the_wool_magnate",reward_id:"animal/the_wool_magnate",tier:"challenge"}

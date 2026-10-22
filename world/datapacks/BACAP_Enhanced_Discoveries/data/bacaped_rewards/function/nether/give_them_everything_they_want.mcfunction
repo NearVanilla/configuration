@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/give_them_everything_they_want",reward_id:"nether/give_them_everything_they_want",tier:"challenge"}

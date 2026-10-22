@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/phantom_rider",reward_id:"monsters/phantom_rider",tier:"goal"}

@@ -1,0 +1,189 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_sapling",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Eco Warrior"
+    },
+    "description": {
+      "translate": "Plant 100 saplings of any one type",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:farming/one_course_meal",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "stats": [
+                    {
+                      "type": "minecraft:used",
+                      "stat": "minecraft:acacia_sapling",
+                      "value": {
+                        "min": 99
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "stats": [
+                    {
+                      "type": "minecraft:used",
+                      "stat": "minecraft:birch_sapling",
+                      "value": {
+                        "min": 99
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "stats": [
+                    {
+                      "type": "minecraft:used",
+                      "stat": "minecraft:cherry_sapling",
+                      "value": {
+                        "min": 99
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "stats": [
+                    {
+                      "type": "minecraft:used",
+                      "stat": "minecraft:dark_oak_sapling",
+                      "value": {
+                        "min": 99
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "stats": [
+                    {
+                      "type": "minecraft:used",
+                      "stat": "minecraft:jungle_sapling",
+                      "value": {
+                        "min": 99
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "stats": [
+                    {
+                      "type": "minecraft:used",
+                      "stat": "minecraft:oak_sapling",
+                      "value": {
+                        "min": 99
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "stats": [
+                    {
+                      "type": "minecraft:used",
+                      "stat": "minecraft:spruce_sapling",
+                      "value": {
+                        "min": 99
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "stats": [
+                    {
+                      "type": "minecraft:used",
+                      "stat": "minecraft:poplar_sapling",
+                      "value": {
+                        "min": 99
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "stats": [
+                    {
+                      "type": "minecraft:used",
+                      "stat": "minecraft:pale_oak_sapling",
+                      "value": {
+                        "min": 99
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:farming/eco_warrior"
+  }
+}

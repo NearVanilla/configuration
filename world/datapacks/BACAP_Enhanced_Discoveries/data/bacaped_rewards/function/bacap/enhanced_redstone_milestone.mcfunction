@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:bacap/enhanced_redstone_milestone",reward_id:"bacap/enhanced_redstone_milestone",tier:"milestone"}

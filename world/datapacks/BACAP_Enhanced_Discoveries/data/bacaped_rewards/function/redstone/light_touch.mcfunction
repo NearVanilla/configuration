@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:redstone/light_touch",reward_id:"redstone/light_touch",tier:"goal"}

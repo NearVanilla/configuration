@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_leggings",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Your Legs Are Beat"
+    },
+    "description": {
+      "translate": "Sprint 1000km",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "blazeandcave:statistics/your_legs_must_be_tired",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "minecraft:sprint_one_cm",
+                  "value": {
+                    "min": 100000000
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:statistics/your_legs_are_beat"
+  }
+}

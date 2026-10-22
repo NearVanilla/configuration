@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/master_of_survival",reward_id:"statistics/master_of_survival",tier:"challenge"}

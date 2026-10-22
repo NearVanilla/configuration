@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/light_at_the_end_of_the_tunnel",reward_id:"mining/light_at_the_end_of_the_tunnel",tier:"goal"}

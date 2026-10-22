@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:farming/its_midnight_already",reward_id:"farming/its_midnight_already",tier:"task"}

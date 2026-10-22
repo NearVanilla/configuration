@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:redstone/fat_cat",reward_id:"redstone/fat_cat",tier:"task"}

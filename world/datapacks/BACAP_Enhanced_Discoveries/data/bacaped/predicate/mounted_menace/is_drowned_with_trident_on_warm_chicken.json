@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "entity_type": "minecraft:drowned",
+    "minecraft:vehicle": {
+      "entity_type": "minecraft:chicken",
+      "components": {
+        "minecraft:chicken/variant": "warm"
+      }
+    },
+    "slots": {
+      "weapon.mainhand": {
+        "items": "minecraft:trident"
+      }
+    }
+  }
+}

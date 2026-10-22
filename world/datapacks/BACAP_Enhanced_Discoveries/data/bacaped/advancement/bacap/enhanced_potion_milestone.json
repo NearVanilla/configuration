@@ -1,0 +1,171 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lingering_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 3325906
+        }
+      }
+    },
+    "title": {
+      "translate": "Enh. Potions Milestone"
+    },
+    "description": {
+      "translate": "Complete every Enhanced Discoveries advancement in the Potion tab",
+      "color": "yellow"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:bacap/enhanced_nether_milestone",
+  "criteria": {
+    "armor_in_a_bottle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:potion/armor_in_a_bottle": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "cowabunga_it_is": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:potion/cowabunga_it_is": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "flashlight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:potion/flashlight": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "healed_by_pain": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:potion/healed_by_pain": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "jump_for_joy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:potion/jump_for_joy": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "master_of_effects": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:potion/master_of_effects": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "trial_potions": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:potion/trial_potions": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "worst_cleric_in_the_world": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:potion/worst_cleric_in_the_world": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "youre_not_the_zillager": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:potion/youre_not_the_zillager": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:bacap/enhanced_potion_milestone"
+  }
+}

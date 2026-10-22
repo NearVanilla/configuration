@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:amethyst",
+          "pattern": "minecraft:host"
+        }
+      }
+    },
+    "title": {
+      "translate": "Ready for Everything"
+    },
+    "description": {
+      "translate": "Wear a turtle shell, an elytra, golden leggings and leather boots to be ready for everything",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/walk_on_powder_snow_with_leather_boots",
+  "criteria": {
+    "read_for_everything": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "head": {
+                "items": "minecraft:turtle_helmet"
+              },
+              "chest": {
+                "items": "minecraft:elytra"
+              },
+              "legs": {
+                "items": "minecraft:golden_leggings"
+              },
+              "feet": {
+                "items": "minecraft:leather_boots"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:biomes/ready_for_everything"
+  }
+}

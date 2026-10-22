@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/totem_expert",reward_id:"statistics/totem_expert",tier:"challenge"}

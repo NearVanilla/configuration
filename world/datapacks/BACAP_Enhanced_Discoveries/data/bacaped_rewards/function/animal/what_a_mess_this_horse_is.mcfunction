@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/what_a_mess_this_horse_is",reward_id:"animal/what_a_mess_this_horse_is",tier:"challenge"}

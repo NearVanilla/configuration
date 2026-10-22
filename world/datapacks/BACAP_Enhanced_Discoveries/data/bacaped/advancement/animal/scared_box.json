@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            -984652737,
+            -535804085,
+            -1988420630,
+            -1498338036
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmYyZTE2ZWNiNWEwZmU3NTk3NDg5NTY5YjAwZmFjOTFjYmE2YWViOGQ0MTc5ZmI0ZWFkMWY3YzEzM2FiNjcwOSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Scared Box"
+    },
+    "description": {
+      "translate": "Look at a scared Armadillo using a spyglass",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/farmadillo",
+  "criteria": {
+    "look_at_scared_armadillo": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "entity_type": "minecraft:armadillo",
+                "minecraft:nbt": "{state: \"scared\"}"
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:animal/scared_box"
+  }
+}

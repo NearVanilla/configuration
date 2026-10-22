@@ -1,0 +1,87 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_basalt",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "The New Swamp Won't Be Here"
+    },
+    "description": {
+      "translate": "Bring all kinds of Frogs, a Bogged and Slime to Basalt Deltas and then kill them all with a single piercing shot"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/astrobrute",
+  "criteria": {
+    "small_targets": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:basalt_deltas"
+            }
+          }
+        },
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
+        },
+        "victims": [
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:bogged"
+            }
+          },
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:frog",
+              "components": {
+                "minecraft:frog/variant": "minecraft:cold"
+              }
+            }
+          },
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:frog",
+              "components": {
+                "minecraft:frog/variant": "minecraft:temperate"
+              }
+            }
+          },
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:frog",
+              "components": {
+                "minecraft:frog/variant": "minecraft:warm"
+              }
+            }
+          },
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:slime"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:nether/the_new_swamp_wont_be_here"
+  }
+}

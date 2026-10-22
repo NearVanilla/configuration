@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/suspicious_duel",reward_id:"monsters/suspicious_duel",tier:"goal"}

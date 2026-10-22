@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/desert_warrior",reward_id:"animal/desert_warrior",tier:"goal"}

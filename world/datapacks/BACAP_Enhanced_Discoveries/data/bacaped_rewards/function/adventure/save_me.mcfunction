@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/save_me",reward_id:"adventure/save_me",tier:"challenge"}

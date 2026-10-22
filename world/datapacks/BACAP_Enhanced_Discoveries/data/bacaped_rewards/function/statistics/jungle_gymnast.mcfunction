@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/jungle_gymnast",reward_id:"statistics/jungle_gymnast",tier:"task"}

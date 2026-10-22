@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/zero_coordinates_magnet",reward_id:"challenges/zero_coordinates_magnet",tier:"super_challenge"}

@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_block",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Copper King"
+    },
+    "description": {
+      "translate": "Stand on a chest filled with copper blocks"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/master_copper_miner",
+  "criteria": {
+    "stand_on_chest_full_copper_blocks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:chest",
+                "nbt": "{Items:[{Slot:0b,count:64,id:\"minecraft:copper_block\"},{Slot:1b,count:64,id:\"minecraft:copper_block\"},{Slot:2b,count:64,id:\"minecraft:copper_block\"},{Slot:3b,count:64,id:\"minecraft:copper_block\"},{Slot:4b,count:64,id:\"minecraft:copper_block\"},{Slot:5b,count:64,id:\"minecraft:copper_block\"},{Slot:6b,count:64,id:\"minecraft:copper_block\"},{Slot:7b,count:64,id:\"minecraft:copper_block\"},{Slot:8b,count:64,id:\"minecraft:copper_block\"},{Slot:9b,count:64,id:\"minecraft:copper_block\"},{Slot:10b,count:64,id:\"minecraft:copper_block\"},{Slot:11b,count:64,id:\"minecraft:copper_block\"},{Slot:12b,count:64,id:\"minecraft:copper_block\"},{Slot:13b,count:64,id:\"minecraft:copper_block\"},{Slot:14b,count:64,id:\"minecraft:copper_block\"},{Slot:15b,count:64,id:\"minecraft:copper_block\"},{Slot:16b,count:64,id:\"minecraft:copper_block\"},{Slot:17b,count:64,id:\"minecraft:copper_block\"},{Slot:18b,count:64,id:\"minecraft:copper_block\"},{Slot:19b,count:64,id:\"minecraft:copper_block\"},{Slot:20b,count:64,id:\"minecraft:copper_block\"},{Slot:21b,count:64,id:\"minecraft:copper_block\"},{Slot:22b,count:64,id:\"minecraft:copper_block\"},{Slot:23b,count:64,id:\"minecraft:copper_block\"},{Slot:24b,count:64,id:\"minecraft:copper_block\"},{Slot:25b,count:64,id:\"minecraft:copper_block\"},{Slot:26b,count:64,id:\"minecraft:copper_block\"}]}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:mining/copper_king"
+  }
+}

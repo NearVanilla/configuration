@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "entity_type": "minecraft:witch",
+    "minecraft:vehicle": {
+      "entity_type": "minecraft:chicken",
+      "components": {
+        "minecraft:chicken/variant": "temperate"
+      }
+    }
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_stew",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Delicious"
+    },
+    "description": {
+      "translate": "Feed a Brown Mooshroom with every flower you can use in suspicious stews",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/im_gonna_be_sick",
+  "criteria": {
+    "azure_bluet": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:azure_bluet"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:mooshroom",
+            "minecraft:nbt": "{stew_effects:[{id:\"minecraft:blindness\"}]}"
+          }
+        }
+      }
+    },
+    "open_eyeblossom": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:open_eyeblossom"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:mooshroom",
+            "nbt": "{stew_effects:[{id:\"minecraft:blindness\"}]}"
+          }
+        }
+      }
+    },
+    "closed_eyeblossom": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:closed_eyeblossom"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:mooshroom",
+            "nbt": "{stew_effects:[{id:\"minecraft:nausea\"}]}"
+          }
+        }
+      }
+    },
+    "allium": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:allium"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:mooshroom",
+            "nbt": "{stew_effects:[{id:\"minecraft:fire_resistance\"}]}"
+          }
+        }
+      }
+    },
+    "blue_orchid": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:blue_orchid"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:mooshroom",
+            "nbt": "{stew_effects:[{id:\"minecraft:saturation\"}]}"
+          }
+        }
+      }
+    },
+    "dandelion": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:dandelion"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:mooshroom",
+            "nbt": "{stew_effects:[{id:\"minecraft:saturation\"}]}"
+          }
+        }
+      }
+    },
+    "lily_of_the_valley": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lily_of_the_valley"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:mooshroom",
+            "nbt": "{stew_effects:[{id:\"minecraft:poison\"}]}"
+          }
+        }
+      }
+    },
+    "cornflower": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:cornflower"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:mooshroom",
+            "nbt": "{stew_effects:[{id:\"minecraft:jump_boost\"}]}"
+          }
+        }
+      }
+    },
+    "red_tulip": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:red_tulip"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:mooshroom",
+            "nbt": "{stew_effects:[{id:\"minecraft:weakness\"}]}"
+          }
+        }
+      }
+    },
+    "orange_tulip": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:orange_tulip"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:mooshroom",
+            "nbt": "{stew_effects:[{id:\"minecraft:weakness\"}]}"
+          }
+        }
+      }
+    },
+    "white_tulip": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:white_tulip"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:mooshroom",
+            "nbt": "{stew_effects:[{id:\"minecraft:weakness\"}]}"
+          }
+        }
+      }
+    },
+    "pink_tulip": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:pink_tulip"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:mooshroom",
+            "nbt": "{stew_effects:[{id:\"minecraft:weakness\"}]}"
+          }
+        }
+      }
+    },
+    "poppy": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poppy"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:mooshroom",
+            "nbt": "{stew_effects:[{id:\"minecraft:night_vision\"}]}"
+          }
+        }
+      }
+    },
+    "torchflower": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:torchflower"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:mooshroom",
+            "nbt": "{stew_effects:[{id:\"minecraft:night_vision\"}]}"
+          }
+        }
+      }
+    },
+    "wither_rose": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:wither_rose"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:mooshroom",
+            "nbt": "{stew_effects:[{id:\"minecraft:wither\"}]}"
+          }
+        }
+      }
+    },
+    "oxeye_daisy": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:oxeye_daisy"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:mooshroom",
+            "nbt": "{stew_effects:[{id:\"minecraft:regeneration\"}]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:farming/delicious"
+  }
+}

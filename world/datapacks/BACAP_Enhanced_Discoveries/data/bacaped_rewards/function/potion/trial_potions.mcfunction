@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:potion/trial_potions",reward_id:"potion/trial_potions",tier:"challenge"}

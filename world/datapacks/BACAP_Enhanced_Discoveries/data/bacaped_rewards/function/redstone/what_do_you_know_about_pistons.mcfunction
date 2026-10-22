@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:redstone/what_do_you_know_about_pistons",reward_id:"redstone/what_do_you_know_about_pistons",tier:"challenge"}

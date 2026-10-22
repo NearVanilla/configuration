@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/the_sugar_cane_diet",reward_id:"animal/the_sugar_cane_diet",tier:"goal"}

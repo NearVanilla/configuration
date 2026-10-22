@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/echoing_call",reward_id:"animal/echoing_call",tier:"task"}

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Master Shieldman"
+    },
+    "description": {
+      "translate": "Create a shield with all possible enchantments at max level",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:enchanting/unbreakable",
+  "criteria": {
+    "unb3_mend_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield",
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:mending"
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:enchanting/master_shieldman"
+  }
+}

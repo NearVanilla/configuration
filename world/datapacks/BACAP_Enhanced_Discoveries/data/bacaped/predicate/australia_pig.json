@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:all_of",
+      "terms": [
+        {
+          "type": "minecraft:location_check",
+          "offsetY": 1,
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:grass_block"
+            }
+          }
+        },
+        {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:pig",
+            "minecraft:components": {
+              "minecraft:pig/variant": "minecraft:warm",
+              "minecraft:custom_name": "Grumm"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:all_of",
+      "terms": [
+        {
+          "type": "minecraft:location_check",
+          "offsetY": 1,
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:grass_block"
+            }
+          }
+        },
+        {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:pig",
+            "minecraft:components": {
+              "minecraft:pig/variant": "minecraft:warm",
+              "minecraft:custom_name": "Dinnerbone"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

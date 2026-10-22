@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/air_balloon",reward_id:"animal/air_balloon",tier:"goal"}

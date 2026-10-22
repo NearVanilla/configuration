@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/high_explosives",reward_id:"monsters/high_explosives",tier:"challenge"}

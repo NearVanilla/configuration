@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/chests_aficionado",reward_id:"statistics/chests_aficionado",tier:"hidden"}

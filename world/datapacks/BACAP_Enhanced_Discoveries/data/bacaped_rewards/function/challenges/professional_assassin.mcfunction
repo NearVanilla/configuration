@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/professional_assassin",reward_id:"challenges/professional_assassin",tier:"super_challenge"}

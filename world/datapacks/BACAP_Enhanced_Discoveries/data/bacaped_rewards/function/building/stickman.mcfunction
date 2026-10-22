@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:building/stickman",reward_id:"building/stickman",tier:"challenge"}

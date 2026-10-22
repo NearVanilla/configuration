@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/5_birds_1_stone",reward_id:"challenges/5_birds_1_stone",tier:"super_challenge"}

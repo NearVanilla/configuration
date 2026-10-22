@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/stone_cutter",reward_id:"statistics/stone_cutter",tier:"task"}

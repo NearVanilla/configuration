@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/telefoxing",reward_id:"animal/telefoxing",tier:"goal"}

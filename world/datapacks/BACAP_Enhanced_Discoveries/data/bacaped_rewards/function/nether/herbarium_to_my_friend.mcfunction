@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/herbarium_to_my_friend",reward_id:"nether/herbarium_to_my_friend",tier:"goal"}

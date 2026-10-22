@@ -1,0 +1,138 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:twisting_vines"
+    },
+    "title": {
+      "translate": "Stop There, You're Tall Enough"
+    },
+    "description": {
+      "translate": "Stop the growth of kelp, twisted vines, weeping vines and cave vines",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/tarzan",
+  "criteria": {
+    "kelp": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:shears"
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:kelp",
+                  "state": {
+                    "age": {
+                      "min": "25"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "weeping_vines": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:shears"
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:weeping_vines",
+                  "state": {
+                    "age": {
+                      "min": "25"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "twisting_vines": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:shears"
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:twisting_vines",
+                  "state": {
+                    "age": {
+                      "min": "25"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "cave_vines": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:shears"
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:cave_vines",
+                  "state": {
+                    "age": {
+                      "min": "25"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:biomes/stop_there_youre_tall_enough"
+  }
+}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/pulse_detonation_engine",reward_id:"challenges/pulse_detonation_engine",tier:"super_challenge"}
