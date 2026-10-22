@@ -9,7 +9,7 @@
 #   2. delete only git-ignored world data (`git clean -fdX world/`),
 #   3. copy the generated world in, leaving every tracked file alone.
 #
-# The seed is never written to a tracked file. Pass it with --seed or NV_WORLD_SEED.
+# The seed is never written to a tracked file. Pass it with --seed.
 # Note: the scratch world uses Paper's default config, so the few chunks around
 # spawn are generated with default feature seeds, not the ones in paper-world.yml.
 #
@@ -29,7 +29,7 @@ usage() {
 Usage: scripts/new_world.sh [options]
 
   --seed SEED      World seed (any string; negative numbers: --seed=-123).
-                   Defaults to $NV_WORLD_SEED, else a random seed.
+                   Defaults to a random seed.
   --dry-run        Generate and verify the scratch world, then stop. Deletes nothing.
   --yes            Do not ask for confirmation before wiping the world.
   --no-snapshot    Skip the btrfs snapshot taken before wiping.
@@ -42,7 +42,7 @@ die() {
   exit 1
 }
 
-seed="${NV_WORLD_SEED-}"
+seed=""
 dry_run=false
 assume_yes=false
 snapshot=true

@@ -15,8 +15,7 @@ scripts/new_world.sh --seed=<seed>             # snapshots, wipes, installs the 
 docker compose up -d survival
 ```
 
-- The seed comes from `--seed`, else `$NV_WORLD_SEED`, else a random one. It is never written to a
-  tracked file. Use `NV_WORLD_SEED` if you do not want it in your shell history.
+- The seed comes from `--seed`, else a random one. It is never written to a tracked file.
 - The script generates the world in a scratch dir first and checks the seed, so a bad seed fails
   before anything is deleted.
 - Only git-ignored world data is removed (`git clean -fdX`); datapacks and tracked files are kept.
