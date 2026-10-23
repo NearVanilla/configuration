@@ -1,6 +1,10 @@
 modules:
   deathlocation:
     enabled: true
+  deathdb:
+    enabled: true
+    # Maximum stored deaths per player; the oldest are pruned first. 0 keeps everything.
+    max-records-per-player: 100
   example:
     enabled: false
   bonemealablesporeblossoms:
@@ -115,6 +119,24 @@ modules:
     messages:
       stopped: '<gray>Vine growth <red>stopped</red></gray>'
       growing: '<gray>Vine growth <green>resumed</green></gray>'
+  maptools:
+    enabled: true
+    layer-label: 'Claims'
+    marker-layer-label: 'Markers'
+    # The Minecraft item shown for a marker icon in the icon menu. Icons named after an item
+    # (chest.png) use that item without an entry here; others show as paper.
+    marker-icon-items:
+      pin: red_dye
+      home: red_bed
+      shop: gold_nugget
+      flag: blue_banner
+      star: nether_star
+      portal: obsidian
+      tree: oak_sapling
+    # Color for new claims: a name like gold or a hex code like '#ff8800'.
+    claim-color: 'gold'
+    # How solid the claim color is on the web map: 0 = only the border, 1 = solid color.
+    claim-fill-opacity: 0.2
   playerseen:
     enabled: true
     date-format: 'yyyy-MM-dd HH:mm:ss'
