@@ -75,6 +75,9 @@ plugins:
 - checksum: f576038135551cb5549856bafec8d4f2456e1ba5
   name: packetevents
   version: 2.14.0
+- checksum: fb15258b4b1ab4f00962b0cff24e0157bf117775
+  name: squaremap
+  version: 1.4.3
 version:
-  build: 200
+  build: 218
   name: '26.3'
