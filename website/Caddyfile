@@ -24,21 +24,11 @@ http://*.{$DOMAIN} {
 }
 
 # Snippet https://caddyserver.com/docs/caddyfile/concepts#snippets
-(mapredir) {
-	reverse_proxy survival:25566 {
-		header_up Host {http.reverse_proxy.upstream.hostport}
-	}
-	#root * /usr/share/caddy
-	#file_server
-	#try_files {path} {path}.html /map_coming_soon.html
-}
-
 (squaremap) {
 	root * {args.0}
 	file_server
 }
 
-map.{$DOMAIN},
 www.{$DOMAIN},
 {$DOMAIN} {
 	encode zstd gzip
@@ -60,17 +50,9 @@ www.{$DOMAIN},
 		redir https://{$DOMAIN}{uri} permanent
 	}
 
-	@map host map.{$DOMAIN}
-	handle @map {
-		import mapredir
-	}
-
 	@root host {$DOMAIN}
 	handle @root {
 		root * /usr/share/caddy # Default value
-		handle_path /map/* {
-			import mapredir
-		}
 		file_server
 		try_files {path} {path}.html /index.html
 	}
@@ -84,4 +66,13 @@ www.{$DOMAIN},
 creative-map.{$DOMAIN} {
 	encode zstd gzip
 	import squaremap /usr/share/caddy/creative-squaremap
+}
+
+# Survival squaremap
+{$SURVIVAL_MAP_SUBDOMAIN}.{$DOMAIN} {
+	encode zstd gzip
+	basicauth {
+		{$SURVIVAL_MAP_USER} {$SURVIVAL_MAP_PASSWORD_HASH}
+	}
+	import squaremap /usr/share/caddy/survival-squaremap
 }
