@@ -69,10 +69,7 @@ creative-map.{$DOMAIN} {
 }
 
 # Survival squaremap
-{$SURVIVAL_MAP_SUBDOMAIN}.{$DOMAIN} {
+map.{$DOMAIN} {
 	encode zstd gzip
-	basicauth {
-		{$SURVIVAL_MAP_USER} {$SURVIVAL_MAP_PASSWORD_HASH}
-	}
 	import squaremap /usr/share/caddy/survival-squaremap
 }

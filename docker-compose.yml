@@ -146,9 +146,6 @@ services:
     environment:
       DOMAIN: "${DOMAIN?}"
       DISCORD_INVITE_LINK: "${DISCORDSRV_INVITE_LINK?}"
-      SURVIVAL_MAP_SUBDOMAIN: "${SURVIVAL_MAP_SUBDOMAIN?}"
-      SURVIVAL_MAP_USER: "${SURVIVAL_MAP_USER?}"
-      SURVIVAL_MAP_PASSWORD_HASH: "${SURVIVAL_MAP_PASSWORD_HASH?}"
     extra_hosts: ["hostnet.internal:host-gateway"]
   # MONITORING
   node_exporter:
