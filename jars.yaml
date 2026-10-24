@@ -69,12 +69,15 @@ plugins:
 - checksum: e2107fdc2bda5ef1c495ce5e607f898eb5c4d9d3
   name: ProtocolLib
   version: 5.5.0-SNAPSHOT
-- checksum: 2fb15a41b467748ce9845d594225fcc64f865bf2
+- checksum: aa657886d8495d5e96ba1272019734463351eb0b
   name: IceCream
   version: 1.1-SNAPSHOT
 - checksum: f576038135551cb5549856bafec8d4f2456e1ba5
   name: packetevents
   version: 2.14.0
+- checksum: fb15258b4b1ab4f00962b0cff24e0157bf117775
+  name: squaremap
+  version: 1.4.3
 version:
-  build: 200
+  build: 218
   name: '26.3'
