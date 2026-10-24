@@ -78,6 +78,9 @@ plugins:
 - checksum: fb15258b4b1ab4f00962b0cff24e0157bf117775
   name: squaremap
   version: 1.4.3
+- checksum: cbe8f9803af8dba9728c5fa44f23ac993862211c
+  name: DiscordSRV
+  version: 1.30.5
 version:
   build: 218
   name: '26.3'
