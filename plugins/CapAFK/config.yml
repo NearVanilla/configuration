@@ -7,8 +7,8 @@ Kick_Reason: '&cKicked for AFKing more than 3 hours!'
 Warning_End_Message: |-
   &9Thanks for verifying that you are playing.
   Don't forget to stretch and hydrate!
-Chat: false
-Title: true
+Chat: true
+Title: false
 Sound: false
 Message_All: true
 Use_Custom_Command: false
