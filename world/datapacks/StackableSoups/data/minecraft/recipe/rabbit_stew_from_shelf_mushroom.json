@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "rabbit_stew",
+  "ingredients": [
+    "minecraft:baked_potato",
+    "minecraft:cooked_rabbit",
+    "minecraft:bowl",
+    "minecraft:carrot",
+    "minecraft:shelf_mushroom"
+  ],
+  "result": {
+    "id": "minecraft:rabbit_stew",
+    "count": 1,
+    "components": {
+      "minecraft:max_stack_size": 64
+    }
+  }
+}
