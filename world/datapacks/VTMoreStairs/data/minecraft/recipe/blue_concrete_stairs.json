@@ -1,0 +1,15 @@
+{
+	"result": {
+		"id": "minecraft:blue_concrete_stairs",
+		"count": 8
+	},
+	"type": "crafting_shaped",
+	"pattern": [
+		"#  ",
+		"## ",
+		"###"
+	],
+	"key": {
+		"#": "minecraft:blue_concrete"
+	}
+}
