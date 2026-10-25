@@ -1,0 +1,16 @@
+{
+	"result": {
+		"id": "minecraft:poplar_stairs",
+		"count": 8
+	},
+	"type": "crafting_shaped",
+	"pattern": [
+		"#  ",
+		"## ",
+		"###"
+	],
+	"key": {
+		"#": "minecraft:poplar_planks"
+	},
+	"group": "wooden_stairs"
+}
