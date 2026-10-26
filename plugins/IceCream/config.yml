@@ -137,6 +137,9 @@ modules:
     claim-color: 'gold'
     # How solid the claim color is on the web map: 0 = only the border, 1 = solid color.
     claim-fill-opacity: 0.2
+    # Creating or reshaping a claim asks for confirmation when it overlaps or is within this many
+    # blocks of another claim.
+    nearby-claim-distance: 300
   playerseen:
     enabled: true
     date-format: 'yyyy-MM-dd HH:mm:ss'
