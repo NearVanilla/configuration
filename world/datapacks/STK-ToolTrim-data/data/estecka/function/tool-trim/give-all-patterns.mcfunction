@@ -1,0 +1,21 @@
+# Args: $(item) $(material)
+
+$give @s $(item)[ trim={ material:$(material), pattern:bolt      } ]
+$give @s $(item)[ trim={ material:$(material), pattern:coast     } ]
+$give @s $(item)[ trim={ material:$(material), pattern:dune      } ]
+$give @s $(item)[ trim={ material:$(material), pattern:eye       } ]
+$give @s $(item)[ trim={ material:$(material), pattern:flow      } ]
+$give @s $(item)[ trim={ material:$(material), pattern:host      } ]
+$give @s $(item)[ trim={ material:$(material), pattern:raiser    } ]
+$give @s $(item)[ trim={ material:$(material), pattern:rib       } ]
+$give @s $(item)[ trim={ material:$(material), pattern:sentry    } ]
+
+$give @s $(item)[ trim={ material:$(material), pattern:shaper    } ]
+$give @s $(item)[ trim={ material:$(material), pattern:silence   } ]
+$give @s $(item)[ trim={ material:$(material), pattern:snout     } ]
+$give @s $(item)[ trim={ material:$(material), pattern:spire     } ]
+$give @s $(item)[ trim={ material:$(material), pattern:tide      } ]
+$give @s $(item)[ trim={ material:$(material), pattern:vex       } ]
+$give @s $(item)[ trim={ material:$(material), pattern:ward      } ]
+$give @s $(item)[ trim={ material:$(material), pattern:wayfinder } ]
+$give @s $(item)[ trim={ material:$(material), pattern:wild      } ]
