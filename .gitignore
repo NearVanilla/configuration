@@ -78,3 +78,5 @@ plugins/CustomDiscs/musicdata
 plugins/CustomDiscs/data.yml
 plugins/EggBattle/scores.yml
 plugins/ForgetfulTrialVault/locale
+plugins/IceCream/map-areas.json
+plugins/IceCream/map-areas.json.bak
