@@ -1,185 +1,144 @@
 Lang:
-  
+  # Plugin language
+  lang: en_us
+
   # Send messages to clients in their own language, if available
   client-lang: true
-  
-  # Plugin language
-  lang: en_en
-
-
 
 Options:
-  corridor-crawl: false
-  
-  # Show a custom message when a player begins sitting or posing
-  custom-message: true
-  Emote:
-    max-distance: 192.0
-  
-  # List of worlds where all features are enabled (other worlds are blocked when the list is not empty)
-  WorldWhitelist: []
-  
-  # Enable extended compatibility mode for all features (use only if necessary, e.g., to resolve false feedback from anti-cheat plugins)
-  enhanced-compatibility: false
-  
-  # List of active feature flags (primarily for unofficial features for individual use)
-  FeatureFlags: []
-  
-  # Force players to stand up after taking damage
-  get-up-damage: false
-  
-  # Allow standing up by sneaking
-  get-up-sneak: true
-  
-  # Return players to their original position upon standing up
-  get-up-return: false
-  
-  # Force players to stand up when the block beneath breaks
-  get-up-break: true
-  
-  # Allow sitting or posing in unsafe locations
-  allow-unsafe: false
-  
-  # Allow only one player per block to sit or pose
-  same-block-rest: false
-  
-  # Center the player on the block when sitting or posing
-  center-block: true
-  
-  
-  
-  Pose:
-    pose-message: true
-    
-    # Allow interactions with the environment or other players while posing
-    interact: false
-    
-    # Reset the time since a player's last rest when lying down (affects phantom spawn timer)
-    lay-rest: true
-    
-    # Emit snoring sounds when lying down
-    lay-snoring-sounds: true
-    
-    # Emit snoring sounds only at night
-    lay-snoring-night-only: true
-    
-    # Count lying players for skipping the night (at least one player must sleep in a bed)
-    lay-night-skip: true
-  
-  
-  
-  Crawl:
-    
-    # Allow crawling by default without using 'crawl toggle'
-    default-crawl-mode: true
-    
-    # Allow standing up from crawling by sneaking
-    get-up-sneak: true
-    
-    # Enable double-sneak to start crawling (requires looking straight down)
-    double-sneak: false
-  
-  
-  
-  # Restrict all features to trusted regions only (for region plugins)
-  trusted-region-only: false
-  
-  # Materials where sitting or posing is disabled
-  MaterialBlacklist:
-  - lava
-  
-  # Commands that cannot be executed while using a feature
-  CommandBlacklist:
-  - skin
-  - nick
-  
   # Plugin sends update notifications
   check-for-update: false
-  
+
+  # Force players to stand up after taking damage
+  get-up-damage: false
+
+  # Allow standing up by sneaking
+  get-up-sneak: true
+
+  # Return players to their original position upon standing up
+  get-up-return: false
+
+  # Force players to stand up when the block beneath breaks
+  get-up-break: true
+
+  # Allow sitting or posing in unsafe locations
+  allow-unsafe: false
+
+  # Allow only one player per block to sit or pose
+  same-block-rest: false
+
+  # Center the player on the block when sitting or posing
+  center-block: true
+
+  # Show a custom message when a player begins sitting or posing
+  custom-message: true
+
   Sit:
-    
-    # Allow sitting only on the bottom part of stairs and slabs
+    # Sit materials where a player can sit by clicking (material or tag, each can have block data)
+    # Create a custom height offset by separating it with a ';' character
+    SitMaterials:
+    - "#stairs"
+    - "#slabs"
+    - "#carpets"
+    - "#wool_carpets"
+    - "moss_carpet"
+    - "pale_moss_carpet"
+    - "shelf_mushroom"
+    - "snow"
+    - "big_dripleaf"
+
+    # Allow sitting only on the bottom part of slabs
     bottom-part-only: true
-    
+
     # Require an empty main hand to sit by clicking
     empty-hand-only: true
-    sit-message: true
-    
+
+    # Maximum distance from the block to allow sitting by clicking (0 = unlimited)
+    max-distance: 0.0
+
     # Allow sitting by default without using 'sit toggle'
     default-sit-mode: true
-    sit-at-block-center: true
-    
-    # Blocks where a player can sit by clicking (materials & tags) ('*' for every block)
-    # Create a height-offset by separating the material or tag with a ';' character
-    SitMaterials:
-    - '#STAIRS'
-    - '#SLABS'
-    - '#CARPETS'
-    - MOSS_CARPET
-    - BIG_DRIPLEAF
-    - SNOW
-    sit-allow-unsafe: false
-    sit-in-waterlogged-block: true
-    get-up-on-block-break: true
-    back-to-stand-location: false
-    sit-on-same-block: false
-    sit-only-with-empty-hand: true
-    
-    # Maximum distance from the block to allow sitting by clicking (0 means unlimited)
-    max-distance: 0.0
-    seat-rotation-ticks: 2
-    send-custom-sit-message: true
-    default-sit-toggle-mode: true
-  
-  
-  
+
   PlayerSit:
-    
-    # Place the player at the bottom of the stack upon dismounting
-    bottom-return: false
-    
     # Allow players to sit on other players by clicking
     allow-sit: false
-    
+
     # Allow players to sit on NPCs by clicking
     allow-sit-npc: false
-    
-    # Maximum number of players that can be stacked (0 means unlimited)
+
+    # Maximum number of players that can be stacked (0 = unlimited)
     max-stack: 0
-    
+
     # Force eject passengers when sneaking
     sneak-ejects: true
-    
+
+    # Place the player at the bottom of the stack upon dismounting
+    bottom-return: false
+
     # Require an empty main hand to sit on other players
     empty-hand-only: true
-    
-    # Maximum distance for sitting on other players (0 means unlimited)
+
+    # Maximum distance for sitting on other players (0 = unlimited)
     max-distance: 0.0
-    sit-message: true
-    
+
     # Allow sitting on other players by default without using 'sit playertoggle'
     default-sit-mode: true
-    allow-player-sit-on-player: false
-    allow-player-sit-on-npc: false
-    max-player-sit-amount: 0
-    eject-players-with-sneak: true
-    sit-only-with-empty-hand: true
-  Lay:
-    lay-at-block-center: true
-    get-up-on-block-break: true
-    lay-on-same-block: true
-    send-custom-lay-message: true
-    lay-player-can-interact: false
+
+  Pose:
+    # Allow interactions with the environment or other players while posing
+    interact: false
+
+    # Reset the time since a player's last rest when lying down (affects e.g. phantom spawn timer)
+    lay-rest: true
+
+    # Emit snoring sounds when lying down
     lay-snoring-sounds: true
-    lay-snoring-only-at-night: true
-    lay-snoring-sound-ticks: 90
-    lay-can-skip-night: true
-    lay-hide-nametag: false
-  
+
+    # Emit snoring sounds only at night
+    lay-snoring-night-only: true
+
+    # Count lying players for skipping the night (at least one player must sleep in a bed)
+    lay-night-skip: true
+
+  Crawl:
+    # Allow standing up from crawling by sneaking
+    get-up-sneak: true
+
+    # Start crawling when sneaking in front of a 1 block high corridor
+    corridor-crawl: false
+
+    # Enable double-sneak to start crawling
+    double-sneak: false
+
+    # Minimum pitch (looking down) required to trigger double-sneak crawling
+    double-sneak-pitch: 75
+
+    # Maximum time in milliseconds between the two sneaks to trigger double-sneak crawling
+    double-sneak-time: 400
+
+    # Allow crawling by default without using 'crawl toggle'
+    default-crawl-mode: true
+
+    # Number of box layers used for crawling (1 = 1x1, 2 = 3x3, 3 = 5x5, ...)
+    layers: 1
+
+  # Restrict all features to be only available to trusted players in a region (supported: PlotSquared & GriefPrevention)
+  trusted-region-only: false
+
   # List of worlds where all features are disabled
   WorldBlacklist: []
-  MaterialWhiteList: []
-  MaterialBlackList: []
-  BlockedCommandList: []
-  get-up-on-damage: false
-  sit-lay-only-in-own-plot: false
+
+  # List of worlds where all features are enabled (other worlds are blocked when the list is not empty)
+  WorldWhitelist: []
+
+  # Materials where sitting or posing is disabled
+  MaterialBlacklist:
+  - "lava"
+
+  # Commands that cannot be executed while using a feature
+  CommandBlacklist:
+  - "skin"
+  - "nick"
+
+  # List of active feature flags (primarily for unofficial features for individual use)
+  FeatureFlags: []
