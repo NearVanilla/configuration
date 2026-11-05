@@ -7,7 +7,7 @@ settings:
     language-file: lang-en.yml
     debug-mode: false
     update-checker: false
-    web-address: https://{{ SURVIVAL_MAP_SUBDOMAIN }}.{{ DOMAIN }}
+    web-address: https://map.{{ DOMAIN }}
     web-directory:
         path: web
         auto-update: true

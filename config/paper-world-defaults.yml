@@ -77,6 +77,7 @@ collisions:
 command-blocks:
   force-follow-perm-level: true
   permissions-level: 2
+  time-format-pattern: default
 entities:
   armor-stands:
     do-collision-entity-lookups: true
@@ -238,6 +239,7 @@ environment:
   disable-ice-and-snow: false
   disable-thunder: false
   fire-tick-delay: 30
+  fix-missing-tree-snow: false
   frosted-ice:
     delay:
       max: 40
