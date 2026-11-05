@@ -9,6 +9,7 @@ Lang:
 
 
 Options:
+  corridor-crawl: false
   
   # Show a custom message when a player begins sitting or posing
   custom-message: true
