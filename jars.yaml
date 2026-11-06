@@ -6,27 +6,21 @@ plugins:
 - checksum: 8d5a063d7a5bda9ceb355e37801f3ee5cb4fbaba
   name: Tebex
   version: 2.4.2
-- checksum: e77b811d89234f7c56d2ae629dda97622f866c45
-  name: CapAFK
-  version: 1.4.1.10
-- checksum: 7ff47ee3afec89a1725e6eef393f373c549eff3b
+- checksum: 1ad238cf2e923a7dac91c93ae5c7681bcb96abda
   name: Chunky
-  version: 1.5.3
-- checksum: 55c5f0fa6e98f33a9c951244bbc56551ef95ff3e
+  version: 1.5.66
+- checksum: b09f6caa043000252d97da75609c874893c53621
   name: GSit
-  version: 3.7.0
+  version: 3.8.0
 - checksum: 98cdb10ee7942cf75a119a811eaf178eaeebf9ca
   name: OpenInv
   version: 5.3.5
 - checksum: dd5fa9be6f5faf8a053a597491d194f2de8963ec
   name: WorldGuard
   version: 7.0.20+2410-0b6c3f1
-- checksum: 072fbb8d2c70007c3170b12563af4911cee286da
+- checksum: 65d82f0b9ee49b35447d55fc4b31edaf9cd32f8d
   name: LuckPerms
-  version: 5.5.87
-- checksum: d786a7f4b0eafef864ed6d7bbf0d4df9a67f4958
-  name: spark
-  version: 1.10.165
+  version: 5.5.91
 - checksum: e1e443a08d3280f9dbcb233a8c3a20d4c1286a6d
   name: Vault
   version: 1.7.3-b131
@@ -39,18 +33,18 @@ plugins:
 - checksum: 7102d12e2ec63335bd8cc7481cd474fbf4bab4ef
   name: CarbonChat
   version: 3.0.0-beta.39
-- checksum: bdc44827f53e392800935452dc2c6e6e20f378d4
+- checksum: 1e367706440cbcb6c380d54527dc4f3c66443cf1
   name: voicechat
-  version: 2.6.24
+  version: 2.6.27
 - checksum: 8ebfef41f5dc1ea502b5b95c29e39d3ad355853e
   name: FreedomChat
   version: 1.7.10
-- checksum: 64c670a392991bdedfbdd5faeeb7e9f806e1ccf4
+- checksum: 63cc04d8769e1366a29df02e5d512f6393e8d863
   name: FastAsyncWorldEdit
-  version: 2.16.1+9e5e49e
-- checksum: b0df0349eec56ad6a8ce1227c7d543036abec9b2
+  version: 2.16.2+eef5a6f
+- checksum: bdfee3ea1f4d550a9b8e22970a1908da4a39d9a0
   name: ChunkyBorder
-  version: 1.2.23
+  version: 1.2.75
 - checksum: 4febe9216f7ccc133f0071c0a055e322882726f4
   name: SignedVelocity
   version: 1.5.0
