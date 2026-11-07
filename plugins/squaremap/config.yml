@@ -95,12 +95,7 @@ world-settings:
                     default-hidden: false
                     layer-priority: 1
                     z-index: 1
-            visibility-limits:
-            -   type: circle
-                enabled: true
-                center-x: 0
-                center-z: 0
-                radius: 1400
+            visibility-limits: []
         player-tracker:
             enabled: true
             update-interval-seconds: 1

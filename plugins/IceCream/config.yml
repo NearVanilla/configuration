@@ -64,7 +64,7 @@ modules:
   mutedeaths:
     enabled: true
   oneplayersleep:
-    enabled: false
+    enabled: true
     # Total night speed while sleeping; fractions are supported, minimum 1.0.
     multiplier: 10.0
   playerheaddrops:

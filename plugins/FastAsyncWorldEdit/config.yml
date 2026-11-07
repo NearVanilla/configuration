@@ -1,9 +1,9 @@
 # These first 6 aren't configurable
 issues: "https://github.com/IntellectualSites/FastAsyncWorldEdit/issues"
 wiki: "https://intellectualsites.github.io/fastasyncworldedit-documentation/"
-date: "Mon Nov 09 00:00:00 UTC 2026"
+date: "Tue Dec 01 00:00:00 UTC 2026"
 build: "https://ci.athion.net/job/FastAsyncWorldEdit/0"
-commit: "https://github.com/IntellectualSites/FastAsyncWorldEdit/commit/f61a1b62"
+commit: "https://github.com/IntellectualSites/FastAsyncWorldEdit/commit/f110a591"
 platform: "Bukkit"
 # Set true to enable WorldEdit restrictions per region (e.g. PlotSquared or WorldGuard).
 # To be allowed to WorldEdit in a region, users need the appropriate
@@ -104,13 +104,13 @@ web:
   #  - Adding '*' to the list will allow any host, but this is NOT adviseable
   #  - Crash exploits exist with malformed images
   #  - See: https://medium.com/chargebee-engineering/perils-of-parsing-pixel-flood-attack-on-java-imageio-a97aeb06637d
-  allowed-image-hosts: 
+  allowed-image-hosts:
   - "i.imgur.com"
 
 extent:
   # Don't bug console when these plugins slow down WorldEdit operations
   #  - You'll see a message in console or ingame if you need to change this option
-  allowed-plugins: 
+  allowed-plugins:
   - "com.example.ExamplePlugin"
   # Should debug messages be sent when third party extents are used?
   debug: true
@@ -292,7 +292,7 @@ region-restrictions-options:
   # managers are not checked if an exclusive manager allows an edit.
   #  - May be useful to add PlotSquared if using both P2 and WorldGuard on a server
   #  - Some custom-implementations in other plugins may override this setting
-  exclusive-managers: 
+  exclusive-managers:
   - "ExamplePlugin"
   # If a worldguard-protected world should be considered as a region blacklist.
   #  - This will create a blacklist of regions where an edit cannot operate.
@@ -396,7 +396,7 @@ limits:
     #  - "minecraft:conduit[waterlogged=true]"
     #  - "minecraft:piston[extended=false,facing=west]"
     #  - "minecraft:wheat[age=7]"
-    disallowed-blocks: 
+    disallowed-blocks:
     - "minecraft:wheat"
     - "minecraft:fire"
     - "minecraft:redstone_wire"

@@ -3,6 +3,8 @@
 
 version: 1
 border-options:
+  prevent-end-gateway: false
+  prevent-trident: false
   check-interval: 20
   message: '&cYou have reached the edge of this world.'
   use-action-bar: true
