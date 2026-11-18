@@ -10,8 +10,6 @@
 		"###"
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:cut_copper"
-		}
+		"#": "minecraft:cut_copper"
 	}
 }

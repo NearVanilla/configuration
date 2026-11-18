@@ -10,8 +10,6 @@
 		"###"
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:mossy_cobblestone"
-		}
+		"#": "minecraft:mossy_cobblestone"
 	}
 }

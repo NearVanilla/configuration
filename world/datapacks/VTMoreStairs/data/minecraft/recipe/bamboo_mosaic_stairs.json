@@ -10,8 +10,6 @@
 		"###"
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:bamboo_mosaic"
-		}
+		"#": "minecraft:bamboo_mosaic"
 	}
 }

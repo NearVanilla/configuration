@@ -10,8 +10,6 @@
 		"###"
 	],
 	"key": {
-		"#": {
-			"tag": "more_stairs:quartz"
-		}
+		"#": "#more_stairs:quartz"
 	}
 }

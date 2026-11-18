@@ -10,8 +10,6 @@
 		"###"
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:stone"
-		}
+		"#": "minecraft:stone"
 	}
 }

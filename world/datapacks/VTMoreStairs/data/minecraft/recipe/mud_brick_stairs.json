@@ -10,8 +10,6 @@
 		"###"
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:mud_bricks"
-		}
+		"#": "minecraft:mud_bricks"
 	}
 }

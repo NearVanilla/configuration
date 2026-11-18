@@ -10,9 +10,7 @@
 		"###"
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:blackstone"
-		}
+		"#": "minecraft:blackstone"
 	},
 	"group": "wooden_stairs"
 }
