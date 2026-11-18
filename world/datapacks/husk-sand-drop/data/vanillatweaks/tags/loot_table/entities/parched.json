@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/parched",
+      "required": false
+    },
+    {
+      "id": "#husks_drop_sand:entities/parched",
+      "required": false
+    }
+  ]
+}

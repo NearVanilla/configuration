@@ -1,18 +1,22 @@
 {
+  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": 0.2
-            }
-          ],
-          "type": "item",
+          "type": "minecraft:item",
           "name": "minecraft:elytra",
-          "weight": 1
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
+          }
         }
       ]
     }
