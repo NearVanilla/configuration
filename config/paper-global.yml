@@ -61,6 +61,7 @@ collisions:
   send-full-pos-for-hard-colliding-entities: true
 commands:
   ride-command-allow-player-as-vehicle: false
+  server-side-dimension-suggestions: true
   suggest-player-names-when-null-tab-completions: true
 console:
   enable-brigadier-completions: true
