@@ -63,7 +63,7 @@ plugins:
 - checksum: e2107fdc2bda5ef1c495ce5e607f898eb5c4d9d3
   name: ProtocolLib
   version: 5.5.0-SNAPSHOT
-- checksum: 55ef4f87665868eb0e1da983af4e84af7920c15b
+- checksum: 459b1c7603b76396a36834842bf67ab6551d65bf
   name: IceCream
   version: 1.1-SNAPSHOT
 - checksum: f576038135551cb5549856bafec8d4f2456e1ba5
