@@ -1,6 +1,13 @@
 {
-  "pack": {
-    "pack_format": 48,
-    "description": "Soups stack to 64: mushroom stew uses any two red, brown, or shelf mushrooms; rabbit stew supports all three mushroom types; beetroot soup is also included."
-  }
+	"pack": {
+		"description": "Soups stack to 64: mushroom stew uses any two red, brown, or shelf mushrooms; rabbit stew supports all three mushroom types; beetroot soup is also included.",
+		"min_format": [
+			121,
+			0
+		],
+		"max_format": [
+			121,
+			0
+		]
+	}
 }

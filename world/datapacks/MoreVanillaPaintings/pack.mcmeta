@@ -1,6 +1,13 @@
 {
-    "pack": {
-        "pack_format": 48,
-	"description": "§6More Vanilla Paintings\n§eBy Owehttamy, Modified by Kiddooo"
-    }
+	"pack": {
+		"description": "§6More Vanilla Paintings\n§eBy Owehttamy, Modified by Kiddooo",
+		"min_format": [
+			121,
+			0
+		],
+		"max_format": [
+			121,
+			0
+		]
+	}
 }

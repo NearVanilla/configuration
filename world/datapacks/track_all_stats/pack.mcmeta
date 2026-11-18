@@ -1,6 +1,13 @@
 {
-   "pack":{
-      "pack_format":3,
-      "description":"Track All Stats"
-   }
+	"pack": {
+		"description": "Track All Stats",
+		"min_format": [
+			121,
+			0
+		],
+		"max_format": [
+			121,
+			0
+		]
+	}
 }
