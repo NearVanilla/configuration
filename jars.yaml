@@ -76,5 +76,5 @@ plugins:
   name: DiscordSRV
   version: 1.30.5
 version:
-  build: 242
+  build: 253
   name: '26.3'
