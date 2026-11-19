@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vanilla:entities/husk",
+      "required": false
+    },
+    {
+      "id": "#husks_drop_sand:entities/husk",
+      "required": false
+    }
+  ]
+}

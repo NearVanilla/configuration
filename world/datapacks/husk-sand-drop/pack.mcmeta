@@ -1,15 +1,22 @@
 {
-	"pack": {
-		"pack_format": 48,
-		"description": [
-			{
-				"text": "Husks Drop Sand",
-				"color": "gold"
-			},
-			{
-				"text": "\nvanillatweaks.net",
-				"color": "yellow"
-			}
-		]
-	}
+    "pack": {
+        "description": [
+            {
+                "text": "Husks Drop Sand",
+                "color": "gold"
+            },
+            {
+                "text": "\nvanillatweaks.net",
+                "color": "yellow"
+            }
+        ],
+        "min_format": [
+            121,
+            0
+        ],
+        "max_format": [
+            121,
+            0
+        ]
+    }
 }

@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "husks_drop_sand:entities/camel_husk",
+      "required": false
+    }
+  ]
+}

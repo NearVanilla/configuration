@@ -105,7 +105,7 @@ Options:
     get-up-sneak: true
 
     # Start crawling when sneaking in front of a 1 block high corridor
-    corridor-crawl: false
+    corridor-crawl: true
 
     # Enable double-sneak to start crawling
     double-sneak: false
