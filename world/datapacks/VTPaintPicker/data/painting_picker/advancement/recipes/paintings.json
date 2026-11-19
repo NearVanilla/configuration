@@ -65,7 +65,11 @@
       "painting_picker:painting_variant/void",
       "painting_picker:painting_variant/wanderer",
       "painting_picker:painting_variant/wasteland",
-      "painting_picker:painting_variant/wither"
+      "painting_picker:painting_variant/wither",
+      "painting_picker:painting_variant/earth",
+      "painting_picker:painting_variant/wind",
+      "painting_picker:painting_variant/fire",
+      "painting_picker:painting_variant/water"
     ]
   }
 }
