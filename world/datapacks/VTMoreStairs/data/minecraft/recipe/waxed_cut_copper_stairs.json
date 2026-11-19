@@ -11,8 +11,6 @@
 		"###"
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:waxed_cut_copper"
-		}
+		"#": "minecraft:waxed_cut_copper"
 	}
 }

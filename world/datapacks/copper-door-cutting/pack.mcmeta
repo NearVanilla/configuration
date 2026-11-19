@@ -1,6 +1,13 @@
 {
-    "pack" : {
-        "pack_format" : 48,
-        "description" : "§e by §3 Craemon §e version §2 1.21"
-    }
+	"pack": {
+		"description": "§e by §3 Craemon §e version §2 1.21",
+		"min_format": [
+			121,
+			0
+		],
+		"max_format": [
+			121,
+			0
+		]
+	}
 }

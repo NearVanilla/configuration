@@ -1,6 +1,13 @@
 {
-	"pack":{
-		"pack_format": 15,
-		"description": "Pottery Sherd Crafting"
+	"pack": {
+		"description": "Pottery Sherd Crafting",
+		"min_format": [
+			121,
+			0
+		],
+		"max_format": [
+			121,
+			0
+		]
 	}
 }

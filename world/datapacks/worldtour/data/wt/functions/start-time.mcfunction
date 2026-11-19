@@ -1,2 +1,0 @@
-gamerule doDaylightCycle true
-gamerule doWeatherCycle true

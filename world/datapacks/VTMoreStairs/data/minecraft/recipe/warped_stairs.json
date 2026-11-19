@@ -10,9 +10,7 @@
 		"###"
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:warped_planks"
-		}
+		"#": "minecraft:warped_planks"
 	},
 	"group": "wooden_stairs"
 }

@@ -10,9 +10,7 @@
 		"###"
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:dark_prismarine"
-		}
+		"#": "minecraft:dark_prismarine"
 	},
 	"group": "prismarine_stairs"
 }
